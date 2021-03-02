@@ -1,4 +1,5 @@
 ﻿using AppiumSpecFlowDemo.Drivers;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -24,7 +25,16 @@ namespace AppiumSpecFlowDemo.Hooks
         {
             AppiumDriver appiumDriver = new AppiumDriver();
             //context injection sets the type 
-            _scenarioContext.Set(appiumDriver.InitializeAppium());
+            try
+            {
+               var androidDriver = appiumDriver.InitializeAppium();
+                _scenarioContext.Set(androidDriver);
+            }
+            catch (Exception ex)
+            {
+                Assert.Fail("BeforeScenario InitializeAppium error: " + ex.Message);
+            }
+            
         }
     }
 }

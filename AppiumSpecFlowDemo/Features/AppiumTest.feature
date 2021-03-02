@@ -2,8 +2,7 @@
 
 @smoke
 Scenario: Perform simple Appium Test
-	Given Dismiss Error Message
-	And Pair Device
+	Given Allow Permissions
 	Then Dismiss Warning Messages
 	Then Login with Manager 
 	Then Open Table

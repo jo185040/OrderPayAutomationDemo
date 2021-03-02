@@ -1,5 +1,8 @@
-﻿using OpenQA.Selenium.Appium;
+﻿using NUnit.Framework;
+using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
+using System;
+using System.Diagnostics;
 using System.Threading;
 using TechTalk.SpecFlow;
 
@@ -18,12 +21,43 @@ namespace AppiumSpecFlowDemo.Steps
             _scenarioContext = scenarioContext;
         }
 
-        [Given(@"Dismiss Error Message")]
-        public void GivenDismissErrorMessage()
+        [Given(@"Allow Permissions")]
+        public void GivenAllowPermissions()
         {
             Thread.Sleep(10000);
-            _scenarioContext.Get<AndroidDriver<AppiumWebElement>>().FindElementById("com.android.permissioncontroller:id/permission_allow_button").Click();
-            _scenarioContext.Get<AndroidDriver<AppiumWebElement>>().FindElementById("com.android.permissioncontroller:id/permission_allow_button").Click();
+
+            var drv = _scenarioContext.Get<AndroidDriver<AppiumWebElement>>();
+            try
+            {
+                var sw = new Stopwatch();
+                sw.Start();
+                var permission_allow_button = drv.FindElementById("com.android.packageinstaller:id/permission_allow_button");
+                if (permission_allow_button != null)
+                {
+                    permission_allow_button.Click();
+                }
+                else
+                {
+                    Assert.Ignore("First permission_allow_button was not found");
+                }
+                sw.Stop();
+
+                var permission_allow_button2 = drv.FindElementById("com.android.packageinstaller:id/permission_allow_button");
+                if (permission_allow_button2 != null)
+                {
+                    permission_allow_button2.Click();
+                }
+                else
+                {
+                    Assert.Ignore("Second permission_allow_button was not found");
+                }
+            }
+            catch (Exception ex)
+            {
+                // do not fail Allow buttons do not show up all the time.
+                Assert.Ignore("Ignore permission_allow_button error: " + ex.Message);
+            }
+            
             Thread.Sleep(2000);
         }
 
