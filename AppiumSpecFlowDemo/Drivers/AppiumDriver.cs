@@ -12,7 +12,7 @@ namespace AppiumSpecFlowDemo.Drivers
     {
         public AppiumDriver<AppiumWebElement> Driver { get; set; }
 
-        public AndroidDriver<AppiumWebElement> InitializeAppium()
+        public AndroidDriver<AppiumWebElement> InitializeAppium(bool startAsInstalled)
         {
             var driverOptions = new AppiumOptions();
             driverOptions.AddAdditionalCapability(MobileCapabilityType.PlatformName, "Android");
@@ -20,8 +20,14 @@ namespace AppiumSpecFlowDemo.Drivers
             driverOptions.AddAdditionalCapability("appPackage", "com.ncr.AlohaMobile");
             driverOptions.AddAdditionalCapability("appActivity", "crc64d9654bb2b0029034.SplashActivity");
 
-            
-            return new AndroidDriver<AppiumWebElement>(new Uri("http://localhost:4723/wd/hub"), driverOptions);
+            if (startAsInstalled)
+            {
+                driverOptions.AddAdditionalCapability("noReset", startAsInstalled.ToString());
+            }
+
+            var drv = new AndroidDriver<AppiumWebElement>(new Uri("http://localhost:4723/wd/hub"), driverOptions);
+
+            return drv;
 
         }
 

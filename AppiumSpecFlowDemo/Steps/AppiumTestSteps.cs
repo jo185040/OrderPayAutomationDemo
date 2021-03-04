@@ -1,8 +1,11 @@
-﻿using NUnit.Framework;
+﻿using AppiumSpecFlowDemo.Tools;
+using NUnit.Framework;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Appium;
 using OpenQA.Selenium.Appium.Android;
 using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.Threading;
 using TechTalk.SpecFlow;
 
@@ -11,7 +14,6 @@ namespace AppiumSpecFlowDemo.Steps
     [Binding]
     public sealed class AppiumTestSteps
     {
-
         // For additional details on SpecFlow step definitions see https://go.specflow.org/doc-stepdef
 
         private readonly ScenarioContext _scenarioContext;
@@ -19,19 +21,24 @@ namespace AppiumSpecFlowDemo.Steps
         public AppiumTestSteps(ScenarioContext scenarioContext)
         {
             _scenarioContext = scenarioContext;
+            var drv = _scenarioContext.Get<AndroidDriver<AppiumWebElement>>();
+            Assert.IsNotNull(drv);//just check that get is possible do not store it need to get fresh one for each step.
         }
 
-        [Given(@"Allow Permissions")]
+        private static TimeSpan _waitLong = TimeSpan.FromSeconds(15);
+        private static TimeSpan _waitShort = TimeSpan.FromSeconds(5);
+
+        [Given("Allow Permissions")]
         public void GivenAllowPermissions()
         {
-            Thread.Sleep(10000);
-
             var drv = _scenarioContext.Get<AndroidDriver<AppiumWebElement>>();
             try
             {
                 var sw = new Stopwatch();
                 sw.Start();
-                var permission_allow_button = drv.FindElementById("com.android.packageinstaller:id/permission_allow_button");
+
+                var allowButtonId = "com.android.packageinstaller:id/permission_allow_button";
+                var permission_allow_button = drv.Wait(By.Id(allowButtonId), _waitLong);
                 if (permission_allow_button != null)
                 {
                     permission_allow_button.Click();
@@ -42,7 +49,9 @@ namespace AppiumSpecFlowDemo.Steps
                 }
                 sw.Stop();
 
-                var permission_allow_button2 = drv.FindElementById("com.android.packageinstaller:id/permission_allow_button");
+                Thread.Sleep(2000);
+
+                var permission_allow_button2 = drv.Wait(By.Id(allowButtonId), _waitLong);
                 if (permission_allow_button2 != null)
                 {
                     permission_allow_button2.Click();
@@ -57,25 +66,70 @@ namespace AppiumSpecFlowDemo.Steps
                 // do not fail Allow buttons do not show up all the time.
                 Assert.Ignore("Ignore permission_allow_button error: " + ex.Message);
             }
-            
-            Thread.Sleep(2000);
         }
 
-        [Given(@"Pair Device")]
-        public void GivenPairDevice()
+        [Then(@"Click Elements")]
+        public void ThenClickElements(Table elementTexts)// should be possible to send just string by <str> but..?
         {
-            _scenarioContext.Get<AndroidDriver<AppiumWebElement>>().FindElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.Button").Click();
-            Thread.Sleep(20000);
+            var drv = _scenarioContext.Get<AndroidDriver<AppiumWebElement>>();
+            foreach (var elementText in elementTexts.Header)
+            {
+                //var foundElement = drv.FindElement(By.Name(elementText.ToString()));
+                var foundElement = drv.FindElement(By.XPath($"//*[contains(@text, '{elementText}')]"));
+
+                Assert.IsNotNull(foundElement);
+                foundElement.Click();
+            }
         }
 
-        [Then(@"Dismiss Warning Messages")]
-        public void ThenDismissWarningMessages()
+        [Then(@"Check Exists")]
+        public void ThenCheckExists(Table elementTexts)
         {
-            _scenarioContext.Get<AndroidDriver<AppiumWebElement>>().FindElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.Button[2]").Click();
-            _scenarioContext.Get<AndroidDriver<AppiumWebElement>>().FindElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.Button[2]").Click();
+            var drv = _scenarioContext.Get<AndroidDriver<AppiumWebElement>>();
 
+            foreach (var elementText in elementTexts.Header)
+            {
+                var foundElement = drv.Wait(By.XPath($"//*[contains(@text, '{elementText}')]"), _waitLong);
+                Assert.IsNotNull(foundElement);
+            }
         }
 
+        [Then(@"Check State")] // does not work yet
+        public void ThenCheckState(Table state)
+        {
+            var drv = _scenarioContext.Get<AndroidDriver<AppiumWebElement>>();
+            {
+                var sw = new Stopwatch();
+                sw.Start();
+                var elementsList = drv.FindElementsByXPath("//*");
+                sw.Stop();
+
+                string tagName;
+                string text;
+                bool displayed;
+                bool enabled;
+                bool selected;
+                Point location;
+                Size size;
+
+                foreach (IWebElement item in elementsList)
+                {
+                    text = item.Text;
+                    displayed = item.Displayed;
+                    enabled = item.Enabled;
+                    selected = item.Selected;
+                    location = item.Location;
+                    size = item.Size;
+                    try
+                    {
+                        tagName = item.TagName;//It is not Id?, may be it needs to needs to be set on android first.
+                    }
+                    catch (Exception ex)
+                    {
+                    }
+                }
+            }
+        }
 
         [Then(@"Login with Manager")]
         public void ThenLoginWithManager()
@@ -139,6 +193,5 @@ namespace AppiumSpecFlowDemo.Steps
             _scenarioContext.Get<AndroidDriver<AppiumWebElement>>().FindElementByXPath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[1]/android.widget.Button[7]").Click();
             Thread.Sleep(2000);
         }
-
     }
 }

@@ -27,7 +27,7 @@ namespace AppiumSpecFlowDemo.Hooks
             //context injection sets the type 
             try
             {
-               var androidDriver = appiumDriver.InitializeAppium();
+                var androidDriver = appiumDriver.InitializeAppium(true);
                 _scenarioContext.Set(androidDriver);
             }
             catch (Exception ex)

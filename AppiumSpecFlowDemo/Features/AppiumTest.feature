@@ -3,7 +3,10 @@
 @smoke
 Scenario: Perform simple Appium Test
 	Given Allow Permissions
-	Then Dismiss Warning Messages
+	Then Check Exists
+	|Payment Service|
+	Then Click Elements 
+	|OK|
 	Then Login with Manager 
 	Then Open Table
 	Then Order Drink

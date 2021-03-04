@@ -105,31 +105,38 @@ this.ScenarioInitialize(scenarioInfo);
 #line 5
  testRunner.Given("Allow Permissions", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                            "Payment Service"});
 #line 6
- testRunner.Then("Dismiss Warning Messages", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Check Exists", ((string)(null)), table1, "Then ");
 #line hidden
-#line 7
- testRunner.Then("Login with Manager", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
+                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                            "OK"});
 #line 8
- testRunner.Then("Open Table", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-#line 9
- testRunner.Then("Order Drink", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Click Elements", ((string)(null)), table2, "Then ");
 #line hidden
 #line 10
- testRunner.Then("Apply Dine-In Order Mode", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Login with Manager", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 11
- testRunner.Then("Go to Payments Screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Open Table", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 12
- testRunner.Then("Apply Cash Payment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Order Drink", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 13
- testRunner.Then("Close Check", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("Apply Dine-In Order Mode", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 14
+ testRunner.Then("Go to Payments Screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 15
+ testRunner.Then("Apply Cash Payment", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 16
+ testRunner.Then("Close Check", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+#line 17
  testRunner.Then("Exit", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
