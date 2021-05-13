@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="ManagerTransferTable" path="/Transaction/ManagerTransferTable" id="49c56984-08d2-4e61-989a-ba76ec1419de" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="cf0bf893-acc4-4e1a-869a-4ab1169f12c7fileName">%2FTransaction%2FManagerTransferTable</con:setting>
+    <con:setting id="49c56984-08d2-4e61-989a-ba76ec1419defileName">ManagerTransferTable</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="POST" id="c5f01af9-ee2f-4ab9-83d6-804c9ae3e338" method="POST">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>sourceEmployeeId</con:name>
+        <con:value>201</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>201</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>targetEmployeeId</con:name>
+        <con:value>201</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>201</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0 200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>502</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:request name="POST Request" id="3a256e39-58d1-44e4-b4de-677e78b48571" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="sourceEmployeeId" value="${#Project#201}"/>
+        <con:entry key="deviceId" value="${#Project#1}"/>
+        <con:entry key="targetEmployeeId" value="${#Project#201}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

@@ -1,0 +1,12 @@
+236787%3A-Veirfy-you-can-modify-item.xml
+236791%3A-Verify-you-can-add-a-typed-modifier.xml
+236793%3A-Veify-you-can-refill-an-item.xml
+236794%3A-Verify-refill-do-not-go-to-other-items.xml
+236797%3A-Veify-refill-items-can-be-voided.xml
+236801%3A-Verify-Weighted-Modifiers-work-with-no-issue.xml
+236806%3A-Verify-adding-mod-with-NO-mod-code-is-indicted-by-NO-prefix-on-check.xml
+236808%3A-Verify-adding-mod-with-Extra-mod-code-is-indicted-by-XT-prefix-on-check.xml
+236813%3A-Verify-ordering-items-with-mods-on-panel-is-working-without-issue.xml
+236814%3A-Verify-modifier-panel-is-working-on-Special-burger-item-%28Submenu-Combos%29.xml
+236815%3A-Verify-modifier-panel-is-working-with-other-modifiers.xml
+236816---Verify-modifier-panel-is-working-on-submenu-panel-item.xml

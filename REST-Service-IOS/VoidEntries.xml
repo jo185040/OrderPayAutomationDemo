@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="VoidEntries" path="/Transaction/VoidEntries" id="f0c0633b-e5c8-47ac-84dc-16d3169a0605" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="89499013-ee5e-4b9d-9e0a-5ca26279d93efileName">%2FTransaction%2FVoidEntries</con:setting>
+    <con:setting id="f0c0633b-e5c8-47ac-84dc-16d3169a0605fileName">VoidEntries</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="POST" id="6d417405-f825-43ad-aac1-8d27e2cec90e" method="POST">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>${deviceId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${deviceId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value>${tableId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${tableId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value>${checkId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${checkId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>employeeId</con:name>
+        <con:value>${managerId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${managerId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>passwordOrTrackData</con:name>
+        <con:value>${managerId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${managerId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>voidReasonId</con:name>
+        <con:value>4</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>4</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:void="https://192.168.1.132/Transaction/VoidEntries">void:Response</con:element>
+    </con:representation>
+    <con:request name="POST Request" id="b5ddd48d-0075-43b2-a5ba-14d96a6cb89f" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="passwordOrTrackData" value="${Properties#managerId}"/>
+        <con:entry key="voidReasonId" value="${#Project#4}"/>
+        <con:entry key="tableId" value="${Properties#TableId}"/>
+        <con:entry key="employeeId" value="${Properties#managerId}"/>
+        <con:entry key="checkId" value="${Properties#CheckId}"/>
+        <con:entry key="deviceId" value="${DataSource#deviceid}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+      <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

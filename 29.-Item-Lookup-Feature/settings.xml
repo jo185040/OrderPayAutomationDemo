@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="e58cb251-1900-4624-94cd-431bf0a981ce" name="29. Item Lookup Feature" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e58cb251-1900-4624-94cd-431bf0a981cefileName">29.-Item-Lookup-Feature</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

@@ -1,0 +1,11 @@
+40458%3A-Verify-table-with-hold-item-are-blinking.xml
+40459%3A-Verify-tables-in-transfer-are-blue-for-nonrecipients.xml
+40460%3A-Verify-tables-in-transfer-are-orange-for-nonrecipients.xml
+40461%3A-Verify-you-can-open-a-new-table-%28Manager%29.xml
+40462%3A-Verify-you-can-open-your-already-opened-table-%28Manager%29.xml
+40463%3A-Verify-you-can-open-another-employee%27s-table-%28Manager%29.xml
+40464%3A-Verify-you-can%27t-open-table-in-use-%28Manager%29.xml
+40465%3A-Verify-you-can-open-a-new-table-%28Server%29.xml
+40466%3A-Verify-you-can-open-your-already-opened-table-%28Server%29.xml
+40468---Verify-you-can%27t-open-another-employees-table-%28Server%29.xml
+40469---Veify-you-can%27t-open-a-table-in-use-%28Server%29.xml

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="EditTip" path="/Transaction/EditTip" id="38c915d6-1f14-405d-a994-8c996d8e60f0" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="c6b945e6-5ada-435a-9f87-5661fa8037f8fileName">%2FTransaction%2FEditTip</con:setting>
+    <con:setting id="38c915d6-1f14-405d-a994-8c996d8e60f0fileName">EditTip</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="2814d51f-496d-4c96-8d33-a9b6429ea7e3" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value>209715205</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>209715205</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>paymentId</con:name>
+        <con:value>209715206</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>209715206</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tip</con:name>
+        <con:value>1.000000</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1.000000</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="FAULT">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>502</con:status>
+      <con:params/>
+      <con:element xmlns:xht="http://www.w3.org/1999/xhtml">xht:html</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:edit="https://153.78.25.70/Transaction/EditTip">edit:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="92aa1238-64dc-4c8f-be09-7532cb551cb0" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="paymentId" value="${Properties#paymentId}"/>
+        <con:entry key="tip" value="${#Project#1.000000}"/>
+        <con:entry key="deviceId" value="${#Project#1}"/>
+        <con:entry key="checkId" value="${Properties#CheckId}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>
