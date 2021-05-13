@@ -1,0 +1,14 @@
+133606%3A-Verify-tax-is-shown-on-check-with-taxed-items.xml
+134099%3A-Verify-you-can-pay-with-cash-%28Server%29.xml
+134103%3A-Verify-you-can-delete-cash-payment-%28Server%29.xml
+134108%3A-Verify-you-can-reapply-cash-tender-%28Server%29.xml
+134109%3A-Verify-you-can-pay-with-Exact-Cash-Payment-%28Server%29.xml
+134110%3A-Verify-you-can-pay-cash-with-predefined-amount-%28Server%29.xml
+170586%3A-Verify-you-can-process-Euro-Payment-%28Manager%29.xml
+177097%3A-Verify-you-can-delete-Euro-Payment-%28Manager%29.xml
+177177%3A-Verify-you-can%27t-delete-payment-without-JIT-Screen-Approval-%28OrderTaker%29.xml
+231178%3A-Verify-you-can-add-gratuity-to-check-and-it-equals-18%25-%28default-amount%29.xml
+231179%3A-Verify-when-you-add-gratuity-that-the-subtotals-and-totals-match-the-POS.xml
+231180%3A-Verify-you-can-delete-gratuity-from-the-check.xml
+231181%3A-Verify-you-can-add-tax-exempt-to-a-check.xml
+231182%3A-Verify-you-can-delete-Tax-Exempt-from-the-check.xml

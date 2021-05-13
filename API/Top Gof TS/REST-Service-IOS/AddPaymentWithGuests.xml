@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="AddPaymentWithGuests" path="/Transaction/AddPaymentWithGuests" id="4d0ebc25-0222-456a-8c93-6623aff42354" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="79e4d5f7-d4f6-4204-9c9e-978310486c3ffileName">%2FTransaction%2FAddPaymentWithGuests</con:setting>
+    <con:setting id="4d0ebc25-0222-456a-8c93-6623aff42354fileName">AddPaymentWithGuests</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="10454cbb-ed23-4a14-9107-f212e503db42" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value>209715204</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>209715204</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value>209715204</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>209715204</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>amount</con:name>
+        <con:value>2.000000</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>2.000000</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tip</con:name>
+        <con:value>0.000000</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>0.000000</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>room</con:name>
+        <con:value>222</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>222</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>transactionId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>managerId</con:name>
+        <con:value>0</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>0</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>managerMagCard</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>managerIdPassword</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>authCode</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>expirationDate</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tenderId</con:name>
+        <con:value>25</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>25</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>guest</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>guestId</con:name>
+        <con:value>0</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>0</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>msrId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>guestCount</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:add="https://153.78.25.70/Transaction/AddPaymentWithGuests">add:Response</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>502</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="f1ab4788-820d-4676-a14d-4b109fa24a6c" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="amount" value="${#Project#2.000000}"/>
+        <con:entry key="managerMagCard" value="${empty}"/>
+        <con:entry key="authCode" value="${empty}"/>
+        <con:entry key="managerId" value="${#Project#0}"/>
+        <con:entry key="tenderId" value="${#Project#25}"/>
+        <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        <con:entry key="room" value="${#Project#222}"/>
+        <con:entry key="transactionId" value="${empty}"/>
+        <con:entry key="msrId" value="${empty}"/>
+        <con:entry key="tableId" value="${Properties#TableId}"/>
+        <con:entry key="guestCount" value="${#Project#2}"/>
+        <con:entry key="tip" value="${#Project#0.000000}"/>
+        <con:entry key="guest" value="${empty}"/>
+        <con:entry key="managerIdPassword" value="${empty}"/>
+        <con:entry key="checkId" value="${Properties#CheckId}"/>
+        <con:entry key="guestId" value="${#Project#0}"/>
+        <con:entry key="expirationDate" value="${empty}"/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>deviceId</con:entry>
+        <con:entry>tableId</con:entry>
+        <con:entry>checkId</con:entry>
+        <con:entry>amount</con:entry>
+        <con:entry>tip</con:entry>
+        <con:entry>room</con:entry>
+        <con:entry>transactionId</con:entry>
+        <con:entry>managerId</con:entry>
+        <con:entry>managerMagCard</con:entry>
+        <con:entry>managerIdPassword</con:entry>
+        <con:entry>authCode</con:entry>
+        <con:entry>expirationDate</con:entry>
+        <con:entry>tenderId</con:entry>
+        <con:entry>guest</con:entry>
+        <con:entry>guestId</con:entry>
+        <con:entry>msrId</con:entry>
+        <con:entry>guestCount</con:entry>
+      </con:parameterOrder>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

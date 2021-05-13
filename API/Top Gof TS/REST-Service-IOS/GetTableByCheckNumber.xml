@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="GetTableByCheckNumber" path="/Transaction/GetTableByCheckNumber" id="98ec109d-c946-4fad-a2d7-99a3c1552cd5" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="9e9b828f-3857-479e-b0b9-3acd5ebbb22afileName">%2FTransaction%2FGetTableByCheckNumber</con:setting>
+    <con:setting id="98ec109d-c946-4fad-a2d7-99a3c1552cd5fileName">GetTableByCheckNumber</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="85fbd18a-afd7-4354-95eb-a6d957d2f616" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkNumber</con:name>
+        <con:value>2000001</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>2000001</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:get="https://153.78.25.70/Transaction/GetTableByCheckNumber">get:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="dbb37a1a-c9f3-4b9d-876c-5b536e44af64" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="checkNumber" value="${#Project#1}"/>
+        <con:entry key="deviceId" value="${#Project#1}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

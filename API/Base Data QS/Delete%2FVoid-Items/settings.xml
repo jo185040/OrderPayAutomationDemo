@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="36936b3d-55de-4677-9268-59d37cf79367" name="Delete/Void Items" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="36936b3d-55de-4677-9268-59d37cf79367fileName">Delete%2FVoid-Items</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

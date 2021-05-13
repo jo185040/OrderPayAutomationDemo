@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="GetEmployeeTables" path="/Transaction/GetEmployeeTables" id="16c8fa1a-ae60-4720-b0af-f3a39b5ddf6e" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="000de1d5-b81b-4390-bac9-25f0f5d08a66fileName">%2FTransaction%2FGetEmployeeTables</con:setting>
+    <con:setting id="16c8fa1a-ae60-4720-b0af-f3a39b5ddf6efileName">GetEmployeeTables</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="547135cd-0fdb-419c-84af-8731c1d43214" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>employeeId</con:name>
+        <con:value>200</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>200</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>includeOpen</con:name>
+        <con:value>true</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>true</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>includeTeam</con:name>
+        <con:value>false</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>false</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>includeShared</con:name>
+        <con:value>false</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>false</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="75468f7b-1b5a-4e3c-bc32-0357a5f57608" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="includeTeam" value="${#Project#false}"/>
+        <con:entry key="includeOpen" value="${#Project#true}"/>
+        <con:entry key="includeShared" value="${#Project#false}"/>
+        <con:entry key="employeeId" value="${#Project#200}"/>
+        <con:entry key="deviceId" value="${#Project#1}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

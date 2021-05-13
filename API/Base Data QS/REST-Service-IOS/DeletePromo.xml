@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="DeletePromo" path="/Transaction/DeletePromo" id="14a68f32-3507-49fd-a4ff-5134646558f4" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="c4c0a8a2-d7bd-450d-ba80-4679a467a6b6fileName">%2FTransaction%2FDeletePromo</con:setting>
+    <con:setting id="5cb470d6-e6fc-48cc-b18a-027db40b526efileName">DeletePromo</con:setting>
+    <con:setting id="14a68f32-3507-49fd-a4ff-5134646558f4fileName">DeletePromo</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="bc00cf58-7805-4c17-857c-7f38bc937be6" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>employeeId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>passwordOrTrackData</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>promoId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:del="https://192.168.1.132/Transaction/DeletePromo">del:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="ba9cffd5-a784-4539-ace8-946efe719863" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="passwordOrTrackData" value="${empty}"/>
+        <con:entry key="tableId" value="${empty}"/>
+        <con:entry key="employeeId" value="${empty}"/>
+        <con:entry key="promoId" value="${empty}"/>
+        <con:entry key="deviceId" value="${empty}"/>
+        <con:entry key="checkId" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+      <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

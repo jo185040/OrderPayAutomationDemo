@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="d8c08a5b-779c-46e4-bbb5-a5a81b9a50ee" name="3. Floor Plan" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="d8c08a5b-779c-46e4-bbb5-a5a81b9a50eefileName">3.-Floor-Plan</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

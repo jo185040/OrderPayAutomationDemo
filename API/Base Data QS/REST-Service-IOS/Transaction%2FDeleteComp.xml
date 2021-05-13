@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Transaction/DeleteComp" path="/Transaction/DeleteComp" id="0940368d-2f60-455d-9c7b-8d3cffcf593f" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="8b2a255e-b60a-4243-aa1b-65a0bfbbed74fileName">%2FTransaction%2FDeleteComp</con:setting>
+    <con:setting id="57d1a8d2-db71-4272-baee-e46c476ea6d3fileName">Copy-of-%2FTransaction%2FDeleteComp</con:setting>
+    <con:setting id="0940368d-2f60-455d-9c7b-8d3cffcf593ffileName">Transaction%2FDeleteComp</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="041ccada-cec5-4e31-85da-09d79e4ec5d4" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>employeeId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>passwordOrTrackData</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>compId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:del="https://153.78.25.70/Transaction/DeleteComp">del:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="2aba4dfd-06ef-4280-8ae8-113257a4b6c4" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="compId" value="${empty}"/>
+        <con:entry key="passwordOrTrackData" value="${empty}"/>
+        <con:entry key="tableId" value="${empty}"/>
+        <con:entry key="employeeId" value="${empty}"/>
+        <con:entry key="deviceId" value="${empty}"/>
+        <con:entry key="checkId" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

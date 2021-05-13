@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="CombineTables" path="/Transaction/CombineTables" id="52e43b2b-1f83-4edf-b0b8-d64a48994336" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="c4535c3d-bd71-48a1-96c6-4b348c565936fileName">%2FTransaction%2FCombineTables</con:setting>
+    <con:setting id="a63d8465-c418-47ae-8c85-e1aac8b57d29fileName">CombineTables</con:setting>
+    <con:setting id="52e43b2b-1f83-4edf-b0b8-d64a48994336fileName">CombineTables</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="POST" id="51fa134b-85b7-4dea-a460-e650c6ae86b2" method="POST">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="FAULT">
+      <con:mediaType>text/html</con:mediaType>
+      <con:status>500</con:status>
+      <con:params/>
+      <con:element xmlns:xht="http://www.w3.org/1999/xhtml">xht:html</con:element>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:com="https://192.168.1.132/Transaction/CombineTables">com:Response</con:element>
+    </con:representation>
+    <con:request name="POST Request" id="f626c032-868d-43ce-ba85-cd293f28d870" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="deviceId" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+      <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="cfeacfe3-38a8-4dfc-ba3d-6f94e65fdcec" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="39517: Verify Manger Login" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="cfeacfe3-38a8-4dfc-ba3d-6f94e65fdcecfileName">39517%3A-Verify-Manger-Login</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="datasource" name="DataSource" id="92d9f8a4-c89d-4c3d-ac9f-763d0f6f2102">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:dataSource type="Grid">
+        <con:configuration>
+          <check><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">true</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">true</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry></xml-fragment>]]></check>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">200</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">10</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">201</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">10</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">3</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">101</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">20</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">3</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <recognizeAsPlainText>true</recognizeAsPlainText>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>deviceId</con:property>
+      <con:property>password</con:property>
+      <con:property>Jobcode</con:property>
+      <con:property>tableid</con:property>
+      <con:completeLastOperation>true</con:completeLastOperation>
+      <con:restartOnRun>true</con:restartOnRun>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Login" id="d439a16a-adb5-428c-bc4f-d84b3365ddb1">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/login" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Login" id="49a55a10-837a-4daa-a962-b2a21f6a0e72" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
+        <con:assertion type="HTTP Header Equals" id="0d307eb9-7ff4-456e-a213-ac78d7fef78a" name="HTTP Header Equals">
+          <con:configuration>
+            <Header>#status#</Header>
+            <Value>HTTP/1.1 200 OK</Value>
+            <ignoreCase>false</ignoreCase>
+            <useRegEx>false</useRegEx>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="password" value="${DataSource#password}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Clockin" id="0bca6e17-9ef3-425c-8cad-dda6cad92edb">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/ClockIn" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Clockin" id="ebdb040d-f235-4982-bb24-f9279324b5f1" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/ClockIn</con:originalUri>
+        <con:assertion type="HTTP Header Equals" id="1cd474f2-6bbc-492b-bc51-918c427e26b2" name="HTTP Header Equals">
+          <con:configuration>
+            <Header>#status#</Header>
+            <Value>HTTP/1.1 200 OK</Value>
+            <ignoreCase>false</ignoreCase>
+            <useRegEx>false</useRegEx>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+          <con:entry key="jobCodeId" value="${DataSource#Jobcode}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Logout" id="c9e8123a-bdc1-4b8a-a0be-fbdc303ccfcc">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/logout" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Logout" id="ae9e0789-9a45-4b05-ad79-16375e7348e5" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:assertion type="HTTP Header Equals" id="624815e7-5cd2-46d3-9d76-55692ce30cc8" name="HTTP Header Equals">
+          <con:configuration>
+            <Header>#status#</Header>
+            <Value>HTTP/1.1 200 OK</Value>
+            <ignoreCase>false</ignoreCase>
+            <useRegEx>false</useRegEx>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="MessageContentAssertion" id="18eadfe2-0b3d-4fcd-b71b-bc37620afed3" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+//ns1:Response[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+//ns1:Response[1]/ns1:Message[1]</con:xpath>
+              <con:element>Message</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>Logged Out successfully</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+   <Id>200</Id>
+   <Message>Logged Out successfully</Message>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:assertion type="Simple Contains" id="5c2af3c4-a91c-40d8-92d1-9f5b7e5d68bc" name="Contains">
+          <con:configuration>
+            <token/>
+            <ignoreCase>false</ignoreCase>
+            <useRegEx>false</useRegEx>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasourceloop" name="DataSource Loop" id="ebb31dff-2946-4e4a-aecc-ea87a7b9e241">
+    <con:settings/>
+    <con:config>
+      <dataSourceStep>DataSource</dataSourceStep>
+      <targetStep>Login</targetStep>
+      <discardResults>true</discardResults>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+  <con:breakPoints>
+    <con:testStepId>fdde0476-3462-4845-b1f6-01e69ea5d789</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>cc056318-d3b0-4127-8780-30450215a348</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>e703de59-4522-4ea1-9651-3b3caac697cf</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:testCase>

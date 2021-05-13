@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="DetachTables" path="/Transaction/DetachTables" id="ed1238d8-cac4-4b3f-a055-2bbf53000a8c" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="340ad40f-5aa9-4cfb-8568-b07e7734cbb6fileName">%2FTransaction%2FDetachTables</con:setting>
+    <con:setting id="ed1238d8-cac4-4b3f-a055-2bbf53000a8cfileName">DetachTables</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="POST" id="e1b53fa2-3040-4e23-a2e5-702ba1e75f20" method="POST">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>${deviceId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${deviceId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>primary</con:name>
+        <con:value>${tableid}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${tableid}</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:det="https://192.168.1.132/Transaction/DetachTables">det:Response</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>502</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:request name="POST Request" id="cd8d3b5c-913c-45a7-aeba-9af6802168b1" mediaType="application/json" postQueryString="false">
+      <con:settings/>
+      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="deviceId" value="${DataSource#deviceid}"/>
+        <con:entry key="primary" value="${DataSource#tableid}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+      <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

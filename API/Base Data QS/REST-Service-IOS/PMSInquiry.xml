@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="PMSInquiry" path="/Transaction/PMSInquiry" id="c1379f2d-6d62-45d8-8e21-117f72805a90" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="aa6b98d3-a6a4-4e8f-9a20-d61e52dd9e33fileName">%2FTransaction%2FPMSInquiry</con:setting>
+    <con:setting id="82b0248e-5c57-4ae6-bf5b-b92b197a25b3fileName">PMSInquiry</con:setting>
+    <con:setting id="c1379f2d-6d62-45d8-8e21-117f72805a90fileName">PMSInquiry</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="cbbc7b3a-dd06-4787-8669-f069a2bb008f" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>account</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="87dc4d56-1179-4435-9d27-f2e659d3d06e" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="deviceId" value="${empty}"/>
+        <con:entry key="account" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

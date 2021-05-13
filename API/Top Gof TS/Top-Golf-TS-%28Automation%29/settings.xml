@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="e4157fcd-ebbd-4353-b98a-d2e4ba15d46d" name="Top Golf TS (Automation)" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="e4157fcd-ebbd-4353-b98a-d2e4ba15d46dfileName">Top-Golf-TS-%28Automation%29</con:setting>
+  </con:settings>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

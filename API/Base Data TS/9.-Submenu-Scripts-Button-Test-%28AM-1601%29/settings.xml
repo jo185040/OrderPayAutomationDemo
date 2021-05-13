@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="3fb7226b-654f-4480-95dd-e06f96ee5dcc" name="9. Submenu Scripts Button Test (AM-1601)" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="3fb7226b-654f-4480-95dd-e06f96ee5dccfileName">9.-Submenu-Scripts-Button-Test-%28AM-1601%29</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

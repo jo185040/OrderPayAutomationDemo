@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="QUEUE/RenameOrder" path="/QUEUE/RenameOrder" id="2f31d11b-382a-423f-9eee-3ac9747f9462" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="e5582023-a089-4f63-a45d-4c31ae881520fileName">%2FQUEUE%2FRenameOrder</con:setting>
+    <con:setting id="2f31d11b-382a-423f-9eee-3ac9747f9462fileName">QUEUE%2FRenameOrder</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="a76cdea6-7d6f-4881-85a7-392c481ffb7c" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>queueId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>orderId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>newName</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:ren="https://192.168.0.100/QUEUE/RenameOrder">ren:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="e6ee0622-f219-4320-aa41-adcace3f976a" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://192.168.0.100:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="queueId" value="${empty}"/>
+        <con:entry key="newName" value="${empty}"/>
+        <con:entry key="orderId" value="${empty}"/>
+        <con:entry key="deviceId" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

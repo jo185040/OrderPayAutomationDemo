@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="QUEUE/ChangeSize" path="/QUEUE/ChangeSize" id="1566b1f5-4b17-4841-93d1-15583b201806" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="42d3d08f-7abf-4338-a576-d26c3abb0c43fileName">%2FQUEUE%2FChangeSize</con:setting>
+    <con:setting id="1566b1f5-4b17-4841-93d1-15583b201806fileName">QUEUE%2FChangeSize</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="af0294d6-fef7-4d3c-8385-66ffda772f1b" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>entryId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>action</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:chan="https://192.168.0.100/QUEUE/ChangeSize">chan:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="eb3ebf1c-0f01-4afb-bbde-86d2e9cfc153" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://192.168.0.100:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="tableId" value="${empty}"/>
+        <con:entry key="action" value="${empty}"/>
+        <con:entry key="deviceId" value="${empty}"/>
+        <con:entry key="checkId" value="${empty}"/>
+        <con:entry key="entryId" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

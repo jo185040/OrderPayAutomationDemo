@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="0a0f7d8b-910d-4e12-9226-ebdcd5d7e313" name="14. Modifier (Typed, Skipped Modifier, Refill Modifier)" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="0a0f7d8b-910d-4e12-9226-ebdcd5d7e313fileName">14.-Modifier-%28Typed%2C-Skipped-Modifier%2C-Refill-Modifier%29</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

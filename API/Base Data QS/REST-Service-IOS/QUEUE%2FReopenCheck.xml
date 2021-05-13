@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="QUEUE/ReopenCheck" path="/QUEUE/ReopenCheck" id="143ac29a-12f2-4751-a2ac-be0a886c2232" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="a9c891fe-c028-4ff5-b304-89ebc4853235fileName">%2FQUEUE%2FReopenCheck</con:setting>
+    <con:setting id="143ac29a-12f2-4751-a2ac-be0a886c2232fileName">QUEUE%2FReopenCheck</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="ebb179ca-46fe-4f1c-8b55-d168de5fd3de" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>orderId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:reop="https://192.168.0.100/QUEUE/ReopenCheck">reop:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="8a375bc9-2d93-414c-8819-6d088a852828" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://192.168.0.100:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="orderId" value="${empty}"/>
+        <con:entry key="deviceId" value="${empty}"/>
+        <con:entry key="checkId" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

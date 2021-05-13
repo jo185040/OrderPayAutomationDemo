@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="GetTable" path="/Transaction/GetTable" id="2fa5c6cd-9649-4d6d-8e58-51d50a1992ff" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="cbbcaaa9-547b-4347-b335-dad8f7e81b91fileName">%2FTransaction%2FGetTable</con:setting>
+    <con:setting id="2fa5c6cd-9649-4d6d-8e58-51d50a1992fffileName">GetTable</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="c0265f92-c026-4649-b6ba-ad4407f20bd6" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableNumber</con:name>
+        <con:value>0</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>0</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value>209715216</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>209715216</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:get="https://153.78.25.70/Transaction/GetTable">get:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="8d8cc454-ea76-4f7f-8fe4-f2bee5481395" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="tableId" value="${Properties#TableId}"/>
+        <con:entry key="deviceId" value="${#Project#1}"/>
+        <con:entry key="tableNumber" value="${#Project#0}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

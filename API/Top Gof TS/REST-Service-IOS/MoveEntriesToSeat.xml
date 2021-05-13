@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="MoveEntriesToSeat" path="/Transaction/MoveEntriesToSeat" id="84164d18-2982-48c3-90cf-fa50d7d0ff04" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="544c7d6c-710b-49ad-b272-9ef66f40e147fileName">%2FTransaction%2FMoveEntriesToSeat</con:setting>
+    <con:setting id="84164d18-2982-48c3-90cf-fa50d7d0ff04fileName">MoveEntriesToSeat</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="POST" id="d9224233-1e94-4ead-8165-4db6e279feb0" method="POST">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>${deviceId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${deviceId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value>${tableId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${tableId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>checkId</con:name>
+        <con:value>${checkId}</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>${checkId}</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>newSeat</con:name>
+        <con:value>2</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>2</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="REQUEST">
+      <con:mediaType>application/json</con:mediaType>
+      <con:params/>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:mov="https://192.168.1.132/Transaction/MoveEntriesToSeat">mov:Response</con:element>
+    </con:representation>
+    <con:request name="POST Request" id="fdb07e0a-ff9d-4304-894d-1cc2e88f3c9e" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://192.168.1.132:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="tableId" value="${Properties#TableId}"/>
+        <con:entry key="checkId" value="${Properties#CheckId}"/>
+        <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        <con:entry key="newSeat" value="${#Project#2}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+      <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

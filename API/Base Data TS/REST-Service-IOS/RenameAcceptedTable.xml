@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="RenameAcceptedTable" path="/Transaction/RenameAcceptedTable" id="d44179e1-1584-43ec-845e-c866f2e5e6dc" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="2f6fb09f-e47b-432b-937b-464333cba68afileName">%2FTransaction%2FRenameAcceptedTable</con:setting>
+    <con:setting id="d44179e1-1584-43ec-845e-c866f2e5e6dcfileName">RenameAcceptedTable</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="f95980a7-46f6-43dd-a465-677d27be8975" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value>1</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>1</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>tableId</con:name>
+        <con:value>209715201</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>209715201</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>newName</con:name>
+        <con:value>8</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>8</con:default>
+      </con:parameter>
+      <con:parameter required="true">
+        <con:name>targetNamed</con:name>
+        <con:value>false</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>false</con:default>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType xsi:nil="true"/>
+      <con:status>0 200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="FAULT">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>502</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="0125f221-7c1f-40cb-aa89-19375fe5fe82" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="newName" value="${#Project#8}"/>
+        <con:entry key="tableId" value="${Properties#TableId}"/>
+        <con:entry key="deviceId" value="${#Project#1}"/>
+        <con:entry key="targetNamed" value="${#Project#false}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+          <con:authProfile>Inherit From Parent</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+  </con:method>
+</con:resource>

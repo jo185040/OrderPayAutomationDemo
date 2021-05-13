@@ -1,0 +1,3284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="c61943eb-a753-49f3-98fd-3a35d254a54b" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="231179: Verify when you add gratuity that the subtotals and totals match the POS" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c61943eb-a753-49f3-98fd-3a35d254a54bfileName">231179%3A-Verify-when-you-add-gratuity-that-the-subtotals-and-totals-match-the-POS</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="properties" name="Properties" id="878f1573-5f67-4e63-8999-8b3608c0e2c4">
+    <con:settings/>
+    <con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:properties>
+        <con:property>
+          <con:name>TableId</con:name>
+          <con:value>209715282</con:value>
+        </con:property>
+        <con:property>
+          <con:name>CheckId</con:name>
+          <con:value>209715282</con:value>
+        </con:property>
+      </con:properties>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasource" name="DataSource" id="9521ed2e-9229-444d-a2c8-520b58f9b0f6">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:dataSource type="Grid">
+        <con:configuration>
+          <check><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">true</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry></xml-fragment>]]></check>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">200</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">10</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">100</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">20</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <recognizeAsPlainText>true</recognizeAsPlainText>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>deviceId</con:property>
+      <con:property>password</con:property>
+      <con:property>Jobcode</con:property>
+      <con:property>tableid</con:property>
+      <con:completeLastOperation>true</con:completeLastOperation>
+      <con:restartOnRun>true</con:restartOnRun>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Login" id="0a37c114-dbae-42ae-ad28-a532c110f4c6">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/login" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Login" id="49a55a10-837a-4daa-a962-b2a21f6a0e72" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="ff8f7924-93d7-47fd-9011-5d06c695d05c" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:AccessLevelId[1]</con:xpath>
+              <con:element>AccessLevelId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:AssignedDrawerId[1]</con:xpath>
+              <con:element>AssignedDrawerId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:CardTrackData[1]</con:xpath>
+              <con:element>CardTrackData</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:CardTrackData[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:CheckedOut[1]</con:xpath>
+              <con:element>CheckedOut</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:ClockedIn[1]</con:xpath>
+              <con:element>ClockedIn</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Date[1]</con:xpath>
+              <con:element>Date</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Date[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:DefaultPrinterId[1]</con:xpath>
+              <con:element>DefaultPrinterId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Firstname[1]</con:xpath>
+              <con:element>Firstname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>JEFFREY</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:IsDrawerConfirmationNeeded[1]</con:xpath>
+              <con:element>IsDrawerConfirmationNeeded</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodeId[1]</con:xpath>
+              <con:element>JobCodeId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Bartender[1]</con:xpath>
+              <con:element>Bartender</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanCloseCheck[1]</con:xpath>
+              <con:element>CanCloseCheck</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanGetCheck[1]</con:xpath>
+              <con:element>CanGetCheck</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanOrderEntry[1]</con:xpath>
+              <con:element>CanOrderEntry</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CannotTenderToCash[1]</con:xpath>
+              <con:element>CannotTenderToCash</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CashDrawer[1]</con:xpath>
+              <con:element>CashDrawer</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CheckType[1]</con:xpath>
+              <con:element>CheckType</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:DefScrn[1]</con:xpath>
+              <con:element>DefScrn</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:DefScrnTs[1]</con:xpath>
+              <con:element>DefScrnTs</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:EnableFPI[1]</con:xpath>
+              <con:element>EnableFPI</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:LogName[1]</con:xpath>
+              <con:element>LogName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>MANAGER</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:MustPromptForOrderMode[1]</con:xpath>
+              <con:element>MustPromptForOrderMode</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:NoClockInJit[1]</con:xpath>
+              <con:element>NoClockInJit</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Pivotseat[1]</con:xpath>
+              <con:element>Pivotseat</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:SelfBanking[1]</con:xpath>
+              <con:element>SelfBanking</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:ShiftRequired[1]</con:xpath>
+              <con:element>ShiftRequired</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Shortname[1]</con:xpath>
+              <con:element>Shortname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>MANAGER</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:TeamCheck[1]</con:xpath>
+              <con:element>TeamCheck</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Training[1]</con:xpath>
+              <con:element>Training</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:UseAlternativeTableNames[1]</con:xpath>
+              <con:element>UseAlternativeTableNames</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:LastName[1]</con:xpath>
+              <con:element>LastName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>OYENEYE</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:LoggedIn[1]</con:xpath>
+              <con:element>LoggedIn</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:MenuId[1]</con:xpath>
+              <con:element>MenuId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>false</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:MiddleName[1]</con:xpath>
+              <con:element>MiddleName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Nickname[1]</con:xpath>
+              <con:element>Nickname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>JEFFREY</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Password[1]</con:xpath>
+              <con:element>Password</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:RequireGuestCount[1]</con:xpath>
+              <con:element>RequireGuestCount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[1]/ns1:AccessLevelId[1]</con:xpath>
+              <con:element>AccessLevelId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[1]/ns1:JobCodeId[1]</con:xpath>
+              <con:element>JobCodeId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Time[1]</con:xpath>
+              <con:element>Time</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Time[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:FastTab[1]</con:xpath>
+              <con:element>FastTab</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:FastTab[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:IsFastTab[1]</con:xpath>
+              <con:element>IsFastTab</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://172.16.95.5/Transaction/login">
+   <Employee>
+      <AccessLevelId>10</AccessLevelId>
+      <AssignedDrawerId>0</AssignedDrawerId>
+      <CardTrackData null="true"/>
+      <CheckedOut>false</CheckedOut>
+      <ClockedIn>true</ClockedIn>
+      <Date null="true"/>
+      <DefaultPrinterId>1</DefaultPrinterId>
+      <Firstname>JEFFREY</Firstname>
+      <Id>200</Id>
+      <IsDrawerConfirmationNeeded>false</IsDrawerConfirmationNeeded>
+      <JobCodeId>10</JobCodeId>
+      <JobCodes>
+         <e>
+            <Bartender>false</Bartender>
+            <CanCloseCheck>true</CanCloseCheck>
+            <CanGetCheck>true</CanGetCheck>
+            <CanOrderEntry>true</CanOrderEntry>
+            <CannotTenderToCash>false</CannotTenderToCash>
+            <CashDrawer>true</CashDrawer>
+            <CheckType>1</CheckType>
+            <DefScrn>2</DefScrn>
+            <DefScrnTs>2</DefScrnTs>
+            <EnableFPI>true</EnableFPI>
+            <Id>10</Id>
+            <LogName>MANAGER</LogName>
+            <MustPromptForOrderMode>false</MustPromptForOrderMode>
+            <NoClockInJit>false</NoClockInJit>
+            <Pivotseat>true</Pivotseat>
+            <SelfBanking>false</SelfBanking>
+            <ShiftRequired>true</ShiftRequired>
+            <Shortname>MANAGER</Shortname>
+            <TeamCheck>true</TeamCheck>
+            <Training>false</Training>
+            <UseAlternativeTableNames>false</UseAlternativeTableNames>
+         </e>
+      </JobCodes>
+      <LastName>OYENEYE</LastName>
+      <LoggedIn>true</LoggedIn>
+      <MenuId>1</MenuId>
+      <MiddleName/>
+      <Nickname>JEFFREY</Nickname>
+      <Password>200</Password>
+      <RequireGuestCount>true</RequireGuestCount>
+      <Roles>
+         <e>
+            <AccessLevelId>10</AccessLevelId>
+            <JobCodeId>10</JobCodeId>
+         </e>
+      </Roles>
+      <Time null="true"/>
+   </Employee>
+   <FastTab null="true"/>
+   <IsFastTab>false</IsFastTab>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="password" value="${DataSource#password}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="GetForeignUsedTable" id="9960cac0-e11b-409f-bf85-b7137be239a6">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/GetForeignUsedTables" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="GetForeignUsedTable" id="ae969c83-f526-4374-b0fd-cda09d93feb6" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/GetForeignUsedTables</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="e40769b4-aa6f-4fc5-86cf-c3b001cc4723" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>//Response[1]</con:xpath>
+              <con:element>Response</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage>&lt;Response/></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Add Table" id="7598f3ef-db7b-4846-8463-94097be2c515">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/AddTable" methodName="GET TABLE" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Add Table" id="e8f49df4-45a1-4f11-b491-74c336b3bb03" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/AddTable</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="f5b50978-30f9-4cb9-9007-d45490285d38" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Closed[1]</con:xpath>
+              <con:element>Closed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Entries[1]</con:xpath>
+              <con:element>Entries</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>false</con:enabled>
+              <con:expectedValue>209715230</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:LoyaltyStatus[1]</con:xpath>
+              <con:element>LoyaltyStatus</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>false</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Number[1]</con:xpath>
+              <con:element>Number</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Balance[1]</con:xpath>
+              <con:element>Balance</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:CheckClosed[1]</con:xpath>
+              <con:element>CheckClosed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:CompleteTotal[1]</con:xpath>
+              <con:element>CompleteTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Comps[1]</con:xpath>
+              <con:element>Comps</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:ContextPanels[1]</con:xpath>
+              <con:element>ContextPanels</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Gratuity[1]</con:xpath>
+              <con:element>Gratuity</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:GratuityAmount[1]</con:xpath>
+              <con:element>GratuityAmount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:GratuityTax[1]</con:xpath>
+              <con:element>GratuityTax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:IsApprovalNeeded[1]</con:xpath>
+              <con:element>IsApprovalNeeded</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
+              <con:element>IsRoundingAdjustmentDisplayed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Payments[1]</con:xpath>
+              <con:element>Payments</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Promotions[1]</con:xpath>
+              <con:element>Promotions</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:RoundingAdjustment[1]</con:xpath>
+              <con:element>RoundingAdjustment</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:SubTotal[1]</con:xpath>
+              <con:element>SubTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Tax[1]</con:xpath>
+              <con:element>Tax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:TaxExempt[1]</con:xpath>
+              <con:element>TaxExempt</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:TaxNumber[1]</con:xpath>
+              <con:element>TaxNumber</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Total[1]</con:xpath>
+              <con:element>Total</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:TableName[1]</con:xpath>
+              <con:element>TableName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>Table 2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:EmployeeFrom[1]</con:xpath>
+              <con:element>EmployeeFrom</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:EmployeeFrom[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:EmployeeTo[1]</con:xpath>
+              <con:element>EmployeeTo</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:EmployeeTo[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Guests[1]</con:xpath>
+              <con:element>Guests</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>false</con:enabled>
+              <con:expectedValue>209715229</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:IsSavedCardAttached[1]</con:xpath>
+              <con:element>IsSavedCardAttached</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:IsShared[1]</con:xpath>
+              <con:element>IsShared</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:IsTeamTable[1]</con:xpath>
+              <con:element>IsTeamTable</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Name[1]</con:xpath>
+              <con:element>Name</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>Table 2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Number[1]</con:xpath>
+              <con:element>Number</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Owner[1]/ns1:Firstname[1]</con:xpath>
+              <con:element>Firstname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>JEFFREY</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Owner[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Owner[1]/ns1:LastName[1]</con:xpath>
+              <con:element>LastName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>OYENEYE</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Owner[1]/ns1:MiddleName[1]</con:xpath>
+              <con:element>MiddleName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Owner[1]/ns1:Nickname[1]</con:xpath>
+              <con:element>Nickname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>JEFFREY</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Owner[1]/ns1:Roles[1]/ns1:e[1]/ns1:AccessLevelId[1]</con:xpath>
+              <con:element>AccessLevelId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:Owner[1]/ns1:Roles[1]/ns1:e[1]/ns1:JobCodeId[1]</con:xpath>
+              <con:element>JobCodeId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+//ns1:Response[1]/ns1:ShouldBlink[1]</con:xpath>
+              <con:element>ShouldBlink</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddTable">
+   <Checks>
+      <e>
+         <Closed>false</Closed>
+         <Entries/>
+         <Id>209715230</Id>
+         <LoyaltyStatus>0</LoyaltyStatus>
+         <Number>1</Number>
+         <PaymentInfo>
+            <Balance>0</Balance>
+            <CheckClosed>false</CheckClosed>
+            <CompleteTotal>0</CompleteTotal>
+            <Comps/>
+            <ContextPanels/>
+            <Gratuity>false</Gratuity>
+            <GratuityAmount>0</GratuityAmount>
+            <GratuityTax>0</GratuityTax>
+            <IsApprovalNeeded>false</IsApprovalNeeded>
+            <IsRoundingAdjustmentDisplayed>false</IsRoundingAdjustmentDisplayed>
+            <Payments/>
+            <Promotions/>
+            <RoundingAdjustment>0</RoundingAdjustment>
+            <SubTotal>0</SubTotal>
+            <Tax>0</Tax>
+            <TaxExempt>false</TaxExempt>
+            <TaxNumber/>
+            <Total>0</Total>
+         </PaymentInfo>
+         <TableName>Table 2</TableName>
+      </e>
+   </Checks>
+   <EmployeeFrom null="true"/>
+   <EmployeeTo null="true"/>
+   <Guests>2</Guests>
+   <Id>209715229</Id>
+   <IsSavedCardAttached>false</IsSavedCardAttached>
+   <IsShared>false</IsShared>
+   <IsTeamTable>false</IsTeamTable>
+   <Name>Table 2</Name>
+   <Number>2</Number>
+   <Owner>
+      <Firstname>JEFFREY</Firstname>
+      <Id>200</Id>
+      <LastName>OYENEYE</LastName>
+      <MiddleName/>
+      <Nickname>JEFFREY</Nickname>
+      <Roles>
+         <e>
+            <AccessLevelId>10</AccessLevelId>
+            <JobCodeId>10</JobCodeId>
+         </e>
+      </Roles>
+   </Owner>
+   <ShouldBlink>false</ShouldBlink>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="number" value="${DataSource#tableid}"/>
+          <con:entry key="numGuests" value="${#Project#2}"/>
+          <con:entry key="name" value="${empty}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="transfer" name="Property Transfer" id="4730528a-9659-4b48-b565-8aec9df1bebf">
+    <con:settings/>
+    <con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false">
+        <con:name>checkId</con:name>
+        <con:sourceType>Response</con:sourceType>
+        <con:sourceStep>Add Table</con:sourceStep>
+        <con:sourcePath>$['Checks'][0]['Id']</con:sourcePath>
+        <con:targetType>CheckId</con:targetType>
+        <con:targetStep>Properties</con:targetStep>
+        <con:type>JSONPATH</con:type>
+        <con:targetTransferType>JSONPATH</con:targetTransferType>
+        <con:upgraded>true</con:upgraded>
+      </con:transfers>
+      <con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false">
+        <con:name>tableId</con:name>
+        <con:sourceType>Response</con:sourceType>
+        <con:sourceStep>Add Table</con:sourceStep>
+        <con:sourcePath>$.Id</con:sourcePath>
+        <con:targetType>TableId</con:targetType>
+        <con:targetStep>Properties</con:targetStep>
+        <con:type>JSONPATH</con:type>
+        <con:targetTransferType>JSONPATH</con:targetTransferType>
+        <con:upgraded>true</con:upgraded>
+      </con:transfers>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Lobster Mac n Cheese" id="c5a58fcb-9d5d-46dd-91b5-538e01b5e52c">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/AddEntry" methodName="POST" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Lobster Mac n Cheese" id="18020f7b-4bf7-4007-ba49-feb3f9b09bfc" mediaType="application/json" postQueryString="false">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request>{"OpenItemPrice":0,"Quantity":1,"ItemId":57,"Modifiers":[]}</con:request>
+        <con:originalUri>https://192.168.1.132/Transaction/AddEntry</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="44fd5673-3e81-43d5-8bfe-98cddee83182" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:EntryType[1]</con:xpath>
+              <con:element>EntryType</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:ExpireTime[1]</con:xpath>
+              <con:element>ExpireTime</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>false</con:enabled>
+              <con:expectedValue>209715339</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:IsHeld[1]</con:xpath>
+              <con:element>IsHeld</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:IsSentToKitchen[1]</con:xpath>
+              <con:element>IsSentToKitchen</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:ItemId[1]</con:xpath>
+              <con:element>ItemId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>57</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:ModCodeId[1]</con:xpath>
+              <con:element>ModCodeId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Modifiers[1]</con:xpath>
+              <con:element>Modifiers</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Name[1]</con:xpath>
+              <con:element>Name</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>LOBSTR MAC CHZ</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Note[1]</con:xpath>
+              <con:element>Note</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Note[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:OpenItemPrice[1]</con:xpath>
+              <con:element>OpenItemPrice</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>11.99</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:OrderModeId[1]</con:xpath>
+              <con:element>OrderModeId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:OriginalPrice[1]</con:xpath>
+              <con:element>OriginalPrice</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>11.99</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Price[1]</con:xpath>
+              <con:element>Price</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>11.99</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:QcUpsellSurcharge[1]</con:xpath>
+              <con:element>QcUpsellSurcharge</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Seat[1]</con:xpath>
+              <con:element>Seat</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:SubMenuId[1]</con:xpath>
+              <con:element>SubMenuId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>3</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+//ns1:Response[1]/ns1:Units[1]</con:xpath>
+              <con:element>Units</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddEntry">
+   <EntryType>0</EntryType>
+   <ExpireTime>0</ExpireTime>
+   <Id>209715339</Id>
+   <IsHeld>false</IsHeld>
+   <IsSentToKitchen>false</IsSentToKitchen>
+   <ItemId>57</ItemId>
+   <ModCodeId>0</ModCodeId>
+   <Modifiers/>
+   <Name>LOBSTR MAC CHZ</Name>
+   <Note null="true"/>
+   <OpenItemPrice>11.99</OpenItemPrice>
+   <OrderModeId>0</OrderModeId>
+   <OriginalPrice>11.99</OriginalPrice>
+   <Price>11.99</Price>
+   <QcUpsellSurcharge>0</QcUpsellSurcharge>
+   <Seat>1</Seat>
+   <SubMenuId>3</SubMenuId>
+   <Units>1</Units>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="seat" value="${#Project#1}"/>
+          <con:entry key="submenuId" value="${#Project#3}"/>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+          <con:entry key="checkId" value="${Properties#CheckId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Check Category Requirements" id="d4c7a98b-d612-4d8b-9701-d8b89ff58831">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/CheckCategoryRequirements" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Check Category Requirements" id="680b4f1a-1786-4bf0-a98d-e35de7009ecd" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/CheckCategoryRequirements</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="62dcb0e8-a236-49b6-9d37-d9e92806f4b7" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CheckCategoryRequirements';
+//ns1:Response[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CheckCategoryRequirements';
+//ns1:Response[1]/ns1:Message[1]</con:xpath>
+              <con:element>Message</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage>&lt;Response xmlns="https://192.168.1.132/Transaction/CheckCategoryRequirements">
+   &lt;Id>200&lt;/Id>
+   &lt;Message/>
+&lt;/Response></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Order Items (Send Walk In)" id="18d52073-8eb9-40a8-b9dd-45616f3110ad">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/OrderAllItems" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Order Items (Send Walk In)" id="f3de2caf-3e8a-4b45-9546-fb4dca15d594" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/OrderAllItems</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="91356a3c-a455-435d-8251-107a52d39d56" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/Balance[1]</con:xpath>
+              <con:element>Balance</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.72</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/CheckClosed[1]</con:xpath>
+              <con:element>CheckClosed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/CompleteTotal[1]</con:xpath>
+              <con:element>CompleteTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.72</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/Comps[1]</con:xpath>
+              <con:element>Comps</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/ContextPanels[1]</con:xpath>
+              <con:element>ContextPanels</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/Gratuity[1]</con:xpath>
+              <con:element>Gratuity</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/GratuityAmount[1]</con:xpath>
+              <con:element>GratuityAmount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/GratuityTax[1]</con:xpath>
+              <con:element>GratuityTax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/IsApprovalNeeded[1]</con:xpath>
+              <con:element>IsApprovalNeeded</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/IsRoundingAdjustmentDisplayed[1]</con:xpath>
+              <con:element>IsRoundingAdjustmentDisplayed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/Payments[1]</con:xpath>
+              <con:element>Payments</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/Promotions[1]</con:xpath>
+              <con:element>Promotions</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/RoundingAdjustment[1]</con:xpath>
+              <con:element>RoundingAdjustment</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/SubTotal[1]</con:xpath>
+              <con:element>SubTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>11.99</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/Tax[1]</con:xpath>
+              <con:element>Tax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0.73</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/TaxExempt[1]</con:xpath>
+              <con:element>TaxExempt</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/TaxNumber[1]</con:xpath>
+              <con:element>TaxNumber</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//Response[1]/e[1]/Total[1]</con:xpath>
+              <con:element>Total</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.72</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response>
+   <e>
+      <Balance>12.72</Balance>
+      <CheckClosed>false</CheckClosed>
+      <CompleteTotal>12.72</CompleteTotal>
+      <Comps/>
+      <ContextPanels/>
+      <Gratuity>false</Gratuity>
+      <GratuityAmount>0</GratuityAmount>
+      <GratuityTax>0</GratuityTax>
+      <IsApprovalNeeded>false</IsApprovalNeeded>
+      <IsRoundingAdjustmentDisplayed>false</IsRoundingAdjustmentDisplayed>
+      <Payments/>
+      <Promotions/>
+      <RoundingAdjustment>0</RoundingAdjustment>
+      <SubTotal>11.99</SubTotal>
+      <Tax>0.73</Tax>
+      <TaxExempt>false</TaxExempt>
+      <TaxNumber/>
+      <Total>12.72</Total>
+   </e>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="orderModeId" value="${#Project#1}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Get Payments" id="64f3759c-1343-4973-a454-8fbe99b6b26a">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/GetPayment" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Get Payments" id="df29da23-dde5-400e-ac75-e3a14c96e66c" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/GetPayment</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="4bdbb98d-7108-4464-9339-54d16255ca64" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:Balance[1]</con:xpath>
+              <con:element>Balance</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.72</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:CheckClosed[1]</con:xpath>
+              <con:element>CheckClosed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:CompleteTotal[1]</con:xpath>
+              <con:element>CompleteTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.72</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:Comps[1]</con:xpath>
+              <con:element>Comps</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:ContextPanels[1]</con:xpath>
+              <con:element>ContextPanels</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:Gratuity[1]</con:xpath>
+              <con:element>Gratuity</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:GratuityAmount[1]</con:xpath>
+              <con:element>GratuityAmount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:GratuityTax[1]</con:xpath>
+              <con:element>GratuityTax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:IsApprovalNeeded[1]</con:xpath>
+              <con:element>IsApprovalNeeded</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
+              <con:element>IsRoundingAdjustmentDisplayed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:Payments[1]</con:xpath>
+              <con:element>Payments</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:Promotions[1]</con:xpath>
+              <con:element>Promotions</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:RoundingAdjustment[1]</con:xpath>
+              <con:element>RoundingAdjustment</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:SubTotal[1]</con:xpath>
+              <con:element>SubTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>11.99</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:Tax[1]</con:xpath>
+              <con:element>Tax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0.73</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:TaxExempt[1]</con:xpath>
+              <con:element>TaxExempt</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:TaxNumber[1]</con:xpath>
+              <con:element>TaxNumber</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+//ns1:Response[1]/ns1:Total[1]</con:xpath>
+              <con:element>Total</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.72</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/GetPayment">
+   <Balance>12.72</Balance>
+   <CheckClosed>false</CheckClosed>
+   <CompleteTotal>12.72</CompleteTotal>
+   <Comps/>
+   <ContextPanels/>
+   <Gratuity>false</Gratuity>
+   <GratuityAmount>0</GratuityAmount>
+   <GratuityTax>0</GratuityTax>
+   <IsApprovalNeeded>false</IsApprovalNeeded>
+   <IsRoundingAdjustmentDisplayed>false</IsRoundingAdjustmentDisplayed>
+   <Payments/>
+   <Promotions/>
+   <RoundingAdjustment>0</RoundingAdjustment>
+   <SubTotal>11.99</SubTotal>
+   <Tax>0.73</Tax>
+   <TaxExempt>false</TaxExempt>
+   <TaxNumber/>
+   <Total>12.72</Total>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+          <con:entry key="checkId" value="${Properties#CheckId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Add Gratuity" id="63fe8cc3-7f3e-4875-a710-bf8b9fcd5ab1">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/AddGratuity" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Add Gratuity" id="401271cc-7a12-4b4a-8c80-53bea27f6316" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/AddGratuity</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="6cd4c56c-e2d8-43a8-a449-a6e182ac5821" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:Balance[1]</con:xpath>
+              <con:element>Balance</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>15.15</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:CheckClosed[1]</con:xpath>
+              <con:element>CheckClosed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:CompleteTotal[1]</con:xpath>
+              <con:element>CompleteTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>15.15</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:Comps[1]</con:xpath>
+              <con:element>Comps</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:ContextPanels[1]</con:xpath>
+              <con:element>ContextPanels</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:Gratuity[1]</con:xpath>
+              <con:element>Gratuity</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:GratuityAmount[1]</con:xpath>
+              <con:element>GratuityAmount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2.29</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:GratuityTax[1]</con:xpath>
+              <con:element>GratuityTax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0.14</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:IsApprovalNeeded[1]</con:xpath>
+              <con:element>IsApprovalNeeded</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
+              <con:element>IsRoundingAdjustmentDisplayed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:Payments[1]</con:xpath>
+              <con:element>Payments</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:Promotions[1]</con:xpath>
+              <con:element>Promotions</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:RoundingAdjustment[1]</con:xpath>
+              <con:element>RoundingAdjustment</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:SubTotal[1]</con:xpath>
+              <con:element>SubTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>11.990000000000002</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:Tax[1]</con:xpath>
+              <con:element>Tax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0.87</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:TaxExempt[1]</con:xpath>
+              <con:element>TaxExempt</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:TaxNumber[1]</con:xpath>
+              <con:element>TaxNumber</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddGratuity';
+//ns1:Response[1]/ns1:Total[1]</con:xpath>
+              <con:element>Total</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.860000000000001</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddGratuity">
+   <Balance>15.15</Balance>
+   <CheckClosed>false</CheckClosed>
+   <CompleteTotal>15.15</CompleteTotal>
+   <Comps/>
+   <ContextPanels/>
+   <Gratuity>true</Gratuity>
+   <GratuityAmount>2.29</GratuityAmount>
+   <GratuityTax>0.14</GratuityTax>
+   <IsApprovalNeeded>false</IsApprovalNeeded>
+   <IsRoundingAdjustmentDisplayed>false</IsRoundingAdjustmentDisplayed>
+   <Payments/>
+   <Promotions/>
+   <RoundingAdjustment>0</RoundingAdjustment>
+   <SubTotal>11.990000000000002</SubTotal>
+   <Tax>0.87</Tax>
+   <TaxExempt>false</TaxExempt>
+   <TaxNumber/>
+   <Total>12.860000000000001</Total>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="percentage" value="${#Project#18}"/>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+          <con:entry key="checkId" value="${Properties#CheckId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Get Balance for Tender" id="a209ff4f-2d7e-4ffd-a0c7-83327ec614fc">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/GetBalanceDataForTender" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Get Balance for Tender" id="9dcbbaa6-c78a-4c4f-a4ba-aed2be8b74e1" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/GetBalanceDataForTender</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="0d3d7435-9152-4be3-ab56-739674b451e9" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetBalanceDataForTender';
+//ns1:Response[1]/ns1:Balance[1]</con:xpath>
+              <con:element>Balance</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>15.15</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetBalanceDataForTender';
+//ns1:Response[1]/ns1:Surcharge[1]</con:xpath>
+              <con:element>Surcharge</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetBalanceDataForTender';
+//ns1:Response[1]/ns1:TenderId[1]</con:xpath>
+              <con:element>TenderId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>8</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/GetBalanceDataForTender">
+   <Balance>15.15</Balance>
+   <Surcharge>0</Surcharge>
+   <TenderId>8</TenderId>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="tenderId" value="${#Project#8}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+          <con:entry key="checkId" value="${Properties#CheckId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Exact Cash" id="98aa2ba1-4de2-47d8-ae15-ddb12dfc1ba4">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/AddPayment" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Exact Cash" id="76ae68c3-b6c7-4773-8864-59b341cb79b2" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/AddPayment</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="8f0dbdc9-2b69-4cb5-8848-5978628c7eb9" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Balance[1]</con:xpath>
+              <con:element>Balance</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:CheckClosed[1]</con:xpath>
+              <con:element>CheckClosed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:CompleteTotal[1]</con:xpath>
+              <con:element>CompleteTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>15.15</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Comps[1]</con:xpath>
+              <con:element>Comps</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:ContextPanels[1]</con:xpath>
+              <con:element>ContextPanels</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Gratuity[1]</con:xpath>
+              <con:element>Gratuity</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:GratuityAmount[1]</con:xpath>
+              <con:element>GratuityAmount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2.29</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:GratuityTax[1]</con:xpath>
+              <con:element>GratuityTax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0.14</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:IsApprovalNeeded[1]</con:xpath>
+              <con:element>IsApprovalNeeded</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
+              <con:element>IsRoundingAdjustmentDisplayed</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Amount[1]</con:xpath>
+              <con:element>Amount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>15.15</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Auth[1]</con:xpath>
+              <con:element>Auth</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:AuthResult[1]</con:xpath>
+              <con:element>AuthResult</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>APPROVED</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:ForeignCurrencyAmount[1]</con:xpath>
+              <con:element>ForeignCurrencyAmount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:ForeignCurrencyTip[1]</con:xpath>
+              <con:element>ForeignCurrencyTip</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>false</con:enabled>
+              <con:expectedValue>209715206</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Ident[1]</con:xpath>
+              <con:element>Ident</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:IsCreditCard[1]</con:xpath>
+              <con:element>IsCreditCard</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:IsDeclined[1]</con:xpath>
+              <con:element>IsDeclined</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Name[1]</con:xpath>
+              <con:element>Name</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Surcharge[1]</con:xpath>
+              <con:element>Surcharge</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:TenderId[1]</con:xpath>
+              <con:element>TenderId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Tip[1]</con:xpath>
+              <con:element>Tip</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Promotions[1]</con:xpath>
+              <con:element>Promotions</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:RoundingAdjustment[1]</con:xpath>
+              <con:element>RoundingAdjustment</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:SubTotal[1]</con:xpath>
+              <con:element>SubTotal</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>11.990000000000002</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Tax[1]</con:xpath>
+              <con:element>Tax</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0.87</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:TaxExempt[1]</con:xpath>
+              <con:element>TaxExempt</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:TaxNumber[1]</con:xpath>
+              <con:element>TaxNumber</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+//ns1:Response[1]/ns1:Total[1]</con:xpath>
+              <con:element>Total</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>12.860000000000001</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddPayment">
+   <Balance>0</Balance>
+   <CheckClosed>false</CheckClosed>
+   <CompleteTotal>15.15</CompleteTotal>
+   <Comps/>
+   <ContextPanels/>
+   <Gratuity>true</Gratuity>
+   <GratuityAmount>2.29</GratuityAmount>
+   <GratuityTax>0.14</GratuityTax>
+   <IsApprovalNeeded>false</IsApprovalNeeded>
+   <IsRoundingAdjustmentDisplayed>false</IsRoundingAdjustmentDisplayed>
+   <Payments>
+      <e>
+         <Amount>15.15</Amount>
+         <Auth/>
+         <AuthResult>APPROVED</AuthResult>
+         <ForeignCurrencyAmount>0</ForeignCurrencyAmount>
+         <ForeignCurrencyTip>0</ForeignCurrencyTip>
+         <Id>209715206</Id>
+         <Ident/>
+         <IsCreditCard>false</IsCreditCard>
+         <IsDeclined>false</IsDeclined>
+         <Name/>
+         <Surcharge>0</Surcharge>
+         <TenderId>1</TenderId>
+         <Tip>0</Tip>
+      </e>
+   </Payments>
+   <Promotions/>
+   <RoundingAdjustment>0</RoundingAdjustment>
+   <SubTotal>11.990000000000002</SubTotal>
+   <Tax>0.87</Tax>
+   <TaxExempt>false</TaxExempt>
+   <TaxNumber/>
+   <Total>12.860000000000001</Total>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="amount" value="${#Project#0.000000}"/>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="tip" value="${#Project#0.000000}"/>
+          <con:entry key="tenderId" value="${#Project#12}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+          <con:entry key="checkId" value="${Properties#CheckId}"/>
+          <con:entry key="transactionId" value="${empty}"/>
+          <con:entry key="room" value="${empty}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Close Check" id="a972dcb6-9dc3-4ea4-bfea-db3b67b23c1a">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/CloseCheck" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Close Check" id="d163b368-97dc-4ddc-b29e-2e05091d23f0" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/CloseCheck</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="dda4e41f-8c97-4d5f-94e9-45c1cdc51456" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CloseCheck';
+//ns1:Response[1]/ns1:_IsTableK__BackingField[1]</con:xpath>
+              <con:element>_IsTableK__BackingField</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CloseCheck';
+//ns1:Response[1]/ns1:_TableK__BackingField[1]</con:xpath>
+              <con:element>_TableK__BackingField</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CloseCheck';
+//ns1:Response[1]/ns1:_TableK__BackingField[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage>&lt;Response xmlns="https://192.168.1.132/Transaction/CloseCheck">
+   &lt;_IsTableK__BackingField>false&lt;/_IsTableK__BackingField>
+   &lt;_TableK__BackingField null="true"/>
+&lt;/Response></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="tableId" value="${Properties#TableId}"/>
+          <con:entry key="skipCreatingFastTab" value="${#Project#false}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+          <con:entry key="checkId" value="${Properties#CheckId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Logout" id="29c599d2-1155-48f5-8399-d49fd42d2abb">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/logout" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Logout" id="ae9e0789-9a45-4b05-ad79-16375e7348e5" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="d2a9cc29-4b79-435d-bbdb-2b828ec3b8db" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+//ns1:Response[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+//ns1:Response[1]/ns1:Message[1]</con:xpath>
+              <con:element>Message</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>Logged Out successfully</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+   <Id>200</Id>
+   <Message>Logged Out successfully</Message>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasourceloop" name="DataSource Loop" id="aa02935e-409b-488a-8cb8-fd2356c70b79">
+    <con:settings/>
+    <con:config>
+      <dataSourceStep>DataSource</dataSourceStep>
+      <targetStep>Login</targetStep>
+      <discardResults>true</discardResults>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+  <con:breakPoints>
+    <con:testStepId>fdde0476-3462-4845-b1f6-01e69ea5d789</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>cc056318-d3b0-4127-8780-30450215a348</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>e703de59-4522-4ea1-9651-3b3caac697cf</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>1bee2936-e393-418b-bf09-1f15450a6b14</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>7ac98c58-f88b-4367-8662-c1f5a871c08d</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>a487c994-c4ed-4224-b9b0-33a5fd4c5449</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>f0bb2afd-b4b1-4f5e-a40b-d042891ae229</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>725bb881-63c0-491e-8875-babbe83ddc69</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>7c1087fb-a435-4d6f-afb5-b1ddb40d79e5</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>972f2170-8b4a-4613-a6ab-072c6f43d647</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>f6c69282-4b35-4b09-808a-02db0de0a8c0</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>9860ea7f-cb5a-44a7-a25c-0a42f7ab513f</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>a8c5bee2-2852-453d-8fa7-23ccf8fd4446</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>8ff8dd31-f418-4a59-acee-9ee1c47ee2dd</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>3971fae7-b26d-4280-8ef0-3ced6546f5ea</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>7d9700c2-188f-4eb8-9073-831996934ada</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>0e94704b-3b80-4ffe-9aa5-7b3b84ec5920</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>b1f25de9-4072-46bd-b23b-bfd691565e2f</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>88823014-e377-4800-b8c5-9cca2316d5ff</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>36a6bc76-cd3a-4657-8daf-687c27ab42fb</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>5f98e8ed-e71b-426b-a38d-cd061bd1f629</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>a7a12464-6338-451f-92ce-576dbe5cce46</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>e4015222-bd86-4dbe-80f4-880c99b29f30</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>6f020828-1d39-43e7-a6f5-5d16e5523812</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>a7f7a0da-6df5-4a59-992c-dd382c662972</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>1feed2b0-3b65-4796-bf7a-4d87b55f36d9</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>907c482a-9bf8-48e9-99fa-24742e996f66</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>29dc3c10-d3c2-4781-a5cd-76a81793ccc4</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>b4cc5ce0-2d65-4dbe-9b61-a1bcfa98eae2</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:testCase>

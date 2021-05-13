@@ -1,0 +1,992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="84081578-3d34-475f-8812-7fb4263a38b9" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="39538: Verify you can't open invalid table" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="84081578-3d34-475f-8812-7fb4263a38b9fileName">39538%3A-Verify-you-can%27t-open-invalid-table</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="properties" name="Properties" id="7b1163df-c779-4f1d-a333-c53cb7b10b82">
+    <con:settings/>
+    <con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:properties>
+        <con:property>
+          <con:name>TableId</con:name>
+          <con:value>101</con:value>
+        </con:property>
+        <con:property>
+          <con:name>CheckId</con:name>
+          <con:value xsi:nil="true"/>
+        </con:property>
+      </con:properties>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasource" name="DataSource" id="327908ad-f5ee-4336-8de8-e22d2f974cc4">
+    <con:settings/>
+    <con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:dataSource type="Grid">
+        <con:configuration>
+          <check><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">true</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">false</con:entry></xml-fragment>]]></check>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">200</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">10</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">25</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">100</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">20</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/><con:entry xmlns:con="http://eviware.com/soapui/config"/></xml-fragment>]]></row>
+          <recognizeAsPlainText>true</recognizeAsPlainText>
+        </con:configuration>
+      </con:dataSource>
+      <con:shared>true</con:shared>
+      <con:restartShared>true</con:restartShared>
+      <con:property>deviceId</con:property>
+      <con:property>password</con:property>
+      <con:property>Jobcode</con:property>
+      <con:property>tableid</con:property>
+      <con:completeLastOperation>true</con:completeLastOperation>
+      <con:restartOnRun>true</con:restartOnRun>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Login" id="15fd723e-adbe-4820-a222-3fb8e4824fbe">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/login" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Login" id="49a55a10-837a-4daa-a962-b2a21f6a0e72" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="ff8f7924-93d7-47fd-9011-5d06c695d05c" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:AccessLevelId[1]</con:xpath>
+              <con:element>AccessLevelId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:AssignedDrawerId[1]</con:xpath>
+              <con:element>AssignedDrawerId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>0</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:CardTrackData[1]</con:xpath>
+              <con:element>CardTrackData</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:CardTrackData[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:CheckedOut[1]</con:xpath>
+              <con:element>CheckedOut</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:ClockedIn[1]</con:xpath>
+              <con:element>ClockedIn</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Date[1]</con:xpath>
+              <con:element>Date</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Date[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:DefaultPrinterId[1]</con:xpath>
+              <con:element>DefaultPrinterId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Firstname[1]</con:xpath>
+              <con:element>Firstname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>JEFFREY</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:IsDrawerConfirmationNeeded[1]</con:xpath>
+              <con:element>IsDrawerConfirmationNeeded</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodeId[1]</con:xpath>
+              <con:element>JobCodeId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Bartender[1]</con:xpath>
+              <con:element>Bartender</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanCloseCheck[1]</con:xpath>
+              <con:element>CanCloseCheck</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanGetCheck[1]</con:xpath>
+              <con:element>CanGetCheck</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanOrderEntry[1]</con:xpath>
+              <con:element>CanOrderEntry</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CannotTenderToCash[1]</con:xpath>
+              <con:element>CannotTenderToCash</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CashDrawer[1]</con:xpath>
+              <con:element>CashDrawer</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CheckType[1]</con:xpath>
+              <con:element>CheckType</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:DefScrn[1]</con:xpath>
+              <con:element>DefScrn</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:DefScrnTs[1]</con:xpath>
+              <con:element>DefScrnTs</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>2</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:EnableFPI[1]</con:xpath>
+              <con:element>EnableFPI</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:LogName[1]</con:xpath>
+              <con:element>LogName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>MANAGER</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:MustPromptForOrderMode[1]</con:xpath>
+              <con:element>MustPromptForOrderMode</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:NoClockInJit[1]</con:xpath>
+              <con:element>NoClockInJit</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Pivotseat[1]</con:xpath>
+              <con:element>Pivotseat</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:SelfBanking[1]</con:xpath>
+              <con:element>SelfBanking</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:ShiftRequired[1]</con:xpath>
+              <con:element>ShiftRequired</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Shortname[1]</con:xpath>
+              <con:element>Shortname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>MANAGER</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:TeamCheck[1]</con:xpath>
+              <con:element>TeamCheck</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Training[1]</con:xpath>
+              <con:element>Training</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:UseAlternativeTableNames[1]</con:xpath>
+              <con:element>UseAlternativeTableNames</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:LastName[1]</con:xpath>
+              <con:element>LastName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>OYENEYE</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:LoggedIn[1]</con:xpath>
+              <con:element>LoggedIn</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:MenuId[1]</con:xpath>
+              <con:element>MenuId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>false</con:enabled>
+              <con:expectedValue>1</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:MiddleName[1]</con:xpath>
+              <con:element>MiddleName</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Nickname[1]</con:xpath>
+              <con:element>Nickname</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>JEFFREY</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Password[1]</con:xpath>
+              <con:element>Password</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:RequireGuestCount[1]</con:xpath>
+              <con:element>RequireGuestCount</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[1]/ns1:AccessLevelId[1]</con:xpath>
+              <con:element>AccessLevelId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[1]/ns1:JobCodeId[1]</con:xpath>
+              <con:element>JobCodeId</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>10</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Time[1]</con:xpath>
+              <con:element>Time</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:Employee[1]/ns1:Time[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:FastTab[1]</con:xpath>
+              <con:element>FastTab</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:FastTab[1]/@null</con:xpath>
+              <con:element>@null</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>true</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://172.16.95.5/Transaction/login';
+//ns1:Response[1]/ns1:IsFastTab[1]</con:xpath>
+              <con:element>IsFastTab</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>false</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://172.16.95.5/Transaction/login">
+   <Employee>
+      <AccessLevelId>10</AccessLevelId>
+      <AssignedDrawerId>0</AssignedDrawerId>
+      <CardTrackData null="true"/>
+      <CheckedOut>false</CheckedOut>
+      <ClockedIn>true</ClockedIn>
+      <Date null="true"/>
+      <DefaultPrinterId>1</DefaultPrinterId>
+      <Firstname>JEFFREY</Firstname>
+      <Id>200</Id>
+      <IsDrawerConfirmationNeeded>false</IsDrawerConfirmationNeeded>
+      <JobCodeId>10</JobCodeId>
+      <JobCodes>
+         <e>
+            <Bartender>false</Bartender>
+            <CanCloseCheck>true</CanCloseCheck>
+            <CanGetCheck>true</CanGetCheck>
+            <CanOrderEntry>true</CanOrderEntry>
+            <CannotTenderToCash>false</CannotTenderToCash>
+            <CashDrawer>true</CashDrawer>
+            <CheckType>1</CheckType>
+            <DefScrn>2</DefScrn>
+            <DefScrnTs>2</DefScrnTs>
+            <EnableFPI>true</EnableFPI>
+            <Id>10</Id>
+            <LogName>MANAGER</LogName>
+            <MustPromptForOrderMode>false</MustPromptForOrderMode>
+            <NoClockInJit>false</NoClockInJit>
+            <Pivotseat>true</Pivotseat>
+            <SelfBanking>false</SelfBanking>
+            <ShiftRequired>true</ShiftRequired>
+            <Shortname>MANAGER</Shortname>
+            <TeamCheck>true</TeamCheck>
+            <Training>false</Training>
+            <UseAlternativeTableNames>false</UseAlternativeTableNames>
+         </e>
+      </JobCodes>
+      <LastName>OYENEYE</LastName>
+      <LoggedIn>true</LoggedIn>
+      <MenuId>1</MenuId>
+      <MiddleName/>
+      <Nickname>JEFFREY</Nickname>
+      <Password>200</Password>
+      <RequireGuestCount>true</RequireGuestCount>
+      <Roles>
+         <e>
+            <AccessLevelId>10</AccessLevelId>
+            <JobCodeId>10</JobCodeId>
+         </e>
+      </Roles>
+      <Time null="true"/>
+   </Employee>
+   <FastTab null="true"/>
+   <IsFastTab>false</IsFastTab>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="password" value="${DataSource#password}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="GetForeignUsedTable" id="345e0124-95ba-4345-96ee-773974d1068a">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/GetForeignUsedTables" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="GetForeignUsedTable" id="ae969c83-f526-4374-b0fd-cda09d93feb6" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/GetForeignUsedTables</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="10dff907-c569-40d1-9763-20095d37ba3c" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>//Response[1]</con:xpath>
+              <con:element>Response</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue xsi:nil="true"/>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage>&lt;Response/></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Add Table" id="204c9d28-bae7-436a-84a8-05532e759fbb">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/AddTable" methodName="GET TABLE" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Add Table" id="e8f49df4-45a1-4f11-b491-74c336b3bb03" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/AddTable</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="77478b98-49ae-42ad-82e2-8da9989973ca" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>//data[1]</con:xpath>
+              <con:element>data</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>{"Id":101,"Message":"Invalid Table Number!"}</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//data[1]/@contentType</con:xpath>
+              <con:element>@contentType</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>application/xml; charset=utf-8</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>//data[1]/@contentLength</con:xpath>
+              <con:element>@contentLength</con:element>
+              <con:type/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>44</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage>&lt;data contentType="application/xml; charset=utf-8" contentLength="44">&lt;![CDATA[{"Id":101,"Message":"Invalid Table Number!"}]]&gt;&lt;/data></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="number" value="${DataSource#tableid}"/>
+          <con:entry key="numGuests" value="${#Project#2}"/>
+          <con:entry key="name" value="${empty}"/>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="restrequest" name="Logout" id="94068a36-93fc-4682-9187-c9962f7cccca">
+    <con:settings/>
+    <con:config service="REST Service IOS" resourcePath="/Transaction/logout" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Logout" id="ae9e0789-9a45-4b05-ad79-16375e7348e5" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:assertion type="MessageContentAssertion" id="d2a9cc29-4b79-435d-bbdb-2b828ec3b8db" name="Message Content Assertion">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+//ns1:Response[1]/ns1:Id[1]</con:xpath>
+              <con:element>Id</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>200</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:elements>
+              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+//ns1:Response[1]/ns1:Message[1]</con:xpath>
+              <con:element>Message</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>=</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>Logged Out successfully</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+   <Id>200</Id>
+   <Message>Logged Out successfully</Message>
+</Response>]]></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <con:entry key="deviceId" value="${DataSource#deviceId}"/>
+        </con:parameters>
+        <con:environmentSpec>
+          <con:entry environmentId="193e458a-3614-4f6e-bd6f-1fde9aaa3bd4">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="c365be7b-b6b3-4216-9da1-fcaeb16026d1">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="54f9e3f9-665b-4516-89d7-f4335d931d6c">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="52239cb8-52af-41c5-90d0-703f2381c6e6">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="datasourceloop" name="DataSource Loop" id="2f2106c6-9e47-4a4a-b9a5-dee499c44c95">
+    <con:settings/>
+    <con:config>
+      <dataSourceStep>DataSource</dataSourceStep>
+      <targetStep>Login</targetStep>
+      <discardResults>true</discardResults>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+  <con:breakPoints>
+    <con:testStepId>fdde0476-3462-4845-b1f6-01e69ea5d789</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>cc056318-d3b0-4127-8780-30450215a348</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>e703de59-4522-4ea1-9651-3b3caac697cf</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>1bee2936-e393-418b-bf09-1f15450a6b14</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>7ac98c58-f88b-4367-8662-c1f5a871c08d</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>a487c994-c4ed-4224-b9b0-33a5fd4c5449</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>f0bb2afd-b4b1-4f5e-a40b-d042891ae229</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>725bb881-63c0-491e-8875-babbe83ddc69</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>7c1087fb-a435-4d6f-afb5-b1ddb40d79e5</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>972f2170-8b4a-4613-a6ab-072c6f43d647</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>f6c69282-4b35-4b09-808a-02db0de0a8c0</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>9860ea7f-cb5a-44a7-a25c-0a42f7ab513f</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>a8c5bee2-2852-453d-8fa7-23ccf8fd4446</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>8ff8dd31-f418-4a59-acee-9ee1c47ee2dd</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>3971fae7-b26d-4280-8ef0-3ced6546f5ea</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>7d9700c2-188f-4eb8-9073-831996934ada</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>0e94704b-3b80-4ffe-9aa5-7b3b84ec5920</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:breakPoints>
+    <con:testStepId>b1f25de9-4072-46bd-b23b-bfd691565e2f</con:testStepId>
+    <con:status>NONE</con:status>
+    <con:properties/>
+  </con:breakPoints>
+  <con:environmentSpec>
+    <con:entry environmentId="3a05ce79-0553-44db-8f74-bfca66706c47">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="07f30c36-ef08-4c61-94c3-9cca624f14e2">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:testCase>

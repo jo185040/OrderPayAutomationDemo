@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="b694ca4f-5afd-488f-975e-929104e59dc8" name="34. PMS Payments" disabled="true" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="f9817435-ae6f-4b3d-aaca-fd5a3b4fc2fafileName">34.-PMS-Payments</con:setting>
+    <con:setting id="b694ca4f-5afd-488f-975e-929104e59dc8fileName">34.-PMS-Payments</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>

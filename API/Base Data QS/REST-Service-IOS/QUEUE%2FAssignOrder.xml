@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="QUEUE/AssignOrder" path="/QUEUE/AssignOrder" id="8ccb65c0-e15c-456a-b5a5-2e723ea7d2c5" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="b86e7b46-4ec3-458b-ad32-e6bfedfea250fileName">%2FQUEUE%2FAssignOrder</con:setting>
+    <con:setting id="8ccb65c0-e15c-456a-b5a5-2e723ea7d2c5fileName">QUEUE%2FAssignOrder</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="GET" id="3c0bfc33-5f81-46f8-abd5-84e4fa77b815" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>deviceId</con:name>
+        <con:value/>
+        <con:style>QUERY</con:style>
+        <con:default/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:ass="https://192.168.1.132/QUEUE/AssignOrder">ass:Response</con:element>
+    </con:representation>
+    <con:request name="GET Request" id="d3cd0f5e-4c82-497d-bb0b-ab558d8003aa" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters>
+        <con:entry key="deviceId" value="${empty}"/>
+      </con:parameters>
+      <con:environmentSpec>
+        <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+        <con:entry environmentId="c6f9e3fe-f834-47be-a5eb-c7a74908c618">
+          <con:authProfile>No Authorization</con:authProfile>
+        </con:entry>
+      </con:environmentSpec>
+    </con:request>
+    <con:environmentSpec>
+      <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+        <con:authProfile>Inherit From Parent</con:authProfile>
+      </con:entry>
+    </con:environmentSpec>
+  </con:method>
+  <con:environmentSpec>
+    <con:entry environmentId="0e320bea-1e1c-4286-bab5-f00009c93451">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+  </con:environmentSpec>
+</con:resource>

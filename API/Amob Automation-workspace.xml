@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="Amob Automation" cid="ef0cec25-dab3-453a-843b-e61d2af5e024" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="Base Data QS" lastOpened="2020-03-27T12:52:50.801-05:00">C:/Code/Automation/Base Data QS</con:project>
+  <con:recentItemCollection>
+    <con:moduleId>SoapUiNGModule</con:moduleId>
+    <con:itemId>95b94690-9ff5-4cbe-b37f-2bb9d457d150</con:itemId>
+    <con:itemId>3b3e92e5-fd39-46d2-a690-ecbd18330cb7</con:itemId>
+    <con:itemId>ea0214c3-4731-4c9f-a79e-6d0aaa50b3ec</con:itemId>
+    <con:itemId>a4afac02-e74a-47a2-b98c-1b0d6b0f377a</con:itemId>
+    <con:itemId>74ef6efe-17d6-46eb-a50a-0e5187affc3d</con:itemId>
+  </con:recentItemCollection>
+  <con:expandedTreeNodes>
+    <con:project path="C:\Code\Automation\Base Data QS">
+      <nodeId>fe20d395-efa1-4e4b-b4a9-d539d88fec9csoapui</nodeId>
+      <nodeId>95ae6476-bbe8-46b2-b3d5-f37f7e4e0f43</nodeId>
+      <nodeId>8aa92f2c-1f44-4497-9a47-a04160c5a47c</nodeId>
+      <nodeId>3672b0fd-95bc-499d-af6a-7fab7d7456fd</nodeId>
+      <nodeId>fe20d395-efa1-4e4b-b4a9-d539d88fec9c</nodeId>
+    </con:project>
+  </con:expandedTreeNodes>
+  <con:dashboardTileCollection>
+    <con:dashboardTiles>
+      <con:dashboardTile tileId="4a9ad6e9-bd60-4949-88cd-db6756541a4c" tileType="NEW_TEST"/>
+      <con:dashboardTile tileId="dd31dc01-0243-493d-b12f-30662b738b8a" tileType="TEST_SUITE_STATUS">
+        <con:settings xsi:type="con:TestStatusTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="2cab1dc1-a865-4181-9e1b-dd5e158f2b3a" tileType="TEST_CASE_STATUS_TILE">
+        <con:settings xsi:type="con:TestCaseStatusTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="0c489ae0-166f-48d0-b1cf-ca8833dcb6b7" tileType="SECURE_TILE">
+        <con:settings xsi:type="con:SecureTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:scan>All Scans</con:scan>
+          <con:project>All Projects</con:project>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="aacda8a0-ee5d-42e2-9ff6-801e3ebe2bcb" tileType="LOADUI_HISTORY_TILE">
+        <con:settings xsi:type="con:LoadHistoryTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:mode>
+            <con:today>true</con:today>
+          </con:mode>
+          <con:project>All Projects</con:project>
+          <con:filter/>
+        </con:settings>
+      </con:dashboardTile>
+      <con:dashboardTile tileId="d0f3abdb-7f15-4bb8-ac3e-2032f7c8827d" tileType="SERVICEV">
+        <con:settings xsi:type="con:ServiceVTileSettings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:tableSettings>
+            <con:column>Name</con:column>
+            <con:column>Status</con:column>
+            <con:column>Location</con:column>
+            <con:column>Port</con:column>
+          </con:tableSettings>
+        </con:settings>
+      </con:dashboardTile>
+    </con:dashboardTiles>
+    <con:recentDashboardTiles/>
+  </con:dashboardTileCollection>
+</con:soapui-workspace>

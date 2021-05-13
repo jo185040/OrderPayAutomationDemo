@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testSuite id="f6261c97-0331-4040-b1ee-f06ce3f68721" name="8. Order Items" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="f6261c97-0331-4040-b1ee-f06ce3f68721fileName">8.-Order-Items</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:runType>SEQUENTIAL</con:runType>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testSuite>
