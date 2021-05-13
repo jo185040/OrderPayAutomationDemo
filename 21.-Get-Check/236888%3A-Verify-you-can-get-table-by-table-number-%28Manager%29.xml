@@ -2898,7 +2898,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>false</con:enabled>
-              <con:expectedValue>209715322</con:expectedValue>
+              <con:expectedValue>209715436</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -2968,7 +2968,7 @@
       <EmployeeFrom null="true"/>
       <EmployeeTo null="true"/>
       <Guests>2</Guests>
-      <Id>209715322</Id>
+      <Id>209715436</Id>
       <IsSavedCardAttached>false</IsSavedCardAttached>
       <IsShared>false</IsShared>
       <IsTeamTable>true</IsTeamTable>
@@ -3052,7 +3052,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>false</con:enabled>
-              <con:expectedValue>209720286</con:expectedValue>
+              <con:expectedValue>209715557</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -3206,7 +3206,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>true</con:enabled>
-              <con:expectedValue>1</con:expectedValue>
+              <con:expectedValue>0</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -3239,7 +3239,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>false</con:enabled>
-              <con:expectedValue>209715323</con:expectedValue>
+              <con:expectedValue>209715418</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -3536,7 +3536,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>false</con:enabled>
-              <con:expectedValue>209715322</con:expectedValue>
+              <con:expectedValue>209715415</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -3691,7 +3691,7 @@
             <e>
                <EntryType>0</EntryType>
                <ExpireTime>0</ExpireTime>
-               <Id>209720286</Id>
+               <Id>209715557</Id>
                <IsHeld>false</IsHeld>
                <IsSentToKitchen>true</IsSentToKitchen>
                <ItemId>12</ItemId>
@@ -3704,12 +3704,12 @@
                <OriginalPrice>2</OriginalPrice>
                <Price>2</Price>
                <QcUpsellSurcharge>0</QcUpsellSurcharge>
-               <Seat>1</Seat>
+               <Seat>0</Seat>
                <SubMenuId>10</SubMenuId>
                <Units>1</Units>
             </e>
          </Entries>
-         <Id>209715323</Id>
+         <Id>209715418</Id>
          <LoyaltyStatus>13</LoyaltyStatus>
          <Number>1</Number>
          <PaymentInfo>
@@ -3738,7 +3738,7 @@
    <EmployeeFrom null="true"/>
    <EmployeeTo null="true"/>
    <Guests>2</Guests>
-   <Id>209715322</Id>
+   <Id>209715415</Id>
    <IsSavedCardAttached>false</IsSavedCardAttached>
    <IsShared>false</IsShared>
    <IsTeamTable>true</IsTeamTable>
@@ -3832,7 +3832,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>false</con:enabled>
-              <con:expectedValue>209720286</con:expectedValue>
+              <con:expectedValue>209715560</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -3972,7 +3972,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>true</con:enabled>
-              <con:expectedValue>1</con:expectedValue>
+              <con:expectedValue>0</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -4002,7 +4002,7 @@
               <con:type xsi:nil="true"/>
               <con:operator>=</con:operator>
               <con:enabled>false</con:enabled>
-              <con:expectedValue>209715323</con:expectedValue>
+              <con:expectedValue>209715425</con:expectedValue>
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
@@ -4223,7 +4223,7 @@
          <e>
             <EntryType>0</EntryType>
             <ExpireTime>0</ExpireTime>
-            <Id>209720286</Id>
+            <Id>209715560</Id>
             <IsHeld>false</IsHeld>
             <IsSentToKitchen>true</IsSentToKitchen>
             <ItemId>12</ItemId>
@@ -4236,12 +4236,12 @@
             <OriginalPrice>2</OriginalPrice>
             <Price>2</Price>
             <QcUpsellSurcharge>0</QcUpsellSurcharge>
-            <Seat>1</Seat>
+            <Seat>0</Seat>
             <SubMenuId>10</SubMenuId>
             <Units>1</Units>
          </e>
       </Entries>
-      <Id>209715323</Id>
+      <Id>209715425</Id>
       <LoyaltyStatus>13</LoyaltyStatus>
       <Number>1</Number>
       <PaymentInfo>

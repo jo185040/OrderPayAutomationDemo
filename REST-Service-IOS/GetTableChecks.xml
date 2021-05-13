@@ -33,6 +33,12 @@
       <con:params/>
       <con:element>Response</con:element>
     </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/xml; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
     <con:request name="GET Request" id="d1cc3ddf-d783-470b-9fdb-6fa5525598d3" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://192.168.1.132:8897</con:endpoint>

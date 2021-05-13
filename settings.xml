@@ -801,155 +801,155 @@ Latest including fix for ALOHAP-20895 [TS OM7] Table is doubled when self transf
     </con:service>
     <con:property>
       <con:name>0.000000</con:name>
-      <con:value/>
+      <con:value>0.000000</con:value>
     </con:property>
     <con:property>
       <con:name>1</con:name>
-      <con:value/>
+      <con:value>1</con:value>
     </con:property>
     <con:property>
       <con:name>1.000000</con:name>
-      <con:value/>
+      <con:value>1.000000</con:value>
     </con:property>
     <con:property>
       <con:name>10</con:name>
-      <con:value/>
+      <con:value>10</con:value>
     </con:property>
     <con:property>
       <con:name>10.000000</con:name>
-      <con:value/>
+      <con:value>10.000000</con:value>
     </con:property>
     <con:property>
       <con:name>100</con:name>
-      <con:value/>
+      <con:value>100</con:value>
     </con:property>
     <con:property>
       <con:name>101</con:name>
-      <con:value/>
+      <con:value>101</con:value>
     </con:property>
     <con:property>
       <con:name>102</con:name>
-      <con:value/>
+      <con:value>102</con:value>
     </con:property>
     <con:property>
       <con:name>109</con:name>
-      <con:value/>
+      <con:value>109</con:value>
     </con:property>
     <con:property>
       <con:name>12</con:name>
-      <con:value/>
+      <con:value>12</con:value>
     </con:property>
     <con:property>
       <con:name>2</con:name>
-      <con:value/>
+      <con:value>2</con:value>
     </con:property>
     <con:property>
       <con:name>2.000000</con:name>
-      <con:value/>
+      <con:value>2.000000</con:value>
     </con:property>
     <con:property>
       <con:name>2.50</con:name>
-      <con:value/>
+      <con:value>2.50</con:value>
     </con:property>
     <con:property>
       <con:name>3</con:name>
-      <con:value/>
+      <con:value>3</con:value>
     </con:property>
     <con:property>
       <con:name>420478977</con:name>
-      <con:value/>
+      <con:value>420478977</con:value>
     </con:property>
     <con:property>
       <con:name>8</con:name>
-      <con:value/>
+      <con:value>8</con:value>
     </con:property>
     <con:property>
       <con:name>9</con:name>
-      <con:value/>
+      <con:value>9</con:value>
     </con:property>
     <con:property>
       <con:name>false</con:name>
-      <con:value/>
+      <con:value>false</con:value>
     </con:property>
     <con:property>
       <con:name>JEFF</con:name>
-      <con:value/>
+      <con:value>JEFF</con:value>
     </con:property>
     <con:property>
       <con:name>JOHNNY</con:name>
-      <con:value/>
+      <con:value>JOHNNY</con:value>
     </con:property>
     <con:property>
       <con:name>managerId</con:name>
-      <con:value/>
+      <con:value>managerId</con:value>
     </con:property>
     <con:property>
       <con:name>true</con:name>
-      <con:value/>
+      <con:value>true</con:value>
     </con:property>
     <con:property>
       <con:name>201</con:name>
-      <con:value/>
+      <con:value>201</con:value>
     </con:property>
     <con:property>
       <con:name>200</con:name>
-      <con:value/>
+      <con:value>200</con:value>
     </con:property>
     <con:property>
       <con:name>1.330000</con:name>
-      <con:value/>
+      <con:value>1.330000</con:value>
     </con:property>
     <con:property>
       <con:name>15</con:name>
-      <con:value/>
+      <con:value>15</con:value>
     </con:property>
     <con:property>
       <con:name>18</con:name>
-      <con:value/>
+      <con:value>18</con:value>
     </con:property>
     <con:property>
       <con:name>25</con:name>
-      <con:value/>
+      <con:value>25</con:value>
     </con:property>
     <con:property>
       <con:name>5</con:name>
-      <con:value/>
+      <con:value>5</con:value>
     </con:property>
     <con:property>
       <con:name>0</con:name>
-      <con:value/>
+      <con:value>0</con:value>
     </con:property>
     <con:property>
       <con:name>4</con:name>
-      <con:value/>
+      <con:value>4</con:value>
     </con:property>
     <con:property>
       <con:name>table1</con:name>
-      <con:value/>
+      <con:value>table1</con:value>
     </con:property>
     <con:property>
       <con:name>JEFF2</con:name>
-      <con:value/>
+      <con:value>JEFF2</con:value>
     </con:property>
     <con:property>
       <con:name>submenuId 11</con:name>
-      <con:value/>
+      <con:value>11</con:value>
     </con:property>
     <con:property>
       <con:name>compId 11</con:name>
-      <con:value/>
+      <con:value>11</con:value>
     </con:property>
     <con:property>
       <con:name>JEFF3</con:name>
-      <con:value/>
+      <con:value>JEFF3</con:value>
     </con:property>
     <con:property>
       <con:name>T3</con:name>
-      <con:value/>
+      <con:value>T3</con:value>
     </con:property>
     <con:property>
       <con:name>222</con:name>
-      <con:value/>
+      <con:value>222</con:value>
     </con:property>
     <con:databaseConnectionContainer/>
     <con:jmsConnectionContainer/>
