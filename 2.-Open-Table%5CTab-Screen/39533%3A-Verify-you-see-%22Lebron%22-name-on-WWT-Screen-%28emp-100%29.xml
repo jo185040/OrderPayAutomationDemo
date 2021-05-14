@@ -37,7 +37,7 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
         <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="0d307eb9-7ff4-456e-a213-ac78d7fef78a" name="HTTP Header Equals">
@@ -78,7 +78,7 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://153.78.25.54:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
         <con:originalUri>https://153.78.25.84/Transaction/logout</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="624815e7-5cd2-46d3-9d76-55692ce30cc8" name="HTTP Header Equals">
