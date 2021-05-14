@@ -65,11 +65,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:app="https://192.168.1.132/Transaction/ApplyComp">app:Response</con:element>
+      <con:element xmlns:app="https://153.78.25.84/Transaction/ApplyComp">app:Response</con:element>
     </con:representation>
     <con:request name="POST Request" id="4804c71d-5475-407b-90c5-e054fde240e7" mediaType="application/json" postQueryString="false">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
@@ -181,13 +181,13 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:app="https://192.168.1.132/Transaction/ApplyComp">app:Response</con:element>
+      <con:element xmlns:app="https://153.78.25.84/Transaction/ApplyComp">app:Response</con:element>
     </con:representation>
     <con:request name="POST Request" id="4804c71d-5475-407b-90c5-e054fde240e7" mediaType="application/json" postQueryString="false">
       <con:settings>
         <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
       </con:settings>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request>[]</con:request>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

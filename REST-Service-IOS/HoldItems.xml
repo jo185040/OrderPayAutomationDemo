@@ -53,7 +53,7 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:hol="https://192.168.1.132/Transaction/HoldItems">hol:Response</con:element>
+      <con:element xmlns:hol="https://153.78.25.84/Transaction/HoldItems">hol:Response</con:element>
     </con:representation>
     <con:representation type="FAULT">
       <con:mediaType>application/xml; charset=utf-8</con:mediaType>
@@ -63,7 +63,7 @@
     </con:representation>
     <con:request name="POST Request" id="744cd4e8-519c-440f-9805-10e495e5dd0d" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

@@ -47,11 +47,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:mov="https://192.168.1.132/Transaction/MoveEntriesToSeat">mov:Response</con:element>
+      <con:element xmlns:mov="https://153.78.25.84/Transaction/MoveEntriesToSeat">mov:Response</con:element>
     </con:representation>
     <con:request name="POST Request" id="fdb07e0a-ff9d-4304-894d-1cc2e88f3c9e" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>http://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>http://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

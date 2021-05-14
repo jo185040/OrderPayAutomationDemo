@@ -31,7 +31,7 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:get="https://192.168.1.132/Transaction/GetPayment">get:Response</con:element>
+      <con:element xmlns:get="https://153.78.25.84/Transaction/GetPayment">get:Response</con:element>
     </con:representation>
     <con:representation type="FAULT">
       <con:mediaType>text/html</con:mediaType>
@@ -47,7 +47,7 @@
     </con:representation>
     <con:request name="GET Request" id="df29da23-dde5-400e-ac75-e3a14c96e66c" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

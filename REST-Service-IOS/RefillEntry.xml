@@ -41,11 +41,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:ref="https://192.168.1.132/Transaction/RefillEntry">ref:Response</con:element>
+      <con:element xmlns:ref="https://153.78.25.84/Transaction/RefillEntry">ref:Response</con:element>
     </con:representation>
     <con:request name="POST Request" id="eaa558c5-e9e8-46bf-b757-f8c4265ec6d2" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

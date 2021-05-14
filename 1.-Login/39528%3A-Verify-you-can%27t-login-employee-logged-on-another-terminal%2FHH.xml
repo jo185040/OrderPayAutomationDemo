@@ -38,7 +38,7 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
         <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="aa84d59a-f579-4e48-800c-ffe09e65dc08" name="Message Content Assertion">
@@ -677,7 +677,7 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
         <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="95225dc3-6dd9-4c23-b8a5-b5a9b053e9b0" name="Error Message">
@@ -728,7 +728,7 @@
         </con:settings>
         <con:endpoint>https://153.78.25.54:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/logout</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="624815e7-5cd2-46d3-9d76-55692ce30cc8" name="HTTP Header Equals">
           <con:configuration>
             <Header>#status#</Header>
@@ -740,7 +740,7 @@
         <con:assertion type="MessageContentAssertion" id="18eadfe2-0b3d-4fcd-b71b-bc37620afed3" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -751,7 +751,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Message[1]</con:xpath>
               <con:element>Message</con:element>
               <con:type xsi:nil="true"/>
@@ -761,7 +761,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/logout">
    <Id>200</Id>
    <Message>Logged Out successfully</Message>
 </Response>]]></con:originalMessage>
@@ -805,7 +805,7 @@
         </con:settings>
         <con:endpoint>https://153.78.25.54:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/logout</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="624815e7-5cd2-46d3-9d76-55692ce30cc8" name="HTTP Header Equals">
           <con:configuration>
             <Header>#status#</Header>
@@ -817,7 +817,7 @@
         <con:assertion type="MessageContentAssertion" id="18eadfe2-0b3d-4fcd-b71b-bc37620afed3" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -828,7 +828,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Message[1]</con:xpath>
               <con:element>Message</con:element>
               <con:type xsi:nil="true"/>
@@ -838,7 +838,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/logout">
    <Id>1022</Id>
    <Message>No one logged in.  No employee is currently logged into the terminal</Message>
 </Response>]]></con:originalMessage>

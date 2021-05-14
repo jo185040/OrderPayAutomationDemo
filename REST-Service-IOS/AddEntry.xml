@@ -53,7 +53,7 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:add="https://192.168.1.132/Transaction/AddEntry">add:Response</con:element>
+      <con:element xmlns:add="https://153.78.25.84/Transaction/AddEntry">add:Response</con:element>
     </con:representation>
     <con:representation type="FAULT">
       <con:mediaType>text/html</con:mediaType>
@@ -69,7 +69,7 @@
     </con:representation>
     <con:request name="POST Request" id="aaa24837-8f85-468c-89e8-87ef963ec4f1" mediaType="application/json" postQueryString="false">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

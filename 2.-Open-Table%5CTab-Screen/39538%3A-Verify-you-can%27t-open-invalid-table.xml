@@ -52,7 +52,7 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
         <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="ff8f7924-93d7-47fd-9011-5d06c695d05c" name="Message Content Assertion">
@@ -673,9 +673,9 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/GetForeignUsedTables</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/GetForeignUsedTables</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="10dff907-c569-40d1-9763-20095d37ba3c" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
@@ -720,9 +720,9 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/AddTable</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/AddTable</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="77478b98-49ae-42ad-82e2-8da9989973ca" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
@@ -790,13 +790,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/logout</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="d2a9cc29-4b79-435d-bbdb-2b828ec3b8db" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -807,7 +807,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Message[1]</con:xpath>
               <con:element>Message</con:element>
               <con:type xsi:nil="true"/>
@@ -817,7 +817,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/logout">
    <Id>200</Id>
    <Message>Logged Out successfully</Message>
 </Response>]]></con:originalMessage>

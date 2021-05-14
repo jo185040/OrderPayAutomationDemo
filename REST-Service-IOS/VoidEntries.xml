@@ -53,11 +53,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:void="https://192.168.1.132/Transaction/VoidEntries">void:Response</con:element>
+      <con:element xmlns:void="https://153.78.25.84/Transaction/VoidEntries">void:Response</con:element>
     </con:representation>
     <con:request name="POST Request" id="b5ddd48d-0075-43b2-a5ba-14d96a6cb89f" mediaType="application/json" postQueryString="false">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

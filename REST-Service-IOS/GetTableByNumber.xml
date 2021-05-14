@@ -31,7 +31,7 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:get="https://192.168.1.132/Transaction/GetTableByNumber">get:Response</con:element>
+      <con:element xmlns:get="https://153.78.25.84/Transaction/GetTableByNumber">get:Response</con:element>
     </con:representation>
     <con:representation type="RESPONSE">
       <con:mediaType>application/xml; charset=utf-8</con:mediaType>
@@ -41,7 +41,7 @@
     </con:representation>
     <con:request name="GET Request" id="faac5545-110f-490f-9ec1-8323e734b920" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

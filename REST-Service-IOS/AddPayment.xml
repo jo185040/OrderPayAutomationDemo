@@ -61,7 +61,7 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:add="https://192.168.1.132/Transaction/AddPayment">add:Response</con:element>
+      <con:element xmlns:add="https://153.78.25.84/Transaction/AddPayment">add:Response</con:element>
     </con:representation>
     <con:representation type="FAULT">
       <con:mediaType>text/html</con:mediaType>
@@ -79,11 +79,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>400</con:status>
       <con:params/>
-      <con:element xmlns:add="https://192.168.1.132/Transaction/AddPayment">add:Fault</con:element>
+      <con:element xmlns:add="https://153.78.25.84/Transaction/AddPayment">add:Fault</con:element>
     </con:representation>
     <con:request name="GET Request" id="9152f9a1-f9a0-4e34-a93d-fc587c80a3b9" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

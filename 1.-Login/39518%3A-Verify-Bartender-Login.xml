@@ -658,7 +658,7 @@
         </con:settings>
         <con:endpoint>https://153.78.25.54:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/ClockIn</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/ClockIn</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="1cd474f2-6bbc-492b-bc51-918c427e26b2" name="HTTP Header Equals">
           <con:configuration>
             <Header>#status#</Header>
@@ -699,7 +699,7 @@
         </con:settings>
         <con:endpoint>https://153.78.25.54:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/logout</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="624815e7-5cd2-46d3-9d76-55692ce30cc8" name="HTTP Header Equals">
           <con:configuration>
             <Header>#status#</Header>
@@ -711,7 +711,7 @@
         <con:assertion type="MessageContentAssertion" id="18eadfe2-0b3d-4fcd-b71b-bc37620afed3" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -722,7 +722,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Message[1]</con:xpath>
               <con:element>Message</con:element>
               <con:type xsi:nil="true"/>
@@ -732,7 +732,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/logout">
    <Id>200</Id>
    <Message>Logged Out successfully</Message>
 </Response>]]></con:originalMessage>

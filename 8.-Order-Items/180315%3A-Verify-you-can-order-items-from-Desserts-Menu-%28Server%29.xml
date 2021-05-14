@@ -68,7 +68,7 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
         <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="6bcb636a-3386-48ec-92c2-8546f3dcc6c3" name="Message Content Assertion">
@@ -701,9 +701,9 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/GetForeignUsedTables</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/GetForeignUsedTables</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="6087b030-b901-4c45-883e-26b15a482781" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
@@ -748,13 +748,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/AddTable</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/AddTable</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="902941b3-1e35-4c3c-9064-1041e01d71c8" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Closed[1]</con:xpath>
               <con:element>Closed</con:element>
               <con:type xsi:nil="true"/>
@@ -765,7 +765,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Entries[1]</con:xpath>
               <con:element>Entries</con:element>
               <con:type xsi:nil="true"/>
@@ -776,7 +776,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -787,7 +787,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:LoyaltyStatus[1]</con:xpath>
               <con:element>LoyaltyStatus</con:element>
               <con:type xsi:nil="true"/>
@@ -798,7 +798,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:Number[1]</con:xpath>
               <con:element>Number</con:element>
               <con:type xsi:nil="true"/>
@@ -809,7 +809,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Balance[1]</con:xpath>
               <con:element>Balance</con:element>
               <con:type xsi:nil="true"/>
@@ -820,7 +820,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:CheckClosed[1]</con:xpath>
               <con:element>CheckClosed</con:element>
               <con:type xsi:nil="true"/>
@@ -831,7 +831,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:CompleteTotal[1]</con:xpath>
               <con:element>CompleteTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -842,7 +842,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Comps[1]</con:xpath>
               <con:element>Comps</con:element>
               <con:type xsi:nil="true"/>
@@ -853,7 +853,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:ContextPanels[1]</con:xpath>
               <con:element>ContextPanels</con:element>
               <con:type xsi:nil="true"/>
@@ -864,7 +864,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Gratuity[1]</con:xpath>
               <con:element>Gratuity</con:element>
               <con:type xsi:nil="true"/>
@@ -875,7 +875,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:GratuityAmount[1]</con:xpath>
               <con:element>GratuityAmount</con:element>
               <con:type xsi:nil="true"/>
@@ -886,7 +886,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:GratuityTax[1]</con:xpath>
               <con:element>GratuityTax</con:element>
               <con:type xsi:nil="true"/>
@@ -897,7 +897,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:IsApprovalNeeded[1]</con:xpath>
               <con:element>IsApprovalNeeded</con:element>
               <con:type xsi:nil="true"/>
@@ -908,7 +908,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
               <con:element>IsRoundingAdjustmentDisplayed</con:element>
               <con:type xsi:nil="true"/>
@@ -919,7 +919,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Payments[1]</con:xpath>
               <con:element>Payments</con:element>
               <con:type xsi:nil="true"/>
@@ -930,7 +930,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Promotions[1]</con:xpath>
               <con:element>Promotions</con:element>
               <con:type xsi:nil="true"/>
@@ -941,7 +941,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:RoundingAdjustment[1]</con:xpath>
               <con:element>RoundingAdjustment</con:element>
               <con:type xsi:nil="true"/>
@@ -952,7 +952,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:SubTotal[1]</con:xpath>
               <con:element>SubTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -963,7 +963,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Tax[1]</con:xpath>
               <con:element>Tax</con:element>
               <con:type xsi:nil="true"/>
@@ -974,7 +974,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:TaxExempt[1]</con:xpath>
               <con:element>TaxExempt</con:element>
               <con:type xsi:nil="true"/>
@@ -985,7 +985,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:TaxNumber[1]</con:xpath>
               <con:element>TaxNumber</con:element>
               <con:type xsi:nil="true"/>
@@ -996,7 +996,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:PaymentInfo[1]/ns1:Total[1]</con:xpath>
               <con:element>Total</con:element>
               <con:type xsi:nil="true"/>
@@ -1007,7 +1007,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Checks[1]/ns1:e[1]/ns1:TableName[1]</con:xpath>
               <con:element>TableName</con:element>
               <con:type xsi:nil="true"/>
@@ -1018,7 +1018,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:EmployeeFrom[1]</con:xpath>
               <con:element>EmployeeFrom</con:element>
               <con:type xsi:nil="true"/>
@@ -1029,7 +1029,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:EmployeeFrom[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -1040,7 +1040,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:EmployeeTo[1]</con:xpath>
               <con:element>EmployeeTo</con:element>
               <con:type xsi:nil="true"/>
@@ -1051,7 +1051,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:EmployeeTo[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -1062,7 +1062,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Guests[1]</con:xpath>
               <con:element>Guests</con:element>
               <con:type xsi:nil="true"/>
@@ -1073,7 +1073,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -1084,7 +1084,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:IsSavedCardAttached[1]</con:xpath>
               <con:element>IsSavedCardAttached</con:element>
               <con:type xsi:nil="true"/>
@@ -1095,7 +1095,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:IsShared[1]</con:xpath>
               <con:element>IsShared</con:element>
               <con:type xsi:nil="true"/>
@@ -1106,7 +1106,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:IsTeamTable[1]</con:xpath>
               <con:element>IsTeamTable</con:element>
               <con:type xsi:nil="true"/>
@@ -1117,7 +1117,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Name[1]</con:xpath>
               <con:element>Name</con:element>
               <con:type xsi:nil="true"/>
@@ -1128,7 +1128,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Number[1]</con:xpath>
               <con:element>Number</con:element>
               <con:type xsi:nil="true"/>
@@ -1139,7 +1139,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Owner[1]/ns1:Firstname[1]</con:xpath>
               <con:element>Firstname</con:element>
               <con:type xsi:nil="true"/>
@@ -1150,7 +1150,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Owner[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -1161,7 +1161,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Owner[1]/ns1:LastName[1]</con:xpath>
               <con:element>LastName</con:element>
               <con:type xsi:nil="true"/>
@@ -1172,7 +1172,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Owner[1]/ns1:MiddleName[1]</con:xpath>
               <con:element>MiddleName</con:element>
               <con:type xsi:nil="true"/>
@@ -1183,7 +1183,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Owner[1]/ns1:Nickname[1]</con:xpath>
               <con:element>Nickname</con:element>
               <con:type xsi:nil="true"/>
@@ -1194,7 +1194,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Owner[1]/ns1:Roles[1]/ns1:e[1]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -1205,7 +1205,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:Owner[1]/ns1:Roles[1]/ns1:e[1]/ns1:JobCodeId[1]</con:xpath>
               <con:element>JobCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -1216,7 +1216,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddTable';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddTable';
 //ns1:Response[1]/ns1:ShouldBlink[1]</con:xpath>
               <con:element>ShouldBlink</con:element>
               <con:type xsi:nil="true"/>
@@ -1226,7 +1226,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddTable">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/AddTable">
    <Checks>
       <e>
          <Closed>false</Closed>
@@ -1341,13 +1341,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request>{"OpenItemPrice":0,"Quantity":1,"ItemId":62,"Modifiers":[]}</con:request>
-        <con:originalUri>https://192.168.1.132/Transaction/AddEntry</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/AddEntry</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="5681a52b-18b3-4f18-9e4f-bd3cfb5a7d64" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:EntryType[1]</con:xpath>
               <con:element>EntryType</con:element>
               <con:type xsi:nil="true"/>
@@ -1358,7 +1358,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -1369,7 +1369,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:IsHeld[1]</con:xpath>
               <con:element>IsHeld</con:element>
               <con:type xsi:nil="true"/>
@@ -1380,7 +1380,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:IsSentToKitchen[1]</con:xpath>
               <con:element>IsSentToKitchen</con:element>
               <con:type xsi:nil="true"/>
@@ -1391,7 +1391,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:ItemId[1]</con:xpath>
               <con:element>ItemId</con:element>
               <con:type xsi:nil="true"/>
@@ -1402,7 +1402,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:ModCodeId[1]</con:xpath>
               <con:element>ModCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -1413,7 +1413,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Modifiers[1]</con:xpath>
               <con:element>Modifiers</con:element>
               <con:type xsi:nil="true"/>
@@ -1424,7 +1424,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Name[1]</con:xpath>
               <con:element>Name</con:element>
               <con:type xsi:nil="true"/>
@@ -1435,7 +1435,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Note[1]</con:xpath>
               <con:element>Note</con:element>
               <con:type xsi:nil="true"/>
@@ -1446,7 +1446,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Note[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -1457,7 +1457,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OpenItemPrice[1]</con:xpath>
               <con:element>OpenItemPrice</con:element>
               <con:type xsi:nil="true"/>
@@ -1468,7 +1468,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OrderModeId[1]</con:xpath>
               <con:element>OrderModeId</con:element>
               <con:type xsi:nil="true"/>
@@ -1479,7 +1479,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OriginalPrice[1]</con:xpath>
               <con:element>OriginalPrice</con:element>
               <con:type xsi:nil="true"/>
@@ -1490,7 +1490,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Price[1]</con:xpath>
               <con:element>Price</con:element>
               <con:type xsi:nil="true"/>
@@ -1501,7 +1501,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:QcUpsellSurcharge[1]</con:xpath>
               <con:element>QcUpsellSurcharge</con:element>
               <con:type xsi:nil="true"/>
@@ -1512,7 +1512,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Seat[1]</con:xpath>
               <con:element>Seat</con:element>
               <con:type xsi:nil="true"/>
@@ -1523,7 +1523,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:SubMenuId[1]</con:xpath>
               <con:element>SubMenuId</con:element>
               <con:type xsi:nil="true"/>
@@ -1534,7 +1534,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Units[1]</con:xpath>
               <con:element>Units</con:element>
               <con:type xsi:nil="true"/>
@@ -1544,7 +1544,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddEntry">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/AddEntry">
    <EntryType>0</EntryType>
    <Id>209716656</Id>
    <IsHeld>false</IsHeld>
@@ -1612,13 +1612,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request>{"OpenItemPrice":0,"Quantity":1,"ItemId":66,"Modifiers":[]}</con:request>
-        <con:originalUri>https://192.168.1.132/Transaction/AddEntry</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/AddEntry</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="fa4d9c16-e7bf-4fe9-a657-a62e01be8641" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:EntryType[1]</con:xpath>
               <con:element>EntryType</con:element>
               <con:type xsi:nil="true"/>
@@ -1629,7 +1629,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -1640,7 +1640,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:IsHeld[1]</con:xpath>
               <con:element>IsHeld</con:element>
               <con:type xsi:nil="true"/>
@@ -1651,7 +1651,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:IsSentToKitchen[1]</con:xpath>
               <con:element>IsSentToKitchen</con:element>
               <con:type xsi:nil="true"/>
@@ -1662,7 +1662,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:ItemId[1]</con:xpath>
               <con:element>ItemId</con:element>
               <con:type xsi:nil="true"/>
@@ -1673,7 +1673,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:ModCodeId[1]</con:xpath>
               <con:element>ModCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -1684,7 +1684,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Modifiers[1]</con:xpath>
               <con:element>Modifiers</con:element>
               <con:type xsi:nil="true"/>
@@ -1695,7 +1695,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Name[1]</con:xpath>
               <con:element>Name</con:element>
               <con:type xsi:nil="true"/>
@@ -1706,7 +1706,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Note[1]</con:xpath>
               <con:element>Note</con:element>
               <con:type xsi:nil="true"/>
@@ -1717,7 +1717,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Note[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -1728,7 +1728,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OpenItemPrice[1]</con:xpath>
               <con:element>OpenItemPrice</con:element>
               <con:type xsi:nil="true"/>
@@ -1739,7 +1739,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OrderModeId[1]</con:xpath>
               <con:element>OrderModeId</con:element>
               <con:type xsi:nil="true"/>
@@ -1750,7 +1750,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OriginalPrice[1]</con:xpath>
               <con:element>OriginalPrice</con:element>
               <con:type xsi:nil="true"/>
@@ -1761,7 +1761,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Price[1]</con:xpath>
               <con:element>Price</con:element>
               <con:type xsi:nil="true"/>
@@ -1772,7 +1772,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:QcUpsellSurcharge[1]</con:xpath>
               <con:element>QcUpsellSurcharge</con:element>
               <con:type xsi:nil="true"/>
@@ -1783,7 +1783,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Seat[1]</con:xpath>
               <con:element>Seat</con:element>
               <con:type xsi:nil="true"/>
@@ -1794,7 +1794,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:SubMenuId[1]</con:xpath>
               <con:element>SubMenuId</con:element>
               <con:type xsi:nil="true"/>
@@ -1805,7 +1805,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Units[1]</con:xpath>
               <con:element>Units</con:element>
               <con:type xsi:nil="true"/>
@@ -1815,7 +1815,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddEntry">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/AddEntry">
    <EntryType>0</EntryType>
    <Id>209716657</Id>
    <IsHeld>false</IsHeld>
@@ -1883,13 +1883,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request>{"OpenItemPrice":0,"Quantity":1,"ItemId":65,"Modifiers":[]}</con:request>
-        <con:originalUri>https://192.168.1.132/Transaction/AddEntry</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/AddEntry</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="03ccebe1-1f8c-4c22-9a62-5843c0f1f8e4" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:EntryType[1]</con:xpath>
               <con:element>EntryType</con:element>
               <con:type xsi:nil="true"/>
@@ -1900,7 +1900,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -1911,7 +1911,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:IsHeld[1]</con:xpath>
               <con:element>IsHeld</con:element>
               <con:type xsi:nil="true"/>
@@ -1922,7 +1922,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:IsSentToKitchen[1]</con:xpath>
               <con:element>IsSentToKitchen</con:element>
               <con:type xsi:nil="true"/>
@@ -1933,7 +1933,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:ItemId[1]</con:xpath>
               <con:element>ItemId</con:element>
               <con:type xsi:nil="true"/>
@@ -1944,7 +1944,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:ModCodeId[1]</con:xpath>
               <con:element>ModCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -1955,7 +1955,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Modifiers[1]</con:xpath>
               <con:element>Modifiers</con:element>
               <con:type xsi:nil="true"/>
@@ -1966,7 +1966,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Name[1]</con:xpath>
               <con:element>Name</con:element>
               <con:type xsi:nil="true"/>
@@ -1977,7 +1977,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Note[1]</con:xpath>
               <con:element>Note</con:element>
               <con:type xsi:nil="true"/>
@@ -1988,7 +1988,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Note[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -1999,7 +1999,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OpenItemPrice[1]</con:xpath>
               <con:element>OpenItemPrice</con:element>
               <con:type xsi:nil="true"/>
@@ -2010,7 +2010,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OrderModeId[1]</con:xpath>
               <con:element>OrderModeId</con:element>
               <con:type xsi:nil="true"/>
@@ -2021,7 +2021,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:OriginalPrice[1]</con:xpath>
               <con:element>OriginalPrice</con:element>
               <con:type xsi:nil="true"/>
@@ -2032,7 +2032,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Price[1]</con:xpath>
               <con:element>Price</con:element>
               <con:type xsi:nil="true"/>
@@ -2043,7 +2043,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:QcUpsellSurcharge[1]</con:xpath>
               <con:element>QcUpsellSurcharge</con:element>
               <con:type xsi:nil="true"/>
@@ -2054,7 +2054,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Seat[1]</con:xpath>
               <con:element>Seat</con:element>
               <con:type xsi:nil="true"/>
@@ -2065,7 +2065,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:SubMenuId[1]</con:xpath>
               <con:element>SubMenuId</con:element>
               <con:type xsi:nil="true"/>
@@ -2076,7 +2076,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddEntry';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddEntry';
 //ns1:Response[1]/ns1:Units[1]</con:xpath>
               <con:element>Units</con:element>
               <con:type xsi:nil="true"/>
@@ -2086,7 +2086,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddEntry">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/AddEntry">
    <EntryType>0</EntryType>
    <Id>209716658</Id>
    <IsHeld>false</IsHeld>
@@ -2153,13 +2153,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/CheckCategoryRequirements</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/CheckCategoryRequirements</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="56dd6bb3-de33-442b-9318-f6cb12c3a997" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CheckCategoryRequirements';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/CheckCategoryRequirements';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -2170,7 +2170,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CheckCategoryRequirements';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/CheckCategoryRequirements';
 //ns1:Response[1]/ns1:Message[1]</con:xpath>
               <con:element>Message</con:element>
               <con:type xsi:nil="true"/>
@@ -2180,7 +2180,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage>&lt;Response xmlns="https://192.168.1.132/Transaction/CheckCategoryRequirements">
+            <con:originalMessage>&lt;Response xmlns="https://153.78.25.84/Transaction/CheckCategoryRequirements">
    &lt;Id>200&lt;/Id>
    &lt;Message/>
 &lt;/Response></con:originalMessage>
@@ -2216,13 +2216,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/GetPayment</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/GetPayment</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="8cf5185d-7c76-4a5d-a8d0-fb439e0867de" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:Balance[1]</con:xpath>
               <con:element>Balance</con:element>
               <con:type xsi:nil="true"/>
@@ -2233,7 +2233,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:CheckClosed[1]</con:xpath>
               <con:element>CheckClosed</con:element>
               <con:type xsi:nil="true"/>
@@ -2244,7 +2244,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:CompleteTotal[1]</con:xpath>
               <con:element>CompleteTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -2255,7 +2255,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:Comps[1]</con:xpath>
               <con:element>Comps</con:element>
               <con:type xsi:nil="true"/>
@@ -2266,7 +2266,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:ContextPanels[1]</con:xpath>
               <con:element>ContextPanels</con:element>
               <con:type xsi:nil="true"/>
@@ -2277,7 +2277,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:Gratuity[1]</con:xpath>
               <con:element>Gratuity</con:element>
               <con:type xsi:nil="true"/>
@@ -2288,7 +2288,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:GratuityAmount[1]</con:xpath>
               <con:element>GratuityAmount</con:element>
               <con:type xsi:nil="true"/>
@@ -2299,7 +2299,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:GratuityTax[1]</con:xpath>
               <con:element>GratuityTax</con:element>
               <con:type xsi:nil="true"/>
@@ -2310,7 +2310,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:IsApprovalNeeded[1]</con:xpath>
               <con:element>IsApprovalNeeded</con:element>
               <con:type xsi:nil="true"/>
@@ -2321,7 +2321,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
               <con:element>IsRoundingAdjustmentDisplayed</con:element>
               <con:type xsi:nil="true"/>
@@ -2332,7 +2332,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:Payments[1]</con:xpath>
               <con:element>Payments</con:element>
               <con:type xsi:nil="true"/>
@@ -2343,7 +2343,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:Promotions[1]</con:xpath>
               <con:element>Promotions</con:element>
               <con:type xsi:nil="true"/>
@@ -2354,7 +2354,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:RoundingAdjustment[1]</con:xpath>
               <con:element>RoundingAdjustment</con:element>
               <con:type xsi:nil="true"/>
@@ -2365,7 +2365,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:SubTotal[1]</con:xpath>
               <con:element>SubTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -2376,7 +2376,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:Tax[1]</con:xpath>
               <con:element>Tax</con:element>
               <con:type xsi:nil="true"/>
@@ -2387,7 +2387,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:TaxExempt[1]</con:xpath>
               <con:element>TaxExempt</con:element>
               <con:type xsi:nil="true"/>
@@ -2398,7 +2398,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:TaxNumber[1]</con:xpath>
               <con:element>TaxNumber</con:element>
               <con:type xsi:nil="true"/>
@@ -2409,7 +2409,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetPayment';
 //ns1:Response[1]/ns1:Total[1]</con:xpath>
               <con:element>Total</con:element>
               <con:type xsi:nil="true"/>
@@ -2419,7 +2419,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/GetPayment">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/GetPayment">
    <Balance>7.96</Balance>
    <CheckClosed>false</CheckClosed>
    <CompleteTotal>7.96</CompleteTotal>
@@ -2472,9 +2472,9 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/OrderAllItems</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/OrderAllItems</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="7110c3ac-b2a1-4e5a-bed4-cf307dc24d76" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
@@ -2712,13 +2712,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request>[[${entryId}], [${entryId2}], [${entryId3}]]</con:request>
-        <con:originalUri>https://192.168.1.132/Transaction/ApplyPromo</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/ApplyPromo</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="db192fdb-1346-4e86-910b-c7b8fba840fa" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Balance[1]</con:xpath>
               <con:element>Balance</con:element>
               <con:type xsi:nil="true"/>
@@ -2729,7 +2729,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:CheckClosed[1]</con:xpath>
               <con:element>CheckClosed</con:element>
               <con:type xsi:nil="true"/>
@@ -2740,7 +2740,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:CompleteTotal[1]</con:xpath>
               <con:element>CompleteTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -2751,7 +2751,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Comps[1]</con:xpath>
               <con:element>Comps</con:element>
               <con:type xsi:nil="true"/>
@@ -2762,7 +2762,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:ContextPanels[1]</con:xpath>
               <con:element>ContextPanels</con:element>
               <con:type xsi:nil="true"/>
@@ -2773,7 +2773,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Gratuity[1]</con:xpath>
               <con:element>Gratuity</con:element>
               <con:type xsi:nil="true"/>
@@ -2784,7 +2784,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:GratuityAmount[1]</con:xpath>
               <con:element>GratuityAmount</con:element>
               <con:type xsi:nil="true"/>
@@ -2795,7 +2795,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:GratuityTax[1]</con:xpath>
               <con:element>GratuityTax</con:element>
               <con:type xsi:nil="true"/>
@@ -2806,7 +2806,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:IsApprovalNeeded[1]</con:xpath>
               <con:element>IsApprovalNeeded</con:element>
               <con:type xsi:nil="true"/>
@@ -2817,7 +2817,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
               <con:element>IsRoundingAdjustmentDisplayed</con:element>
               <con:type xsi:nil="true"/>
@@ -2828,7 +2828,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Payments[1]</con:xpath>
               <con:element>Payments</con:element>
               <con:type xsi:nil="true"/>
@@ -2839,7 +2839,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:Amount[1]</con:xpath>
               <con:element>Amount</con:element>
               <con:type xsi:nil="true"/>
@@ -2850,7 +2850,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:EntryIds[1]</con:xpath>
               <con:element>EntryIds</con:element>
               <con:type xsi:nil="true"/>
@@ -2861,7 +2861,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -2872,7 +2872,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:PromoTypeId[1]</con:xpath>
               <con:element>PromoTypeId</con:element>
               <con:type xsi:nil="true"/>
@@ -2883,7 +2883,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:QuickComboLevel[1]</con:xpath>
               <con:element>QuickComboLevel</con:element>
               <con:type xsi:nil="true"/>
@@ -2894,7 +2894,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:RoundingAdjustment[1]</con:xpath>
               <con:element>RoundingAdjustment</con:element>
               <con:type xsi:nil="true"/>
@@ -2905,7 +2905,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:SubTotal[1]</con:xpath>
               <con:element>SubTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -2916,7 +2916,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Tax[1]</con:xpath>
               <con:element>Tax</con:element>
               <con:type xsi:nil="true"/>
@@ -2927,7 +2927,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:TaxExempt[1]</con:xpath>
               <con:element>TaxExempt</con:element>
               <con:type xsi:nil="true"/>
@@ -2938,7 +2938,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:TaxNumber[1]</con:xpath>
               <con:element>TaxNumber</con:element>
               <con:type xsi:nil="true"/>
@@ -2949,7 +2949,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ApplyPromo';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ApplyPromo';
 //ns1:Response[1]/ns1:Total[1]</con:xpath>
               <con:element>Total</con:element>
               <con:type xsi:nil="true"/>
@@ -2959,7 +2959,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/ApplyPromo">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/ApplyPromo">
    <Balance>6.37</Balance>
    <CheckClosed>false</CheckClosed>
    <CompleteTotal>6.37</CompleteTotal>
@@ -3020,13 +3020,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/GetBalanceDataForTender</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/GetBalanceDataForTender</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="9e8d5428-4cdb-42e9-b6f4-cbce22549e34" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetBalanceDataForTender';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetBalanceDataForTender';
 //ns1:Response[1]/ns1:Balance[1]</con:xpath>
               <con:element>Balance</con:element>
               <con:type xsi:nil="true"/>
@@ -3037,7 +3037,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetBalanceDataForTender';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetBalanceDataForTender';
 //ns1:Response[1]/ns1:Surcharge[1]</con:xpath>
               <con:element>Surcharge</con:element>
               <con:type xsi:nil="true"/>
@@ -3048,7 +3048,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/GetBalanceDataForTender';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/GetBalanceDataForTender';
 //ns1:Response[1]/ns1:TenderId[1]</con:xpath>
               <con:element>TenderId</con:element>
               <con:type xsi:nil="true"/>
@@ -3058,7 +3058,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/GetBalanceDataForTender">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/GetBalanceDataForTender">
    <Balance>6.37</Balance>
    <Surcharge>0</Surcharge>
    <TenderId>8</TenderId>
@@ -3097,13 +3097,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/AddPayment</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/AddPayment</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="855cd4eb-6766-45c1-ba55-0c39aae2645f" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Balance[1]</con:xpath>
               <con:element>Balance</con:element>
               <con:type xsi:nil="true"/>
@@ -3114,7 +3114,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:CheckClosed[1]</con:xpath>
               <con:element>CheckClosed</con:element>
               <con:type xsi:nil="true"/>
@@ -3125,7 +3125,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:CompleteTotal[1]</con:xpath>
               <con:element>CompleteTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -3136,7 +3136,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Comps[1]</con:xpath>
               <con:element>Comps</con:element>
               <con:type xsi:nil="true"/>
@@ -3147,7 +3147,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:ContextPanels[1]</con:xpath>
               <con:element>ContextPanels</con:element>
               <con:type xsi:nil="true"/>
@@ -3158,7 +3158,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Gratuity[1]</con:xpath>
               <con:element>Gratuity</con:element>
               <con:type xsi:nil="true"/>
@@ -3169,7 +3169,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:GratuityAmount[1]</con:xpath>
               <con:element>GratuityAmount</con:element>
               <con:type xsi:nil="true"/>
@@ -3180,7 +3180,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:GratuityTax[1]</con:xpath>
               <con:element>GratuityTax</con:element>
               <con:type xsi:nil="true"/>
@@ -3191,7 +3191,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:IsApprovalNeeded[1]</con:xpath>
               <con:element>IsApprovalNeeded</con:element>
               <con:type xsi:nil="true"/>
@@ -3202,7 +3202,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:IsRoundingAdjustmentDisplayed[1]</con:xpath>
               <con:element>IsRoundingAdjustmentDisplayed</con:element>
               <con:type xsi:nil="true"/>
@@ -3213,7 +3213,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Amount[1]</con:xpath>
               <con:element>Amount</con:element>
               <con:type xsi:nil="true"/>
@@ -3224,7 +3224,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Auth[1]</con:xpath>
               <con:element>Auth</con:element>
               <con:type xsi:nil="true"/>
@@ -3235,7 +3235,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:AuthResult[1]</con:xpath>
               <con:element>AuthResult</con:element>
               <con:type xsi:nil="true"/>
@@ -3246,7 +3246,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:ForeignCurrencyAmount[1]</con:xpath>
               <con:element>ForeignCurrencyAmount</con:element>
               <con:type xsi:nil="true"/>
@@ -3257,7 +3257,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:ForeignCurrencyTip[1]</con:xpath>
               <con:element>ForeignCurrencyTip</con:element>
               <con:type xsi:nil="true"/>
@@ -3268,7 +3268,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -3279,7 +3279,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Ident[1]</con:xpath>
               <con:element>Ident</con:element>
               <con:type xsi:nil="true"/>
@@ -3290,7 +3290,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:IsCreditCard[1]</con:xpath>
               <con:element>IsCreditCard</con:element>
               <con:type xsi:nil="true"/>
@@ -3301,7 +3301,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:IsDeclined[1]</con:xpath>
               <con:element>IsDeclined</con:element>
               <con:type xsi:nil="true"/>
@@ -3312,7 +3312,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Name[1]</con:xpath>
               <con:element>Name</con:element>
               <con:type xsi:nil="true"/>
@@ -3323,7 +3323,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Surcharge[1]</con:xpath>
               <con:element>Surcharge</con:element>
               <con:type xsi:nil="true"/>
@@ -3334,7 +3334,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:TenderId[1]</con:xpath>
               <con:element>TenderId</con:element>
               <con:type xsi:nil="true"/>
@@ -3345,7 +3345,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Payments[1]/ns1:e[1]/ns1:Tip[1]</con:xpath>
               <con:element>Tip</con:element>
               <con:type xsi:nil="true"/>
@@ -3356,7 +3356,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:Amount[1]</con:xpath>
               <con:element>Amount</con:element>
               <con:type xsi:nil="true"/>
@@ -3367,7 +3367,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:EntryIds[1]</con:xpath>
               <con:element>EntryIds</con:element>
               <con:type xsi:nil="true"/>
@@ -3378,7 +3378,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -3389,7 +3389,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:PromoTypeId[1]</con:xpath>
               <con:element>PromoTypeId</con:element>
               <con:type xsi:nil="true"/>
@@ -3400,7 +3400,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Promotions[1]/ns1:e[1]/ns1:QuickComboLevel[1]</con:xpath>
               <con:element>QuickComboLevel</con:element>
               <con:type xsi:nil="true"/>
@@ -3411,7 +3411,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:RoundingAdjustment[1]</con:xpath>
               <con:element>RoundingAdjustment</con:element>
               <con:type xsi:nil="true"/>
@@ -3422,7 +3422,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:SubTotal[1]</con:xpath>
               <con:element>SubTotal</con:element>
               <con:type xsi:nil="true"/>
@@ -3433,7 +3433,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Tax[1]</con:xpath>
               <con:element>Tax</con:element>
               <con:type xsi:nil="true"/>
@@ -3444,7 +3444,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:TaxExempt[1]</con:xpath>
               <con:element>TaxExempt</con:element>
               <con:type xsi:nil="true"/>
@@ -3455,7 +3455,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:TaxNumber[1]</con:xpath>
               <con:element>TaxNumber</con:element>
               <con:type xsi:nil="true"/>
@@ -3466,7 +3466,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/AddPayment';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/AddPayment';
 //ns1:Response[1]/ns1:Total[1]</con:xpath>
               <con:element>Total</con:element>
               <con:type xsi:nil="true"/>
@@ -3476,7 +3476,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/AddPayment">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/AddPayment">
    <Balance>0</Balance>
    <CheckClosed>false</CheckClosed>
    <CompleteTotal>6.37</CompleteTotal>
@@ -3558,13 +3558,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/CloseCheck</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/CloseCheck</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="747d443a-c2ab-4cac-ae90-84c128e0c510" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CloseCheck';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/CloseCheck';
 //ns1:Response[1]/ns1:_IsTableK__BackingField[1]</con:xpath>
               <con:element>_IsTableK__BackingField</con:element>
               <con:type xsi:nil="true"/>
@@ -3575,7 +3575,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CloseCheck';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/CloseCheck';
 //ns1:Response[1]/ns1:_TableK__BackingField[1]</con:xpath>
               <con:element>_TableK__BackingField</con:element>
               <con:type xsi:nil="true"/>
@@ -3586,7 +3586,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/CloseCheck';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/CloseCheck';
 //ns1:Response[1]/ns1:_TableK__BackingField[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -3596,7 +3596,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage>&lt;Response xmlns="https://192.168.1.132/Transaction/CloseCheck">
+            <con:originalMessage>&lt;Response xmlns="https://153.78.25.84/Transaction/CloseCheck">
    &lt;_IsTableK__BackingField>false&lt;/_IsTableK__BackingField>
    &lt;_TableK__BackingField null="true"/>
 &lt;/Response></con:originalMessage>
@@ -3634,13 +3634,13 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/logout</con:originalUri>
         <con:assertion type="MessageContentAssertion" id="413acf9e-6e88-4786-a8f3-f1bd97f2d370" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -3651,7 +3651,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Message[1]</con:xpath>
               <con:element>Message</con:element>
               <con:type xsi:nil="true"/>
@@ -3661,7 +3661,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/logout">
    <Id>200</Id>
    <Message>Logged Out successfully</Message>
 </Response>]]></con:originalMessage>

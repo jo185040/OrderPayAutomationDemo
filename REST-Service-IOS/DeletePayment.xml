@@ -43,11 +43,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:del="https://192.168.1.132/Transaction/DeletePayment">del:Response</con:element>
+      <con:element xmlns:del="https://153.78.25.84/Transaction/DeletePayment">del:Response</con:element>
     </con:representation>
     <con:request name="GET Request" id="6c2af1e3-5dfa-47ba-afdd-b3e5d317974a" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132</con:endpoint>
+      <con:endpoint>https://153.78.25.84</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

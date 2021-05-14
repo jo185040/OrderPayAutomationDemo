@@ -1826,7 +1826,7 @@
         </con:settings>
         <con:endpoint>https://153.78.25.54:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/ClockIn</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/ClockIn</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="1cd474f2-6bbc-492b-bc51-918c427e26b2" name="HTTP Header Equals">
           <con:configuration>
             <Header>#status#</Header>
@@ -1838,7 +1838,7 @@
         <con:assertion type="MessageContentAssertion" id="29840bd5-e170-4d36-9c68-4d86caa1cdef" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -1849,7 +1849,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -1860,7 +1860,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:AssignedDrawerId[1]</con:xpath>
               <con:element>AssignedDrawerId</con:element>
               <con:type xsi:nil="true"/>
@@ -1871,7 +1871,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:CardTrackData[1]</con:xpath>
               <con:element>CardTrackData</con:element>
               <con:type xsi:nil="true"/>
@@ -1882,7 +1882,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:CardTrackData[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -1893,7 +1893,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:CheckedOut[1]</con:xpath>
               <con:element>CheckedOut</con:element>
               <con:type xsi:nil="true"/>
@@ -1904,7 +1904,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:ClockedIn[1]</con:xpath>
               <con:element>ClockedIn</con:element>
               <con:type xsi:nil="true"/>
@@ -1915,7 +1915,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Date[1]</con:xpath>
               <con:element>Date</con:element>
               <con:type xsi:nil="true"/>
@@ -1926,7 +1926,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Date[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -1937,7 +1937,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:DefaultPrinterId[1]</con:xpath>
               <con:element>DefaultPrinterId</con:element>
               <con:type xsi:nil="true"/>
@@ -1948,7 +1948,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Firstname[1]</con:xpath>
               <con:element>Firstname</con:element>
               <con:type xsi:nil="true"/>
@@ -1959,7 +1959,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -1970,7 +1970,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:IsDrawerConfirmationNeeded[1]</con:xpath>
               <con:element>IsDrawerConfirmationNeeded</con:element>
               <con:type xsi:nil="true"/>
@@ -1981,7 +1981,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodeId[1]</con:xpath>
               <con:element>JobCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -1992,7 +1992,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Bartender[1]</con:xpath>
               <con:element>Bartender</con:element>
               <con:type xsi:nil="true"/>
@@ -2003,7 +2003,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanCloseCheck[1]</con:xpath>
               <con:element>CanCloseCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2014,7 +2014,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanGetCheck[1]</con:xpath>
               <con:element>CanGetCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2025,7 +2025,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CanOrderEntry[1]</con:xpath>
               <con:element>CanOrderEntry</con:element>
               <con:type xsi:nil="true"/>
@@ -2036,7 +2036,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CannotTenderToCash[1]</con:xpath>
               <con:element>CannotTenderToCash</con:element>
               <con:type xsi:nil="true"/>
@@ -2047,7 +2047,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CashDrawer[1]</con:xpath>
               <con:element>CashDrawer</con:element>
               <con:type xsi:nil="true"/>
@@ -2058,7 +2058,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:CheckType[1]</con:xpath>
               <con:element>CheckType</con:element>
               <con:type xsi:nil="true"/>
@@ -2069,7 +2069,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:DefScrn[1]</con:xpath>
               <con:element>DefScrn</con:element>
               <con:type xsi:nil="true"/>
@@ -2080,7 +2080,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:DefScrnTs[1]</con:xpath>
               <con:element>DefScrnTs</con:element>
               <con:type xsi:nil="true"/>
@@ -2091,7 +2091,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:EnableFPI[1]</con:xpath>
               <con:element>EnableFPI</con:element>
               <con:type xsi:nil="true"/>
@@ -2102,7 +2102,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -2113,7 +2113,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:LogName[1]</con:xpath>
               <con:element>LogName</con:element>
               <con:type xsi:nil="true"/>
@@ -2124,7 +2124,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:MustPromptForOrderMode[1]</con:xpath>
               <con:element>MustPromptForOrderMode</con:element>
               <con:type xsi:nil="true"/>
@@ -2135,7 +2135,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:NoClockInJit[1]</con:xpath>
               <con:element>NoClockInJit</con:element>
               <con:type xsi:nil="true"/>
@@ -2146,7 +2146,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Pivotseat[1]</con:xpath>
               <con:element>Pivotseat</con:element>
               <con:type xsi:nil="true"/>
@@ -2157,7 +2157,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:RestrictedOrderModeIds[1]</con:xpath>
               <con:element>RestrictedOrderModeIds</con:element>
               <con:type xsi:nil="true"/>
@@ -2168,7 +2168,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:SelfBanking[1]</con:xpath>
               <con:element>SelfBanking</con:element>
               <con:type xsi:nil="true"/>
@@ -2179,7 +2179,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:ShiftRequired[1]</con:xpath>
               <con:element>ShiftRequired</con:element>
               <con:type xsi:nil="true"/>
@@ -2190,7 +2190,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Shortname[1]</con:xpath>
               <con:element>Shortname</con:element>
               <con:type xsi:nil="true"/>
@@ -2201,7 +2201,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:TeamCheck[1]</con:xpath>
               <con:element>TeamCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2212,7 +2212,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:Training[1]</con:xpath>
               <con:element>Training</con:element>
               <con:type xsi:nil="true"/>
@@ -2223,7 +2223,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[1]/ns1:UseAlternativeTableNames[1]</con:xpath>
               <con:element>UseAlternativeTableNames</con:element>
               <con:type xsi:nil="true"/>
@@ -2234,7 +2234,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:Bartender[1]</con:xpath>
               <con:element>Bartender</con:element>
               <con:type xsi:nil="true"/>
@@ -2245,7 +2245,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:CanCloseCheck[1]</con:xpath>
               <con:element>CanCloseCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2256,7 +2256,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:CanGetCheck[1]</con:xpath>
               <con:element>CanGetCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2267,7 +2267,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:CanOrderEntry[1]</con:xpath>
               <con:element>CanOrderEntry</con:element>
               <con:type xsi:nil="true"/>
@@ -2278,7 +2278,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:CannotTenderToCash[1]</con:xpath>
               <con:element>CannotTenderToCash</con:element>
               <con:type xsi:nil="true"/>
@@ -2289,7 +2289,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:CashDrawer[1]</con:xpath>
               <con:element>CashDrawer</con:element>
               <con:type xsi:nil="true"/>
@@ -2300,7 +2300,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:CheckType[1]</con:xpath>
               <con:element>CheckType</con:element>
               <con:type xsi:nil="true"/>
@@ -2311,7 +2311,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:DefScrn[1]</con:xpath>
               <con:element>DefScrn</con:element>
               <con:type xsi:nil="true"/>
@@ -2322,7 +2322,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:DefScrnTs[1]</con:xpath>
               <con:element>DefScrnTs</con:element>
               <con:type xsi:nil="true"/>
@@ -2333,7 +2333,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:EnableFPI[1]</con:xpath>
               <con:element>EnableFPI</con:element>
               <con:type xsi:nil="true"/>
@@ -2344,7 +2344,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -2355,7 +2355,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:LogName[1]</con:xpath>
               <con:element>LogName</con:element>
               <con:type xsi:nil="true"/>
@@ -2366,7 +2366,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:MustPromptForOrderMode[1]</con:xpath>
               <con:element>MustPromptForOrderMode</con:element>
               <con:type xsi:nil="true"/>
@@ -2377,7 +2377,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:NoClockInJit[1]</con:xpath>
               <con:element>NoClockInJit</con:element>
               <con:type xsi:nil="true"/>
@@ -2388,7 +2388,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:Pivotseat[1]</con:xpath>
               <con:element>Pivotseat</con:element>
               <con:type xsi:nil="true"/>
@@ -2399,7 +2399,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:RestrictedOrderModeIds[1]</con:xpath>
               <con:element>RestrictedOrderModeIds</con:element>
               <con:type xsi:nil="true"/>
@@ -2410,7 +2410,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:SelfBanking[1]</con:xpath>
               <con:element>SelfBanking</con:element>
               <con:type xsi:nil="true"/>
@@ -2421,7 +2421,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:ShiftRequired[1]</con:xpath>
               <con:element>ShiftRequired</con:element>
               <con:type xsi:nil="true"/>
@@ -2432,7 +2432,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:Shortname[1]</con:xpath>
               <con:element>Shortname</con:element>
               <con:type xsi:nil="true"/>
@@ -2443,7 +2443,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:TeamCheck[1]</con:xpath>
               <con:element>TeamCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2454,7 +2454,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:Training[1]</con:xpath>
               <con:element>Training</con:element>
               <con:type xsi:nil="true"/>
@@ -2465,7 +2465,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[2]/ns1:UseAlternativeTableNames[1]</con:xpath>
               <con:element>UseAlternativeTableNames</con:element>
               <con:type xsi:nil="true"/>
@@ -2476,7 +2476,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:Bartender[1]</con:xpath>
               <con:element>Bartender</con:element>
               <con:type xsi:nil="true"/>
@@ -2487,7 +2487,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:CanCloseCheck[1]</con:xpath>
               <con:element>CanCloseCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2498,7 +2498,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:CanGetCheck[1]</con:xpath>
               <con:element>CanGetCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2509,7 +2509,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:CanOrderEntry[1]</con:xpath>
               <con:element>CanOrderEntry</con:element>
               <con:type xsi:nil="true"/>
@@ -2520,7 +2520,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:CannotTenderToCash[1]</con:xpath>
               <con:element>CannotTenderToCash</con:element>
               <con:type xsi:nil="true"/>
@@ -2531,7 +2531,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:CashDrawer[1]</con:xpath>
               <con:element>CashDrawer</con:element>
               <con:type xsi:nil="true"/>
@@ -2542,7 +2542,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:CheckType[1]</con:xpath>
               <con:element>CheckType</con:element>
               <con:type xsi:nil="true"/>
@@ -2553,7 +2553,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:DefScrn[1]</con:xpath>
               <con:element>DefScrn</con:element>
               <con:type xsi:nil="true"/>
@@ -2564,7 +2564,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:DefScrnTs[1]</con:xpath>
               <con:element>DefScrnTs</con:element>
               <con:type xsi:nil="true"/>
@@ -2575,7 +2575,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:EnableFPI[1]</con:xpath>
               <con:element>EnableFPI</con:element>
               <con:type xsi:nil="true"/>
@@ -2586,7 +2586,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -2597,7 +2597,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:LogName[1]</con:xpath>
               <con:element>LogName</con:element>
               <con:type xsi:nil="true"/>
@@ -2608,7 +2608,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:MustPromptForOrderMode[1]</con:xpath>
               <con:element>MustPromptForOrderMode</con:element>
               <con:type xsi:nil="true"/>
@@ -2619,7 +2619,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:NoClockInJit[1]</con:xpath>
               <con:element>NoClockInJit</con:element>
               <con:type xsi:nil="true"/>
@@ -2630,7 +2630,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:Pivotseat[1]</con:xpath>
               <con:element>Pivotseat</con:element>
               <con:type xsi:nil="true"/>
@@ -2641,7 +2641,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:RestrictedOrderModeIds[1]</con:xpath>
               <con:element>RestrictedOrderModeIds</con:element>
               <con:type xsi:nil="true"/>
@@ -2652,7 +2652,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:SelfBanking[1]</con:xpath>
               <con:element>SelfBanking</con:element>
               <con:type xsi:nil="true"/>
@@ -2663,7 +2663,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:ShiftRequired[1]</con:xpath>
               <con:element>ShiftRequired</con:element>
               <con:type xsi:nil="true"/>
@@ -2674,7 +2674,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:Shortname[1]</con:xpath>
               <con:element>Shortname</con:element>
               <con:type xsi:nil="true"/>
@@ -2685,7 +2685,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:TeamCheck[1]</con:xpath>
               <con:element>TeamCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2696,7 +2696,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:Training[1]</con:xpath>
               <con:element>Training</con:element>
               <con:type xsi:nil="true"/>
@@ -2707,7 +2707,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[3]/ns1:UseAlternativeTableNames[1]</con:xpath>
               <con:element>UseAlternativeTableNames</con:element>
               <con:type xsi:nil="true"/>
@@ -2718,7 +2718,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:Bartender[1]</con:xpath>
               <con:element>Bartender</con:element>
               <con:type xsi:nil="true"/>
@@ -2729,7 +2729,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:CanCloseCheck[1]</con:xpath>
               <con:element>CanCloseCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2740,7 +2740,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:CanGetCheck[1]</con:xpath>
               <con:element>CanGetCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2751,7 +2751,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:CanOrderEntry[1]</con:xpath>
               <con:element>CanOrderEntry</con:element>
               <con:type xsi:nil="true"/>
@@ -2762,7 +2762,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:CannotTenderToCash[1]</con:xpath>
               <con:element>CannotTenderToCash</con:element>
               <con:type xsi:nil="true"/>
@@ -2773,7 +2773,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:CashDrawer[1]</con:xpath>
               <con:element>CashDrawer</con:element>
               <con:type xsi:nil="true"/>
@@ -2784,7 +2784,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:CheckType[1]</con:xpath>
               <con:element>CheckType</con:element>
               <con:type xsi:nil="true"/>
@@ -2795,7 +2795,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:DefScrn[1]</con:xpath>
               <con:element>DefScrn</con:element>
               <con:type xsi:nil="true"/>
@@ -2806,7 +2806,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:DefScrnTs[1]</con:xpath>
               <con:element>DefScrnTs</con:element>
               <con:type xsi:nil="true"/>
@@ -2817,7 +2817,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:EnableFPI[1]</con:xpath>
               <con:element>EnableFPI</con:element>
               <con:type xsi:nil="true"/>
@@ -2828,7 +2828,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -2839,7 +2839,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:LogName[1]</con:xpath>
               <con:element>LogName</con:element>
               <con:type xsi:nil="true"/>
@@ -2850,7 +2850,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:MustPromptForOrderMode[1]</con:xpath>
               <con:element>MustPromptForOrderMode</con:element>
               <con:type xsi:nil="true"/>
@@ -2861,7 +2861,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:NoClockInJit[1]</con:xpath>
               <con:element>NoClockInJit</con:element>
               <con:type xsi:nil="true"/>
@@ -2872,7 +2872,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:Pivotseat[1]</con:xpath>
               <con:element>Pivotseat</con:element>
               <con:type xsi:nil="true"/>
@@ -2883,7 +2883,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:RestrictedOrderModeIds[1]</con:xpath>
               <con:element>RestrictedOrderModeIds</con:element>
               <con:type xsi:nil="true"/>
@@ -2894,7 +2894,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:SelfBanking[1]</con:xpath>
               <con:element>SelfBanking</con:element>
               <con:type xsi:nil="true"/>
@@ -2905,7 +2905,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:ShiftRequired[1]</con:xpath>
               <con:element>ShiftRequired</con:element>
               <con:type xsi:nil="true"/>
@@ -2916,7 +2916,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:Shortname[1]</con:xpath>
               <con:element>Shortname</con:element>
               <con:type xsi:nil="true"/>
@@ -2927,7 +2927,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:TeamCheck[1]</con:xpath>
               <con:element>TeamCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2938,7 +2938,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:Training[1]</con:xpath>
               <con:element>Training</con:element>
               <con:type xsi:nil="true"/>
@@ -2949,7 +2949,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[4]/ns1:UseAlternativeTableNames[1]</con:xpath>
               <con:element>UseAlternativeTableNames</con:element>
               <con:type xsi:nil="true"/>
@@ -2960,7 +2960,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:Bartender[1]</con:xpath>
               <con:element>Bartender</con:element>
               <con:type xsi:nil="true"/>
@@ -2971,7 +2971,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:CanCloseCheck[1]</con:xpath>
               <con:element>CanCloseCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2982,7 +2982,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:CanGetCheck[1]</con:xpath>
               <con:element>CanGetCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -2993,7 +2993,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:CanOrderEntry[1]</con:xpath>
               <con:element>CanOrderEntry</con:element>
               <con:type xsi:nil="true"/>
@@ -3004,7 +3004,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:CannotTenderToCash[1]</con:xpath>
               <con:element>CannotTenderToCash</con:element>
               <con:type xsi:nil="true"/>
@@ -3015,7 +3015,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:CashDrawer[1]</con:xpath>
               <con:element>CashDrawer</con:element>
               <con:type xsi:nil="true"/>
@@ -3026,7 +3026,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:CheckType[1]</con:xpath>
               <con:element>CheckType</con:element>
               <con:type xsi:nil="true"/>
@@ -3037,7 +3037,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:DefScrn[1]</con:xpath>
               <con:element>DefScrn</con:element>
               <con:type xsi:nil="true"/>
@@ -3048,7 +3048,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:DefScrnTs[1]</con:xpath>
               <con:element>DefScrnTs</con:element>
               <con:type xsi:nil="true"/>
@@ -3059,7 +3059,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:EnableFPI[1]</con:xpath>
               <con:element>EnableFPI</con:element>
               <con:type xsi:nil="true"/>
@@ -3070,7 +3070,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -3081,7 +3081,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:LogName[1]</con:xpath>
               <con:element>LogName</con:element>
               <con:type xsi:nil="true"/>
@@ -3092,7 +3092,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:MustPromptForOrderMode[1]</con:xpath>
               <con:element>MustPromptForOrderMode</con:element>
               <con:type xsi:nil="true"/>
@@ -3103,7 +3103,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:NoClockInJit[1]</con:xpath>
               <con:element>NoClockInJit</con:element>
               <con:type xsi:nil="true"/>
@@ -3114,7 +3114,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:Pivotseat[1]</con:xpath>
               <con:element>Pivotseat</con:element>
               <con:type xsi:nil="true"/>
@@ -3125,7 +3125,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:RestrictedOrderModeIds[1]</con:xpath>
               <con:element>RestrictedOrderModeIds</con:element>
               <con:type xsi:nil="true"/>
@@ -3136,7 +3136,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:SelfBanking[1]</con:xpath>
               <con:element>SelfBanking</con:element>
               <con:type xsi:nil="true"/>
@@ -3147,7 +3147,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:ShiftRequired[1]</con:xpath>
               <con:element>ShiftRequired</con:element>
               <con:type xsi:nil="true"/>
@@ -3158,7 +3158,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:Shortname[1]</con:xpath>
               <con:element>Shortname</con:element>
               <con:type xsi:nil="true"/>
@@ -3169,7 +3169,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:TeamCheck[1]</con:xpath>
               <con:element>TeamCheck</con:element>
               <con:type xsi:nil="true"/>
@@ -3180,7 +3180,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:Training[1]</con:xpath>
               <con:element>Training</con:element>
               <con:type xsi:nil="true"/>
@@ -3191,7 +3191,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:JobCodes[1]/ns1:e[5]/ns1:UseAlternativeTableNames[1]</con:xpath>
               <con:element>UseAlternativeTableNames</con:element>
               <con:type xsi:nil="true"/>
@@ -3202,7 +3202,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:LastName[1]</con:xpath>
               <con:element>LastName</con:element>
               <con:type xsi:nil="true"/>
@@ -3213,7 +3213,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:LoggedIn[1]</con:xpath>
               <con:element>LoggedIn</con:element>
               <con:type xsi:nil="true"/>
@@ -3224,7 +3224,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:MenuId[1]</con:xpath>
               <con:element>MenuId</con:element>
               <con:type xsi:nil="true"/>
@@ -3235,7 +3235,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:MiddleName[1]</con:xpath>
               <con:element>MiddleName</con:element>
               <con:type xsi:nil="true"/>
@@ -3246,7 +3246,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Nickname[1]</con:xpath>
               <con:element>Nickname</con:element>
               <con:type xsi:nil="true"/>
@@ -3257,7 +3257,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Password[1]</con:xpath>
               <con:element>Password</con:element>
               <con:type xsi:nil="true"/>
@@ -3268,7 +3268,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Password[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -3279,7 +3279,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:RequireGuestCount[1]</con:xpath>
               <con:element>RequireGuestCount</con:element>
               <con:type xsi:nil="true"/>
@@ -3290,7 +3290,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[1]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -3301,7 +3301,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[1]/ns1:JobCodeId[1]</con:xpath>
               <con:element>JobCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -3312,7 +3312,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[2]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -3323,7 +3323,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[2]/ns1:JobCodeId[1]</con:xpath>
               <con:element>JobCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -3334,7 +3334,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[3]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -3345,7 +3345,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[3]/ns1:JobCodeId[1]</con:xpath>
               <con:element>JobCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -3356,7 +3356,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[4]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -3367,7 +3367,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[4]/ns1:JobCodeId[1]</con:xpath>
               <con:element>JobCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -3378,7 +3378,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[5]/ns1:AccessLevelId[1]</con:xpath>
               <con:element>AccessLevelId</con:element>
               <con:type xsi:nil="true"/>
@@ -3389,7 +3389,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Roles[1]/ns1:e[5]/ns1:JobCodeId[1]</con:xpath>
               <con:element>JobCodeId</con:element>
               <con:type xsi:nil="true"/>
@@ -3400,7 +3400,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Time[1]</con:xpath>
               <con:element>Time</con:element>
               <con:type xsi:nil="true"/>
@@ -3411,7 +3411,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:Employee[1]/ns1:Time[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -3422,7 +3422,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:IsFastTab[1]</con:xpath>
               <con:element>IsFastTab</con:element>
               <con:type xsi:nil="true"/>
@@ -3433,7 +3433,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:NewFastTab[1]</con:xpath>
               <con:element>NewFastTab</con:element>
               <con:type xsi:nil="true"/>
@@ -3444,7 +3444,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:NewFastTab[1]/@null</con:xpath>
               <con:element>@null</con:element>
               <con:type/>
@@ -3455,7 +3455,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/ClockIn';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/ClockIn';
 //ns1:Response[1]/ns1:RequireGuestCount[1]</con:xpath>
               <con:element>RequireGuestCount</con:element>
               <con:type xsi:nil="true"/>
@@ -3465,7 +3465,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/ClockIn">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/ClockIn">
    <AccessLevelId>16</AccessLevelId>
    <Employee>
       <AccessLevelId>16</AccessLevelId>
@@ -3670,7 +3670,7 @@
         </con:settings>
         <con:endpoint>https://153.78.25.54:8897</con:endpoint>
         <con:request/>
-        <con:originalUri>https://192.168.1.132/Transaction/logout</con:originalUri>
+        <con:originalUri>https://153.78.25.84/Transaction/logout</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="624815e7-5cd2-46d3-9d76-55692ce30cc8" name="HTTP Header Equals">
           <con:configuration>
             <Header>#status#</Header>
@@ -3682,7 +3682,7 @@
         <con:assertion type="MessageContentAssertion" id="18eadfe2-0b3d-4fcd-b71b-bc37620afed3" name="Message Content Assertion">
           <con:configuration xsi:type="con:MessageContentAssertion">
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Id[1]</con:xpath>
               <con:element>Id</con:element>
               <con:type xsi:nil="true"/>
@@ -3693,7 +3693,7 @@
               <con:numberType>false</con:numberType>
             </con:elements>
             <con:elements>
-              <con:xpath>declare namespace ns1='https://192.168.1.132/Transaction/logout';
+              <con:xpath>declare namespace ns1='https://153.78.25.84/Transaction/logout';
 //ns1:Response[1]/ns1:Message[1]</con:xpath>
               <con:element>Message</con:element>
               <con:type xsi:nil="true"/>
@@ -3703,7 +3703,7 @@
               <con:hasValue>false</con:hasValue>
               <con:numberType>false</con:numberType>
             </con:elements>
-            <con:originalMessage><![CDATA[<Response xmlns="https://192.168.1.132/Transaction/logout">
+            <con:originalMessage><![CDATA[<Response xmlns="https://153.78.25.84/Transaction/logout">
    <Id>200</Id>
    <Message>Logged Out successfully</Message>
 </Response>]]></con:originalMessage>

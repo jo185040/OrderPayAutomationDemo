@@ -29,11 +29,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:com="https://192.168.1.132/Transaction/CombineTables">com:Response</con:element>
+      <con:element xmlns:com="https://153.78.25.84/Transaction/CombineTables">com:Response</con:element>
     </con:representation>
     <con:request name="POST Request" id="0653f1e0-c510-4af3-9cf2-9e88c87bfc2e" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

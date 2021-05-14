@@ -29,11 +29,11 @@
       <con:mediaType>application/json; charset=utf-8</con:mediaType>
       <con:status>200</con:status>
       <con:params/>
-      <con:element xmlns:get="https://192.168.1.132/Transaction/GetMenuItemPrice">get:Response</con:element>
+      <con:element xmlns:get="https://153.78.25.84/Transaction/GetMenuItemPrice">get:Response</con:element>
     </con:representation>
     <con:request name="POST Request" id="6dd8c2c0-d0e3-4742-bb36-b839014a30dd" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

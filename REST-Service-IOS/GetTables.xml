@@ -29,7 +29,7 @@
     </con:representation>
     <con:request name="GET Request" id="10fd485b-150c-4a00-bfd2-9f01ab13ce8b" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

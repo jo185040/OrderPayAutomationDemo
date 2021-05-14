@@ -51,7 +51,7 @@
     </con:representation>
     <con:request name="POST Request" id="2c918cc0-237c-4506-a8f9-bbc372308629" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+      <con:endpoint>https://153.78.25.84:8897</con:endpoint>
       <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>

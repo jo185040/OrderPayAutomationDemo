@@ -37,7 +37,7 @@
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
-        <con:endpoint>https://192.168.1.132:8897</con:endpoint>
+        <con:endpoint>https://153.78.25.84:8897</con:endpoint>
         <con:request/>
         <con:originalUri>https://172.16.95.5/Transaction/login</con:originalUri>
         <con:assertion type="HTTP Header Equals" id="95225dc3-6dd9-4c23-b8a5-b5a9b053e9b0" name="ErrorMessage">
