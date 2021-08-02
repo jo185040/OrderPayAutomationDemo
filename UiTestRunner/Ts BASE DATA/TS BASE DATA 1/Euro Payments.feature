@@ -1,4 +1,4 @@
-Feature: 9 Euro Payments
+Feature: 8 Euro Payments
 
 @ Payments @TSSmokeTest
 

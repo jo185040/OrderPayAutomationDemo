@@ -1,4 +1,4 @@
-Feature: 24 Open Table
+Feature: 23 Open Table
 
 @ OpenItems
 

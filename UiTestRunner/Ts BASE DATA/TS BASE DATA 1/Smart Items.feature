@@ -1,4 +1,4 @@
-Feature: 25 Smart Items
+Feature: 24 Smart Items
 
 @ Payments
 

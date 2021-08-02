@@ -1,4 +1,4 @@
-Feature: 13 Enter Manager Password Screen
+Feature: 12 Enter Manager Password Screen
 
 @ JIT
 

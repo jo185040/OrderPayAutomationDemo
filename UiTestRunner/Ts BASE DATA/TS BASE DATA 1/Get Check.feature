@@ -1,4 +1,4 @@
-Feature: 18 Get Check
+Feature: 17 Get Check
 
 @ getcheck
 

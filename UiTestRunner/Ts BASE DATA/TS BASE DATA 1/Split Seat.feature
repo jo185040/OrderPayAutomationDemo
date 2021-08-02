@@ -1,4 +1,4 @@
-Feature: 28 Split Seat
+Feature: 27 Split Seat
 
 @ splitseat
 

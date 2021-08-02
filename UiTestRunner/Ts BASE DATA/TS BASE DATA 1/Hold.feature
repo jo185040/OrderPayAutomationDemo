@@ -1,12 +1,14 @@
-Feature: 22 Hold
+Feature: 21 Hold
 
 #@ Hold
+#@ ignore
+#@ ignore
+#@ignore
 #@ ignore
 #@ ignore
 @ ignore
 
 Scenario: 1 Hold Item
-@ignore
 # 1 Login as manager 200
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 	When clicked [2],[0],[0]
@@ -55,7 +57,6 @@ Scenario: 1 Hold Item
 	When clicked [Exit]
 
 Scenario: 2 Hold Item Reduce Time
-@ignore
 # 1 Login as manager 200
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 	When clicked [2],[0],[0]

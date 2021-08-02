@@ -1,4 +1,4 @@
-Feature: 27 Split Check
+Feature: 26 Split Check
 
 @ TSSmokeTest
 

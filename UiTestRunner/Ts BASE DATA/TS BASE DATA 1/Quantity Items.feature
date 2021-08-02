@@ -1,4 +1,4 @@
-Feature: 37 Quantity Items
+Feature: 36 Quantity Items
 
 @ quantity
 

@@ -1,4 +1,4 @@
-Feature: 5 Combine/Detach Tables
+Feature: 3 Combine/Detach Tables
 
 @ CombineTables
 

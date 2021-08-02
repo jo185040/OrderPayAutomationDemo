@@ -1,4 +1,4 @@
-Feature: 36 PLU
+Feature: 35 PLU
 
 @ PLU
 

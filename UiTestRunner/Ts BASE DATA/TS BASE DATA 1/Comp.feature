@@ -1,4 +1,4 @@
-Feature: 7 Comp
+Feature: 6 Comp
 
 @ Comp
 
