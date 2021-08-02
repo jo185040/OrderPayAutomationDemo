@@ -1,4 +1,4 @@
-Feature: 5 Combos
+Feature: 6 Combos
 
 @ combos
 

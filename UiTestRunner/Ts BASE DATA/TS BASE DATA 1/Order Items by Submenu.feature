@@ -1,4 +1,4 @@
-Feature: 32 Order Items by Submenu
+Feature: 33 Order Items by Submenu
 
 
 Scenario: 1 Verify you can order items from Soup & Salad Menu (Server)
@@ -43,7 +43,7 @@ Scenario: 1 Verify you can order items from Soup & Salad Menu (Server)
 # 11 Select $ on Payment Screen
 	Given screen state {099}
 	Then clicked [$]
-# 12 Exact/Close/LogOut (repeat 2 times of 39.142.2090)
+# 12 Exact/Close/LogOut (repeat 2 times of 2.8.32)
 	When repeated 2 times Exact/Close/LogOut
 
 Scenario: 2 Verify you can order items from Desserts Menu (Server)

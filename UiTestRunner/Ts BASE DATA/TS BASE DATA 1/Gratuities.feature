@@ -1,4 +1,4 @@
-Feature: 9 Gratuities
+Feature: 10 Gratuities
 
 @ Payments
 

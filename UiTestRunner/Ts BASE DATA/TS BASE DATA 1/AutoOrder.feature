@@ -1,10 +1,10 @@
 #on POS functionality is set Aloha.INI:
-Feature: 4 AutoOrder Items
+Feature: 5 AutoOrder Items
 
 @ TSSmokeTest
 
 Scenario: 1 Add some items, verify they are AUTO ORDERED when going to payments.
-# 1 LogIn_200/Table_1/GuestCount_1 (defined function) (repeat of 39.142.2081)
+# 1 LogIn_200/Table_1/GuestCount_1 (defined function) (repeat of 2.8.23)
 	When repeated LogIn_200/Table_1/GuestCount_1 (defined function)
 # 2 Add COKE
 	Given screen state [CenterMenuButtons~LUNCH MENU]

@@ -1,4 +1,4 @@
-Feature: 7 Delete
+Feature: 8 Delete
 
 @ delete
 

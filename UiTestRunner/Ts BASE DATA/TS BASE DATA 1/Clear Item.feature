@@ -1,4 +1,4 @@
-Feature: 2 Clear Item
+Feature: 3 Clear Item
 
 @ TSSmokeTest
 
