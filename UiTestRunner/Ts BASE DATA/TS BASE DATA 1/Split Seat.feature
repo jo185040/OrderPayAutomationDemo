@@ -51,6 +51,7 @@ Scenario: 1 Login as manager 200 to Floor Plan
 	When clicked [Exit]
 
 Scenario: 2 Select Multiple Items on Split Check
+@ignore
 # 1 Login as manager 200
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 	When clicked [2],[0],[0]

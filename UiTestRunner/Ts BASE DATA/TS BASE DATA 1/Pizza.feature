@@ -1,3 +1,4 @@
+#ALOHAP-32648 Transfer Table screen automatically selecting the table which is wrong
 Feature: 16 Pizza
 
 @ TSSmokeTest
