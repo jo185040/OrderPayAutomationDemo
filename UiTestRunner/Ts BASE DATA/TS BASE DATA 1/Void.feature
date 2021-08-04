@@ -23,16 +23,16 @@ Scenario: 1 Verify you can void items with no issues
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [HERE]
 # 6 Select Coke on Check
-	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Given screen state {001}
 	Then clicked "COKE"
 # 7 Void COKE
-	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Given screen state {001}
 	Then clicked [BottomButtons~Void]
 # 8 Select COKE on Void Screen
-	Given screen state "ItemSelectionDialog~Select items to void"
+	Given screen state {019}
 	Then clicked (Items~COKE)
 # 9 Select OK on Void Screen
-	Given screen state "ItemSelectionDialog~Select items to void"
+	Given screen state {023}
 	Then clicked [Items~OK]
 # 10 Select Void Reason on Void Screen
 	Given screen state "SelectEntityDialog~Select Void Reason",[DialogSeparator~TESTING],[DialogSeparator~OVERRING],[DialogSeparator~MISRING],[DialogSeparator~*86*],[DialogSeparator~X],[DialogSeparator~Cancel]

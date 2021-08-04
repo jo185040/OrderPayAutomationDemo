@@ -1,4 +1,4 @@
-Feature: 2 Add Check
+Feature: 3 Add Check
 
 
 Scenario: 1 Add Check
@@ -50,5 +50,6 @@ Scenario: 1 Add Check
 	When clicked [FloorPlanScreen~Exit]
 
 Scenario: 2 Repeat Scenario: 1 Add Check 20 times
-# 1 LogIn_200/Table_1/GuestCount_1 (defined function) (repeat 2 times of 2.8.23)
+@ignore
+# 1 LogIn_200/Table_1/GuestCount_1 (defined function) (repeat 2 times of 3.9.30)
 	When repeated 2 times LogIn_200/Table_1/GuestCount_1 (defined function)

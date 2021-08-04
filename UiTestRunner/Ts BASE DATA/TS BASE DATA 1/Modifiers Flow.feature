@@ -248,7 +248,7 @@ Scenario: 5 Verify Bread Scenario
 	Given screen state "Modifer~Chive Spread",[CenterCategoryButtons~Spread Light T],[RightModifierButtons~BACON]
 	Then clicked [OK]
 # 13 Dismiss Error Message
-	Given screen state "DialogSeparator~At least one of Spread Light T is required"
+	Given screen state "DialogSeparator~At least 1 of Spread Light T is required"
 	Then clicked [DialogSeparator~OK]
 # 14 On Spread Light Modscreen Select Bacon
 	Given screen state "Modifer~Chive Spread",[CenterCategoryButtons~Spread Light T],[RightModifierButtons~BACON]
@@ -441,22 +441,19 @@ Scenario: 9 Wrap Modifier Flow
 # 8 On Add On Bagel
 	Given screen state "Modifer~Pastries",[CenterCategoryButtons~ADD SOUR CRM],[CenterCategoryButtons~BAGEL/CROISSANT],[RightModifierButtons~ON\BAGEL]
 	Then clicked [RightModifierButtons~ON\BAGEL]
-# 9 Verify BAGEL added, exit mods by "OK"
-	Given screen state "Modifer~Wrap","Modifer~5.50","Modifer~-  - ON BAGEL"
-	Then clicked [OK]
-# 10 Apply HERE Ordermode
+# 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","EntriesBySeat~5.50"
 	Then clicked [HERE]
-# 11 Select $ on Payment Screen
+# 10 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","EntriesBySeat~5.50"
 	Then clicked [$]
-# 12 Exact Payment
+# 11 Exact Payment
 	Given screen state "ItemEntries~Seat 1","ItemEntries~Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","ItemEntries~5.50","Comps~Sub Total","Comps~5.50","Taxes~Tax","Taxes~0.34","Taxes~Total","Taxes~5.84","Tenders~Balance Due","Tenders~$5.84"
 	Then clicked [Exact]
-# 13 Click Close
+# 12 Click Close
 	Given screen state "ItemEntries~Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","ItemEntries~5.50","Comps~Sub Total","Comps~5.50","Taxes~Tax","Taxes~0.34","Taxes~Total","Taxes~5.84","Tenders~CASH","Tenders~5.84","Tenders~Change","Tenders~$0.00"
 	Then clicked [MidButtons~Close]
-# 14 Exit FloorPlan
+# 13 Exit FloorPlan
 	Given screen state {558}
 	When clicked [Exit]
 

@@ -362,6 +362,7 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 # 12 Add Check "Diet Coke"
 	Given screen state {063}
 	Then clicked "Entries~DIET COKE"
+	Then clicked "Entries~DIET COKE"
 	Then clicked [BottomCenterButtons~Add]
 # 13 Add Check "Diet 7Up"
 	Given screen state {064}
@@ -369,6 +370,7 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 	Then clicked [BottomCenterButtons~Add]
 # 14 Add Check "Iced Tea"
 	Given screen state {065}
+	Then clicked "Entries~ICED TEA"
 	Then clicked "Entries~ICED TEA"
 	Then clicked [BottomCenterButtons~Add]
 # 15 Scroll Back to First Screen

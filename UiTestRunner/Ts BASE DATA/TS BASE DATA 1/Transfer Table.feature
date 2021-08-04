@@ -1,4 +1,4 @@
-Feature: 34 Transfer Table
+Feature: 33 Transfer Table
 
 @ TransferTable
 
@@ -34,22 +34,22 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 9 Transfer Table
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [Transfer Table]
 # 10 Select Manager Jeffrey
-	Given screen state {011}
+	Given screen state {032}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 11 Select "Table 1" on Transfer Screen
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 12 Select "Lebron James" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~LEBRON JAMES"
 # 13 Select OK
 	Given screen state {012}
 	Then clicked [OK]
 # 14 Exit WWT Screen
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [TopRightButtons~Exit]
 # 15 Login as Server 100
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -60,7 +60,7 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 17 Select Table 1
-	Given screen state {013}
+	Given screen state {034}
 	Then clicked "Tables~1"
 # 18 Select Table 1 on Transfer Tables
 	Given screen state {014}
@@ -69,7 +69,7 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {015}
 	Then clicked [OK]
 # 20 Select Table 1
-	Given screen state {013}
+	Given screen state {034}
 	Then clicked "Tables~1"
 # 21 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Table","EntriesBySeat~COKE","EntriesBySeat~2.00"

@@ -542,449 +542,12 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
-{344}
-TenderScreen
-TopRightButtons
-	[Tables]
-	[Order]
-	[Print]
-	[Email/SMS]
-	[Exit]
-TopLeftButtons
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
-	[Check 1]
-ItemEntries
-*
-	"MILLER LITE"
-	"3.00"
-	"BLUE MOON"
-	"2.00"
-	"CORONA"
-	"3.00"
-	"HIGH LIFE"
-	"2.00"
-Promos
-Comps
-	"Sub Total"
-	"10.00"
-Taxes
-	"Tax"
-	"0.00"
-	"Total"
-	"10.00"
-Tenders
-	"CASH"
-	"10.00"
-	"Change"
-	"$0.00"
-MidButtons
-	[Gift Card Balance]
-	[Close]
-MidLeftButtons
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-BottomRightButtons
-BottomLeftButtons
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-WarningBarControl
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{343}
-TenderScreen
-TopRightButtons
-	[Tables]
-	[Order]
-	[Print]
-	[Email/SMS]
-	[Exit]
-TopLeftButtons
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
-	[Check 1]
-ItemEntries
-*
-	"Seat 1"
-	"MILLER LITE"
-	"3.00"
-	"BLUE MOON"
-	"2.00"
-	"CORONA"
-	"3.00"
-	"HIGH LIFE"
-	"2.00"
-Promos
-Comps
-	"Sub Total"
-	"10.00"
-Taxes
-	"Tax"
-	"0.00"
-	"Total"
-	"10.00"
-Tenders
-	"Balance Due"
-	"$10.00"
-MidButtons
-	[Gift Card Balance]
-	[Close*]
-MidLeftButtons
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-BottomRightButtons
-BottomLeftButtons
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-WarningBarControl
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{341}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"MILLER LITE"
-	"3.00"
-	"BLUE MOON"
-	"2.00"
-	"CORONA"
-	"3.00"
-	"HIGH LIFE"
-	"2.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-MenuOrModButtons
-	"MILLER\LITE"
-	"BLUE\MOON"
-	"CORONA"
-	"HIGH\LIFE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{340}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"MILLER LITE"
-	"3.00"
-	"BLUE MOON"
-	"2.00"
-	"CORONA"
-	"3.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-MenuOrModButtons
-	"MILLER\LITE"
-	"BLUE\MOON"
-	"CORONA"
-	"HIGH\LIFE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{339}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"MILLER LITE"
-	"3.00"
-	"BLUE MOON"
-	"2.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-MenuOrModButtons
-	"MILLER\LITE"
-	"BLUE\MOON"
-	"CORONA"
-	"HIGH\LIFE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{338}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"MILLER LITE"
-	"3.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-MenuOrModButtons
-	"MILLER\LITE"
-	"BLUE\MOON"
-	"CORONA"
-	"HIGH\LIFE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{337}
-TenderScreen
-TopRightButtons
-	[Tables]
-	[Order]
-	[Print]
-	[Email/SMS]
-	[Exit]
-TopLeftButtons
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
-	[Check 1]
-ItemEntries
-*
-	"CHIX SLD SAND\ FRIES"
-	"4.00"
-	"HAM SANDWICH\ FRIES"
-	"4.00"
-	"CALI CHIX WRAP\ FRIES"
-	"4.00"
-Promos
-Comps
-	"Sub Total"
-	"20.00"
-Taxes
-	"Tax"
-	"1.22"
-	"Total"
-	"21.22"
-Tenders
-	"CASH"
-	"21.22"
-	"Change"
-	"$0.00"
-MidButtons
-	[Gift Card Balance]
-	[Close]
-MidLeftButtons
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-BottomRightButtons
-BottomLeftButtons
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-WarningBarControl
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{319}
-TenderScreen
-TopRightButtons
-	[Tables]
-	[Order]
-	[Print]
-	[Email/SMS]
-	[Exit]
-TopLeftButtons
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
-	[Check 1]
-ItemEntries
-*
-	"CHIX SLD SAND\ FRIES"
-	"4.00"
-	"HAM SANDWICH\ FRIES"
-	"4.00"
-	"CALI CHIX WRAP\ FRIES"
-	"4.00"
-Promos
-Comps
-	"Sub Total"
-	"20.00"
-Taxes
-	"Tax"
-	"1.22"
-	"Total"
-	"21.22"
-Tenders
-	"Balance Due"
-	"$21.22"
-MidButtons
-	[Gift Card Balance]
-	[Close*]
-MidLeftButtons
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-BottomRightButtons
-BottomLeftButtons
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-WarningBarControl
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {310}
 WWTScreen
 	"JEFFREY"
 	[btnSetTabEntry]
 Tabs
-	"0"
+	"j1"
 	[btnSetTableEntry]
 Tables
 TopRightButtons
@@ -1068,7 +631,7 @@ WWTScreen
 	"JEFFREY"
 	[btnSetTabEntry]
 Tabs
-	"0"
+	"j1"
 	[btnSetTableEntry]
 Tables
 TopRightButtons
@@ -1325,66 +888,6 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
-{273}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
-	"4.00"
-	"VEGGIE WRAP\ FRIES"
-	"4.00"
-	"CHIX SLD SAND\ FRIES"
-	"4.00"
-	"HAM SANDWICH\ FRIES"
-	"4.00"
-	"CALI CHIX WRAP\ FRIES"
-	"4.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"BUFF CHIX\WRAP"
-	"VEGGIE\WRAP"
-	"CHIX SLD\SAND"
-	"HAM\SANDWICH"
-	"CALI CHIX\WRAP"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 {272}
 PizzaModifierScreen
 GroupOneButtons
@@ -1429,64 +932,6 @@ DialogSeparator
 	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
 	[X]
 	[OK]
-{271}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
-	"4.00"
-	"VEGGIE WRAP\ FRIES"
-	"4.00"
-	"CHIX SLD SAND\ FRIES"
-	"4.00"
-	"HAM SANDWICH\ FRIES"
-	"4.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"BUFF CHIX\WRAP"
-	"VEGGIE\WRAP"
-	"CHIX SLD\SAND"
-	"HAM\SANDWICH"
-	"CALI CHIX\WRAP"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 {270}
 PizzaModifierScreen
 GroupOneButtons
@@ -1525,62 +970,6 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
-{269}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
-	"4.00"
-	"VEGGIE WRAP\ FRIES"
-	"4.00"
-	"CHIX SLD SAND\ FRIES"
-	"4.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"BUFF CHIX\WRAP"
-	"VEGGIE\WRAP"
-	"CHIX SLD\SAND"
-	"HAM\SANDWICH"
-	"CALI CHIX\WRAP"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 {268}
 PizzaModifierScreen
 GroupOneButtons
@@ -1698,60 +1087,6 @@ DialogSeparator
 	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
 	[X]
 	[OK]
-{260}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
-	"4.00"
-	"VEGGIE WRAP\ FRIES"
-	"4.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"BUFF CHIX\WRAP"
-	"VEGGIE\WRAP"
-	"CHIX SLD\SAND"
-	"HAM\SANDWICH"
-	"CALI CHIX\WRAP"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 {258}
 PizzaModifierScreen
 GroupOneButtons
@@ -1790,260 +1125,6 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
-{256}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
-	"4.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"BUFF CHIX\WRAP"
-	"VEGGIE\WRAP"
-	"CHIX SLD\SAND"
-	"HAM\SANDWICH"
-	"CALI CHIX\WRAP"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{251}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"BUFF CHIX\WRAP"
-	"VEGGIE\WRAP"
-	"CHIX SLD\SAND"
-	"HAM\SANDWICH"
-	"CALI CHIX\WRAP"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{244}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"CARROT CAKE"
-	"2.50"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"CARROT\CAKE"
-	"CHOCOLATE\CAKE"
-	"CHEESECAKE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{243}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"CARROT\CAKE"
-	"CHOCOLATE\CAKE"
-	"CHEESECAKE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{229}
-TenderScreen
-TopRightButtons
-	[Tables]
-	[Order]
-	[Print]
-	[Email/SMS]
-	[Exit]
-TopLeftButtons
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
-	[Check 1]
-ItemEntries
-*
-	"Seat 1"
-	"CARROT CAKE"
-	"2.50"
-	"CHOCOLATE CAKE"
-	"2.50"
-	"CHEESECAKE"
-	"2.50"
-Promos
-Comps
-	"Sub Total"
-	"7.50"
-Taxes
-	"Tax"
-	"0.46"
-	"Total"
-	"7.96"
-Tenders
-	"CASH"
-	"7.96"
-	"Change"
-	"$0.00"
-MidButtons
-	[Gift Card Balance]
-	[Close]
-MidLeftButtons
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-BottomRightButtons
-BottomLeftButtons
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-WarningBarControl
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {216}
 PizzaModifierScreen
 GroupOneButtons
@@ -2119,60 +1200,6 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
-{189}
-TenderScreen
-TopRightButtons
-	[Tables]
-	[Order]
-	[Print]
-	[Email/SMS]
-	[Exit]
-TopLeftButtons
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
-	[Check 1]
-ItemEntries
-*
-	"Seat 1"
-	"CARROT CAKE"
-	"2.50"
-	"CHOCOLATE CAKE"
-	"2.50"
-	"CHEESECAKE"
-	"2.50"
-Promos
-Comps
-	"Sub Total"
-	"7.50"
-Taxes
-	"Tax"
-	"0.46"
-	"Total"
-	"7.96"
-Tenders
-	"Balance Due"
-	"$7.96"
-MidButtons
-	[Gift Card Balance]
-	[Close*]
-MidLeftButtons
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-BottomRightButtons
-BottomLeftButtons
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-WarningBarControl
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {185}
 PizzaModifierScreen
 GroupOneButtons
@@ -2568,60 +1595,6 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
-{155}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"CARROT CAKE"
-	"2.50"
-	"CHOCOLATE CAKE"
-	"2.50"
-	"CHEESECAKE"
-	"2.50"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"CARROT\CAKE"
-	"CHOCOLATE\CAKE"
-	"CHEESECAKE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 {152}
 PizzaModifierScreen
 GroupOneButtons
@@ -2827,166 +1800,64 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
-{131}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
+{097}
+TenderScreen
 TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"CARROT CAKE"
-	"2.50"
-	"CHOCOLATE CAKE"
-	"2.50"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"CARROT\CAKE"
-	"CHOCOLATE\CAKE"
-	"CHEESECAKE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-{105}
-OrderScreen
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
 TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-EntriesBySeat
+ItemEntries
 *
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-MenuOrModButtons
-	"MILLER\LITE"
-	"BLUE\MOON"
+	"MILLER LITE"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
 	"CORONA"
-	"HIGH\LIFE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
+	"3.00"
+	"HIGH LIFE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"10.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"10.00"
+Tenders
+	"CASH"
+	"10.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
 	[Delete]
-	""
-{099}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"CHOPPED SALAD"
-	"3.00"
-	"CAESAR SALAD\ ADD CHICKEN"
-	"3.00\3.00"
-	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
-	"3.00\\3.00"
-	"CHICKEN CAESAR"
-	"3.00"
-	"SOUP OF DAY\ CUP"
-	"3.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"CHOPPED\SALAD"
-	"CAESAR\SALAD"
-	"HOUSE\SALAD"
-	"CHICKEN\CAESAR"
-	"SOUP\OF DAY"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
+BottomLeftButtons
 	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {096}
 OrderScreen
 TopLeftButtons
@@ -3048,6 +1919,63 @@ BottomButtons
 	[Delete]
 	[Hold]
 	[Recipe]
+{095}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"MILLER LITE"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
+	"CORONA"
+	"3.00"
+	"HIGH LIFE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"10.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"10.00"
+Tenders
+	"Balance Due"
+	"$10.00"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {094}
 OrderScreen
 TopLeftButtons
@@ -3111,7 +2039,7 @@ WWTScreen
 	"JEFFREY"
 	[btnSetTabEntry]
 Tabs
-	"0"
+	"j1"
 	[btnSetTableEntry]
 Tables
 TopRightButtons
@@ -3135,6 +2063,326 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
+{092}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"MILLER LITE"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
+	"CORONA"
+	"3.00"
+	"HIGH LIFE"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"MILLER\LITE"
+	"BLUE\MOON"
+	"CORONA"
+	"HIGH\LIFE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{091}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"MILLER LITE"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
+	"CORONA"
+	"3.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"MILLER\LITE"
+	"BLUE\MOON"
+	"CORONA"
+	"HIGH\LIFE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{090}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"MILLER LITE"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"MILLER\LITE"
+	"BLUE\MOON"
+	"CORONA"
+	"HIGH\LIFE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{089}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"MILLER LITE"
+	"3.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"MILLER\LITE"
+	"BLUE\MOON"
+	"CORONA"
+	"HIGH\LIFE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{088}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"MILLER\LITE"
+	"BLUE\MOON"
+	"CORONA"
+	"HIGH\LIFE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{087}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"CHIX SLD SAND\ FRIES"
+	"4.00"
+	"HAM SANDWICH\ FRIES"
+	"4.00"
+	"CALI CHIX WRAP\ FRIES"
+	"4.00"
+Promos
+Comps
+	"Sub Total"
+	"20.00"
+Taxes
+	"Tax"
+	"1.22"
+	"Total"
+	"21.22"
+Tenders
+	"CASH"
+	"21.22"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {086}
 WWTScreen
 	"JEFFREY"
@@ -3163,6 +2411,120 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
+{085}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"CHIX SLD SAND\ FRIES"
+	"4.00"
+	"HAM SANDWICH\ FRIES"
+	"4.00"
+	"CALI CHIX WRAP\ FRIES"
+	"4.00"
+Promos
+Comps
+	"Sub Total"
+	"20.00"
+Taxes
+	"Tax"
+	"1.22"
+	"Total"
+	"21.22"
+Tenders
+	"Balance Due"
+	"$21.22"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{084}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BUFF CHIX WRAP\ FRIES"
+	"4.00"
+	"VEGGIE WRAP\ FRIES"
+	"4.00"
+	"CHIX SLD SAND\ FRIES"
+	"4.00"
+	"HAM SANDWICH\ FRIES"
+	"4.00"
+	"CALI CHIX WRAP\ FRIES"
+	"4.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"BUFF CHIX\WRAP"
+	"VEGGIE\WRAP"
+	"CHIX SLD\SAND"
+	"HAM\SANDWICH"
+	"CALI CHIX\WRAP"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {083}
 OrderScreen
 TopLeftButtons
@@ -3182,12 +2544,14 @@ TableAndChecks
 EntriesBySeat
 *
 	"Seat 1"
-	"CHOPPED SALAD"
-	"3.00"
-	"CAESAR SALAD\ ADD CHICKEN"
-	"3.00\3.00"
-	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
-	"3.00\\3.00"
+	"BUFF CHIX WRAP\ FRIES"
+	"4.00"
+	"VEGGIE WRAP\ FRIES"
+	"4.00"
+	"CHIX SLD SAND\ FRIES"
+	"4.00"
+	"HAM SANDWICH\ FRIES"
+	"4.00"
 Seats
 	[T]
 	[1]
@@ -3202,11 +2566,11 @@ CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
 MenuOrModButtons
-	"CHOPPED\SALAD"
-	"CAESAR\SALAD"
-	"HOUSE\SALAD"
-	"CHICKEN\CAESAR"
-	"SOUP\OF DAY"
+	"BUFF CHIX\WRAP"
+	"VEGGIE\WRAP"
+	"CHIX SLD\SAND"
+	"HAM\SANDWICH"
+	"CALI CHIX\WRAP"
 BottomButtons
 	[$]
 	[Scan Barcode]
@@ -3238,10 +2602,12 @@ TableAndChecks
 EntriesBySeat
 *
 	"Seat 1"
-	"CHOPPED SALAD"
-	"3.00"
-	"CAESAR SALAD\ ADD CHICKEN"
-	"3.00\3.00"
+	"BUFF CHIX WRAP\ FRIES"
+	"4.00"
+	"VEGGIE WRAP\ FRIES"
+	"4.00"
+	"CHIX SLD SAND\ FRIES"
+	"4.00"
 Seats
 	[T]
 	[1]
@@ -3256,11 +2622,11 @@ CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
 MenuOrModButtons
-	"CHOPPED\SALAD"
-	"CAESAR\SALAD"
-	"HOUSE\SALAD"
-	"CHICKEN\CAESAR"
-	"SOUP\OF DAY"
+	"BUFF CHIX\WRAP"
+	"VEGGIE\WRAP"
+	"CHIX SLD\SAND"
+	"HAM\SANDWICH"
+	"CALI CHIX\WRAP"
 BottomButtons
 	[$]
 	[Scan Barcode]
@@ -3343,6 +2709,11 @@ TableAndChecks
 	[+]
 EntriesBySeat
 *
+	"Seat 1"
+	"BUFF CHIX WRAP\ FRIES"
+	"4.00"
+	"VEGGIE WRAP\ FRIES"
+	"4.00"
 Seats
 	[T]
 	[1]
@@ -3357,11 +2728,11 @@ CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
 MenuOrModButtons
-	"CHOPPED\SALAD"
-	"CAESAR\SALAD"
-	"HOUSE\SALAD"
-	"CHICKEN\CAESAR"
-	"SOUP\OF DAY"
+	"BUFF CHIX\WRAP"
+	"VEGGIE\WRAP"
+	"CHIX SLD\SAND"
+	"HAM\SANDWICH"
+	"CALI CHIX\WRAP"
 BottomButtons
 	[$]
 	[Scan Barcode]
@@ -3403,6 +2774,325 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
+{078}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BUFF CHIX WRAP\ FRIES"
+	"4.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"BUFF CHIX\WRAP"
+	"VEGGIE\WRAP"
+	"CHIX SLD\SAND"
+	"HAM\SANDWICH"
+	"CALI CHIX\WRAP"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{077}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"BUFF CHIX\WRAP"
+	"VEGGIE\WRAP"
+	"CHIX SLD\SAND"
+	"HAM\SANDWICH"
+	"CALI CHIX\WRAP"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{076}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"CARROT CAKE"
+	"2.50"
+	"CHOCOLATE CAKE"
+	"2.50"
+	"CHEESECAKE"
+	"2.50"
+Promos
+Comps
+	"Sub Total"
+	"7.50"
+Taxes
+	"Tax"
+	"0.46"
+	"Total"
+	"7.96"
+Tenders
+	"CASH"
+	"7.96"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{075}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"CARROT CAKE"
+	"2.50"
+	"CHOCOLATE CAKE"
+	"2.50"
+	"CHEESECAKE"
+	"2.50"
+Promos
+Comps
+	"Sub Total"
+	"7.50"
+Taxes
+	"Tax"
+	"0.46"
+	"Total"
+	"7.96"
+Tenders
+	"Balance Due"
+	"$7.96"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{074}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"CARROT CAKE"
+	"2.50"
+	"CHOCOLATE CAKE"
+	"2.50"
+	"CHEESECAKE"
+	"2.50"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CARROT\CAKE"
+	"CHOCOLATE\CAKE"
+	"CHEESECAKE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{073}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"CARROT CAKE"
+	"2.50"
+	"CHOCOLATE CAKE"
+	"2.50"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CARROT\CAKE"
+	"CHOCOLATE\CAKE"
+	"CHEESECAKE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {072}
 OrderScreen
 TopLeftButtons
@@ -3481,6 +3171,213 @@ OrderModeButtons
 	[TO GO]
 	[DON'T MAKE]
 	[Happy hour]
+{071}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"CARROT CAKE"
+	"2.50"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CARROT\CAKE"
+	"CHOCOLATE\CAKE"
+	"CHEESECAKE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{070}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CARROT\CAKE"
+	"CHOCOLATE\CAKE"
+	"CHEESECAKE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{069}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"3.00\\3.00"
+	"CHICKEN CAESAR"
+	"3.00"
+	"SOUP OF DAY\ CUP"
+	"3.00"
+Promos
+Comps
+	"Sub Total"
+	"21.00"
+Taxes
+	"Tax"
+	"1.28"
+	"Total"
+	"22.28"
+Tenders
+	"CASH"
+	"22.28"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{068}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"3.00\\3.00"
+	"CHICKEN CAESAR"
+	"3.00"
+	"SOUP OF DAY\ CUP"
+	"3.00"
+Promos
+Comps
+	"Sub Total"
+	"21.00"
+Taxes
+	"Tax"
+	"1.28"
+	"Total"
+	"22.28"
+Tenders
+	"Balance Due"
+	"$22.28"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {067}
 SplitCheckScreen
 SplitScreen
@@ -3934,6 +3831,66 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
+{052}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"CHOPPED SALAD"
+	"3.00"
+	"CAESAR SALAD\ ADD CHICKEN"
+	"3.00\3.00"
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"3.00\\3.00"
+	"CHICKEN CAESAR"
+	"3.00"
+	"SOUP OF DAY\ CUP"
+	"3.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CHOPPED\SALAD"
+	"CAESAR\SALAD"
+	"HOUSE\SALAD"
+	"CHICKEN\CAESAR"
+	"SOUP\OF DAY"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {051}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"
@@ -4047,6 +4004,62 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
+{048}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"CHOPPED SALAD"
+	"3.00"
+	"CAESAR SALAD\ ADD CHICKEN"
+	"3.00\3.00"
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"3.00\\3.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CHOPPED\SALAD"
+	"CAESAR\SALAD"
+	"HOUSE\SALAD"
+	"CHICKEN\CAESAR"
+	"SOUP\OF DAY"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {047}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"
@@ -4234,6 +4247,60 @@ EnterTabNameKeyboard
 	[⌫]
 	[Ok]
 	[btnHideOrShowKeyboard]
+{043}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"CHOPPED SALAD"
+	"3.00"
+	"CAESAR SALAD\ ADD CHICKEN"
+	"3.00\3.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CHOPPED\SALAD"
+	"CAESAR\SALAD"
+	"HOUSE\SALAD"
+	"CHICKEN\CAESAR"
+	"SOUP\OF DAY"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {042}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"
@@ -4381,6 +4448,20 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
+{038}
+WWTScreen
+	"JEFFREY"
+	[btnSetTabEntry]
+Tabs
+	[btnSetTableEntry]
+Tables
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
 {037}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"
@@ -4398,6 +4479,67 @@ RightCommands
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
+{036}
+WWTScreen
+	"JEFFREY"
+	[btnSetTabEntry]
+Tabs
+	[btnSetTableEntry]
+Tables
+	"1"
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{035}
+SplitSeatScreen
+SplitScreen
+	"Table 1"
+CheckOrSeats
+CheckOrSeat
+	"For Table"
+CheckOrSeat
+	"Seat 1"
+	"COKE"
+	"7 UP"
+	"ICED COFFEE"
+	[<]
+	[>]
+BottomCenterButtons
+	[Combine]
+	[Add]
+	[Split check]
+	[Close]
+{034}
+WWTScreen
+	"LEBRON"
+Tabs
+	[btnSetTableEntry]
+Tables
+	"1"
+TopRightButtons
+	[Exit]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+EnterTableNumberNumpad
+	??
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[Ok]
+	[btnHideOrShowKeyboard]
 {033}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"
@@ -4415,6 +4557,28 @@ RightCommands
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
+{032}
+TransferTableScreen
+	[btnWaiter]
+	"JEFFREY OYENEYE"
+	[OK*]
+	[Cancel]
+TransferFromEmployees
+	"Select employee to transfer from"
+*
+	"JEFFREY OYENEYE"
+TransferTables
+	"Select table you wish to transfer"
+	"Select tab you wish to transfer"
+ReceiveEmployees
+	"Select employee to receive transfer"
+*
+	"LEBRON JAMES"
+	"VLADIMIR PALOCKO"
+	"JEFFREY OYENEYE"
+	"MIGUEL SAAVEDRA"
+	"JIRKA MALINA"
+	"SAMEUL L. JACKSON"
 {031}
 WWTScreen
 	"MIGUEL"
@@ -4720,6 +4884,80 @@ ReceiveEmployees
 	"MIGUEL SAAVEDRA"
 	"JIRKA MALINA"
 	"SAMEUL L. JACKSON"
+{023}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"COKE"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ItemSelectionDialog
+	"Select items to void"
+DialogSeparator
+	(SELECT ALL)
+	"SELECT ALL"
+Items_Container
+*
+Items
+	"Seat 1"
+	(COKE)
+	"COKE"
+	"2.00"
+	[Cancel]
+	[OK]
 {022}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"
@@ -4787,6 +5025,80 @@ ReceiveEmployees
 	"MIGUEL SAAVEDRA"
 	"JIRKA MALINA"
 	"SAMEUL L. JACKSON"
+{019}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"COKE"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ItemSelectionDialog
+	"Select items to void"
+DialogSeparator
+	(SELECT ALL)
+	"SELECT ALL"
+Items_Container
+*
+Items
+	"Seat 1"
+	(COKE)
+	"COKE"
+	"2.00"
+	[Cancel]
+	[OK*]
 {018}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"
@@ -4868,32 +5180,62 @@ ExistingTables
 RightCommands
 	[Cancel]
 {013}
-WWTScreen
-	"LEBRON"
-Tabs
-	[btnSetTableEntry]
-Tables
-	"1"
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
 TopRightButtons
-	[Exit]
-	[Transfer Table]
-	[Balance Inquiry*]
-	[Back]
-EnterTableNumberNumpad
-	??
-	[1]
-	[2]
-	[3]
-	[4]
-	[5]
-	[6]
-	[7]
-	[8]
-	[9]
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
 	[Clear]
-	[0]
-	[Ok]
-	[btnHideOrShowKeyboard]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {012}
 TransferTableScreen
 	[btnWaiter]
@@ -5313,3 +5655,63 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{001}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"COKE"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""

@@ -1,4 +1,4 @@
-Feature: 35 Tabs
+Feature: 34 Tabs
 
 @ TransferTable
 
@@ -12,10 +12,11 @@ Scenario: 1 Open Tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 3 Select Tab
-	Given screen state {086}
+	Given screen state {038}
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
-	Given screen state {009}
+	Given screen state {038}
+	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -53,10 +54,11 @@ Scenario: 2 Rename Tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 3 Select Tab
-	Given screen state {086}
+	Given screen state {038}
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
-	Given screen state {009}
+	Given screen state {038}
+	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
