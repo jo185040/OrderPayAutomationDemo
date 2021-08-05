@@ -32,10 +32,10 @@ Scenario: 1 Get Table
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 9 Click Get Check
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [TopRightButtons~Get Check]
 # 10 Get Check "Table 1"
-	Given screen state {306}
+	Given screen state {105}
 	Then clicked [Keyboard~1]
 	Then clicked [Keyboard~Ok]
 # 11 Select $ on Payment Screen
@@ -61,10 +61,11 @@ Scenario: 2 Get Tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 3 Select Tab
-	Given screen state {086}
+	Given screen state {038}
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
-	Given screen state {009}
+	Given screen state {038}
+	Then clicked [btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -86,10 +87,10 @@ Scenario: 2 Get Tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 10 Click Get Check
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [TopRightButtons~Get Check]
 # 11 Click Tab Button
-	Given screen state {307}
+	Given screen state {107}
 	Then clicked [TopGetButtons~Get Tab]
 # 12 Get Check "Tab 1"
 	Given screen state {310}

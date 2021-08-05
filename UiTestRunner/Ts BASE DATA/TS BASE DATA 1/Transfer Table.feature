@@ -60,7 +60,7 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 17 Select Table 1
-	Given screen state {034}
+	Given screen state {103}
 	Then clicked "Tables~1"
 # 18 Select Table 1 on Transfer Tables
 	Given screen state {014}
@@ -69,7 +69,7 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {015}
 	Then clicked [OK]
 # 20 Select Table 1
-	Given screen state {034}
+	Given screen state {103}
 	Then clicked "Tables~1"
 # 21 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Table","EntriesBySeat~COKE","EntriesBySeat~2.00"
@@ -111,7 +111,7 @@ Scenario: 2 Verify you can transfer table with OK
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 8 Transfer Table
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [Transfer Table]
 # 9 Select Manager Jeffrey
 	Given screen state {011}
@@ -126,7 +126,7 @@ Scenario: 2 Verify you can transfer table with OK
 	Given screen state {012}
 	Then clicked [OK]
 # 13 Exit WWT Screen
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [TopRightButtons~Exit]
 # 14 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -137,7 +137,7 @@ Scenario: 2 Verify you can transfer table with OK
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 16 Select Table 1
-	Given screen state {016}
+	Given screen state {104}
 	Then clicked "Tables~1"
 # 17 Select Table 1 on Transfer Tables
 	Given screen state {017}
@@ -146,7 +146,7 @@ Scenario: 2 Verify you can transfer table with OK
 	Given screen state {018}
 	Then clicked [OK]
 # 19 Select Table 1
-	Given screen state {016}
+	Given screen state {104}
 	Then clicked "Tables~1"
 # 20 Select $ on Payment Screen
 	Given screen state [CenterMenuButtons~LUNCH MENU]

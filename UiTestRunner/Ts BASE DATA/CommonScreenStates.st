@@ -556,20 +556,6 @@ TopRightButtons
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
-EnterTableNumberNumpad
-	??
-	[1]
-	[2]
-	[3]
-	[4]
-	[5]
-	[6]
-	[7]
-	[8]
-	[9]
-	[Clear]
-	[0]
-	[Ok]
 	[btnHideOrShowKeyboard]
 GetCheckDialog
 TopCancelOkButtons
@@ -1800,6 +1786,442 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{108}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{107}
+WWTScreen
+	"JEFFREY"
+	[btnSetTabEntry]
+Tabs
+	"j1"
+	[btnSetTableEntry]
+Tables
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+GetCheckDialog
+TopCancelOkButtons
+	[btnClose]
+	"Get Table"
+	[btnOk]
+TopGetButtons
+	[Get Table]
+	[Get Tab]
+	[Get Check]
+	??
+Keyboard
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[Ok]
+{106}
+WWTScreen
+	"JEFFREY"
+	[btnSetTabEntry]
+Tabs
+	"j1"
+	[btnSetTableEntry]
+Tables
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{105}
+WWTScreen
+	"JEFFREY"
+	[btnSetTabEntry]
+Tabs
+	[btnSetTableEntry]
+Tables
+	"1"
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+GetCheckDialog
+TopCancelOkButtons
+	[btnClose]
+	"Get Table"
+	[btnOk]
+TopGetButtons
+	[Get Table]
+	[Get Tab]
+	[Get Check]
+	??
+Keyboard
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[Ok]
+{104}
+WWTScreen
+	"MIGUEL"
+	[btnSetTabEntry]
+Tabs
+	[btnSetTableEntry]
+Tables
+	"1"
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{103}
+WWTScreen
+	"LEBRON"
+Tabs
+	[btnSetTableEntry]
+Tables
+	"1"
+TopRightButtons
+	[Exit]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{102}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"7 UP"
+	"2.00"
+	"ICED COFFEE"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{101}
+SplitSeatScreen
+SplitScreen
+	"Table 1"
+CheckOrSeats
+CheckOrSeat
+	"For Table"
+CheckOrSeat
+	"Seat 1"
+	"COKE"
+	"7 UP"
+	[<]
+	[>]
+BottomCenterButtons
+	[Combine]
+	[Add]
+	[Split check]
+	[Close]
+{100}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"ICED COFFEE"
+	"2.00"
+	"Seat 2"
+	"COKE"
+	"2.00"
+	"7 UP"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"6.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"6.00"
+Tenders
+	"CASH"
+	"6.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{099}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"ICED COFFEE"
+	"2.00"
+	"Seat 2"
+	"COKE"
+	"2.00"
+	"7 UP"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"6.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"6.00"
+Tenders
+	"Balance Due"
+	"$6.00"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{098}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"ICED COFFEE"
+	"2.00"
+	"Seat 2"
+	"COKE"
+	"2.00"
+	"7 UP"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[2]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {097}
 TenderScreen
 TopRightButtons
@@ -5371,6 +5793,9 @@ CheckOrSeat
 	"For Table"
 CheckOrSeat
 	"Seat 1"
+	"ICED COFFEE"
+CheckOrSeat
+	"Seat 2"
 	"COKE"
 	"7 UP"
 	[<]

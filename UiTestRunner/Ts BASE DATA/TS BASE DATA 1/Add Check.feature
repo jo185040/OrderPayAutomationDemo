@@ -2,49 +2,46 @@ Feature: 3 Add Check
 
 
 Scenario: 1 Add Check
-# 1 LogIn_200/Table_1/GuestCount_1 (defined function)
-	#This action is later used in many Scenarios as Repeat function
-	Given screen state [Login*]
+# 1 Login as manager 200
+	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 	When clicked [2],[0],[0]
-	Then verify presence of "***",[Login]
 	And clicked [Login]
-	Then verify presence of [FloorPlanScreen~1]
-	And clicked [1]
-	Then verify presence of "InputDialog~Enter Guest Count"
-	And clicked [DialogSeparator~1]
+	Then verify absence of [Login]
+# 2 Floor Plan select Table 1
+	Given screen state {558}
+	Then clicked [1]
+# 3 Enter Guest Count 1
+	Given screen state {025}
+	When clicked [DialogSeparator~1]
 	And clicked [DialogSeparator~OK]
 	Then verify absence of "Enter Guest Count"
-# 2 Add COKE
-	Given screen state [CenterMenuButtons~LUNCH MENU]
-	Then clicked "COKE"
-# 3 Add Check
-	Given screen state [CenterMenuButtons~LUNCH MENU]
-	Then clicked [TableAndChecks~+]
 # 4 Add COKE
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "COKE"
-# 5 Apply HERE Ordermode
+# 5 Add Check
+	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Then clicked [TableAndChecks~+]
+# 6 Add COKE
+	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Then clicked "COKE"
+# 7 Apply HERE Ordermode
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [HERE]
-# 6 Select $ on Payment Screen
+# 8 Select $ on Payment Screen
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [$]
-# 7 Exact Payment
+# 9 Exact Payment
 	Given screen state "Tenders~Balance Due","Tenders~$2.00","Comps~Sub Total","Comps~2.00"
 	Then clicked [Exact]
-# 8 Close Check 1
+# 10 Close Check 1
 	Given screen state "Tenders~CASH", "Tenders~2.00", "Tenders~Change", "Tenders~$0.00"
 	Then clicked [MidButtons~Close]
-# 9 Return to Order screen
-	Given screen state [Close*]
-	Then clicked [Order]
-# 10 Exact/Close/LogOut
-	#This action is later used in many Scenarios as (Repeat of 2.1.10)
-	Given screen state [$]
-	Then clicked [$]
-	Then verify presence of "Balance Due",[Close*]
+# 11 Exact Payment
+	Given screen state "Tenders~Balance Due","Tenders~$2.00","Comps~Sub Total","Comps~2.00"
 	Then clicked [Exact]
-	Then verify presence of "$0.00",[Close]
-	Then clicked [Close]
-	Then verify presence of [FloorPlanScreen~Exit]
-	When clicked [FloorPlanScreen~Exit]
+# 12 Close Check 2
+	Given screen state "Tenders~CASH", "Tenders~2.00", "Tenders~Change", "Tenders~$0.00"
+	Then clicked [MidButtons~Close]
+# 13 Exit FloorPlan
+	Given screen state {558}
+	When clicked [Exit]
