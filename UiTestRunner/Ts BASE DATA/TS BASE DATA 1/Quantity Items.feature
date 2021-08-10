@@ -42,7 +42,7 @@ Scenario: 1 Quantity
 	Given screen state "ItemEntries~Seat 1","ItemEntries~BUFFET (0.75 llbs)","ItemEntries~3.00","Comps~Sub Total","Comps~3.00","Taxes~Tax","Taxes~0.18","Taxes~Total","Taxes~3.18","Tenders~Balance Due","Tenders~$3.18"
 	Then clicked [Exact]
 # 11 Click Close
-	Given screen state "ItemEntries~Seat 1","ItemEntries~BUFFET (0.75 llbs)","ItemEntries~3.00","Comps~Sub Total","Comps~3.00","Taxes~Tax","Taxes~0.18","Taxes~Total","Taxes~3.18","Tenders~CASH","Tenders~$3.18","Tenders~Change","Tenders~$0.00"
+	Given screen state {001}
 	Then clicked [MidButtons~Close]
 # 12 Exit FloorPlan
 	Given screen state {558}

@@ -23,10 +23,10 @@ Scenario: 1 Verify you can void items with no issues
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [HERE]
 # 6 Select Coke on Check
-	Given screen state {001}
+	Given screen state {164}
 	Then clicked "COKE"
 # 7 Void COKE
-	Given screen state {001}
+	Given screen state {164}
 	Then clicked [BottomButtons~Void]
 # 8 Select COKE on Void Screen
 	#TODO Check Screenstate

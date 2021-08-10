@@ -32,7 +32,7 @@ Scenario: 1 Open Table as a Training Emp
 	Given screen state "ItemEntries~Table","ItemEntries~COKE","ItemEntries~2.00","ItemEntries~PORK NACHOS","ItemEntries~5.00","Comps~Sub Total","Comps~7.00","Taxes~Tax","Taxes~0.31","Taxes~Total","Taxes~7.31","Tenders~Balance Due","Tenders~$7.31"
 	Then clicked [Exact]
 # 9 Click Close
-	Given screen state "ItemEntries~Table","ItemEntries~COKE","ItemEntries~2.00","ItemEntries~PORK NACHOS","ItemEntries~5.00","Comps~Sub Total","Comps~7.00","Taxes~Tax","Taxes~0.31","Taxes~Total","Taxes~7.31","Tenders~CASH","Tenders~$7.31","Tenders~Change","Tenders~$0.00"
+	Given screen state {212}
 	Then clicked [MidButtons~Close]
 # 10 Exit FloorPlan
 	Given screen state {558}

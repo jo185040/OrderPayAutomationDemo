@@ -1038,6 +1038,118 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{212}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Table"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+Promos
+Comps
+	"Sub Total"
+	"7.00"
+Taxes
+	"Tax"
+	"0.31"
+	"Total"
+	"7.31"
+Tenders
+	"CASH"
+	"7.31"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity*]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{211}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"MILLER LITE"
+	"3.00"
+Promos
+Comps
+	"Sub Total"
+	"10.00"
+Taxes
+	"Tax"
+	"0.31"
+	"Total"
+	"10.31"
+Tenders
+	"CASH"
+	"10.31"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {210}
 TenderScreen
 TopRightButtons
@@ -9277,7 +9389,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10076,7 +10188,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10163,7 +10275,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
@@ -10218,7 +10330,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
@@ -10271,7 +10383,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
@@ -10322,7 +10434,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
@@ -10370,7 +10482,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[SANDWICHES]
 	[PIZZA]
@@ -10567,7 +10679,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10625,7 +10737,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10681,7 +10793,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10733,7 +10845,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10787,7 +10899,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10868,7 +10980,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10917,7 +11029,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -11085,7 +11197,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -11137,7 +11249,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -11203,7 +11315,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -11250,7 +11362,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -11838,7 +11950,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -12007,7 +12119,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -12248,7 +12360,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -12839,7 +12951,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -13029,7 +13141,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -13597,62 +13709,55 @@ BottomRightButtons
 	[Delete]
 	[btnMessage]
 {001}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
+TenderScreen
 TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-EntriesBySeat
+ItemEntries
 *
 	"Seat 1"
-	"COKE"
-	"2.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
+	"BUFFET (0.75 llbs)"
+	"3.00"
+Promos
+Comps
+	"Sub Total"
+	"3.00"
+Taxes
+	"Tax"
+	"0.18"
+	"Total"
+	"3.18"
+Tenders
+	"CASH"
+	"3.18"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
 	[Delete]
-	""
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"

@@ -35,7 +35,7 @@ Scenario: 1 Login as manager 200 to Floor Plan
 	Given screen state "ItemEntries~Seat 1","ItemEntries~COKE","ItemEntries~2.00","ItemEntries~PORK NACHOS","ItemEntries~5.00","ItemEntries~MILLER LITE","ItemEntries~3.00","Comps~Sub Total","Comps~10.00","Taxes~Tax","Taxes~0.31","Taxes~Total","Taxes~10.31","Tenders~Balance Due","Tenders~$10.31"
 	Then clicked [Exact]
 # 10 Click Close
-	Given screen state "ItemEntries~Seat 1","ItemEntries~COKE","ItemEntries~2.00","ItemEntries~PORK NACHOS","ItemEntries~5.00","ItemEntries~MILLER LITE","ItemEntries~3.00","Comps~Sub Total","Comps~10.00","Taxes~Tax","Taxes~0.31","Taxes~Total","Taxes~10.31","Tenders~CASH","Tenders~$10.31","Tenders~Change","Tenders~$0.00"
+	Given screen state {211}
 	Then clicked [MidButtons~Close]
 # 11 Exit FloorPlan
 	Given screen state {558}
