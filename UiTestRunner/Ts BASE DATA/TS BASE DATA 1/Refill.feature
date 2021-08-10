@@ -29,10 +29,10 @@ Scenario: 1 Refill Drink
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 8 Add Coke Modifier
-	Given screen state "Modifer~COKE","Modifer~2.00"
+	Given screen state {138}
 	Then clicked [COKE]
 # 9 Press OK on modifier screen
-	Given screen state "Modifer~COKE","Modifer~2.00","Modifer~ - COKE",[CenterCategoryButtons~Drink Refill],[RightModifierButtons~COKE]
+	Given screen state {139}
 	Then clicked [OK]
 # 10 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ COKE\","EntriesBySeat~2.00"
@@ -77,10 +77,10 @@ Scenario: 2 Repeat Refill Drink
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 8 Add Coke Modifier
-	Given screen state "Modifer~COKE","Modifer~2.00"
+	Given screen state {138}
 	Then clicked [COKE]
 # 9 Press OK on modifier screen
-	Given screen state "Modifer~COKE","Modifer~2.00","Modifer~ - COKE",[CenterCategoryButtons~Drink Refill],[RightModifierButtons~COKE]
+	Given screen state {139}
 	Then clicked [OK]
 # 10 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ COKE\","EntriesBySeat~2.00"

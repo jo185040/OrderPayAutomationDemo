@@ -616,15 +616,12 @@ Keyboard
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 CheckOrSeat
 	"Check 2"
-Entries
 	"Seat 2"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
@@ -638,10 +635,8 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 	"Seat 2"
@@ -657,7 +652,6 @@ BottomCenterButtons
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -677,7 +671,6 @@ BottomCenterButtons
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -1045,6 +1038,443 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{210}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+Promos
+Comps
+	"Sub Total"
+	"41.94"
+Taxes
+	"Tax Exempt TEST"
+	"0.00"
+	"Total"
+	"41.94"
+Tenders
+	"Balance Due"
+	"$41.94"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{209}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+Promos
+Comps
+	"Sub Total"
+	"41.94"
+Taxes
+	"Tax Exempt TEST"
+	"0.00"
+	"Total"
+	"41.94"
+Tenders
+	"CASH"
+	"41.94"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{208}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"COKE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{207}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"H COKE"
+	"2.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+BottomButtons
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	[Recipe]
+	""
+{206}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"OPEN DESCR MOD"
+	"10.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"TEST"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"TEST"
+	"10.00"
+CenterCategoryButtons
+	[Open Mods]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[OPEN ITEM]
+	[OPEN ITEM PRICE]
+	[OPEN ITEM DES]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+KeyboardEntryDialog
+	"Enter description"
+	""
+DialogSeparator
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[0]
+	[q]
+	[w]
+	[e]
+	[r]
+	[t]
+	[y]
+	[u]
+	[i]
+	[o]
+	[p]
+	[a]
+	[s]
+	[d]
+	[f]
+	[g]
+	[h]
+	[j]
+	[k]
+	[l]
+	[z]
+	[x]
+	[c]
+	[v]
+	[b]
+	[n]
+	[m]
+	[_]
+	[Clear]
+	[ ]
+	[]
+	[⌫]
+	[Ok*]
+	[X]
+{205}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"OPEN DESCR MOD"
+	"10.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"TEST"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"TEST"
+	"10.00"
+CenterCategoryButtons
+	[Open Mods]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[OPEN ITEM]
+	[OPEN ITEM PRICE]
+	[OPEN ITEM DES]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {204}
 PizzaModifierScreen
 GroupOneButtons
@@ -1082,6 +1512,197 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{203}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"OPEN PRICE MOD"
+	"0.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"OPEN PRICE MOD"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"OPEN PRICE MOD"
+	"2.00"
+CenterCategoryButtons
+	[Open Mods]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[OPEN ITEM]
+	[OPEN ITEM PRICE]
+	[OPEN ITEM DES]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+CurrencyInputDialog
+	"Enter price"
+	"$"
+	"0.00"
+	[<]
+DialogSeparator
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK*]
+	[X]
+{202}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"OPEN PRICE MOD"
+	"0.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"OPEN PRICE MOD"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"OPEN PRICE MOD"
+	"2.00"
+CenterCategoryButtons
+	[Open Mods]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[OPEN ITEM]
+	[OPEN ITEM PRICE]
+	[OPEN ITEM DES]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {201}
 OrderScreen
 TopLeftButtons
@@ -8865,7 +9486,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -9044,7 +9665,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -9084,7 +9705,6 @@ BottomButtons
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -9241,7 +9861,7 @@ Seats
 	[T]
 	[1]
 	[2]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -10770,25 +11390,20 @@ WarningBarControl
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"WATER"
 CheckOrSeat
 	"Check 2"
-Entries
 	"Seat 2"
 	"COKE"
 CheckOrSeat
 	"Check 3"
-Entries
 	"Seat 3"
 	"DIET COKE"
 CheckOrSeat
 	"Check 4"
-Entries
 	"Seat 4"
 	"DIET 7UP"
 	[<]
@@ -10802,10 +11417,8 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 5"
-Entries
 	"Seat 5"
 	"ICED TEA"
 	[<]
@@ -10819,27 +11432,22 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"WATER"
 	"Seat 5"
 	"ICED TEA"
 CheckOrSeat
 	"Check 2"
-Entries
 	"Seat 2"
 	"COKE"
 CheckOrSeat
 	"Check 3"
-Entries
 	"Seat 3"
 	"DIET COKE"
 CheckOrSeat
 	"Check 4"
-Entries
 	"Seat 4"
 	"DIET 7UP"
 	[<]
@@ -10853,10 +11461,8 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"WATER"
 	"Seat 4"
@@ -10865,12 +11471,10 @@ Entries
 	"ICED TEA"
 CheckOrSeat
 	"Check 2"
-Entries
 	"Seat 2"
 	"COKE"
 CheckOrSeat
 	"Check 3"
-Entries
 	"Seat 3"
 	"DIET COKE"
 	[<]
@@ -10884,10 +11488,8 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"WATER"
 	"Seat 3"
@@ -10898,7 +11500,6 @@ Entries
 	"ICED TEA"
 CheckOrSeat
 	"Check 2"
-Entries
 	"Seat 2"
 	"COKE"
 	[<]
@@ -10912,10 +11513,8 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"WATER"
 	"Seat 2"
@@ -10937,15 +11536,12 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 CheckOrSeat
 	"Check 2"
-Entries
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
@@ -10959,10 +11555,8 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"Seat 2"
@@ -10978,7 +11572,6 @@ BottomCenterButtons
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -10998,7 +11591,6 @@ BottomCenterButtons
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -11016,15 +11608,12 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"COKE"
 CheckOrSeat
 	"Check 2"
-Entries
 	"Seat 2"
 	"7 UP"
 	[<]
@@ -11038,10 +11627,8 @@ BottomCenterButtons
 SplitCheckScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"Check 1"
-Entries
 	"Seat 1"
 	"COKE"
 	"Seat 2"
@@ -11886,7 +12473,6 @@ TopRightButtons
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -11927,7 +12513,7 @@ EntriesBySeat
 Seats
 	[T]
 	[1]
-	[>]
+	[+]
 CenterMenuButtons
 	[LUNCH MENU]
 	[DRINKS]
@@ -12640,7 +13226,6 @@ ReceiveEmployees
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -12720,7 +13305,6 @@ EnterTabNameKeyboard
 SplitSeatScreen
 SplitScreen
 	"Table 1"
-CheckOrSeats
 CheckOrSeat
 	"For Table"
 CheckOrSeat
@@ -12728,8 +13312,8 @@ CheckOrSeat
 	"ICED COFFEE"
 CheckOrSeat
 	"Seat 2"
-	"COKE"
 	"7 UP"
+	"COKE"
 	[<]
 	[>]
 BottomCenterButtons

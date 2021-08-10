@@ -20,7 +20,7 @@ Scenario: 1 Pay with House Account & No Tip
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "COKE"
 # 5 Apply HERE Ordermode
-	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Given screen state {164}
 	Then clicked [HERE]
 # 6 Select $ on Payment Screen
 	Given screen state [CenterMenuButtons~LUNCH MENU]

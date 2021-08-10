@@ -35,7 +35,7 @@ Scenario: 1 Hold Item
 	When swiped left on BottomButtons~
 	Then clicked [BottomButtons~Hold]
 # 7 Apply HERE Ordermode
-	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ COKE","EntriesBySeat~2.00"
+	Given screen state {207}
 	Then clicked [HERE]
 # 8 Press OK
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~H COKE","EntriesBySeat~2.00"
@@ -49,7 +49,7 @@ Scenario: 1 Hold Item
 	Given screen state "Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00"
 	Then clicked [Exact]
 # 11 Click Close
-	Given screen state "Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~CASH","Tenders~$2.00","Tenders~Change","Tenders~$0.00"
+	Given screen state {208}
 	Then clicked [MidButtons~Close]
 # 12 Exit FloorPlan
 	Given screen state {558}

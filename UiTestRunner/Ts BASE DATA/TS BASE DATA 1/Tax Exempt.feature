@@ -48,7 +48,7 @@ Scenario: 1 Add Tax Exempt
 	Given screen state "ItemEntries~Seat 1","ItemEntries~BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","ItemEntries~41.94","Comps~Sub Total","Comps~41.94","Taxes~Tax Exempt TEST","Taxes~0.00","Taxes~Total","Taxes~41.94","Tenders~Balance Due","Tenders~$41.94"
 	Then clicked [Exact]
 # 14 Click Close
-	Given screen state "ItemEntries~Seat 1","ItemEntries~BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","ItemEntries~41.94","Comps~Sub Total","Comps~41.94","Taxes~Tax Exempt TEST","Taxes~0.00","Taxes~Total","Taxes~41.94","Tenders~CASH","Tenders~$41.94","Tenders~Change","Tenders~$0.00"
+	Given screen state {209}
 	Then clicked [MidButtons~Close]
 # 15 Exit FloorPlan
 	Given screen state {558}
@@ -100,7 +100,7 @@ Scenario: 2 Remove Tax Exempt
 	Given screen state "ItemEntries~Seat 1","ItemEntries~BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","ItemEntries~41.94","Comps~Sub Total","Comps~41.94","Taxes~Tax Exempt TEST","Taxes~0.00","Taxes~Total","Taxes~41.94","Tenders~Balance Due","Tenders~$41.94"
 	Then clicked "Taxes~Tax Exempt TEST"
 # 14 Remove Tax Exempt
-	Given screen state "Taxes~Tax Exempt TEST",[Taxes~Del],"Taxes~0.00","Taxes~Total","Taxes~41.94"
+	Given screen state {210}
 	Then clicked [BottomRightButtons~Delete]
 # 15 Exact Payment
 	Given screen state "ItemEntries~Seat 1","ItemEntries~BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","ItemEntries~41.94","Comps~Sub Total","Comps~41.94","Taxes~Tax","Taxes~2.56","Taxes~Total","Taxes~44.50","Tenders~Balance Due","Tenders~$44.50"

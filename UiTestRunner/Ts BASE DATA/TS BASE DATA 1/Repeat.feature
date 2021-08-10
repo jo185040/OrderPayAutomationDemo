@@ -196,7 +196,7 @@ Scenario: 5 Verify voided items cannot be repeated
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [HERE]
 # 6 Void COKE
-	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Given screen state {164}
 	Then clicked [BottomButtons~Void]
 # 7 Select COKE on Void Screen
 	Given screen state [CenterMenuButtons~LUNCH MENU]

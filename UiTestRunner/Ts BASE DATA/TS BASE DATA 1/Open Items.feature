@@ -403,10 +403,10 @@ Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retai
 	Then clicked [DialogSeparator~0]
 	Then clicked [DialogSeparator~OK]
 # 7 Order Open Item on Modifier
-	Given screen state "Modifer~OPEN PRICE MOD","Modifer~2.00"
+	Given screen state {202}
 	Then clicked [RightModifierButtons~OPEN ITEM PRICE]
 # 8 Enter "2.00" on description
-	Given screen state "Modifer~OPEN PRICE MOD","Modifer~2.00"
+	Given screen state {203}
 	Then clicked [DialogSeparator~2]
 	Then clicked [DialogSeparator~0]
 	Then clicked [DialogSeparator~0]
@@ -507,10 +507,10 @@ Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier 
 	Then clicked [DialogSeparator~t]
 	Then clicked [DialogSeparator~Ok]
 # 7 Order Open Item on Modifier
-	Given screen state "Modifer~TEST","Modifer~10.00"
+	Given screen state {205}
 	Then clicked [RightModifierButtons~OPEN ITEM]
 # 8 Enter "Test" on description
-	Given screen state "KeyboardEntryDialog~Enter description"
+	Given screen state {206}
 	Then clicked [DialogSeparator~t]
 	Then clicked [DialogSeparator~e]
 	Then clicked [DialogSeparator~s]
@@ -566,7 +566,7 @@ Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price fro
 	Then clicked [DialogSeparator~t]
 	Then clicked [DialogSeparator~Ok]
 # 7 Order Open Item on Modifier
-	Given screen state "Modifer~TEST","Modifer~10.00"
+	Given screen state {205}
 	Then clicked [RightModifierButtons~OPEN ITEM PRICE]
 # 8 Enter "2.00" on description
 	Given screen state "CurrencyInputDialog~Enter price","CurrencyInputDialog~$","CurrencyInputDialog~0.00",[CurrencyInputDialog~<]
@@ -618,7 +618,7 @@ Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from 
 	Then clicked [DialogSeparator~t]
 	Then clicked [DialogSeparator~Ok]
 # 7 Order Open Item on Modifier
-	Given screen state "Modifer~TEST","Modifer~10.00"
+	Given screen state {205}
 	Then clicked [RightModifierButtons~OPEN ITEM DES]
 # 8 Enter "Test"
 	Given screen state "KeyboardEntryDialog~Enter description"
