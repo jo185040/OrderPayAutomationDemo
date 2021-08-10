@@ -1082,6 +1082,1671 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{201}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Table"
+	"BBQ RIBS"
+	"11.99"
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"BBQ RIBS"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"BBQ RIBS"
+	"11.99"
+	" - FULL RACK"
+	" - Baked Potato"
+CenterCategoryButtons
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[CUP]
+	[*]
+	[*]
+	[HOUSE\SALAD]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[CAESAR\SALAD]
+	[*]
+	[BOWL]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{200}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Table"
+	"BBQ RIBS"
+	"11.99"
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"BBQ RIBS"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"BBQ RIBS"
+	"11.99"
+	" - FULL RACK"
+CenterCategoryButtons
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Baked Potato]
+	[*]
+	[BUFFET]
+	[No Starch]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[Black Beans]
+	[*]
+	[Red Beans]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{199}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Table"
+	"BBQ RIBS"
+	"11.99"
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"BBQ RIBS"
+	"(Please add between 1 and 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"BBQ RIBS"
+	"11.99"
+CenterCategoryButtons
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[1/2 RACK]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[FULL RACK]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{198}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"3pcDrkBrstr"
+	"9.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"3pcDrkBrstr"
+	"(Optional unlimited modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"3pcDrkBrstr"
+	"9.99"
+	" - SP Bean C"
+	" - Carrots"
+	" - Cherry Bread"
+CenterCategoryButtons
+	[3C\Starter]
+	[Farmhouse\Sd]
+	[Breads]
+	[3C\Dessert]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Fruit]
+	[IceCreamVan Scp]
+	[IceCreamChocScp]
+	[Carml\Sundae]
+	[Apple\Sundae]
+	[Choc\Sundae]
+	[Apple\Sundae]
+	[ChocCn\Cookie]
+	[*]
+	[*]
+	[ChocMM\Cookie]
+	[*]
+	[DblCrst\AplPie]
+	[DblCrt\AplPiMd]
+	[Coco\CrmPie]
+	[*]
+	[FrchChc\Pie]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{197}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"3pcDrkBrstr"
+	"9.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"3pcDrkBrstr"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"3pcDrkBrstr"
+	"9.99"
+	" - SP Bean C"
+	" - Carrots"
+CenterCategoryButtons
+	[3C\Starter]
+	[Farmhouse\Sd]
+	[Breads]
+	[3C\Dessert]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[1 French Toast]
+	[3 Hotcke Btrmlk]
+	[3 Hotcke\Multi]
+	[BanNut\Brd]
+	[Biscuit]
+	[Blue Bread]
+	[Cherry\Bread]
+	[Choc\Bread]
+	[Ciabatta Bun]
+	[Ciabatta Bun]
+	[English\Muffin]
+	[Fruit\Crepe]
+	[Ginger\Bread]
+	[Pmpkn\Bread]
+	[Rolls]
+	[Srdough\Toast]
+	[Wheat Toast]
+	[White\Toast]
+	[*]
+	[No\Bread]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{196}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"3pcDrkBrstr"
+	"9.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"3pcDrkBrstr"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"3pcDrkBrstr"
+	"9.99"
+	" - SP Bean C"
+CenterCategoryButtons
+	[3C\Starter]
+	[Farmhouse\Sd]
+	[Breads]
+	[3C\Dessert]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Garden Salad]
+	[Apple Sauce]
+	[Bk Potato]
+	[Bk Swt Potat]
+	[Broccoli]
+	[Butter\Corn]
+	[Carrots]
+	[Cole\Slaw]
+	[French Fries]
+	[Fruit]
+	[Green Beans]
+	[Hash Brown]
+	[Home Frie]
+	[Mac Chz]
+	[MashPot\Grv]
+	[Onion Petals]
+	[Dressing]
+	[*]
+	[*]
+	[No Side]
+	[*]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{195}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"3pcDrkBrstr"
+	"9.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"3pcDrkBrstr"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"3pcDrkBrstr"
+	"9.99"
+CenterCategoryButtons
+	[3C\Starter]
+	[Farmhouse\Sd]
+	[Breads]
+	[3C\Dessert]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[*]
+	[Garden Salad]
+	[*]
+	[*]
+	[*]
+	[*]
+	[SP\Bean C]
+	[SP\Bf Veggie C]
+	[SP\Cz Potato C]
+	[SP\Bean B]
+	[SP\Bf Veggie B]
+	[SP\Cz Potato B]
+	[*]
+	[*]
+	[*]
+	[SP\CkNoodles C]
+	[SP\Brocc Cz C]
+	[SP\Chili C]
+	[SP\CkNoodles B]
+	[SP\Brocc Cz B]
+	[SP\Chili B]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{194}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Wrap"
+	"5.50"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Wrap"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Pastries"
+CenterCategoryButtons
+	[ADD SOUR CRM]
+	[BAGEL/CROISSANT]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[ON\BAGEL]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[ON\CROISSANT]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{193}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Wrap"
+	"5.50"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Wrap"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Wrap"
+	"5.50"
+	" - 3 Bowl"
+	" - NO Onion"
+	" - Less Spicy"
+CenterCategoryButtons
+	[ADD BACON]
+	[R.General MOD]
+	[Mods A-F]
+	[Desserts]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Milk Pudding]
+	[Chocolate Ice]
+	[*]
+	[*]
+	[*]
+	[*]
+	[Pastries]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{192}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Wrap"
+	"5.50"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Wrap"
+	"(Optional modifiers, but no more than 9 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Wrap"
+	"5.50"
+CenterCategoryButtons
+	[ADD BACON]
+	[R.General MOD]
+	[Mods A-F]
+	[Desserts]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Serve Now]
+	[Serve LATER]
+	[Rush this Item]
+	[HOLD]
+	[Hold ALL Items]
+	[*]
+	[1 Bowl]
+	[2 Bowl]
+	[3 Bowl]
+	[No Spring Onion]
+	[NO Sesame]
+	[No Blend]
+	[NO Onion]
+	[No Garlic]
+	[Dressing Aside]
+	[No Spicy]
+	[Less Spicy]
+	[More Spicy]
+	[*]
+	[*]
+	[*]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{191}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Burrito Classic"
+	"11.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Burrito Classic"
+	"(Please add between 1 and 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Burrito Classic"
+	"11.00"
+	" - Verde"
+CenterCategoryButtons
+	[Burrito Rice]
+	[Burrito Beans]
+	[Burrito Meat]
+	[Burrito Salsa]
+	[Burrito Vege]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Tomato]
+	[*]
+	[Corn]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{190}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Burrito Classic"
+	"11.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Burrito Classic"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Burrito Classic"
+	"11.00"
+CenterCategoryButtons
+	[Burrito Rice]
+	[Burrito Beans]
+	[Burrito Meat]
+	[Burrito Salsa]
+	[Burrito Vege]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Verde]
+	[*]
+	[Chipotle]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{189}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Burrito Persona"
+	"11.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Burrito Persona"
+	"(Please add between 1 and 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Burrito Persona"
+	"11.00"
+	" - Chili Rice"
+	" - Chili Rice"
+	" - White Beans"
+	" - Chicken"
+	" - Chicken"
+	" - Verde"
+CenterCategoryButtons
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Tomato]
+	[*]
+	[Corn]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{188}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Burrito Persona"
+	"11.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Burrito Persona"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Burrito Persona"
+	"11.00"
+	" - Chili Rice"
+	" - Chili Rice"
+	" - White Beans"
+	" - Chicken"
+	" - Chicken"
+CenterCategoryButtons
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Verde]
+	[*]
+	[Chipotle]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{187}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Burrito Persona"
+	"11.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Burrito Persona"
+	"(Optional modifiers, but no more than 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Burrito Persona"
+	"11.00"
+	" - Chili Rice"
+	" - Chili Rice"
+	" - White Beans"
+CenterCategoryButtons
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Chicken]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{186}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Burrito Persona"
+	"11.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Burrito Persona"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Burrito Persona"
+	"11.00"
+	" - Chili Rice"
+	" - Chili Rice"
+CenterCategoryButtons
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[White Beans]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {185}
 PizzaModifierScreen
 GroupOneButtons
@@ -1124,6 +2789,100 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{184}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Burrito Persona"
+	"11.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Burrito Persona"
+	"(Optional unlimited modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Burrito Persona"
+	"11.00"
+CenterCategoryButtons
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Chili Rice]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {183}
 PizzaModifierScreen
 GroupOneButtons
@@ -1172,6 +2931,786 @@ DialogSeparator
 	"You may not have more than 1 items from the CHEESE group."
 	[X]
 	[OK]
+{182}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Bread\ Garlic Spread"
+	"1.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Bread"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Chive Spread"
+CenterCategoryButtons
+	[Spread Light T]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[BACON]
+	[HAM]
+	[CHORIZO]
+	[CHEDDAR]
+	[GOUDA]
+	[*]
+	[*]
+	[*]
+	[*]
+	[TOMATO]
+	[MUSHROOM]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+MessageDialog
+	"Warning"
+DialogSeparator
+	"At least 1 of Spread Light T is required"
+	[X]
+	[OK]
+{181}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Bread\ Garlic Spread"
+	"1.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Bread"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Chive Spread"
+CenterCategoryButtons
+	[Spread Light T]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[BACON]
+	[HAM]
+	[CHORIZO]
+	[CHEDDAR]
+	[GOUDA]
+	[*]
+	[*]
+	[*]
+	[*]
+	[TOMATO]
+	[MUSHROOM]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{180}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Bread\ Garlic Spread"
+	"1.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Bread"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Bread"
+	"1.99"
+	" - Garlic Spread"
+CenterCategoryButtons
+	[Breads Spreads]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Garlic Spread]
+	[*]
+	[Chive Spread]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{179}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Bread"
+	"1.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Bread"
+	"(Optional unlimited modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Garlic Spread"
+CenterCategoryButtons
+	[Spread Toppings]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[BACON]
+	[HAM]
+	[CHORIZO]
+	[CHEDDAR]
+	[GOUDA]
+	[*]
+	[TOMATO]
+	[MUSHROOM]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{178}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Bread"
+	"1.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Bread"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Bread"
+	"1.99"
+CenterCategoryButtons
+	[Breads Spreads]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Garlic Spread]
+	[*]
+	[Chive Spread]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{177}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"11.99\\\\3.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"RIBEYE"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"RIBEYE"
+	"11.99"
+	" - BLACK & BLUE"
+	" - Baked Potato"
+	" - CAESAR SALAD"
+	" -  - ADD CHICKEN"
+CenterCategoryButtons
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[BLACK & BLUE]
+	[MEDIUM\WELL]
+	[*]
+	[MEDIUM]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[MED RARE]
+	[*]
+	[RARE]
+	[WELL]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{176}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"RIBEYE"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"RIBEYE"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"CAESAR SALAD"
+CenterCategoryButtons
+	[ADD CHICKEN]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[ADD\CHICKEN]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{175}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"RIBEYE"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"RIBEYE"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"RIBEYE"
+	"11.99"
+	" - BLACK & BLUE"
+	" - Baked Potato"
+CenterCategoryButtons
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[CUP]
+	[*]
+	[*]
+	[HOUSE\SALAD]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[CAESAR\SALAD]
+	[*]
+	[BOWL]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {174}
 PizzaModifierScreen
 GroupOneButtons
@@ -1214,6 +3753,214 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{173}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"RIBEYE"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"RIBEYE"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"RIBEYE"
+	"11.99"
+	" - BLACK & BLUE"
+CenterCategoryButtons
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Baked Potato]
+	[*]
+	[BUFFET]
+	[No Starch]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[Black Beans]
+	[*]
+	[Red Beans]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{172}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"RIBEYE"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"RIBEYE"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"RIBEYE"
+	"11.99"
+CenterCategoryButtons
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[BLACK & BLUE]
+	[MEDIUM\WELL]
+	[*]
+	[MEDIUM]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[MED RARE]
+	[*]
+	[RARE]
+	[WELL]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {171}
 OrderScreen
 TopLeftButtons

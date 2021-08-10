@@ -169,23 +169,23 @@ Scenario: 4 Delete Modifier
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "RIBEYE"
 # 6 On Ribeye Screen, Meat Temp
-	Given screen state "Modifer~RIBEYE","Modifer~11.99",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~BLACK & BLUE]
+	Given screen state {172}
 	Then clicked [BLACK & BLUE]
 # 7 On Starch Menu, Select Baked Potato
-	Given screen state [RightModifierButtons~Baked Potato]
+	Given screen state {173}
 	Then clicked [Baked Potato]
 # 8 On Soup Mod, select Cup
-	Given screen state "Modifer~RIBEYE","Modifer~11.99","Modifer~- BLACK & BLUE","Modifer~- Baked Potato",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~CUP]
+	Given screen state {175}
 	Then clicked [CAESAR\SALAD]
 # 9 On Add Chicken Mod add Chicken
-	Given screen state [RightModifierButtons~ADD\CHICKEN],"Modifer~CAESAR SALAD",[CenterCategoryButtons~ADD CHICKEN]
+	Given screen state {176}
 	Then clicked [ADD\CHICKEN]
 # 10 On Modify Item
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN","EntriesBySeat~11.99\\\\3.00"
 	Then clicked "EntriesBySeat~RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
 	Then clicked [BottomButtons~Modify]
 # 11 On Delete Chicken
-	Given screen state "Modifer~RIBEYE","Modifer~11.99","Modifer~- BLACK & BLUE","Modifer~- Baked Potato","Modifer~- CAESAR SALAD",[RightModifierButtons~BLACK & BLUE]
+	Given screen state {177}
 	Then clicked " -  - ADD CHICKEN"
 	Then clicked [Delete Modifier]
 	Then clicked [OK]
@@ -233,25 +233,25 @@ Scenario: 5 Verify Bread Scenario
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Bread","EntriesBySeat~1.99"
 	Then clicked [BottomButtons~Modify]
 # 8 On Bread Spreads Select Garlic Spread
-	Given screen state "Modifer~Bread","Modifer~1.99",[CenterCategoryButtons~Breads Spreads],[RightModifierButtons~Garlic Spread],[RightModifierButtons~Chive Spread]
+	Given screen state {178}
 	Then clicked [Garlic Spread]
 # 9 Press OK
-	Given screen state "Modifer~Garlic Spread",[CenterCategoryButtons~Spread Toppings],[RightModifierButtons~BACON]
+	Given screen state {179}
 	Then clicked [OK]
 # 10 Modify Bread
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Bread\ Garlic Spread","EntriesBySeat~1.99"
 	Then clicked [BottomButtons~Modify]
 # 11 On Bread Spreads Select Chive Spread
-	Given screen state "Modifer~Bread","Modifer~1.99","Modifer~- Garlic Spread",[CenterCategoryButtons~Breads Spreads],[RightModifierButtons~Garlic Spread],[RightModifierButtons~Chive Spread]
+	Given screen state {180}
 	Then clicked [Chive Spread]
 # 12 Press OK
-	Given screen state "Modifer~Chive Spread",[CenterCategoryButtons~Spread Light T],[RightModifierButtons~BACON]
+	Given screen state {181}
 	Then clicked [OK]
 # 13 Dismiss Error Message
-	Given screen state "DialogSeparator~At least 1 of Spread Light T is required"
+	Given screen state {182}
 	Then clicked [DialogSeparator~OK]
 # 14 On Spread Light Modscreen Select Bacon
-	Given screen state "Modifer~Chive Spread",[CenterCategoryButtons~Spread Light T],[RightModifierButtons~BACON]
+	Given screen state {181}
 	Then clicked [BACON]
 # 15 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Bread\ Chive Spread\  BACON","EntriesBySeat~2.99"
@@ -330,22 +330,22 @@ Scenario: 7 Burrito Persona Modifier Flow
 	Given screen state "MenuOrModButtons~COMBO 3"
 	Then clicked "Burrito Persona"
 # 6 On Burrito Rice R, Chili Rice
-	Given screen state [RightModifierButtons~Chili Rice],"Modifer~Burrito Persona","Modifer~11.00",[CenterCategoryButtons~Burrito Rice R],[CenterCategoryButtons~Burrito Beans R],[CenterCategoryButtons~Burrito Meat R],[CenterCategoryButtons~Burrito Salsa R],[CenterCategoryButtons~Burrito Vege R]
+	Given screen state {184}
 	Then clicked [RightModifierButtons~Chili Rice]
 	Then clicked [RightModifierButtons~Chili Rice]
 	Then clicked [BottomLeftButtons~OK]
 # 7 On Burrito Beans R, White Beans
-	Given screen state [RightModifierButtons~White Beans],"Modifer~Burrito Persona","Modifer~11.00",[CenterCategoryButtons~Burrito Rice R],[CenterCategoryButtons~Burrito Beans R],[CenterCategoryButtons~Burrito Meat R],[CenterCategoryButtons~Burrito Salsa R],[CenterCategoryButtons~Burrito Vege R]
+	Given screen state {186}
 	Then clicked [RightModifierButtons~White Beans]
 # 8 On Burrito Meat R, Select Chicken
-	Given screen state [RightModifierButtons~Chicken],"Modifer~Burrito Persona","Modifer~11.00",[CenterCategoryButtons~Burrito Rice R],[CenterCategoryButtons~Burrito Beans R],[CenterCategoryButtons~Burrito Meat R],[CenterCategoryButtons~Burrito Salsa R],[CenterCategoryButtons~Burrito Vege R]
+	Given screen state {187}
 	Then clicked [RightModifierButtons~Chicken]
 	Then clicked [RightModifierButtons~Chicken]
 # 9 On Burrito Salsa R, Verde
-	Given screen state [RightModifierButtons~Verde],"Modifer~Burrito Persona","Modifer~11.00",[CenterCategoryButtons~Burrito Rice R],[CenterCategoryButtons~Burrito Beans R],[CenterCategoryButtons~Burrito Meat R],[CenterCategoryButtons~Burrito Salsa R],[CenterCategoryButtons~Burrito Vege R]
+	Given screen state {188}
 	Then clicked [RightModifierButtons~Verde]
 # 10 On Burrito Vege R, Tomato
-	Given screen state [RightModifierButtons~Tomato],"Modifer~Burrito Persona","Modifer~11.00",[CenterCategoryButtons~Burrito Rice R],[CenterCategoryButtons~Burrito Beans R],[CenterCategoryButtons~Burrito Meat R],[CenterCategoryButtons~Burrito Salsa R],[CenterCategoryButtons~Burrito Vege R]
+	Given screen state {189}
 	Then clicked [RightModifierButtons~Tomato]
 	Then clicked [BottomLeftButtons~OK]
 # 11 Apply HERE Ordermode
@@ -386,10 +386,10 @@ Scenario: 8 Burrito Classic Modifier Flow
 	Given screen state "MenuOrModButtons~COMBO 3"
 	Then clicked "Burrito Classic"
 # 6 On Burrito Salsa , Verde
-	Given screen state "Modifer~Burrito Classic","Modifer~11.00",[CenterCategoryButtons~Burrito Rice],[CenterCategoryButtons~Burrito Beans],[CenterCategoryButtons~Burrito Meat],[CenterCategoryButtons~Burrito Salsa],[CenterCategoryButtons~Burrito Vege],[RightModifierButtons~Verde]
+	Given screen state {190}
 	Then clicked [RightModifierButtons~Verde]
 # 7 On Burrito Vege, Tomato
-	Given screen state "Modifer~Burrito Classic","Modifer~11.00","Modifer~- Verde",[CenterCategoryButtons~Burrito Rice],[CenterCategoryButtons~Burrito Beans],[CenterCategoryButtons~Burrito Meat],[CenterCategoryButtons~Burrito Salsa],[CenterCategoryButtons~Burrito Vege],[RightModifierButtons~Tomato]
+	Given screen state {191}
 	Then clicked [RightModifierButtons~Tomato]
 	Then clicked [RightModifierButtons~Tomato]
 # 8 Apply HERE Ordermode
@@ -430,16 +430,16 @@ Scenario: 9 Wrap Modifier Flow
 	Given screen state "MenuOrModButtons~COMBO 3"
 	Then clicked "Wrap"
 # 6 On R. General MOD
-	Given screen state "Modifer~Wrap","Modifer~5.50",[RightModifierButtons~Serve Now]
+	Given screen state {192}
 	Then clicked [RightModifierButtons~3 Bowl]
 	Then clicked [RightModifierButtons~NO Onion]
 	Then clicked [RightModifierButtons~Less Spicy]
 	Then clicked [BottomLeftButtons~OK]
 # 7 On Dessert Mod Group
-	Given screen state "Modifer~Wrap","Modifer~5.50","Modifer~- 3 Bowl","Modifer~- NO Onion","Modifer~- Less Spicy",[RightModifierButtons~Milk Pudding]
+	Given screen state {193}
 	Then clicked [RightModifierButtons~Pastries]
 # 8 On Add On Bagel
-	Given screen state "Modifer~Pastries",[CenterCategoryButtons~ADD SOUR CRM],[CenterCategoryButtons~BAGEL/CROISSANT],[RightModifierButtons~ON\BAGEL]
+	Given screen state {194}
 	Then clicked [RightModifierButtons~ON\BAGEL]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","EntriesBySeat~5.50"
@@ -479,16 +479,16 @@ Scenario: 10 pcDarkBrstr Modifier Flow
 	Given screen state "MenuOrModButtons~COMBO 3"
 	Then clicked "3pcDrkBrstr"
 # 6 On 3C Starter
-	Given screen state "Modifer~3pcDrkBrstr","Modifer~9.99",[CenterCategoryButtons~3C\Starter],[CenterCategoryButtons~Farmhouse\Sd],[CenterCategoryButtons~Breads],[CenterCategoryButtons~3C\Dessert],[RightModifierButtons~Garden Salad]
+	Given screen state {195}
 	Then clicked [RightModifierButtons~SP\Bean C]
 # 7 On Farmhouse SD select Carrots
-	Given screen state "Modifer~3pcDrkBrstr","Modifer~9.99","- SP Bean C",[CenterCategoryButtons~3C\Starter],[CenterCategoryButtons~Farmhouse\Sd],[CenterCategoryButtons~Breads],[CenterCategoryButtons~3C\Dessert],[RightModifierButtons~Green Beans]
+	Given screen state {196}
 	Then clicked [RightModifierButtons~Carrots]
 # 8 On Breads select Cherry Bread
-	Given screen state "Modifer~3pcDrkBrstr","Modifer~9.99","- SP Bean C","- Carrots",[CenterCategoryButtons~3C\Starter],[CenterCategoryButtons~Farmhouse\Sd],[CenterCategoryButtons~Breads],[CenterCategoryButtons~3C\Dessert],[RightModifierButtons~3 Hotcke Btrmlk]
+	Given screen state {197}
 	Then clicked [RightModifierButtons~Cherry\Bread]
 # 9 On 3C Dessert
-	Given screen state "Modifer~3pcDrkBrstr","Modifer~9.99","- SP Bean C","- Carrots","- Cherry Bread",[CenterCategoryButtons~3C\Starter],[CenterCategoryButtons~Farmhouse\Sd],[CenterCategoryButtons~Breads],[CenterCategoryButtons~3C\Dessert],[RightModifierButtons~ChocCn\Cookie]
+	Given screen state {198}
 	Then clicked [RightModifierButtons~Carml\Sundae]
 	Then clicked [RightModifierButtons~Coco\CrmPie]
 	Then clicked [BottomLeftButtons~OK]

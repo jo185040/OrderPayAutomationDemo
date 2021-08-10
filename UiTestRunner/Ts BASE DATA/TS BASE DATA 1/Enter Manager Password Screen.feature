@@ -113,13 +113,13 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "BBQ\RIBS"
 # 6 Select Full Rack on Ribs Submenu
-	Given screen state [RightModifierButtons~1/2 RACK],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~BBQ RIBS","Modifer~11.99"
+	Given screen state {199}
 	Then clicked [FULL RACK]
 # 7 Select Baked Potato on Starch Submenu
-	Given screen state [RightModifierButtons~Baked Potato],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~- FULL RACK","Modifer~11.99","Modifer~BBQ RIBS"
+	Given screen state {200}
 	Then clicked [Baked Potato]
 # 8 On Soup Mod, select Cup
-	Given screen state [RightModifierButtons~CUP],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~- Baked Potato","Modifer~11.99","Modifer~- FULL RACK","Modifer~BBQ RIBS"
+	Given screen state {201}
 	Then clicked [CUP]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","EntriesBySeat~41.94"
@@ -177,13 +177,13 @@ Scenario: 4 Comps: verify JIT screen can’t be confirmed by not clocked in Mana
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "BBQ\RIBS"
 # 6 Select Full Rack on Ribs Submenu
-	Given screen state [RightModifierButtons~1/2 RACK],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~BBQ RIBS","Modifer~11.99"
+	Given screen state {199}
 	Then clicked [FULL RACK]
 # 7 Select Baked Potato on Starch Submenu
-	Given screen state [RightModifierButtons~Baked Potato],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~- FULL RACK","Modifer~11.99","Modifer~BBQ RIBS"
+	Given screen state {200}
 	Then clicked [Baked Potato]
 # 8 On Soup Mod, select Cup
-	Given screen state [RightModifierButtons~CUP],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~- Baked Potato","Modifer~11.99","Modifer~- FULL RACK","Modifer~BBQ RIBS"
+	Given screen state {201}
 	Then clicked [CUP]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","EntriesBySeat~41.94"
