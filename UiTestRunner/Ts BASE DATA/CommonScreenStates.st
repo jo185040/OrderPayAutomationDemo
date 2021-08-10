@@ -1682,6 +1682,212 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{115}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"CHOPPED\SALAD"
+	"CAESAR\SALAD"
+	"HOUSE\SALAD"
+	"CHICKEN\CAESAR"
+	"SOUP\OF DAY"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{114}
+ReceiveTransfersScreen
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"j1"
+	"List of existing owned tabs"
+ExistingTables
+RightCommands
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+{113}
+WWTScreen
+	"MIGUEL"
+	[btnSetTabEntry]
+Tabs
+	"j1"
+	"j2"
+	[btnSetTableEntry]
+Tables
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{112}
+WWTScreen
+	"MIGUEL"
+	[btnSetTabEntry]
+Tabs
+	"j1"
+	[btnSetTableEntry]
+Tables
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+EnterTabNameKeyboard
+	?j2?
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[0]
+	[q]
+	[w]
+	[e]
+	[r]
+	[t]
+	[y]
+	[u]
+	[i]
+	[o]
+	[p]
+	[a]
+	[s]
+	[d]
+	[f]
+	[g]
+	[h]
+	[j]
+	[k]
+	[l]
+	[/]
+	[z]
+	[x]
+	[c]
+	[v]
+	[b]
+	[n]
+	[m]
+	[*]
+	[!]
+	[Clear]
+	[ ]
+	[]
+	[⌫]
+	[Ok]
+	[btnHideOrShowKeyboard]
+InputDialog
+	"Enter Guest Count"
+	"1"
+	[<]
+DialogSeparator
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
+	[X]
+{111}
+WWTScreen
+	"MIGUEL"
+	[btnSetTabEntry]
+Tabs
+	[btnSetTableEntry]
+Tables
+	"2"
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{110}
+WWTScreen
+	"MIGUEL"
+	[btnSetTabEntry]
+Tabs
+	[btnSetTableEntry]
+Tables
+	"1"
+	"2"
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{109}
+WWTScreen
+	"MIGUEL"
+	[btnSetTabEntry]
+Tabs
+	"j1"
+	[btnSetTableEntry]
+Tables
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
 {108}
 OrderScreen
 TopLeftButtons
@@ -4831,6 +5037,64 @@ BottomCenterButtons
 	[Add]
 	[Split check]
 	[Close]
+{034}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[>]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 {033}
 ReceiveTransfersScreen
 	"MIGUEL SAAVEDRA"

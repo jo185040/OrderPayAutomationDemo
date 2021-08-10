@@ -202,7 +202,7 @@ Scenario: 4 Verify you can split seats with items with modifiers
 	Given screen state [RightModifierButtons~HOUSE\SALAD]
 	Then clicked [CUP]
 # 14 Split Seat
-	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Given screen state {034}
 	Then clicked [TopLeftButtons~Split Seat]
 # 15 Select "Pork Chop"
 	Given screen state {058}

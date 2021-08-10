@@ -116,7 +116,7 @@ Scenario: 3 Verify Repeat works on items with modifiers
 	Given screen state [RightModifierButtons~HOUSE\SALAD]
 	Then clicked [CUP]
 # 10 Repeat Item
-	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Given screen state {108}
 	Then clicked [BottomButtons~Repeat]
 # 11 Apply HERE Ordermode
 	Given screen state [CenterMenuButtons~LUNCH MENU]

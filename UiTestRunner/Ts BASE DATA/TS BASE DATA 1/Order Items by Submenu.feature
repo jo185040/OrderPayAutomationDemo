@@ -19,7 +19,7 @@ Scenario: 1 Verify you can order items from Soup & Salad Menu (Server)
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [CenterMenuButtons~SOUP & SALADS]
 # 5 Add Chopped Salad
-	Given screen state {013}
+	Given screen state {115}
 	Then clicked "CHOPPED\SALAD"
 # 6 Add Caesar Salad
 	Given screen state {081}
