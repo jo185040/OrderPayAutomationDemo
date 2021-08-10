@@ -1682,6 +1682,84 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{119}
+ReceiveTransfersScreen
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"j1"
+ExistingTables
+RightCommands
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+InputDialog
+	"Enter table name"
+	"0"
+	[<]
+DialogSeparator
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
+	[X]
+{118}
+ReceiveTransfersScreen
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"j1"
+ExistingTables
+RightCommands
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+{117}
+ReceiveTransfersScreen
+	"LEBRON JAMES"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"1"
+	"List of existing owned tables"
+ExistingTables
+RightCommands
+	[OK]
+	[New Table]
+	[Merge Table]
+	[Cancel]
+{116}
+ReceiveTransfersScreen
+	"LEBRON JAMES"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"1"
+	"List of existing owned tables"
+ExistingTables
+RightCommands
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
 {115}
 OrderScreen
 TopLeftButtons
@@ -5356,7 +5434,7 @@ ReceiveTransfersScreen
 	"Transfers"
 	"List of incoming transfers"
 IncomingTables
-	"j1"
+	"1"
 ExistingTables
 RightCommands
 	[OK]
@@ -5365,6 +5443,55 @@ RightCommands
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
+KeyboardEntryDialog
+	"Enter tab name"
+	""
+DialogSeparator
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[0]
+	[q]
+	[w]
+	[e]
+	[r]
+	[t]
+	[y]
+	[u]
+	[i]
+	[o]
+	[p]
+	[a]
+	[s]
+	[d]
+	[f]
+	[g]
+	[h]
+	[j]
+	[k]
+	[l]
+	[/]
+	[z]
+	[x]
+	[c]
+	[v]
+	[b]
+	[n]
+	[m]
+	[*]
+	[!]
+	[Clear]
+	[ ]
+	[]
+	[⌫]
+	[Ok*]
+	[X]
 {021}
 WWTScreen
 	"MIGUEL"
@@ -5498,6 +5625,7 @@ ReceiveTransfersScreen
 	"List of incoming transfers"
 IncomingTables
 	"1"
+	"List of existing owned tables"
 ExistingTables
 RightCommands
 	[OK]
@@ -5513,6 +5641,7 @@ ReceiveTransfersScreen
 	"List of incoming transfers"
 IncomingTables
 	"1"
+	"List of existing owned tables"
 ExistingTables
 RightCommands
 	[OK]
@@ -5580,6 +5709,11 @@ IncomingTables
 	"1"
 ExistingTables
 RightCommands
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
 	[Cancel]
 {012}
 TransferTableScreen

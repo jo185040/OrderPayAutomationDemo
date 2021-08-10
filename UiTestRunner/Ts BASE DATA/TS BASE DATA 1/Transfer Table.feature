@@ -1,3 +1,4 @@
+#There is a defect where Transfer Table screen is showing past closed tables. Will verify this is still an issue in latest version.
 Feature: 33 Transfer Table
 
 @ TransferTable
@@ -37,13 +38,13 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {036}
 	Then clicked [Transfer Table]
 # 10 Select Manager Jeffrey
-	Given screen state {032}
+	Given screen state {011}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 11 Select "Table 1" on Transfer Screen
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 12 Select "Lebron James" on Transfer Screen
-	Given screen state {011}
+	Given screen state {012}
 	Then clicked "ReceiveEmployees~LEBRON JAMES"
 # 13 Select OK
 	Given screen state {012}
@@ -63,10 +64,10 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {103}
 	Then clicked "Tables~1"
 # 18 Select Table 1 on Transfer Tables
-	Given screen state {014}
+	Given screen state {116}
 	Then clicked "1"
 # 19 Select Ok Button
-	Given screen state {015}
+	Given screen state {117}
 	Then clicked [OK]
 # 20 Select Table 1
 	Given screen state {103}
@@ -200,7 +201,7 @@ Scenario: 3 Verify you can transfer tab with OK
 	Given screen state {106}
 	Then clicked [Transfer Table]
 # 11 Select Manager Jeffrey
-	Given screen state {011}
+	Given screen state {024}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 12 Select "Table 1" on Transfer Screen
 	Given screen state {024}
@@ -226,10 +227,10 @@ Scenario: 3 Verify you can transfer tab with OK
 	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 19 Select Tab j1 on Transfer Tables
-	Given screen state {022}
+	Given screen state {037}
 	Then clicked "j1"
 # 20 Select Ok Button
-	Given screen state {022}
+	Given screen state {037}
 	Then clicked [OK]
 # 21 Select Tab "j1"
 	Given screen state {109}
@@ -277,13 +278,13 @@ Scenario: 4 Verify you can transfer table with merge table
 	Given screen state {036}
 	Then clicked [Transfer Table]
 # 9 Select Manager Jeffrey
-	Given screen state {032}
+	Given screen state {011}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 10 Select "Table 1" on Transfer Screen
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
-	Given screen state {011}
+	Given screen state {012}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
 	Given screen state {012}
@@ -323,7 +324,7 @@ Scenario: 4 Verify you can transfer table with merge table
 	Given screen state {013}
 	Then clicked "1"
 # 23 Select Ok Button
-	Given screen state {018}
+	Given screen state {013}
 	Then clicked [RightCommands~Merge Table]
 # 24 Merge Table 2
 	Given screen state {027}
@@ -897,13 +898,13 @@ Scenario: 10 Verify you can transfer table with new tab
 	Given screen state {036}
 	Then clicked [Transfer Table]
 # 9 Select Manager Jeffrey
-	Given screen state {024}
+	Given screen state {011}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 10 Select "Table 1" on Transfer Screen
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
 	Given screen state {012}
@@ -923,13 +924,13 @@ Scenario: 10 Verify you can transfer table with new tab
 	Given screen state {104}
 	Then clicked "Tables~1"
 # 17 Select Table 1 on Transfer Tables
-	Given screen state {027}
+	Given screen state {013}
 	Then clicked "1"
 # 18 Select Ok Button
-	Given screen state {027}
+	Given screen state {013}
 	Then clicked [New Tab]
 # 19 Enter Tab j1
-	Given screen state {051}
+	Given screen state {022}
 	Then clicked [DialogSeparator~j]
 	Then clicked [DialogSeparator~1]
 	Then clicked [DialogSeparator~Ok]
@@ -1014,13 +1015,13 @@ Scenario: 11 Verify you can transfer tab with new tab.
 	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 19 Select Tab j1 on Transfer Tables
-	Given screen state {072}
+	Given screen state {118}
 	Then clicked "j1"
 # 20 Select New Tab Button
-	Given screen state {072}
+	Given screen state {118}
 	Then clicked [New Table]
 # 21 Enter Table 1
-	Given screen state {096}
+	Given screen state {119}
 	Then clicked [DialogSeparator~1]
 	Then clicked [DialogSeparator~OK]
 # 22 Select Table 1
@@ -1104,13 +1105,13 @@ Scenario: 12 Verify you can transfer tab with new table.
 	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 19 Select Tab j1 on Transfer Tables
-	Given screen state {072}
+	Given screen state {118}
 	Then clicked "j1"
 # 20 Select New Table Button
-	Given screen state {072}
+	Given screen state {118}
 	Then clicked [New Table]
 # 21 Enter Table 2
-	Given screen state {096}
+	Given screen state {119}
 	Then clicked [DialogSeparator~2]
 	Then clicked [DialogSeparator~OK]
 # 22 Select Table 2
