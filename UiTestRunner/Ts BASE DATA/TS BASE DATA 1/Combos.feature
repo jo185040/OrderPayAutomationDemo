@@ -29,28 +29,28 @@ Scenario: 1 Verify you can add combo
 	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~FRIES],[RightModifierButtons~Black Beans]
 	Then clicked [FRIES]
 # 8 On Combo Page, Click Pepsi
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~Fanta\Orange],"Modifer~- FRIES","Modifer~TILAPIA"
+	Given screen state {120}
 	Then clicked [PEPSI]
 # 9 On Combo Page, Click Grilled Chicken
-	Given screen state [CenterCategoryButtons~COMBO 3],[RightModifierButtons~TILAPIA],"Modifer~-  - PEPSI","Modifer~ -  - FRIES","Modifer~- TILAPIA"
+	Given screen state {121}
 	Then clicked [GRILLED\CHCKEN]
 # 10 On Combo Page, Click Fries
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~FRIES],"Modifer~GRILLED CHCKEN"
+	Given screen state {122}
 	Then clicked [FRIES]
 # 11 On Combo Page, Click Pepsi
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~Fanta\Orange],"Modifer~GRILLED CHCKEN","Modifer~- FRIES"
+	Given screen state {123}
 	Then clicked [PEPSI]
 # 12 On Combo Page, Click Roasted Chicken
-	Given screen state [CenterCategoryButtons~COMBO 3],[RightModifierButtons~TILAPIA]
+	Given screen state {124}
 	Then clicked [ROASTED\CHCKEN]
 # 13 On Combo Page, Click Fries
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~FRIES],"Modifer~ROASTED CHCKEN"
+	Given screen state {125}
 	Then clicked [FRIES]
 # 14 On Combo Page, Click Pepsi
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~Fanta\Orange],"Modifer~ROASTED CHCKEN","Modifer~- FRIES"
+	Given screen state {126}
 	Then clicked [PEPSI]
 # 15 Apply HERE Ordermode
-	Given screen state "EntriesBySeat~Seat 1", "EntriesBySeat~COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI","EntriesBySeat~10.00"
+	Given screen state {127}
 	Then clicked [HERE]
 # 16 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1", "EntriesBySeat~COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI","EntriesBySeat~10.00"

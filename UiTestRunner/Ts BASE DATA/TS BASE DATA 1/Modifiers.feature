@@ -23,16 +23,16 @@ Scenario: 1 Modifier Weight 2
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "BBQ\RIBS"
 # 6 On Ribs Submenu order 1/2 Rack
-	Given screen state [RightModifierButtons~1/2 RACK],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~BBQ RIBS","Modifer~11.99"
+	Given screen state {128}
 	Then clicked [1/2 RACK]
 # 7 On Ribs Submenu order 1/2 Rack
-	Given screen state "Modifer~ - 1/2 RACK",[RightModifierButtons~1/2 RACK],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~BBQ RIBS","Modifer~11.99"
+	Given screen state {131}
 	Then clicked [1/2 RACK]
 # 8 On Starch press Baked Potato OK
-	Given screen state "Modifer~ - 1/2 RACK",[RightModifierButtons~Baked Potato],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~BBQ RIBS","Modifer~11.99"
+	Given screen state {132}
 	Then clicked [Baked Potato]
 # 9 On Soup Mod, select Cup
-	Given screen state "Modifer~ - 1/2 RACK",[RightModifierButtons~HOUSE\SALAD],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~BBQ RIBS","Modifer~11.99"
+	Given screen state {133}
 	Then clicked [CUP]
 # 10 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP","EntriesBySeat~41.89"
@@ -71,13 +71,13 @@ Scenario: 2 Modifier Weight 1
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "PORK\CHOP"
 # 6 On Meat Temp Press OK
-	Given screen state "Modifer~PORK CHOP","Modifer~11.99",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~BLACK & BLUE]
+	Given screen state {134}
 	Then clicked [MEDIUM]
 # 7 On Starch press Baked Potato OK
-	Given screen state [RightModifierButtons~Baked Potato]
+	Given screen state {135}
 	Then clicked [Baked Potato]
 # 8 On Soup Mod, select Cup
-	Given screen state [RightModifierButtons~HOUSE\SALAD]
+	Given screen state {136}
 	Then clicked [CUP]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~PORK CHOP\ MEDIUM\ Baked Potato\ CUP","EntriesBySeat~11.99"
@@ -125,7 +125,7 @@ Scenario: 3 Verify Apps submenu items contains exceptional mod group Pizza.
 	Given screen state [RightModifierButtons~ADD\AVOCADO]
 	Then clicked [ADD\AVOCADO]
 # 9 Select OK Button
-	Given screen state "Modifer~QUESADILLA"," Modifer~5.00","Modifer~ - ADD AVOCADO"
+	Given screen state {137}
 	Then clicked [OK]
 # 10 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~QUESADILLA\ ADD AVOCADO","EntriesBySeat~5.00\0.80"
@@ -208,10 +208,10 @@ Scenario: 5 Refill Drink
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 8 Add Coke Modifier
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00"
+	Given screen state {138}
 	Then clicked [COKE]
 # 9 Press OK on modifier screen
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00","Modifer~ - COKE"
+	Given screen state {139}
 	Then clicked [OK]
 # 10 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ COKE\","EntriesBySeat~2.00"
@@ -259,10 +259,10 @@ Scenario: 6 Verify refill do not go to other items
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 9 Add Coke Modifier
-	Given screen state "Modifer~COKE","Modifer~2.00",[CenterCategoryButtons~Drink Refill],[RightModifierButtons~COKE]
+	Given screen state {141}
 	Then clicked [COKE]
 # 10 Press OK on modifier screen
-	Given screen state "Modifer~COKE","Modifer~2.00","Modifer~ - COKE",[CenterCategoryButtons~Drink Refill],[RightModifierButtons~COKE]
+	Given screen state {142}
 	Then clicked [OK]
 # 11 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~7 UP","EntriesBySeat~2.00","EntriesBySeat~COKE\ COKE\","EntriesBySeat~2.00"
@@ -307,10 +307,10 @@ Scenario: 7 Verify refill can be deleted
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 8 Add Coke Modifier
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00"
+	Given screen state {138}
 	Then clicked [COKE]
 # 9 Press OK on modifier screen
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00","Modifer~ - COKE"
+	Given screen state {139}
 	Then clicked [OK]
 # 10 Select Coke with refill
 	Given screen state [CenterMenuButtons~LUNCH MENU]
@@ -322,10 +322,10 @@ Scenario: 7 Verify refill can be deleted
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ COKE\","EntriesBySeat~2.00"
 	Then clicked " - COKE"
 # 13 Delete Modifier Coke
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00","Modifer~ - COKE"
+	Given screen state {143}
 	Then clicked [Delete Modifier]
 # 14 OK Modifier Coke
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00"
+	Given screen state {146}
 	Then clicked [OK]
 # 15 Select $ on Payment Screen
 	Given screen state [CenterMenuButtons~LUNCH MENU]
@@ -367,10 +367,10 @@ Scenario: 8 Verify refilled item can be voided
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 8 Add Coke Modifier
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00"
+	Given screen state {138}
 	Then clicked [COKE]
 # 9 Press OK on modifier screen
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00","Modifer~ - COKE"
+	Given screen state {139}
 	Then clicked [OK]
 # 10 Apply HERE Ordermode
 	Given screen state [CenterMenuButtons~LUNCH MENU]
@@ -427,10 +427,10 @@ Scenario: 9 Verify you cannot refill a voided item
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 8 Add Coke Modifier
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00"
+	Given screen state {138}
 	Then clicked [COKE]
 # 9 Press OK on modifier screen
-	Given screen state [RightModifierButtons~COKE],[CenterCategoryButtons~Drink Refill],"Modifer~COKE","Modifer~2.00","Modifer~ - COKE"
+	Given screen state {139}
 	Then clicked [OK]
 # 10 Apply HERE Ordermode
 	Given screen state [CenterMenuButtons~LUNCH MENU]
@@ -457,10 +457,10 @@ Scenario: 9 Verify you cannot refill a voided item
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ COKE"
 	Then clicked [Modify]
 # 18 Select OK
-	Given screen state "MessageDialog~Modify Error","DialogSeparator~Select an unordered item to modify before pressing the modify button.",[DialogSeparator~X],[DialogSeparator~OK]
+	Given screen state {147}
 	Then clicked [OK]
 # 19 Select Payment
-	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ COKE"
+	Given screen state {148}
 	Then clicked [$]
 # 20 Click Close
 	Given screen state "Comps~Sub Total","Comps~0.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~0.00","Tenders~Change","Tenders~$0.00"
@@ -490,13 +490,13 @@ Scenario: 10 Verify Weighted Modifiers work with no issue
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "BBQ\RIBS"
 # 6 On Ribs Submenu order 1/2 Rack
-	Given screen state [RightModifierButtons~1/2 RACK],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~BBQ RIBS","Modifer~11.99"
+	Given screen state {128}
 	Then clicked [FULL RACK]
 # 7 On Starch press Baked Potato OK
-	Given screen state [RightModifierButtons~Baked Potato],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~- FULL RACK","Modifer~11.99","Modifer~BBQ RIBS"
+	Given screen state {129}
 	Then clicked [Baked Potato]
 # 8 On Soup Mod, select Cup
-	Given screen state [RightModifierButtons~CUP],[CenterCategoryButtons~RIBS],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],"Modifer~- Baked Potato","Modifer~11.99","Modifer~- FULL RACK","Modifer~BBQ RIBS"
+	Given screen state {130}
 	Then clicked [CUP]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","EntriesBySeat~41.94"
@@ -544,13 +544,13 @@ Scenario: 11 Verify Tenderlin Wraps item contains exceptional mod group Pizza ri
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [BottomButtons~Modify]
 # 9 Select Special Button
-	Given screen state "Modifer~TENDERLN WRAPS","Modifer~5.00","Modifer~ - Baked Potato",[CenterCategoryButtons~STARCH],[RightModifierButtons~Baked Potato],[RightModifierButtons~BUFFET],[RightModifierButtons~No Starch]
+	Given screen state {149}
 	Then clicked [Special]
 # 10 On Starch Modgroup, Select Avocado
-	Given screen state "Modifer~TENDERLN WRAPS","Modifer~5.00","Modifer~ - Baked Potato",[CenterCategoryButtons~STARCH],[RightModifierButtons~Baked Potato],[RightModifierButtons~1000\ISLAND],[RightModifierButtons~ADD\AVOCADO]
+	Given screen state {150}
 	Then clicked [ADD\AVOCADO]
 # 11 Verify AVOCADO added, exit mods by "OK"
-	Given screen state "Modifer~TENDERLN WRAPS","Modifer~5.00","Modifer~ - Baked Potato","Modifer~- ADD AVOCADO"
+	Given screen state {153}
 	Then clicked [OK]
 # 12 Verify prices, order items HERE
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO","EntriesBySeat~5.00\\0.80"
@@ -592,11 +592,11 @@ Scenario: 12 Verify adding mod with NO mod code is indicated by NO prefix on che
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 7 Add Coke Modifier
-	Given screen state "Modifer~COKE","Modifer~2.00",[CenterCategoryButtons~Drink Mods],[RightModifierButtons~Ice],[RightModifierButtons~Sugar]
+	Given screen state {154}
 	Then clicked [No]
 	Then clicked [Ice]
 # 8 Press OK on modifier screen
-	Given screen state "Modifer~COKE","Modifer~2.00","- NO Ice",[CenterCategoryButtons~Drink Mods],[RightModifierButtons~Ice],[RightModifierButtons~Sugar]
+	Given screen state {155}
 	Then clicked [OK]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ NO Ice","EntriesBySeat~2.00"
@@ -638,11 +638,11 @@ Scenario: 13 Verify adding mod with Extra mod code is indicated by XT prefix on 
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked [Modify]
 # 7 Add "Extra" Modifier
-	Given screen state "Modifer~COKE","Modifer~2.00",[CenterCategoryButtons~Drink Mods],[RightModifierButtons~Ice],[RightModifierButtons~Sugar]
+	Given screen state {154}
 	Then clicked [Extra]
 	Then clicked [Ice]
 # 8 Press OK on modifier screen
-	Given screen state "Modifer~COKE","Modifer~2.00","Modifer~- XT Ice",[CenterCategoryButtons~Drink Mods],[RightModifierButtons~Ice],[RightModifierButtons~Sugar]
+	Given screen state {159}
 	Then clicked [OK]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\ XT Ice","EntriesBySeat~2.00"
@@ -681,7 +681,7 @@ Scenario: 14 Verify price is combined on Porkchop item with Red Beans modifier
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "PORK\CHOP"
 # 6 On Meat Temp Press OK
-	Given screen state "Modifer~PORK CHOP","Modifer~11.99",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~BLACK & BLUE]
+	Given screen state {134}
 	Then clicked [MEDIUM]
 # 7 On Starch press Baked Potato OK
 	Given screen state [RightModifierButtons~Baked Potato]
@@ -726,13 +726,13 @@ Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "PORK\CHOP"
 # 6 On Meat Temp Press OK
-	Given screen state "Modifer~PORK CHOP","Modifer~11.99",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~BLACK & BLUE]
+	Given screen state {134}
 	Then clicked [MEDIUM]
 # 7 On Starch press Baked Potato OK
-	Given screen state [RightModifierButtons~Baked Potato]
+	Given screen state {135}
 	Then clicked [Black Beans]
 # 8 On Soup Mod, select Cup
-	Given screen state [RightModifierButtons~HOUSE\SALAD]
+	Given screen state {160}
 	Then clicked [CUP]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~PORK CHOP\ MEDIUM\ Black Beans\ CUP","EntriesBySeat~11.99\\1.00"
@@ -771,34 +771,33 @@ Scenario: 16 Typed Modifier
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "EntriesBySeat~COKE"
 # 6 Modify Coke
-	Given screen state [CenterMenuButtons~LUNCH MENU]
+	# 7 Add Typed Modifier
+	Given screen state {164}
 	Then clicked [Modify]
-# 7 Add Typed Modifier
-	Given screen state "Modifer~COKE","Modifer~2.00",[CenterCategoryButtons~Drink Mods],[RightModifierButtons~Ice],[RightModifierButtons~Sugar]
-	Then clicked [BottomLeftButtons~btnPrinter]
-# 8 Add Typed Modifier Message
+	Then clicked [BottomLeftButtons~btnKeyboard]
+# 7 Add Typed Modifier Message
 	Given screen state [RightModifierButtons~Ice],[RightModifierButtons~Sugar],[CenterCategoryButtons~Drink Mods]
 	Then clicked [DialogSeparator~t]
 	Then clicked [DialogSeparator~e]
 	Then clicked [DialogSeparator~s]
 	Then clicked [DialogSeparator~t]
 	Then clicked [DialogSeparator~Ok]
-# 9 Press OK on modifier screen
-	Given screen state "Modifer~COKE","Modifer~2.00","Modifer~test",[RightModifierButtons~Ice],[RightModifierButtons~Sugar],[CenterCategoryButtons~Drink Mods]
+# 8 Press OK on modifier screen
+	Given screen state {165}
 	Then clicked [OK]
-# 10 Apply HERE Ordermode
+# 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\test","EntriesBySeat~2.00"
 	Then clicked [HERE]
-# 11 Select Coke
+# 10 Select Coke
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE\test","EntriesBySeat~2.00"
 	Then clicked [$]
-# 12 Exact Payment
+# 11 Exact Payment
 	Given screen state "ItemEntries~Seat 1","ItemEntries~COKE\test","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00"
 	Then clicked [Exact]
-# 13 Click Close
+# 12 Click Close
 	Given screen state "ItemEntries~Seat 1","ItemEntries~COKE\test","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00","Tenders~Change","Tenders~$0.00","Tenders~CASH"
 	Then clicked [MidButtons~Close]
-# 14 Exit FloorPlan
+# 13 Exit FloorPlan
 	Given screen state {558}
 	When clicked [Exit]
 
@@ -823,10 +822,10 @@ Scenario: 17 Verify ordering items with mods on panel is working without issue
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "Special\Burger"
 # 6 Select Rare Temp
-	Given screen state "Modifer~Special Burger","Modifer~5.50",[CenterCategoryButtons~Special Burger],[RightPanelButtons~Special\Message],[RightPanelButtons~No],[RightPanelButtons~Actual\Count]
+	Given screen state {166}
 	Then clicked [RightPanelButtons~RARE]
 # 7 On Starch press Baked Potato OK
-	Given screen state "Modifer~Special Burger","Modifer~5.50",[CenterCategoryButtons~Special Burger],[RightPanelButtons~Special\Message],[RightPanelButtons~No],[RightPanelButtons~Actual\Count]
+	Given screen state {167}
 	Then clicked [RightPanelButtons~BACON]
 # 8 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Special Burger\ RARE\ BACON","EntriesBySeat~6.50"
@@ -865,16 +864,16 @@ Scenario: 18 Verify modifier panel is working on Special burger item (submenu Co
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "Special\Burger"
 # 6 Select Rare Temp
-	Given screen state "Modifer~Special Burger","Modifer~5.50",[CenterCategoryButtons~Special Burger],[RightPanelButtons~Special\Message],[RightPanelButtons~No],[RightPanelButtons~Actual\Count]
+	Given screen state {166}
 	Then clicked [RightPanelButtons~RARE]
 # 7 Select Clear Temp
-	Given screen state "Modifer~Special Burger","Modifer~5.50",[CenterCategoryButtons~Special Burger],[RightPanelButtons~Special\Message],[RightPanelButtons~No],[RightPanelButtons~Actual\Count]
+	Given screen state {167}
 	Then clicked [RightPanelButtons~Clear\modifiers]
 # 8 On Starch press Baked Potato OK
-	Given screen state "Modifer~Special Burger","Modifer~5.50",[CenterCategoryButtons~Special Burger],[RightPanelButtons~Special\Message],[RightPanelButtons~No],[RightPanelButtons~Actual\Count]
+	Given screen state {166}
 	Then clicked [RightPanelButtons~BACON]
 # 9 On Starch press Baked Potato OK
-	Given screen state "Modifer~Special Burger","Modifer~5.50",[CenterCategoryButtons~Special Burger],[RightPanelButtons~Special\Message],[RightPanelButtons~No],[RightPanelButtons~Actual\Count]
+	Given screen state {168}
 	Then clicked [RightPanelButtons~BACON]
 # 10 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~Special Burger\ BACON\ BACON","EntriesBySeat~7.50"

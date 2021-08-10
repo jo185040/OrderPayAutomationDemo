@@ -23,13 +23,13 @@ Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "PORK\CHOP"
 # 6 On Pork Chop, Meat Temp
-	Given screen state "Modifer~PORK CHOP","Modifer~11.99",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~BLACK & BLUE]
+	Given screen state {134}
 	Then clicked [BLACK & BLUE]
 # 7 On Starch Menu, Select Baked Potato
-	Given screen state "Modifer~PORK CHOP","Modifer~11.99","Modifer~- BLACK & BLUE",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~Baked Potato]
+	Given screen state {169}
 	Then clicked [Baked Potato]
 # 8 On Soup Mod, select Cup
-	Given screen state "Modifer~PORK CHOP","Modifer~11.99","Modifer~- BLACK & BLUE","Modifer~- Baked Potato",[CenterCategoryButtons~MEAT TEMP],[CenterCategoryButtons~STARCH],[CenterCategoryButtons~SOUP MOD],[RightModifierButtons~CUP]
+	Given screen state {171}
 	Then clicked [CUP]
 # 9 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~PORK CHOP\ BLACK & BLUE\ NO MEDIUM\ Baked Potato\ CUP"
@@ -112,25 +112,25 @@ Scenario: 3 Verify Combo Scenario
 	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~FRIES],[RightModifierButtons~Black Beans]
 	Then clicked [FRIES]
 # 8 On Combo Page, Click Pepsi
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~Fanta\Orange],"Modifer~- FRIES","Modifer~TILAPIA"
+	Given screen state {120}
 	Then clicked [PEPSI]
 # 9 On Combo Page, Click Grilled Chicken
-	Given screen state [CenterCategoryButtons~COMBO 3],[RightModifierButtons~TILAPIA],"Modifer~-  - PEPSI","Modifer~ -  - FRIES","Modifer~- TILAPIA"
+	Given screen state {121}
 	Then clicked [GRILLED\CHCKEN]
 # 10 On Combo Page, Click Fries
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~FRIES],"Modifer~GRILLED CHCKEN"
+	Given screen state {122}
 	Then clicked [FRIES]
 # 11 On Combo Page, Click Pepsi
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~Fanta\Orange],"Modifer~GRILLED CHCKEN","Modifer~- FRIES"
+	Given screen state {123}
 	Then clicked [PEPSI]
 # 12 On Combo Page, Click Roasted Chicken
-	Given screen state [CenterCategoryButtons~COMBO 3],[RightModifierButtons~TILAPIA]
+	Given screen state {124}
 	Then clicked [ROASTED\CHCKEN]
 # 13 On Combo Page, Click Fries
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~FRIES],"Modifer~ROASTED CHCKEN"
+	Given screen state {125}
 	Then clicked [FRIES]
 # 14 On Combo Page, Click Pepsi
-	Given screen state [CenterCategoryButtons~Sides],[CenterCategoryButtons~Drink Combo],[RightModifierButtons~Fanta\Orange],"Modifer~ROASTED CHCKEN","Modifer~- FRIES"
+	Given screen state {126}
 	Then clicked [PEPSI]
 # 15 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 1", "EntriesBySeat~COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI","EntriesBySeat~10.00"

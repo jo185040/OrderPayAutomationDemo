@@ -1,4 +1,4 @@
-#There is a defect where Transfer Table screen is showing past closed tables. Will verify this is still an issue in latest version.
+#TODO There is a defect where Transfer Table screen is showing past closed tables. Will verify this is still an issue in latest version.
 Feature: 33 Transfer Table
 
 @ TransferTable
