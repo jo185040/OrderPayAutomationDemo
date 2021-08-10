@@ -2383,66 +2383,39 @@ BottomLeftButtons
 WarningBarControl
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {096}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"H COKE"
-	"2.00"
-Seats
-	[T]
+ReceiveTransfersScreen
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"j1"
+	"List of existing owned tables"
+ExistingTables
+RightCommands
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+InputDialog
+	"Enter table name"
+	"0"
+	[<]
+DialogSeparator
 	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-MenuOrModButtons
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-BottomButtons
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	[Recipe]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
+	[X]
 {095}
 TenderScreen
 TopRightButtons
@@ -3618,83 +3591,21 @@ BottomButtons
 	[Delete]
 	""
 {072}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-	"Seat 1"
-	"COKE"
-	"2.00"
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-MenuOrModButtons
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-BottomButtons
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	[Recipe]
-HoldItemsDialog
-	[btnCancel]
-	"1 mins"
-	[btnOk]
-MinusPlusButtons
-	[-]
-ctrlSlider_Container
-ctrlSlider
-	[+]
-Plus5And10Buttons
-	[+5]
-	[+10]
-OrderModeButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-	[Happy hour]
+ReceiveTransfersScreen
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"j1"
+	"List of existing owned tables"
+ExistingTables
+RightCommands
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
 {071}
 OrderScreen
 TopLeftButtons
@@ -5140,29 +5051,15 @@ WWTScreen
 	[btnSetTabEntry]
 Tabs
 	"j1"
-	"j2"
 	[btnSetTableEntry]
 Tables
+	"2"
 TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Balance Inquiry*]
+	[Show Open Times]
 	[Back]
-EnterTableNumberNumpad
-	??
-	[1]
-	[2]
-	[3]
-	[4]
-	[5]
-	[6]
-	[7]
-	[8]
-	[9]
-	[Clear]
-	[0]
-	[Ok]
 	[btnHideOrShowKeyboard]
 {030}
 WWTScreen
@@ -5172,14 +5069,30 @@ Tabs
 	"j1"
 	[btnSetTableEntry]
 Tables
+	"1"
 TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Balance Inquiry*]
+	[Show Open Times]
+	[Back]
+	[btnHideOrShowKeyboard]
+{029}
+WWTScreen
+	"MIGUEL"
+	[btnSetTabEntry]
+Tabs
+	[btnSetTableEntry]
+Tables
+	"1"
+TopRightButtons
+	[Exit]
+	[Get Check]
+	[Transfer Table]
+	[Show Open Times]
 	[Back]
 EnterTabNameKeyboard
-	?j2?
+	?j1?
 	[1]
 	[2]
 	[3]
@@ -5243,67 +5156,6 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{029}
-WWTScreen
-	"MIGUEL"
-	[btnSetTabEntry]
-Tabs
-	"j1"
-	[btnSetTableEntry]
-Tables
-TopRightButtons
-	[Exit]
-	[Get Check]
-	[Transfer Table]
-	[Balance Inquiry*]
-	[Back]
-EnterTabNameKeyboard
-	??
-	[1]
-	[2]
-	[3]
-	[4]
-	[5]
-	[6]
-	[7]
-	[8]
-	[9]
-	[0]
-	[q]
-	[w]
-	[e]
-	[r]
-	[t]
-	[y]
-	[u]
-	[i]
-	[o]
-	[p]
-	[a]
-	[s]
-	[d]
-	[f]
-	[g]
-	[h]
-	[j]
-	[k]
-	[l]
-	[/]
-	[z]
-	[x]
-	[c]
-	[v]
-	[b]
-	[n]
-	[m]
-	[*]
-	[!]
-	[Clear]
-	[ ]
-	[]
-	[⌫]
-	[Ok]
-	[btnHideOrShowKeyboard]
 {028}
 WWTScreen
 	"MIGUEL"
@@ -5355,30 +5207,15 @@ WWTScreen
 	"MIGUEL"
 	[btnSetTabEntry]
 Tabs
+	"j2"
 	[btnSetTableEntry]
 Tables
-	"1"
-	"2"
 TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Balance Inquiry*]
+	[Show Open Times]
 	[Back]
-EnterTableNumberNumpad
-	??
-	[1]
-	[2]
-	[3]
-	[4]
-	[5]
-	[6]
-	[7]
-	[8]
-	[9]
-	[Clear]
-	[0]
-	[Ok]
 	[btnHideOrShowKeyboard]
 {025}
 FloorPlanScreen*
@@ -5735,62 +5572,15 @@ ExistingTables
 RightCommands
 	[Cancel]
 {013}
-OrderScreen
-TopLeftButtons
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-TopRightButtons
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-TableAndChecks
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-EntriesBySeat
-*
-Seats
-	[T]
-	[1]
-	[>]
-CenterMenuButtons
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-MenuOrModButtons
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-BottomButtons
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
+ReceiveTransfersScreen
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+IncomingTables
+	"1"
+ExistingTables
+RightCommands
+	[Cancel]
 {012}
 TransferTableScreen
 	[btnWaiter]

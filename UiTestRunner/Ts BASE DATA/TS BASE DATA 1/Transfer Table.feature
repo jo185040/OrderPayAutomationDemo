@@ -277,13 +277,13 @@ Scenario: 4 Verify you can transfer table with merge table
 	Given screen state {036}
 	Then clicked [Transfer Table]
 # 9 Select Manager Jeffrey
-	Given screen state {024}
+	Given screen state {032}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 10 Select "Table 1" on Transfer Screen
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
 	Given screen state {012}
@@ -320,7 +320,7 @@ Scenario: 4 Verify you can transfer table with merge table
 	Given screen state {110}
 	Then clicked "Tables~1"
 # 22 Select Table 1 on Transfer Tables
-	Given screen state {018}
+	Given screen state {013}
 	Then clicked "1"
 # 23 Select Ok Button
 	Given screen state {018}
@@ -389,7 +389,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 	Given screen state {106}
 	Then clicked [Transfer Table]
 # 11 Select Manager Jeffrey
-	Given screen state {024}
+	Given screen state {011}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 12 Select "Table 1" on Transfer Screen
 	Given screen state {024}
@@ -437,20 +437,20 @@ Scenario: 5 Verify you can transfer tab with merge tab
 # 24 Select WWT Screen
 	Given screen state {558}
 	Then clicked [WWT\Screen]
-# 25 Select Table 1
+# 25 Select Tab J1
 	Given screen state {113}
 	Then clicked "Tabs~j1"
-# 26 Select Table 1 on Transfer Tables
-	Given screen state {114}
+# 26 Select Tab J1 on Transfer Tables
+	Given screen state {033}
 	Then clicked "j1"
 # 27 Select Ok Button
-	Given screen state {037}
+	Given screen state {033}
 	Then clicked [RightCommands~Merge Tab]
 # 28 Merge Table 2
 	Given screen state {037}
 	Then clicked "ExistingTables~j2"
 # 29 Select Table 2
-	Given screen state {039}
+	Given screen state {026}
 	Then clicked "Tabs~j2"
 # 30 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~PORK NACHOS","EntriesBySeat~5.00"
@@ -498,7 +498,7 @@ Scenario: 6 Verify you can transfer table with new table
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 8 Transfer Table
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [Transfer Table]
 # 9 Select Manager Jeffrey
 	Given screen state {024}
@@ -513,7 +513,7 @@ Scenario: 6 Verify you can transfer table with new table
 	Given screen state {012}
 	Then clicked [OK]
 # 13 Exit WWT Screen
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [TopRightButtons~Exit]
 # 14 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -524,7 +524,7 @@ Scenario: 6 Verify you can transfer table with new table
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 16 Select Table 1
-	Given screen state {016}
+	Given screen state {104}
 	Then clicked "Tables~1"
 # 17 Select Table 1 on Transfer Tables
 	Given screen state {040}
@@ -537,7 +537,7 @@ Scenario: 6 Verify you can transfer table with new table
 	Then clicked [DialogSeparator~2]
 	Then clicked [DialogSeparator~OK]
 # 20 Select Table 2
-	Given screen state {028}
+	Given screen state {111}
 	Then clicked "Tables~2"
 # 21 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE","EntriesBySeat~2.00"
@@ -562,10 +562,11 @@ Scenario: 7 Verify you can transfer tab with new tab.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 3 Select Tab
-	Given screen state {086}
+	Given screen state {038}
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
-	Given screen state {009}
+	Given screen state {038}
+	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -587,7 +588,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 10 Transfer Table
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [Transfer Table]
 # 11 Select Manager Jeffrey
 	Given screen state {011}
@@ -602,7 +603,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 	Given screen state {020}
 	Then clicked [OK]
 # 15 Exit WWT Screen
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [TopRightButtons~Exit]
 # 16 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -613,7 +614,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 18 Select Tab
-	Given screen state {021}
+	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 19 Select Tab j1 on Transfer Tables
 	Given screen state {037}
@@ -627,7 +628,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 	Then clicked [DialogSeparator~2]
 	Then clicked [DialogSeparator~Ok]
 # 22 Select Tab "j2"
-	Given screen state {039}
+	Given screen state {026}
 	Then clicked "Tabs~j2"
 # 23 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE","EntriesBySeat~2.00"
@@ -669,13 +670,13 @@ Scenario: 8 Verify you can transfer table with merge tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 8 Transfer Table
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [Transfer Table]
 # 9 Select Manager Jeffrey
 	Given screen state {024}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 10 Select "Table 1" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
 	Given screen state {012}
@@ -684,7 +685,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 	Given screen state {012}
 	Then clicked [OK]
 # 13 Exit WWT Screen
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [TopRightButtons~Exit]
 # 14 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -695,15 +696,16 @@ Scenario: 8 Verify you can transfer table with merge tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 16 Select Tab
-	Given screen state {016}
+	Given screen state {104}
 	Then clicked [btnSetTabEntry]
 # 17 Open Tab
-	Given screen state {044}
+	Given screen state {104}
+	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
 # 18 Enter Guest Count 1
-	Given screen state {045}
+	Given screen state {029}
 	When clicked [DialogSeparator~1]
 	And clicked [OK]
 	Then verify absence of "Enter Guest Count"
@@ -720,7 +722,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 23 Select Table 1
-	Given screen state {046}
+	Given screen state {030}
 	Then clicked "Tables~1"
 # 24 Select Table 1 on Transfer Tables
 	Given screen state {040}
@@ -732,7 +734,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 	Given screen state {047}
 	Then clicked "ExistingTables~j1"
 # 27 Select Tab j1
-	Given screen state {021}
+	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 28 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~PORK NACHOS","EntriesBySeat~5.00"
@@ -763,10 +765,11 @@ Scenario: 9 Verify you can transfer tab with merge table
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 3 Select Tab
-	Given screen state {086}
+	Given screen state {038}
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
-	Given screen state {009}
+	Given screen state {038}
+	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -788,7 +791,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 10 Transfer Table
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [Transfer Table]
 # 11 Select Manager Jeffrey
 	Given screen state {011}
@@ -803,7 +806,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 	Given screen state {020}
 	Then clicked [OK]
 # 15 Exit WWT Screen
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [TopRightButtons~Exit]
 # 16 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -831,7 +834,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 23 Select Tab j1
-	Given screen state {049}
+	Given screen state {031}
 	Then clicked "Tabs~j1"
 # 24 Select Tab j1 on Transfer Tables
 	Given screen state {050}
@@ -843,7 +846,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 	Given screen state {033}
 	Then clicked "ExistingTables~2"
 # 27 Select Table 2
-	Given screen state {028}
+	Given screen state {111}
 	Then clicked "Tables~2"
 # 28 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~PORK NACHOS","EntriesBySeat~5.00"
@@ -891,7 +894,7 @@ Scenario: 10 Verify you can transfer table with new tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 8 Transfer Table
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [Transfer Table]
 # 9 Select Manager Jeffrey
 	Given screen state {024}
@@ -906,7 +909,7 @@ Scenario: 10 Verify you can transfer table with new tab
 	Given screen state {012}
 	Then clicked [OK]
 # 13 Exit WWT Screen
-	Given screen state {079}
+	Given screen state {036}
 	Then clicked [TopRightButtons~Exit]
 # 14 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -917,7 +920,7 @@ Scenario: 10 Verify you can transfer table with new tab
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 16 Select Table 1
-	Given screen state {016}
+	Given screen state {104}
 	Then clicked "Tables~1"
 # 17 Select Table 1 on Transfer Tables
 	Given screen state {027}
@@ -931,7 +934,7 @@ Scenario: 10 Verify you can transfer table with new tab
 	Then clicked [DialogSeparator~1]
 	Then clicked [DialogSeparator~Ok]
 # 20 Select Tab j1
-	Given screen state {021}
+	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 21 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 1","EntriesBySeat~COKE","EntriesBySeat~2.00"
@@ -956,10 +959,11 @@ Scenario: 11 Verify you can transfer tab with new tab.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 3 Select Tab
-	Given screen state {086}
+	Given screen state {038}
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
-	Given screen state {009}
+	Given screen state {038}
+	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -981,10 +985,10 @@ Scenario: 11 Verify you can transfer tab with new tab.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 10 Transfer Table
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [Transfer Table]
 # 11 Select Manager Jeffrey
-	Given screen state {011}
+	Given screen state {024}
 	Then clicked "TransferFromEmployees~JEFFREY OYENEYE"
 # 12 Select "Table 1" on Transfer Screen
 	Given screen state {024}
@@ -996,7 +1000,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 	Given screen state {020}
 	Then clicked [OK]
 # 15 Exit WWT Screen
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [TopRightButtons~Exit]
 # 16 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -1007,20 +1011,20 @@ Scenario: 11 Verify you can transfer tab with new tab.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 18 Select Tab
-	Given screen state {021}
+	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 19 Select Tab j1 on Transfer Tables
-	Given screen state {033}
+	Given screen state {072}
 	Then clicked "j1"
 # 20 Select New Tab Button
-	Given screen state {033}
+	Given screen state {072}
 	Then clicked [New Table]
 # 21 Enter Table 1
-	Given screen state {054}
+	Given screen state {096}
 	Then clicked [DialogSeparator~1]
 	Then clicked [DialogSeparator~OK]
 # 22 Select Table 1
-	Given screen state {016}
+	Given screen state {104}
 	Then clicked "Tables~1"
 # 23 Select $ on Payment Screen
 	Given screen state [CenterMenuButtons~LUNCH MENU]
@@ -1045,10 +1049,11 @@ Scenario: 12 Verify you can transfer tab with new table.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 3 Select Tab
-	Given screen state {086}
+	Given screen state {038}
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
-	Given screen state {009}
+	Given screen state {038}
+	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -1070,7 +1075,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 10 Transfer Table
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [Transfer Table]
 # 11 Select Manager Jeffrey
 	Given screen state {024}
@@ -1085,7 +1090,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 	Given screen state {020}
 	Then clicked [OK]
 # 15 Exit WWT Screen
-	Given screen state {093}
+	Given screen state {106}
 	Then clicked [TopRightButtons~Exit]
 # 16 Login as Manager 201
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -1096,20 +1101,20 @@ Scenario: 12 Verify you can transfer tab with new table.
 	Given screen state {558}
 	Then clicked [WWT\Screen]
 # 18 Select Tab
-	Given screen state {021}
+	Given screen state {109}
 	Then clicked "Tabs~j1"
 # 19 Select Tab j1 on Transfer Tables
-	Given screen state {033}
+	Given screen state {072}
 	Then clicked "j1"
 # 20 Select New Table Button
-	Given screen state {033}
+	Given screen state {072}
 	Then clicked [New Table]
 # 21 Enter Table 2
-	Given screen state {054}
+	Given screen state {096}
 	Then clicked [DialogSeparator~2]
 	Then clicked [DialogSeparator~OK]
 # 22 Select Table 2
-	Given screen state {028}
+	Given screen state {111}
 	Then clicked "Tables~2"
 # 23 Select $ on Payment Screen
 	Given screen state [CenterMenuButtons~LUNCH MENU]
