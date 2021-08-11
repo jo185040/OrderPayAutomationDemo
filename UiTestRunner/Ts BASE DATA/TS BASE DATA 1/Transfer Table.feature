@@ -1,4 +1,4 @@
-#TODO There is a defect where Transfer Table screen is showing past closed tables. Will verify this is still an issue in latest version.
+#TODO ALOHAP-32783 blocking this section from working
 Feature: 33 Transfer Table
 
 @ TransferTable
