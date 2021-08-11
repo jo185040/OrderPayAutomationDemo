@@ -1,6 +1,5 @@
 Feature: 21 Refill
 
-@ refill
 
 Scenario: 1 Refill Drink
 # 1 Login as manager 200

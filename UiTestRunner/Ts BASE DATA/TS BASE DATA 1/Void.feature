@@ -1,6 +1,5 @@
 Feature: 32 Void
 
-@ TSSmokeTest
 
 Scenario: 1 Verify you can void items with no issues
 # 1 Login as manager 200
@@ -29,7 +28,6 @@ Scenario: 1 Verify you can void items with no issues
 	Given screen state {164}
 	Then clicked [BottomButtons~Void]
 # 8 Select COKE on Void Screen
-	#TODO Check Screenstate
 	Given screen state {019}
 	Then clicked (Items~COKE)
 # 9 Select OK on Void Screen

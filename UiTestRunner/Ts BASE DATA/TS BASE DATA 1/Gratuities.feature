@@ -1,6 +1,5 @@
 Feature: 10 Gratuities
 
-@ Payments
 
 Scenario: 1 Add Gratuities
 # 1 Login as manager 200

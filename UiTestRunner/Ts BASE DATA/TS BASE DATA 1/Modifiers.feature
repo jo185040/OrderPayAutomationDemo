@@ -1,6 +1,5 @@
 Feature: 11 Modifiers
 
-@ modifiers
 
 Scenario: 1 Modifier Weight 2
 # 1 Login as manager 200

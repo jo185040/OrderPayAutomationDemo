@@ -1,6 +1,5 @@
 Feature: 37 Quantity Items
 
-@ quantity
 
 Scenario: 1 Quantity
 # 1 Login as manager 200

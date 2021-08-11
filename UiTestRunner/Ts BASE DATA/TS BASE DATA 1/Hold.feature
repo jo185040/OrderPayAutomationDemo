@@ -1,13 +1,5 @@
 Feature: 22 Hold
 
-#@ Hold
-#@ ignore
-#@ ignore
-#@ignore
-#@ ignore
-#@ ignore
-#@ ignore
-#@ ignore
 @ ignore
 
 Scenario: 1 Hold Item
@@ -31,6 +23,7 @@ Scenario: 1 Hold Item
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	Then clicked "EntriesBySeat~COKE"
 # 6 Add Hold
+	#NOTE Hold does not work for Dmitri's POS set up
 	Given screen state [CenterMenuButtons~LUNCH MENU]
 	When swiped left on BottomButtons~
 	Then clicked [BottomButtons~Hold]

@@ -1,6 +1,5 @@
 Feature: 17 Promo
 
-@ Promo
 
 Scenario: 1 BOGO
 # 1 Login as manager 200

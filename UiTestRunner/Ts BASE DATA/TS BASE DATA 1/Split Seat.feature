@@ -1,6 +1,5 @@
 Feature: 28 Split Seat
 
-#@ splitseat
 @ ignore
 
 Scenario: 1 Login as manager 200 to Floor Plan
@@ -94,6 +93,7 @@ Scenario: 2 Select Multiple Items on Split Check
 	Given screen state {098}
 	Then clicked [$]
 # 13 Exact Payment
+	#NOTE for Dmitri's setup [Get Mobile Pay Code] is enabled even thought ATG has it off (comes from some where elce)
 	Given screen state {099}
 	Then clicked [Exact]
 # 14 Click Close

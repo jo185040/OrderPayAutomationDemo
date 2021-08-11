@@ -1,6 +1,5 @@
 Feature: 26 House Accounts
 
-@ houseaccounts
 
 Scenario: 1 Pay with House Account & No Tip
 # 1 Login as manager 200

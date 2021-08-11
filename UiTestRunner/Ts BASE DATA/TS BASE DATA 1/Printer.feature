@@ -1,6 +1,5 @@
 Feature: 38 Printer
 
-@ Printer
 
 Scenario: 1 Select Printer
 # 1 Login as manager 200

@@ -1,6 +1,5 @@
 Feature: 15 Payments
 
-@ payments
 
 Scenario: 1 Delete Cash Payment
 # 1 Login as manager 200

@@ -1,6 +1,5 @@
 Feature: 4 Combine/Detach Tables
 
-@ CombineTables
 
 Scenario: 1 Combine Tables
 # 1 Login as manager 200

@@ -1,6 +1,5 @@
 Feature: 1 Clockin Employees
 
-@ Clockin
 
 Scenario: 1 Login as manager 201 to Floor Plan
 # 1 Optionally Dismiss "Payment Service" warning

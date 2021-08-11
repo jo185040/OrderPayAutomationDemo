@@ -1,6 +1,5 @@
 Feature: 18 Get Check
 
-@ getcheck
 
 Scenario: 1 Get Table
 # 1 Login as manager 200
@@ -66,6 +65,8 @@ Scenario: 2 Get Tab
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]

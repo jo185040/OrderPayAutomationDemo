@@ -1,6 +1,5 @@
 Feature: 24 Open Table
 
-@ OpenItems
 
 Scenario: 1 Open Table
 # 1 Login as manager 200

@@ -1,6 +1,5 @@
 Feature: 13 Enter Manager Password Screen
 
-@ JIT
 
 Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 # 1 Login as manager 200

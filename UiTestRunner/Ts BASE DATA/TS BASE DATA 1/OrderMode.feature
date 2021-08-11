@@ -1,6 +1,5 @@
 Feature: 14 OrderMode
 
-@ Ordermode
 
 Scenario: 1 Dine-In Order Mode
 # 1 Login as manager 200

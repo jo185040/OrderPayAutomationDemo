@@ -1,6 +1,5 @@
 Feature: 12 Modifiers Flow
 
-@ modifierflow
 
 Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 # 1 Login as manager 200

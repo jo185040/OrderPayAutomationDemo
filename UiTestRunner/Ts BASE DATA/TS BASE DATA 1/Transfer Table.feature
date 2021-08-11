@@ -1,7 +1,6 @@
 #TODO ALOHAP-32783 blocking this section from working
 Feature: 33 Transfer Table
 
-@ TransferTable
 
 Scenario: 1 Transfer Table to Server
 # 1 Login as manager 200
@@ -177,6 +176,8 @@ Scenario: 3 Verify you can transfer tab with OK
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -366,6 +367,8 @@ Scenario: 5 Verify you can transfer tab with merge tab
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -418,6 +421,8 @@ Scenario: 5 Verify you can transfer tab with merge tab
 # 19 Open Tab
 	Given screen state {109}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~2]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -568,6 +573,8 @@ Scenario: 7 Verify you can transfer tab with new tab.
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -702,6 +709,8 @@ Scenario: 8 Verify you can transfer table with merge tab
 # 17 Open Tab
 	Given screen state {104}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -771,6 +780,8 @@ Scenario: 9 Verify you can transfer tab with merge table
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -965,6 +976,8 @@ Scenario: 11 Verify you can transfer tab with new tab.
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -1055,6 +1068,8 @@ Scenario: 12 Verify you can transfer tab with new table.
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]

@@ -1,6 +1,5 @@
 Feature: 34 Tabs
 
-@ TransferTable
 
 Scenario: 1 Open Tab
 # 1 Login as manager 200
@@ -17,6 +16,8 @@ Scenario: 1 Open Tab
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]
@@ -59,6 +60,8 @@ Scenario: 2 Rename Tab
 # 4 Open Tab
 	Given screen state {038}
 	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then verify presence of [EnterTabNameKeyboard~Ok]
+	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
 	Then clicked [EnterTabNameKeyboard~1]
 	Then clicked [EnterTabNameKeyboard~Ok]

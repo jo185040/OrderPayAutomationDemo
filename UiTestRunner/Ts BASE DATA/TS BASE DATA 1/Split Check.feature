@@ -1,6 +1,5 @@
 Feature: 27 Split Check
 
-@ TSSmokeTest
 
 Scenario: 1 Verify that you can split checks with unordered items using the �Split Button�
 # 1 Login as manager 200

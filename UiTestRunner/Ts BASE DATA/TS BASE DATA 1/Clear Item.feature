@@ -1,6 +1,5 @@
 Feature: 2 Clear Item
 
-@ TSSmokeTest
 
 Scenario: 1 Login as manager 200 to Floor Plan
 # 1 Login as manager 200

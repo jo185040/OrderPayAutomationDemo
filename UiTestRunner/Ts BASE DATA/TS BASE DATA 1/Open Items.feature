@@ -1,6 +1,5 @@
 Feature: 20 Open Items
 
-@ OpenItems
 
 Scenario: 1 Verify you can order an �Open Item� from Retail Menu
 # 1 Login as manager 200

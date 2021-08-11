@@ -1,6 +1,5 @@
 Feature: 6 Comp
 
-@ Comp
 
 Scenario: 1 Manager Comp
 # 1 Login as manager 200

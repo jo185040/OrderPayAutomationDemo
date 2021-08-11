@@ -1,6 +1,5 @@
 Feature: 23 Repeat
 
-@ repeat
 
 Scenario: 1 Verify Repeat works on unordered items
 # 1 Login as manager 200

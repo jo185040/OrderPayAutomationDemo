@@ -1,6 +1,5 @@
 Feature: 29 Tax Exempt
 
-@ TaxExempt
 
 Scenario: 1 Add Tax Exempt
 # 1 Login as manager 200

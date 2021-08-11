@@ -1,6 +1,5 @@
 Feature: 5 Combos
 
-@ combos
 
 Scenario: 1 Verify you can add combo
 # 1 Login as manager 200

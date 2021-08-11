@@ -1,6 +1,5 @@
 Feature: 30 Team Get Check
 
-@ Ordermode
 
 Scenario: 1 Team Get Check on Floorplan
 # 1 Login as manager 200

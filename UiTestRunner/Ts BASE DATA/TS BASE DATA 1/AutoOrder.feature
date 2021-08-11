@@ -1,7 +1,6 @@
 #on POS functionality is set Aloha.INI:
 Feature: 7 AutoOrder Items
 
-@ TSSmokeTest
 
 Scenario: 1 Auto Order Items
 # 1 Login as manager 200

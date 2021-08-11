@@ -1,6 +1,5 @@
 Feature: 35 PLU
 
-@ PLU
 
 Scenario: 1 PLU Items
 # 1 Login as manager 200

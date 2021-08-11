@@ -1,6 +1,5 @@
 Feature: 39 Training
 
-@ OpenItems
 
 Scenario: 1 Open Table as a Training Emp
 # 1 Login as manager 200

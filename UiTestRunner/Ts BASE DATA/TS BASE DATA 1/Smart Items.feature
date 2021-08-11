@@ -1,6 +1,5 @@
 Feature: 25 Smart Items
 
-@ Payments
 
 Scenario: 1 Verify smart items work with no issue (Smart Beer submenu)
 # 1 Login as manager 200
