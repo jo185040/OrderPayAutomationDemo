@@ -1,6 +1,7 @@
 Feature: 28 Split Seat
 
-@ ignore
+
+
 
 Scenario: 1 Login as manager 200 to Floor Plan
 # 1 Login as manager 200
