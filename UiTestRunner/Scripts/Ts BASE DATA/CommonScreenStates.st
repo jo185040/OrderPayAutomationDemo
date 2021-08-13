@@ -1000,6 +1000,465 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{223}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
+	"0.00\3.50\\\1.00"
+Promos
+Comps
+	"Sub Total"
+	"4.50"
+Taxes
+	"Tax"
+	"0.27"
+	"Total"
+	"4.77"
+Tenders
+	"CASH"
+	"4.77"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{222}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
+	"0.00\3.50\\\1.00"
+Promos
+Comps
+	"Sub Total"
+	"4.50"
+Taxes
+	"Tax"
+	"0.27"
+	"Total"
+	"4.77"
+Tenders
+	"Balance Due"
+	"$4.77"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{221}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
+	"0.00\3.50\\\1.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{220}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Platter"
+	"0.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Platter"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Platter"
+	"0.00"
+	" - Special canapes"
+	" -  - Vegetarian"
+	" -  - Vegan"
+CenterCategoryButtons
+	[Czech canapes]
+	[Canapes]
+	[Pickup]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Cheese Canapes]
+	[Ham Canapes]
+	[Fruit Canapes]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{219}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Platter"
+	"0.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Platter"
+	"(Optional modifiers, but no more than 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Special canapes"
+CenterCategoryButtons
+	[Vegetar/Vegan]
+	[Pickup]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Vegetarian]
+	[*]
+	[Vegan]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{218}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"Platter\ Stand canapes\ Cheese Canapes"
+	"0.00\2.50\1.00"
+Promos
+Comps
+	"Sub Total"
+	"3.50"
+Taxes
+	"Tax"
+	"0.21"
+	"Total"
+	"3.71"
+Tenders
+	"CASH"
+	"3.71"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{217}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"Platter\ Stand canapes\ Cheese Canapes"
+	"0.00\2.50\1.00"
+Promos
+Comps
+	"Sub Total"
+	"3.50"
+Taxes
+	"Tax"
+	"0.21"
+	"Total"
+	"3.71"
+Tenders
+	"Balance Due"
+	"$3.71"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {216}
 PizzaModifierScreen
 GroupOneButtons
@@ -1038,6 +1497,257 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{215}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Platter\ Stand canapes\ Cheese Canapes"
+	"0.00\2.50\1.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{214}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Platter"
+	"0.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Platter"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Platter"
+	"0.00"
+	" - Stand canapes"
+CenterCategoryButtons
+	[Czech canapes]
+	[Canapes]
+	[Pickup]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Cheese Canapes]
+	[Ham Canapes]
+	[Fruit Canapes]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{213}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"Platter"
+	"0.00"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+MenuOrModButtons
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"Platter"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"Platter"
+	"0.00"
+CenterCategoryButtons
+	[Czech canapes]
+	[Canapes]
+	[Pickup]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Stand canapes]
+	[Special canapes]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {212}
 TenderScreen
 TopRightButtons

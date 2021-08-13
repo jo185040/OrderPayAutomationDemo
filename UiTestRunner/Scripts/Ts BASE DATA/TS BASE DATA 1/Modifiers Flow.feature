@@ -506,3 +506,93 @@ Scenario: 10 pcDarkBrstr Modifier Flow
 # 14 Exit FloorPlan
 	Given screen state {558}
 	When clicked [Exit]
+
+Scenario: 11 Platter Scenario - Stand Canapes
+# 1 Login as manager 200
+	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+	When clicked [2],[0],[0]
+	And clicked [Login]
+	Then verify absence of [Login]
+# 2 Floor Plan select Table 1
+	Given screen state {558}
+	Then clicked [1]
+# 3 Enter Guest Count 1
+	Given screen state {025}
+	When clicked [DialogSeparator~1]
+	And clicked [DialogSeparator~OK]
+	Then verify absence of "Enter Guest Count"
+# 4 Select Entrees Menu
+	Given screen state [CenterMenuButtons~LUNCH MENU]
+	When swiped up on CenterMenuButtons~
+	Then clicked [CenterMenuButtons~Combos]
+# 5 Select Platter
+	Given screen state "MenuOrModButtons~COMBO 3"
+	Then clicked "Platter"
+# 6 On Stand Canapes
+	Given screen state {213}
+	Then clicked [RightModifierButtons~Stand canapes]
+# 7 On Canapes, Select Cheese Canapes
+	Given screen state {214}
+	Then clicked [RightModifierButtons~Cheese Canapes]
+# 8 Apply HERE Ordermode
+	Given screen state {215}
+	Then clicked [HERE]
+# 9 Select $ on Payment Screen
+	Given screen state {215}
+	Then clicked [$]
+# 10 Exact Payment
+	Given screen state {217}
+	Then clicked [Exact]
+# 11 Click Close
+	Given screen state {218}
+	Then clicked [MidButtons~Close]
+# 12 Exit FloorPlan
+	Given screen state {558}
+	When clicked [Exit]
+
+Scenario: 12 Platter Scenario - Special Canapes
+# 1 Login as manager 200
+	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+	When clicked [2],[0],[0]
+	And clicked [Login]
+	Then verify absence of [Login]
+# 2 Floor Plan select Table 1
+	Given screen state {558}
+	Then clicked [1]
+# 3 Enter Guest Count 1
+	Given screen state {025}
+	When clicked [DialogSeparator~1]
+	And clicked [DialogSeparator~OK]
+	Then verify absence of "Enter Guest Count"
+# 4 Select Entrees Menu
+	Given screen state [CenterMenuButtons~LUNCH MENU]
+	When swiped up on CenterMenuButtons~
+	Then clicked [CenterMenuButtons~Combos]
+# 5 Select Platter
+	Given screen state "MenuOrModButtons~COMBO 3"
+	Then clicked "Platter"
+# 6 On Special Canapes
+	Given screen state {213}
+	Then clicked [RightModifierButtons~Special canapes]
+# 7 On Vegetar/Vegan, Select Vegetarian
+	Given screen state {219}
+	Then clicked [RightModifierButtons~Vegetarian]
+	Then clicked [RightModifierButtons~Vegan]
+# 8 On Canapes, select Cheese Canapes
+	Given screen state {220}
+	Then clicked [RightModifierButtons~Ham Canapes]
+# 9 Apply HERE Ordermode
+	Given screen state {221}
+	Then clicked [HERE]
+# 10 Select $ on Payment Screen
+	Given screen state {221}
+	Then clicked [$]
+# 11 Exact Payment
+	Given screen state {222}
+	Then clicked [Exact]
+# 12 Click Close
+	Given screen state {223}
+	Then clicked [MidButtons~Close]
+# 13 Exit FloorPlan
+	Given screen state {558}
+	When clicked [Exit]
