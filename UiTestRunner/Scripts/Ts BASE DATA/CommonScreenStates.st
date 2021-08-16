@@ -554,8 +554,11 @@ TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 GetCheckDialog
 TopCancelOkButtons
@@ -1000,6 +1003,25 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{224}
+SplitSeatScreen
+SplitScreen
+	"Table 1"
+CheckOrSeat
+	"For Table"
+CheckOrSeat
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+CheckOrSeat
+	"Seat 2"
+	[<]
+	[>]
+BottomCenterButtons
+	[Combine]
+	[Add]
+	[Split check]
+	[Close]
 {223}
 TenderScreen
 TopRightButtons
@@ -10352,8 +10374,11 @@ TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 GetCheckDialog
 TopCancelOkButtons
@@ -10390,8 +10415,11 @@ TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 {105}
 WWTScreen
@@ -10405,8 +10433,11 @@ TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 GetCheckDialog
 TopCancelOkButtons
@@ -12473,8 +12504,11 @@ TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Descending]
 EnterTabNameKeyboard
 	?j1?
 	[1]
@@ -13256,8 +13290,11 @@ TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 {037}
 ReceiveTransfersScreen
@@ -13288,8 +13325,11 @@ TopRightButtons
 	[Exit]
 	[Get Check]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 {035}
 SplitSeatScreen

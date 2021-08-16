@@ -1,4 +1,3 @@
-#TODO ALOHAP-32648 Transfer Table screen automatically selecting the table which is wrong
 Feature: 16 Pizza
 
 
@@ -394,6 +393,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 	Given screen state {558}
 	When clicked [Exit]
 
+#TODO ALOHAP-32844 cannot move items via split seat.
 Scenario: 8 Verify you add a pizza to a split check
 # 1 Login as manager 200
 	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -468,37 +468,40 @@ Scenario: 8 Verify you add a pizza to a split check
 # 22 Add Check
 	Given screen state {284}
 	Then clicked [Add]
-# 23 Split Check
+# 23 Select Seat 2
+	Given screen state {224}
+	Then clicked "CheckOrSeat~Seat 2"
+# 24 Split Check
 	Given screen state {294}
 	Then clicked [Split check]
-# 24 Select "Sausage Pizza"
+# 25 Select "Sausage Pizza"
 	Given screen state {297}
 	Then clicked "Sausage Pizza\ Large\ Pan\ Sausage"
-# 25 Add Check
+# 26 Add Check
 	Given screen state {297}
 	Then clicked [Add]
-# 26 Close Check
+# 27 Close Check
 	Given screen state {298}
 	Then clicked [Close]
-# 27 Apply HERE Ordermode
+# 28 Apply HERE Ordermode
 	Given screen state "EntriesBySeat~Seat 2","EntriesBySeat~Sausage Pizza\ Large\ Pan\ Sausage","EntriesBySeat~10.00"
 	Then clicked [HERE]
-# 28 Select $ on Payment Screen
+# 29 Select $ on Payment Screen
 	Given screen state "EntriesBySeat~Seat 2","EntriesBySeat~Sausage Pizza\ Large\ Pan\ Sausage","EntriesBySeat~10.00"
 	Then clicked [$]
-# 29 Exact Payment
+# 30 Exact Payment
 	Given screen state "ItemEntries~Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR","ItemEntries~11.00","Comps~Sub Total","Comps~11.00","Taxes~Tax","Taxes~0.67","Taxes~Total","Taxes~11.67"
 	Then clicked [Exact]
-# 30 Click Close
+# 31 Click Close
 	Given screen state "ItemEntries~Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR","ItemEntries~11.00","Comps~Sub Total","Comps~11.00","Taxes~Tax","Taxes~0.67","Taxes~Total","Taxes~11.67","Tenders~CASH","Tenders~11.67"
 	Then clicked [MidButtons~Close]
-# 31 Exact Payment
+# 32 Exact Payment
 	Given screen state "ItemEntries~Sausage Pizza\ Large\ Pan\ Sausage","ItemEntries~10.00","Comps~Sub Total","Comps~10.00","Taxes~Tax","Taxes~0.61","Taxes~Total","Taxes~10.61","Tenders~Balance Due","Tenders~$10.61"
 	Then clicked [Exact]
-# 32 Click Close
+# 33 Click Close
 	Given screen state "ItemEntries~Seat 2","ItemEntries~Sausage Pizza\ Large\ Pan\ Sausage","ItemEntries~10.00","Comps~Sub Total","Comps~10.00","Taxes~Tax","Taxes~0.61","Taxes~Total","Taxes~10.61","Tenders~CASH","Tenders~Change","Tenders~$0.00"
 	Then clicked [MidButtons~Close]
-# 33 Exit FloorPlan
+# 34 Exit FloorPlan
 	Given screen state {558}
 	When clicked [Exit]
 
