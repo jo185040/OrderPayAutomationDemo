@@ -15,7 +15,7 @@ Scenario: 1 Open Tab
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
 	Given screen state {038}
-	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then clicked [BottomRightButtons~btnHideOrShowKeyboard]
 	Then verify presence of [EnterTabNameKeyboard~Ok]
 	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]
@@ -59,7 +59,7 @@ Scenario: 2 Rename Tab
 	Then clicked [btnSetTabEntry]
 # 4 Open Tab
 	Given screen state {038}
-	Then clicked [TopRightButtons~btnHideOrShowKeyboard]
+	Then clicked [BottomRightButtons~btnHideOrShowKeyboard]
 	Then verify presence of [EnterTabNameKeyboard~Ok]
 	When waited for 0.01 min
 	Then clicked [EnterTabNameKeyboard~j]

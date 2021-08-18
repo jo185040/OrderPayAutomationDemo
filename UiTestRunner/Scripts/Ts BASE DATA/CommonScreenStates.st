@@ -1003,6 +1003,473 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{233}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 5]
+ItemEntries
+*
+	"Seat 5"
+	"ICED TEA"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{232}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 5]
+ItemEntries
+*
+	"Seat 5"
+	"ICED TEA"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"Balance Due"
+	"$2.00"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{231}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 4]
+ItemEntries
+*
+	"Seat 4"
+	"DIET 7UP"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{230}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 4]
+ItemEntries
+*
+	"Seat 4"
+	"DIET 7UP"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"Balance Due"
+	"$2.00"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{229}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 3]
+ItemEntries
+*
+	"Seat 3"
+	"DIET COKE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{228}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 3]
+ItemEntries
+*
+	"Seat 3"
+	"DIET COKE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"Balance Due"
+	"$2.00"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{227}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 2]
+ItemEntries
+*
+	"Seat 2"
+	"COKE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{226}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 2]
+ItemEntries
+*
+	"Seat 2"
+	"COKE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"Balance Due"
+	"$2.00"
+MidButtons
+	[Gift Card Balance]
+	[Close*]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{225}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Seat 1"
+	"WATER"
+	"0.00"
+Promos
+Comps
+	"Sub Total"
+	"0.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"0.00"
+Tenders
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {224}
 SplitSeatScreen
 SplitScreen

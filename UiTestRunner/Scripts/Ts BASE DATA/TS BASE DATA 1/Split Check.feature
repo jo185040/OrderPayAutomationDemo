@@ -383,31 +383,31 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 	Given screen state "EntriesBySeat~Seat 5","EntriesBySeat~ICED TEA","EntriesBySeat~2.00"
 	Then clicked [$]
 # 19 Close Check 1
-	Given screen state "ItemEntries~Seat 1","ItemEntries~WATER","ItemEntries~0.00","Comps~Sub Total","Comps~0.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~0.00","Tenders~Change","Tenders~$0.00"
+	Given screen state {225}
 	Then clicked [MidButtons~Close]
 # 20 Exact Payment - Check 2
-	Given screen state "ItemEntries~Seat 2","ItemEntries~COKE","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00"
+	Given screen state {226}
 	Then clicked [Exact]
 # 21 Click Close - Check 2
-	Given screen state "ItemEntries~Seat 2","ItemEntries~COKE","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~CASH","Tenders~2.00","Tenders~Change","Tenders~$0.00"
+	Given screen state {227}
 	Then clicked [MidButtons~Close]
 # 22 Exact Payment - Check 3
-	Given screen state "ItemEntries~Seat 3","ItemEntries~DIET COKE","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00"
+	Given screen state {228}
 	Then clicked [Exact]
 # 23 Click Close - Check 3
-	Given screen state "ItemEntries~Seat 3","ItemEntries~DIET COKE","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~CASH","Tenders~2.00","Tenders~Change","Tenders~$0.00"
+	Given screen state {229}
 	Then clicked [MidButtons~Close]
 # 24 Exact Payment - Check 4
-	Given screen state "ItemEntries~Seat 4","ItemEntries~DIET 7UP","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00"
+	Given screen state {230}
 	Then clicked [Exact]
 # 25 Click Close - Check 4
-	Given screen state "ItemEntries~Seat 4","ItemEntries~DIET 7UP","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~CASH","Tenders~2.00","Tenders~Change","Tenders~$0.00"
+	Given screen state {231}
 	Then clicked [MidButtons~Close]
 # 26 Exact Payment - Check 5
-	Given screen state "ItemEntries~Seat 5","ItemEntries~ICED TEA","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00"
+	Given screen state {232}
 	Then clicked [Exact]
 # 27 Click Close - Check 5
-	Given screen state "ItemEntries~Seat 5","ItemEntries~ICED TEA","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~CASH","Tenders~2.00","Tenders~Change","Tenders~$0.00"
+	Given screen state {233}
 	Then clicked [MidButtons~Close]
 # 28 Exit FloorPlan
 	Given screen state {558}
