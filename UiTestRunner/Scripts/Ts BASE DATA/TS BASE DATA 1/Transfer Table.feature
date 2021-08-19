@@ -43,7 +43,7 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 12 Select "Lebron James" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~LEBRON JAMES"
 # 13 Select OK
 	Given screen state {012}
@@ -63,10 +63,10 @@ Scenario: 1 Transfer Table to Server
 	Given screen state {103}
 	Then clicked "Tables~1"
 # 18 Select Table 1 on Transfer Tables
-	Given screen state {116}
+	Given screen state {014}
 	Then clicked "1"
 # 19 Select Ok Button
-	Given screen state {117}
+	Given screen state {015}
 	Then clicked [OK]
 # 20 Select Table 1
 	Given screen state {103}
@@ -78,7 +78,7 @@ Scenario: 1 Transfer Table to Server
 	Given screen state "ItemEntries~Table","ItemEntries~COKE","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~Balance Due","Tenders~$2.00"
 	Then clicked [Exact]
 # 23 Click Close
-	Given screen state "ItemEntries~Table","ItemEntries~COKE","ItemEntries~2.00","Comps~Sub Total","Comps~2.00","Taxes~Tax","Taxes~0.00","Taxes~Total","Taxes~2.00","Tenders~CASH","Tenders~$2.00","Tenders~Change","Tenders~$0.00"
+	Given screen state {117}
 	Then clicked [MidButtons~Close]
 # 24 Exit FloorPlan
 	Given screen state {558}
@@ -120,10 +120,10 @@ Scenario: 2 Verify you can transfer table with OK
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked [OK]
 # 13 Exit WWT Screen
 	Given screen state {036}
@@ -285,10 +285,10 @@ Scenario: 4 Verify you can transfer table with merge table
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked [OK]
 # 13 Exit WWT Screen
 	Given screen state {036}
@@ -513,10 +513,10 @@ Scenario: 6 Verify you can transfer table with new table
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked [OK]
 # 13 Exit WWT Screen
 	Given screen state {036}
@@ -687,10 +687,10 @@ Scenario: 8 Verify you can transfer table with merge tab
 	Given screen state {011}
 	Then clicked "TransferTables~1"
 # 11 Select "Miguel Saavedra" on Transfer Screen
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked [OK]
 # 13 Exit WWT Screen
 	Given screen state {036}
@@ -918,7 +918,7 @@ Scenario: 10 Verify you can transfer table with new tab
 	Given screen state {011}
 	Then clicked "ReceiveEmployees~MIGUEL SAAVEDRA"
 # 12 Select OK
-	Given screen state {012}
+	Given screen state {011}
 	Then clicked [OK]
 # 13 Exit WWT Screen
 	Given screen state {036}

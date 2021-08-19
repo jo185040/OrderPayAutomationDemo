@@ -889,3 +889,55 @@ Scenario: 18 Verify modifier panel is working on Special burger item (submenu Co
 # 14 Exit FloorPlan
 	Given screen state {558}
 	When clicked [Exit]
+
+Scenario: 19 No Modifier Substitution Weight 2
+# 1 Login as manager 200
+	Given screen state "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+	When clicked [2],[0],[0]
+	And clicked [Login]
+	Then verify absence of [Login]
+# 2 Floor Plan select Table 1
+	Given screen state {558}
+	Then clicked [1]
+# 3 Enter Guest Count 1
+	Given screen state {025}
+	When clicked [DialogSeparator~1]
+	And clicked [DialogSeparator~OK]
+	Then verify absence of "Enter Guest Count"
+# 4 Select Entrees Menu
+	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Then clicked [CenterMenuButtons~ENTREES]
+# 5 Order BBQ Ribs
+	Given screen state [CenterMenuButtons~LUNCH MENU]
+	Then clicked "BBQ\RIBS"
+# 6 On Ribs Submenu order 1/2 Rack
+	Given screen state {128}
+	Then clicked [No]
+	Then clicked [FULL RACK]
+# 7 On Ribs Submenu order 1/2 Rack
+	Given screen state {234}
+	Then clicked [1/2 RACK]
+# 8 On Ribs Submenu order 1/2 Rack
+	Given screen state {235}
+	Then clicked [1/2 RACK]
+# 9 On Starch press Baked Potato OK
+	Given screen state {236}
+	Then clicked [Baked Potato]
+# 10 On Soup Mod, select Cup
+	Given screen state {237}
+	Then clicked [CUP]
+# 11 Apply HERE Ordermode
+	Given screen state {238}
+	Then clicked [HERE]
+# 12 Select $ on Payment Screen
+	Given screen state {238}
+	Then clicked [$]
+# 13 Exact Payment
+	Given screen state "Comps~Sub Total","Comps~41.89","Taxes~Tax","Taxes~2.56","Taxes~Total","Taxes~44.45","Tenders~Balance Due","Tenders~$44.45"
+	Then clicked [Exact]
+# 14 Click Close
+	Given screen state {239}
+	Then clicked [MidButtons~Close]
+# 15 Exit FloorPlan
+	Given screen state {558}
+	When clicked [Exit]

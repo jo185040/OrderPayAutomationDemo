@@ -1003,6 +1003,536 @@ BottomCenterButtons
 BottomRightButtons
 	[Delete]
 	[btnMessage]
+{239}
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
+	"41.89"
+Promos
+Comps
+	"Sub Total"
+	"41.89"
+Taxes
+	"Tax"
+	"2.56"
+	"Total"
+	"44.45"
+Tenders
+	"CASH"
+	"44.45"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+{238}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
+	"41.89"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+{237}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BBQ RIBS"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"BBQ RIBS"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"BBQ RIBS"
+	"11.99"
+	" - NO FULL RACK"
+	" - 1/2 RACK"
+	" - 1/2 RACK"
+	" - Baked Potato"
+CenterCategoryButtons
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[CUP]
+	[*]
+	[*]
+	[HOUSE\SALAD]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[CAESAR\SALAD]
+	[*]
+	[BOWL]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{236}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BBQ RIBS"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"BBQ RIBS"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"BBQ RIBS"
+	"11.99"
+	" - NO FULL RACK"
+	" - 1/2 RACK"
+	" - 1/2 RACK"
+CenterCategoryButtons
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[Baked Potato]
+	[*]
+	[BUFFET]
+	[No Starch]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[Black Beans]
+	[*]
+	[Red Beans]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{235}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BBQ RIBS"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"BBQ RIBS"
+	"(Please add between 1 and 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"BBQ RIBS"
+	"11.99"
+	" - NO FULL RACK"
+	" - 1/2 RACK"
+CenterCategoryButtons
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[1/2 RACK]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[FULL RACK]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+{234}
+OrderScreen
+TopLeftButtons
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+TopRightButtons
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+TableAndChecks
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+EntriesBySeat
+*
+	"Seat 1"
+	"BBQ RIBS"
+	"11.99"
+Seats
+	[T]
+	[1]
+	[+]
+CenterMenuButtons
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+MenuOrModButtons
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+BottomButtons
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+ModifierScreen
+	"BBQ RIBS"
+	"(Please add between 1 and 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+Modifier_Container
+*
+Modifier
+	"BBQ RIBS"
+	"11.99"
+	" - NO FULL RACK"
+CenterCategoryButtons
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+RightPanelButtons
+ModifierCodeButtons
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+RightModifierButtons
+	[1/2 RACK]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[*]
+	[FULL RACK]
+BottomLeftButtons
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 {233}
 TenderScreen
 TopRightButtons
@@ -10538,19 +11068,58 @@ RightCommands
 	[Merge Tab]
 	[Cancel]
 {117}
-ReceiveTransfersScreen
-	"LEBRON JAMES"
-	"Transfers"
-	"List of incoming transfers"
-IncomingTables
-	"1"
-	"List of existing owned tables"
-ExistingTables
-RightCommands
-	[OK]
-	[New Table]
-	[Merge Table]
-	[Cancel]
+TenderScreen
+TopRightButtons
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+TopLeftButtons
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+ItemEntries
+*
+	"Table"
+	"COKE"
+	"2.00"
+Promos
+Comps
+	"Sub Total"
+	"2.00"
+Taxes
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+Tenders
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+MidButtons
+	[Gift Card Balance]
+	[Close]
+MidLeftButtons
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+BottomRightButtons
+	[Delete]
+BottomLeftButtons
+	[Loyalty]
+	[Add Gratuity*]
+	[Tax Exempt]
+WarningBarControl
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 {116}
 ReceiveTransfersScreen
 	"LEBRON JAMES"
@@ -10954,8 +11523,11 @@ Tables
 TopRightButtons
 	[Exit]
 	[Transfer Table]
-	[Show Open Times]
 	[Back]
+BottomRightButtons
+	[Show\Open Time]
+	[Sorted by\Tab Names]
+	[Sorted\Ascending]
 	[btnHideOrShowKeyboard]
 {102}
 OrderScreen
