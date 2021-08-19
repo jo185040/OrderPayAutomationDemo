@@ -1,5 +1,5 @@
-{576}
-FloorPlanScreen*
+State:576
+/FloorPlanScreen*/
 	[7]
 	[WWT\Screen]
 	[1]
@@ -16,11 +16,11 @@ FloorPlanScreen*
 	[Open\Drawer]
 	[6]
 	[Get\Check]
-InputDialog
+/InputDialog/
 	"Enter Guest Count"
 	"1"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -34,8 +34,8 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{575}
-FloorPlanScreen
+State:575
+/FloorPlanScreen/
 	[7]
 	[WWT\Screen]
 	[1]
@@ -52,8 +52,8 @@ FloorPlanScreen
 	[Open\Drawer]
 	[6]
 	[Get\Check]
-{558}
-FloorPlanScreen
+State:558
+/FloorPlanScreen/
 	[7]
 	[WWT\Screen]
 	[1]
@@ -70,70 +70,70 @@ FloorPlanScreen
 	[Open\Drawer]
 	[6]
 	[Get\Check]
-{412}
-PizzaModifierScreen
-GroupOneButtons
+State:412
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
 	"test"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Sausage"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{408}
-PizzaModifierScreen
-GroupOneButtons
+State:408
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
@@ -142,40 +142,40 @@ Items
 	" Beef"
 	" 1/2"
 	" Chicken"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{407}
-PizzaModifierScreen
-GroupOneButtons
+State:407
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
@@ -184,46 +184,46 @@ Items
 	" Beef"
 	" 1/2"
 	" Chicken"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"You may not have more than 3 items from the Pizza Toppings group."
 	[X]
 	[OK]
-{406}
-PizzaModifierScreen
-GroupOneButtons
+State:406
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
@@ -231,346 +231,346 @@ Items
 	" Beef"
 	" Beef"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{402}
-PizzaModifierScreen
-GroupOneButtons
+State:402
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{401}
-PizzaModifierScreen
-GroupOneButtons
+State:401
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{400}
-PizzaModifierScreen
-GroupOneButtons
+State:400
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{399}
-PizzaModifierScreen
-GroupOneButtons
+State:399
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" Beef"
 	" 1/2"
 	" Chicken"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{398}
-PizzaModifierScreen
-GroupOneButtons
+State:398
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" Beef"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{397}
-PizzaModifierScreen
-GroupOneButtons
+State:397
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{396}
-PizzaModifierScreen
-GroupOneButtons
+State:396
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{395}
-PizzaModifierScreen
-GroupOneButtons
+State:395
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Peperoni Pizza"
 	"10.00"
-Items
+/Items/
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{310}
-WWTScreen
+State:310
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
-GetCheckDialog
-TopCancelOkButtons
+/GetCheckDialog/
+/TopCancelOkButtons/
 	[btnClose]
 	"Get Tab"
 	[btnOk]
-TopGetButtons
+/TopGetButtons/
 	[Get Table]
 	[Get Tab]
 	[Get Check]
 	??
-Keyboard
+/Keyboard/
 	[1]
 	[2]
 	[3]
@@ -615,30 +615,30 @@ Keyboard
 	[]
 	[⌫]
 	[Ok]
-{298}
-SplitCheckScreen
-SplitScreen
+State:298
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 2"
 	"Seat 2"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{297}
-SplitCheckScreen
-SplitScreen
+State:297
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
@@ -646,400 +646,399 @@ CheckOrSeat
 	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{294}
-SplitSeatScreen
-SplitScreen
+State:294
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 2"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{284}
-SplitSeatScreen
-SplitScreen
+State:284
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{275}
-PizzaModifierScreen
-GroupOneButtons
+State:275
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Cheese Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Chicken"
 	" Cheese"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{274}
-PizzaModifierScreen
-GroupOneButtons
+State:274
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Cheese Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Chicken"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{272}
-PizzaModifierScreen
-GroupOneButtons
+State:272
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Cheese Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
 	[X]
 	[OK]
-{270}
-PizzaModifierScreen
-GroupOneButtons
+State:270
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Cheese Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{268}
-PizzaModifierScreen
-GroupOneButtons
+State:268
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Cheese Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{265}
-PizzaModifierScreen
-GroupOneButtons
+State:265
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Cheese Pizza"
 	"5.00"
-Items
+/Items/
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{264}
-PizzaModifierScreen
-GroupOneButtons
+State:264
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Sausage"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
 	[X]
 	[OK]
-{258}
-PizzaModifierScreen
-GroupOneButtons
+State:258
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Sausage"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{239}
-TenderScreen
-TopRightButtons
+State:239
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
 	"41.89"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"41.89"
-Taxes
+/Taxes/
 	"Tax"
 	"2.56"
 	"Total"
 	"44.45"
-Tenders
+/Tenders/
 	"CASH"
 	"44.45"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1047,40 +1046,39 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{238}
-OrderScreen
-TopLeftButtons
+State:238
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
 	"41.89"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -1089,7 +1087,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -1099,7 +1097,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -1111,32 +1109,31 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{237}
-OrderScreen
-TopLeftButtons
+State:237
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -1145,7 +1142,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -1155,7 +1152,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -1167,31 +1164,30 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - NO FULL RACK"
 	" - 1/2 RACK"
 	" - 1/2 RACK"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -1211,39 +1207,38 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{236}
-OrderScreen
-TopLeftButtons
+State:236
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -1252,7 +1247,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -1262,7 +1257,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -1274,30 +1269,29 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - NO FULL RACK"
 	" - 1/2 RACK"
 	" - 1/2 RACK"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -1317,39 +1311,38 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{235}
-OrderScreen
-TopLeftButtons
+State:235
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -1358,7 +1351,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -1368,7 +1361,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -1380,29 +1373,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - NO FULL RACK"
 	" - 1/2 RACK"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[1/2 RACK]
 	[*]
 	[*]
@@ -1422,39 +1414,38 @@ RightModifierButtons
 	[*]
 	[*]
 	[FULL RACK]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{234}
-OrderScreen
-TopLeftButtons
+State:234
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -1463,7 +1454,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -1473,7 +1464,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -1485,28 +1476,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - NO FULL RACK"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[1/2 RACK]
 	[*]
 	[*]
@@ -1526,51 +1516,50 @@ RightModifierButtons
 	[*]
 	[*]
 	[FULL RACK]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{233}
-TenderScreen
-TopRightButtons
+State:233
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 5]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 5"
 	"ICED TEA"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"CASH"
 	"2.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1578,50 +1567,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{232}
-TenderScreen
-TopRightButtons
+State:232
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 5]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 5"
 	"ICED TEA"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$2.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1629,52 +1617,51 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{231}
-TenderScreen
-TopRightButtons
+State:231
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 4]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 4"
 	"DIET 7UP"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"CASH"
 	"2.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1682,50 +1669,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{230}
-TenderScreen
-TopRightButtons
+State:230
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 4]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 4"
 	"DIET 7UP"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$2.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1733,52 +1719,51 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{229}
-TenderScreen
-TopRightButtons
+State:229
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 3]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 3"
 	"DIET COKE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"CASH"
 	"2.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1786,50 +1771,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{228}
-TenderScreen
-TopRightButtons
+State:228
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 3]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 3"
 	"DIET COKE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$2.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1837,52 +1821,51 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{227}
-TenderScreen
-TopRightButtons
+State:227
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 2]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 2"
 	"COKE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"CASH"
 	"2.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1890,50 +1873,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{226}
-TenderScreen
-TopRightButtons
+State:226
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 2]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 2"
 	"COKE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$2.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1941,50 +1923,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{225}
-TenderScreen
-TopRightButtons
+State:225
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"WATER"
 	"0.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"0.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"0.00"
-Tenders
+/Tenders/
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -1992,70 +1973,69 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{224}
-SplitSeatScreen
-SplitScreen
+State:224
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 2"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{223}
-TenderScreen
-TopRightButtons
+State:223
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"4.50"
-Taxes
+/Taxes/
 	"Tax"
 	"0.27"
 	"Total"
 	"4.77"
-Tenders
+/Tenders/
 	"CASH"
 	"4.77"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2063,50 +2043,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{222}
-TenderScreen
-TopRightButtons
+State:222
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"4.50"
-Taxes
+/Taxes/
 	"Tax"
 	"0.27"
 	"Total"
 	"4.77"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$4.77"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2114,40 +2093,39 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{221}
-OrderScreen
-TopLeftButtons
+State:221
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -2156,7 +2134,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -2173,7 +2151,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -2185,32 +2163,31 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{220}
-OrderScreen
-TopLeftButtons
+State:220
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Platter"
 	"0.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -2219,7 +2196,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -2236,7 +2213,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -2248,66 +2225,64 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Platter"
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Platter"
 	"0.00"
 	" - Special canapes"
 	" -  - Vegetarian"
 	" -  - Vegan"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Czech canapes]
 	[Canapes]
 	[Pickup]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Cheese Canapes]
 	[Ham Canapes]
 	[Fruit Canapes]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{219}
-OrderScreen
-TopLeftButtons
+State:219
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Platter"
 	"0.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -2316,7 +2291,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -2333,7 +2308,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -2345,73 +2320,71 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Platter"
 	"(Optional modifiers, but no more than 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Special canapes"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Vegetar/Vegan]
 	[Pickup]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Vegetarian]
 	[*]
 	[Vegan]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{218}
-TenderScreen
-TopRightButtons
+State:218
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"3.50"
-Taxes
+/Taxes/
 	"Tax"
 	"0.21"
 	"Total"
 	"3.71"
-Tenders
+/Tenders/
 	"CASH"
 	"3.71"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2419,50 +2392,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{217}
-TenderScreen
-TopRightButtons
+State:217
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"3.50"
-Taxes
+/Taxes/
 	"Tax"
 	"0.21"
 	"Total"
 	"3.71"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$3.71"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2470,78 +2442,77 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{216}
-PizzaModifierScreen
-GroupOneButtons
+State:216
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Pan"
 	" Sausage"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{215}
-OrderScreen
-TopLeftButtons
+State:215
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -2550,7 +2521,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -2567,7 +2538,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -2579,32 +2550,31 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{214}
-OrderScreen
-TopLeftButtons
+State:214
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Platter"
 	"0.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -2613,7 +2583,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -2630,7 +2600,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -2642,64 +2612,62 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Platter"
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Platter"
 	"0.00"
 	" - Stand canapes"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Czech canapes]
 	[Canapes]
 	[Pickup]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Cheese Canapes]
 	[Ham Canapes]
 	[Fruit Canapes]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{213}
-OrderScreen
-TopLeftButtons
+State:213
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Platter"
 	"0.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -2708,7 +2676,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -2725,7 +2693,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -2737,76 +2705,74 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Platter"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Platter"
 	"0.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Czech canapes]
 	[Canapes]
 	[Pickup]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Stand canapes]
 	[Special canapes]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{212}
-TenderScreen
-TopRightButtons
+State:212
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Table"
 	"COKE"
 	"2.00"
 	"PORK NACHOS"
 	"5.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"7.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.31"
 	"Total"
 	"7.31"
-Tenders
+/Tenders/
 	"CASH"
 	"7.31"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2814,31 +2780,30 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity*]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{211}
-TenderScreen
-TopRightButtons
+State:211
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"COKE"
 	"2.00"
@@ -2846,24 +2811,24 @@ ItemEntries
 	"5.00"
 	"MILLER LITE"
 	"3.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"10.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.31"
 	"Total"
 	"10.31"
-Tenders
+/Tenders/
 	"CASH"
 	"10.31"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2871,50 +2836,49 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{210}
-TenderScreen
-TopRightButtons
+State:210
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
 	"41.94"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"41.94"
-Taxes
+/Taxes/
 	"Tax Exempt TEST"
 	"0.00"
 	"Total"
 	"41.94"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$41.94"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2922,52 +2886,51 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{209}
-TenderScreen
-TopRightButtons
+State:209
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
 	"41.94"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"41.94"
-Taxes
+/Taxes/
 	"Tax Exempt TEST"
 	"0.00"
 	"Total"
 	"41.94"
-Tenders
+/Tenders/
 	"CASH"
 	"41.94"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -2975,52 +2938,51 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{208}
-TenderScreen
-TopRightButtons
+State:208
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"CASH"
 	"2.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -3028,40 +2990,39 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{207}
-OrderScreen
-TopLeftButtons
+State:207
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"H COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -3070,7 +3031,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -3084,7 +3045,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[Scan Barcode]
 	[Select Printer]
 	[Transfer]
@@ -3097,32 +3058,31 @@ BottomButtons
 	[Hold]
 	[Recipe]
 	""
-{206}
-OrderScreen
-TopLeftButtons
+State:206
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"OPEN DESCR MOD"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -3131,7 +3091,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"ECARD"
 	"$10 ECard"
 	"PLU"
@@ -3142,7 +3102,7 @@ MenuOrModButtons
 	"OPEN PRICE MOD"
 	"OPEN DESCR MOD"
 	"OPEN FORCED MOD"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3154,39 +3114,38 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"TEST"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"TEST"
 	"10.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Open Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[OPEN ITEM]
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-KeyboardEntryDialog
+/KeyboardEntryDialog/
 	"Enter description"
 	""
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -3230,32 +3189,31 @@ DialogSeparator
 	[⌫]
 	[Ok*]
 	[X]
-{205}
-OrderScreen
-TopLeftButtons
+State:205
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"OPEN DESCR MOD"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -3264,7 +3222,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"ECARD"
 	"$10 ECard"
 	"PLU"
@@ -3275,7 +3233,7 @@ MenuOrModButtons
 	"OPEN PRICE MOD"
 	"OPEN DESCR MOD"
 	"OPEN FORCED MOD"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3287,98 +3245,96 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"TEST"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"TEST"
 	"10.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Open Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[OPEN ITEM]
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{204}
-PizzaModifierScreen
-GroupOneButtons
+State:204
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Pan"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{203}
-OrderScreen
-TopLeftButtons
+State:203
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"OPEN PRICE MOD"
 	"0.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -3387,7 +3343,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"ECARD"
 	"$10 ECard"
 	"PLU"
@@ -3398,7 +3354,7 @@ MenuOrModButtons
 	"OPEN PRICE MOD"
 	"OPEN DESCR MOD"
 	"OPEN FORCED MOD"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3410,41 +3366,40 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"OPEN PRICE MOD"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"OPEN PRICE MOD"
 	"2.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Open Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[OPEN ITEM]
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-CurrencyInputDialog
+/CurrencyInputDialog/
 	"Enter price"
 	"$"
 	"0.00"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -3458,32 +3413,31 @@ DialogSeparator
 	[0]
 	[OK*]
 	[X]
-{202}
-OrderScreen
-TopLeftButtons
+State:202
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"OPEN PRICE MOD"
 	"0.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -3492,7 +3446,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"ECARD"
 	"$10 ECard"
 	"PLU"
@@ -3503,7 +3457,7 @@ MenuOrModButtons
 	"OPEN PRICE MOD"
 	"OPEN DESCR MOD"
 	"OPEN FORCED MOD"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3515,57 +3469,55 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"OPEN PRICE MOD"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"OPEN PRICE MOD"
 	"2.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Open Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[OPEN ITEM]
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{201}
-OrderScreen
-TopLeftButtons
+State:201
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat*]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Table"
 	"BBQ RIBS"
 	"11.99"
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -3574,7 +3526,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -3584,7 +3536,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3596,29 +3548,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - FULL RACK"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -3638,35 +3589,34 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{200}
-OrderScreen
-TopLeftButtons
+State:200
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat*]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Table"
 	"BBQ RIBS"
 	"11.99"
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -3675,7 +3625,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -3685,7 +3635,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3697,28 +3647,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - FULL RACK"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -3738,35 +3687,34 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{199}
-OrderScreen
-TopLeftButtons
+State:199
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat*]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Table"
 	"BBQ RIBS"
 	"11.99"
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -3775,7 +3723,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -3785,7 +3733,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3797,27 +3745,26 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[1/2 RACK]
 	[*]
 	[*]
@@ -3837,39 +3784,38 @@ RightModifierButtons
 	[*]
 	[*]
 	[FULL RACK]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{198}
-OrderScreen
-TopLeftButtons
+State:198
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"3pcDrkBrstr"
 	"9.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -3878,7 +3824,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -3895,7 +3841,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -3907,31 +3853,30 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"3pcDrkBrstr"
 	"(Optional unlimited modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"3pcDrkBrstr"
 	"9.99"
 	" - SP Bean C"
 	" - Carrots"
 	" - Cherry Bread"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
 	[Breads]
 	[3C\Dessert]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Fruit]
 	[IceCreamVan Scp]
 	[IceCreamChocScp]
@@ -3949,39 +3894,38 @@ RightModifierButtons
 	[Coco\CrmPie]
 	[*]
 	[FrchChc\Pie]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{197}
-OrderScreen
-TopLeftButtons
+State:197
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"3pcDrkBrstr"
 	"9.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -3990,7 +3934,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4007,7 +3951,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4019,30 +3963,29 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"3pcDrkBrstr"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"3pcDrkBrstr"
 	"9.99"
 	" - SP Bean C"
 	" - Carrots"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
 	[Breads]
 	[3C\Dessert]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[1 French Toast]
 	[3 Hotcke Btrmlk]
 	[3 Hotcke\Multi]
@@ -4063,39 +4006,38 @@ RightModifierButtons
 	[White\Toast]
 	[*]
 	[No\Bread]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{196}
-OrderScreen
-TopLeftButtons
+State:196
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"3pcDrkBrstr"
 	"9.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4104,7 +4046,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4121,7 +4063,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4133,29 +4075,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"3pcDrkBrstr"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"3pcDrkBrstr"
 	"9.99"
 	" - SP Bean C"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
 	[Breads]
 	[3C\Dessert]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Garden Salad]
 	[Apple Sauce]
 	[Bk Potato]
@@ -4177,39 +4118,38 @@ RightModifierButtons
 	[*]
 	[No Side]
 	[*]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{195}
-OrderScreen
-TopLeftButtons
+State:195
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"3pcDrkBrstr"
 	"9.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4218,7 +4158,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4235,7 +4175,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4247,28 +4187,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"3pcDrkBrstr"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"3pcDrkBrstr"
 	"9.99"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
 	[Breads]
 	[3C\Dessert]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[*]
 	[Garden Salad]
 	[*]
@@ -4290,39 +4229,38 @@ RightModifierButtons
 	[SP\CkNoodles B]
 	[SP\Brocc Cz B]
 	[SP\Chili B]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{194}
-OrderScreen
-TopLeftButtons
+State:194
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Wrap"
 	"5.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4331,7 +4269,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4348,7 +4286,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4360,25 +4298,24 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Wrap"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Pastries"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[ADD SOUR CRM]
 	[BAGEL/CROISSANT]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[ON\BAGEL]
 	[*]
 	[*]
@@ -4398,39 +4335,38 @@ RightModifierButtons
 	[*]
 	[*]
 	[ON\CROISSANT]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{193}
-OrderScreen
-TopLeftButtons
+State:193
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Wrap"
 	"5.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4439,7 +4375,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4456,7 +4392,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4468,31 +4404,30 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Wrap"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Wrap"
 	"5.50"
 	" - 3 Bowl"
 	" - NO Onion"
 	" - Less Spicy"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[ADD BACON]
 	[R.General MOD]
 	[Mods A-F]
 	[Desserts]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Milk Pudding]
 	[Chocolate Ice]
 	[*]
@@ -4500,39 +4435,38 @@ RightModifierButtons
 	[*]
 	[*]
 	[Pastries]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{192}
-OrderScreen
-TopLeftButtons
+State:192
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Wrap"
 	"5.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4541,7 +4475,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4558,7 +4492,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4570,28 +4504,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Wrap"
 	"(Optional modifiers, but no more than 9 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Wrap"
 	"5.50"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[ADD BACON]
 	[R.General MOD]
 	[Mods A-F]
 	[Desserts]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Serve Now]
 	[Serve LATER]
 	[Rush this Item]
@@ -4613,39 +4546,38 @@ RightModifierButtons
 	[*]
 	[*]
 	[*]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{191}
-OrderScreen
-TopLeftButtons
+State:191
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Burrito Classic"
 	"11.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4654,7 +4586,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4671,7 +4603,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4683,66 +4615,64 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Burrito Classic"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Burrito Classic"
 	"11.00"
 	" - Verde"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Burrito Rice]
 	[Burrito Beans]
 	[Burrito Meat]
 	[Burrito Salsa]
 	[Burrito Vege]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Tomato]
 	[*]
 	[Corn]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{190}
-OrderScreen
-TopLeftButtons
+State:190
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Burrito Classic"
 	"11.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4751,7 +4681,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4768,7 +4698,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4780,65 +4710,63 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Burrito Classic"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Burrito Classic"
 	"11.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Burrito Rice]
 	[Burrito Beans]
 	[Burrito Meat]
 	[Burrito Salsa]
 	[Burrito Vege]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Verde]
 	[*]
 	[Chipotle]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{189}
-OrderScreen
-TopLeftButtons
+State:189
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Burrito Persona"
 	"11.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4847,7 +4775,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4864,7 +4792,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4876,14 +4804,13 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Burrito Persona"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Burrito Persona"
 	"11.00"
 	" - Chili Rice"
@@ -4892,55 +4819,54 @@ Modifier
 	" - Chicken"
 	" - Chicken"
 	" - Verde"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
 	[Burrito Meat R]
 	[Burrito Salsa R]
 	[Burrito Vege R]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Tomato]
 	[*]
 	[Corn]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{188}
-OrderScreen
-TopLeftButtons
+State:188
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Burrito Persona"
 	"11.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -4949,7 +4875,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -4966,7 +4892,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -4978,14 +4904,13 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Burrito Persona"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Burrito Persona"
 	"11.00"
 	" - Chili Rice"
@@ -4993,55 +4918,54 @@ Modifier
 	" - White Beans"
 	" - Chicken"
 	" - Chicken"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
 	[Burrito Meat R]
 	[Burrito Salsa R]
 	[Burrito Vege R]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Verde]
 	[*]
 	[Chipotle]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{187}
-OrderScreen
-TopLeftButtons
+State:187
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Burrito Persona"
 	"11.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5050,7 +4974,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5067,7 +4991,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5079,66 +5003,64 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Burrito Persona"
 	"(Optional modifiers, but no more than 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Burrito Persona"
 	"11.00"
 	" - Chili Rice"
 	" - Chili Rice"
 	" - White Beans"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
 	[Burrito Meat R]
 	[Burrito Salsa R]
 	[Burrito Vege R]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Chicken]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{186}
-OrderScreen
-TopLeftButtons
+State:186
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Burrito Persona"
 	"11.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5147,7 +5069,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5164,7 +5086,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5176,65 +5098,64 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Burrito Persona"
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Burrito Persona"
 	"11.00"
 	" - Chili Rice"
 	" - Chili Rice"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
 	[Burrito Meat R]
 	[Burrito Salsa R]
 	[Burrito Vege R]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[White Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{185}
-PizzaModifierScreen
-GroupOneButtons
+State:185
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -5243,40 +5164,39 @@ Items
 	" VEGGIE"
 	" CHEDDAR"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[CHEDDAR]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{184}
-OrderScreen
-TopLeftButtons
+State:184
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Burrito Persona"
 	"11.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5285,7 +5205,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5302,7 +5222,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5314,63 +5234,62 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Burrito Persona"
 	"(Optional unlimited modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Burrito Persona"
 	"11.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
 	[Burrito Meat R]
 	[Burrito Salsa R]
 	[Burrito Vege R]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Chili Rice]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{183}
-PizzaModifierScreen
-GroupOneButtons
+State:183
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -5379,46 +5298,45 @@ Items
 	" VEGGIE"
 	" CHEDDAR"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[CHEDDAR]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"You may not have more than 1 items from the CHEESE group."
 	[X]
 	[OK]
-{182}
-OrderScreen
-TopLeftButtons
+State:182
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Bread\ Garlic Spread"
 	"1.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5427,7 +5345,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5444,7 +5362,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5456,24 +5374,23 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Bread"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Chive Spread"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Spread Light T]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[BACON]
 	[HAM]
 	[CHORIZO]
@@ -5485,45 +5402,44 @@ RightModifierButtons
 	[*]
 	[TOMATO]
 	[MUSHROOM]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"At least 1 of Spread Light T is required"
 	[X]
 	[OK]
-{181}
-OrderScreen
-TopLeftButtons
+State:181
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Bread\ Garlic Spread"
 	"1.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5532,7 +5448,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5549,7 +5465,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5561,24 +5477,23 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Bread"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Chive Spread"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Spread Light T]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[BACON]
 	[HAM]
 	[CHORIZO]
@@ -5590,39 +5505,38 @@ RightModifierButtons
 	[*]
 	[TOMATO]
 	[MUSHROOM]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{180}
-OrderScreen
-TopLeftButtons
+State:180
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Bread\ Garlic Spread"
 	"1.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5631,7 +5545,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5648,7 +5562,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5660,62 +5574,60 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Bread"
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Bread"
 	"1.99"
 	" - Garlic Spread"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Breads Spreads]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Garlic Spread]
 	[*]
 	[Chive Spread]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{179}
-OrderScreen
-TopLeftButtons
+State:179
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Bread"
 	"1.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5724,7 +5636,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5741,7 +5653,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5753,24 +5665,23 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Bread"
 	"(Optional unlimited modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Garlic Spread"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Spread Toppings]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[BACON]
 	[HAM]
 	[CHORIZO]
@@ -5779,39 +5690,38 @@ RightModifierButtons
 	[*]
 	[TOMATO]
 	[MUSHROOM]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{178}
-OrderScreen
-TopLeftButtons
+State:178
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Bread"
 	"1.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -5820,7 +5730,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -5837,7 +5747,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5849,61 +5759,59 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Bread"
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Bread"
 	"1.99"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Breads Spreads]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Garlic Spread]
 	[*]
 	[Chive Spread]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{177}
-OrderScreen
-TopLeftButtons
+State:177
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
 	"11.99\\\\3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -5912,7 +5820,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -5922,7 +5830,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -5934,31 +5842,30 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"RIBEYE"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"RIBEYE"
 	"11.99"
 	" - BLACK & BLUE"
 	" - Baked Potato"
 	" - CAESAR SALAD"
 	" -  - ADD CHICKEN"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[BLACK & BLUE]
 	[MEDIUM\WELL]
 	[*]
@@ -5979,39 +5886,38 @@ RightModifierButtons
 	[*]
 	[RARE]
 	[WELL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{176}
-OrderScreen
-TopLeftButtons
+State:176
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"RIBEYE"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6020,7 +5926,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -6030,7 +5936,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6042,58 +5948,56 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"RIBEYE"
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"CAESAR SALAD"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[ADD CHICKEN]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[ADD\CHICKEN]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{175}
-OrderScreen
-TopLeftButtons
+State:175
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"RIBEYE"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6102,7 +6006,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -6112,7 +6016,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6124,29 +6028,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"RIBEYE"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"RIBEYE"
 	"11.99"
 	" - BLACK & BLUE"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -6166,39 +6069,39 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{174}
-PizzaModifierScreen
-GroupOneButtons
+State:174
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -6207,40 +6110,39 @@ Items
 	" VEGGIE"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[CHEDDAR]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{173}
-OrderScreen
-TopLeftButtons
+State:173
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"RIBEYE"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6249,7 +6151,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -6259,7 +6161,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6271,28 +6173,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"RIBEYE"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"RIBEYE"
 	"11.99"
 	" - BLACK & BLUE"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -6312,39 +6213,38 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{172}
-OrderScreen
-TopLeftButtons
+State:172
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"RIBEYE"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6353,7 +6253,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -6363,7 +6263,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6375,27 +6275,26 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"RIBEYE"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"RIBEYE"
 	"11.99"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[BLACK & BLUE]
 	[MEDIUM\WELL]
 	[*]
@@ -6416,39 +6315,38 @@ RightModifierButtons
 	[*]
 	[RARE]
 	[WELL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{171}
-OrderScreen
-TopLeftButtons
+State:171
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6457,7 +6355,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -6467,7 +6365,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6479,29 +6377,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"PORK CHOP"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"PORK CHOP"
 	"11.99"
 	" - BLACK & BLUE"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -6521,39 +6418,39 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{170}
-PizzaModifierScreen
-GroupOneButtons
+State:170
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -6562,40 +6459,39 @@ Items
 	" VEGGIE"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[VEGGIE]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{169}
-OrderScreen
-TopLeftButtons
+State:169
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6604,7 +6500,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -6614,7 +6510,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6626,28 +6522,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"PORK CHOP"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"PORK CHOP"
 	"11.99"
 	" - BLACK & BLUE"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -6667,39 +6562,38 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{168}
-OrderScreen
-TopLeftButtons
+State:168
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Special Burger"
 	"5.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6708,14 +6602,14 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"Mod Menu"
 	"PORK\CHOP"
 	"Special\Burger"
 	"BBQ\RIBS"
 	[Add Ice Mod]
 	[Back to Menu]
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6727,20 +6621,19 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Special Burger"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Special Burger"
 	"5.50"
 	" - BACON"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Special Burger]
-RightPanelButtons
+/RightPanelButtons/
 	[Special\Message]
 	[No]
 	[Actual\Count]
@@ -6756,39 +6649,38 @@ RightPanelButtons
 	[BACON]
 	""
 	[ONION]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{167}
-OrderScreen
-TopLeftButtons
+State:167
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Special Burger"
 	"5.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6797,14 +6689,14 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"Mod Menu"
 	"PORK\CHOP"
 	"Special\Burger"
 	"BBQ\RIBS"
 	[Add Ice Mod]
 	[Back to Menu]
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6816,20 +6708,19 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Special Burger"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Special Burger"
 	"5.50"
 	" - RARE"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Special Burger]
-RightPanelButtons
+/RightPanelButtons/
 	[Special\Message]
 	[No]
 	[Actual\Count]
@@ -6845,39 +6736,38 @@ RightPanelButtons
 	[BACON]
 	""
 	[ONION]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{166}
-OrderScreen
-TopLeftButtons
+State:166
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"Special Burger"
 	"5.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6886,14 +6776,14 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"Mod Menu"
 	"PORK\CHOP"
 	"Special\Burger"
 	"BBQ\RIBS"
 	[Add Ice Mod]
 	[Back to Menu]
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -6905,19 +6795,18 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"Special Burger"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"Special Burger"
 	"5.50"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Special Burger]
-RightPanelButtons
+/RightPanelButtons/
 	[Special\Message]
 	[No]
 	[Actual\Count]
@@ -6933,39 +6822,38 @@ RightPanelButtons
 	[BACON]
 	""
 	[ONION]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{165}
-OrderScreen
-TopLeftButtons
+State:165
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -6974,7 +6862,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -6988,7 +6876,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7000,62 +6888,60 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
 	"test"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Ice]
 	[*]
 	[Sugar]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{164}
-OrderScreen
-TopLeftButtons
+State:164
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -7064,7 +6950,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -7078,7 +6964,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7090,32 +6976,32 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{163}
-PizzaModifierScreen
-GroupOneButtons
+State:163
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -7124,46 +7010,45 @@ Items
 	" VEGGIE"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[VEGGIE]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"You may not have more than 1 items from the QUICHE group."
 	[X]
 	[OK]
-{162}
-OrderScreen
-TopLeftButtons
+State:162
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -7172,7 +7057,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -7186,7 +7071,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7198,39 +7083,38 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Ice]
 	[*]
 	[Sugar]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-KeyboardEntryDialog
+/KeyboardEntryDialog/
 	"Item Message"
 	""
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -7274,32 +7158,32 @@ DialogSeparator
 	[⌫]
 	[Ok*]
 	[X]
-{161}
-PizzaModifierScreen
-GroupOneButtons
+State:161
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -7307,40 +7191,39 @@ Items
 	" Beef"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[VEGGIE]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{160}
-OrderScreen
-TopLeftButtons
+State:160
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -7349,7 +7232,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -7359,7 +7242,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7371,29 +7254,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"PORK CHOP"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"PORK CHOP"
 	"11.99"
 	" - MEDIUM"
 	" - Black Beans"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -7413,39 +7295,38 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{159}
-OrderScreen
-TopLeftButtons
+State:159
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -7454,7 +7335,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -7468,7 +7349,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7480,62 +7361,61 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
 	" - XT Ice"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Ice]
 	[*]
 	[Sugar]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{158}
-PizzaModifierScreen
-GroupOneButtons
+State:158
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -7543,42 +7423,42 @@ Items
 	" Beef"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{157}
-PizzaModifierScreen
-GroupOneButtons
+State:157
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Cheese"
@@ -7586,88 +7466,87 @@ Items
 	" Beef"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"You may not have more than 3 items from the Pizza Toppings group."
 	[X]
 	[OK]
-{156}
-PizzaModifierScreen
-GroupOneButtons
+State:156
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{155}
-OrderScreen
-TopLeftButtons
+State:155
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -7676,7 +7555,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -7690,7 +7569,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7702,62 +7581,60 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
 	" - NO Ice"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Ice]
 	[*]
 	[Sugar]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{154}
-OrderScreen
-TopLeftButtons
+State:154
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -7766,7 +7643,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -7780,7 +7657,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7792,61 +7669,59 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Mods]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Ice]
 	[*]
 	[Sugar]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{153}
-OrderScreen
-TopLeftButtons
+State:153
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato"
 	"5.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -7855,7 +7730,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"SPN ARTCHK\DIP"
 	"PORK\NACHOS"
 	"HELLS\CHIPS"
@@ -7864,7 +7739,7 @@ MenuOrModButtons
 	"FRIED MOZZ"
 	"POTATO\CHIPS"
 	"TENDERLN\WRAPS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -7876,27 +7751,26 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"TENDERLN WRAPS"
 	"(Choose special modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"TENDERLN WRAPS"
 	"5.00"
 	" - Baked Potato"
 	" - ADD AVOCADO"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[STARCH]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[ADD\AVOCADO]
 	[NO BREAD]
 	[1/2 RACK]
@@ -7918,116 +7792,115 @@ RightModifierButtons
 	[ENGLISH\MUFFIN]
 	[ADD\SOUR CREAM]
 	[*]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{152}
-PizzaModifierScreen
-GroupOneButtons
+State:152
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{151}
-PizzaModifierScreen
-GroupOneButtons
+State:151
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
 	[QUICHE]
 	[CHEESE]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"VEG 7 THIN"
 	"10.00"
-Items
+/Items/
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{150}
-OrderScreen
-TopLeftButtons
+State:150
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato"
 	"5.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8036,7 +7909,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"SPN ARTCHK\DIP"
 	"PORK\NACHOS"
 	"HELLS\CHIPS"
@@ -8045,7 +7918,7 @@ MenuOrModButtons
 	"FRIED MOZZ"
 	"POTATO\CHIPS"
 	"TENDERLN\WRAPS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8057,26 +7930,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"TENDERLN WRAPS"
 	"(Choose special modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"TENDERLN WRAPS"
 	"5.00"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[STARCH]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[ADD\AVOCADO]
 	[NO BREAD]
 	[1/2 RACK]
@@ -8098,39 +7970,38 @@ RightModifierButtons
 	[ENGLISH\MUFFIN]
 	[ADD\SOUR CREAM]
 	[*]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{149}
-OrderScreen
-TopLeftButtons
+State:149
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato"
 	"5.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8139,7 +8010,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"SPN ARTCHK\DIP"
 	"PORK\NACHOS"
 	"HELLS\CHIPS"
@@ -8148,7 +8019,7 @@ MenuOrModButtons
 	"FRIED MOZZ"
 	"POTATO\CHIPS"
 	"TENDERLN\WRAPS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8160,26 +8031,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"TENDERLN WRAPS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"TENDERLN WRAPS"
 	"5.00"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[STARCH]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -8199,38 +8069,37 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{148}
-OrderScreen
-TopLeftButtons
+State:148
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE\  COKE"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8239,7 +8108,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -8253,7 +8122,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8265,32 +8134,31 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{147}
-OrderScreen
-TopLeftButtons
+State:147
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE\ COKE"
 	""
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8299,7 +8167,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -8313,7 +8181,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8325,26 +8193,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
 	" - COKE"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Refill]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[COKE]
 	[ICED TEA]
 	[*]
@@ -8365,39 +8232,38 @@ RightModifierButtons
 	[*]
 	[7 UP]
 	[COFFEE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
 	[Cancel]
 	[OK]
-{146}
-OrderScreen
-TopLeftButtons
+State:146
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE\ COKE\"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8406,7 +8272,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -8420,7 +8286,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8432,25 +8298,24 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Refill]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[COKE]
 	[ICED TEA]
 	[*]
@@ -8471,37 +8336,37 @@ RightModifierButtons
 	[*]
 	[7 UP]
 	[COFFEE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
 	[Cancel]
 	[OK]
-{145}
-PizzaModifierScreen
-GroupOneButtons
+State:145
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Chicken"
@@ -8509,40 +8374,40 @@ Items
 	" Beef"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{144}
-PizzaModifierScreen
-GroupOneButtons
+State:144
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Chicken"
@@ -8550,48 +8415,47 @@ Items
 	" Beef"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-MessageDialog
+/MessageDialog/
 	"Warning"
-DialogSeparator
+/DialogSeparator/
 	"You may not have more than 3 items from the Pizza Toppings group."
 	[X]
 	[OK]
-{143}
-OrderScreen
-TopLeftButtons
+State:143
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE\ COKE\"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8600,7 +8464,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -8614,7 +8478,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8626,26 +8490,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
 	" - COKE"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Refill]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[COKE]
 	[ICED TEA]
 	[*]
@@ -8666,41 +8529,40 @@ RightModifierButtons
 	[*]
 	[7 UP]
 	[COFFEE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
 	[Cancel]
 	[OK]
-{142}
-OrderScreen
-TopLeftButtons
+State:142
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"7 UP"
 	"2.00"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8709,7 +8571,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -8723,7 +8585,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8735,26 +8597,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
 	" - COKE"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Refill]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[COKE]
 	[ICED TEA]
 	[*]
@@ -8775,41 +8636,40 @@ RightModifierButtons
 	[*]
 	[7 UP]
 	[COFFEE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
 	[Cancel]
 	[OK]
-{141}
-OrderScreen
-TopLeftButtons
+State:141
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"7 UP"
 	"2.00"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8818,7 +8678,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -8832,7 +8692,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8844,25 +8704,24 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Refill]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[COKE]
 	[ICED TEA]
 	[*]
@@ -8883,79 +8742,78 @@ RightModifierButtons
 	[*]
 	[7 UP]
 	[COFFEE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
 	[Cancel]
 	[OK]
-{140}
-PizzaModifierScreen
-GroupOneButtons
+State:140
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Chicken"
 	" Cheese"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{139}
-OrderScreen
-TopLeftButtons
+State:139
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -8964,7 +8822,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -8978,7 +8836,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -8990,26 +8848,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
 	" - COKE"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Refill]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[COKE]
 	[ICED TEA]
 	[*]
@@ -9030,39 +8887,38 @@ RightModifierButtons
 	[*]
 	[7 UP]
 	[COFFEE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
 	[Cancel]
 	[OK]
-{138}
-OrderScreen
-TopLeftButtons
+State:138
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9071,7 +8927,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -9085,7 +8941,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9097,25 +8953,24 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COKE"
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COKE"
 	"2.00"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Drink Refill]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[COKE]
 	[ICED TEA]
 	[*]
@@ -9136,39 +8991,38 @@ RightModifierButtons
 	[*]
 	[7 UP]
 	[COFFEE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
 	[Cancel]
 	[OK]
-{137}
-OrderScreen
-TopLeftButtons
+State:137
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"QUESADILLA"
 	"5.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9177,7 +9031,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"SPN ARTCHK\DIP"
 	"PORK\NACHOS"
 	"HELLS\CHIPS"
@@ -9186,7 +9040,7 @@ MenuOrModButtons
 	"FRIED MOZZ"
 	"POTATO\CHIPS"
 	"TENDERLN\WRAPS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9198,25 +9052,24 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"QUESADILLA"
 	"(Optional unlimited modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"QUESADILLA"
 	"5.00"
 	" - ADD AVOCADO"
-CenterCategoryButtons
-RightPanelButtons
-ModifierCodeButtons
+/CenterCategoryButtons/
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[ADD\AVOCADO]
 	[NO BREAD]
 	[1/2 RACK]
@@ -9238,39 +9091,38 @@ RightModifierButtons
 	[ENGLISH\MUFFIN]
 	[ADD\SOUR CREAM]
 	[*]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{136}
-OrderScreen
-TopLeftButtons
+State:136
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9279,7 +9131,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -9289,7 +9141,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9301,29 +9153,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"PORK CHOP"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"PORK CHOP"
 	"11.99"
 	" - MEDIUM"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -9343,39 +9194,38 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{135}
-OrderScreen
-TopLeftButtons
+State:135
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9384,7 +9234,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -9394,7 +9244,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9406,28 +9256,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"PORK CHOP"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"PORK CHOP"
 	"11.99"
 	" - MEDIUM"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -9447,39 +9296,38 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{134}
-OrderScreen
-TopLeftButtons
+State:134
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9488,7 +9336,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -9498,7 +9346,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9510,27 +9358,26 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"PORK CHOP"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"PORK CHOP"
 	"11.99"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[BLACK & BLUE]
 	[MEDIUM\WELL]
 	[*]
@@ -9551,39 +9398,38 @@ RightModifierButtons
 	[*]
 	[RARE]
 	[WELL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{133}
-OrderScreen
-TopLeftButtons
+State:133
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9592,7 +9438,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -9602,7 +9448,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9614,30 +9460,29 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - 1/2 RACK"
 	" - 1/2 RACK"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -9657,39 +9502,38 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{132}
-OrderScreen
-TopLeftButtons
+State:132
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9698,7 +9542,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -9708,7 +9552,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9720,29 +9564,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - 1/2 RACK"
 	" - 1/2 RACK"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -9762,39 +9605,38 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{131}
-OrderScreen
-TopLeftButtons
+State:131
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9803,7 +9645,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -9813,7 +9655,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9825,28 +9667,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - 1/2 RACK"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[1/2 RACK]
 	[*]
 	[*]
@@ -9866,39 +9707,38 @@ RightModifierButtons
 	[*]
 	[*]
 	[FULL RACK]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{130}
-OrderScreen
-TopLeftButtons
+State:130
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -9907,7 +9747,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -9917,7 +9757,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -9929,29 +9769,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - FULL RACK"
 	" - Baked Potato"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[CUP]
 	[*]
 	[*]
@@ -9971,39 +9810,38 @@ RightModifierButtons
 	[CAESAR\SALAD]
 	[*]
 	[BOWL]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{129}
-OrderScreen
-TopLeftButtons
+State:129
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -10012,7 +9850,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -10022,7 +9860,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10034,28 +9872,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
 	" - FULL RACK"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Baked Potato]
 	[*]
 	[BUFFET]
@@ -10075,39 +9912,38 @@ RightModifierButtons
 	[Black Beans]
 	[*]
 	[Red Beans]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{128}
-OrderScreen
-TopLeftButtons
+State:128
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -10116,7 +9952,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -10126,7 +9962,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10138,27 +9974,26 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"BBQ RIBS"
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"BBQ RIBS"
 	"11.99"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
 	[SOUP MOD]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[1/2 RACK]
 	[*]
 	[*]
@@ -10178,39 +10013,38 @@ RightModifierButtons
 	[*]
 	[*]
 	[FULL RACK]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{127}
-OrderScreen
-TopLeftButtons
+State:127
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10219,7 +10053,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10236,7 +10070,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10248,32 +10082,31 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{126}
-OrderScreen
-TopLeftButtons
+State:126
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10282,7 +10115,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10299,7 +10132,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10311,26 +10144,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COMBO 3"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"ROASTED CHCKEN"
 	" - FRIES"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Fanta\Orange]
 	[POWERADE]
 	[*]
@@ -10351,39 +10183,38 @@ RightModifierButtons
 	[*]
 	[Fanta\Grape]
 	[HI C ORANGE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{125}
-OrderScreen
-TopLeftButtons
+State:125
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10392,7 +10223,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10409,7 +10240,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10421,25 +10252,24 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COMBO 3"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"ROASTED CHCKEN"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[FRIES]
 	[Black Beans]
 	[*]
@@ -10459,39 +10289,38 @@ RightModifierButtons
 	[Baked Potato]
 	[*]
 	[SWT POT\FRIES]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{124}
-OrderScreen
-TopLeftButtons
+State:124
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10500,7 +10329,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10517,7 +10346,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10529,14 +10358,13 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COMBO 3"
 	"(Please add exactly 3 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COMBO 3"
 	"10.00"
 	" - TILAPIA"
@@ -10545,15 +10373,15 @@ Modifier
 	" - GRILLED CHCKEN"
 	" -  - FRIES"
 	" -  - PEPSI"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[COMBO 3]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[TILAPIA]
 	[*]
 	[*]
@@ -10573,39 +10401,38 @@ RightModifierButtons
 	[GRILLED\CHCKEN]
 	[*]
 	[ROASTED\CHCKEN]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{123}
-OrderScreen
-TopLeftButtons
+State:123
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10614,7 +10441,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10631,7 +10458,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10643,26 +10470,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COMBO 3"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"GRILLED CHCKEN"
 	" - FRIES"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Fanta\Orange]
 	[POWERADE]
 	[*]
@@ -10683,39 +10509,38 @@ RightModifierButtons
 	[*]
 	[Fanta\Grape]
 	[HI C ORANGE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{122}
-OrderScreen
-TopLeftButtons
+State:122
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10724,7 +10549,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10741,7 +10566,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10753,25 +10578,24 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COMBO 3"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"GRILLED CHCKEN"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[FRIES]
 	[Black Beans]
 	[*]
@@ -10791,39 +10615,38 @@ RightModifierButtons
 	[Baked Potato]
 	[*]
 	[SWT POT\FRIES]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{121}
-OrderScreen
-TopLeftButtons
+State:121
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10832,7 +10655,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10849,7 +10672,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10861,28 +10684,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COMBO 3"
 	"(Please add exactly 3 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"COMBO 3"
 	"10.00"
 	" - TILAPIA"
 	" -  - FRIES"
 	" -  - PEPSI"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[COMBO 3]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[TILAPIA]
 	[*]
 	[*]
@@ -10902,39 +10724,38 @@ RightModifierButtons
 	[GRILLED\CHCKEN]
 	[*]
 	[ROASTED\CHCKEN]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{120}
-OrderScreen
-TopLeftButtons
+State:120
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COMBO 3"
 	"10.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -10943,7 +10764,7 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -10960,7 +10781,7 @@ MenuOrModButtons
 	"Platter"
 	"3pcDrkBrstr"
 	"Pavels Meaty Bu"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -10972,26 +10793,25 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ModifierScreen
+/ModifierScreen/
 	"COMBO 3"
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-Modifier_Container
-*
-Modifier
+/Modifier_Container/
+/Modifier/
 	"TILAPIA"
 	" - FRIES"
-CenterCategoryButtons
+/CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
-RightPanelButtons
-ModifierCodeButtons
+/RightPanelButtons/
+/ModifierCodeButtons/
 	[No]
 	[Extra]
 	[Side]
 	[Half]
-RightModifierButtons
+/RightModifierButtons/
 	[Fanta\Orange]
 	[POWERADE]
 	[*]
@@ -11012,33 +10832,33 @@ RightModifierButtons
 	[*]
 	[Fanta\Grape]
 	[HI C ORANGE]
-BottomLeftButtons
+/BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
 	[Modify]
 	[Special]
 	[Cancel]
 	[OK]
-{119}
-ReceiveTransfersScreen
+State:119
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-InputDialog
+/InputDialog/
 	"Enter table name"
 	"0"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -11052,59 +10872,58 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{118}
-ReceiveTransfersScreen
+State:118
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{117}
-TenderScreen
-TopRightButtons
+State:117
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Table"
 	"COKE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"2.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"2.00"
-Tenders
+/Tenders/
 	"CASH"
 	"2.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -11112,53 +10931,52 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity*]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{116}
-ReceiveTransfersScreen
+State:116
+/ReceiveTransfersScreen/
 	"LEBRON JAMES"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tables"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{115}
-OrderScreen
-TopLeftButtons
+State:115
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
-Seats
+/EntriesBySeat/
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -11167,13 +10985,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CHOPPED\SALAD"
 	"CAESAR\SALAD"
 	"HOUSE\SALAD"
 	"CHICKEN\CAESAR"
 	"SOUP\OF DAY"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -11185,53 +11003,53 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{114}
-ReceiveTransfersScreen
+State:114
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tabs"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{113}
-WWTScreen
+State:113
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	"j2"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{112}
-WWTScreen
+State:112
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
-EnterTabNameKeyboard
+/EnterTabNameKeyboard/
 	?j2?
 	[1]
 	[2]
@@ -11278,11 +11096,11 @@ EnterTabNameKeyboard
 	[⌫]
 	[Ok]
 	[btnHideOrShowKeyboard]
-InputDialog
+/InputDialog/
 	"Enter Guest Count"
 	"1"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -11296,78 +11114,77 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{111}
-WWTScreen
+State:111
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"2"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{110}
-WWTScreen
+State:110
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
 	"2"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{109}
-WWTScreen
+State:109
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{108}
-OrderScreen
-TopLeftButtons
+State:108
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -11376,7 +11193,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -11386,7 +11203,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -11398,35 +11215,35 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{107}
-WWTScreen
+State:107
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
-GetCheckDialog
-TopCancelOkButtons
+/GetCheckDialog/
+/TopCancelOkButtons/
 	[btnClose]
 	"Get Table"
 	[btnOk]
-TopGetButtons
+/TopGetButtons/
 	[Get Table]
 	[Get Tab]
 	[Get Check]
 	??
-Keyboard
+/Keyboard/
 	[1]
 	[2]
 	[3]
@@ -11439,53 +11256,53 @@ Keyboard
 	[Clear]
 	[0]
 	[Ok]
-{106}
-WWTScreen
+State:106
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
-{105}
-WWTScreen
+State:105
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
-GetCheckDialog
-TopCancelOkButtons
+/GetCheckDialog/
+/TopCancelOkButtons/
 	[btnClose]
 	"Get Table"
 	[btnOk]
-TopGetButtons
+/TopGetButtons/
 	[Get Table]
 	[Get Tab]
 	[Get Check]
 	??
-Keyboard
+/Keyboard/
 	[1]
 	[2]
 	[3]
@@ -11498,55 +11315,54 @@ Keyboard
 	[Clear]
 	[0]
 	[Ok]
-{104}
-WWTScreen
+State:104
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{103}
-WWTScreen
+State:103
+/WWTScreen/
 	"LEBRON"
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Ascending]
 	[btnHideOrShowKeyboard]
-{102}
-OrderScreen
-TopLeftButtons
+State:102
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
@@ -11554,11 +11370,11 @@ EntriesBySeat
 	"2.00"
 	"ICED COFFEE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -11567,7 +11383,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -11581,7 +11397,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -11593,40 +11409,39 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{101}
-SplitSeatScreen
-SplitScreen
+State:101
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"COKE"
 	"7 UP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{100}
-TenderScreen
-TopRightButtons
+State:100
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"ICED COFFEE"
 	"2.00"
 	"Seat 2"
@@ -11634,24 +11449,24 @@ ItemEntries
 	"2.00"
 	"7 UP"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"6.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"6.00"
-Tenders
+/Tenders/
 	"CASH"
 	"6.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -11659,31 +11474,30 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{099}
-TenderScreen
-TopRightButtons
+State:099
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"ICED COFFEE"
 	"2.00"
@@ -11692,22 +11506,22 @@ ItemEntries
 	"2.00"
 	"7 UP"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"6.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"6.00"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$6.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -11715,32 +11529,31 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{098}
-OrderScreen
-TopLeftButtons
+State:098
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"ICED COFFEE"
 	"2.00"
@@ -11749,12 +11562,12 @@ EntriesBySeat
 	"2.00"
 	"7 UP"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[2]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -11763,7 +11576,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -11777,7 +11590,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -11789,23 +11602,22 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{097}
-TenderScreen
-TopRightButtons
+State:097
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"MILLER LITE"
 	"3.00"
 	"BLUE MOON"
@@ -11814,24 +11626,24 @@ ItemEntries
 	"3.00"
 	"HIGH LIFE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"10.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"10.00"
-Tenders
+/Tenders/
 	"CASH"
 	"10.00"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -11839,35 +11651,35 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{096}
-ReceiveTransfersScreen
+State:096
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tables"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-InputDialog
+/InputDialog/
 	"Enter table name"
 	"0"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -11881,23 +11693,22 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{095}
-TenderScreen
-TopRightButtons
+State:095
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"MILLER LITE"
 	"3.00"
@@ -11907,22 +11718,22 @@ ItemEntries
 	"3.00"
 	"HIGH LIFE"
 	"2.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"10.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.00"
 	"Total"
 	"10.00"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$10.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -11930,32 +11741,31 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{094}
-OrderScreen
-TopLeftButtons
+State:094
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
@@ -11965,11 +11775,11 @@ EntriesBySeat
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
 	"3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -11978,13 +11788,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CHOPPED\SALAD"
 	"CAESAR\SALAD"
 	"HOUSE\SALAD"
 	"CHICKEN\CAESAR"
 	"SOUP\OF DAY"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -11996,21 +11806,21 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{093}
-WWTScreen
+State:093
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -12025,24 +11835,23 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{092}
-OrderScreen
-TopLeftButtons
+State:092
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"MILLER LITE"
 	"3.00"
@@ -12052,11 +11861,11 @@ EntriesBySeat
 	"3.00"
 	"HIGH LIFE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -12065,12 +11874,12 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"MILLER\LITE"
 	"BLUE\MOON"
 	"CORONA"
 	"HIGH\LIFE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12082,24 +11891,23 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{091}
-OrderScreen
-TopLeftButtons
+State:091
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"MILLER LITE"
 	"3.00"
@@ -12107,11 +11915,11 @@ EntriesBySeat
 	"2.00"
 	"CORONA"
 	"3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -12120,12 +11928,12 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"MILLER\LITE"
 	"BLUE\MOON"
 	"CORONA"
 	"HIGH\LIFE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12137,34 +11945,33 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{090}
-OrderScreen
-TopLeftButtons
+State:090
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"MILLER LITE"
 	"3.00"
 	"BLUE MOON"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -12173,12 +11980,12 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"MILLER\LITE"
 	"BLUE\MOON"
 	"CORONA"
 	"HIGH\LIFE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12190,32 +11997,31 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{089}
-OrderScreen
-TopLeftButtons
+State:089
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"MILLER LITE"
 	"3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -12224,12 +12030,12 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"MILLER\LITE"
 	"BLUE\MOON"
 	"CORONA"
 	"HIGH\LIFE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12241,29 +12047,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{088}
-OrderScreen
-TopLeftButtons
+State:088
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
-Seats
+/EntriesBySeat/
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
 	[BEER]
@@ -12272,12 +12077,12 @@ CenterMenuButtons
 	[Combos]
 	[Burgers]
 	[Chicken & Fish]
-MenuOrModButtons
+/MenuOrModButtons/
 	"MILLER\LITE"
 	"BLUE\MOON"
 	"CORONA"
 	"HIGH\LIFE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12289,47 +12094,46 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{087}
-TenderScreen
-TopRightButtons
+State:087
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"CHIX SLD SAND\ FRIES"
 	"4.00"
 	"HAM SANDWICH\ FRIES"
 	"4.00"
 	"CALI CHIX WRAP\ FRIES"
 	"4.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"20.00"
-Taxes
+/Taxes/
 	"Tax"
 	"1.22"
 	"Total"
 	"21.22"
-Tenders
+/Tenders/
 	"CASH"
 	"21.22"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -12337,28 +12141,28 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{086}
-WWTScreen
+State:086
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -12373,45 +12177,44 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{085}
-TenderScreen
-TopRightButtons
+State:085
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"CHIX SLD SAND\ FRIES"
 	"4.00"
 	"HAM SANDWICH\ FRIES"
 	"4.00"
 	"CALI CHIX WRAP\ FRIES"
 	"4.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"20.00"
-Taxes
+/Taxes/
 	"Tax"
 	"1.22"
 	"Total"
 	"21.22"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$21.22"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -12419,32 +12222,31 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{084}
-OrderScreen
-TopLeftButtons
+State:084
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
@@ -12456,11 +12258,11 @@ EntriesBySeat
 	"4.00"
 	"CALI CHIX WRAP\ FRIES"
 	"4.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12469,13 +12271,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"BUFF CHIX\WRAP"
 	"VEGGIE\WRAP"
 	"CHIX SLD\SAND"
 	"HAM\SANDWICH"
 	"CALI CHIX\WRAP"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12487,24 +12289,23 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{083}
-OrderScreen
-TopLeftButtons
+State:083
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
@@ -12514,11 +12315,11 @@ EntriesBySeat
 	"4.00"
 	"HAM SANDWICH\ FRIES"
 	"4.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12527,13 +12328,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"BUFF CHIX\WRAP"
 	"VEGGIE\WRAP"
 	"CHIX SLD\SAND"
 	"HAM\SANDWICH"
 	"CALI CHIX\WRAP"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12545,24 +12346,23 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{082}
-OrderScreen
-TopLeftButtons
+State:082
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
@@ -12570,11 +12370,11 @@ EntriesBySeat
 	"4.00"
 	"CHIX SLD SAND\ FRIES"
 	"4.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12583,13 +12383,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"BUFF CHIX\WRAP"
 	"VEGGIE\WRAP"
 	"CHIX SLD\SAND"
 	"HAM\SANDWICH"
 	"CALI CHIX\WRAP"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12601,32 +12401,31 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{081}
-OrderScreen
-TopLeftButtons
+State:081
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12635,13 +12434,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CHOPPED\SALAD"
 	"CAESAR\SALAD"
 	"HOUSE\SALAD"
 	"CHICKEN\CAESAR"
 	"SOUP\OF DAY"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12653,34 +12452,33 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{080}
-OrderScreen
-TopLeftButtons
+State:080
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
 	"VEGGIE WRAP\ FRIES"
 	"4.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12689,13 +12487,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"BUFF CHIX\WRAP"
 	"VEGGIE\WRAP"
 	"CHIX SLD\SAND"
 	"HAM\SANDWICH"
 	"CALI CHIX\WRAP"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12707,21 +12505,21 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{079}
-WWTScreen
+State:079
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -12736,32 +12534,31 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{078}
-OrderScreen
-TopLeftButtons
+State:078
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12770,13 +12567,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"BUFF CHIX\WRAP"
 	"VEGGIE\WRAP"
 	"CHIX SLD\SAND"
 	"HAM\SANDWICH"
 	"CALI CHIX\WRAP"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12788,29 +12585,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{077}
-OrderScreen
-TopLeftButtons
+State:077
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
-Seats
+/EntriesBySeat/
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12819,13 +12615,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"BUFF CHIX\WRAP"
 	"VEGGIE\WRAP"
 	"CHIX SLD\SAND"
 	"HAM\SANDWICH"
 	"CALI CHIX\WRAP"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -12837,23 +12633,22 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{076}
-TenderScreen
-TopRightButtons
+State:076
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"CARROT CAKE"
 	"2.50"
@@ -12861,24 +12656,24 @@ ItemEntries
 	"2.50"
 	"CHEESECAKE"
 	"2.50"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"7.50"
-Taxes
+/Taxes/
 	"Tax"
 	"0.46"
 	"Total"
 	"7.96"
-Tenders
+/Tenders/
 	"CASH"
 	"7.96"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -12886,31 +12681,30 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{075}
-TenderScreen
-TopRightButtons
+State:075
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"CARROT CAKE"
 	"2.50"
@@ -12918,22 +12712,22 @@ ItemEntries
 	"2.50"
 	"CHEESECAKE"
 	"2.50"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"7.50"
-Taxes
+/Taxes/
 	"Tax"
 	"0.46"
 	"Total"
 	"7.96"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$7.96"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -12941,32 +12735,31 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{074}
-OrderScreen
-TopLeftButtons
+State:074
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CARROT CAKE"
 	"2.50"
@@ -12974,11 +12767,11 @@ EntriesBySeat
 	"2.50"
 	"CHEESECAKE"
 	"2.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -12987,11 +12780,11 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CARROT\CAKE"
 	"CHOCOLATE\CAKE"
 	"CHEESECAKE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -13003,34 +12796,33 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{073}
-OrderScreen
-TopLeftButtons
+State:073
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CARROT CAKE"
 	"2.50"
 	"CHOCOLATE CAKE"
 	"2.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -13039,11 +12831,11 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CARROT\CAKE"
 	"CHOCOLATE\CAKE"
 	"CHEESECAKE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -13055,48 +12847,47 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{072}
-ReceiveTransfersScreen
+State:072
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tables"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{071}
-OrderScreen
-TopLeftButtons
+State:071
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CARROT CAKE"
 	"2.50"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -13105,11 +12896,11 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CARROT\CAKE"
 	"CHOCOLATE\CAKE"
 	"CHEESECAKE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -13121,29 +12912,28 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{070}
-OrderScreen
-TopLeftButtons
+State:070
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
-Seats
+/EntriesBySeat/
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -13152,11 +12942,11 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CARROT\CAKE"
 	"CHOCOLATE\CAKE"
 	"CHEESECAKE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -13168,47 +12958,46 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{069}
-TenderScreen
-TopRightButtons
+State:069
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
 	"3.00"
 	"SOUP OF DAY\ CUP"
 	"3.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"21.00"
-Taxes
+/Taxes/
 	"Tax"
 	"1.28"
 	"Total"
 	"22.28"
-Tenders
+/Tenders/
 	"CASH"
 	"22.28"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -13216,53 +13005,52 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{068}
-TenderScreen
-TopRightButtons
+State:068
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
 	"3.00"
 	"SOUP OF DAY\ CUP"
 	"3.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"21.00"
-Taxes
+/Taxes/
 	"Tax"
 	"1.28"
 	"Total"
 	"22.28"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$22.28"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -13270,90 +13058,90 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{067}
-SplitCheckScreen
-SplitScreen
+State:067
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"WATER"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 2"
 	"Seat 2"
 	"COKE"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 3"
 	"Seat 3"
 	"DIET COKE"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 4"
 	"Seat 4"
 	"DIET 7UP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{066}
-SplitCheckScreen
-SplitScreen
+State:066
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 5"
 	"Seat 5"
 	"ICED TEA"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{065}
-SplitCheckScreen
-SplitScreen
+State:065
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"WATER"
 	"Seat 5"
 	"ICED TEA"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 2"
 	"Seat 2"
 	"COKE"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 3"
 	"Seat 3"
 	"DIET COKE"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 4"
 	"Seat 4"
 	"DIET 7UP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{064}
-SplitCheckScreen
-SplitScreen
+State:064
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"WATER"
@@ -13361,26 +13149,26 @@ CheckOrSeat
 	"DIET 7UP"
 	"Seat 5"
 	"ICED TEA"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 2"
 	"Seat 2"
 	"COKE"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 3"
 	"Seat 3"
 	"DIET COKE"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{063}
-SplitCheckScreen
-SplitScreen
+State:063
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"WATER"
@@ -13390,22 +13178,22 @@ CheckOrSeat
 	"DIET 7UP"
 	"Seat 5"
 	"ICED TEA"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 2"
 	"Seat 2"
 	"COKE"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{062}
-SplitCheckScreen
-SplitScreen
+State:062
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"WATER"
@@ -13419,35 +13207,35 @@ CheckOrSeat
 	"ICED TEA"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{061}
-SplitCheckScreen
-SplitScreen
+State:061
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 2"
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{060}
-SplitCheckScreen
-SplitScreen
+State:060
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
@@ -13455,71 +13243,71 @@ CheckOrSeat
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{059}
-SplitSeatScreen
-SplitScreen
+State:059
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{058}
-SplitSeatScreen
-SplitScreen
+State:058
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{057}
-SplitCheckScreen
-SplitScreen
+State:057
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"COKE"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 2"
 	"Seat 2"
 	"7 UP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{056}
-SplitCheckScreen
-SplitScreen
+State:056
+/SplitCheckScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"Check 1"
 	"Seat 1"
 	"COKE"
@@ -13527,28 +13315,28 @@ CheckOrSeat
 	"7 UP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split seat]
 	[Close]
-{055}
-WWTScreen
+State:055
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Descending]
-EnterTabNameKeyboard
+/EnterTabNameKeyboard/
 	?j1?
 	[1]
 	[2]
@@ -13595,11 +13383,11 @@ EnterTabNameKeyboard
 	[⌫]
 	[Ok]
 	[btnHideOrShowKeyboard]
-InputDialog
+/InputDialog/
 	"Enter Guest Count"
 	"1"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -13613,28 +13401,28 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{054}
-ReceiveTransfersScreen
+State:054
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tables"
-ExistingTables
+/ExistingTables/
 	"2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-InputDialog
+/InputDialog/
 	"Enter table name"
 	"0"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -13648,25 +13436,24 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{053}
-OrderScreen
-TopLeftButtons
+State:053
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat*]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"SJ 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
-CenterMenuButtons
+/EntriesBySeat/
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -13675,7 +13462,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -13689,7 +13476,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -13701,24 +13488,23 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{052}
-OrderScreen
-TopLeftButtons
+State:052
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
@@ -13730,11 +13516,11 @@ EntriesBySeat
 	"3.00"
 	"SOUP OF DAY\ CUP"
 	"3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -13743,13 +13529,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CHOPPED\SALAD"
 	"CAESAR\SALAD"
 	"HOUSE\SALAD"
 	"CHICKEN\CAESAR"
 	"SOUP\OF DAY"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -13761,27 +13547,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{051}
-ReceiveTransfersScreen
+State:051
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tables"
-ExistingTables
+/ExistingTables/
 	"2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-KeyboardEntryDialog
+/KeyboardEntryDialog/
 	"Enter tab name"
 	""
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -13827,39 +13613,39 @@ DialogSeparator
 	[⌫]
 	[Ok*]
 	[X]
-{050}
-ReceiveTransfersScreen
+State:050
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tabs"
-ExistingTables
+/ExistingTables/
 	"j1"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{049}
-WWTScreen
+State:049
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"2"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -13874,24 +13660,23 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{048}
-OrderScreen
-TopLeftButtons
+State:048
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
@@ -13899,11 +13684,11 @@ EntriesBySeat
 	"3.00\3.00"
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -13912,13 +13697,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CHOPPED\SALAD"
 	"CAESAR\SALAD"
 	"HOUSE\SALAD"
 	"CHICKEN\CAESAR"
 	"SOUP\OF DAY"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -13930,39 +13715,39 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{047}
-ReceiveTransfersScreen
+State:047
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tabs"
-ExistingTables
+/ExistingTables/
 	"j1"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{046}
-WWTScreen
+State:046
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -13977,21 +13762,21 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{045}
-WWTScreen
+State:045
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTabNameKeyboard
+/EnterTabNameKeyboard/
 	?j1?
 	[1]
 	[2]
@@ -14038,11 +13823,11 @@ EnterTabNameKeyboard
 	[⌫]
 	[Ok]
 	[btnHideOrShowKeyboard]
-InputDialog
+/InputDialog/
 	"Enter Guest Count"
 	"1"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -14056,21 +13841,21 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{044}
-WWTScreen
+State:044
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTabNameKeyboard
+/EnterTabNameKeyboard/
 	??
 	[1]
 	[2]
@@ -14117,34 +13902,33 @@ EnterTabNameKeyboard
 	[⌫]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{043}
-OrderScreen
-TopLeftButtons
+State:043
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
 	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -14153,13 +13937,13 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"CHOPPED\SALAD"
 	"CAESAR\SALAD"
 	"HOUSE\SALAD"
 	"CHICKEN\CAESAR"
 	"SOUP\OF DAY"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -14171,27 +13955,27 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{042}
-ReceiveTransfersScreen
+State:042
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tabs"
-ExistingTables
+/ExistingTables/
 	"j2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-KeyboardEntryDialog
+/KeyboardEntryDialog/
 	"Enter tab name"
 	""
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -14237,28 +14021,28 @@ DialogSeparator
 	[⌫]
 	[Ok*]
 	[X]
-{041}
-ReceiveTransfersScreen
+State:041
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tabs"
-ExistingTables
+/ExistingTables/
 	"j2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-InputDialog
+/InputDialog/
 	"Enter table name"
 	"0"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -14272,38 +14056,38 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{040}
-ReceiveTransfersScreen
+State:040
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tabs"
-ExistingTables
+/ExistingTables/
 	"j2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{039}
-WWTScreen
+State:039
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j2"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -14318,104 +14102,103 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{038}
-WWTScreen
+State:038
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
-{037}
-ReceiveTransfersScreen
+State:037
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tabs"
-ExistingTables
+/ExistingTables/
 	"j2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{036}
-WWTScreen
+State:036
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Back]
-BottomRightButtons
+/BottomRightButtons/
 	[Show\Open Time]
 	[Sorted by\Tab Names]
 	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
-{035}
-SplitSeatScreen
-SplitScreen
+State:035
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"COKE"
 	"7 UP"
 	"ICED COFFEE"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{034}
-OrderScreen
-TopLeftButtons
+State:034
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	"11.99"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -14424,7 +14207,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -14434,7 +14217,7 @@ MenuOrModButtons
 	"RIBEYE"
 	"BUFFET"
 	"PORK\CHOP MODS"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -14446,92 +14229,90 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{033}
-ReceiveTransfersScreen
+State:033
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"j1"
 	"List of existing owned tables"
-ExistingTables
+/ExistingTables/
 	"2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{032}
-TransferTableScreen
+State:032
+/TransferTableScreen/
 	[btnWaiter]
 	"JEFFREY OYENEYE"
 	[OK*]
 	[Cancel]
-TransferFromEmployees
+/TransferFromEmployees/
 	"Select employee to transfer from"
-*
 	"JEFFREY OYENEYE"
-TransferTables
+/TransferTables/
 	"Select table you wish to transfer"
 	"Select tab you wish to transfer"
-ReceiveEmployees
+/ReceiveEmployees/
 	"Select employee to receive transfer"
-*
 	"LEBRON JAMES"
 	"VLADIMIR PALOCKO"
 	"JEFFREY OYENEYE"
 	"MIGUEL SAAVEDRA"
 	"JIRKA MALINA"
 	"SAMEUL L. JACKSON"
-{031}
-WWTScreen
+State:031
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"2"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{030}
-WWTScreen
+State:030
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{029}
-WWTScreen
+State:029
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
-EnterTabNameKeyboard
+/EnterTabNameKeyboard/
 	?j1?
 	[1]
 	[2]
@@ -14578,11 +14359,11 @@ EnterTabNameKeyboard
 	[⌫]
 	[Ok]
 	[btnHideOrShowKeyboard]
-InputDialog
+/InputDialog/
 	"Enter Guest Count"
 	"1"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -14596,21 +14377,21 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{028}
-WWTScreen
+State:028
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"2"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -14625,40 +14406,40 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{027}
-ReceiveTransfersScreen
+State:027
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tables"
-ExistingTables
+/ExistingTables/
 	"2"
-RightCommands
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{026}
-WWTScreen
+State:026
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j2"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
 	[btnHideOrShowKeyboard]
-{025}
-FloorPlanScreen*
+State:025
+/FloorPlanScreen*/
 	[7]
 	[WWT\Screen]
 	[1]
@@ -14675,11 +14456,11 @@ FloorPlanScreen*
 	[Open\Drawer]
 	[6]
 	[Get\Check]
-InputDialog
+/InputDialog/
 	"Enter Guest Count"
 	"1"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -14693,55 +14474,52 @@ DialogSeparator
 	[0]
 	[OK]
 	[X]
-{024}
-TransferTableScreen
+State:024
+/TransferTableScreen/
 	[btnWaiter]
 	"JEFFREY OYENEYE"
 	[OK*]
 	[Cancel]
-TransferFromEmployees
+/TransferFromEmployees/
 	"Select employee to transfer from"
-*
 	"JEFFREY OYENEYE"
-TransferTables
+/TransferTables/
 	"Select table you wish to transfer"
 	"Select tab you wish to transfer"
 	"j1"
-ReceiveEmployees
+/ReceiveEmployees/
 	"Select employee to receive transfer"
-*
 	"LEBRON JAMES"
 	"VLADIMIR PALOCKO"
 	"JEFFREY OYENEYE"
 	"MIGUEL SAAVEDRA"
 	"JIRKA MALINA"
 	"SAMEUL L. JACKSON"
-{023}
-OrderScreen
-TopLeftButtons
+State:023
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -14750,7 +14528,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -14764,7 +14542,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -14776,39 +14554,38 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ItemSelectionDialog
+/ItemSelectionDialog/
 	"Select items to void"
-DialogSeparator
-	(SELECT ALL)
+/DialogSeparator/
+	^SELECT ALL^
 	"SELECT ALL"
-Items_Container
-*
-Items
+/Items_Container/
+/Items/
 	"Seat 1"
-	(COKE)
+	^COKE^
 	"COKE"
 	"2.00"
 	[Cancel]
 	[OK]
-{022}
-ReceiveTransfersScreen
+State:022
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-KeyboardEntryDialog
+/KeyboardEntryDialog/
 	"Enter tab name"
 	""
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -14854,21 +14631,21 @@ DialogSeparator
 	[⌫]
 	[Ok*]
 	[X]
-{021}
-WWTScreen
+State:021
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	"j1"
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -14883,55 +14660,52 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{020}
-TransferTableScreen
+State:020
+/TransferTableScreen/
 	[btnWaiter]
 	"JEFFREY OYENEYE"
 	[OK]
 	[Cancel]
-TransferFromEmployees
+/TransferFromEmployees/
 	"Select employee to transfer from"
-*
 	"JEFFREY OYENEYE"
-TransferTables
+/TransferTables/
 	"Select table you wish to transfer"
 	"Select tab you wish to transfer"
 	"j1"
-ReceiveEmployees
+/ReceiveEmployees/
 	"Select employee to receive transfer"
-*
 	"LEBRON JAMES"
 	"VLADIMIR PALOCKO"
 	"JEFFREY OYENEYE"
 	"MIGUEL SAAVEDRA"
 	"JIRKA MALINA"
 	"SAMEUL L. JACKSON"
-{019}
-OrderScreen
-TopLeftButtons
+State:019
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
+/TopRightButtons/
 	[HERE]
 	[TO GO]
 	[DON'T MAKE]
-TableAndChecks
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
 	"2.00"
-Seats
+/Seats/
 	[T]
 	[1]
 	[+]
-CenterMenuButtons
+/CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
 	[APPS]
@@ -14940,7 +14714,7 @@ CenterMenuButtons
 	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-MenuOrModButtons
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -14954,7 +14728,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -14966,65 +14740,64 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-ItemSelectionDialog
+/ItemSelectionDialog/
 	"Select items to void"
-DialogSeparator
-	(SELECT ALL)
+/DialogSeparator/
+	^SELECT ALL^
 	"SELECT ALL"
-Items_Container
-*
-Items
+/Items_Container/
+/Items/
 	"Seat 1"
-	(COKE)
+	^COKE^
 	"COKE"
 	"2.00"
 	[Cancel]
 	[OK*]
-{018}
-ReceiveTransfersScreen
+State:018
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tables"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{017}
-ReceiveTransfersScreen
+State:017
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
 	"List of existing owned tables"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[Merge Table]
 	[Cancel]
-{016}
-WWTScreen
+State:016
+/WWTScreen/
 	"MIGUEL"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
+/Tables/
 	"1"
-TopRightButtons
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Balance Inquiry*]
 	[Back]
-EnterTableNumberNumpad
+/EnterTableNumberNumpad/
 	??
 	[1]
 	[2]
@@ -15039,123 +14812,119 @@ EnterTableNumberNumpad
 	[0]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{015}
-ReceiveTransfersScreen
+State:015
+/ReceiveTransfersScreen/
 	"LEBRON JAMES"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[Merge Table]
 	[Cancel]
-{014}
-ReceiveTransfersScreen
+State:014
+/ReceiveTransfersScreen/
 	"LEBRON JAMES"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[Cancel]
-{013}
-ReceiveTransfersScreen
+State:013
+/ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
 	"Transfers"
 	"List of incoming transfers"
-IncomingTables
+/IncomingTables/
 	"1"
-ExistingTables
-RightCommands
+/ExistingTables/
+/RightCommands/
 	[OK]
 	[New Table]
 	[New Tab]
 	[Merge Table]
 	[Merge Tab]
 	[Cancel]
-{012}
-TransferTableScreen
+State:012
+/TransferTableScreen/
 	[btnWaiter]
 	"JEFFREY OYENEYE"
 	[OK]
 	[Cancel]
-TransferFromEmployees
+/TransferFromEmployees/
 	"Select employee to transfer from"
-*
 	"JEFFREY OYENEYE"
-TransferTables
+/TransferTables/
 	"Select table you wish to transfer"
 	"1"
 	"Select tab you wish to transfer"
-ReceiveEmployees
+/ReceiveEmployees/
 	"Select employee to receive transfer"
-*
 	"LEBRON JAMES"
 	"VLADIMIR PALOCKO"
 	"JEFFREY OYENEYE"
 	"MIGUEL SAAVEDRA"
 	"JIRKA MALINA"
 	"SAMEUL L. JACKSON"
-{011}
-TransferTableScreen
+State:011
+/TransferTableScreen/
 	[btnWaiter]
 	"JEFFREY OYENEYE"
 	[OK*]
 	[Cancel]
-TransferFromEmployees
+/TransferFromEmployees/
 	"Select employee to transfer from"
-*
 	"JEFFREY OYENEYE"
-TransferTables
+/TransferTables/
 	"Select table you wish to transfer"
 	"1"
 	"Select tab you wish to transfer"
-ReceiveEmployees
+/ReceiveEmployees/
 	"Select employee to receive transfer"
-*
 	"LEBRON JAMES"
 	"VLADIMIR PALOCKO"
 	"JEFFREY OYENEYE"
 	"MIGUEL SAAVEDRA"
 	"JIRKA MALINA"
 	"SAMEUL L. JACKSON"
-{010}
-SplitSeatScreen
-SplitScreen
+State:010
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"COKE"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 2"
 	"7 UP"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{009}
-WWTScreen
+State:009
+/WWTScreen/
 	"JEFFREY"
 	[btnSetTabEntry]
-Tabs
+/Tabs/
 	[btnSetTableEntry]
-Tables
-TopRightButtons
+/Tables/
+/TopRightButtons/
 	[Exit]
 	[Get Check]
 	[Transfer Table]
 	[Show Open Times]
 	[Back]
-EnterTabNameKeyboard
+/EnterTabNameKeyboard/
 	??
 	[1]
 	[2]
@@ -15202,69 +14971,69 @@ EnterTabNameKeyboard
 	[⌫]
 	[Ok]
 	[btnHideOrShowKeyboard]
-{008}
-SplitSeatScreen
-SplitScreen
+State:008
+/SplitSeatScreen/
+/SplitScreen/
 	"Table 1"
-CheckOrSeat
+/CheckOrSeat/
 	"For Table"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 1"
 	"ICED COFFEE"
-CheckOrSeat
+/CheckOrSeat/
 	"Seat 2"
 	"7 UP"
 	"COKE"
 	[<]
 	[>]
-BottomCenterButtons
+/BottomCenterButtons/
 	[Combine]
 	[Add]
 	[Split check]
 	[Close]
-{007}
-PizzaModifierScreen
-GroupOneButtons
+State:007
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Sausage"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-KeyboardEntryDialog
+/KeyboardEntryDialog/
 	"Enter special message"
 	""
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
@@ -15308,233 +15077,232 @@ DialogSeparator
 	[⌫]
 	[Ok*]
 	[X]
-{006}
-PizzaModifierScreen
-GroupOneButtons
+State:006
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"10.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Sausage"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{005}
-PizzaModifierScreen
-GroupOneButtons
+State:005
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" Chicken"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{004}
-PizzaModifierScreen
-GroupOneButtons
+State:004
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" Pan"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{003}
-PizzaModifierScreen
-GroupOneButtons
+State:003
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"5.00"
-Items
+/Items/
 	" Large"
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{002}
-PizzaModifierScreen
-GroupOneButtons
+State:002
+/PizzaModifierScreen/
+/GroupOneButtons/
 	"Pizza Size"
 	[Small]
 	[Medium]
 	[Large]
-GroupTwoButtons
+/GroupTwoButtons/
 	"Pizza Crust"
 	[Thin]
 	[Chicago Style]
 	[Pan]
-ModCodeButtons
+/ModCodeButtons/
 	[Add]
 	[No]
-AdditionalModGroupButtons
+/AdditionalModGroupButtons/
 	[Pizza Toppings]
-PizzaPortionButtons
+/PizzaPortionButtons/
 	[Whole]
 	[Left]
 	[Right]
 	"Sausage Pizza"
 	"5.00"
-Items
+/Items/
 	" 1/2"
 	" 1/2"
-CenterModButtons
+/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
-BottomCenterButtons
+/BottomCenterButtons/
 	[OK]
 	[Cancel]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
 	[btnMessage]
-{001}
-TenderScreen
-TopRightButtons
+State:001
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
 	"Seat 1"
 	"BUFFET (0.75 llbs)"
 	"3.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"3.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.18"
 	"Total"
 	"3.18"
-Tenders
+/Tenders/
 	"CASH"
 	"3.18"
 	"Change"
 	"$0.00"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -15542,11 +15310,11 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
