@@ -142,3 +142,43 @@ Scenario: 3 Order Pork Chop Mods
 #Action: 19 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
+
+Scenario: 4 Order [DON'T MAKE] with sellection from list
+#Action: 1 Login as manager 200
+			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			When clicked [2],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 2 Floor Plan select Table 1
+			Given screen state: 558
+			Then clicked [1]
+#Action: 3 Enter Guest Count 1
+			Given screen state: 025
+			When clicked /DialogSeparator/,[1]
+			And clicked /DialogSeparator/,[OK]
+			Then verify absence of "Enter Guest Count"
+#Action: 4 Add two COKEs and three 7 UPs
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked "COKE", "COKE", "7 UP","7 UP","7 UP"
+#Action: 5 Click [DON'T MAKE]
+			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","COKE.2","2.00.2","7 UP","2.00.3","7 UP.2","2.00.4","7 UP.3","2.00.5",
+			Then clicked /TopRightButtons/,[DON'T MAKE]
+#Action: 6 Select second COKE by CheckMakrk and third 7 UP by label
+			Then verify presence of /Items/,"Check 1",^COKE^,"COKE",^COKE.2^,"COKE.2",^7 UP^,"7 UP",^7 UP.2^,"7 UP.2",^7 UP.3^,"7 UP.3"
+			Then clicked /Items/,^COKE.2^,"7 UP.3"
+#Action: 7 Select OK on "Select items to order" Screen
+			#TODO we need new functionality to see if check mark is actually checked.
+			Then verify presence of /ItemSelectionDialog/,"Select items to order"
+			Then clicked /Items/,[OK]
+#Action: 8 Select $ on Payment Screen
+			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","!!! COKE","2.00.2","7 UP","2.00.3","7 UP.2","2.00.4","!!! 7 UP","2.00.5"
+			Then clicked [$]
+#Action: 9 Exact Payment
+			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.00","Service Charge","0.40","Total","10.40",/Tenders/,"Balance Due","$10.40"
+			Then clicked [Exact]
+#Action: 10 Close Check
+			Then verify presence of /Tenders/,"Change","$0.00"
+			Then clicked /MidButtons/,[Close]
+#Action: 11 Exit FloorPlan
+			Given screen state: 558
+			When clicked [Exit]
