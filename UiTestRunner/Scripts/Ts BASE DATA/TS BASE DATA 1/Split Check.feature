@@ -28,31 +28,40 @@ Scenario: 1 Verify that you can split checks with unordered items using the �S
 #Action: 7 Select "7Up"
 			Given screen state: 056
 			Then clicked "7 UP"
-#Action: 8 Add Check
+#Action: 8 Tap 'Add' to move 7UP to new Check 2
 			Given screen state: 056
 			Then clicked [Add]
-#Action: 9 Add Check
+#Action: 9 Tap 'Add' to create Check 3
 			Given screen state: 057
+			Then clicked [Add]
+#Action: 10 Select "COKE"
+			Given screen state: 243
+			Then clicked "COKE"
+#Action: 11 Tap 'Check 3' area to move All Seat 1 Items to Check 3
+			Given screen state: 243
+			Then clicked /CheckOrSeat.3/
+#Action: 12 Close Add Check Screen
+			Given screen state: 244
 			Then clicked [Close]
-#Action: 10 Apply HERE Ordermode
+#Action: 13 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 2","7 UP","2.00"
 			Then clicked [HERE]
-#Action: 11 Select $ on Payment Screen
+#Action: 14 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 2","7 UP","2.00"
 			Then clicked [$]
-#Action: 12 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
+#Action: 15 Exact Payment
+			Then verify presence of /ItemEntries/,"Seat 2","7 UP","2.00",
 			Then clicked [Exact]
-#Action: 13 Click Close
-			Then verify presence of /ItemEntries/,"COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
+#Action: 16 Click Close
+			Then verify presence of /Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
-#Action: 14 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 2","7 UP","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
+#Action: 17 Exact Payment
+			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00"
 			Then clicked [Exact]
-#Action: 15 Click Close
-			Then verify presence of /ItemEntries/,"Seat 2","7 UP","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
+#Action: 18 Click Close
+			Then verify presence of /Tenders/,"CASH","2.00","Change","$0.00",
 			Then clicked /MidButtons/,[Close]
-#Action: 16 Exit FloorPlan
+#Action: 19 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 

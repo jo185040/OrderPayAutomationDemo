@@ -15,37 +15,34 @@ Scenario: 1 Login as manager 200 to Floor Plan
 			When clicked /DialogSeparator/,[1]
 			And clicked /DialogSeparator/,[OK]
 			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
+#Action: 4 Add COKE,7Up,CORONA to default Seat 1
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
-#Action: 5 Add 7Up
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "7 UP"
-#Action: 6 Add Check
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked "COKE","7 UP","CORONA"
+#Action: 5 Open Split Seat screen
+			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","7 UP","CORONA"
 			Then clicked /TopLeftButtons/,[Split Seat]
-#Action: 7 Select "7Up"
+#Action: 6 Select "7Up"
 			Given screen state: 101
 			Then clicked "7 UP"
-#Action: 8 Add Check
+#Action: 7 Click 'Add' to move 7Up to new Seat 2
 			Given screen state: 101
 			Then clicked [Add]
-#Action: 9 Add Check
-			Given screen state: 010
+#Action: 8 Close Split Seat Screen
+			Given screen state: 245
 			Then clicked [Close]
-#Action: 10 Apply HERE Ordermode
+#Action: 9 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
-#Action: 11 Select $ on Payment Screen
+#Action: 10 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [$]
-#Action: 12 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","Seat 2","7 UP","2.00",/Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.00","Total","4.00",/Tenders/,"Balance Due","$4.00"
+#Action: 11 Exact Payment
+			Then verify presence of /Taxes/,"Tax","0.00","Total","7.00",/Tenders/,"Balance Due","$7.00",
 			Then clicked [Exact]
-#Action: 13 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","Seat 2","7 UP","2.00",/Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.00","Total","4.00",/Tenders/,"CASH","4.00","Change","$0.00"
+#Action: 12 Click Close
+			Then verify presence of /Tenders/,"CASH","7.00","Change","$0.00",
 			Then clicked /MidButtons/,[Close]
-#Action: 14 Exit FloorPlan
+#Action: 13 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 
