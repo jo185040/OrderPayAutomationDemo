@@ -7,12 +7,12 @@ State:576
 	[5]
 	[4]
 	[Detach\Tables]
-	[1]
+	[1.2]
 	[Combine\Tables]
 	[Adjust\Tips]
 	[8]
 	[BAR]
-	[1]
+	[1.3]
 	[Open\Drawer]
 	[6]
 	[Get\Check]
@@ -43,12 +43,12 @@ State:575
 	[5]
 	[4]
 	[Detach\Tables]
-	[1]
+	[1.2]
 	[Combine\Tables]
 	[Adjust\Tips]
 	[8]
 	[BAR]
-	[1]
+	[1.3]
 	[Open\Drawer]
 	[6]
 	[Get\Check]
@@ -1003,6 +1003,132 @@ State:258
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:245
+/SplitSeatScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"For Table"
+/CheckOrSeat.2/
+	"Seat 1"
+	"COKE"
+	"CORONA"
+/CheckOrSeat.3/
+	"Seat 2"
+	"7 UP"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split check]
+	[Close]
+State:244
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"Check 1"
+/CheckOrSeat.2/
+	"Check 2"
+	"Seat 2"
+	"7 UP"
+/CheckOrSeat.3/
+	"Check 3"
+	"Seat 1"
+	"COKE"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:243
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"COKE"
+/CheckOrSeat.2/
+	"Check 2"
+	"Seat 2"
+	"7 UP"
+/CheckOrSeat.3/
+	"Check 3"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:242
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"Check 1"
+/CheckOrSeat.2/
+	"Check 2"
+	"Seat 2"
+	"7 UP"
+/CheckOrSeat.3/
+	"Check 3"
+	"Seat 1"
+	"COKE"
+	"CORONA"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:241
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"COKE"
+	"CORONA"
+/CheckOrSeat.2/
+	"Check 2"
+	"Seat 2"
+	"7 UP"
+/CheckOrSeat.3/
+	"Check 3"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:240
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"COKE"
+	"CORONA"
+/CheckOrSeat.2/
+	"Check 2"
+	"Seat 2"
+	"7 UP"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
 State:239
 /TenderScreen/
 /TopRightButtons/
@@ -11415,10 +11541,11 @@ State:101
 	"Table 1"
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"COKE"
 	"7 UP"
+	"CORONA"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -13292,7 +13419,7 @@ State:057
 	"Check 1"
 	"Seat 1"
 	"COKE"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
 	"Seat 2"
 	"7 UP"
@@ -14160,7 +14287,7 @@ State:035
 	"Table 1"
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"COKE"
 	"7 UP"
@@ -14898,10 +15025,10 @@ State:010
 	"Table 1"
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"COKE"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Seat 2"
 	"7 UP"
 	[<]
@@ -14977,10 +15104,10 @@ State:008
 	"Table 1"
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"ICED COFFEE"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Seat 2"
 	"7 UP"
 	"COKE"

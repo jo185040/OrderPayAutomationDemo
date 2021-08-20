@@ -10,7 +10,7 @@ Scenario: 1 Initialize {T}=a {N}=0
 
 Scenario: 2 Add one Tab with variable name: {N}{T} and increment {T}
 #Action: 1 Login as manager 200
-			Given screen state: [Login*]
+			Then verify presence of [Login*]
 			When clicked [2],[0],[0]
 			Then verify presence of [Login]
 			And clicked [Login]

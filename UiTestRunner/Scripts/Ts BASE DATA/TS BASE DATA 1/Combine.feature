@@ -14,7 +14,7 @@ Scenario: 1 Combine Tables
 			Then clicked [Combine\Tables]
 #Action: 3 Floor Plan select Table 1
 			Given screen state: 575
-			Then clicked /FloorPlanScreen/,[1(index 1)]
+			Then clicked /FloorPlanScreen/,[1]
 #Action: 4 Enter Guest Count 1
 			Given screen state: 576
 			When clicked /DialogSeparator/,[1]
@@ -44,7 +44,7 @@ Scenario: 1 Combine Tables
 #Action: 12 Detach Table 1
 			Given screen state: 575
 			Then clicked [Detach\Tables]
-			Then clicked /FloorPlanScreen/,[1(index 1)],[1(index 2)],[1(index 3)]
+			Then clicked /FloorPlanScreen/,[1],[1.2],[1.3]
 			Then clicked [Detach\Tables]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
