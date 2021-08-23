@@ -390,10 +390,10 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			Then verify presence of /ItemEntries/,"Cheese Pizza\ Large\ Pan\ Chicken\ Cheese","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"CASH","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
+			#TODO ALOHAP-32783 cannot move items via split seat
 			Given screen state: 558
 			When clicked [Exit]
 
-#TODO ALOHAP-32783 cannot move items via split seat
 Scenario: 8 Verify you add a pizza to a split check
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]

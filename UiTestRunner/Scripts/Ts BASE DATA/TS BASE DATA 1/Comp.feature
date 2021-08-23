@@ -43,8 +43,8 @@ Scenario: 1 Manager Comp
 			Then verify presence of /MidLeftButtons/,[MGR COMP],[OPEN $$],[EMP MEAL]
 			Then clicked /MidLeftButtons/,[MGR COMP]
 #Action: 13 Select BBQ Ribs on Comp Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items to comp",/Items/,"Seat 1",^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
-			Then clicked /Items/,^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
+			Given screen state: 248
+			Then clicked /Items/,^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
 #Action: 14 Select OK
 			Then verify presence of /ItemSelectionDialog/,"Select items to comp",/Items/,"Seat 1",^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
 			Then clicked /Items/,[OK]
