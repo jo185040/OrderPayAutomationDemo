@@ -1381,7 +1381,7 @@ State:238
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -1436,7 +1436,7 @@ State:237
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -1473,13 +1473,18 @@ State:237
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"BBQ RIBS"
 	"11.99"
+/Modifer.2/
 	" - NO FULL RACK"
+/Modifer.3/
 	" - 1/2 RACK"
+/Modifer.4/
 	" - 1/2 RACK"
+/Modifer.5/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
@@ -1494,25 +1499,25 @@ State:237
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[*]
+	[*.2]
 	[HOUSE\SALAD]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -1541,7 +1546,7 @@ State:236
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -1578,12 +1583,16 @@ State:236
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"BBQ RIBS"
 	"11.99"
+/Modifer.2/
 	" - NO FULL RACK"
+/Modifer.3/
 	" - 1/2 RACK"
+/Modifer.4/
 	" - 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -1600,23 +1609,23 @@ State:236
 	[*]
 	[BUFFET]
 	[No Starch]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -1645,7 +1654,7 @@ State:235
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -1682,11 +1691,14 @@ State:235
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"BBQ RIBS"
 	"11.99"
+/Modifer.2/
 	" - NO FULL RACK"
+/Modifer.3/
 	" - 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -1701,25 +1713,25 @@ State:235
 /RightModifierButtons/
 	[1/2 RACK]
 	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
 	[FULL RACK]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -1748,7 +1760,7 @@ State:234
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -1785,10 +1797,12 @@ State:234
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"BBQ RIBS"
 	"11.99"
+/Modifer.2/
 	" - NO FULL RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -1803,25 +1817,25 @@ State:234
 /RightModifierButtons/
 	[1/2 RACK]
 	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
 	[FULL RACK]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5069,7 +5083,7 @@ State:189
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5113,15 +5127,22 @@ State:189
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Burrito Persona"
 	"11.00"
+/Modifer.2/
 	" - Chili Rice"
+/Modifer.3/
 	" - Chili Rice"
+/Modifer.4/
 	" - White Beans"
+/Modifer.5/
 	" - Chicken"
+/Modifer.6/
 	" - Chicken"
+/Modifer.7/
 	" - Verde"
 /CenterCategoryButtons/
 	[Burrito Rice R]
@@ -5140,7 +5161,7 @@ State:189
 	[*]
 	[Corn]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5169,7 +5190,7 @@ State:188
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5213,14 +5234,20 @@ State:188
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Burrito Persona"
 	"11.00"
+/Modifer.2/
 	" - Chili Rice"
+/Modifer.3/
 	" - Chili Rice"
+/Modifer.4/
 	" - White Beans"
+/Modifer.5/
 	" - Chicken"
+/Modifer.6/
 	" - Chicken"
 /CenterCategoryButtons/
 	[Burrito Rice R]
@@ -5239,7 +5266,7 @@ State:188
 	[*]
 	[Chipotle]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5268,7 +5295,7 @@ State:187
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5312,12 +5339,16 @@ State:187
 	"(Optional modifiers, but no more than 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Burrito Persona"
 	"11.00"
+/Modifer.2/
 	" - Chili Rice"
+/Modifer.3/
 	" - Chili Rice"
+/Modifer.4/
 	" - White Beans"
 /CenterCategoryButtons/
 	[Burrito Rice R]
@@ -5334,7 +5365,7 @@ State:187
 /RightModifierButtons/
 	[Chicken]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5363,7 +5394,7 @@ State:186
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5407,11 +5438,14 @@ State:186
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Burrito Persona"
 	"11.00"
+/Modifer.2/
 	" - Chili Rice"
+/Modifer.3/
 	" - Chili Rice"
 /CenterCategoryButtons/
 	[Burrito Rice R]
@@ -5428,7 +5462,7 @@ State:186
 /RightModifierButtons/
 	[White Beans]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5499,7 +5533,7 @@ State:184
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5543,8 +5577,9 @@ State:184
 	"(Optional unlimited modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Burrito Persona"
 	"11.00"
 /CenterCategoryButtons/
@@ -5562,7 +5597,7 @@ State:184
 /RightModifierButtons/
 	[Chili Rice]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5639,7 +5674,7 @@ State:182
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5683,8 +5718,9 @@ State:182
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Chive Spread"
 /CenterCategoryButtons/
 	[Spread Light T]
@@ -5701,13 +5737,13 @@ State:182
 	[CHEDDAR]
 	[GOUDA]
 	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
 	[TOMATO]
 	[MUSHROOM]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5742,7 +5778,7 @@ State:181
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5786,8 +5822,9 @@ State:181
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Chive Spread"
 /CenterCategoryButtons/
 	[Spread Light T]
@@ -5804,13 +5841,13 @@ State:181
 	[CHEDDAR]
 	[GOUDA]
 	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
 	[TOMATO]
 	[MUSHROOM]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5839,7 +5876,7 @@ State:180
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5883,10 +5920,12 @@ State:180
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Bread"
 	"1.99"
+/Modifer.2/
 	" - Garlic Spread"
 /CenterCategoryButtons/
 	[Breads Spreads]
@@ -5901,7 +5940,7 @@ State:180
 	[*]
 	[Chive Spread]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -5930,7 +5969,7 @@ State:179
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5974,8 +6013,9 @@ State:179
 	"(Optional unlimited modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Garlic Spread"
 /CenterCategoryButtons/
 	[Spread Toppings]
@@ -5995,7 +6035,7 @@ State:179
 	[TOMATO]
 	[MUSHROOM]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6024,7 +6064,7 @@ State:178
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -6068,8 +6108,9 @@ State:178
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Bread"
 	"1.99"
 /CenterCategoryButtons/
@@ -6085,7 +6126,7 @@ State:178
 	[*]
 	[Chive Spread]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6114,7 +6155,7 @@ State:177
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6151,13 +6192,18 @@ State:177
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"RIBEYE"
 	"11.99"
+/Modifer.2/
 	" - BLACK & BLUE"
+/Modifer.3/
 	" - Baked Potato"
+/Modifer.4/
 	" - CAESAR SALAD"
+/Modifer.5/
 	" -  - ADD CHICKEN"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -6174,24 +6220,24 @@ State:177
 	[MEDIUM\WELL]
 	[*]
 	[MEDIUM]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[MED RARE]
-	[*]
+	[*.14]
 	[RARE]
 	[WELL]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6220,7 +6266,7 @@ State:176
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6257,8 +6303,9 @@ State:176
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"CAESAR SALAD"
 /CenterCategoryButtons/
 	[ADD CHICKEN]
@@ -6271,7 +6318,7 @@ State:176
 /RightModifierButtons/
 	[ADD\CHICKEN]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6300,7 +6347,7 @@ State:175
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6337,11 +6384,14 @@ State:175
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"RIBEYE"
 	"11.99"
+/Modifer.2/
 	" - BLACK & BLUE"
+/Modifer.3/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -6356,25 +6406,25 @@ State:175
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[*]
+	[*.2]
 	[HOUSE\SALAD]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6445,7 +6495,7 @@ State:173
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6482,10 +6532,12 @@ State:173
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"RIBEYE"
 	"11.99"
+/Modifer.2/
 	" - BLACK & BLUE"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -6502,23 +6554,23 @@ State:173
 	[*]
 	[BUFFET]
 	[No Starch]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6547,7 +6599,7 @@ State:172
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6584,8 +6636,9 @@ State:172
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"RIBEYE"
 	"11.99"
 /CenterCategoryButtons/
@@ -6603,24 +6656,24 @@ State:172
 	[MEDIUM\WELL]
 	[*]
 	[MEDIUM]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[MED RARE]
-	[*]
+	[*.14]
 	[RARE]
 	[WELL]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6649,7 +6702,7 @@ State:171
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6686,11 +6739,14 @@ State:171
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"PORK CHOP"
 	"11.99"
+/Modifer.2/
 	" - BLACK & BLUE"
+/Modifer.3/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -6705,25 +6761,25 @@ State:171
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[*]
+	[*.2]
 	[HOUSE\SALAD]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6794,7 +6850,7 @@ State:169
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6831,10 +6887,12 @@ State:169
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"PORK CHOP"
 	"11.99"
+/Modifer.2/
 	" - BLACK & BLUE"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -6851,23 +6909,23 @@ State:169
 	[*]
 	[BUFFET]
 	[No Starch]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6896,7 +6954,7 @@ State:168
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -6930,10 +6988,12 @@ State:168
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Special Burger"
 	"5.50"
+/Modifer.2/
 	" - BACON"
 /CenterCategoryButtons/
 	[Special Burger]
@@ -6954,7 +7014,7 @@ State:168
 	""
 	[ONION]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6983,7 +7043,7 @@ State:167
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7017,10 +7077,12 @@ State:167
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Special Burger"
 	"5.50"
+/Modifer.2/
 	" - RARE"
 /CenterCategoryButtons/
 	[Special Burger]
@@ -7041,7 +7103,7 @@ State:167
 	""
 	[ONION]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -7070,7 +7132,7 @@ State:166
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7104,8 +7166,9 @@ State:166
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Special Burger"
 	"5.50"
 /CenterCategoryButtons/
@@ -7127,7 +7190,7 @@ State:166
 	""
 	[ONION]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
