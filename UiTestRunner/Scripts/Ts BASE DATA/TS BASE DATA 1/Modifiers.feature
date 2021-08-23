@@ -456,7 +456,7 @@ Scenario: 9 Verify you cannot refill a voided item
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE"
 			Then clicked [Modify]
 #Action: 18 Select OK
-			Given screen state: 147
+			Given screen state: 249
 			Then clicked [OK]
 #Action: 19 Select Payment
 			Given screen state: 148
@@ -746,6 +746,7 @@ Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
 			Then verify presence of /ItemEntries/,"Seat 1","PORK CHOP\ MEDIUM\ Black Beans\ CUP","11.99\\1.00",/Comps/,"Sub Total","12.99",/Taxes/,"Tax","0.79","Total","13.78",/Tenders/,"Balance Due","$13.78","Change","$0.00","CASH"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
+			#TODO resolve typewritter button
 			Given screen state: 558
 			When clicked [Exit]
 
@@ -773,7 +774,7 @@ Scenario: 16 Typed Modifier
 			# 7 Add Typed Modifier
 			Given screen state: 164
 			Then clicked [Modify]
-			Then clicked /BottomLeftButtons/,[btnKeyboard]
+			Then clicked [btnPrinter]
 #Action: 7 Add Typed Modifier Message
 			Then verify presence of /RightModifierButtons/,[Ice],[Sugar],/CenterCategoryButtons/,[Drink Mods]
 			Then clicked /DialogSeparator/,[t]

@@ -19,7 +19,7 @@ Scenario: 1 Verify that you can split checks with unordered items using the �S
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Add 7Up
-			Given screen state: 164
+			Given screen state: 154
 			Then clicked /Seats/,[+]
 			Then clicked "7 UP"
 #Action: 6 Add Check

@@ -1003,6 +1003,71 @@ State:258
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:249
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	""
+/Seats/
+	[T]
+	[1]
+	[>]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+/MessageDialog/
+	"Modify Error"
+/DialogSeparator/
+	"Select an unordered item to modify before pressing the modify button."
+	[X]
+	[OK]
 State:248
 /TenderScreen/
 /TopRightButtons/
@@ -7179,7 +7244,7 @@ State:164
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7461,7 +7526,7 @@ State:160
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7498,11 +7563,14 @@ State:160
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"PORK CHOP"
 	"11.99"
+/Modifer.2/
 	" - MEDIUM"
+/Modifer.3/
 	" - Black Beans"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -7517,25 +7585,25 @@ State:160
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[*]
+	[*.2]
 	[HOUSE\SALAD]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -7564,7 +7632,7 @@ State:159
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7605,10 +7673,12 @@ State:159
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
+/Modifer.2/
 	" - XT Ice"
 /CenterCategoryButtons/
 	[Drink Mods]
@@ -7623,7 +7693,7 @@ State:159
 	[*]
 	[Sugar]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -7784,7 +7854,7 @@ State:155
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7825,10 +7895,12 @@ State:155
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
+/Modifer.2/
 	" - NO Ice"
 /CenterCategoryButtons/
 	[Drink Mods]
@@ -7843,7 +7915,7 @@ State:155
 	[*]
 	[Sugar]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -7872,7 +7944,7 @@ State:154
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7913,8 +7985,9 @@ State:154
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
 /CenterCategoryButtons/
@@ -7930,7 +8003,7 @@ State:154
 	[*]
 	[Sugar]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -7959,7 +8032,7 @@ State:153
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7995,11 +8068,14 @@ State:153
 	"(Choose special modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"TENDERLN WRAPS"
 	"5.00"
+/Modifer.2/
 	" - Baked Potato"
+/Modifer.3/
 	" - ADD AVOCADO"
 /CenterCategoryButtons/
 	[STARCH]
@@ -8032,7 +8108,7 @@ State:153
 	[ADD\SOUR CREAM]
 	[*]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -8138,7 +8214,7 @@ State:150
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -8174,10 +8250,12 @@ State:150
 	"(Choose special modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"TENDERLN WRAPS"
 	"5.00"
+/Modifer.2/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[STARCH]
@@ -8210,7 +8288,7 @@ State:150
 	[ADD\SOUR CREAM]
 	[*]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -8239,7 +8317,7 @@ State:149
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -8275,10 +8353,12 @@ State:149
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"TENDERLN WRAPS"
 	"5.00"
+/Modifer.2/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[STARCH]
@@ -8293,23 +8373,23 @@ State:149
 	[*]
 	[BUFFET]
 	[No Starch]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -8333,11 +8413,12 @@ State:148
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\  COKE"
+	"COKE\ COKE"
+	""
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -8501,7 +8582,7 @@ State:146
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -8542,8 +8623,9 @@ State:146
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
 /CenterCategoryButtons/
@@ -8559,24 +8641,24 @@ State:146
 	[ICED TEA]
 	[*]
 	[DIET 7UP]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[ICED\COFFEE]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[DIET COKE]
-	[*]
+	[*.13]
 	[7 UP]
 	[COFFEE]
 /BottomLeftButtons/
-	[btnKeyboard*]
+	[btnPrinter*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
@@ -8693,7 +8775,7 @@ State:143
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -8734,10 +8816,12 @@ State:143
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
+/Modifer.2/
 	" - COKE"
 /CenterCategoryButtons/
 	[Drink Refill]
@@ -8752,24 +8836,24 @@ State:143
 	[ICED TEA]
 	[*]
 	[DIET 7UP]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[ICED\COFFEE]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[DIET COKE]
-	[*]
+	[*.13]
 	[7 UP]
 	[COFFEE]
 /BottomLeftButtons/
-	[btnKeyboard*]
+	[btnPrinter*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
@@ -8796,11 +8880,11 @@ State:142
 	"7 UP"
 	"2.00"
 	"COKE"
-	"2.00"
+	"2.00.2"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -8841,10 +8925,12 @@ State:142
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
+/Modifer.2/
 	" - COKE"
 /CenterCategoryButtons/
 	[Drink Refill]
@@ -8859,24 +8945,24 @@ State:142
 	[ICED TEA]
 	[*]
 	[DIET 7UP]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[ICED\COFFEE]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[DIET COKE]
-	[*]
+	[*.13]
 	[7 UP]
 	[COFFEE]
 /BottomLeftButtons/
-	[btnKeyboard*]
+	[btnPrinter*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
@@ -8903,11 +8989,11 @@ State:141
 	"7 UP"
 	"2.00"
 	"COKE"
-	"2.00"
+	"2.00.2"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -8948,8 +9034,9 @@ State:141
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
 /CenterCategoryButtons/
@@ -8965,24 +9052,24 @@ State:141
 	[ICED TEA]
 	[*]
 	[DIET 7UP]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[ICED\COFFEE]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[DIET COKE]
-	[*]
+	[*.13]
 	[7 UP]
 	[COFFEE]
 /BottomLeftButtons/
-	[btnKeyboard*]
+	[btnPrinter*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
@@ -9051,7 +9138,7 @@ State:139
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -9092,10 +9179,12 @@ State:139
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
+/Modifer.2/
 	" - COKE"
 /CenterCategoryButtons/
 	[Drink Refill]
@@ -9110,24 +9199,24 @@ State:139
 	[ICED TEA]
 	[*]
 	[DIET 7UP]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[ICED\COFFEE]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[DIET COKE]
-	[*]
+	[*.13]
 	[7 UP]
 	[COFFEE]
 /BottomLeftButtons/
-	[btnKeyboard*]
+	[btnPrinter*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
@@ -9156,7 +9245,7 @@ State:138
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -9197,8 +9286,9 @@ State:138
 	"(Please add between 1 and 99 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
 /CenterCategoryButtons/
@@ -9214,24 +9304,24 @@ State:138
 	[ICED TEA]
 	[*]
 	[DIET 7UP]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[ICED\COFFEE]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[DIET COKE]
-	[*]
+	[*.13]
 	[7 UP]
 	[COFFEE]
 /BottomLeftButtons/
-	[btnKeyboard*]
+	[btnPrinter*]
 	[Delete Modifier]
 	[Modify*]
 	[Special*]
@@ -9301,7 +9391,7 @@ State:137
 /Modifer/
 	"QUESADILLA"
 	"5.00"
-/Modife.2r/
+/Modifer.2/
 	" - ADD AVOCADO"
 /CenterCategoryButtons/
 /RightPanelButtons/
@@ -9404,9 +9494,9 @@ State:136
 /Modifer/
 	"PORK CHOP"
 	"11.99"
-/Modife.2r/
+/Modifer.2/
 	" - MEDIUM"
-/Modife.3r/
+/Modifer.3/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -9421,22 +9511,22 @@ State:136
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[.2*]
+	[*.2]
 	[HOUSE\SALAD]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
-	[.14*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[.15*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -9510,7 +9600,7 @@ State:135
 /Modifer/
 	"PORK CHOP"
 	"11.99"
-/Modife.2r/
+/Modifer.2/
 	" - MEDIUM"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -9527,20 +9617,20 @@ State:135
 	[*]
 	[BUFFET]
 	[No Starch]
-	[.2*]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[.14*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -9629,20 +9719,20 @@ State:134
 	[MEDIUM\WELL]
 	[*]
 	[MEDIUM]
-	[.2*]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[MED RARE]
-	[.14*]
+	[*.14]
 	[RARE]
 	[WELL]
 /BottomLeftButtons/
@@ -9717,11 +9807,11 @@ State:133
 /Modifer/
 	"BBQ RIBS"
 	"11.99"
-/Modife.2r/
+/Modifer.2/
 	" - 1/2 RACK"
-/Modife.3r/
+/Modifer.3/
 	" - 1/2 RACK"
-/Modife.4r/
+/Modifer.4/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
@@ -9736,22 +9826,22 @@ State:133
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[.2*]
+	[*.2]
 	[HOUSE\SALAD]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
-	[.14*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[.15*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -9825,9 +9915,9 @@ State:132
 /Modifer/
 	"BBQ RIBS"
 	"11.99"
-/Modife.2r/
+/Modifer.2/
 	" - 1/2 RACK"
-/Modife.3r/
+/Modifer.3/
 	" - 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -9844,20 +9934,20 @@ State:132
 	[*]
 	[BUFFET]
 	[No Starch]
-	[.2*]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[.14*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -9931,7 +10021,7 @@ State:131
 /Modifer/
 	"BBQ RIBS"
 	"11.99"
-/Modife.2r/
+/Modifer.2/
 	" - 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -9946,22 +10036,22 @@ State:131
 /RightModifierButtons/
 	[1/2 RACK]
 	[*]
-	[.2*]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
-	[.14*]
-	[.15*]
-	[.16*]
-	[.17*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
 	[FULL RACK]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -10035,9 +10125,9 @@ State:130
 /Modifer/
 	"BBQ RIBS"
 	"11.99"
-/Modife.2r/
+/Modifer.2/
 	" - FULL RACK"
-/Modife.3r/
+/Modifer.3/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
@@ -10052,22 +10142,22 @@ State:130
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[.2*]
+	[*.2]
 	[HOUSE\SALAD]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
-	[.14*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[.15*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -10141,7 +10231,7 @@ State:129
 /Modifer/
 	"BBQ RIBS"
 	"11.99"
-/Modife.2r/
+/Modifer.2/
 	" - FULL RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -10158,20 +10248,20 @@ State:129
 	[*]
 	[BUFFET]
 	[No Starch]
-	[.2*]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[.14*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -10258,22 +10348,22 @@ State:128
 /RightModifierButtons/
 	[1/2 RACK]
 	[*]
-	[.2*]
-	[.3*]
-	[.4*]
-	[.5*]
-	[.6*]
-	[.7*]
-	[.8*]
-	[.9*]
-	[.10*]
-	[.11*]
-	[.12*]
-	[.13*]
-	[.14*]
-	[.15*]
-	[.16*]
-	[.17*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
 	[FULL RACK]
 /BottomLeftButtons/
 	[btnPrinter]
@@ -10305,7 +10395,7 @@ State:127
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -10367,7 +10457,7 @@ State:126
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -10411,9 +10501,11 @@ State:126
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"ROASTED CHCKEN"
+/Modifer.2/
 	" - FRIES"
 /CenterCategoryButtons/
 	[Sides]
@@ -10429,24 +10521,24 @@ State:126
 	[POWERADE]
 	[*]
 	[SWEET TEA]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[PEPSI]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[Fanta\Strby]
-	[*]
+	[*.13]
 	[Fanta\Grape]
 	[HI C ORANGE]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -10475,7 +10567,7 @@ State:125
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -10519,8 +10611,9 @@ State:125
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"ROASTED CHCKEN"
 /CenterCategoryButtons/
 	[Sides]
@@ -10536,23 +10629,23 @@ State:125
 	[Black Beans]
 	[*]
 	[Red Beans]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Baked Potato]
-	[*]
+	[*.14]
 	[SWT POT\FRIES]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -10581,7 +10674,7 @@ State:124
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -10625,15 +10718,22 @@ State:124
 	"(Please add exactly 3 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COMBO 3"
 	"10.00"
+/Modifer.2/
 	" - TILAPIA"
+/Modifer.3/
 	" -  - FRIES"
+/Modifer.4/
 	" -  - PEPSI"
+/Modifer.5/
 	" - GRILLED CHCKEN"
+/Modifer.6/
 	" -  - FRIES"
+/Modifer.7/
 	" -  - PEPSI"
 /CenterCategoryButtons/
 	[COMBO 3]
@@ -10646,25 +10746,25 @@ State:124
 /RightModifierButtons/
 	[TILAPIA]
 	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
 	[GRILLED\CHCKEN]
-	[*]
+	[*.16]
 	[ROASTED\CHCKEN]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -10693,7 +10793,7 @@ State:123
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -10737,9 +10837,11 @@ State:123
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"GRILLED CHCKEN"
+/Modifer.2/
 	" - FRIES"
 /CenterCategoryButtons/
 	[Sides]
@@ -10755,24 +10857,24 @@ State:123
 	[POWERADE]
 	[*]
 	[SWEET TEA]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[PEPSI]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[Fanta\Strby]
-	[*]
+	[*.13]
 	[Fanta\Grape]
 	[HI C ORANGE]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -10801,7 +10903,7 @@ State:122
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -10845,8 +10947,9 @@ State:122
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"GRILLED CHCKEN"
 /CenterCategoryButtons/
 	[Sides]
@@ -10862,23 +10965,23 @@ State:122
 	[Black Beans]
 	[*]
 	[Red Beans]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Baked Potato]
-	[*]
+	[*.14]
 	[SWT POT\FRIES]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -10907,7 +11010,7 @@ State:121
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -10951,12 +11054,16 @@ State:121
 	"(Please add exactly 3 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COMBO 3"
 	"10.00"
+/Modifer.2/
 	" - TILAPIA"
+/Modifer.3/
 	" -  - FRIES"
+/Modifer.4/
 	" -  - PEPSI"
 /CenterCategoryButtons/
 	[COMBO 3]
@@ -10969,25 +11076,25 @@ State:121
 /RightModifierButtons/
 	[TILAPIA]
 	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
 	[GRILLED\CHCKEN]
-	[*]
+	[*.16]
 	[ROASTED\CHCKEN]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -11016,7 +11123,7 @@ State:120
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -11060,9 +11167,11 @@ State:120
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"TILAPIA"
+/Modifer.2/
 	" - FRIES"
 /CenterCategoryButtons/
 	[Sides]
@@ -11078,24 +11187,24 @@ State:120
 	[POWERADE]
 	[*]
 	[SWEET TEA]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
 	[PEPSI]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
 	[Fanta\Strby]
-	[*]
+	[*.13]
 	[Fanta\Grape]
 	[HI C ORANGE]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]

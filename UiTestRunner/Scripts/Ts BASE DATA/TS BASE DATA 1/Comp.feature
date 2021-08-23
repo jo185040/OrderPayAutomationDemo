@@ -43,6 +43,7 @@ Scenario: 1 Manager Comp
 			Then verify presence of /MidLeftButtons/,[MGR COMP],[OPEN $$],[EMP MEAL]
 			Then clicked /MidLeftButtons/,[MGR COMP]
 #Action: 13 Select BBQ Ribs on Comp Screen
+			#TODO Checkmarks not working
 			Given screen state: 248
 			Then clicked /Items/,^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
 #Action: 14 Select OK

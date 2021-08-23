@@ -19,7 +19,7 @@ Scenario: 1 Pay with House Account & No Tip
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Apply HERE Ordermode
-			Given screen state: 164
+			Given screen state: 154
 			Then clicked [HERE]
 #Action: 6 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]

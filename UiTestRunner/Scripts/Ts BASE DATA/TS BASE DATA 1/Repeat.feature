@@ -195,7 +195,7 @@ Scenario: 5 Verify voided items cannot be repeated
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 6 Void COKE
-			Given screen state: 164
+			Given screen state: 154
 			Then clicked /BottomButtons/,[Void]
 #Action: 7 Select COKE on Void Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
