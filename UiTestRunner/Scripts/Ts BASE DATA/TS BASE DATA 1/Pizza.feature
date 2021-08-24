@@ -25,14 +25,14 @@ Scenario: 1 Verify order item from Pizza Menu
 			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 401
+			Given screen state: 400
 			Then clicked [Pan]
 #Action: 8 Select Sausage
-			Given screen state: 402
+			Given screen state: 400
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
-			Given screen state: 006
+			Given screen state: 216
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -259,7 +259,7 @@ Scenario: 5 Verify you can order a pizza without selecting a pizza size
 			Given screen state: 400
 			Then clicked [Pan]
 #Action: 7 Select Sausage
-			Given screen state: 204
+			Given screen state: 400
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 8 Select OK on Pizza Menu
@@ -305,7 +305,7 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Sausage
-			Given screen state: 401
+			Given screen state: 400
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 8 Select OK on Pizza Menu
@@ -318,7 +318,7 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 258
 			Then clicked [Pan]
 #Action: 11 Select OK on Pizza Menu
-			Given screen state: 006
+			Given screen state: 216
 			Then clicked [OK]
 #Action: 12 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 1","Sausage Pizza\ Large\ Pan\ Sausage","10.00"
@@ -418,14 +418,14 @@ Scenario: 8 Verify you add a pizza to a split check
 			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 401
+			Given screen state: 400
 			Then clicked [Pan]
 #Action: 8 Select Sausage
-			Given screen state: 402
+			Given screen state: 400
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
-			Given screen state: 006
+			Given screen state: 216
 			Then clicked [OK]
 #Action: 10 Select Pizza Menu
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -530,14 +530,14 @@ Scenario: 9 Verify Repeat works on pizza items
 			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 401
+			Given screen state: 400
 			Then clicked [Pan]
 #Action: 8 Select Sausage
-			Given screen state: 402
+			Given screen state: 400
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
-			Given screen state: 006
+			Given screen state: 216
 			Then clicked [OK]
 #Action: 10 Repeat Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -582,14 +582,14 @@ Scenario: 10 Verify you can void a pizza item
 			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 401
+			Given screen state: 400
 			Then clicked [Pan]
 #Action: 8 Select Sausage
-			Given screen state: 402
+			Given screen state: 006
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
-			Given screen state: 006
+			Given screen state: 204
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -635,25 +635,25 @@ Scenario: 11 Verify you can order pizza on both left and right halves
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "Peperoni\Pizza"
 #Action: 6 Select Pizza Size
-			Given screen state: 395
+			Given screen state: 250
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 396
+			Given screen state: 251
 			Then clicked [Pan]
 #Action: 8 Select Left side
-			Given screen state: 397
+			Given screen state: 252
 			Then clicked [Left]
 #Action: 9 Select Beef
-			Given screen state: 397
+			Given screen state: 252
 			Then clicked [Beef]
 #Action: 10 Select Right
-			Given screen state: 398
+			Given screen state: 253
 			Then clicked [Right]
 #Action: 11 Select Chicken
-			Given screen state: 398
+			Given screen state: 253
 			Then clicked [Chicken]
 #Action: 12 Select OK on Pizza Menu
-			Given screen state: 399
+			Given screen state: 254
 			Then clicked [OK]
 #Action: 13 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ 1/2\ Chicken","10.00"
@@ -692,33 +692,33 @@ Scenario: 12 Verify you can only order 3 toppings with pizza halves
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "Peperoni\Pizza"
 #Action: 6 Select Pizza Size
-			Given screen state: 395
+			Given screen state: 250
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 396
+			Given screen state: 251
 			Then clicked [Pan]
 #Action: 8 Select Left side
-			Given screen state: 397
+			Given screen state: 252
 			Then clicked [Left]
 #Action: 9 Select Beef
-			Given screen state: 397
+			Given screen state: 252
 			Then clicked [Beef]
 			Then clicked [Beef]
 			Then clicked [Beef]
 #Action: 10 Select Right
-			Given screen state: 406
+			Given screen state: 255
 			Then clicked [Right]
 #Action: 11 Select Chicken
-			Given screen state: 406
+			Given screen state: 255
 			Then clicked [Chicken]
 			Then clicked [Chicken]
 			Then clicked [Chicken]
 			Then clicked [Chicken]
 #Action: 12 Dismiss the OK button
-			Given screen state: 407
+			Given screen state: 256
 			Then clicked /DialogSeparator/,[OK]
 #Action: 13 Select OK on Pizza Menu
-			Given screen state: 408
+			Given screen state: 257
 			Then clicked [OK]
 #Action: 14 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ Beef\ Beef\ 1/2\ Chicken\ Chicken\ Chicken","12.00"
@@ -757,18 +757,18 @@ Scenario: 13 Verify you can add a typed modifier to a pizza item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "Sausage\Pizza"
 #Action: 6 Select Pizza Size
-			Given screen state: 400
+			Given screen state: 259
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
 			#NOTE same problem on emulator as with NOTE on 16.5 and 16.9 size "Large" is clicked but does not apply.
-			Given screen state: 401
+			Given screen state: 400
 			Then clicked [Pan]
 #Action: 8 Select Sausage
-			Given screen state: 402
+			Given screen state: 006
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select Typewriter icon
-			Given screen state: 006
+			Given screen state: 204
 			Then clicked /BottomRightButtons/,[btnMessage]
 #Action: 10 Add Typewriter Message
 			Given screen state: 007

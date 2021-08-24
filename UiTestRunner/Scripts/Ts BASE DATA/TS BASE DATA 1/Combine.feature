@@ -13,10 +13,10 @@ Scenario: 1 Combine Tables
 			Then clicked [1], [2], [3]
 			Then clicked [Combine\Tables]
 #Action: 3 Floor Plan select Table 1
-			Given screen state: 246
+			Given screen state: 575
 			Then clicked /FloorPlanScreen/,[1]
 #Action: 4 Enter Guest Count 1
-			Given screen state: 247
+			Given screen state: 576
 			When clicked /DialogSeparator/,[1]
 			And clicked /DialogSeparator/,[OK]
 			Then verify absence of "Enter Guest Count"
@@ -42,9 +42,9 @@ Scenario: 1 Combine Tables
 			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Detach Table 1
-			Given screen state: 246
+			Given screen state: 575
 			Then clicked [Detach\Tables]
-			Then clicked /FloorPlanScreen/,[1],[.21],[.31]
+			Then clicked /FloorPlanScreen/,[1],[1.2],[1.3]
 			Then clicked [Detach\Tables]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558

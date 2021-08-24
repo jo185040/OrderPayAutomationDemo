@@ -23,7 +23,7 @@ Scenario: 1 Refill Drink
 			Then clicked [HERE]
 #Action: 6 Select Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
+			Then clicked /EntriesBySeat/,"COKE"
 #Action: 7 Modify Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [Modify]
@@ -71,7 +71,7 @@ Scenario: 2 Repeat Refill Drink
 			Then clicked [HERE]
 #Action: 6 Select Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
+			Then clicked /EntriesBySeat/,"COKE"
 #Action: 7 Modify Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [Modify]

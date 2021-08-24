@@ -37,7 +37,7 @@ Scenario: 1 Transfer Table to Server
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 10 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 11 Select "Table 1" on Transfer Screen
 			Given screen state: 011
@@ -114,16 +114,16 @@ Scenario: 2 Verify you can transfer table with OK
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -279,16 +279,16 @@ Scenario: 4 Verify you can transfer table with merge table
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -393,7 +393,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Given screen state: 106
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
 			Given screen state: 024
@@ -510,13 +510,13 @@ Scenario: 6 Verify you can transfer table with new table
 			Given screen state: 024
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -599,7 +599,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Given screen state: 106
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
 			Given screen state: 024
@@ -684,13 +684,13 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Given screen state: 024
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -806,7 +806,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 106
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
 			Given screen state: 024
@@ -909,16 +909,16 @@ Scenario: 10 Verify you can transfer table with new tab
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 032
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036

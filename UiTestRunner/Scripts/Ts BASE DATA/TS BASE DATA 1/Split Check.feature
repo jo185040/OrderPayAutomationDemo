@@ -19,8 +19,8 @@ Scenario: 1 Verify that you can split checks with unordered items using the �S
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Add 7Up
-			Given screen state: 154
-			Then clicked /Seats/,[+]
+			Given screen state: 164
+			Then clicked /Seats/,[>]
 			Then clicked "7 UP"
 #Action: 6 Add Check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -84,7 +84,7 @@ Scenario: 2 Verify that you can split checks with ordered items using the �Spl
 			Then clicked "COKE"
 #Action: 5 Add 7Up
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /Seats/,[+]
+			Then clicked /Seats/,[>]
 			Then clicked "7 UP"
 #Action: 6 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -214,7 +214,7 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			Then clicked /TopLeftButtons/,[Split Seat]
 #Action: 15 Select "Pork Chop"
 			Given screen state: 058
-			Then clicked /CheckOrSeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /CheckOrSeat.2/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 #Action: 16 Add Check
 			Given screen state: 058
 			Then clicked /BottomCenterButtons/,[Add]
@@ -286,7 +286,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Then clicked /TopLeftButtons/,[Split Seat]
 #Action: 15 Select "Pork Chop"
 			Given screen state: 058
-			Then clicked /CheckOrSeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /CheckOrSeat.2/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 #Action: 16 Add Check
 			Given screen state: 058
 			Then clicked /BottomCenterButtons/,[Add]
@@ -295,7 +295,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Then clicked /BottomCenterButtons/,[Split check]
 #Action: 18 Select "Pork Chop"
 			Given screen state: 060
-			Then clicked /CheckOrSeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /Entries/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 #Action: 19 Add Check
 			Given screen state: 060
 			Then clicked /BottomCenterButtons/,[Add]
@@ -346,42 +346,42 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 			Then clicked "WATER"
 #Action: 6 Order Coke on Seat 2
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /Seats/,[+]
+			Then clicked /Seats/,[>]
 			Then clicked "COKE"
 #Action: 7 Order Coke on Seat 3
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /Seats/,[+]
+			Then clicked /Seats/,[>]
 			Then clicked "DIET COKE"
 #Action: 8 Order Coke on Seat 4
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /Seats/,[+]
+			Then clicked /Seats/,[>]
 			Then clicked "DIET 7UP"
 #Action: 9 Order Coke on Seat 5
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /Seats/,[+]
+			Then clicked /Seats/,[>]
 			Then clicked "ICED TEA"
 #Action: 10 Split Check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[Split Check]
 #Action: 11 Add Check "Coke"
 			Given screen state: 062
-			Then clicked /CheckOrSeat/,"COKE"
+			Then clicked /Entries/,"COKE"
 			Then clicked /BottomCenterButtons/,[Add]
 #Action: 12 Add Check "Diet Coke"
 			Given screen state: 063
-			Then clicked /CheckOrSeat/,"DIET COKE"
+			Then clicked /Entries/,"DIET COKE"
 			Then clicked /BottomCenterButtons/,[Add]
 #Action: 13 Add Check "Diet 7Up"
 			Given screen state: 064
-			Then clicked /CheckOrSeat/,"DIET 7UP"
+			Then clicked /Entries/,"DIET 7UP"
 			Then clicked /BottomCenterButtons/,[Add]
 #Action: 14 Add Check "Iced Tea"
 			Given screen state: 065
-			Then clicked /CheckOrSeat/,"ICED TEA"
+			Then clicked /Entries/,"ICED TEA"
 			Then clicked /BottomCenterButtons/,[Add]
 #Action: 15 Scroll Back to First Screen
 			Given screen state: 066
-			Then clicked /CheckOrSeat/,[<]
+			Then clicked /Entries/,[<]
 #Action: 16 Close Check
 			Given screen state: 067
 			Then clicked /BottomCenterButtons/,[Close]

@@ -99,7 +99,7 @@ State:412
 	" Pan"
 	" Sausage"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -241,81 +241,6 @@ State:406
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-State:402
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
-	"10.00"
-/Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" 1/2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
-	[Delete]
-	[btnMessage]
-State:401
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
-	"10.00"
-/Items/
-	" Large"
-	" 1/2"
-	" 1/2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
-	[Delete]
-	[btnMessage]
 State:400
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -340,8 +265,9 @@ State:400
 	"Sausage Pizza"
 	"10.00"
 /Items/
+	" Large"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -554,11 +480,8 @@ State:310
 	[Exit]
 	[Get Check]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 /GetCheckDialog/
 /TopCancelOkButtons/
@@ -674,9 +597,10 @@ State:284
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
@@ -716,7 +640,7 @@ State:275
 	" Chicken"
 	" Cheese"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -755,7 +679,7 @@ State:274
 	" Pan"
 	" Chicken"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -793,7 +717,7 @@ State:272
 	" Large"
 	" Pan"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -837,7 +761,7 @@ State:270
 	" Large"
 	" Pan"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -874,7 +798,7 @@ State:268
 /Items/
 	" Large"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -885,6 +809,111 @@ State:268
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:267
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BUFFET (0.75 llbs)"
+	"3.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"3.00"
+/Taxes/
+	"Tax"
+	"0.18"
+	"Total"
+	"3.18"
+/Tenders/
+	"Balance Due"
+	"$3.18"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:266
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BUFFET (0.75 llbs)"
+	"3.00"
+/Seats/
+	[T]
+	[1]
+	[>]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:265
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -910,7 +939,7 @@ State:265
 	"5.00"
 /Items/
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -948,7 +977,7 @@ State:264
 	" Large"
 	" Sausage"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -965,6 +994,301 @@ State:264
 	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
 	[X]
 	[OK]
+State:263
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[>]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+/CurrencyInputDialog/
+	"Enter quantity of llbs (@ 4.00)"
+	"0.00"
+	[<]
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
+	[X]
+State:262
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[>]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+/InputDialog/
+	"Enter quantity of llbs (@ 4.00)"
+	"0"
+	[<]
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
+	[X]
+State:261
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/AddTipPercentDialog/
+/BaseToolbar/
+/BaseToolbarButtons/
+	[Cancel]
+	"Add Tip"
+	[Skip]
+	"Subtotal $2.00"
+/TipChoice/
+	"15%"
+	"$0.30"
+/TipChoice.2/
+	"20%"
+	"$0.40"
+/TipChoice.3/
+	"25%"
+	"$0.50"
+	"Custom Tip"
+State:260
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"TEST"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.12"
+	"Total"
+	"2.12"
+/Tenders/
+	"CASH"
+	"2.12"
+	"Change"
+	"$0.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:259
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Sausage Pizza"
+	"10.00"
+/Items/
+	" 1/2"
+	" 1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
 State:258
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -992,11 +1316,332 @@ State:258
 	" Large"
 	" Sausage"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
 	[Onions]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:257
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" Large"
+	" Pan"
+	" 1/2"
+	" Beef"
+	" Beef.2"
+	" Beef.3"
+	" 1/2.2"
+	" Chicken"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:256
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" Large"
+	" Pan"
+	" 1/2"
+	" Beef"
+	" Beef.2"
+	" Beef.3"
+	" 1/2.2"
+	" Chicken"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+/MessageDialog/
+	"Warning"
+/DialogSeparator/
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[X]
+	[OK]
+State:255
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" Large"
+	" Pan"
+	" 1/2"
+	" Beef"
+	" Beef.2"
+	" Beef.3"
+	" 1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:254
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" Large"
+	" Pan"
+	" 1/2"
+	" Beef"
+	" 1/2.2"
+	" Chicken"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:253
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" Large"
+	" Pan"
+	" 1/2"
+	" Beef"
+	" 1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:252
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" Large"
+	" Pan"
+	" 1/2"
+	" 1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:251
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" Large"
+	" 1/2"
+	" 1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:250
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Peperoni Pizza"
+	"10.00"
+/Items/
+	" 1/2"
+	" 1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -1185,6 +1830,7 @@ State:245
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
 /CheckOrSeat.2/
@@ -1205,14 +1851,18 @@ State:244
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 /CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"7 UP"
 /CheckOrSeat.3/
 	"Check 3"
+/Entries.3/
 	"Seat 1"
 	"COKE"
 	[<]
@@ -1226,16 +1876,20 @@ State:243
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"COKE"
 /CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"7 UP"
 /CheckOrSeat.3/
 	"Check 3"
+/Entries.3/
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -2276,7 +2930,7 @@ State:225
 	"Tax"
 	"0.00"
 	"Total"
-	"0.00"
+	"0.00.2"
 /Tenders/
 	"Change"
 	"$0.00"
@@ -2303,14 +2957,15 @@ State:224
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Seat 2"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -2442,7 +3097,7 @@ State:221
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -2504,7 +3159,7 @@ State:220
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -2548,12 +3203,16 @@ State:220
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Platter"
 	"0.00"
+/Modifer.2/
 	" - Special canapes"
+/Modifer.3/
 	" -  - Vegetarian"
+/Modifer.4/
 	" -  - Vegan"
 /CenterCategoryButtons/
 	[Czech canapes]
@@ -2570,7 +3229,7 @@ State:220
 	[Ham Canapes]
 	[Fruit Canapes]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -2599,7 +3258,7 @@ State:219
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -2643,8 +3302,9 @@ State:219
 	"(Optional modifiers, but no more than 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Special canapes"
 /CenterCategoryButtons/
 	[Vegetar/Vegan]
@@ -2660,7 +3320,7 @@ State:219
 	[*]
 	[Vegan]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -2792,10 +3452,8 @@ State:216
 	"Sausage Pizza"
 	"10.00"
 /Items/
-	" Pan"
-	" Sausage"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -2829,7 +3487,7 @@ State:215
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -2891,7 +3549,7 @@ State:214
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -2935,10 +3593,12 @@ State:214
 	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Platter"
 	"0.00"
+/Modifer.2/
 	" - Stand canapes"
 /CenterCategoryButtons/
 	[Czech canapes]
@@ -2955,7 +3615,7 @@ State:214
 	[Ham Canapes]
 	[Fruit Canapes]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -2984,7 +3644,7 @@ State:213
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -3028,8 +3688,9 @@ State:213
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Platter"
 	"0.00"
 /CenterCategoryButtons/
@@ -3046,7 +3707,7 @@ State:213
 	[Stand canapes]
 	[Special canapes]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -3339,7 +4000,7 @@ State:207
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -3399,7 +4060,7 @@ State:206
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -3437,8 +4098,9 @@ State:206
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"TEST"
 	"10.00"
 /CenterCategoryButtons/
@@ -3454,7 +4116,7 @@ State:206
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -3530,7 +4192,7 @@ State:205
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -3568,8 +4230,9 @@ State:205
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"TEST"
 	"10.00"
 /CenterCategoryButtons/
@@ -3585,7 +4248,7 @@ State:205
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -3615,13 +4278,15 @@ State:204
 	"Sausage Pizza"
 	"10.00"
 /Items/
+	" Large"
 	" Pan"
+	" Sausage"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -3651,7 +4316,7 @@ State:203
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -3689,8 +4354,9 @@ State:203
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"OPEN PRICE MOD"
 	"2.00"
 /CenterCategoryButtons/
@@ -3706,7 +4372,7 @@ State:203
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -3754,7 +4420,7 @@ State:202
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -3792,8 +4458,9 @@ State:202
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"OPEN PRICE MOD"
 	"2.00"
 /CenterCategoryButtons/
@@ -3809,7 +4476,7 @@ State:202
 	[OPEN ITEM PRICE]
 	[OPEN ITEM DES]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -3871,11 +4538,14 @@ State:201
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"BBQ RIBS"
 	"11.99"
+/Modifer.2/
 	" - FULL RACK"
+/Modifer.3/
 	" - Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
@@ -3890,25 +4560,25 @@ State:201
 /RightModifierButtons/
 	[CUP]
 	[*]
-	[*]
+	[*.2]
 	[HOUSE\SALAD]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
 	[CAESAR\SALAD]
-	[*]
+	[*.15]
 	[BOWL]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -3970,10 +4640,12 @@ State:200
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"BBQ RIBS"
 	"11.99"
+/Modifer.2/
 	" - FULL RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -3990,23 +4662,23 @@ State:200
 	[*]
 	[BUFFET]
 	[No Starch]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
 	[Black Beans]
-	[*]
+	[*.14]
 	[Red Beans]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4068,8 +4740,9 @@ State:199
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"BBQ RIBS"
 	"11.99"
 /CenterCategoryButtons/
@@ -4085,25 +4758,25 @@ State:199
 /RightModifierButtons/
 	[1/2 RACK]
 	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
 	[FULL RACK]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4132,7 +4805,7 @@ State:198
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4176,12 +4849,16 @@ State:198
 	"(Optional unlimited modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"3pcDrkBrstr"
 	"9.99"
+/Modifer.2/
 	" - SP Bean C"
+/Modifer.3/
 	" - Carrots"
+/Modifer.4/
 	" - Cherry Bread"
 /CenterCategoryButtons/
 	[3C\Starter]
@@ -4201,19 +4878,19 @@ State:198
 	[Carml\Sundae]
 	[Apple\Sundae]
 	[Choc\Sundae]
-	[Apple\Sundae]
+	[Apple\Sundae.2]
 	[ChocCn\Cookie]
 	[*]
-	[*]
+	[*.2]
 	[ChocMM\Cookie]
-	[*]
+	[*.3]
 	[DblCrst\AplPie]
 	[DblCrt\AplPiMd]
 	[Coco\CrmPie]
-	[*]
+	[*.4]
 	[FrchChc\Pie]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4242,7 +4919,7 @@ State:197
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4286,11 +4963,14 @@ State:197
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"3pcDrkBrstr"
 	"9.99"
+/Modifer.2/
 	" - SP Bean C"
+/Modifer.3/
 	" - Carrots"
 /CenterCategoryButtons/
 	[3C\Starter]
@@ -4313,7 +4993,7 @@ State:197
 	[Cherry\Bread]
 	[Choc\Bread]
 	[Ciabatta Bun]
-	[Ciabatta Bun]
+	[Ciabatta Bun.2]
 	[English\Muffin]
 	[Fruit\Crepe]
 	[Ginger\Bread]
@@ -4325,7 +5005,7 @@ State:197
 	[*]
 	[No\Bread]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4354,7 +5034,7 @@ State:196
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4398,10 +5078,12 @@ State:196
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"3pcDrkBrstr"
 	"9.99"
+/Modifer.2/
 	" - SP Bean C"
 /CenterCategoryButtons/
 	[3C\Starter]
@@ -4433,11 +5115,11 @@ State:196
 	[Onion Petals]
 	[Dressing]
 	[*]
-	[*]
+	[*.2]
 	[No Side]
-	[*]
+	[*.3]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4466,7 +5148,7 @@ State:195
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4510,8 +5192,9 @@ State:195
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"3pcDrkBrstr"
 	"9.99"
 /CenterCategoryButtons/
@@ -4528,19 +5211,19 @@ State:195
 /RightModifierButtons/
 	[*]
 	[Garden Salad]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
 	[SP\Bean C]
 	[SP\Bf Veggie C]
 	[SP\Cz Potato C]
 	[SP\Bean B]
 	[SP\Bf Veggie B]
 	[SP\Cz Potato B]
-	[*]
-	[*]
-	[*]
+	[*.6]
+	[*.7]
+	[*.8]
 	[SP\CkNoodles C]
 	[SP\Brocc Cz C]
 	[SP\Chili C]
@@ -4548,7 +5231,7 @@ State:195
 	[SP\Brocc Cz B]
 	[SP\Chili B]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4577,7 +5260,7 @@ State:194
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4621,8 +5304,9 @@ State:194
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Pastries"
 /CenterCategoryButtons/
 	[ADD SOUR CRM]
@@ -4636,25 +5320,25 @@ State:194
 /RightModifierButtons/
 	[ON\BAGEL]
 	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
 	[ON\CROISSANT]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4683,7 +5367,7 @@ State:193
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4727,12 +5411,16 @@ State:193
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Wrap"
 	"5.50"
+/Modifer.2/
 	" - 3 Bowl"
+/Modifer.3/
 	" - NO Onion"
+/Modifer.4/
 	" - Less Spicy"
 /CenterCategoryButtons/
 	[ADD BACON]
@@ -4749,12 +5437,12 @@ State:193
 	[Milk Pudding]
 	[Chocolate Ice]
 	[*]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
 	[Pastries]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4783,7 +5471,7 @@ State:192
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4827,8 +5515,9 @@ State:192
 	"(Optional modifiers, but no more than 9 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Wrap"
 	"5.50"
 /CenterCategoryButtons/
@@ -4861,11 +5550,11 @@ State:192
 	[No Spicy]
 	[Less Spicy]
 	[More Spicy]
-	[*]
-	[*]
-	[*]
+	[*.2]
+	[*.3]
+	[*.4]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4894,7 +5583,7 @@ State:191
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -4938,10 +5627,12 @@ State:191
 	"(Please add between 1 and 2 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Burrito Classic"
 	"11.00"
+/Modifer.2/
 	" - Verde"
 /CenterCategoryButtons/
 	[Burrito Rice]
@@ -4960,7 +5651,7 @@ State:191
 	[*]
 	[Corn]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -4989,7 +5680,7 @@ State:190
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -5033,8 +5724,9 @@ State:190
 	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"Burrito Classic"
 	"11.00"
 /CenterCategoryButtons/
@@ -5054,7 +5746,7 @@ State:190
 	[*]
 	[Chipotle]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -6463,7 +7155,7 @@ State:174
 	" Beef"
 	" VEGGIE"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[CHEDDAR]
 /BottomCenterButtons/
@@ -6818,7 +7510,7 @@ State:170
 	" Beef"
 	" VEGGIE"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[VEGGIE]
 /BottomCenterButtons/
@@ -7219,7 +7911,7 @@ State:165
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7260,10 +7952,12 @@ State:165
 	"(Optional modifiers, but no more than 10 modifiers)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierItem_Container/
+/ModifierItem/
+/Modifer/
 	"COKE"
 	"2.00"
+/Modifer.2/
 	"test"
 /CenterCategoryButtons/
 	[Drink Mods]
@@ -7278,7 +7972,7 @@ State:165
 	[*]
 	[Sugar]
 /BottomLeftButtons/
-	[btnKeyboard]
+	[btnPrinter]
 	[Delete Modifier]
 	[Modify]
 	[Special]
@@ -7376,7 +8070,7 @@ State:163
 	" Beef"
 	" VEGGIE"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[VEGGIE]
 /BottomCenterButtons/
@@ -7557,7 +8251,7 @@ State:161
 	" Chicken"
 	" Beef"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[VEGGIE]
 /BottomCenterButtons/
@@ -7794,7 +8488,7 @@ State:158
 	" Chicken"
 	" Beef"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -7837,7 +8531,7 @@ State:157
 	" Chicken"
 	" Beef"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -7883,7 +8577,7 @@ State:156
 	" Large"
 	" Pan"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8205,7 +8899,7 @@ State:152
 /Items/
 	" Large"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8243,7 +8937,7 @@ State:151
 	"10.00"
 /Items/
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8757,7 +9451,7 @@ State:145
 	" Cheese"
 	" Beef"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -8798,7 +9492,7 @@ State:144
 	" Cheese"
 	" Beef"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -9167,7 +9861,7 @@ State:140
 	" Chicken"
 	" Cheese"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -11409,7 +12103,7 @@ State:115
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -11617,7 +12311,7 @@ State:108
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -11661,11 +12355,8 @@ State:107
 	[Exit]
 	[Get Check]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 /GetCheckDialog/
 /TopCancelOkButtons/
@@ -11702,11 +12393,8 @@ State:106
 	[Exit]
 	[Get Check]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 State:105
 /WWTScreen/
@@ -11720,11 +12408,8 @@ State:105
 	[Exit]
 	[Get Check]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 /GetCheckDialog/
 /TopCancelOkButtons/
@@ -11774,11 +12459,8 @@ State:103
 /TopRightButtons/
 	[Exit]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Ascending]
 	[btnHideOrShowKeyboard]
 State:102
 /OrderScreen/
@@ -11801,13 +12483,13 @@ State:102
 	"COKE"
 	"2.00"
 	"7 UP"
-	"2.00"
+	"2.00.2"
 	"ICED COFFEE"
-	"2.00"
+	"2.00.3"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -11847,6 +12529,7 @@ State:101
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
 /CheckOrSeat.2/
@@ -11881,9 +12564,9 @@ State:100
 	"2.00"
 	"Seat 2"
 	"COKE"
-	"2.00"
+	"2.00.2"
 	"7 UP"
-	"2.00"
+	"2.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -11938,9 +12621,9 @@ State:099
 	"2.00"
 	"Seat 2"
 	"COKE"
-	"2.00"
+	"2.00.2"
 	"7 UP"
-	"2.00"
+	"2.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -11994,14 +12677,14 @@ State:098
 	"2.00"
 	"Seat 2"
 	"COKE"
-	"2.00"
+	"2.00.2"
 	"7 UP"
-	"2.00"
+	"2.00.3"
 /Seats/
 	[T]
 	[1]
 	[2]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12058,9 +12741,9 @@ State:097
 	"BLUE MOON"
 	"2.00"
 	"CORONA"
-	"3.00"
+	"3.00.2"
 	"HIGH LIFE"
-	"2.00"
+	"2.00.2"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -12150,9 +12833,9 @@ State:095
 	"BLUE MOON"
 	"2.00"
 	"CORONA"
-	"3.00"
+	"3.00.2"
 	"HIGH LIFE"
-	"2.00"
+	"2.00.2"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -12209,11 +12892,11 @@ State:094
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
-	"3.00"
+	"3.00.2"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12293,13 +12976,13 @@ State:092
 	"BLUE MOON"
 	"2.00"
 	"CORONA"
-	"3.00"
+	"3.00.2"
 	"HIGH LIFE"
-	"2.00"
+	"2.00.2"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -12349,11 +13032,11 @@ State:091
 	"BLUE MOON"
 	"2.00"
 	"CORONA"
-	"3.00"
+	"3.00.2"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -12405,7 +13088,7 @@ State:090
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -12455,7 +13138,7 @@ State:089
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -12502,7 +13185,7 @@ State:088
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[SANDWICHES]
 	[PIZZA]
@@ -12548,9 +13231,9 @@ State:087
 	"CHIX SLD SAND\ FRIES"
 	"4.00"
 	"HAM SANDWICH\ FRIES"
-	"4.00"
+	"4.00.2"
 	"CALI CHIX WRAP\ FRIES"
-	"4.00"
+	"4.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -12631,9 +13314,9 @@ State:085
 	"CHIX SLD SAND\ FRIES"
 	"4.00"
 	"HAM SANDWICH\ FRIES"
-	"4.00"
+	"4.00.2"
 	"CALI CHIX WRAP\ FRIES"
-	"4.00"
+	"4.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -12686,17 +13369,17 @@ State:084
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
 	"VEGGIE WRAP\ FRIES"
-	"4.00"
+	"4.00.2"
 	"CHIX SLD SAND\ FRIES"
-	"4.00"
+	"4.00.3"
 	"HAM SANDWICH\ FRIES"
-	"4.00"
+	"4.00.4"
 	"CALI CHIX WRAP\ FRIES"
-	"4.00"
+	"4.00.5"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12745,15 +13428,15 @@ State:083
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
 	"VEGGIE WRAP\ FRIES"
-	"4.00"
+	"4.00.2"
 	"CHIX SLD SAND\ FRIES"
-	"4.00"
+	"4.00.3"
 	"HAM SANDWICH\ FRIES"
-	"4.00"
+	"4.00.4"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12802,13 +13485,13 @@ State:082
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
 	"VEGGIE WRAP\ FRIES"
-	"4.00"
+	"4.00.2"
 	"CHIX SLD SAND\ FRIES"
-	"4.00"
+	"4.00.3"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12859,7 +13542,7 @@ State:081
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12908,11 +13591,11 @@ State:080
 	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
 	"VEGGIE WRAP\ FRIES"
-	"4.00"
+	"4.00.2"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12992,7 +13675,7 @@ State:078
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -13040,7 +13723,7 @@ State:077
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -13088,9 +13771,9 @@ State:076
 	"CARROT CAKE"
 	"2.50"
 	"CHOCOLATE CAKE"
-	"2.50"
+	"2.50.2"
 	"CHEESECAKE"
-	"2.50"
+	"2.50.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -13144,9 +13827,9 @@ State:075
 	"CARROT CAKE"
 	"2.50"
 	"CHOCOLATE CAKE"
-	"2.50"
+	"2.50.2"
 	"CHEESECAKE"
-	"2.50"
+	"2.50.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -13199,13 +13882,13 @@ State:074
 	"CARROT CAKE"
 	"2.50"
 	"CHOCOLATE CAKE"
-	"2.50"
+	"2.50.2"
 	"CHEESECAKE"
-	"2.50"
+	"2.50.3"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -13252,11 +13935,11 @@ State:073
 	"CARROT CAKE"
 	"2.50"
 	"CHOCOLATE CAKE"
-	"2.50"
+	"2.50.2"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -13321,7 +14004,7 @@ State:071
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -13367,7 +14050,7 @@ State:070
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -13414,7 +14097,7 @@ State:069
 	"CHICKEN CAESAR"
 	"3.00"
 	"SOUP OF DAY\ CUP"
-	"3.00"
+	"3.00.2"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -13469,7 +14152,7 @@ State:068
 	"CHICKEN CAESAR"
 	"3.00"
 	"SOUP OF DAY\ CUP"
-	"3.00"
+	"3.00.2"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -13505,20 +14188,25 @@ State:067
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"WATER"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"COKE"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Check 3"
+/Entries.3/
 	"Seat 3"
 	"DIET COKE"
-/CheckOrSeat/
+/CheckOrSeat.4/
 	"Check 4"
+/Entries.4/
 	"Seat 4"
 	"DIET 7UP"
 	[<]
@@ -13532,8 +14220,10 @@ State:066
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 5"
+/Entries/
 	"Seat 5"
 	"ICED TEA"
 	[<]
@@ -13547,22 +14237,27 @@ State:065
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"WATER"
 	"Seat 5"
 	"ICED TEA"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"COKE"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Check 3"
+/Entries.3/
 	"Seat 3"
 	"DIET COKE"
-/CheckOrSeat/
+/CheckOrSeat.4/
 	"Check 4"
+/Entries.4/
 	"Seat 4"
 	"DIET 7UP"
 	[<]
@@ -13576,20 +14271,24 @@ State:064
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"WATER"
 	"Seat 4"
 	"DIET 7UP"
 	"Seat 5"
 	"ICED TEA"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"COKE"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Check 3"
+/Entries.3/
 	"Seat 3"
 	"DIET COKE"
 	[<]
@@ -13603,8 +14302,10 @@ State:063
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"WATER"
 	"Seat 3"
@@ -13613,8 +14314,9 @@ State:063
 	"DIET 7UP"
 	"Seat 5"
 	"ICED TEA"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"COKE"
 	[<]
@@ -13628,8 +14330,10 @@ State:062
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"WATER"
 	"Seat 2"
@@ -13651,12 +14355,15 @@ State:061
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
@@ -13670,8 +14377,10 @@ State:060
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"Seat 2"
@@ -13687,12 +14396,13 @@ State:059
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
@@ -13706,9 +14416,10 @@ State:058
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
@@ -13723,12 +14434,15 @@ State:057
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"COKE"
 /CheckOrSeat.2/
 	"Check 2"
+/Entries.2/
 	"Seat 2"
 	"7 UP"
 	[<]
@@ -13742,8 +14456,10 @@ State:056
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"Check 1"
+/Entries/
 	"Seat 1"
 	"COKE"
 	"Seat 2"
@@ -13766,11 +14482,8 @@ State:055
 	[Exit]
 	[Get Check]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Descending]
 /EnterTabNameKeyboard/
 	?j1?
 	[1]
@@ -13948,13 +14661,13 @@ State:052
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
-	"3.00"
+	"3.00.2"
 	"SOUP OF DAY\ CUP"
-	"3.00"
+	"3.00.3"
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -14122,7 +14835,7 @@ State:048
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -14362,7 +15075,7 @@ State:043
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -14548,11 +15261,8 @@ State:038
 	[Exit]
 	[Get Check]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 State:037
 /ReceiveTransfersScreen/
@@ -14583,16 +15293,14 @@ State:036
 	[Exit]
 	[Get Check]
 	[Transfer Table]
+	[Show Open Times]
 	[Back]
-/BottomRightButtons/
-	[Show\Open Time]
-	[Sorted by\Tab Names]
-	[Sorted\Descending]
 	[btnHideOrShowKeyboard]
 State:035
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
 /CheckOrSeat.2/
@@ -14632,7 +15340,7 @@ State:034
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -14953,7 +15661,7 @@ State:023
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -15139,7 +15847,7 @@ State:019
 /Seats/
 	[T]
 	[1]
-	[+]
+	[>]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -15410,6 +16118,7 @@ State:008
 /SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
+/CheckOrSeats/
 /CheckOrSeat/
 	"For Table"
 /CheckOrSeat.2/
@@ -15417,8 +16126,8 @@ State:008
 	"ICED COFFEE"
 /CheckOrSeat.3/
 	"Seat 2"
-	"7 UP"
 	"COKE"
+	"7 UP"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -15454,7 +16163,7 @@ State:007
 	" Pan"
 	" Sausage"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -15538,13 +16247,12 @@ State:006
 /Items/
 	" Large"
 	" Pan"
-	" Sausage"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
-	[Sausage]
-	[Pepperoni]
-	[Onions]
+	[Cheese]
+	[Chicken]
+	[Beef]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -15579,7 +16287,7 @@ State:005
 	" Pan"
 	" Chicken"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -15617,7 +16325,7 @@ State:004
 	" Large"
 	" Pan"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -15654,7 +16362,7 @@ State:003
 /Items/
 	" Large"
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -15690,7 +16398,7 @@ State:002
 	"5.00"
 /Items/
 	" 1/2"
-	" 1/2"
+	" 1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]

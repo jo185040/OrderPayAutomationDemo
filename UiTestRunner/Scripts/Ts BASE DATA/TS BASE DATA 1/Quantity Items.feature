@@ -22,23 +22,23 @@ Scenario: 1 Quantity
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "BUFFET"
 #Action: 6 Enter Quantity of llbs
-			Then verify presence of /InputDialog/,"Enter quantity of llbs ^@ 4.00^","0",[<]
+			Given screen state: 262
 			Then clicked /DialogSeparator/,[7]
 			Then clicked /DialogSeparator/,[5]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Enter Quantity of llbs
-			Then verify presence of /CurrencyInputDialog/,"Enter quantity of llbs ^@ 4.00^","0.00",[<]
+			Given screen state: 263
 			Then clicked /DialogSeparator/,[7]
 			Then clicked /DialogSeparator/,[5]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 8 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","BUFFET ^0.75 llbs^","3.00"
+			Given screen state: 266
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","BUFFET ^0.75 llbs^","3.00"
+			Given screen state: 266
 			Then clicked [$]
 #Action: 10 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","BUFFET ^0.75 llbs^","3.00",/Comps/,"Sub Total","3.00",/Taxes/,"Tax","0.18","Total","3.18",/Tenders/,"Balance Due","$3.18"
+			Given screen state: 267
 			Then clicked [Exact]
 #Action: 11 Click Close
 			Given screen state: 001
