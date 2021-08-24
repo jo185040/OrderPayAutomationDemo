@@ -96,3 +96,16 @@ Scenario: 2 Rename Tab
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
+
+Scenario: 3 Bartender with Floorplan Crash
+#Action: 1 Login as Bartender 300
+			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			When clicked [3],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 2 Exit Tab to Floorplan
+			Then verify optional presence of /CenterMenuButtons/,[LUNCH MENU]
+			When clicked /TopLeftButtons/,[btnGoToFloorplan]
+#Action: 3 Exit FloorPlan
+			Given screen state: 558
+			When clicked [Exit]

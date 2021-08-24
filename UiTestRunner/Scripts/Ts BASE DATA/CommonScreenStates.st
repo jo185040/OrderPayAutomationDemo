@@ -734,6 +734,58 @@ State:272
 	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
 	[X]
 	[OK]
+State:271
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"SJ 3"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:270
 /PizzaModifierScreen/
 /GroupOneButtons/
