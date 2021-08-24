@@ -63,13 +63,10 @@ State:558
 	[Detach\Tables]
 	[2]
 	[Combine\Tables]
-	[Adjust\Tips]
 	[8]
 	[BAR]
 	[3]
-	[Open\Drawer]
 	[6]
-	[Get\Check]
 State:412
 /PizzaModifierScreen/
 /GroupOneButtons/
