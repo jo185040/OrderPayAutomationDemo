@@ -375,8 +375,8 @@ Scenario: 8 Verify refilled item can be voided
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 11 Select Coke on Check
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE","2.00"
-			Then clicked "COKE\ COKE"
+			Given screen state: 269
+			Then clicked /EntriesBySeat/,"COKE\ COKE"
 #Action: 12 Void COKE
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE","2.00"
 			Then clicked /BottomButtons/,[Void]
