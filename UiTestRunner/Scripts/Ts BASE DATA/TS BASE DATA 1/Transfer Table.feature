@@ -37,13 +37,13 @@ Scenario: 1 Transfer Table to Server
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 10 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 11 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferTables/,"1"
 #Action: 12 Select "Lebron James" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /ReceiveEmployees/,"LEBRON JAMES"
 #Action: 13 Select OK
 			Given screen state: 012
@@ -114,16 +114,16 @@ Scenario: 2 Verify you can transfer table with OK
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -143,7 +143,7 @@ Scenario: 2 Verify you can transfer table with OK
 			Given screen state: 017
 			Then clicked "1"
 #Action: 18 Select Ok Button
-			Given screen state: 018
+			Given screen state: 013
 			Then clicked [OK]
 #Action: 19 Select Table 1
 			Given screen state: 104
@@ -155,7 +155,7 @@ Scenario: 2 Verify you can transfer table with OK
 			Then verify presence of /ItemEntries/,"COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 22 Click Close
-			Then verify presence of /ItemEntries/,"COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 208
 			Then clicked /MidButtons/,[Close]
 #Action: 23 Exit FloorPlan
 			Given screen state: 558
@@ -175,12 +175,11 @@ Scenario: 3 Verify you can transfer tab with OK
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -199,13 +198,13 @@ Scenario: 3 Verify you can transfer tab with OK
 			Given screen state: 558
 			Then clicked [WWT\Screen]
 #Action: 10 Transfer Table
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 024
+			Given screen state: 020
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
-			Given screen state: 024
+			Given screen state: 011
 			Then clicked /TransferTables/,"j1"
 #Action: 13 Select "Miguel Saavedra" on Transfer Screen
 			Given screen state: 020
@@ -214,7 +213,7 @@ Scenario: 3 Verify you can transfer tab with OK
 			Given screen state: 020
 			Then clicked [OK]
 #Action: 15 Exit WWT Screen
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked /TopRightButtons/,[Exit]
 #Action: 16 Login as Manager 201
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -228,10 +227,10 @@ Scenario: 3 Verify you can transfer tab with OK
 			Given screen state: 109
 			Then clicked /Tabs/,"j1"
 #Action: 19 Select Tab j1 on Transfer Tables
-			Given screen state: 037
+			Given screen state: 118
 			Then clicked "j1"
 #Action: 20 Select Ok Button
-			Given screen state: 037
+			Given screen state: 118
 			Then clicked [OK]
 #Action: 21 Select Tab "j1"
 			Given screen state: 109
@@ -243,7 +242,7 @@ Scenario: 3 Verify you can transfer tab with OK
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 24 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 018
 			Then clicked /MidButtons/,[Close]
 #Action: 25 Exit FloorPlan
 			Given screen state: 558
@@ -279,16 +278,16 @@ Scenario: 4 Verify you can transfer table with merge table
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 024
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -340,13 +339,13 @@ Scenario: 4 Verify you can transfer table with merge table
 			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"Balance Due","$5.31"
 			Then clicked [Exact]
 #Action: 28 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"CASH","$5.31","Change","$0.00"
+			Given screen state: 249
 			Then clicked /MidButtons/,[Close]
 #Action: 29 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 2","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 30 Click Close
-			Then verify presence of /ItemEntries/,"Seat 2","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 250
 			Then clicked /MidButtons/,[Close]
 #Action: 31 Exit FloorPlan
 			Given screen state: 558
@@ -366,12 +365,11 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -390,13 +388,13 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Given screen state: 558
 			Then clicked [WWT\Screen]
 #Action: 10 Transfer Table
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 020
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
-			Given screen state: 024
+			Given screen state: 011
 			Then clicked /TransferTables/,"j1"
 #Action: 13 Select "Miguel Saavedra" on Transfer Screen
 			Given screen state: 020
@@ -405,7 +403,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Given screen state: 020
 			Then clicked [OK]
 #Action: 15 Exit WWT Screen
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked /TopRightButtons/,[Exit]
 #Action: 16 Login as Manager 201
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -420,12 +418,11 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Then clicked [btnSetTabEntry]
 #Action: 19 Open Tab
 			Given screen state: 109
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[2]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[2]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 20 Enter Guest Count 1
 			Given screen state: 112
 			When clicked /DialogSeparator/,[1]
@@ -465,13 +462,13 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"Balance Due","$5.31"
 			Then clicked [Exact]
 #Action: 32 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"CASH","$5.31","Change","$0.00"
+			Given screen state: 252
 			Then clicked /MidButtons/,[Close]
 #Action: 33 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 2","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 34 Click Close
-			Then verify presence of /ItemEntries/,"Seat 2","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 253
 			Then clicked /MidButtons/,[Close]
 #Action: 35 Exit FloorPlan
 			Given screen state: 558
@@ -507,16 +504,16 @@ Scenario: 6 Verify you can transfer table with new table
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 024
+			Given screen state: 012
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 024
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -552,7 +549,7 @@ Scenario: 6 Verify you can transfer table with new table
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 23 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 254
 			Then clicked /MidButtons/,[Close]
 #Action: 24 Exit FloorPlan
 			Given screen state: 558
@@ -572,12 +569,11 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -596,13 +592,13 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Given screen state: 558
 			Then clicked [WWT\Screen]
 #Action: 10 Transfer Table
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 020
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
-			Given screen state: 024
+			Given screen state: 011
 			Then clicked /TransferTables/,"j1"
 #Action: 13 Select "Miguel Saavedra" on Transfer Screen
 			Given screen state: 020
@@ -611,7 +607,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Given screen state: 020
 			Then clicked [OK]
 #Action: 15 Exit WWT Screen
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked /TopRightButtons/,[Exit]
 #Action: 16 Login as Manager 201
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -645,7 +641,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 25 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 106
 			Then clicked /MidButtons/,[Close]
 #Action: 26 Exit FloorPlan
 			Given screen state: 558
@@ -681,16 +677,16 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 024
+			Given screen state: 020
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -708,12 +704,11 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Then clicked [btnSetTabEntry]
 #Action: 17 Open Tab
 			Given screen state: 104
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 18 Enter Guest Count 1
 			Given screen state: 029
 			When clicked /DialogSeparator/,[1]
@@ -779,12 +774,11 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -803,13 +797,13 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 558
 			Then clicked [WWT\Screen]
 #Action: 10 Transfer Table
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
-			Given screen state: 024
+			Given screen state: 020
 			Then clicked /TransferTables/,"j1"
 #Action: 13 Select "Miguel Saavedra" on Transfer Screen
 			Given screen state: 020
@@ -818,7 +812,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 020
 			Then clicked [OK]
 #Action: 15 Exit WWT Screen
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked /TopRightButtons/,[Exit]
 #Action: 16 Login as Manager 201
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -909,16 +903,16 @@ Scenario: 10 Verify you can transfer table with new tab
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 9 Select Manager Jeffrey
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 10 Select "Table 1" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /TransferTables/,"1"
 #Action: 11 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
 #Action: 12 Select OK
-			Given screen state: 011
+			Given screen state: 012
 			Then clicked [OK]
 #Action: 13 Exit WWT Screen
 			Given screen state: 036
@@ -975,12 +969,11 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -999,13 +992,13 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			Given screen state: 558
 			Then clicked [WWT\Screen]
 #Action: 10 Transfer Table
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 024
+			Given screen state: 020
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
-			Given screen state: 024
+			Given screen state: 020
 			Then clicked /TransferTables/,"j1"
 #Action: 13 Select "Miguel Saavedra" on Transfer Screen
 			Given screen state: 020
@@ -1014,7 +1007,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			Given screen state: 020
 			Then clicked [OK]
 #Action: 15 Exit WWT Screen
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked /TopRightButtons/,[Exit]
 #Action: 16 Login as Manager 201
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -1067,12 +1060,11 @@ Scenario: 12 Verify you can transfer tab with new table.
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /TopRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -1091,13 +1083,13 @@ Scenario: 12 Verify you can transfer tab with new table.
 			Given screen state: 558
 			Then clicked [WWT\Screen]
 #Action: 10 Transfer Table
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked [Transfer Table]
 #Action: 11 Select Manager Jeffrey
-			Given screen state: 024
+			Given screen state: 020
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 12 Select "Table 1" on Transfer Screen
-			Given screen state: 024
+			Given screen state: 020
 			Then clicked /TransferTables/,"j1"
 #Action: 13 Select "Miguel Saavedra" on Transfer Screen
 			Given screen state: 020
@@ -1106,7 +1098,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 			Given screen state: 020
 			Then clicked [OK]
 #Action: 15 Exit WWT Screen
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked /TopRightButtons/,[Exit]
 #Action: 16 Login as Manager 201
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]

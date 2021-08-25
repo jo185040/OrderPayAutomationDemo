@@ -15,12 +15,11 @@ Scenario: 1 Open Tab
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /BottomRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -59,12 +58,11 @@ Scenario: 2 Rename Tab
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked /BottomRightButtons/,[btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked /TopRightButtons/,[New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -94,5 +92,18 @@ Scenario: 2 Rename Tab
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
+			Given screen state: 558
+			When clicked [Exit]
+
+Scenario: 3 Bartender Scenario
+#Action: 1 Login as manager 200
+			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			When clicked [3],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 2 Exit Check to FloorPlan
+			Given screen state: 255
+			When clicked /TopLeftButtons/,[btnGoToFloorplan]
+#Action: 3 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]

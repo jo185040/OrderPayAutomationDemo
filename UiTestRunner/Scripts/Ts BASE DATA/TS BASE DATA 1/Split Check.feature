@@ -1,3 +1,4 @@
+#TODO fix moving items on split check
 Feature: 27 Split Check
 
 
