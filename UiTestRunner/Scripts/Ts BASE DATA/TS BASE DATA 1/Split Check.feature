@@ -32,6 +32,7 @@ Scenario: 1 Verify that you can split checks with unordered items using the �S
 #Action: 8 Tap 'Add' to move 7UP to new Check 2
 			Given screen state: 056
 			Then clicked [Add]
+			Then clicked /CheckOrSeat.2/
 #Action: 9 Tap 'Add' to create Check 3
 			Given screen state: 057
 			Then clicked [Add]
@@ -99,6 +100,7 @@ Scenario: 2 Verify that you can split checks with ordered items using the �Spl
 #Action: 9 Add Check
 			Given screen state: 056
 			Then clicked [Add]
+			Then clicked /CheckOrSeat.2/
 #Action: 10 Add Check
 			Given screen state: 057
 			Then clicked [Close]
@@ -215,10 +217,11 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			Then clicked /TopLeftButtons/,[Split Seat]
 #Action: 15 Select "Pork Chop"
 			Given screen state: 058
-			Then clicked /CheckOrSeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /CheckOrSeat.2/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 #Action: 16 Add Check
 			Given screen state: 058
 			Then clicked /BottomCenterButtons/,[Add]
+			Then clicked /CheckOrSeat.3/
 #Action: 17 Close Check
 			Given screen state: 059
 			Then clicked /BottomCenterButtons/,[Close]
@@ -287,10 +290,11 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Then clicked /TopLeftButtons/,[Split Seat]
 #Action: 15 Select "Pork Chop"
 			Given screen state: 058
-			Then clicked /CheckOrSeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /CheckOrSeat.2/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 #Action: 16 Add Check
 			Given screen state: 058
 			Then clicked /BottomCenterButtons/,[Add]
+			Then clicked /CheckOrSeat.3/
 #Action: 17 Split Check
 			Given screen state: 059
 			Then clicked /BottomCenterButtons/,[Split check]
@@ -300,6 +304,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 #Action: 19 Add Check
 			Given screen state: 060
 			Then clicked /BottomCenterButtons/,[Add]
+			Then clicked /CheckOrSeat.2/
 #Action: 20 Close Check
 			Given screen state: 061
 			Then clicked /BottomCenterButtons/,[Close]
@@ -368,57 +373,60 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 			Given screen state: 062
 			Then clicked /CheckOrSeat/,"COKE"
 			Then clicked /BottomCenterButtons/,[Add]
+			Then clicked /CheckOrSeat.2/
 #Action: 12 Add Check "Diet Coke"
 			Given screen state: 063
 			Then clicked /CheckOrSeat/,"DIET COKE"
 			Then clicked /BottomCenterButtons/,[Add]
+			Then clicked /CheckOrSeat.3/
 #Action: 13 Add Check "Diet 7Up"
 			Given screen state: 064
 			Then clicked /CheckOrSeat/,"DIET 7UP"
 			Then clicked /BottomCenterButtons/,[Add]
+			Then clicked /CheckOrSeat.4/
 #Action: 14 Add Check "Iced Tea"
 			Given screen state: 065
-			Then clicked /CheckOrSeat/,"ICED TEA"
 			Then clicked /BottomCenterButtons/,[Add]
-#Action: 15 Scroll Back to First Screen
-			Given screen state: 066
 			Then clicked /CheckOrSeat/,[<]
-#Action: 16 Close Check
-			Given screen state: 067
+			Then clicked /CheckOrSeat/,"ICED TEA"
+			Then clicked /CheckOrSeat.4/,[>]
+			Then clicked /CheckOrSeat/
+#Action: 15 Close Check
+			Given screen state: 066
 			Then clicked /BottomCenterButtons/,[Close]
-#Action: 17 Apply HERE Ordermode
+#Action: 16 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 5","ICED TEA","2.00"
 			Then clicked [HERE]
-#Action: 18 Select $ on Payment Screen
+#Action: 17 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 5","ICED TEA","2.00"
 			Then clicked [$]
-#Action: 19 Close Check 1
+#Action: 18 Close Check 1
 			Given screen state: 225
 			Then clicked /MidButtons/,[Close]
-#Action: 20 Exact Payment - Check 2
+#Action: 19 Exact Payment - Check 2
 			Given screen state: 226
 			Then clicked [Exact]
-#Action: 21 Click Close - Check 2
+#Action: 20 Click Close - Check 2
 			Given screen state: 227
 			Then clicked /MidButtons/,[Close]
-#Action: 22 Exact Payment - Check 3
+#Action: 21 Exact Payment - Check 3
 			Given screen state: 228
 			Then clicked [Exact]
-#Action: 23 Click Close - Check 3
+#Action: 22 Click Close - Check 3
 			Given screen state: 229
 			Then clicked /MidButtons/,[Close]
-#Action: 24 Exact Payment - Check 4
+#Action: 23 Exact Payment - Check 4
 			Given screen state: 230
 			Then clicked [Exact]
-#Action: 25 Click Close - Check 4
+#Action: 24 Click Close - Check 4
 			Given screen state: 231
 			Then clicked /MidButtons/,[Close]
-#Action: 26 Exact Payment - Check 5
+#Action: 25 Exact Payment - Check 5
 			Given screen state: 232
 			Then clicked [Exact]
-#Action: 27 Click Close - Check 5
+#Action: 26 Click Close - Check 5
 			Given screen state: 233
 			Then clicked /MidButtons/,[Close]
-#Action: 28 Exit FloorPlan
+#Action: 27 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]

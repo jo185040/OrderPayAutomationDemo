@@ -881,6 +881,19 @@ State:268
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:266
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"Check 5"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
 State:265
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -961,6 +974,69 @@ State:264
 	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
 	[X]
 	[OK]
+State:263
+/SplitSeatScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"For Table"
+/CheckOrSeat.2/
+	"Seat 1"
+	"COKE"
+	"7 UP"
+	"ICED COFFEE"
+/CheckOrSeat.3/
+	"Seat 2"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split check]
+	[Close]
+State:262
+/SplitSeatScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"For Table"
+/CheckOrSeat.2/
+	"Seat 1"
+	"COKE"
+	"7 UP"
+	"CORONA"
+/CheckOrSeat.3/
+	"Seat 2"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split check]
+	[Close]
+State:261
+/WWTScreen/
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
+	[btnSetTabEntry]
+/Tabs/
+	[btnSetTableEntry]
+/Tables/
+	"1"
+/TopRightButtons/
+	[Exit]
+	[New Order]
+	[Get Check]
+	[Transfer Table]
+	[Back]
+/CenterRightButtons/
+	[Show\Time opened]
+/BottomRightButtons/
+	"Sort by:"
+	[Time Created]
+	[Name]
+	[Time Opened]
+	[Order\Descending]
 State:260
 /TenderScreen/
 /TopRightButtons/
@@ -2842,7 +2918,7 @@ State:225
 	"Tax"
 	"0.00"
 	"Total"
-	"0.00"
+	"0.00.2"
 /Tenders/
 	"Change"
 	"$0.00"
@@ -12303,9 +12379,9 @@ State:102
 	"COKE"
 	"2.00"
 	"7 UP"
-	"2.00"
+	"2.00.2"
 	"ICED COFFEE"
-	"2.00"
+	"2.00.3"
 /Seats/
 	[T]
 	[1]
@@ -12383,9 +12459,9 @@ State:100
 	"2.00"
 	"Seat 2"
 	"COKE"
-	"2.00"
+	"2.00.2"
 	"7 UP"
-	"2.00"
+	"2.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -12440,9 +12516,9 @@ State:099
 	"2.00"
 	"Seat 2"
 	"COKE"
-	"2.00"
+	"2.00.2"
 	"7 UP"
-	"2.00"
+	"2.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -12496,9 +12572,9 @@ State:098
 	"2.00"
 	"Seat 2"
 	"COKE"
-	"2.00"
+	"2.00.2"
 	"7 UP"
-	"2.00"
+	"2.00.3"
 /Seats/
 	[T]
 	[1]
@@ -14055,15 +14131,15 @@ State:065
 	"WATER"
 	"Seat 5"
 	"ICED TEA"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
 	"Seat 2"
 	"COKE"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Check 3"
 	"Seat 3"
 	"DIET COKE"
-/CheckOrSeat/
+/CheckOrSeat.4/
 	"Check 4"
 	"Seat 4"
 	"DIET 7UP"
@@ -14086,11 +14162,11 @@ State:064
 	"DIET 7UP"
 	"Seat 5"
 	"ICED TEA"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
 	"Seat 2"
 	"COKE"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Check 3"
 	"Seat 3"
 	"DIET COKE"
@@ -14115,7 +14191,7 @@ State:063
 	"DIET 7UP"
 	"Seat 5"
 	"ICED TEA"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
 	"Seat 2"
 	"COKE"
@@ -14157,7 +14233,7 @@ State:061
 	"Check 1"
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Check 2"
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
@@ -14191,10 +14267,10 @@ State:059
 	"Table 1"
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-/CheckOrSeat/
+/CheckOrSeat.3/
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
@@ -14210,7 +14286,7 @@ State:058
 	"Table 1"
 /CheckOrSeat/
 	"For Table"
-/CheckOrSeat/
+/CheckOrSeat.2/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"

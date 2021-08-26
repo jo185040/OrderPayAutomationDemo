@@ -1,4 +1,5 @@
 #TODO ALOHAP-32783 blocking this section from working
+#TODO ALOHAP-33013 OK button showing prematurely
 Feature: 33 Transfer Table
 
 
@@ -37,13 +38,13 @@ Scenario: 1 Transfer Table to Server
 			Given screen state: 036
 			Then clicked [Transfer Table]
 #Action: 10 Select Manager Jeffrey
-			Given screen state: 012
+			Given screen state: 024
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 11 Select "Table 1" on Transfer Screen
-			Given screen state: 012
+			Given screen state: 024
 			Then clicked /TransferTables/,"1"
 #Action: 12 Select "Lebron James" on Transfer Screen
-			Given screen state: 012
+			Given screen state: 024
 			Then clicked /ReceiveEmployees/,"LEBRON JAMES"
 #Action: 13 Select OK
 			Given screen state: 012

@@ -1,4 +1,4 @@
-Feature: 19 Quality
+Feature: 19 Quantity
 
 
 Scenario: 1 Quantity
