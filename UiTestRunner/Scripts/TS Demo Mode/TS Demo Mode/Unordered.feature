@@ -3,7 +3,7 @@ Feature: 31 Unordered
 
 Scenario: 1 Login as manager 200 to Floor Plan
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -31,10 +31,10 @@ Scenario: 1 Login as manager 200 to Floor Plan
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [$]
 #Action: 9 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00",/Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.31","Total","10.31",/Tenders/,"Balance Due","$10.31"
+			Given screen state: 247
 			Then clicked [Exact]
 #Action: 10 Click Close
-			Given screen state: 211
+			Given screen state: 248
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
 			Given screen state: 558

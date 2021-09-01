@@ -3,7 +3,7 @@ Feature: 20 Open Items
 
 Scenario: 1 Verify you can order an �Open Item� from Retail Menu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -35,24 +35,25 @@ Scenario: 1 Verify you can order an �Open Item� from Retail Menu
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 8 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
+			Given screen state: 473
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
+			Given screen state: 473
 			Then clicked [$]
 #Action: 10 Exact Payment
-			Then verify presence of "2.00",/ItemEntries/,"Seat 1","TEST",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"Balance Due","$2.12"
+			Given screen state: 474
 			Then clicked [Exact]
 #Action: 11 Click Close
-			Then verify presence of "2.00",/ItemEntries/,"Seat 1","TEST",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"CASH","2.12","Change","$0.00"
+			Given screen state: 475
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
+			#TODO ALOHAP-33147
 			Given screen state: 558
 			When clicked [Exit]
 
 Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -94,7 +95,7 @@ Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 
 Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -137,7 +138,7 @@ Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
 
 Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -202,7 +203,7 @@ Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Ret
 
 Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -260,7 +261,7 @@ Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier fr
 
 Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -319,7 +320,7 @@ Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from
 
 Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -377,7 +378,7 @@ Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Re
 
 Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -428,7 +429,7 @@ Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retai
 
 Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -480,7 +481,7 @@ Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail 
 
 Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -539,7 +540,7 @@ Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier 
 
 Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -591,7 +592,7 @@ Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price fro
 
 Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -644,7 +645,7 @@ Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from 
 
 Scenario: 13 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]

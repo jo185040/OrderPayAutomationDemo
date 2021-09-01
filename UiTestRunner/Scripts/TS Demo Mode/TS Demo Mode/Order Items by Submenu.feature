@@ -3,7 +3,7 @@ Feature: 36 Order Items by Submenu
 
 Scenario: 1 Verify you can order items from Soup & Salad Menu (Server)
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -19,35 +19,35 @@ Scenario: 1 Verify you can order items from Soup & Salad Menu (Server)
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /CenterMenuButtons/,[SOUP & SALADS]
 #Action: 5 Add Chopped Salad
-			Given screen state: 115
+			Given screen state: 479
 			Then clicked "CHOPPED\SALAD"
 #Action: 6 Add Caesar Salad
-			Given screen state: 081
+			Given screen state: 480
 			Then clicked "CAESAR\SALAD"
 			Then clicked /RightModifierButtons/,[ADD\CHICKEN]
 #Action: 7 Add House Salad
-			Given screen state: 043
+			Given screen state: 481
 			Then clicked "HOUSE\SALAD"
 			Then clicked /RightModifierButtons/,[RANCH]
 			Then clicked /RightModifierButtons/,[ADD\CHICKEN]
 #Action: 8 Add Chicken Caesar Salad
-			Given screen state: 048
+			Given screen state: 482
 			Then clicked "CHICKEN\CAESAR"
 #Action: 9 Add Soup of the Day
-			Given screen state: 094
+			Given screen state: 483
 			Then clicked "SOUP\OF DAY"
 			Then clicked /RightModifierButtons/,[CUP]
 #Action: 10 Apply HERE Ordermode
-			Given screen state: 052
+			Given screen state: 484
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 052
+			Given screen state: 485
 			Then clicked [$]
 #Action: 12 Exact Payment
-			Given screen state: 068
+			Given screen state: 486
 			Then clicked [Exact]
 #Action: 13 Click Close
-			Given screen state: 069
+			Given screen state: 487
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
 			Given screen state: 558
@@ -55,7 +55,7 @@ Scenario: 1 Verify you can order items from Soup & Salad Menu (Server)
 
 Scenario: 2 Verify you can order items from Desserts Menu (Server)
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -71,25 +71,25 @@ Scenario: 2 Verify you can order items from Desserts Menu (Server)
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /CenterMenuButtons/,[DESSERT]
 #Action: 5 Add Carrot Cake
-			Given screen state: 070
+			Given screen state: 488
 			Then clicked "CARROT\CAKE"
 #Action: 6 Add Chocolate Cake
-			Given screen state: 071
+			Given screen state: 489
 			Then clicked "CHOCOLATE\CAKE"
 #Action: 7 Add CheeseCake
-			Given screen state: 073
+			Given screen state: 490
 			Then clicked "CHEESECAKE"
 #Action: 8 Apply HERE Ordermode
-			Given screen state: 074
+			Given screen state: 491
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
-			Given screen state: 074
+			Given screen state: 491
 			Then clicked [$]
 #Action: 10 Exact Payment
-			Given screen state: 075
+			Given screen state: 492
 			Then clicked [Exact]
 #Action: 11 Click Close
-			Given screen state: 076
+			Given screen state: 493
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
 			Given screen state: 558
@@ -97,7 +97,7 @@ Scenario: 2 Verify you can order items from Desserts Menu (Server)
 
 Scenario: 3 Verify you can order items from Sandwiches Menu (Server)
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -113,36 +113,36 @@ Scenario: 3 Verify you can order items from Sandwiches Menu (Server)
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /CenterMenuButtons/,[SANDWICHES]
 #Action: 5 Add Buff Chix
-			Given screen state: 077
+			Given screen state: 494
 			Then clicked "BUFF CHIX\WRAP"
 			Then clicked /RightModifierButtons/,[FRIES]
 #Action: 6 Add Veggie Chix
-			Given screen state: 078
+			Given screen state: 495
 			Then clicked "VEGGIE\WRAP"
 			Then clicked /RightModifierButtons/,[FRIES]
 #Action: 7 Add Chix SLD Chix
-			Given screen state: 080
+			Given screen state: 496
 			Then clicked "CHIX SLD\SAND"
 			Then clicked /RightModifierButtons/,[FRIES]
 #Action: 8 Add Ham Sandwich
-			Given screen state: 082
+			Given screen state: 497
 			Then clicked "HAM\SANDWICH"
 			Then clicked /RightModifierButtons/,[FRIES]
 #Action: 9 Add Cali Chx Sandwich
-			Given screen state: 083
+			Given screen state: 498
 			Then clicked "CALI CHIX\WRAP"
 			Then clicked /RightModifierButtons/,[FRIES]
 #Action: 10 Apply HERE Ordermode
-			Given screen state: 084
+			Given screen state: 499
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 084
+			Given screen state: 500
 			Then clicked [$]
 #Action: 12 Exact Payment
-			Given screen state: 085
+			Given screen state: 501
 			Then clicked [Exact]
 #Action: 13 Click Close
-			Given screen state: 087
+			Given screen state: 502
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
 			Given screen state: 558
@@ -150,7 +150,7 @@ Scenario: 3 Verify you can order items from Sandwiches Menu (Server)
 
 Scenario: 4 Verify you can order items from Beer Menu (Server)
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -167,28 +167,28 @@ Scenario: 4 Verify you can order items from Beer Menu (Server)
 			When swiped up on /CenterMenuButtons/
 			Then clicked /CenterMenuButtons/,[BEER]
 #Action: 5 Add Miller Lite
-			Given screen state: 088
+			Given screen state: 503
 			Then clicked "MILLER\LITE"
 #Action: 6 Add Blue Moon
-			Given screen state: 089
+			Given screen state: 504
 			Then clicked "BLUE\MOON"
 #Action: 7 Add Corona
-			Given screen state: 090
+			Given screen state: 505
 			Then clicked "CORONA"
 #Action: 8 Add High Life
-			Given screen state: 091
+			Given screen state: 506
 			Then clicked "HIGH\LIFE"
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 092
+			Given screen state: 507
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 092
+			Given screen state: 507
 			Then clicked [$]
 #Action: 11 Exact Payment
-			Given screen state: 095
+			Given screen state: 508
 			Then clicked [Exact]
 #Action: 12 Click Close
-			Given screen state: 097
+			Given screen state: 509
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
