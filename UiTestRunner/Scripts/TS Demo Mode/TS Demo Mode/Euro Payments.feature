@@ -3,7 +3,8 @@ Feature: 9 Euro Payments
 
 Scenario: 1 Login as manager 200 to Floor Plan
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			#TODO ALOHAP-33043 Euro payments crashing the application
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -19,13 +20,13 @@ Scenario: 1 Login as manager 200 to Floor Plan
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
 #Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
+			Given screen state: 249
 			Then clicked [HERE]
 #Action: 6 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
+			Given screen state: 249
 			Then clicked [$]
 #Action: 7 Euro Payment
-			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31"
+			Given screen state: 250
 			Then clicked /MidLeftButtons/,[Euro]
 #Action: 8 Select OK
 			Then verify presence of /CurrencyInputDialog/,"Enter amount in EUR","$","3.54",[<]
