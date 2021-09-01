@@ -3,7 +3,7 @@ Feature: 14 OrderMode
 
 Scenario: 1 Dine-In Order Mode
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -25,16 +25,16 @@ Scenario: 1 Dine-In Order Mode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
+			Given screen state: 246
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
+			Given screen state: 246
 			Then clicked [$]
 #Action: 9 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.31","Total","10.31",/Tenders/,"Balance Due","$10.31"
+			Given screen state: 247
 			Then clicked [Exact]
 #Action: 10 Click Close
-			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
+			Given screen state: 248
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
 			Given screen state: 558
@@ -42,7 +42,7 @@ Scenario: 1 Dine-In Order Mode
 
 Scenario: 2 ToGO Indicator Mode
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -58,20 +58,20 @@ Scenario: 2 ToGO Indicator Mode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
 #Action: 5 Apply TOGO Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
+			Given screen state: 249
 			Then clicked [TO GO]
 #Action: 6 Select Pork Nachos Ordermode
 			Then verify presence of /ItemSelectionDialog/,"Select items to order",/DialogSeparator/,^SELECT ALL^,"SELECT ALL",/Items/,"Check 1",^PORK NACHOS^,"PORK NACHOS",[Cancel],[OK*]
 			Then clicked /Items/,^PORK NACHOS^
 			Then clicked /Items/,[OK]
 #Action: 7 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","-> PORK NACHOS","5.00"
+			Given screen state: 249
 			Then clicked [$]
 #Action: 8 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","-> PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"Balance Due","$5.31"
+			Given screen state: 250
 			Then clicked [Exact]
 #Action: 9 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","-> PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"Balance Due","$5.31","Change","$0.00","CASH"
+			Given screen state: 252
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
 			Given screen state: 558
@@ -79,7 +79,7 @@ Scenario: 2 ToGO Indicator Mode
 
 Scenario: 3 Order Pork Chop Mods
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
@@ -106,6 +106,7 @@ Scenario: 3 Order Pork Chop Mods
 #Action: 8 On Soup Mod, select Cup
 			Then verify presence of /RightModifierButtons/,[CUP],[HOUSE\SALAD]
 			Then clicked [CUP]
+			Then clicked [OK]
 #Action: 9 On Oatmeal, select Add Modifiers
 			Then verify presence of /RightModifierButtons/,[ADD\BRWN SUGAR]
 			Then clicked /RightModifierButtons/,[ADD\BRWN SUGAR]
@@ -131,13 +132,13 @@ Scenario: 3 Order Pork Chop Mods
 			Then verify presence of /RightModifierButtons/,[FRIES],[NO SIDE]
 			Then clicked /RightModifierButtons/,[SWT POT\FRIES]
 #Action: 16 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK CHOP MODS\ MEDIUM\ Baked Potato\ CUP\ ADD BRWN SUGAR\ ADD RAISIN\ ADD GRANOLA\ ON CROISSANT\ SUB HASHBROWNS\ VEGGIE\ WHITE\ RANCH\ SWT POT FRIES","0.00\\\\\\\\1.50\\\\1.00"
+			Given screen state: 434
 			Then clicked [$]
 #Action: 17 Exact Payment
-			Then verify presence of /ItemEntries/,"PORK CHOP MODS\ MEDIUM\ Baked Potato\ CUP\ ADD BRWN SUGAR\ ADD RAISIN\ ADD GRANOLA\ ON CROISSANT\ SUB HASHBROWNS\ VEGGIE\ WHITE\ RANCH\ SWT POT FRIES","0.00\\\\\\\\1.50\\\\1.00",/Comps/,"Sub Total","2.50",/Taxes/,"Tax","0.15"
+			Given screen state: 435
 			Then clicked [Exact]
 #Action: 18 Click Close
-			Then verify presence of /ItemEntries/,"PORK CHOP MODS\ MEDIUM\ Baked Potato\ CUP\ ADD BRWN SUGAR\ ADD RAISIN\ ADD GRANOLA\ ON CROISSANT\ SUB HASHBROWNS\ VEGGIE\ WHITE\ RANCH\ SWT POT FRIES","0.00\\\\\\\\1.50\\\\1.00",/Comps/,"Sub Total","2.50",/Taxes/,"Tax","0.15"
+			Given screen state: 435
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
 			Given screen state: 558
