@@ -70,6 +70,237 @@ State:558
 	[Open\Drawer]
 	[6]
 	[Get\Check]
+State:439
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"2.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Cash"
+	"2.00"
+	"Change"
+	"$0.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:438
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"2.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:437
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"WATER"
+	"0.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"0.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"0.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Change"
+	"$0.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:436
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Table"
+	"WATER"
+	"0.00"
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"WATER"
+	"COKE"
+	"DIET COKE"
+	"DIET 7UP"
+	"ICED TEA"
+	"COFFEE"
+	"ICED\COFFEE"
+	"Wldfre\Sauce"
+	"Fanta\Orange"
+	"Fanta\Grape"
+	"Fanta\Strby"
+	"SWEET TEA"
+	"POWERADE"
+	"HI C ORANGE"
+	"PEPSI"
+	"CHERRY\PEPSI"
+	"OJ"
+	"CRANBERRY"
+	"CHERRY\SPRITE"
+	"7 UP"
+	"DIET SPRITE"
+	[˅]
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:435
 /TenderScreen/
 /TopRightButtons/
