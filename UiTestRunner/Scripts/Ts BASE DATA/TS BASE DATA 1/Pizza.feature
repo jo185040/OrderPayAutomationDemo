@@ -391,6 +391,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
 			#TODO ALOHAP-32844 cannot move items via split seat.
+			#TODO fix moving items
 			Given screen state: 558
 			When clicked [Exit]
 

@@ -32,16 +32,16 @@ Scenario: 1 Add Check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [$]
 #Action: 9 Exact Payment
-			Then verify presence of /Tenders/,"Balance Due","$2.00",/Comps/,"Sub Total","2.00"
+			Given screen state: 242
 			Then clicked [Exact]
 #Action: 10 Close Check 1
-			Then verify presence of /Tenders/,"CASH","2.00","Change","$0.00"
+			Given screen state: 243
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exact Payment
-			Then verify presence of /Tenders/,"Balance Due","$2.00",/Comps/,"Sub Total","2.00"
+			Given screen state: 244
 			Then clicked [Exact]
 #Action: 12 Close Check 2
-			Then verify presence of /Tenders/,"CASH","2.00","Change","$0.00"
+			Given screen state: 245
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558

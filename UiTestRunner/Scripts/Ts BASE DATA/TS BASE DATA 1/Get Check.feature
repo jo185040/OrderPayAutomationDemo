@@ -64,12 +64,11 @@ Scenario: 2 Get Tab
 			Then clicked [btnSetTabEntry]
 #Action: 4 Open Tab
 			Given screen state: 038
-			Then clicked [btnHideOrShowKeyboard]
-			Then verify presence of /EnterTabNameKeyboard/,[Ok]
+			Then clicked [New Order]
 			When waited for 0.01 min
-			Then clicked /EnterTabNameKeyboard/,[j]
-			Then clicked /EnterTabNameKeyboard/,[1]
-			Then clicked /EnterTabNameKeyboard/,[Ok]
+			Then clicked /DialogSeparator/,[j]
+			Then clicked /DialogSeparator/,[1]
+			Then clicked /DialogSeparator/,[Ok]
 #Action: 5 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
@@ -88,7 +87,7 @@ Scenario: 2 Get Tab
 			Given screen state: 558
 			Then clicked [WWT\Screen]
 #Action: 10 Click Get Check
-			Given screen state: 106
+			Given screen state: 251
 			Then clicked /TopRightButtons/,[Get Check]
 #Action: 11 Click Tab Button
 			Given screen state: 107

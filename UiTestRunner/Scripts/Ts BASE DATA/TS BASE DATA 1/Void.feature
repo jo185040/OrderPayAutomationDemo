@@ -23,7 +23,7 @@ Scenario: 1 Verify you can void items with no issues
 			Then clicked [HERE]
 #Action: 6 Select Coke on Check
 			Given screen state: 164
-			Then clicked "COKE"
+			Then clicked /EntriesBySeat/,"COKE"
 #Action: 7 Void COKE
 			Given screen state: 164
 			Then clicked /BottomButtons/,[Void]
@@ -67,7 +67,7 @@ Scenario: 2 Verify you can clear (delete) unordered an item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 6 Select OK
-			Then verify presence of /ConfirmDialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
+			Given screen state: 248
 			Then clicked /ConfirmDialog/,[OK]
 #Action: 7 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]

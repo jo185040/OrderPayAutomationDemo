@@ -44,7 +44,7 @@ Scenario: 1 Verify you can order an �Open Item� from Retail Menu
 			Then verify presence of "2.00",/ItemEntries/,"Seat 1","TEST",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"Balance Due","$2.12"
 			Then clicked [Exact]
 #Action: 11 Click Close
-			Then verify presence of "2.00",/ItemEntries/,"Seat 1","TEST",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"CASH","2.12","Change","$0.00"
+			Given screen state: 246
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
 			Given screen state: 558

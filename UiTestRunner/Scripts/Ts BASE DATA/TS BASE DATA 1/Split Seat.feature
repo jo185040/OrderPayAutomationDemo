@@ -27,22 +27,25 @@ Scenario: 1 Login as manager 200 to Floor Plan
 #Action: 7 Click 'Add' to move 7Up to new Seat 2
 			Given screen state: 101
 			Then clicked [Add]
-#Action: 8 Close Split Seat Screen
+#Action: 8 Move item to seat 2
+			Given screen state: 262
+			Then clicked /CheckOrSeat.3/
+#Action: 9 Close Split Seat Screen
 			Given screen state: 245
 			Then clicked [Close]
-#Action: 9 Apply HERE Ordermode
+#Action: 10 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
-#Action: 10 Select $ on Payment Screen
+#Action: 11 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [$]
-#Action: 11 Exact Payment
+#Action: 12 Exact Payment
 			Then verify presence of /Taxes/,"Tax","0.00","Total","7.00",/Tenders/,"Balance Due","$7.00",
 			Then clicked [Exact]
-#Action: 12 Click Close
+#Action: 13 Click Close
 			Then verify presence of /Tenders/,"CASH","7.00","Change","$0.00",
 			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
+#Action: 14 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 
@@ -79,22 +82,25 @@ Scenario: 2 Select Multiple Items on Split Check
 #Action: 9 Add Check
 			Given screen state: 035
 			Then clicked [Add]
-#Action: 10 Click Close Button
+#Action: 10 Move Items to Seat 2
+			Given screen state: 263
+			Then clicked /CheckOrSeat.3/
+#Action: 11 Click Close Button
 			Given screen state: 008
 			Then clicked [Close]
-#Action: 11 Apply HERE Ordermode
+#Action: 12 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
-#Action: 12 Select $ on Payment Screen
+#Action: 13 Select $ on Payment Screen
 			Given screen state: 098
 			Then clicked [$]
-#Action: 13 Exact Payment
+#Action: 14 Exact Payment
 			#NOTE for Dmitri's setup [Get Mobile Pay Code] is enabled even thought ATG has it off (comes from some where elce)
 			Given screen state: 099
 			Then clicked [Exact]
-#Action: 14 Click Close
+#Action: 15 Click Close
 			Given screen state: 100
 			Then clicked /MidButtons/,[Close]
-#Action: 15 Exit FloorPlan
+#Action: 16 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]

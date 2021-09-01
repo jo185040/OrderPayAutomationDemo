@@ -31,7 +31,7 @@ Scenario: 1 Pay with House Account & No Tip
 			Then verify presence of /CurrencyInputDialog/,"Enter amount","$","2.00",[<]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 9 Skip Tip on Dialog
-			Then verify presence of /BaseToolbarButtons/,[Cancel],"Add Tip",[Skip],"Subtotal $2.00",/TipChoice/,"15%","$0.30","20%","$0.40","25%","$0.50","Custom Tip"
+			Given screen state: 247
 			Then clicked /BaseToolbarButtons/,[Skip]
 #Action: 10 Add House Account 78
 			Then verify presence of /KeyboardEntryDialog/,"Enter Account Name/Number"
@@ -78,7 +78,7 @@ Scenario: 2 Pay with House Account & 15% Tip
 			Then verify presence of /CurrencyInputDialog/,"Enter amount","$","2.00",[<]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 9 Skip Tip on Dialog
-			Then verify presence of /BaseToolbarButtons/,[Cancel],"Add Tip",[Skip],"Subtotal $2.00",/TipChoice/,"15%","$0.30","20%","$0.40","25%","$0.50","Custom Tip"
+			Given screen state: 247
 			Then clicked /TipChoice/,"15%"
 #Action: 10 Add House Account 78
 			Then verify presence of /KeyboardEntryDialog/,"Enter Account Name/Number"
