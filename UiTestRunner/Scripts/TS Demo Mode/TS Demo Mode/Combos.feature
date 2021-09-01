@@ -1,7 +1,7 @@
+#TODO ALOHAP-32985 support modifiers needs to be resolved.
 Feature: 5 Combos
 
 
-#TODO ALOHAP-32985 support modifiers needs to be resolved.
 Scenario: 1 Verify you can add combo
 @ignore
 #Action: 1 Login as manager 200

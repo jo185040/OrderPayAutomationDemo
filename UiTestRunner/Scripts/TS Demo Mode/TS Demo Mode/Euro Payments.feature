@@ -3,7 +3,7 @@ Feature: 9 Euro Payments
 
 Scenario: 1 Login as manager 200 to Floor Plan
 #Action: 1 Login as manager 200
-			#TODO ALOHAP-33043 Euro payments crashing the application
+			#Then clicked
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -29,11 +29,14 @@ Scenario: 1 Login as manager 200 to Floor Plan
 			Given screen state: 250
 			Then clicked /MidLeftButtons/,[Euro]
 #Action: 8 Select OK
-			Then verify presence of /CurrencyInputDialog/,"Enter amount in EUR","$","3.54",[<]
+			Given screen state: 251
 			Then clicked /DialogSeparator/,[OK]
-#Action: 9 Click Close
-			Then verify presence of /Tenders/,"Euro /3.54","5.31","Change","$0.00"
+#Action: 9 Exact Payment
+			Given screen state: 250
+			Then clicked [Exact]
+#Action: 10 Click Close
+			Given screen state: 252
 			Then clicked /MidButtons/,[Close]
-#Action: 10 Exit FloorPlan
+#Action: 11 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]

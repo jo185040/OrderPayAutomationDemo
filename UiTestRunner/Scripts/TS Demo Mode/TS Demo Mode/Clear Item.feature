@@ -1,3 +1,4 @@
+#TODO ALOHAP-33130 table not clearing after deleting items.
 Feature: 2 Clear Item
 
 
