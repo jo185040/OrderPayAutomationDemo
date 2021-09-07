@@ -93,7 +93,34 @@ Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
+Scenario: 3 Verify you can cancel "Open Item Price" from Retail Submenu
+#Action: 1 Login as manager 200
+			Then verify presence of /LoginForm/,"Demo Mode"
+			When clicked [2],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 2 Floor Plan select Table 1
+			Given screen state: 558
+			Then clicked [1]
+#Action: 3 Enter Guest Count 1
+			Given screen state: 025
+			When clicked /DialogSeparator/,[1]
+			And clicked [OK]
+#Action: 4 Select Entrees Menu
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			When swiped up on /CenterMenuButtons/
+			Then clicked /CenterMenuButtons/,[RETAIL]
+#Action: 5 Order Open Item
+			Then verify presence of /CenterMenuButtons/,[RETAIL]
+			Then clicked "OPEN ITEM PRICE"
+#Action: 6 Canel Modifier Screen
+			Given screen state: 515
+			Then clicked /DialogSeparator/,[X]
+#Action: 7 Click Done
+			Given screen state: 516
+			Then clicked /TopLeftButtons/,[Done]
+
+Scenario: 4 Verify you can order "Open Item Des" from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -136,7 +163,7 @@ Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
+Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -201,7 +228,7 @@ Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Ret
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier from Retail Submenu
+Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Price Modifier from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -259,7 +286,7 @@ Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier fr
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from Retail Submenu
+Scenario: 7 Verify you can order "Open Item MOD" with Open Mod Des Modifier from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -318,7 +345,7 @@ Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Retail Submenu
+Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -376,7 +403,7 @@ Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Re
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retail Submenu
+Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Price from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -427,7 +454,7 @@ Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retai
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail Submenu
+Scenario: 10 Verify you can order "Open Price MOD" with Open Mod Des from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -479,7 +506,7 @@ Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail 
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier from Retail Submenu
+Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -538,7 +565,7 @@ Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier 
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price from Retail Submenu
+Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Price from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -590,7 +617,7 @@ Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price fro
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from Retail Submenu
+Scenario: 13 Verify you can order "Open Description MOD" with Open Mod Des from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -643,7 +670,7 @@ Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from 
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 13 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
+Scenario: 14 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]

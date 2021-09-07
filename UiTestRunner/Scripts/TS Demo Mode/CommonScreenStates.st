@@ -70,6 +70,181 @@ State:558
 	[Open\Drawer]
 	[6]
 	[Get\Check]
+State:517
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	[Script]
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+/MessageDialog/
+	"Delete Item Error"
+/DialogSeparator/
+	"You have not selected an item which can be deleted"
+	[X]
+	[OK]
+State:516
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+State:515
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+/CurrencyInputDialog/
+	"Enter price"
+	"$"
+	"0.00"
+	[<]
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK*]
+	[X]
 State:514
 /TenderScreen/
 /TopRightButtons/
