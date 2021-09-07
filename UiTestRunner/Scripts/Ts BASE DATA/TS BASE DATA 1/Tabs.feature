@@ -10,37 +10,34 @@ Scenario: 1 Open Tab
 #Action: 2 Select WWT Screen
 			Given screen state: 558
 			Then clicked [WWT\Screen]
-#Action: 3 Select Tab
+#Action: 3 Open Tab
 			Given screen state: 038
-			Then clicked [btnSetTabEntry]
-#Action: 4 Open Tab
-			Given screen state: 038
-			Then clicked /TopRightButtons/,[New Order]
+			Then clicked [New Tab]
 			When waited for 0.01 min
 			Then clicked /DialogSeparator/,[j]
 			Then clicked /DialogSeparator/,[1]
 			Then clicked /DialogSeparator/,[Ok]
-#Action: 5 Enter Guest Count 1
+#Action: 4 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
 			And clicked [OK]
 			Then verify absence of "Enter Guest Count"
-#Action: 6 Add COKE
+#Action: 5 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
-#Action: 7 Apply HERE Ordermode
+#Action: 6 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked [HERE]
-#Action: 8 Select $ on Payment Screen
+#Action: 7 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked [$]
-#Action: 9 Exact Payment
+#Action: 8 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
-#Action: 10 Click Close
+#Action: 9 Click Close
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
-#Action: 11 Exit FloorPlan
+#Action: 10 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 
@@ -53,45 +50,42 @@ Scenario: 2 Rename Tab
 #Action: 2 Select WWT Screen
 			Given screen state: 558
 			Then clicked [WWT\Screen]
-#Action: 3 Select Tab
+#Action: 3 Open Tab
 			Given screen state: 038
-			Then clicked [btnSetTabEntry]
-#Action: 4 Open Tab
-			Given screen state: 038
-			Then clicked /TopRightButtons/,[New Order]
+			Then clicked [New Tab]
 			When waited for 0.01 min
 			Then clicked /DialogSeparator/,[j]
 			Then clicked /DialogSeparator/,[1]
 			Then clicked /DialogSeparator/,[Ok]
-#Action: 5 Enter Guest Count 1
+#Action: 4 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
 			And clicked [OK]
 			Then verify absence of "Enter Guest Count"
-#Action: 6 Add COKE
+#Action: 5 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
-#Action: 7 Rename Check
+#Action: 6 Rename Check
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TableAndChecks/,"j1"
-#Action: 8 Rename Check to T2
+#Action: 7 Rename Check to T2
 			Then verify presence of /KeyboardEntryDialog/,"Rename Tab"
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[Ok]
-#Action: 9 Apply HERE Ordermode
+#Action: 8 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked [HERE]
-#Action: 10 Select $ on Payment Screen
+#Action: 9 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked [$]
-#Action: 11 Exact Payment
+#Action: 10 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
-#Action: 12 Click Close
+#Action: 11 Click Close
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
+#Action: 12 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 

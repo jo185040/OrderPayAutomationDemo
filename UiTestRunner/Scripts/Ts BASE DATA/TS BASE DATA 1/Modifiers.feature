@@ -70,13 +70,13 @@ Scenario: 2 Modifier Weight 1
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\CHOP"
 #Action: 6 On Meat Temp Press OK
-			Given screen state: 134
+			Given screen state: 271
 			Then clicked [MEDIUM]
 #Action: 7 On Starch press Baked Potato OK
-			Given screen state: 135
+			Given screen state: 273
 			Then clicked [Baked Potato]
 #Action: 8 On Soup Mod, select Cup
-			Given screen state: 136
+			Given screen state: 276
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 1","PORK CHOP\ MEDIUM\ Baked Potato\ CUP","11.99"
@@ -213,7 +213,7 @@ Scenario: 5 Refill Drink
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE\","2.00"
+			Given screen state: 277
 			Then clicked [HERE]
 #Action: 11 Select Coke
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE","2.00"
@@ -264,10 +264,10 @@ Scenario: 6 Verify refill do not go to other items
 			Given screen state: 142
 			Then clicked [OK]
 #Action: 11 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","7 UP","2.00","COKE\ COKE\","2.00"
+			Given screen state: 278
 			Then clicked [HERE]
-#Action: 12 Select Coke
-			Then verify presence of /EntriesBySeat/,"Seat 1","7 UP","2.00","COKE\ COKE\","2.00"
+#Action: 12 Select Payment
+			Given screen state: 278
 			Then clicked [$]
 #Action: 13 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 1","7 UP","2.00","COKE\ COKE","2.00",/Comps/,"4.00",/Taxes/,"4.00"
@@ -312,16 +312,16 @@ Scenario: 7 Verify refill can be deleted
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Select Coke with refill
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE\ COKE\"
+			Given screen state: 277
+			Then clicked "COKE\ COKE"
 #Action: 11 Modify Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [Modify]
 #Action: 12 Select Coke with refill
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE\","2.00"
+			Given screen state: 279
 			Then clicked " - COKE"
 #Action: 13 Delete Modifier Coke
-			Given screen state: 143
+			Given screen state: 279
 			Then clicked [Delete Modifier]
 #Action: 14 OK Modifier Coke
 			Given screen state: 146
@@ -330,7 +330,7 @@ Scenario: 7 Verify refill can be deleted
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [$]
 #Action: 16 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
+			Given screen state: 143
 			Then clicked [Exact]
 #Action: 17 Click Close
 			Then verify presence of /Tenders/,"CASH","2.00","Change","$0.00"
@@ -459,7 +459,7 @@ Scenario: 9 Verify you cannot refill a voided item
 			Given screen state: 147
 			Then clicked [OK]
 #Action: 19 Select Payment
-			Given screen state: 148
+			Given screen state: 280
 			Then clicked [$]
 #Action: 20 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"

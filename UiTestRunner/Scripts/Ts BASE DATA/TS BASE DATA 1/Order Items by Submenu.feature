@@ -139,7 +139,7 @@ Scenario: 3 Verify you can order items from Sandwiches Menu (Server)
 			Given screen state: 084
 			Then clicked [$]
 #Action: 12 Exact Payment
-			Given screen state: 085
+			Given screen state: 285
 			Then clicked [Exact]
 #Action: 13 Click Close
 			Given screen state: 087

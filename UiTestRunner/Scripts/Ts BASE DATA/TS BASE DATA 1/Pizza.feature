@@ -471,7 +471,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			Then clicked [Add]
 #Action: 23 Select Seat 2
 			Given screen state: 224
-			Then clicked /CheckOrSeat/,"Seat 2"
+			Then clicked /CheckOrSeat.3/
 #Action: 24 Split Check
 			Given screen state: 294
 			Then clicked [Split check]
@@ -481,6 +481,7 @@ Scenario: 8 Verify you add a pizza to a split check
 #Action: 26 Add Check
 			Given screen state: 297
 			Then clicked [Add]
+			Then clicked /CheckOrSeat.2/
 #Action: 27 Close Check
 			Given screen state: 298
 			Then clicked [Close]

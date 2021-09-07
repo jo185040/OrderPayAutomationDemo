@@ -34,10 +34,10 @@ Scenario: 1 Refill Drink
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE\","2.00"
+			Given screen state: 277
 			Then clicked [HERE]
 #Action: 11 Select Coke
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE\","2.00"
+			Given screen state: 277
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 1","COKE\ COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
@@ -82,10 +82,10 @@ Scenario: 2 Repeat Refill Drink
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE\","2.00"
+			Given screen state: 277
 			Then clicked [HERE]
 #Action: 11 Repeat Refill Drink
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE\","2.00"
+			Given screen state: 277
 			Then clicked /BottomButtons/,[Repeat]
 #Action: 12 Select OK Button
 			Then verify presence of /DialogSeparator/,"Repeat is not permitted on Refillable Items"

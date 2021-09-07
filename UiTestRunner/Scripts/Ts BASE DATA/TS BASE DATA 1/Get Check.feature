@@ -59,53 +59,50 @@ Scenario: 2 Get Tab
 #Action: 2 Select WWT Screen
 			Given screen state: 558
 			Then clicked [WWT\Screen]
-#Action: 3 Select Tab
+#Action: 3 Open Tab
 			Given screen state: 038
-			Then clicked [btnSetTabEntry]
-#Action: 4 Open Tab
-			Given screen state: 038
-			Then clicked [New Order]
+			Then clicked [New Tab]
 			When waited for 0.01 min
 			Then clicked /DialogSeparator/,[j]
 			Then clicked /DialogSeparator/,[1]
 			Then clicked /DialogSeparator/,[Ok]
-#Action: 5 Enter Guest Count 1
+#Action: 4 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
 			And clicked [OK]
 			Then verify absence of "Enter Guest Count"
-#Action: 6 Add COKE
+#Action: 5 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
-#Action: 7 Apply HERE Ordermode
+#Action: 6 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
-#Action: 8 Go to Floorplan
+#Action: 7 Go to Floorplan
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
-#Action: 9 Click WWT Screen
+#Action: 8 Click WWT Screen
 			Given screen state: 558
 			Then clicked [WWT\Screen]
-#Action: 10 Click Get Check
+#Action: 9 Click Get Check
 			Given screen state: 251
 			Then clicked /TopRightButtons/,[Get Check]
-#Action: 11 Click Tab Button
+#Action: 10 Click Tab Button
 			Given screen state: 107
 			Then clicked /TopGetButtons/,[Get Tab]
-#Action: 12 Get Check "Tab 1"
+#Action: 11 Get Check "Tab 1"
 			Given screen state: 310
 			Then clicked /Keyboard/,[j]
 			Then clicked /Keyboard/,[1]
 			Then clicked /Keyboard/,[Ok]
-#Action: 13 Select $ on Payment Screen
+#Action: 12 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked [$]
-#Action: 14 Exact Payment
+#Action: 13 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
-#Action: 15 Click Close
+#Action: 14 Click Close
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
-#Action: 16 Exit FloorPlan
+#Action: 15 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
