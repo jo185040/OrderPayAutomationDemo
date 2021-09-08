@@ -78,16 +78,16 @@ Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM PRICE","2.00"
+			Given screen state: 518
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM PRICE","2.00"
+			Given screen state: 518
 			Then clicked [$]
 #Action: 9 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","OPEN ITEM PRICE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"Balance Due","$2.12"
+			Given screen state: 519
 			Then clicked [Exact]
 #Action: 10 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","OPEN ITEM PRICE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"Balance Due","$2.12"
+			Given screen state: 520
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
 			Given screen state: 558
@@ -148,18 +148,15 @@ Scenario: 4 Verify you can order "Open Item Des" from Retail Submenu
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","10.00"
+			Given screen state: 521
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","10.00"
+			Given screen state: 521
 			Then clicked [$]
-#Action: 9 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61",/Tenders/,"Balance Due","$10.61"
-			Then clicked [Exact]
-#Action: 10 Click Close
-			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61",/Tenders/,"CASH","10.61","Change","$0.00"
+#Action: 9 Click Close
+			Given screen state: 522
 			Then clicked /MidButtons/,[Close]
-#Action: 11 Exit FloorPlan
+#Action: 10 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 
