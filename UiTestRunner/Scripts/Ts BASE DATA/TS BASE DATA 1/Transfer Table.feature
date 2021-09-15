@@ -47,7 +47,7 @@ Scenario: 1 Transfer Table to Server
 			Given screen state: 024
 			Then clicked /ReceiveEmployees/,"LEBRON JAMES"
 #Action: 13 Select OK
-			Given screen state: 024
+			Given screen state: 012
 			Then clicked [OK]
 #Action: 14 Exit WWT Screen
 			Given screen state: 036
@@ -737,7 +737,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Given screen state: 281
 			Then clicked /MidButtons/,[Close]
 #Action: 30 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 2","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
+			Given screen state: 286
 			Then clicked [Exact]
 #Action: 31 Click Close
 			Given screen state: 282
@@ -784,7 +784,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 251
 			Then clicked [Transfer Table]
 #Action: 10 Select Manager Jeffrey
-			Given screen state: 024
+			Given screen state: 011
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
 #Action: 11 Select "Table 1" on Transfer Screen
 			Given screen state: 011
@@ -827,10 +827,10 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 031
 			Then clicked /Tabs/,"j1"
 #Action: 23 Select Tab j1 on Transfer Tables
-			Given screen state: 050
+			Given screen state: 118
 			Then clicked "j1"
 #Action: 24 Select Merge Table Button
-			Given screen state: 050
+			Given screen state: 118
 			Then clicked /RightCommands/,[Merge Table]
 #Action: 25 Merge Table 2
 			Given screen state: 033
@@ -845,13 +845,13 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"Balance Due","$5.31"
 			Then clicked [Exact]
 #Action: 29 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"CASH","$5.31","Change","$0.00"
+			Given screen state: 249
 			Then clicked /MidButtons/,[Close]
 #Action: 30 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 2","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 31 Click Close
-			Then verify presence of /ItemEntries/,"Seat 2","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 250
 			Then clicked /MidButtons/,[Close]
 #Action: 32 Exit FloorPlan
 			Given screen state: 558

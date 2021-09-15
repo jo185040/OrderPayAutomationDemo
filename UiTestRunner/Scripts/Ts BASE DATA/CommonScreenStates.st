@@ -665,6 +665,57 @@ State:294
 	[Add]
 	[Split check]
 	[Close]
+State:286
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"j1"
+	[Check 2]
+/ItemEntries/
+	"Seat 2"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:285
 /TenderScreen/
 /TopRightButtons/
@@ -809,6 +860,7 @@ State:282
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -861,6 +913,7 @@ State:281
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2310,6 +2363,7 @@ State:254
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2362,6 +2416,7 @@ State:253
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2414,6 +2469,7 @@ State:252
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2472,6 +2528,7 @@ State:251
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -2488,6 +2545,7 @@ State:250
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2540,6 +2598,7 @@ State:249
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4844,6 +4903,7 @@ State:208
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -12730,6 +12790,7 @@ State:117
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -12869,6 +12930,7 @@ State:113
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -12891,6 +12953,7 @@ State:112
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -12931,6 +12994,7 @@ State:111
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -12954,6 +13018,7 @@ State:110
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -12976,6 +13041,7 @@ State:109
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -13092,6 +13158,7 @@ State:106
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13195,6 +13262,7 @@ State:104
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -13216,6 +13284,7 @@ State:103
 	[New Table]
 /TopRightButtons/
 	[Exit]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -15216,6 +15285,7 @@ State:055
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -15456,23 +15526,6 @@ State:051
 	[⌫]
 	[Ok*]
 	[X]
-State:050
-/ReceiveTransfersScreen/
-	"MIGUEL SAAVEDRA"
-	"Transfers"
-	"List of incoming transfers"
-/IncomingTables/
-	"j1"
-	"List of existing owned tabs"
-/ExistingTables/
-	"j1"
-/RightCommands/
-	[OK]
-	[New Table]
-	[New Tab]
-	[Merge Table]
-	[Merge Tab]
-	[Cancel]
 State:049
 /WWTScreen/
 	"MIGUEL"
@@ -15956,6 +16009,7 @@ State:038
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -15995,6 +16049,7 @@ State:036
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -16130,6 +16185,7 @@ State:031
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -16153,6 +16209,7 @@ State:030
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -16175,6 +16232,7 @@ State:029
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -16261,6 +16319,7 @@ State:026
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -16589,6 +16648,7 @@ State:018
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
