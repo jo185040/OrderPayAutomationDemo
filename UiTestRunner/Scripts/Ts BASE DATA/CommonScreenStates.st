@@ -545,6 +545,7 @@ State:310
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -722,6 +723,7 @@ State:285
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -960,64 +962,6 @@ State:281
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:280
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"COKE"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:279
 /OrderScreen/
 /TopLeftButtons/
@@ -1243,109 +1187,6 @@ State:277
 	[Modify]
 	[Delete]
 	""
-State:276
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"0.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-/ModifierScreen/
-	"PORK CHOP"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"PORK CHOP"
-	"11.99"
-	" - MEDIUM"
-	" - Baked Potato"
-/CenterCategoryButtons/
-	[MEAT TEMP]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[CUP]
-	[*]
-	[*.2]
-	[HOUSE\SALAD]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[*.14]
-	[CAESAR\SALAD]
-	[*.15]
-	[BOWL]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:275
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -1425,108 +1266,6 @@ State:274
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-State:273
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"0.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-/ModifierScreen/
-	"PORK CHOP"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"PORK CHOP"
-	"11.99"
-	" - MEDIUM"
-/CenterCategoryButtons/
-	[MEAT TEMP]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Baked Potato]
-	[*]
-	[BUFFET]
-	[No Starch]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[Black Beans]
-	[*.14]
-	[Red Beans]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:272
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -1570,108 +1309,6 @@ State:272
 /DialogSeparator/
 	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
 	[X]
-	[OK]
-State:271
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"0.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-/ModifierScreen/
-	"PORK CHOP"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"PORK CHOP"
-	"11.99"
-/CenterCategoryButtons/
-	[MEAT TEMP]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[BLACK & BLUE]
-	[MEDIUM\WELL]
-	[*]
-	[MEDIUM]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[MED RARE]
-	[*.14]
-	[RARE]
-	[WELL]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
 	[OK]
 State:270
 /PizzaModifierScreen/
@@ -2028,6 +1665,7 @@ State:260
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2715,6 +2353,7 @@ State:247
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2781,6 +2420,7 @@ State:246
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2959,6 +2599,7 @@ State:239
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3479,6 +3120,7 @@ State:233
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3531,6 +3173,7 @@ State:232
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3581,6 +3224,7 @@ State:231
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3633,6 +3277,7 @@ State:230
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3683,6 +3328,7 @@ State:229
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3735,6 +3381,7 @@ State:228
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3785,6 +3432,7 @@ State:227
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3837,6 +3485,7 @@ State:226
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3887,6 +3536,7 @@ State:225
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3956,6 +3606,7 @@ State:223
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4008,6 +3659,7 @@ State:222
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4305,6 +3957,7 @@ State:218
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4357,6 +4010,7 @@ State:217
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4691,6 +4345,7 @@ State:212
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4745,6 +4400,7 @@ State:211
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4801,6 +4457,7 @@ State:210
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4851,6 +4508,7 @@ State:209
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -10389,6 +10047,7 @@ State:143
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13119,6 +12778,7 @@ State:107
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -13217,6 +12877,7 @@ State:105
 /TopRightButtons/
 	[Exit]
 	[Get Check]
+	[View Tips]
 	[Transfer Table]
 	[Back]
 /CenterRightButtons/
@@ -13382,6 +13043,7 @@ State:100
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13439,6 +13101,7 @@ State:099
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13559,6 +13222,7 @@ State:097
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13651,6 +13315,7 @@ State:095
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14052,6 +13717,7 @@ State:087
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14591,6 +14257,7 @@ State:076
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14647,6 +14314,7 @@ State:075
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14916,6 +14584,7 @@ State:069
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14971,6 +14640,7 @@ State:068
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -17197,6 +16867,7 @@ State:001
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/

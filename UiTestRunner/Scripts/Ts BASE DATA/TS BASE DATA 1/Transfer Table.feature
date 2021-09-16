@@ -1036,84 +1036,81 @@ Scenario: 12 Verify you can transfer tab with new table.
 #Action: 2 Select WWT Screen
 			Given screen state: 558
 			Then clicked [WWT\Screen]
-#Action: 3 Select Tab
+#Action: 3 Open Tab
 			Given screen state: 038
-			Then clicked [btnSetTabEntry]
-#Action: 4 Open Tab
-			Given screen state: 038
-			Then clicked /TopRightButtons/,[New Order]
+			Then clicked [New Tab]
 			When waited for 0.01 min
 			Then clicked /DialogSeparator/,[j]
 			Then clicked /DialogSeparator/,[1]
 			Then clicked /DialogSeparator/,[Ok]
-#Action: 5 Enter Guest Count 1
+#Action: 4 Enter Guest Count 1
 			Given screen state: 055
 			When clicked /DialogSeparator/,[1]
 			And clicked [OK]
 			Then verify absence of "Enter Guest Count"
-#Action: 6 Add COKE
+#Action: 5 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
-#Action: 7 Apply HERE Ordermode
+#Action: 6 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked [HERE]
-#Action: 8 Go to the WWT Screen
+#Action: 7 Go to the WWT Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
-#Action: 9 Select WWT Screen
+#Action: 8 Select WWT Screen
 			Given screen state: 558
 			Then clicked [WWT\Screen]
-#Action: 10 Transfer Table
+#Action: 9 Transfer Table
 			Given screen state: 251
 			Then clicked [Transfer Table]
-#Action: 11 Select Manager Jeffrey
-			Given screen state: 020
+#Action: 10 Select Manager Jeffrey
+			Given screen state: 011
 			Then clicked /TransferFromEmployees/,"JEFFREY OYENEYE"
-#Action: 12 Select "Table 1" on Transfer Screen
-			Given screen state: 020
+#Action: 11 Select "Table 1" on Transfer Screen
+			Given screen state: 011
 			Then clicked /TransferTables/,"j1"
-#Action: 13 Select "Miguel Saavedra" on Transfer Screen
-			Given screen state: 020
+#Action: 12 Select "Miguel Saavedra" on Transfer Screen
+			Given screen state: 011
 			Then clicked /ReceiveEmployees/,"MIGUEL SAAVEDRA"
-#Action: 14 Select OK
+#Action: 13 Select OK
 			Given screen state: 020
 			Then clicked [OK]
-#Action: 15 Exit WWT Screen
+#Action: 14 Exit WWT Screen
 			Given screen state: 251
 			Then clicked /TopRightButtons/,[Exit]
-#Action: 16 Login as Manager 201
+#Action: 15 Login as Manager 201
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[1]
 			And clicked [Login]
 			Then verify absence of [Login]
-#Action: 17 Select WWT Screen
+#Action: 16 Select WWT Screen
 			Given screen state: 558
 			Then clicked [WWT\Screen]
-#Action: 18 Select Tab
+#Action: 17 Select Tab
 			Given screen state: 109
 			Then clicked /Tabs/,"j1"
-#Action: 19 Select Tab j1 on Transfer Tables
+#Action: 18 Select Tab j1 on Transfer Tables
 			Given screen state: 118
 			Then clicked "j1"
-#Action: 20 Select New Table Button
+#Action: 19 Select New Table Button
 			Given screen state: 118
 			Then clicked [New Table]
-#Action: 21 Enter Table 2
+#Action: 20 Enter Table 2
 			Given screen state: 119
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[OK]
-#Action: 22 Select Table 2
+#Action: 21 Select Table 2
 			Given screen state: 111
 			Then clicked /Tables/,"2"
-#Action: 23 Select $ on Payment Screen
+#Action: 22 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [$]
-#Action: 24 Exact Payment
+#Action: 23 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
-#Action: 25 Click Close
+#Action: 24 Click Close
 			Then verify presence of /ItemEntries/,"COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
-#Action: 26 Exit FloorPlan
+#Action: 25 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
