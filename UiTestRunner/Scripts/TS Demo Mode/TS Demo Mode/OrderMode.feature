@@ -106,7 +106,6 @@ Scenario: 3 Order Pork Chop Mods
 #Action: 8 On Soup Mod, select Cup
 			Then verify presence of /RightModifierButtons/,[CUP],[HOUSE\SALAD]
 			Then clicked [CUP]
-			Then clicked [OK]
 #Action: 9 On Oatmeal, select Add Modifiers
 			Then verify presence of /RightModifierButtons/,[ADD\BRWN SUGAR]
 			Then clicked /RightModifierButtons/,[ADD\BRWN SUGAR]

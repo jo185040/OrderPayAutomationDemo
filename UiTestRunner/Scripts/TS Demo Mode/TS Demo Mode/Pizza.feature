@@ -34,7 +34,7 @@ Scenario: 1 Verify order item from Pizza Menu
 			Given screen state: 443
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 444
+			Given screen state: 443
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 445
@@ -79,7 +79,7 @@ Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
 			Given screen state: 450
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 451
+			Given screen state: 450
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 452
@@ -128,7 +128,7 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			Given screen state: 455
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 456
+			Given screen state: 455
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 457
@@ -178,7 +178,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			Given screen state: 463
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 464
+			Given screen state: 463
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 465
@@ -233,7 +233,7 @@ Scenario: 5 Verify you can add a typed modifier to a pizza item
 			Given screen state: 469
 			Then clicked [HERE]
 #Action: 12 Select $ on Payment Screen
-			Given screen state: 470
+			Given screen state: 469
 			Then clicked [$]
 #Action: 13 Exact Payment
 			Given screen state: 471

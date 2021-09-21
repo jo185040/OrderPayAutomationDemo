@@ -30,12 +30,11 @@ Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 #Action: 8 On Soup Mod, select Cup
 			Given screen state: 340
 			Then clicked [CUP]
-			Then clicked [OK]
 #Action: 9 Apply HERE Ordermode
 			Given screen state: 342
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 343
+			Given screen state: 342
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 344
@@ -72,7 +71,7 @@ Scenario: 2 Forced Modifier
 			Given screen state: 283
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
-			Given screen state: 285
+			Given screen state: 283
 			Then clicked [$]
 #Action: 8 Exact Payment
 			Given screen state: 286
@@ -136,7 +135,7 @@ Scenario: 3 Verify Combo Scenario
 			Given screen state: 353
 			Then clicked [HERE]
 #Action: 16 Select $ on Payment Screen
-			Given screen state: 354
+			Given screen state: 353
 			Then clicked [$]
 #Action: 17 Exact Payment
 			Given screen state: 355
@@ -180,24 +179,19 @@ Scenario: 4 Delete Modifier
 #Action: 9 On Add Chicken Mod add Chicken
 			Given screen state: 360
 			Then clicked [ADD\CHICKEN]
-#Action: 10 On Delete Chicken
+#Action: 10 Apply HERE Ordermode
 			Given screen state: 361
-			Then clicked " -  - ADD CHICKEN"
-			Then clicked [Delete Modifier]
-			Then clicked [OK]
-#Action: 11 Apply HERE Ordermode
-			Given screen state: 362
 			Then clicked [HERE]
-#Action: 12 Select $ on Payment Screen
-			Given screen state: 363
+#Action: 11 Select $ on Payment Screen
+			Given screen state: 361
 			Then clicked [$]
-#Action: 13 Exact Payment
+#Action: 12 Exact Payment
 			Given screen state: 364
 			Then clicked [Exact]
-#Action: 14 Click Close
+#Action: 13 Click Close
 			Given screen state: 365
 			Then clicked /MidButtons/,[Close]
-#Action: 15 Exit FloorPlan
+#Action: 14 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 
@@ -253,7 +247,7 @@ Scenario: 5 Verify Bread Scenario
 			Given screen state: 373
 			Then clicked [HERE]
 #Action: 16 Select $ on Payment Screen
-			Given screen state: 374
+			Given screen state: 373
 			Then clicked [$]
 #Action: 17 Exact Payment
 			Given screen state: 375
@@ -306,6 +300,7 @@ Scenario: 6 Verify adding separate modifier on panel
 
 Scenario: 7 Burrito Persona Modifier Flow
 #Action: 1 Login as manager 200
+			#TODO ALOHAP-33205 The modifier flow is not working correctly.
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -332,24 +327,31 @@ Scenario: 7 Burrito Persona Modifier Flow
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 7 On Burrito Beans R, White Beans
 			Given screen state: 382
-			Then clicked /RightModifierButtons/,[Verde]
+			Then clicked /RightModifierButtons/,[White Beans]
 #Action: 8 On Burrito Meat R, Select Chicken
-			Given screen state: 383
-			Then clicked /RightModifierButtons/,[Corn]
-			Then clicked /RightModifierButtons/,[Corn]
-#Action: 9 Apply HERE Ordermode
-			Given screen state: 384
+			Given screen state: 257
+			Then clicked /RightModifierButtons/,[Chicken]
+			Then clicked /RightModifierButtons/,[Chicken]
+#Action: 9 On Burrito Salsa R, Verde
+			Given screen state: 269
+			Then clicked /RightModifierButtons/,[Verde]
+#Action: 10 On Burrito Vege R, Tomato
+			Given screen state: 280
+			Then clicked /RightModifierButtons/,[Tomato]
+			Then clicked /BottomLeftButtons/,[OK]
+#Action: 11 Apply HERE Ordermode
+			Given screen state: 285
 			Then clicked [HERE]
-#Action: 10 Select $ on Payment Screen
-			Given screen state: 385
+#Action: 12 Select $ on Payment Screen
+			Given screen state: 285
 			Then clicked [$]
-#Action: 11 Exact Payment
-			Given screen state: 386
+#Action: 13 Exact Payment
+			Given screen state: 296
 			Then clicked [Exact]
-#Action: 12 Click Close
-			Given screen state: 387
+#Action: 14 Click Close
+			Given screen state: 307
 			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
+#Action: 15 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 
@@ -385,7 +387,7 @@ Scenario: 8 Burrito Classic Modifier Flow
 			Given screen state: 390
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
-			Given screen state: 391
+			Given screen state: 390
 			Then clicked [$]
 #Action: 10 Exact Payment
 			Given screen state: 392
@@ -434,13 +436,13 @@ Scenario: 9 Wrap Modifier Flow
 			Given screen state: 405
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 409
+			Given screen state: 405
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 410
 			Then clicked [Exact]
 #Action: 12 Click Close
-			Given screen state: 411
+			Given screen state: 313
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
@@ -485,7 +487,7 @@ Scenario: 10 pcDarkBrstr Modifier Flow
 			Given screen state: 417
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 418
+			Given screen state: 417
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 419
@@ -528,7 +530,7 @@ Scenario: 11 Platter Scenario - Stand Canapes
 			Given screen state: 424
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
-			Given screen state: 425
+			Given screen state: 424
 			Then clicked [$]
 #Action: 10 Exact Payment
 			Given screen state: 426
@@ -575,7 +577,7 @@ Scenario: 12 Platter Scenario - Special Canapes
 			Given screen state: 430
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 431
+			Given screen state: 430
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 432

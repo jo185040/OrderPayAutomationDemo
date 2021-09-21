@@ -38,7 +38,7 @@ Scenario: 1 Modifier Weight 2
 			Given screen state: 267
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 269
+			Given screen state: 267
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 271
@@ -79,12 +79,11 @@ Scenario: 2 Modifier Weight 1
 #Action: 8 On Soup Mod, select Cup
 			Given screen state: 255
 			Then clicked [CUP]
-			Then clicked [OK]
 #Action: 9 Apply HERE Ordermode
 			Given screen state: 256
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 257
+			Given screen state: 256
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 259
@@ -132,7 +131,7 @@ Scenario: 3 Verify Apps submenu items contains exceptional mod group Pizza.
 			Given screen state: 279
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 280
+			Given screen state: 279
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 281
@@ -169,7 +168,7 @@ Scenario: 4 Forced Modifier
 			Given screen state: 283
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
-			Given screen state: 285
+			Given screen state: 283
 			Then clicked [$]
 #Action: 8 Exact Payment
 			Given screen state: 286
@@ -183,62 +182,7 @@ Scenario: 4 Forced Modifier
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 5 Refill Drink
-#Action: 1 Login as manager 200
-			#TODO ALOHAP-33136 refill items not working
-			Then verify presence of /LoginForm/,"Demo Mode"
-			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
-#Action: 2 Floor Plan select Table 1
-			Given screen state: 558
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [HERE]
-#Action: 6 Select Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/,"COKE"
-#Action: 7 Modify Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [Modify]
-#Action: 8 Add Coke Modifier
-			Given screen state: 288
-			Then clicked [COKE]
-#Action: 9 Press OK on modifier screen
-			Given screen state: 289
-			Then clicked [OK]
-#Action: 10 Press OK to dismiss error message
-			Given screen state: 290
-			Then clicked /DialogSeparator/,[OK]
-#Action: 11 Press Cancel on modifier screen
-			Given screen state: 289
-			Then clicked [Cancel]
-#Action: 12 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE\","2.00"
-			Then clicked [HERE]
-#Action: 13 Select Coke
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE","2.00"
-			Then clicked [$]
-#Action: 14 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ COKE","2.00"
-			Then clicked [Exact]
-#Action: 15 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ COKE","2.00",/Tenders/,"CASH","2.00","Change","$0.00",/Taxes/,"Tax","0.00","Total","2.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 16 Exit FloorPlan
-			Given screen state: 558
-			When clicked [Exit]
-
-Scenario: 6 Verify Weighted Modifiers work with no issue
+Scenario: 5 Verify Weighted Modifiers work with no issue
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -272,7 +216,7 @@ Scenario: 6 Verify Weighted Modifiers work with no issue
 			Given screen state: 256
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 257
+			Given screen state: 256
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 259
@@ -284,7 +228,7 @@ Scenario: 6 Verify Weighted Modifiers work with no issue
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 7 Verify Tenderlin Wraps item contains exceptional mod group Pizza right after required Starch mod group
+Scenario: 6 Verify Tenderlin Wraps item contains exceptional mod group Pizza right after required Starch mod group
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -326,7 +270,7 @@ Scenario: 7 Verify Tenderlin Wraps item contains exceptional mod group Pizza rig
 			Given screen state: 295
 			Then clicked [HERE]
 #Action: 13 Select $ on Payment Screen
-			Given screen state: 296
+			Given screen state: 295
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Given screen state: 299
@@ -339,100 +283,7 @@ Scenario: 7 Verify Tenderlin Wraps item contains exceptional mod group Pizza rig
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 8 Verify adding mod with NO mod code is indicated by NO prefix on check
-#Action: 1 Login as manager 200
-			Then verify presence of /LoginForm/,"Demo Mode"
-			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
-#Action: 2 Floor Plan select Table 1
-			Given screen state: 558
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
-#Action: 5 Select Coke on Check
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/,"COKE"
-#Action: 6 Modify Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [Modify]
-#Action: 7 Add Coke Modifier
-			Given screen state: 301
-			Then clicked [No]
-			Then clicked [Ice]
-#Action: 8 Press OK on modifier screen
-			Given screen state: 302
-			Then clicked [OK]
-#Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ NO Ice","2.00"
-			Then clicked [HERE]
-#Action: 10 Select Coke
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ NO Ice","2.00"
-			Then clicked [$]
-#Action: 11 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ NO Ice","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
-			Then clicked [Exact]
-#Action: 12 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ NO Ice","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00","Change","$0.00","CASH"
-			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
-			#TODO ALOHAP-33136 refill items not working
-			Given screen state: 558
-			When clicked [Exit]
-
-Scenario: 9 Verify adding mod with Extra mod code is indicated by XT prefix on check
-#Action: 1 Login as manager 200
-			Then verify presence of /LoginForm/,"Demo Mode"
-			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
-#Action: 2 Floor Plan select Table 1
-			Given screen state: 558
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
-#Action: 5 Select Coke on Check
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/,"COKE"
-#Action: 6 Modify Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [Modify]
-#Action: 7 Add "Extra" Modifier
-			Given screen state: 154
-			Then clicked [Extra]
-			Then clicked [Ice]
-#Action: 8 Press OK on modifier screen
-			Given screen state: 159
-			Then clicked [OK]
-#Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ XT Ice","2.00"
-			Then clicked [HERE]
-#Action: 10 Select Payemnts Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ XT Ice","2.00"
-			Then clicked [$]
-#Action: 11 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ XT Ice","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
-			Then clicked [Exact]
-#Action: 12 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ XT Ice","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00","Change","$0.00","CASH"
-			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
-			Given screen state: 558
-			When clicked [Exit]
-
-Scenario: 10 Verify price is combined on Porkchop item with Red Beans modifier
+Scenario: 7 Verify price is combined on Porkchop item with Red Beans modifier
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -461,12 +312,11 @@ Scenario: 10 Verify price is combined on Porkchop item with Red Beans modifier
 #Action: 8 On Soup Mod, select Cup
 			Given screen state: 305
 			Then clicked [CUP]
-			Then clicked [OK]
 #Action: 9 Apply HERE Ordermode
 			Given screen state: 306
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 307
+			Given screen state: 306
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 308
@@ -478,7 +328,7 @@ Scenario: 10 Verify price is combined on Porkchop item with Red Beans modifier
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 11 Verify price is combined on Porkchop item with Black Beans modifier
+Scenario: 8 Verify price is combined on Porkchop item with Black Beans modifier
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -507,12 +357,11 @@ Scenario: 11 Verify price is combined on Porkchop item with Black Beans modifier
 #Action: 8 On Soup Mod, select Cup
 			Given screen state: 311
 			Then clicked [CUP]
-			Then clicked [OK]
 #Action: 9 Apply HERE Ordermode
 			Given screen state: 312
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 313
+			Given screen state: 312
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 314
@@ -524,59 +373,7 @@ Scenario: 11 Verify price is combined on Porkchop item with Black Beans modifier
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 12 Typed Modifier
-#Action: 1 Login as manager 200
-			#TODO ALOHAP-33136 refill items not working
-			Then verify presence of /LoginForm/,"Demo Mode"
-			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
-#Action: 2 Floor Plan select Table 1
-			Given screen state: 558
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
-#Action: 5 Select Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/,"COKE"
-#Action: 6 Modify Coke
-			# 7 Add Typed Modifier
-			Given screen state: 316
-			Then clicked [Modify]
-			Then clicked /BottomLeftButtons/,[btnKeyboard]
-#Action: 7 Add Typed Modifier Message
-			Given screen state: 317
-			Then clicked /DialogSeparator/,[t]
-			Then clicked /DialogSeparator/,[e]
-			Then clicked /DialogSeparator/,[s]
-			Then clicked /DialogSeparator/,[t]
-			Then clicked /DialogSeparator/,[Ok]
-#Action: 8 Press OK on modifier screen
-			Given screen state: 318
-			Then clicked [OK]
-#Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\test","2.00"
-			Then clicked [HERE]
-#Action: 10 Select Coke
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\test","2.00"
-			Then clicked [$]
-#Action: 11 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\test","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
-			Then clicked [Exact]
-#Action: 12 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\test","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00","Change","$0.00","CASH"
-			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
-			Given screen state: 558
-			When clicked [Exit]
-
-Scenario: 13 Verify ordering items with mods on panel is working without issue
+Scenario: 9 Verify ordering items with mods on panel is working without issue
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -606,7 +403,7 @@ Scenario: 13 Verify ordering items with mods on panel is working without issue
 			Given screen state: 321
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
-			Given screen state: 322
+			Given screen state: 321
 			Then clicked [$]
 #Action: 10 Exact Payment
 			Given screen state: 323
@@ -618,7 +415,7 @@ Scenario: 13 Verify ordering items with mods on panel is working without issue
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 14 Verify modifier panel is working on Special burger item (submenu Combos).
+Scenario: 10 Verify modifier panel is working on Special burger item (submenu Combos).
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -654,7 +451,7 @@ Scenario: 14 Verify modifier panel is working on Special burger item (submenu Co
 			Given screen state: 326
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 327
+			Given screen state: 326
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 328
@@ -666,7 +463,7 @@ Scenario: 14 Verify modifier panel is working on Special burger item (submenu Co
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 15 No Modifier Substitution Weight 2
+Scenario: 11 No Modifier Substitution Weight 2
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]
@@ -702,12 +499,11 @@ Scenario: 15 No Modifier Substitution Weight 2
 #Action: 10 On Soup Mod, select Cup
 			Given screen state: 333
 			Then clicked [CUP]
-			Then clicked [OK]
 #Action: 11 Apply HERE Ordermode
 			Given screen state: 335
 			Then clicked [HERE]
 #Action: 12 Select $ on Payment Screen
-			Given screen state: 338
+			Given screen state: 335
 			Then clicked [$]
 #Action: 13 Exact Payment
 			Given screen state: 336

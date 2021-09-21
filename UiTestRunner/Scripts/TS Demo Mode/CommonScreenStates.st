@@ -76,6 +76,7 @@ State:522
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -183,6 +184,7 @@ State:520
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -240,6 +242,7 @@ State:519
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2578,6 +2581,7 @@ State:475
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2635,6 +2639,7 @@ State:474
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2742,6 +2747,7 @@ State:472
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2750,7 +2756,7 @@ State:472
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Sausage Pizza\test\ Pan\ Sausage\"
+	"Sausage Pizza\test\ Pan\ Sausage"
 	"10.00"
 /Promos/
 /Comps/
@@ -2770,6 +2776,8 @@ State:472
 /Tenders/
 	"Cash"
 	"10.00"
+	"Change"
+	"$0.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -2796,6 +2804,7 @@ State:471
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -2804,7 +2813,8 @@ State:471
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Sausage Pizza\test\ Pan\ Sausage\"
+	"Table"
+	"Sausage Pizza\test\ Pan\ Sausage"
 	"10.00"
 /Promos/
 /Comps/
@@ -2844,52 +2854,6 @@ State:471
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:470
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Sausage Pizza\test\ Pan\ Sausage\"
-	"10.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"Peperoni\Pizza"
-	"Cheese\Pizza"
-	"Sausage\Pizza"
-	"Veg 7\Thin"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:469
 /OrderScreen/
 /TopLeftButtons/
@@ -3152,6 +3116,7 @@ State:466
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3160,7 +3125,7 @@ State:466
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Veg 7 Thin\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR\"
+	"Veg 7 Thin\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 	"10.00"
 /Promos/
 /Comps/
@@ -3177,6 +3142,8 @@ State:466
 	""
 	"Total"
 	"0.00"
+	"Cash"
+	"10.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -3203,6 +3170,7 @@ State:465
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3211,7 +3179,7 @@ State:465
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Veg 7 Thin\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR\"
+	"Veg 7 Thin\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 	"10.00"
 /Promos/
 /Comps/
@@ -3228,6 +3196,7 @@ State:465
 	""
 	"Total"
 	"0.00"
+/Tenders/
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -3248,52 +3217,6 @@ State:465
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:464
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Veg 7 Thin\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR\"
-	"10.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"Peperoni\Pizza"
-	"Cheese\Pizza"
-	"Sausage\Pizza"
-	"Veg 7\Thin"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:463
 /OrderScreen/
 /TopLeftButtons/
@@ -3670,6 +3593,7 @@ State:458
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3678,7 +3602,7 @@ State:458
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Sausage Pizza\ Pan\ Chicken\ Cheese\ Beef\"
+	"Sausage Pizza\ Pan\ Chicken\ Cheese\ Beef"
 	"10.00"
 /Promos/
 /Comps/
@@ -3724,6 +3648,7 @@ State:457
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3732,7 +3657,7 @@ State:457
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Sausage Pizza\ Pan\ Chicken\ Cheese\ Beef\"
+	"Sausage Pizza\ Pan\ Chicken\ Cheese\ Beef"
 	"10.00"
 /Promos/
 /Comps/
@@ -3772,61 +3697,6 @@ State:457
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:456
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Sausage Pizza\ Pan\ Chicken\ Cheese\ Beef\"
-	"10.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	[Script]
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:455
 /OrderScreen/
 /TopLeftButtons/
@@ -3971,6 +3841,7 @@ State:453
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -3979,7 +3850,8 @@ State:453
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Sausage Pizza\ Pan\ Chicken\"
+	"Table"
+	"Sausage Pizza\ Pan\ Chicken"
 	"10.00"
 /Promos/
 /Comps/
@@ -4027,6 +3899,7 @@ State:452
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4036,7 +3909,7 @@ State:452
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"Sausage Pizza\ Pan\ Chicken\"
+	"Sausage Pizza\ Pan\ Chicken"
 	"10.00"
 /Promos/
 /Comps/
@@ -4076,61 +3949,6 @@ State:452
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:451
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Sausage Pizza\ Pan\ Chicken\"
-	"10.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	[Script]
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:450
 /OrderScreen/
 /TopLeftButtons/
@@ -4432,6 +4250,7 @@ State:446
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4440,7 +4259,8 @@ State:446
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Sausage Pizza\ Pan\ Sausage\"
+	"Table"
+	"Sausage Pizza\ Pan\ Sausage"
 	"10.00"
 /Promos/
 /Comps/
@@ -4488,6 +4308,7 @@ State:445
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4497,7 +4318,7 @@ State:445
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"Sausage Pizza\ Pan\ Sausage\"
+	"Sausage Pizza\ Pan\ Sausage"
 	"10.00"
 /Promos/
 /Comps/
@@ -4537,52 +4358,6 @@ State:445
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:444
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Sausage Pizza\ Pan\ Sausage\"
-	"10.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"Peperoni\Pizza"
-	"Cheese\Pizza"
-	"Sausage\Pizza"
-	"Veg 7\Thin"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:443
 /OrderScreen/
 /TopLeftButtons/
@@ -4872,6 +4647,7 @@ State:439
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4929,6 +4705,7 @@ State:438
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -4984,6 +4761,7 @@ State:437
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -5103,6 +4881,7 @@ State:435
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -5111,7 +4890,7 @@ State:435
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"PORK CHOP MODS\ MEDIUM\ Baked Potato\ CUP\ ADD BRWN SUGAR\ ADD RAISIN\ ADD GRANOLA\ ON CROISSANT\ SUB HASHBROWNS\ VEGGIE\ WHITE\ RANCH\ SWT POT FRIES\"
+	"PORK CHOP MODS\ MEDIUM\ Baked Potato\ CUP\ ADD BRWN SUGAR\ ADD RAISIN\ ADD GRANOLA\ ON CROISSANT\ SUB HASHBROWNS\ VEGGIE\ WHITE\ RANCH\ SWT POT FRIES"
 	"0.00\8.00\\3.50\\\\\1.50\\0.80\\1.00"
 /Promos/
 /Comps/
@@ -5198,6 +4977,7 @@ State:433
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -5206,7 +4986,7 @@ State:433
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes\"
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
 /Promos/
 /Comps/
@@ -5252,6 +5032,7 @@ State:432
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -5260,7 +5041,7 @@ State:432
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes\"
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
 /Promos/
 /Comps/
@@ -5300,64 +5081,6 @@ State:432
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:431
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes\"
-	"0.00\3.50\\\1.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:430
 /OrderScreen/
 /TopLeftButtons/
@@ -5598,6 +5321,7 @@ State:427
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -5606,7 +5330,8 @@ State:427
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Platter\ Stand canapes\ Cheese Canapes\"
+	"Table"
+	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
 /Promos/
 /Comps/
@@ -5654,6 +5379,7 @@ State:426
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -5663,7 +5389,7 @@ State:426
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"Platter\ Stand canapes\ Cheese Canapes\"
+	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
 /Promos/
 /Comps/
@@ -5703,64 +5429,6 @@ State:426
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:425
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Platter\ Stand canapes\ Cheese Canapes\"
-	"0.00\2.50\1.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:424
 /OrderScreen/
 /TopLeftButtons/
@@ -6029,6 +5697,7 @@ State:420
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -6037,7 +5706,7 @@ State:420
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie\"
+	"3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie"
 	"9.99\\1.99\\\9.99"
 /Promos/
 /Comps/
@@ -6054,6 +5723,7 @@ State:420
 	""
 	"Total"
 	"0.00"
+/Tenders/
 	"Cash"
 	"9.99"
 /MidButtons/
@@ -6082,6 +5752,7 @@ State:419
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -6090,7 +5761,7 @@ State:419
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie\"
+	"3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie"
 	"9.99\\1.99\\\9.99"
 /Promos/
 /Comps/
@@ -6108,6 +5779,8 @@ State:419
 	"Total"
 	"0.00"
 /Tenders/
+	"Balance Due"
+	"$9.99"
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -6128,64 +5801,6 @@ State:419
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:418
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie\"
-	"9.99\\1.99\\\9.99"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:417
 /OrderScreen/
 /TopLeftButtons/
@@ -6759,6 +6374,7 @@ State:410
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -6767,7 +6383,7 @@ State:410
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL\"
+	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL"
 	"5.50"
 /Promos/
 /Comps/
@@ -6785,6 +6401,8 @@ State:410
 	"Total"
 	"0.00"
 /Tenders/
+	"Balance Due"
+	"$5.50"
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -6805,64 +6423,6 @@ State:410
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:409
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL\"
-	"5.50"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:408
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -7643,6 +7203,7 @@ State:393
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -7651,7 +7212,7 @@ State:393
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Burrito Classic\ Verde\ Tomato\ Tomato\"
+	"Burrito Classic\ Verde\ Tomato\ Tomato"
 	"11.00"
 /Promos/
 /Comps/
@@ -7671,6 +7232,8 @@ State:393
 /Tenders/
 	"Cash"
 	"11.00"
+	"Change"
+	"$0.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -7697,6 +7260,7 @@ State:392
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -7705,7 +7269,8 @@ State:392
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Burrito Classic\ Verde\ Tomato\ Tomato\"
+	"Table"
+	"Burrito Classic\ Verde\ Tomato\ Tomato"
 	"11.00"
 /Promos/
 /Comps/
@@ -7745,64 +7310,6 @@ State:392
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:391
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Burrito Classic\ Verde\ Tomato\ Tomato\"
-	"11.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:390
 /OrderScreen/
 /TopLeftButtons/
@@ -8413,7 +7920,7 @@ State:382
 	""
 /ModifierScreen/
 	"Burrito Persona"
-	"(Please add exactly 1 modifier)"
+	"(Optional modifiers, but no more than 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -8435,8 +7942,7 @@ State:382
 	[Side]
 	[Half]
 /RightModifierButtons/
-	[Verde]
-	[Chipotle]
+	[White Beans]
 /BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
@@ -8538,6 +8044,7 @@ State:380
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -8595,6 +8102,7 @@ State:379
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -8753,6 +8261,7 @@ State:376
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -8761,7 +8270,7 @@ State:376
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Bread\ Garlic Spread\ Chive Spread\  BACON\"
+	"Bread\ Garlic Spread\ Chive Spread\  BACON"
 	"1.99\\\1.00"
 /Promos/
 /Comps/
@@ -8781,6 +8290,8 @@ State:376
 /Tenders/
 	"Cash"
 	"1.99"
+	"Change"
+	"$0.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -8807,6 +8318,7 @@ State:375
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -8815,7 +8327,8 @@ State:375
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Bread\ Garlic Spread\ Chive Spread\  BACON\"
+	"Table"
+	"Bread\ Garlic Spread\ Chive Spread\  BACON"
 	"1.99\\\1.00"
 /Promos/
 /Comps/
@@ -8855,64 +8368,6 @@ State:375
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:374
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Bread\ Garlic Spread\ Chive Spread\  BACON\"
-	"1.99\\\1.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:373
 /OrderScreen/
 /TopLeftButtons/
@@ -9537,6 +8992,7 @@ State:365
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -9545,8 +9001,8 @@ State:365
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\"
-	"11.99\2.50"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"11.99\2.50\\\3.00"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -9591,6 +9047,7 @@ State:364
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -9599,8 +9056,8 @@ State:364
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\"
-	"11.99\2.50"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"11.99\2.50\\\3.00"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -9639,108 +9096,6 @@ State:364
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:363
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\"
-	"11.99\2.50"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
-State:362
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD"
-	"11.99\2.50"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:361
 /OrderScreen/
 /TopLeftButtons/
@@ -9759,8 +9114,8 @@ State:361
 	[+]
 /EntriesBySeat/
 	"Table"
-	"RIBEYE"
-	"11.99"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"11.99\2.50\\\3.00"
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -9792,41 +9147,6 @@ State:361
 	[Modify]
 	[Delete]
 	""
-/ModifierScreen/
-	"RIBEYE"
-	"(Optional unlimited modifiers)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"RIBEYE"
-	"11.99"
-	" - BLACK & BLUE"
-	" - Baked Potato"
-	" - CAESAR SALAD"
-	" -  - ADD CHICKEN"
-/CenterCategoryButtons/
-	[MEAT TEMP]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[CUP]
-	[HOUSE\SALAD]
-	[CAESAR\SALAD]
-	[BOWL]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:360
 /OrderScreen/
 /TopLeftButtons/
@@ -9956,7 +9276,7 @@ State:359
 	""
 /ModifierScreen/
 	"RIBEYE"
-	"(Optional unlimited modifiers)"
+	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -10161,6 +9481,7 @@ State:356
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -10169,7 +9490,7 @@ State:356
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI\"
+	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI"
 	"10.00"
 /Promos/
 /Comps/
@@ -10181,6 +9502,9 @@ State:356
 	".2"
 	"Total"
 	"10.00"
+/Gratuity/
+	"Gratuity"
+	""
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -10207,6 +9531,7 @@ State:355
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -10215,7 +9540,7 @@ State:355
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI\"
+	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI"
 	"10.00"
 /Promos/
 /Comps/
@@ -10227,6 +9552,9 @@ State:355
 	".2"
 	"Total"
 	"10.00"
+/Gratuity/
+	"Gratuity"
+	""
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -10247,64 +9575,6 @@ State:355
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:354
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI\"
-	"10.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:353
 /OrderScreen/
 /TopLeftButtons/
@@ -10999,6 +10269,7 @@ State:345
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -11007,7 +10278,7 @@ State:345
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"PORK CHOP\ BLACK & BLUE\ Baked Potato\ CUP\"
+	"PORK CHOP\ BLACK & BLUE\ Baked Potato\ CUP"
 	"11.99\2.50\\3.50"
 /Promos/
 /Comps/
@@ -11027,6 +10298,8 @@ State:345
 /Tenders/
 	"Cash"
 	"11.99"
+	"Change"
+	"$0.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -11053,6 +10326,7 @@ State:344
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -11061,7 +10335,8 @@ State:344
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"PORK CHOP\ BLACK & BLUE\ Baked Potato\ CUP\"
+	"Table"
+	"PORK CHOP\ BLACK & BLUE\ Baked Potato\ CUP"
 	"11.99\2.50\\3.50"
 /Promos/
 /Comps/
@@ -11101,57 +10376,6 @@ State:344
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:343
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"PORK CHOP\ BLACK & BLUE\ Baked Potato\ CUP\"
-	"11.99\2.50\\3.50"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:342
 /OrderScreen/
 /TopLeftButtons/
@@ -11341,7 +10565,7 @@ State:340
 	""
 /ModifierScreen/
 	"PORK CHOP"
-	"(Optional unlimited modifiers)"
+	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -11456,63 +10680,13 @@ State:339
 	[Special]
 	[Cancel]
 	[OK]
-State:338
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"BBQ RIBS\ NO FULL RACK\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP\"
-	"11.99\29.95\14.95\14.95\\3.50"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:337
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -11521,7 +10695,7 @@ State:337
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ NO FULL RACK\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP\"
+	"BBQ RIBS\ NO FULL RACK\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"11.99\29.95\14.95\14.95\\3.50"
 /Promos/
 /Comps/
@@ -11538,6 +10712,7 @@ State:337
 	""
 	"Total"
 	"0.00"
+/Tenders/
 	"Cash"
 	"11.99"
 /MidButtons/
@@ -11566,6 +10741,7 @@ State:336
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -11574,7 +10750,7 @@ State:336
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ NO FULL RACK\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP\"
+	"BBQ RIBS\ NO FULL RACK\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"11.99\29.95\14.95\14.95\\3.50"
 /Promos/
 /Comps/
@@ -11592,6 +10768,8 @@ State:336
 	"Total"
 	"0.00"
 /Tenders/
+	"Balance Due"
+	"$11.99"
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -11803,7 +10981,7 @@ State:333
 	""
 /ModifierScreen/
 	"BBQ RIBS"
-	"(Optional unlimited modifiers)"
+	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -12091,6 +11269,7 @@ State:329
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -12099,7 +11278,8 @@ State:329
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Special Burger\ BACON\ BACON\"
+	"Table"
+	"Special Burger\ BACON\ BACON"
 	"5.50\1.00\1.00"
 /Promos/
 /Comps/
@@ -12147,6 +11327,7 @@ State:328
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -12156,7 +11337,7 @@ State:328
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"Special Burger\ BACON\ BACON\"
+	"Special Burger\ BACON\ BACON"
 	"5.50\1.00\1.00"
 /Promos/
 /Comps/
@@ -12196,61 +11377,6 @@ State:328
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:327
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"Special Burger\ BACON\ BACON\"
-	"5.50\1.00\1.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	[Script]
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:326
 /OrderScreen/
 /TopLeftButtons/
@@ -12395,6 +11521,7 @@ State:324
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -12403,7 +11530,8 @@ State:324
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Special Burger\ RARE\ BACON\"
+	"Table"
+	"Special Burger\ RARE\ BACON"
 	"5.50\8.00\1.00"
 /Promos/
 /Comps/
@@ -12451,6 +11579,7 @@ State:323
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -12460,7 +11589,7 @@ State:323
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"Special Burger\ RARE\ BACON\"
+	"Special Burger\ RARE\ BACON"
 	"5.50\8.00\1.00"
 /Promos/
 /Comps/
@@ -12518,8 +11647,8 @@ State:322
 	[+]
 /EntriesBySeat/
 	"Table"
-	"Special Burger\ RARE\ BACON\"
-	"5.50\8.00\1.00"
+	"OPEN ITEM MOD\ TEST"
+	"2.00\2.00"
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12530,19 +11659,16 @@ State:322
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	[Script]
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
 	[Scan Barcode]
@@ -13048,6 +12174,7 @@ State:315
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13056,7 +12183,7 @@ State:315
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"PORK CHOP\ MEDIUM\ Black Beans\ CUP\"
+	"PORK CHOP\ MEDIUM\ Black Beans\ CUP"
 	"11.99\8.00\\3.50"
 /Promos/
 /Comps/
@@ -13076,6 +12203,8 @@ State:315
 /Tenders/
 	"Cash"
 	"11.99"
+	"Change"
+	"$0.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -13102,6 +12231,7 @@ State:314
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13110,7 +12240,8 @@ State:314
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"PORK CHOP\ MEDIUM\ Black Beans\ CUP\"
+	"Table"
+	"PORK CHOP\ MEDIUM\ Black Beans\ CUP"
 	"11.99\8.00\\3.50"
 /Promos/
 /Comps/
@@ -13151,56 +12282,60 @@ State:314
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:313
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
+/TenderScreen/
 /TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"PORK CHOP\ MEDIUM\ Black Beans\ CUP\"
-	"11.99\8.00\\3.50"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
+/ItemEntries/
+	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL"
+	"5.50"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.50"
+/Taxes/
+	"Tax"
 	""
+	".2"
+	"Total"
+	"5.50"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Cash"
+	"5.50"
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:312
 /OrderScreen/
 /TopLeftButtons/
@@ -13305,7 +12440,7 @@ State:311
 	""
 /ModifierScreen/
 	"PORK CHOP"
-	"(Optional unlimited modifiers)"
+	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -13415,6 +12550,7 @@ State:309
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13423,7 +12559,7 @@ State:309
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"PORK CHOP\ MEDIUM\ Red Beans\ CUP\"
+	"PORK CHOP\ MEDIUM\ Red Beans\ CUP"
 	"11.99\8.00\\3.50"
 /Promos/
 /Comps/
@@ -13443,6 +12579,8 @@ State:309
 /Tenders/
 	"Cash"
 	"11.99"
+	"Change"
+	"$0.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -13469,6 +12607,7 @@ State:308
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -13477,7 +12616,8 @@ State:308
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"PORK CHOP\ MEDIUM\ Red Beans\ CUP\"
+	"Table"
+	"PORK CHOP\ MEDIUM\ Red Beans\ CUP"
 	"11.99\8.00\\3.50"
 /Promos/
 /Comps/
@@ -13518,56 +12658,57 @@ State:308
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:307
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
+/TenderScreen/
 /TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"PORK CHOP\ MEDIUM\ Red Beans\ CUP\"
-	"11.99\8.00\\3.50"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
+/ItemEntries/
+	"Burrito Persona\ Chili Rice\ Chili Rice\ White Beans\ Chicken\ Chicken\ Verde\ Tomato"
+	"11.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"11.00"
+/Taxes/
+	"Tax"
 	""
+	".2"
+	"Total"
+	"11.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:306
 /OrderScreen/
 /TopLeftButtons/
@@ -13672,7 +12813,7 @@ State:305
 	""
 /ModifierScreen/
 	"PORK CHOP"
-	"(Optional unlimited modifiers)"
+	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -13954,6 +13095,12 @@ State:302
 	[Special]
 	[Cancel]
 	[OK]
+/MessageDialog/
+	"Warning"
+/DialogSeparator/
+	"This action is not supported in offline mode"
+	[X]
+	[OK]
 State:301
 /OrderScreen/
 /TopLeftButtons/
@@ -14042,6 +13189,7 @@ State:300
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14050,7 +13198,8 @@ State:300
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO\"
+	"Table"
+	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO"
 	"5.00\\1.00"
 /Promos/
 /Comps/
@@ -14098,6 +13247,7 @@ State:299
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14107,7 +13257,7 @@ State:299
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO\"
+	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO"
 	"5.00\\1.00"
 /Promos/
 /Comps/
@@ -14184,56 +13334,57 @@ State:297
 	[Split seat]
 	[Close]
 State:296
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat*]
-	[Done]
+/TenderScreen/
 /TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Table"
-	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO\"
-	"5.00\\1.00"
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"SPN ARTCHK\DIP"
-	"PORK\NACHOS"
-	"HELLS\CHIPS"
-	"QUESADILLA"
-	"HUMMUS\APP"
-	"FRIED MOZZ"
-	"POTATO\CHIPS"
-	"TENDERLN\WRAPS"
-	"MONKEY STEW"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
+/ItemEntries/
+	"Burrito Persona\ Chili Rice\ Chili Rice\ White Beans\ Chicken\ Chicken\ Verde\ Tomato"
+	"11.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"11.00"
+/Taxes/
+	"Tax"
 	""
+	".2"
+	"Total"
+	"11.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:295
 /OrderScreen/
 /TopLeftButtons/
@@ -14858,6 +14009,7 @@ State:287
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14866,7 +14018,8 @@ State:287
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Quick Burger\ CUP\ CHEESECAKE\"
+	"Table"
+	"Quick Burger\ CUP\ CHEESECAKE"
 	"5.99\3.50"
 /Promos/
 /Comps/
@@ -14914,6 +14067,7 @@ State:286
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -14923,7 +14077,7 @@ State:286
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"Quick Burger\ CUP\ CHEESECAKE\"
+	"Quick Burger\ CUP\ CHEESECAKE"
 	"5.99\3.50"
 /Promos/
 /Comps/
@@ -14981,17 +14135,17 @@ State:285
 	[+]
 /EntriesBySeat/
 	"Table"
-	"Quick Burger\ CUP\ CHEESECAKE\"
-	"5.99\3.50"
+	"Burrito Persona\ Chili Rice\ Chili Rice\ White Beans\ Chicken\ Chicken\ Verde\ Tomato"
+	"11.00"
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -15102,6 +14256,7 @@ State:282
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -15111,7 +14266,7 @@ State:282
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"QUESADILLA\ ADD AVOCADO\"
+	"QUESADILLA\ ADD AVOCADO"
 	"5.00\1.00"
 /Promos/
 /Comps/
@@ -15159,6 +14314,7 @@ State:281
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -15168,7 +14324,7 @@ State:281
 	[Check 1]
 /ItemEntries/
 	"Table"
-	"QUESADILLA\ ADD AVOCADO\"
+	"QUESADILLA\ ADD AVOCADO"
 	"5.00\1.00"
 /Promos/
 /Comps/
@@ -15226,27 +14382,34 @@ State:280
 	[+]
 /EntriesBySeat/
 	"Table"
-	"QUESADILLA\ ADD AVOCADO\"
-	"5.00\1.00"
+	"Burrito Persona"
+	"11.00"
 /CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
 /MenuOrModButtons/
-	"SPN ARTCHK\DIP"
-	"PORK\NACHOS"
-	"HELLS\CHIPS"
-	"QUESADILLA"
-	"HUMMUS\APP"
-	"FRIED MOZZ"
-	"POTATO\CHIPS"
-	"TENDERLN\WRAPS"
-	"MONKEY STEW"
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
 	[Scan Barcode]
@@ -15259,6 +14422,43 @@ State:280
 	[Modify]
 	[Delete]
 	""
+/ModifierScreen/
+	"Burrito Persona"
+	"(Please add between 1 and 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Burrito Persona"
+	"11.00"
+	" - Chili Rice"
+	" - Chili Rice.2"
+	" - White Beans"
+	" - Chicken"
+	" - Chicken.2"
+	" - Verde"
+/CenterCategoryButtons/
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Tomato]
+	[Corn]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:279
 /OrderScreen/
 /TopLeftButtons/
@@ -15639,6 +14839,7 @@ State:273
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -15647,7 +14848,7 @@ State:273
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP\"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"11.99\14.95\14.95\\3.50"
 /Promos/
 /Comps/
@@ -15737,6 +14938,7 @@ State:271
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -15745,7 +14947,7 @@ State:271
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP\"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"11.99\14.95\14.95\\3.50"
 /Promos/
 /Comps/
@@ -15841,27 +15043,34 @@ State:269
 	[+]
 /EntriesBySeat/
 	"Table"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP\"
-	"11.99\14.95\14.95\\3.50"
+	"Burrito Persona"
+	"11.00"
 /CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
 /MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
 	[Scan Barcode]
@@ -15874,6 +15083,42 @@ State:269
 	[Modify]
 	[Delete]
 	""
+/ModifierScreen/
+	"Burrito Persona"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Burrito Persona"
+	"11.00"
+	" - Chili Rice"
+	" - Chili Rice.2"
+	" - White Beans"
+	" - Chicken"
+	" - Chicken.2"
+/CenterCategoryButtons/
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Verde]
+	[Chipotle]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:268
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -16015,7 +15260,7 @@ State:266
 	""
 /ModifierScreen/
 	"BBQ RIBS"
-	"(Optional unlimited modifiers)"
+	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -16299,6 +15544,7 @@ State:261
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -16307,7 +15553,7 @@ State:261
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP\"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
 	"11.99\29.95\\3.50"
 /Promos/
 /Comps/
@@ -16327,6 +15573,8 @@ State:261
 /Tenders/
 	"Cash"
 	"11.99"
+	"Change"
+	"$0.00"
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -16413,6 +15661,7 @@ State:259
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -16421,7 +15670,8 @@ State:259
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP\"
+	"Table"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
 	"11.99\29.95\\3.50"
 /Promos/
 /Comps/
@@ -16517,27 +15767,34 @@ State:257
 	[+]
 /EntriesBySeat/
 	"Table"
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP\"
-	"11.99\29.95\\3.50"
+	"Burrito Persona"
+	"11.00"
 /CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
 /MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
 	[Scan Barcode]
@@ -16550,6 +15807,39 @@ State:257
 	[Modify]
 	[Delete]
 	""
+/ModifierScreen/
+	"Burrito Persona"
+	"(Optional modifiers, but no more than 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Burrito Persona"
+	"11.00"
+	" - Chili Rice"
+	" - Chili Rice.2"
+	" - White Beans"
+/CenterCategoryButtons/
+	[Burrito Rice R]
+	[Burrito Beans R]
+	[Burrito Meat R]
+	[Burrito Salsa R]
+	[Burrito Vege R]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Chicken]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:256
 /OrderScreen/
 /TopLeftButtons/
@@ -16654,7 +15944,7 @@ State:255
 	""
 /ModifierScreen/
 	"BBQ RIBS"
-	"(Optional unlimited modifiers)"
+	"(Please add exactly 1 modifier)"
 	[btnTopLeftCancel]
 	[btnTopRightClose]
 /Modifier_Container/
@@ -16855,6 +16145,7 @@ State:252
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -16973,6 +16264,7 @@ State:250
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -17083,6 +16375,7 @@ State:248
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -17143,6 +16436,7 @@ State:247
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -17261,6 +16555,7 @@ State:245
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -17318,6 +16613,7 @@ State:244
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -17373,6 +16669,7 @@ State:243
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
@@ -17430,6 +16727,7 @@ State:242
 	[Tables]
 	[Order]
 	[Print]
+	[Print All]
 	[Email/SMS]
 	[Exit]
 /TopLeftButtons/
