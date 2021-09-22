@@ -1187,6 +1187,62 @@ State:277
 	[Modify]
 	[Delete]
 	""
+State:276
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"3 COKE"
+	"6.00"
+	"Seat 2"
+	"3 PORK NACHOS"
+	"15.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"21.00"
+/Taxes/
+	"Tax"
+	"0.92"
+	"Total"
+	"21.92"
+/Tenders/
+	"CASH"
+	"21.92"
+	"Change"
+	"$0.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:275
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -1266,6 +1322,60 @@ State:274
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:273
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"3 COKE"
+	"6.00"
+	"Seat 2"
+	"3 PORK NACHOS"
+	"15.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"21.00"
+/Taxes/
+	"Tax"
+	"0.92"
+	"Total"
+	"21.92"
+/Tenders/
+	"Balance Due"
+	"$21.92"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:272
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -1310,6 +1420,69 @@ State:272
 	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
 	[X]
 	[OK]
+State:271
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"Seat 2"
+	"PORK NACHOS"
+	"5.00"
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:270
 /PizzaModifierScreen/
 /GroupOneButtons/
