@@ -21,13 +21,12 @@ Scenario: 1 Quantity
 #Action: 5 Add Pork Nachos
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
-#Action: 6 Select Quality Item
+#Action: 6 Select Pork Nachos on Order Entry Screen
+			Given screen state: 050
+			Then clicked /EntriesBySeat/,"PORK NACHOS"
+#Action: 7 Select Quality Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Quantity]
-#Action: 7 Select Pork Nachos on Quality Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items for Quantity"
-			Then clicked /Items/,^PORK NACHOS^
-			Then clicked /Items/,[OK]
 #Action: 8 Select Qty 3
 			Then verify presence of /InputDialog/,"Enter quantity"
 			Then clicked /DialogSeparator/,[3]
