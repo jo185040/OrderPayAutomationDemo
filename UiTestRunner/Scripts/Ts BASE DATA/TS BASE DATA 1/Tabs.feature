@@ -96,7 +96,7 @@ Scenario: 3 Bartender Scenario
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Exit Check to FloorPlan
-			Given screen state: 255
+			Then verify optional presence of /CenterMenuButtons/,[LUNCH MENU],[DRINKS],[APPS],[ENTREES]
 			When clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 3 Exit FloorPlan
 			Given screen state: 558
