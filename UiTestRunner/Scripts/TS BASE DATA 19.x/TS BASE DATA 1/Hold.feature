@@ -23,8 +23,6 @@ Scenario: 1 Hold Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /EntriesBySeat/,"COKE"
 #Action: 6 Add Hold
-			#NOTE Hold does not work for Dmitri's POS set up
-			#NOTE This works on Jeff Machine with no issue.
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When swiped left on /BottomButtons/
 			Then clicked /BottomButtons/,[Hold]

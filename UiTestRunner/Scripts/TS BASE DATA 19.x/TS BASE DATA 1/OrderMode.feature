@@ -167,7 +167,6 @@ Scenario: 4 Order [DON'T MAKE] with sellection from list
 			Then verify presence of /Items/,"Check 1",^COKE^,"COKE",^COKE.2^,"COKE.2",^7 UP^,"7 UP",^7 UP.2^,"7 UP.2",^7 UP.3^,"7 UP.3"
 			Then clicked /Items/,^COKE.2^,"7 UP.3"
 #Action: 7 Select OK on "Select items to order" Screen
-			#TODO we need new functionality to see if check mark is actually checked.
 			Then verify presence of /ItemSelectionDialog/,"Select items to order"
 			Then clicked /Items/,[OK]
 #Action: 8 Select $ on Payment Screen

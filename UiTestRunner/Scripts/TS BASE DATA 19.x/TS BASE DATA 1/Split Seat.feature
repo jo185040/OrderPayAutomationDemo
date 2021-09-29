@@ -95,7 +95,6 @@ Scenario: 2 Select Multiple Items on Split Check
 			Given screen state: 098
 			Then clicked [$]
 #Action: 14 Exact Payment
-			#NOTE for Dmitri's setup [Get Mobile Pay Code] is enabled even thought ATG has it off (comes from some where elce)
 			Given screen state: 099
 			Then clicked [Exact]
 #Action: 15 Click Close

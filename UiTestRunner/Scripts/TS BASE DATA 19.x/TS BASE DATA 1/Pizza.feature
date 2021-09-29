@@ -390,8 +390,6 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			Then verify presence of /ItemEntries/,"Cheese Pizza\ Large\ Pan\ Chicken\ Cheese","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"CASH","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			#TODO ALOHAP-32844 cannot move items via split seat.
-			#TODO fix moving items
 			Given screen state: 558
 			When clicked [Exit]
 
@@ -486,7 +484,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			Given screen state: 298
 			Then clicked [Close]
 #Action: 28 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 2","Sausage Pizza\ Large\ Pan\ Sausage","10.00"
+			Given screen state: 280
 			Then clicked [HERE]
 #Action: 29 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 2","Sausage Pizza\ Large\ Pan\ Sausage","10.00"

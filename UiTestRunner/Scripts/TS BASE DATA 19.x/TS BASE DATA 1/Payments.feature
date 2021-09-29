@@ -207,6 +207,7 @@ Scenario: 5 Verify you can delete Euro payment (Manager)
 
 Scenario: 6 Verify you cant delete payment without JIT screen approval (Ordertaker)
 #Action: 1 Login as OrderTaker 203
+			#TODO ALOHAP-33562 blocking this issue
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[3]
 			And clicked [Login]

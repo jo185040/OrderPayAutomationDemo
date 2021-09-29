@@ -1,5 +1,3 @@
-#TODO ALOHAP-32783 blocking this section from working
-#TODO ALOHAP-33013 OK button showing prematurely
 Feature: 33 Transfer Table
 
 
@@ -913,13 +911,13 @@ Scenario: 10 Verify you can transfer table with new tab
 			Given screen state: 104
 			Then clicked /Tables/,"1"
 #Action: 17 Select Table 1 on Transfer Tables
-			Given screen state: 047
+			Given screen state: 287
 			Then clicked "1"
 #Action: 18 Select Ok Button
-			Given screen state: 047
+			Given screen state: 013
 			Then clicked [New Tab]
 #Action: 19 Enter Tab j1
-			Given screen state: 283
+			Given screen state: 288
 			Then clicked /DialogSeparator/,[j]
 			Then clicked /DialogSeparator/,[1]
 			Then clicked /DialogSeparator/,[Ok]
@@ -1008,7 +1006,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			Given screen state: 118
 			Then clicked [New Table]
 #Action: 20 Enter Table 1
-			Given screen state: 119
+			Given screen state: 289
 			Then clicked /DialogSeparator/,[1]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 21 Select Table 1
@@ -1021,7 +1019,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 24 Click Close
-			Then verify presence of /ItemEntries/,"COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 208
 			Then clicked /MidButtons/,[Close]
 #Action: 25 Exit FloorPlan
 			Given screen state: 558
@@ -1096,7 +1094,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 			Given screen state: 118
 			Then clicked [New Table]
 #Action: 20 Enter Table 2
-			Given screen state: 119
+			Given screen state: 289
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 21 Select Table 2
@@ -1109,7 +1107,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 24 Click Close
-			Then verify presence of /ItemEntries/,"COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","$2.00","Change","$0.00"
+			Given screen state: 254
 			Then clicked /MidButtons/,[Close]
 #Action: 25 Exit FloorPlan
 			Given screen state: 558

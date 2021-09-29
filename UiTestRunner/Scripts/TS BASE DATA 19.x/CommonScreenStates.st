@@ -615,6 +615,9 @@ State:298
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -634,6 +637,9 @@ State:297
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -666,6 +672,113 @@ State:294
 	[Add]
 	[Split check]
 	[Close]
+State:289
+/ReceiveTransfersScreen/
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+/IncomingTables/
+	"j1"
+/ExistingTables/
+/RightCommands/
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+/InputDialog/
+	"Enter Table Number"
+	"0"
+	[<]
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
+	[X]
+State:288
+/ReceiveTransfersScreen/
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+/IncomingTables/
+	"1"
+/ExistingTables/
+/RightCommands/
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+/KeyboardEntryDialog/
+	"Enter Tab Name"
+	""
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[0]
+	[q]
+	[w]
+	[e]
+	[r]
+	[t]
+	[y]
+	[u]
+	[i]
+	[o]
+	[p]
+	[a]
+	[s]
+	[d]
+	[f]
+	[g]
+	[h]
+	[j]
+	[k]
+	[l]
+	[/]
+	[z]
+	[x]
+	[c]
+	[v]
+	[b]
+	[n]
+	[m]
+	[*]
+	[!]
+	[Clear]
+	[ ]
+	[]
+	[⌫]
+	[Ok*]
+	[X]
+State:287
+/ReceiveTransfersScreen/
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+/IncomingTables/
+	"1"
+/ExistingTables/
+/RightCommands/
+	[Cancel]
 State:286
 /TenderScreen/
 /TopRightButtons/
@@ -962,6 +1075,57 @@ State:281
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:280
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 2]
+	[+]
+/EntriesBySeat/
+	"Seat 2"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:279
 /OrderScreen/
 /TopLeftButtons/
@@ -2664,6 +2828,9 @@ State:244
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 /CheckOrSeat.2/
@@ -2685,6 +2852,9 @@ State:243
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -9877,7 +10047,7 @@ State:148
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\  COKE"
+	"COKE\ COKE"
 /Seats/
 	[T]
 	[1]
@@ -14824,14 +14994,16 @@ State:068
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"CHOPPED SALAD"
+	"3.00"
 	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
-	"3.00"
-	"SOUP OF DAY\ CUP"
 	"3.00.2"
+	"SOUP OF DAY\ CUP"
+	"3.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -14842,8 +15014,6 @@ State:068
 	"Total"
 	"22.28"
 /Tenders/
-	"Balance Due"
-	"$22.28"
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -14894,6 +15064,9 @@ State:066
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 5"
 	"Seat 5"
@@ -14909,6 +15082,9 @@ State:065
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -14938,6 +15114,9 @@ State:064
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -14965,6 +15144,9 @@ State:063
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -14990,6 +15172,9 @@ State:062
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -15013,6 +15198,9 @@ State:061
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -15032,6 +15220,9 @@ State:060
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -15085,6 +15276,9 @@ State:057
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
@@ -15104,6 +15298,9 @@ State:056
 /SplitCheckScreen/
 /SplitScreen/
 	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
