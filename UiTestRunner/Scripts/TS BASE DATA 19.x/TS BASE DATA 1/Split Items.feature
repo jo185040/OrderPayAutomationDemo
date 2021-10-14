@@ -84,7 +84,7 @@ Scenario: 2 Split Item into 3 Items
 			Then clicked /DialogSeparator/,[3]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Press Close Button
-			Given screen state: 296
+			Given screen state: 312
 			Then clicked /BottomCenterButtons/,[Close]
 #Action: 11 Select $ on Payment Screen
 			Given screen state: 299
@@ -183,16 +183,16 @@ Scenario: 4 Split Item into 20 Items
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Press Close Button
-			Given screen state: 302
+			Given screen state: 306
 			Then clicked /BottomCenterButtons/,[Close]
 #Action: 11 Select $ on Payment Screen
-			Given screen state: 303
+			Given screen state: 308
 			Then clicked [$]
 #Action: 12 Exact Payment
-			Given screen state: 304
+			Given screen state: 309
 			Then clicked [Exact]
 #Action: 13 Click Close
-			Given screen state: 305
+			Given screen state: 311
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
 			Given screen state: 558

@@ -63,7 +63,7 @@ Scenario: 5 Login as bartender 300 to Floor Plan
 			Then verify presence of "BAR", [Clock-IN], [EXIT], "SAMEUL L. JACKSON"
 			When clicked [Clock-IN]
 #Action: 3 Exit FloorPlan
-			Given screen state: 053
+			Then verify optional presence of /TopLeftButtons/,[btnGoToFloorplan],[Split Check],[Split Seat*],[Done]
 			When clicked /TopLeftButtons/,[Done]
 
 Scenario: 6 Login as TRAINING 150 to Floor Plan

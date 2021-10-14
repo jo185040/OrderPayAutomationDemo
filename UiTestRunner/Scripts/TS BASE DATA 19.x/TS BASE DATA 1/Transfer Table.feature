@@ -62,7 +62,7 @@ Scenario: 1 Transfer Table to Server
 			Given screen state: 103
 			Then clicked /Tables/,"1"
 #Action: 18 Select Table 1 on Transfer Tables
-			Given screen state: 014
+			Given screen state: 314
 			Then clicked "1"
 #Action: 19 Select Ok Button
 			Given screen state: 015
@@ -434,10 +434,10 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Given screen state: 113
 			Then clicked /Tabs/,"j1"
 #Action: 24 Select Tab J1 on Transfer Tables
-			Given screen state: 033
+			Given screen state: 118
 			Then clicked "j1"
 #Action: 25 Select Ok Button
-			Given screen state: 033
+			Given screen state: 118
 			Then clicked /RightCommands/,[Merge Tab]
 #Action: 26 Merge Table 2
 			Given screen state: 037
@@ -520,13 +520,13 @@ Scenario: 6 Verify you can transfer table with new table
 			Given screen state: 104
 			Then clicked /Tables/,"1"
 #Action: 17 Select Table 1 on Transfer Tables
-			Given screen state: 040
+			Given screen state: 013
 			Then clicked "1"
 #Action: 18 Select Ok Button
-			Given screen state: 040
+			Given screen state: 013
 			Then clicked [New Table]
 #Action: 19 Enter Table 2
-			Given screen state: 041
+			Given screen state: 315
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 20 Select Table 2
@@ -608,13 +608,13 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Given screen state: 109
 			Then clicked /Tabs/,"j1"
 #Action: 18 Select Tab j1 on Transfer Tables
-			Given screen state: 037
+			Given screen state: 118
 			Then clicked "j1"
 #Action: 19 Select New Tab Button
-			Given screen state: 037
+			Given screen state: 118
 			Then clicked [New Tab]
 #Action: 20 Enter Tab Name J2
-			Given screen state: 042
+			Given screen state: 316
 			Then clicked /DialogSeparator/,[j]
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[Ok]
@@ -714,10 +714,10 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Given screen state: 030
 			Then clicked /Tables/,"1"
 #Action: 23 Select Table 1 on Transfer Tables
-			Given screen state: 040
+			Given screen state: 013
 			Then clicked "1"
 #Action: 24 Select Ok Button
-			Given screen state: 040
+			Given screen state: 013
 			Then clicked /RightCommands/,[Merge Tab]
 #Action: 25 Merge Tab j1
 			Given screen state: 047
@@ -825,7 +825,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 031
 			Then clicked /Tabs/,"j1"
 #Action: 23 Select Tab j1 on Transfer Tables
-			Given screen state: 118
+			Given screen state: 313
 			Then clicked "j1"
 #Action: 24 Select Merge Table Button
 			Given screen state: 118
@@ -911,7 +911,7 @@ Scenario: 10 Verify you can transfer table with new tab
 			Given screen state: 104
 			Then clicked /Tables/,"1"
 #Action: 17 Select Table 1 on Transfer Tables
-			Given screen state: 287
+			Given screen state: 013
 			Then clicked "1"
 #Action: 18 Select Ok Button
 			Given screen state: 013
