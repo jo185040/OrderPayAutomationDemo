@@ -533,6 +533,67 @@ State:395
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:317
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"SJ 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/CenterMenuButtons/
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[PIZZA]
+	[SANDWICHES]
+	[BEER]
+/MenuOrModButtons/
+	"WATER"
+	"COKE"
+	"DIET COKE"
+	"DIET 7UP"
+	"ICED TEA"
+	"COFFEE"
+	"ICED\COFFEE"
+	"Wldfre\Sauce"
+	"Fanta\Orange"
+	"Fanta\Grape"
+	"Fanta\Strby"
+	"SWEET TEA"
+	"POWERADE"
+	"HI C ORANGE"
+	"PEPSI"
+	"CHERRY\PEPSI"
+	"OJ"
+	"CRANBERRY"
+	"CHERRY\SPRITE"
+	"7 UP"
+	"DIET SPRITE"
+	[˅]
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:316
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
