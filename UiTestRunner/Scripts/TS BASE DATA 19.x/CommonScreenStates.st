@@ -533,6 +533,327 @@ State:395
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:318
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:317
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"SJ 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/CenterMenuButtons/
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[PIZZA]
+	[SANDWICHES]
+	[BEER]
+/MenuOrModButtons/
+	"WATER"
+	"COKE"
+	"DIET COKE"
+	"DIET 7UP"
+	"ICED TEA"
+	"COFFEE"
+	"ICED\COFFEE"
+	"Wldfre\Sauce"
+	"Fanta\Orange"
+	"Fanta\Grape"
+	"Fanta\Strby"
+	"SWEET TEA"
+	"POWERADE"
+	"HI C ORANGE"
+	"PEPSI"
+	"CHERRY\PEPSI"
+	"OJ"
+	"CRANBERRY"
+	"CHERRY\SPRITE"
+	"7 UP"
+	"DIET SPRITE"
+	[˅]
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:316
+/ReceiveTransfersScreen/
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+/IncomingTables/
+	"j1"
+/ExistingTables/
+/RightCommands/
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+/KeyboardEntryDialog/
+	"Enter Tab Name"
+	""
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[0]
+	[q]
+	[w]
+	[e]
+	[r]
+	[t]
+	[y]
+	[u]
+	[i]
+	[o]
+	[p]
+	[a]
+	[s]
+	[d]
+	[f]
+	[g]
+	[h]
+	[j]
+	[k]
+	[l]
+	[/]
+	[z]
+	[x]
+	[c]
+	[v]
+	[b]
+	[n]
+	[m]
+	[*]
+	[!]
+	[Clear]
+	[ ]
+	[]
+	[⌫]
+	[Ok*]
+	[X]
+State:315
+/ReceiveTransfersScreen/
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+/IncomingTables/
+	"1"
+/ExistingTables/
+/RightCommands/
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+/InputDialog/
+	"Enter Table Number"
+	"0"
+	[<]
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
+	[X]
+State:314
+/ReceiveTransfersScreen/
+	"LEBRON JAMES"
+	"Transfers"
+	"List of incoming transfers"
+/IncomingTables/
+	"1"
+/ExistingTables/
+/RightCommands/
+	[OK]
+	[New Table]
+	[New Tab]
+	[Merge Table]
+	[Merge Tab]
+	[Cancel]
+State:313
+/ReceiveTransfersScreen/
+	"MIGUEL SAAVEDRA"
+	"Transfers"
+	"List of incoming transfers"
+/IncomingTables/
+	"j1"
+/ExistingTables/
+/RightCommands/
+	[Cancel]
+State:312
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"1/3 7 UP"
+	"1/3 7 UP.2"
+	"1/3 7 UP.3"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:311
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"1/20 7 UP"
+	"0.10"
+	"1/20 7 UP.2"
+	"0.10.2"
+	"1/20 7 UP.3"
+	"0.10.3"
+	"1/20 7 UP.4"
+	"0.10.4"
+	"1/20 7 UP.5"
+	"0.10.5"
+	"1/20 7 UP.6"
+	"0.10.6"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:310
 /WWTScreen/
 	"JEFFREY"
@@ -611,6 +932,212 @@ State:310
 	[]
 	[⌫]
 	[Ok]
+State:309
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"1/20 7 UP"
+	"0.10"
+	"1/20 7 UP.2"
+	"0.10.2"
+	"1/20 7 UP.3"
+	"0.10.3"
+	"1/20 7 UP.4"
+	"0.10.4"
+	"1/20 7 UP.5"
+	"0.10.5"
+	"1/20 7 UP.6"
+	"0.10.6"
+	"1/20 7 UP.7"
+	"0.10.7"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:308
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"1/20 7 UP"
+	"0.10"
+	"1/20 7 UP.2"
+	"0.10.2"
+	"1/20 7 UP.3"
+	"0.10.3"
+	"1/20 7 UP.4"
+	"0.10.4"
+	"1/20 7 UP.5"
+	"0.10.5"
+	"1/20 7 UP.6"
+	"0.10.6"
+	"1/20 7 UP.7"
+	"0.10.7"
+	"1/20 7 UP.8"
+	"0.10.8"
+	"1/20 7 UP.9"
+	"0.10.9"
+	"1/20 7 UP.10"
+	"0.10.10"
+	"1/20 7 UP.11"
+	"0.10.11"
+	"1/20 7 UP.12"
+	"0.10.12"
+	"1/20 7 UP.13"
+	"0.10.13"
+	"1/20 7 UP.14"
+	"0.10.14"
+	"1/20 7 UP.15"
+	"0.10.15"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+State:307
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"1/20 7 UP"
+	"1/20 7 UP.2"
+	"1/20 7 UP.3"
+	"1/20 7 UP.4"
+	"1/20 7 UP.5"
+	"1/20 7 UP.6"
+	"1/20 7 UP.7"
+	"1/20 7 UP.8"
+	"1/20 7 UP.9"
+	"1/20 7 UP.10"
+	"1/20 7 UP.11"
+	"1/20 7 UP.12"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:306
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"1/20 7 UP"
+	"1/20 7 UP.2"
+	"1/20 7 UP.3"
+	"1/20 7 UP.4"
+	"1/20 7 UP.5"
+	"1/20 7 UP.6"
+	"1/20 7 UP.7"
+	"1/20 7 UP.8"
+	"1/20 7 UP.9"
+	"1/20 7 UP.10"
+	"1/20 7 UP.11"
+	"1/20 7 UP.12"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
 State:305
 /TenderScreen/
 /TopRightButtons/
@@ -2386,16 +2913,16 @@ State:269
 	[Pizza Menu]
 	"ICED\COFFEE"
 /BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
+	[Recipe]
 	""
 /MessageDialog/
 	"Delete Item Error"
@@ -2485,16 +3012,16 @@ State:267
 	[Pizza Menu]
 	"ICED\COFFEE"
 /BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
+	[Recipe]
 	""
 State:266
 /SplitCheckScreen/

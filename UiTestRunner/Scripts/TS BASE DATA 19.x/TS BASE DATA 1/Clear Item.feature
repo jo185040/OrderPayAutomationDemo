@@ -43,7 +43,8 @@ Scenario: 2 Delete Item on Empty Check
 			And clicked /DialogSeparator/,[OK]
 			Then verify absence of "Enter Guest Count"
 #Action: 4 Delete COKE
-			Given screen state: 267
+			Given screen state: 318
+			When swiped left on /BottomButtons/
 			Then clicked /BottomButtons/,[Delete]
 #Action: 5 Dismiss Error COKE
 			Given screen state: 269
