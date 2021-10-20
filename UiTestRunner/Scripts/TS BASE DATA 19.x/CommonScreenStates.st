@@ -2362,11 +2362,11 @@ State:279
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -2469,11 +2469,11 @@ State:278
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:277
 /OrderScreen/
@@ -2528,11 +2528,11 @@ State:277
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:276
 /TenderScreen/
@@ -4152,8 +4152,11 @@ State:239
 	"44.45"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4170,7 +4173,7 @@ State:239
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:238
 /OrderScreen/
 /TopLeftButtons/
@@ -4220,11 +4223,11 @@ State:238
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:237
 /OrderScreen/
@@ -4275,11 +4278,11 @@ State:237
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -4380,11 +4383,11 @@ State:236
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -4484,11 +4487,11 @@ State:235
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -4587,11 +4590,11 @@ State:234
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9751,11 +9754,11 @@ State:168
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Special Burger"
@@ -9838,11 +9841,11 @@ State:167
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Special Burger"
@@ -9925,11 +9928,11 @@ State:166
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Special Burger"
@@ -10018,11 +10021,11 @@ State:165
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -10106,11 +10109,11 @@ State:164
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:163
 /PizzaModifierScreen/
@@ -10384,11 +10387,11 @@ State:160
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -10491,11 +10494,11 @@ State:159
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -10711,11 +10714,11 @@ State:155
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -10799,11 +10802,11 @@ State:154
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -10881,11 +10884,11 @@ State:153
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"TENDERLN WRAPS"
@@ -11060,11 +11063,11 @@ State:150
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"TENDERLN WRAPS"
@@ -11161,11 +11164,11 @@ State:149
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"TENDERLN WRAPS"
@@ -11264,11 +11267,11 @@ State:148
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:147
 /OrderScreen/
@@ -11323,11 +11326,11 @@ State:147
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -11428,11 +11431,11 @@ State:146
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -11599,8 +11602,11 @@ State:143
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -11617,7 +11623,7 @@ State:143
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:142
 /OrderScreen/
 /TopLeftButtons/
@@ -11673,11 +11679,11 @@ State:142
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -11780,11 +11786,11 @@ State:141
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -11924,11 +11930,11 @@ State:139
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -12029,11 +12035,11 @@ State:138
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -12128,11 +12134,11 @@ State:137
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"QUESADILLA"
@@ -12229,11 +12235,11 @@ State:136
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -12332,11 +12338,11 @@ State:135
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -12434,11 +12440,11 @@ State:134
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -12536,11 +12542,11 @@ State:133
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -12640,11 +12646,11 @@ State:132
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -12743,11 +12749,11 @@ State:131
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -12845,11 +12851,11 @@ State:130
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -12948,11 +12954,11 @@ State:129
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -13050,11 +13056,11 @@ State:128
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -13158,11 +13164,11 @@ State:127
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:126
 /OrderScreen/
@@ -13220,11 +13226,11 @@ State:126
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -13328,11 +13334,11 @@ State:125
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -13434,11 +13440,11 @@ State:124
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -13546,11 +13552,11 @@ State:123
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -13654,11 +13660,11 @@ State:122
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -13760,11 +13766,11 @@ State:121
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -13869,11 +13875,11 @@ State:120
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"

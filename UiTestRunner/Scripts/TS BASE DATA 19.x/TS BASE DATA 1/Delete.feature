@@ -23,6 +23,7 @@ Scenario: 1 Login as manager 200 to Floor Plan
 			Then clicked /EntriesBySeat/,"COKE"
 #Action: 6 Delete COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			When swiped left on /BottomButtons/
 			Then clicked [Delete]
 #Action: 7 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
