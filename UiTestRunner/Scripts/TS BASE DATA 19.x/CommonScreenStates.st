@@ -858,6 +858,8 @@ State:310
 /WWTScreen/
 	"JEFFREY"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	[New Tab]
@@ -2293,21 +2295,18 @@ State:280
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"Peperoni\Pizza"
-	"Cheese\Pizza"
-	"Sausage\Pizza"
-	"Veg 7\Thin"
+	[^]
 /BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:279
 /OrderScreen/
@@ -2824,11 +2823,11 @@ State:271
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:270
 /PizzaModifierScreen/
@@ -3678,6 +3677,8 @@ State:251
 /WWTScreen/
 	"JEFFREY"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	[New Tab]
@@ -3899,8 +3900,11 @@ State:247
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -3927,12 +3931,15 @@ State:247
 /TipChoice/
 	"15%"
 	"$0.30"
+	"Total: $2.30"
 /TipChoice.2/
 	"20%"
 	"$0.40"
+	"Total: $2.40"
 /TipChoice.3/
 	"25%"
 	"$0.50"
+	"Total: $2.50"
 	"Custom Tip"
 State:246
 /TenderScreen/
@@ -3968,8 +3975,11 @@ State:246
 	"2.12"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4677,8 +4687,11 @@ State:233
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4728,8 +4741,11 @@ State:232
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4781,8 +4797,11 @@ State:231
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4832,8 +4851,11 @@ State:230
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4885,8 +4907,11 @@ State:229
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4936,8 +4961,11 @@ State:228
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4989,8 +5017,11 @@ State:227
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -5040,8 +5071,11 @@ State:226
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -5091,8 +5125,11 @@ State:225
 /Tenders/
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -5163,8 +5200,11 @@ State:223
 	"4.77"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -5181,7 +5221,7 @@ State:223
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:222
 /TenderScreen/
 /TopRightButtons/
@@ -5214,8 +5254,11 @@ State:222
 /Tenders/
 	"Balance Due"
 	"$4.77"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -5232,7 +5275,7 @@ State:222
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:221
 /OrderScreen/
 /TopLeftButtons/
@@ -5289,11 +5332,11 @@ State:221
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:220
 /OrderScreen/
@@ -5351,11 +5394,11 @@ State:220
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -5446,11 +5489,11 @@ State:219
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -5514,8 +5557,11 @@ State:218
 	"3.71"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -5532,7 +5578,7 @@ State:218
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:217
 /TenderScreen/
 /TopRightButtons/
@@ -5565,8 +5611,11 @@ State:217
 /Tenders/
 	"Balance Due"
 	"$3.71"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -5583,7 +5632,7 @@ State:217
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:216
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -5678,11 +5727,11 @@ State:215
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:214
 /OrderScreen/
@@ -5740,11 +5789,11 @@ State:214
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -5833,11 +5882,11 @@ State:213
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -6012,8 +6061,11 @@ State:210
 /Tenders/
 	"Balance Due"
 	"$41.94"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -6065,8 +6117,11 @@ State:209
 	"41.94"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -6118,8 +6173,11 @@ State:208
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -6185,10 +6243,9 @@ State:207
 	[Pizza Menu]
 	"ICED\COFFEE"
 /BottomButtons/
-	[Scan Barcode]
-	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
@@ -6247,11 +6304,11 @@ State:206
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"TEST"
@@ -6378,11 +6435,11 @@ State:205
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"TEST"
@@ -6499,11 +6556,11 @@ State:203
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"OPEN PRICE MOD"
@@ -6602,11 +6659,11 @@ State:202
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"OPEN PRICE MOD"
@@ -6681,11 +6738,11 @@ State:201
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -6780,11 +6837,11 @@ State:200
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -6878,11 +6935,11 @@ State:199
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -6986,11 +7043,11 @@ State:198
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -7096,11 +7153,11 @@ State:197
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -7208,11 +7265,11 @@ State:196
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -7320,11 +7377,11 @@ State:195
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -7431,11 +7488,11 @@ State:194
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -7537,11 +7594,11 @@ State:193
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -7637,11 +7694,11 @@ State:192
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -7748,11 +7805,11 @@ State:191
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Classic"
@@ -7843,11 +7900,11 @@ State:190
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Classic"
@@ -7937,11 +7994,11 @@ State:189
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -8037,11 +8094,11 @@ State:188
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -8136,11 +8193,11 @@ State:187
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -8231,11 +8288,11 @@ State:186
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -8367,11 +8424,11 @@ State:184
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -8507,11 +8564,11 @@ State:182
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -8610,11 +8667,11 @@ State:181
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -8707,11 +8764,11 @@ State:180
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -8798,11 +8855,11 @@ State:179
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -8892,11 +8949,11 @@ State:178
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -8975,11 +9032,11 @@ State:177
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -9081,11 +9138,11 @@ State:176
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -9161,11 +9218,11 @@ State:175
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -9306,11 +9363,11 @@ State:173
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -9408,11 +9465,11 @@ State:172
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -9510,11 +9567,11 @@ State:171
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -9655,11 +9712,11 @@ State:169
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -14292,16 +14349,18 @@ State:108
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:107
 /WWTScreen/
 	"JEFFREY"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	[New Tab]
@@ -14401,6 +14460,8 @@ State:105
 /WWTScreen/
 	"JEFFREY"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -14545,29 +14606,29 @@ State:102
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:101
-/SplitCheckScreen/
+/SplitSeatScreen/
 /SplitScreen/
 	"Table 1"
-/SplitAndMergeButtons/
-	[Split Items]
-	[Merge Split Items*]
 /CheckOrSeat/
-	"Check 1"
+	"For Table"
+/CheckOrSeat.2/
 	"Seat 1"
+	"COKE"
 	"7 UP"
+	"CORONA"
 	[<]
 	[>]
 /BottomCenterButtons/
 	[Combine]
 	[Add]
-	[Split seat]
+	[Split check]
 	[Close]
 State:100
 /TenderScreen/
@@ -14608,8 +14669,11 @@ State:100
 	"6.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14664,8 +14728,11 @@ State:099
 /Tenders/
 	"Balance Due"
 	"$6.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -14742,11 +14809,11 @@ State:098
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:097
 /TenderScreen/
@@ -16502,11 +16569,14 @@ State:056
 	[Combine]
 	[Add]
 	[Split seat]
+	[Equal Split]
 	[Close]
 State:055
 /WWTScreen/
 	"JEFFREY"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -16810,11 +16880,11 @@ State:050
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:049
 /WWTScreen/
@@ -17292,6 +17362,8 @@ State:038
 /WWTScreen/
 	"JEFFREY"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -17331,6 +17403,8 @@ State:036
 /WWTScreen/
 	"JEFFREY"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -17419,11 +17493,11 @@ State:034
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:033
 /ReceiveTransfersScreen/
