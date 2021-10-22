@@ -533,6 +533,67 @@ State:395
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:321
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"1/4 7 UP"
+	"1/4 7 UP.2"
+	"1/4 7 UP.3"
+	"1/4 7 UP.4"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Equal Split]
+	[Close]
+State:320
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"1/2 7 UP"
+	"1/2 7 UP.2"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Equal Split]
+	[Close]
+State:319
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"7 UP"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Equal Split]
+	[Close]
 State:318
 /OrderScreen/
 /TopLeftButtons/
@@ -747,31 +808,6 @@ State:315
 	[0]
 	[OK]
 	[X]
-State:314
-/ReceiveTransfersScreen/
-	"LEBRON JAMES"
-	"Transfers"
-	"List of incoming transfers"
-/IncomingTables/
-	"1"
-/ExistingTables/
-/RightCommands/
-	[OK]
-	[New Table]
-	[New Tab]
-	[Merge Table]
-	[Merge Tab]
-	[Cancel]
-State:313
-/ReceiveTransfersScreen/
-	"MIGUEL SAAVEDRA"
-	"Transfers"
-	"List of incoming transfers"
-/IncomingTables/
-	"j1"
-/ExistingTables/
-/RightCommands/
-	[Cancel]
 State:312
 /SplitCheckScreen/
 /SplitScreen/
@@ -791,6 +827,7 @@ State:312
 	[Combine]
 	[Add]
 	[Split seat]
+	[Equal Split]
 	[Close]
 State:311
 /TenderScreen/
@@ -1180,8 +1217,11 @@ State:305
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -1237,8 +1277,11 @@ State:304
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1315,11 +1358,11 @@ State:303
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:302
 /SplitCheckScreen/
@@ -1377,8 +1420,11 @@ State:301
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -1432,8 +1478,11 @@ State:300
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1508,11 +1557,11 @@ State:299
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:298
 /SplitCheckScreen/
@@ -1610,8 +1659,11 @@ State:295
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -1682,8 +1734,11 @@ State:293
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1756,11 +1811,11 @@ State:292
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:291
 /SplitCheckScreen/
@@ -1779,6 +1834,7 @@ State:291
 	[Combine]
 	[Add]
 	[Split seat]
+	[Equal Split]
 	[Close]
 /InputDialog/
 	"Enter quantity"
@@ -1851,11 +1907,11 @@ State:290
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:289
 /ReceiveTransfersScreen/
@@ -1996,8 +2052,11 @@ State:286
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -2014,7 +2073,7 @@ State:286
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:285
 /TenderScreen/
 /TopRightButtons/
@@ -2052,8 +2111,11 @@ State:285
 /Tenders/
 	"Balance Due"
 	"$21.22"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -2070,7 +2132,7 @@ State:285
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:284
 /SplitSeatScreen/
 /SplitScreen/
@@ -2188,8 +2250,11 @@ State:282
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -2206,7 +2271,7 @@ State:282
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:281
 /TenderScreen/
 /TopRightButtons/
@@ -2241,8 +2306,11 @@ State:281
 	"5.31"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -2259,7 +2327,7 @@ State:281
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:280
 /OrderScreen/
 /TopLeftButtons/
@@ -3210,8 +3278,11 @@ State:260
 /Tenders/
 	"Balance Due"
 	"$3.18"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -3228,7 +3299,7 @@ State:260
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:259
 /OrderScreen/
 /TopLeftButtons/
@@ -3278,11 +3349,11 @@ State:259
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:258
 /PizzaModifierScreen/
@@ -3368,11 +3439,11 @@ State:257
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /CurrencyInputDialog/
 	"Enter quantity of llbs (@ 4.00)"
@@ -3438,11 +3509,11 @@ State:256
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /InputDialog/
 	"Enter quantity of llbs (@ 4.00)"
@@ -3548,8 +3619,11 @@ State:254
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3566,7 +3640,7 @@ State:254
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:253
 /TenderScreen/
 /TopRightButtons/
@@ -3601,8 +3675,11 @@ State:253
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3619,7 +3696,7 @@ State:253
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:252
 /TenderScreen/
 /TopRightButtons/
@@ -3654,8 +3731,11 @@ State:252
 	"5.31"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3672,7 +3752,7 @@ State:252
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:251
 /WWTScreen/
 	"JEFFREY"
@@ -3732,8 +3812,11 @@ State:250
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3750,7 +3833,7 @@ State:250
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:249
 /TenderScreen/
 /TopRightButtons/
@@ -3785,8 +3868,11 @@ State:249
 	"5.31"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3803,7 +3889,7 @@ State:249
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:248
 /OrderScreen/
 /TopLeftButtons/
@@ -3857,11 +3943,11 @@ State:248
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ConfirmDialog/
 	"Clear All Unordered Items"
@@ -5953,8 +6039,11 @@ State:212
 	"7.31"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -6010,8 +6099,11 @@ State:211
 	"10.31"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -6194,7 +6286,7 @@ State:208
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:207
 /OrderScreen/
 /TopLeftButtons/
@@ -14066,8 +14158,11 @@ State:117
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14084,7 +14179,7 @@ State:117
 	[Add Gratuity*]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:116
 /ReceiveTransfersScreen/
 	"LEBRON JAMES"
@@ -14143,11 +14238,11 @@ State:115
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:114
 /ReceiveTransfersScreen/
@@ -14169,6 +14264,8 @@ State:113
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	"j2"
@@ -14193,6 +14290,8 @@ State:112
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	[New Tab]
@@ -14234,6 +14333,8 @@ State:111
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -14257,6 +14358,8 @@ State:110
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -14281,6 +14384,8 @@ State:109
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	[New Tab]
@@ -14437,8 +14542,11 @@ State:106
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14455,7 +14563,7 @@ State:106
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:105
 /WWTScreen/
 	"JEFFREY"
@@ -14508,6 +14616,8 @@ State:104
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -14531,6 +14641,8 @@ State:103
 /WWTScreen/
 	"LEBRON"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -14855,8 +14967,11 @@ State:097
 	"10.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14873,7 +14988,7 @@ State:097
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:096
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
@@ -14946,8 +15061,11 @@ State:095
 /Tenders/
 	"Balance Due"
 	"$10.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -14964,7 +15082,7 @@ State:095
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:094
 /OrderScreen/
 /TopLeftButtons/
@@ -15016,11 +15134,11 @@ State:094
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:093
 /WWTScreen/
@@ -15101,11 +15219,11 @@ State:092
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:091
 /OrderScreen/
@@ -15155,11 +15273,11 @@ State:091
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:090
 /OrderScreen/
@@ -15207,11 +15325,11 @@ State:090
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:089
 /OrderScreen/
@@ -15257,11 +15375,11 @@ State:089
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:088
 /OrderScreen/
@@ -15304,11 +15422,11 @@ State:088
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:087
 /TenderScreen/
@@ -15347,8 +15465,11 @@ State:087
 	"21.22"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15365,7 +15486,7 @@ State:087
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:086
 /WWTScreen/
 	"JEFFREY"
@@ -15500,11 +15621,11 @@ State:084
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:083
 /OrderScreen/
@@ -15557,11 +15678,11 @@ State:083
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:082
 /OrderScreen/
@@ -15612,11 +15733,11 @@ State:082
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:081
 /OrderScreen/
@@ -15663,11 +15784,11 @@ State:081
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:080
 /OrderScreen/
@@ -15716,11 +15837,11 @@ State:080
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:079
 /WWTScreen/
@@ -15796,11 +15917,11 @@ State:078
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:077
 /OrderScreen/
@@ -15844,11 +15965,11 @@ State:077
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:076
 /TenderScreen/
@@ -15888,8 +16009,11 @@ State:076
 	"7.96"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15906,7 +16030,7 @@ State:076
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:075
 /TenderScreen/
 /TopRightButtons/
@@ -15943,8 +16067,11 @@ State:075
 /Tenders/
 	"Balance Due"
 	"$7.96"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -15961,7 +16088,7 @@ State:075
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:074
 /OrderScreen/
 /TopLeftButtons/
@@ -16009,11 +16136,11 @@ State:074
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:073
 /OrderScreen/
@@ -16060,11 +16187,11 @@ State:073
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:072
 /ReceiveTransfersScreen/
@@ -16125,11 +16252,11 @@ State:071
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:070
 /OrderScreen/
@@ -16171,11 +16298,11 @@ State:070
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:069
 /TenderScreen/
@@ -16214,8 +16341,11 @@ State:069
 	"22.28"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -16232,7 +16362,7 @@ State:069
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:068
 /TenderScreen/
 /TopRightButtons/
@@ -16250,16 +16380,14 @@ State:068
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"CHOPPED SALAD"
-	"3.00"
 	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
-	"3.00.2"
+	"3.00"
 	"SOUP OF DAY\ CUP"
-	"3.00.3"
+	"3.00.2"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -16270,8 +16398,13 @@ State:068
 	"Total"
 	"22.28"
 /Tenders/
+	"Balance Due"
+	"$22.28"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -16288,7 +16421,7 @@ State:068
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:067
 /SplitCheckScreen/
 /SplitScreen/
@@ -16753,11 +16886,11 @@ State:052
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:051
 /ReceiveTransfersScreen/
@@ -16965,11 +17098,11 @@ State:048
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:047
 /ReceiveTransfersScreen/
@@ -17205,11 +17338,11 @@ State:043
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 State:042
 /ReceiveTransfersScreen/
@@ -17540,6 +17673,8 @@ State:031
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	[New Tab]
@@ -17564,6 +17699,8 @@ State:030
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j1"
 	[New Tab]
@@ -17588,6 +17725,8 @@ State:029
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	[New Tab]
 /Tables/
@@ -17675,6 +17814,8 @@ State:026
 /WWTScreen/
 	"MIGUEL"
 	"Sorted by Time Created\Ordered Ascending"
+	[Aloha]
+	[GCP]
 /Tabs/
 	"j2"
 	[New Tab]
@@ -17733,9 +17874,6 @@ State:024
 	"JEFFREY OYENEYE"
 	[OK*]
 	[Cancel]
-/TransferFromEmployees/
-	"Select employee to transfer from"
-	"JEFFREY OYENEYE"
 /TransferTables/
 	"Select table you wish to transfer"
 	"1"
@@ -17801,11 +17939,11 @@ State:023
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -17919,9 +18057,6 @@ State:020
 	"JEFFREY OYENEYE"
 	[OK]
 	[Cancel]
-/TransferFromEmployees/
-	"Select employee to transfer from"
-	"JEFFREY OYENEYE"
 /TransferTables/
 	"Select table you wish to transfer"
 	"Select tab you wish to transfer"
@@ -17987,11 +18122,11 @@ State:019
 	[Select Printer]
 	[Transfer]
 	[Void]
+	[Add Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	[Delete]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -18040,8 +18175,11 @@ State:018
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -18058,7 +18196,7 @@ State:018
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:017
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
@@ -18145,9 +18283,6 @@ State:012
 	"JEFFREY OYENEYE"
 	[OK]
 	[Cancel]
-/TransferFromEmployees/
-	"Select employee to transfer from"
-	"JEFFREY OYENEYE"
 /TransferTables/
 	"Select table you wish to transfer"
 	"1"
@@ -18166,9 +18301,6 @@ State:011
 	"JEFFREY OYENEYE"
 	[OK*]
 	[Cancel]
-/TransferFromEmployees/
-	"Select employee to transfer from"
-	"JEFFREY OYENEYE"
 /TransferTables/
 	"Select table you wish to transfer"
 	"Select tab you wish to transfer"
@@ -18589,8 +18721,11 @@ State:001
 	"3.18"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -18607,4 +18742,4 @@ State:001
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
