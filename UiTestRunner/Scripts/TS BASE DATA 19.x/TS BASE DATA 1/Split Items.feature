@@ -189,7 +189,7 @@ Scenario: 4 Split Item into 20 Items
 			Given screen state: 308
 			Then clicked [$]
 #Action: 12 Exact Payment
-			Given screen state: 309
+			Given screen state: 341
 			Then clicked [Exact]
 #Action: 13 Click Close
 			Given screen state: 311
