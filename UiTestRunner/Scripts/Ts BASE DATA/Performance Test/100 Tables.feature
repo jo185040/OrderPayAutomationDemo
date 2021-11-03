@@ -69,17 +69,17 @@ Scenario: 4 LogIn, Close Tab named:{N}{T}, Iincrement {T}
 Scenario: 5 Open 104 Tabs
 #Action: 1 Initialize {T}=a {N}=0 (repeat of 1.1)
 			When repeated  Initialize {T}=a {N}=0
-#Action: 2 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 100 times of 1.2)
-			When repeated 100 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
+#Action: 2 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 26 times of 1.2)
+			When repeated 26 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
 			Then incremented variable character {N},0,9
-#Action: 3 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 100 times of 1.2)
-			When repeated 100 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
+#Action: 3 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 26 times of 1.2)
+			When repeated 26 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
 			Then incremented variable character {N},0,9
-#Action: 4 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 100 times of 1.2)
-			When repeated 100 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
+#Action: 4 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 26 times of 1.2)
+			When repeated 26 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
 			Then incremented variable character {N},0,9
-#Action: 5 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 100 times of 1.2)
-			When repeated 100 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
+#Action: 5 LogIn, Add Tab named {N}{T}, Iincrement {T} (repeat 26 times of 1.2)
+			When repeated 26 times  LogIn, Add Tab named {N}{T}, Iincrement {T}
 			Then incremented variable character {N},0,9
 
 Scenario: 6 Close 104 Tabs
@@ -109,9 +109,8 @@ Scenario: 8 Qiuck Add Tab:{I}{N}{T}, Increment {T}
 			Then verify presence of [WWT\Screen]
 			Then clicked [WWT\Screen]
 #Action: 2 Show Keyboard and Select Tab Icon
-			Then verify presence of [btnSetTabEntry]
-			Then clicked [btnSetTabEntry]
-			Then clicked [New Order]
+			Then verify presence of [New Tab]
+			Then clicked [New Tab]
 #Action: 3 Open Tab {N}{T} and increment {T} for next time;
 			Then verify presence of "Enter Tab Name"
 			Then clicked /DialogSeparator/,[{I}]

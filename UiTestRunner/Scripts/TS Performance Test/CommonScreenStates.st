@@ -1,5 +1,5 @@
-{558}
-FloorPlanScreen
+/{558}/
+/FloorPlanScreen/
 	[7]
 	[WWT\Screen]
 	[1]
@@ -16,23 +16,23 @@ FloorPlanScreen
 	[Open\Drawer]
 	[6]
 	[Get\Check]
-{303}
-TenderScreen
-TopRightButtons
+/{303}/
+/TenderScreen/
+/TopRightButtons/
 	[Tables]
 	[Order]
 	[Print]
 	[Email/SMS]
 	[Exit]
-TopLeftButtons
+/TopLeftButtons/
 	[Payment]
 	[Get Mobile Pay Code*]
 	[Promo]
 	[Comp]
 	"Table 1"
 	[Check 1]
-ItemEntries
-*
+/ItemEntries/
+/*/
 	"Seat 1"
 	"COKE"
 	"2.00"
@@ -40,22 +40,22 @@ ItemEntries
 	"5.00"
 	"MILLER LITE"
 	"3.00"
-Promos
-Comps
+/Promos/
+/Comps/
 	"Sub Total"
 	"10.00"
-Taxes
+/Taxes/
 	"Tax"
 	"0.31"
 	"Total"
 	"10.31"
-Tenders
+/Tenders/
 	"Balance Due"
 	"$10.31"
-MidButtons
+/MidButtons/
 	[Gift Card Balance]
 	[Close*]
-MidLeftButtons
+/MidLeftButtons/
 	[CASH]
 	[ECARD]
 	[Euro]
@@ -63,33 +63,33 @@ MidLeftButtons
 	[House Acc]
 	[Euro Round]
 	[$10]
-BottomRightButtons
+/BottomRightButtons/
 	[Delete]
-BottomLeftButtons
+/BottomLeftButtons/
 	[Loyalty]
 	[Add Gratuity]
 	[Tax Exempt]
-WarningBarControl
+/WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-{281}
-OrderScreen
-TopLeftButtons
+/{281}/
+/OrderScreen/
+/TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
 	[Split Seat]
 	[Done]
-TopRightButtons
-TableAndChecks
+/TopRightButtons/
+/TableAndChecks/
 	"Table 1"
 	[Clear]
 	[Check 1]
 	[+]
-EntriesBySeat
-*
-Seats
+/EntriesBySeat/
+/*/
+/Seats/
 	[+]
-CenterMenuButtons
-MenuOrModButtons
+/CenterMenuButtons/
+/MenuOrModButtons/
 	"FRIED MOZZ"
 	"Quick Menu"
 	[Mod Menu\Items]
@@ -103,7 +103,7 @@ MenuOrModButtons
 	[Scripts Test\Panel]
 	[Pizza Menu]
 	"ICED\COFFEE"
-BottomButtons
+/BottomButtons/
 	[$]
 	[Scan Barcode]
 	[Select Printer]
@@ -115,8 +115,8 @@ BottomButtons
 	[Modify]
 	[Delete]
 	""
-{025}
-FloorPlanScreen*
+/{025}/
+/FloorPlanScreen*/
 	[7]
 	[WWT\Screen]
 	[1]
@@ -133,11 +133,11 @@ FloorPlanScreen*
 	[Open\Drawer]
 	[6]
 	[Get\Check]
-InputDialog
+/InputDialog/
 	"Enter Guest Count"
 	"1"
 	[<]
-DialogSeparator
+/DialogSeparator/
 	[1]
 	[2]
 	[3]
