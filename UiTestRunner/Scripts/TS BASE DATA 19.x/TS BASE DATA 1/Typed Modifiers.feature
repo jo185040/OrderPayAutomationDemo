@@ -180,16 +180,16 @@ Scenario: 3 Typed Modifiers on exceptional mod group Pizza.
 			Then clicked /DialogSeparator/,[t],[e],[s],[t],[Ok]
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 12 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","QUESADILLA\ ADD AVOCADO","5.00\0.80"
+			Given screen state: 344
 			Then clicked [HERE]
 #Action: 13 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","QUESADILLA\ ADD AVOCADO","5.00\0.80"
+			Given screen state: 344
 			Then clicked [$]
 #Action: 14 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","QUESADILLA\ ADD AVOCADO","5.00\0.80",/Comps/,"5.80",/Taxes/,"0.35","6.15"
+			Given screen state: 342
 			Then clicked [Exact]
 #Action: 15 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","QUESADILLA\ ADD AVOCADO","5.00\0.80",/Comps/,"5.80",/Taxes/,"0.35","6.15",/Tenders/,"CASH","6.15","Change","$0.00"
+			Given screen state: 343
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
 			Given screen state: 558
