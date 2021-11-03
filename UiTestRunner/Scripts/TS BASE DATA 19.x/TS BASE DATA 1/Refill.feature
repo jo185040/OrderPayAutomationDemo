@@ -89,7 +89,7 @@ Scenario: 2 Repeat Refill Drink
 			Given screen state: 277
 			Then clicked /BottomButtons/,[Repeat]
 #Action: 12 Select OK Button
-			Then verify presence of /DialogSeparator/,"Repeat is not permitted on Refillable Items"
+			Given screen state: 348
 			Then clicked /DialogSeparator/,[OK]
 #Action: 13 Select Payment $
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE","2.00"

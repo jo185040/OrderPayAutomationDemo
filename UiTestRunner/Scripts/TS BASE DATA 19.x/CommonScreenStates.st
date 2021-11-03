@@ -533,6 +533,267 @@ State:395
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:350
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"COKE"
+	"Seat 2"
+	"7 UP"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Equal Split]
+	[Close]
+State:349
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+/MessageDialog/
+	"Error"
+/DialogSeparator/
+	"Repeat is not permitted on Ordered Refillable Items:  COKE"
+	[X]
+	[OK]
+State:348
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+/MessageDialog/
+	"Error"
+/DialogSeparator/
+	"Repeat is not permitted on Ordered Refillable Items:  COKE<br/>&ensp;COKE"
+	[X]
+	[OK]
+State:347
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN DESCR MOD\ TEST"
+	"10.00\2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:346
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"j1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:345
 /TenderScreen/
 /TopRightButtons/
@@ -4450,7 +4711,10 @@ State:280
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	[^]
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
 /BottomButtons/
 	[$]
 	[Scan Barcode]
@@ -4725,8 +4989,11 @@ State:276
 	"21.92"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4858,8 +5125,11 @@ State:273
 /Tenders/
 	"Balance Due"
 	"$21.92"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
+	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -5783,7 +6053,7 @@ State:253
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:252
 /TenderScreen/
 /TopRightButtons/
@@ -5839,7 +6109,7 @@ State:252
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:251
 /WWTScreen/
 	"JEFFREY"
@@ -6356,7 +6626,7 @@ State:239
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:238
 /OrderScreen/
 /TopLeftButtons/
@@ -7394,7 +7664,7 @@ State:223
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:222
 /TenderScreen/
 /TopRightButtons/
@@ -7448,7 +7718,7 @@ State:222
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:221
 /OrderScreen/
 /TopLeftButtons/
@@ -7751,7 +8021,7 @@ State:218
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:217
 /TenderScreen/
 /TopRightButtons/
@@ -7805,7 +8075,7 @@ State:217
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:216
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -8373,7 +8643,7 @@ State:208
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:207
 /OrderScreen/
 /TopLeftButtons/
@@ -13859,7 +14129,7 @@ State:143
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:142
 /OrderScreen/
 /TopLeftButtons/
@@ -18770,27 +19040,6 @@ State:057
 	[Add]
 	[Split seat]
 	[Close]
-State:056
-/SplitCheckScreen/
-/SplitScreen/
-	"Table 1"
-/SplitAndMergeButtons/
-	[Split Items]
-	[Merge Split Items*]
-/CheckOrSeat/
-	"Check 1"
-	"Seat 1"
-	"COKE"
-	"Seat 2"
-	"7 UP"
-	[<]
-	[>]
-/BottomCenterButtons/
-	[Combine]
-	[Add]
-	[Split seat]
-	[Equal Split]
-	[Close]
 State:055
 /WWTScreen/
 	"JEFFREY"
@@ -20283,7 +20532,7 @@ State:018
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:017
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"

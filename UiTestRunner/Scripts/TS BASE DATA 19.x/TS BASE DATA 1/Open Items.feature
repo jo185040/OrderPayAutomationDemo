@@ -522,7 +522,7 @@ Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier 
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\ TEST","10.00\2.00"
+			Given screen state: 347
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\ TEST","10.00\2.00"

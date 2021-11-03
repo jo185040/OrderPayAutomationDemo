@@ -101,7 +101,7 @@ Scenario: 2 Get Tab
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 14 Click Close
-			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
+			Given screen state: 346
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
 			Given screen state: 558

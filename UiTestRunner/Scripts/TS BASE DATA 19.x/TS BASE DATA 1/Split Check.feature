@@ -26,10 +26,10 @@ Scenario: 1 Verify that you can split checks with unordered items using the �S
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[Split Check]
 #Action: 7 Select "7Up"
-			Given screen state: 056
+			Given screen state: 350
 			Then clicked "7 UP"
 #Action: 8 Tap 'Add' to move 7UP to new Check 2
-			Given screen state: 056
+			Given screen state: 350
 			Then clicked [Add]
 			Then clicked /CheckOrSeat.2/
 #Action: 9 Tap 'Add' to create Check 3
@@ -94,10 +94,10 @@ Scenario: 2 Verify that you can split checks with ordered items using the �Spl
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[Split Check]
 #Action: 8 Select "7Up"
-			Given screen state: 056
+			Given screen state: 350
 			Then clicked "7 UP"
 #Action: 9 Add Check
-			Given screen state: 056
+			Given screen state: 350
 			Then clicked [Add]
 			Then clicked /CheckOrSeat.2/
 #Action: 10 Add Check
