@@ -34,8 +34,9 @@ Scenario: 1 Verify you can void items with no issues
 			Given screen state: 023
 			Then clicked /Items/,[OK]
 #Action: 10 Select Void Reason on Void Screen
-			Then verify presence of /SelectEntityDialog/,"Select Void Reason",/DialogSeparator/,[TESTING],[OVERRING],[MISRING],[*86*],[X],[Cancel]
-			Then clicked /DialogSeparator/,[OVERRING]
+			Given screen state: 461
+			Then clicked /Dialog/,^OVERRING^
+			Then clicked /Dialog/,[OK]
 #Action: 11 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE"
 			Then clicked [$]
@@ -67,14 +68,15 @@ Scenario: 2 Verify you can clear (delete) unordered an item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 6 Select OK
-			Given screen state: 248
-			Then clicked /ConfirmDialog/,[OK]
+			Given screen state: 056
+			Then clicked /Dialog/,[OK]
 #Action: 7 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When clicked /TopLeftButtons/,[Done]
 
 Scenario: 3 Verify JIT screen displays when trying to void item
 #Action: 1 Login as manager 200
+			#TODO ALOHAP-34259 JIT casuing Orderpay to crash
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [1],[0],[0]
 			And clicked [Login]
