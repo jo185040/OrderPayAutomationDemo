@@ -185,10 +185,10 @@ Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Ret
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 11 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\2.00"
+			Given screen state: 458
 			Then clicked [HERE]
 #Action: 12 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\2.00"
+			Given screen state: 458
 			Then clicked [$]
 #Action: 13 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.12","Total","4.12",/Tenders/,"Balance Due","$4.12"
@@ -243,10 +243,10 @@ Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier fr
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   OPEN ITEM PRICE","2.00\2.00"
+			Given screen state: 459
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   OPEN ITEM PRICE","2.00\2.00"
+			Given screen state: 459
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.12","Total","4.12",/Tenders/,"Balance Due","$4.12"
@@ -302,10 +302,10 @@ Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\10.00"
+			Given screen state: 460
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\10.00"
+			Given screen state: 460
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.61","Total","12.61",/Tenders/,"Balance Due","$12.61"
