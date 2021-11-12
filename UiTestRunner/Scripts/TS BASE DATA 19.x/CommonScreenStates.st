@@ -61,6 +61,1984 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:455
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 3]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:454
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"Seat 2"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+/CheckOrSeat.2/
+	"Check 2"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:453
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:452
+/Dialog/
+	"Close check Error"
+	"The specified check contains UNOrdered items"
+	[OK]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:451
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Sausage Pizza"
+	"10.00"
+/Items/
+	"Large"
+	"Sausage"
+	"1/2"
+	"1/2.2"
+/CenterModButtons/
+	[Sausage]
+	[Pepperoni]
+	[Onions]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+/Dialog/
+	"Warning"
+	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
+	[OK]
+State:450
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Sausage Pizza"
+	"10.00"
+/Items/
+	"Pan"
+	"1/2"
+	"1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:449
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Sausage Pizza"
+	"10.00"
+/Items/
+	"Large"
+	"1/2"
+	"1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:448
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\test\ Large\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"CASH"
+	"10.61"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:447
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\test\ Large\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"Balance Due"
+	"$10.61"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:446
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\test\ Large\ Pan\ Sausage"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:445
+/PizzaModifierScreen/
+/GroupOneButtons/
+	"Pizza Size"
+	[Small]
+	[Medium]
+	[Large]
+/GroupTwoButtons/
+	"Pizza Crust"
+	[Thin]
+	[Chicago Style]
+	[Pan]
+/ModCodeButtons/
+	[Add]
+	[No]
+/AdditionalModGroupButtons/
+	[Pizza Toppings]
+/PizzaPortionButtons/
+	[Whole]
+	[Left]
+	[Right]
+	"Sausage Pizza"
+	"10.00"
+/Items/
+	"Large"
+	"Pan"
+	"1/2"
+	"1/2.2"
+/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
+/BottomCenterButtons/
+	[OK]
+	[Cancel]
+/BottomRightButtons/
+	[Delete]
+	[btnMessage]
+State:444
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ Beef\ Beef\ 1/2\ Chicken\ Chicken\ Chicken"
+	"12.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.00"
+/Taxes/
+	"Tax"
+	"0.73"
+	"Total"
+	"12.73"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:443
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ Beef\ Beef\ 1/2\ Chicken\ Chicken\ Chicken"
+	"12.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.00"
+/Taxes/
+	"Tax"
+	"0.73"
+	"Total"
+	"12.73"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:442
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ Beef\ Beef\ 1/2\ Chicken\ Chicken\ Chicken"
+	"12.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:441
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ 1/2\ Chicken"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"CASH"
+	"10.61"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:440
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ 1/2\ Chicken"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"Balance Due"
+	"$10.61"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:439
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ 1/2\ Chicken"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:438
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+/ItemSelectionDialog/
+	"Select items to void"
+/DialogSeparator/
+	^SELECT ALL^
+	"SELECT ALL"
+/Items_Container/
+/Items/
+	"Seat 1"
+	^Sausage Pizza\ Large\ Pan\ Sausage^
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+	[Cancel]
+	[OK*]
+State:437
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"2 Sausage Pizza\ Large\ Pan\ Sausage"
+	"20.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"20.00"
+/Taxes/
+	"Tax"
+	"1.22"
+	"Total"
+	"21.22"
+/Tenders/
+	"CASH"
+	"21.22"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:436
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"2 Sausage Pizza\ Large\ Pan\ Sausage"
+	"20.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"20.00"
+/Taxes/
+	"Tax"
+	"1.22"
+	"Total"
+	"21.22"
+/Tenders/
+	"Balance Due"
+	"$21.22"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:435
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 2]
+/ItemEntries/
+	"Seat 2"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"CASH"
+	"10.61"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:434
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 2]
+/ItemEntries/
+	"Seat 2"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"Balance Due"
+	"$10.61"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:433
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Cheese Pizza\ Large\ Pan\ Chicken\ Cheese"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.00"
+/Taxes/
+	"Tax"
+	"0.31"
+	"Total"
+	"5.31"
+/Tenders/
+	"CASH"
+	"5.31"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:432
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Cheese Pizza\ Large\ Pan\ Chicken\ Cheese"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.00"
+/Taxes/
+	"Tax"
+	"0.31"
+	"Total"
+	"5.31"
+/Tenders/
+	"Balance Due"
+	"$5.31"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:431
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Cheese Pizza\ Large\ Pan\ Chicken\ Cheese"
+	"5.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:430
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:429
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"CASH"
+	"10.61"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:428
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"Balance Due"
+	"$10.61"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:427
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"11.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"11.00"
+/Taxes/
+	"Tax"
+	"0.67"
+	"Total"
+	"11.67"
+/Tenders/
+	"CASH"
+	"11.67"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:426
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"11.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"11.00"
+/Taxes/
+	"Tax"
+	"0.67"
+	"Total"
+	"11.67"
+/Tenders/
+	"Balance Due"
+	"$11.67"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:425
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"11.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:424
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Sausage Pizza\ Large\ Pan\ Chicken\ Cheese\ Beef"
+	"6.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"6.00"
+/Taxes/
+	"Tax"
+	"0.37"
+	"Total"
+	"6.37"
+/Tenders/
+	"CASH"
+	"6.37"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:423
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Chicken\ Cheese\ Beef"
+	"6.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"6.00"
+/Taxes/
+	"Tax"
+	"0.37"
+	"Total"
+	"6.37"
+/Tenders/
+	"Balance Due"
+	"$6.37"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:422
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Chicken\ Cheese\ Beef"
+	"6.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:421
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Chicken"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.00"
+/Taxes/
+	"Tax"
+	"0.31"
+	"Total"
+	"5.31"
+/Tenders/
+	"CASH"
+	"5.31"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:420
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Chicken"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.00"
+/Taxes/
+	"Tax"
+	"0.31"
+	"Total"
+	"5.31"
+/Tenders/
+	"Balance Due"
+	"$5.31"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:419
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Chicken"
+	"5.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:418
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"CASH"
+	"10.61"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:417
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.61"
+	"Total"
+	"10.61"
+/Tenders/
+	"Balance Due"
+	"$10.61"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
 State:416
 /TenderScreen/
 /TopRightButtons/
@@ -291,11 +2269,11 @@ State:412
 	"10.00"
 	"test"
 /Items/
-	" Large"
-	" Pan"
-	" Sausage"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Sausage"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -503,14 +2481,14 @@ State:408
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" Beef"
-	" Beef.2"
-	" Beef.3"
-	" 1/2.2"
-	" Chicken"
+	"Large"
+	"Pan"
+	"1/2"
+	"Beef"
+	"Beef.2"
+	"Beef.3"
+	"1/2.2"
+	"Chicken"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -522,6 +2500,10 @@ State:408
 	[Delete]
 	[btnMessage]
 State:407
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -545,14 +2527,14 @@ State:407
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" Beef"
-	" Beef.2"
-	" Beef.3"
-	" 1/2.2"
-	" Chicken"
+	"Large"
+	"Pan"
+	"1/2"
+	"Beef"
+	"Beef.2"
+	"Beef.3"
+	"1/2.2"
+	"Chicken"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -563,12 +2545,6 @@ State:407
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[X]
-	[OK]
 State:406
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -593,13 +2569,13 @@ State:406
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" Beef"
-	" Beef.2"
-	" Beef.3"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"1/2"
+	"Beef"
+	"Beef.2"
+	"Beef.3"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -782,80 +2758,107 @@ State:403
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:402
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
-	"10.00"
-/Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" 1/2.2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
-	[Delete]
-	[btnMessage]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"2 Sausage Pizza\ Large\ Pan\ Sausage"
+	"20.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:401
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
 	"10.00"
-/Items/
-	" Large"
-	" 1/2"
-	" 1/2.2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
-	[Delete]
-	[btnMessage]
+	"Sausage Pizza\ Large\ Pan\ Sausage.2"
+	"10.00.2"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:400
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -880,8 +2883,8 @@ State:400
 	"Sausage Pizza"
 	"10.00"
 /Items/
-	" 1/2"
-	" 1/2.2"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -916,12 +2919,12 @@ State:399
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" Beef"
-	" 1/2.2"
-	" Chicken"
+	"Large"
+	"Pan"
+	"1/2"
+	"Beef"
+	"1/2.2"
+	"Chicken"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -956,11 +2959,11 @@ State:398
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" Beef"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"1/2"
+	"Beef"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -995,10 +2998,10 @@ State:397
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -1033,9 +3036,9 @@ State:396
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -1070,8 +3073,8 @@ State:395
 	"Peperoni Pizza"
 	"10.00"
 /Items/
-	" 1/2"
-	" 1/2.2"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -6973,11 +8976,11 @@ State:298
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
-	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 /CheckOrSeat.2/
 	"Check 2"
 	"Seat 2"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -6995,9 +8998,9 @@ State:297
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
-	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 	"Seat 2"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -7089,10 +9092,10 @@ State:294
 	"For Table"
 /CheckOrSeat.2/
 	"Seat 1"
-	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 /CheckOrSeat.3/
 	"Seat 2"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -7541,8 +9544,8 @@ State:284
 	"For Table"
 /CheckOrSeat.2/
 	"Seat 1"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
-	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -7746,7 +9749,7 @@ State:280
 	[+]
 /EntriesBySeat/
 	"Seat 2"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
 	"10.00"
 /Seats/
 	[T]
@@ -8087,12 +10090,12 @@ State:275
 	"Cheese Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" Chicken"
-	" Cheese"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Chicken"
+	"Cheese"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8127,11 +10130,11 @@ State:274
 	"Cheese Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" Chicken"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Chicken"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8200,6 +10203,10 @@ State:273
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:272
+/Dialog/
+	"Warning"
+	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -8223,10 +10230,10 @@ State:272
 	"Cheese Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8237,12 +10244,6 @@ State:272
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
-	[X]
-	[OK]
 State:271
 /OrderScreen/
 /TopLeftButtons/
@@ -8330,10 +10331,10 @@ State:270
 	"Cheese Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8428,9 +10429,9 @@ State:268
 	"Cheese Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8534,8 +10535,8 @@ State:265
 	"Cheese Pizza"
 	"5.00"
 /Items/
-	" 1/2"
-	" 1/2.2"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -8547,6 +10548,10 @@ State:265
 	[Delete]
 	[btnMessage]
 State:264
+/Dialog/
+	"Warning"
+	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -8570,10 +10575,10 @@ State:264
 	"Sausage Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Sausage"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Sausage"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -8584,12 +10589,6 @@ State:264
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
-	[X]
-	[OK]
 State:263
 /SplitSeatScreen/
 /SplitScreen/
@@ -8786,10 +10785,10 @@ State:258
 	"Sausage Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Sausage"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Sausage"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -10648,8 +12647,8 @@ State:224
 	"For Table"
 /CheckOrSeat.2/
 	"Seat 1"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
-	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 /CheckOrSeat.3/
 	"Seat 2"
 	[<]
@@ -11150,10 +13149,10 @@ State:216
 	"Sausage Pizza"
 	"10.00"
 /Items/
-	" Pan"
-	" Sausage"
-	" 1/2"
-	" 1/2.2"
+	"Pan"
+	"Sausage"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -11969,42 +13968,55 @@ State:205
 	[Cancel]
 	[OK]
 State:204
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Pan\ Sausage"
 	"10.00"
-/Items/
-	" Pan"
-	" 1/2"
-	" 1/2.2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
-	[Delete]
-	[btnMessage]
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:203
 /OrderScreen/
 /TopLeftButtons/
@@ -13851,14 +15863,14 @@ State:185
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" VEGGIE"
-	" CHEDDAR"
-	" 1/2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"VEGGIE"
+	"CHEDDAR"
+	"1/2"
 /CenterModButtons/
 	[CHEDDAR]
 /BottomCenterButtons/
@@ -13960,6 +15972,10 @@ State:184
 	[Cancel]
 	[OK]
 State:183
+/Dialog/
+	"Warning"
+	"You may not have more than 1 items from the CHEESE group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -13985,14 +16001,14 @@ State:183
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" VEGGIE"
-	" CHEDDAR"
-	" 1/2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"VEGGIE"
+	"CHEDDAR"
+	"1/2"
 /CenterModButtons/
 	[CHEDDAR]
 /BottomCenterButtons/
@@ -14001,12 +16017,6 @@ State:183
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You may not have more than 1 items from the CHEESE group."
-	[X]
-	[OK]
 State:182
 /Dialog/
 	"Warning"
@@ -14795,14 +16805,14 @@ State:174
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" VEGGIE"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"VEGGIE"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[CHEDDAR]
 /BottomCenterButtons/
@@ -15144,14 +17154,14 @@ State:170
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" VEGGIE"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"VEGGIE"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[VEGGIE]
 /BottomCenterButtons/
@@ -15670,6 +17680,10 @@ State:164
 	[Modify]
 	""
 State:163
+/Dialog/
+	"Warning"
+	"You may not have more than 1 items from the QUICHE group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -15695,14 +17709,14 @@ State:163
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" VEGGIE"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"VEGGIE"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[VEGGIE]
 /BottomCenterButtons/
@@ -15711,12 +17725,6 @@ State:163
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You may not have more than 1 items from the QUICHE group."
-	[X]
-	[OK]
 State:162
 /OrderScreen/
 /TopLeftButtons/
@@ -15877,13 +17885,13 @@ State:161
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[VEGGIE]
 /BottomCenterButtons/
@@ -16109,13 +18117,13 @@ State:158
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -16127,6 +18135,10 @@ State:158
 	[Delete]
 	[btnMessage]
 State:157
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -16152,13 +18164,13 @@ State:157
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Cheese"
-	" Chicken"
-	" Beef"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Cheese"
+	"Chicken"
+	"Beef"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -16169,12 +18181,6 @@ State:157
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[X]
-	[OK]
 State:156
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -16201,10 +18207,10 @@ State:156
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -16518,9 +18524,9 @@ State:152
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" Large"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -16557,8 +18563,8 @@ State:151
 	"VEG 7 THIN"
 	"10.00"
 /Items/
-	" 1/2"
-	" 1/2.2"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -17060,13 +19066,13 @@ State:145
 	"Sausage Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" Chicken"
-	" Cheese"
-	" Beef"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Chicken"
+	"Cheese"
+	"Beef"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -17078,6 +19084,10 @@ State:145
 	[Delete]
 	[btnMessage]
 State:144
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -17101,13 +19111,13 @@ State:144
 	"Sausage Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" Chicken"
-	" Cheese"
-	" Beef"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Chicken"
+	"Cheese"
+	"Beef"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -17118,12 +19128,6 @@ State:144
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[X]
-	[OK]
 State:143
 /TenderScreen/
 /TopRightButtons/
@@ -17415,12 +19419,12 @@ State:140
 	"Sausage Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" Chicken"
-	" Cheese"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Chicken"
+	"Cheese"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -23884,11 +25888,11 @@ State:007
 	"Sausage Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Sausage"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Sausage"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -23941,9 +25945,9 @@ State:007
 	[m]
 	[_]
 	[Clear]
-	[ ]
 	[]
-	[⌫]
+	[.2]
+	[ ]
 	[Ok*]
 	[X]
 State:006
@@ -23970,11 +25974,11 @@ State:006
 	"Sausage Pizza"
 	"10.00"
 /Items/
-	" Large"
-	" Pan"
-	" Sausage"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Sausage"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Sausage]
 	[Pepperoni]
@@ -24009,11 +26013,11 @@ State:005
 	"Sausage Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" Chicken"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"Chicken"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -24048,10 +26052,10 @@ State:004
 	"Sausage Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" Pan"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"Pan"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -24086,9 +26090,9 @@ State:003
 	"Sausage Pizza"
 	"5.00"
 /Items/
-	" Large"
-	" 1/2"
-	" 1/2.2"
+	"Large"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
@@ -24123,8 +26127,8 @@ State:002
 	"Sausage Pizza"
 	"5.00"
 /Items/
-	" 1/2"
-	" 1/2.2"
+	"1/2"
+	"1/2.2"
 /CenterModButtons/
 	[Cheese]
 	[Chicken]
