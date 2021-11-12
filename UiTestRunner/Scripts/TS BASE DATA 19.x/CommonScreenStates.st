@@ -61,6 +61,62 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:457
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"j1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
 State:456
 /TenderScreen/
 /TopRightButtons/
@@ -8420,9 +8476,9 @@ State:310
 	[*]
 	[!]
 	[Clear]
-	[ ]
 	[]
-	[⌫]
+	[.2]
+	[ ]
 	[Ok]
 State:309
 /TenderScreen/
@@ -10119,7 +10175,7 @@ State:276
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:275
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -10255,7 +10311,7 @@ State:273
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:272
 /Dialog/
 	"Warning"
