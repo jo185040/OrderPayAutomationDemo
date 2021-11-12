@@ -2,6 +2,7 @@ Feature: 13 Enter Manager Password Screen
 
 
 Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
+#TODO ALOHAP-34259 JIT causing Orderpay to crash
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [1],[0],[0]
@@ -76,8 +77,8 @@ Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
 			When clicked /DialogSeparator/,[2],[0],[2]
 			And clicked /DialogSeparator/,[OK]
 #Action: 8 Select "OK"
-			Then verify presence of /MessageDialog/,"Error",/DialogSeparator/,"The supplied employee must login with a magcard"
-			Then clicked /DialogSeparator/,[OK]
+			Given screen state: 409
+			Then clicked /Dialog/,[OK]
 #Action: 9 Select Payment
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
 			Then clicked [$]
@@ -121,10 +122,10 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			Given screen state: 201
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 410
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 410
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
@@ -139,8 +140,8 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 14 Select BBQ Ribs on Comp Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items to comp"
-			Then clicked /Items/,^BBQ RIBS\   FULL RACK\   Baked Potato\   CUP^
+			Given screen state: 411
+			Then clicked /Items/,^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
 #Action: 15 Select OK
 			Then verify presence of /ItemSelectionDialog/,"Select items to comp"
 			Then clicked /Items/,[OK]
@@ -185,10 +186,10 @@ Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manage
 			Given screen state: 201
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 410
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 410
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
@@ -203,8 +204,8 @@ Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manage
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 14 Dismiss Error Message
-			Then verify presence of /DialogSeparator/,"The supplied employee must login with a magcard"
-			Then clicked /DialogSeparator/,[OK]
+			Given screen state: 413
+			Then clicked /Dialog/,[OK]
 #Action: 15 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
 			Then clicked /TopLeftButtons/,[Payment]
