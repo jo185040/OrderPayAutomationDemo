@@ -297,7 +297,7 @@ Scenario: 7 Delete Cash Payment Error Message
 			Then clicked /BottomRightButtons/,[Delete]
 #Action: 11 Dismiss Error Message
 			Given screen state: 345
-			Then clicked /DialogSeparator/,[OK]
+			Then clicked /Dialog/,[OK]
 #Action: 12 Click Close
 			Given screen state: 211
 			Then clicked /MidButtons/,[Close]

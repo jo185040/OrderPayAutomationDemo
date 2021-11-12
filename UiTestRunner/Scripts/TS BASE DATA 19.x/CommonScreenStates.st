@@ -3849,6 +3849,10 @@ State:346
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:345
+/Dialog/
+	"Warning"
+	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
+	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -3907,13 +3911,7 @@ State:345
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
-	[X]
-	[OK]
+	"Card payments not available (Not connected to internet)"
 State:344
 /OrderScreen/
 /TopLeftButtons/
@@ -11529,7 +11527,7 @@ State:211
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:210
 /TenderScreen/
 /TopRightButtons/
