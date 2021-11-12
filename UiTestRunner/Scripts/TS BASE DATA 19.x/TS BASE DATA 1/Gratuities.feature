@@ -31,10 +31,10 @@ Scenario: 1 Add Gratuities
 			Given screen state: 130
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Given screen state: 352
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Given screen state: 352
 			Then clicked [$]
 #Action: 11 Add Gratuity
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
@@ -82,10 +82,10 @@ Scenario: 2 Delete Gratuities
 			Given screen state: 130
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Given screen state: 352
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Given screen state: 352
 			Then clicked [$]
 #Action: 11 Add Gratuity
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"

@@ -40,10 +40,10 @@ Scenario: 1 Refill Drink
 			Given screen state: 277
 			Then clicked [$]
 #Action: 12 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
+			Then verify presence of /ItemEntries/,"Seat 1","COKE\   COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 13 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
+			Then verify presence of /ItemEntries/,"Seat 1","COKE\   COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
 			Given screen state: 558
@@ -92,13 +92,13 @@ Scenario: 2 Repeat Refill Drink
 			Given screen state: 348
 			Then clicked /DialogSeparator/,[OK]
 #Action: 13 Select Payment $
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\ COKE","2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\   COKE","2.00"
 			Then clicked [$]
 #Action: 14 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
+			Then verify presence of /ItemEntries/,"Seat 1","COKE\   COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
 			Then clicked [Exact]
 #Action: 15 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE\ COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","2.00","Change","$0.00"
+			Then verify presence of /ItemEntries/,"Seat 1","COKE\   COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
 			Given screen state: 558

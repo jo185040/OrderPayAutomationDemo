@@ -48,7 +48,7 @@ Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 2 Void: verify JIT screen can�t be confirmed by not clocked in Manager
+Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [1],[0],[0]
@@ -121,10 +121,10 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			Given screen state: 201
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
@@ -140,7 +140,7 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			Then clicked /DialogSeparator/,[OK]
 #Action: 14 Select BBQ Ribs on Comp Screen
 			Then verify presence of /ItemSelectionDialog/,"Select items to comp"
-			Then clicked /Items/,^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
+			Then clicked /Items/,^BBQ RIBS\   FULL RACK\   Baked Potato\   CUP^
 #Action: 15 Select OK
 			Then verify presence of /ItemSelectionDialog/,"Select items to comp"
 			Then clicked /Items/,[OK]
@@ -155,7 +155,7 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 4 Comps: verify JIT screen can’t be confirmed by not clocked in Manager
+Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manager
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [1],[0],[0]
@@ -185,10 +185,10 @@ Scenario: 4 Comps: verify JIT screen can’t be confirmed by not clocked in Mana
 			Given screen state: 201
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Then verify presence of /EntriesBySeat/,"BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"

@@ -22,8 +22,8 @@ Scenario: 1 Login as manager 200 to Floor Plan
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 6 Press OK, on Clear Item Dialog
-			Then verify presence of /ConfirmDialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
-			Then clicked /ConfirmDialog/,[OK]
+			Given screen state: 056
+			Then clicked /Dialog/,[OK]
 #Action: 7 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When clicked /TopLeftButtons/,[Done]
@@ -48,7 +48,7 @@ Scenario: 2 Delete Item on Empty Check
 			Then clicked /BottomButtons/,[Delete]
 #Action: 5 Dismiss Error COKE
 			Given screen state: 269
-			Then clicked /DialogSeparator/,[OK]
+			Then clicked /Dialog/,[OK]
 #Action: 6 Click Done
 			Given screen state: 267
 			When clicked /TopLeftButtons/,[Done]
@@ -80,8 +80,8 @@ Scenario: 3 Clear Item on Multiple Checks
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 8 Press OK, on Clear Item Dialog
-			Then verify presence of /ConfirmDialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
-			Then clicked /ConfirmDialog/,[OK]
+			Given screen state: 351
+			Then clicked /Dialog/,[OK]
 #Action: 9 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When clicked /TopLeftButtons/,[Done]

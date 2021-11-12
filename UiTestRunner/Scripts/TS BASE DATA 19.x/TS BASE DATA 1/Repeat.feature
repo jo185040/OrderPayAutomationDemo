@@ -122,13 +122,13 @@ Scenario: 3 Verify Repeat works on items with modifiers
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 12 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","2 BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP","83.78"
+			Then verify presence of /EntriesBySeat/,"Seat 1","2 BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","83.78"
 			Then clicked [$]
 #Action: 13 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","2 BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP","83.78",/Comps/,"Sub Total","83.78",/Taxes/,"Tax","5.11","Total","88.89",/Tenders/,"Balance Due","$88.89"
+			Then verify presence of /ItemEntries/,"Seat 1","2 BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","83.78",/Comps/,"Sub Total","83.78",/Taxes/,"Tax","5.11","Total","88.89",/Tenders/,"Balance Due","$88.89"
 			Then clicked [Exact]
 #Action: 14 Click Close
-			Then verify presence of /ItemEntries/,"2 BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP","83.78",/Comps/,"Sub Total","83.78",/Taxes/,"Tax","5.11","Total","88.89",/Tenders/,"CASH","88.89","Change","$0.00"
+			Then verify presence of /ItemEntries/,"2 BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","83.78",/Comps/,"Sub Total","83.78",/Taxes/,"Tax","5.11","Total","88.89",/Tenders/,"CASH","88.89","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
 			Given screen state: 558

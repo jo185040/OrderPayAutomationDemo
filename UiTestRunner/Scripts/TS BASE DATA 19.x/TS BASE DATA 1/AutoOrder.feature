@@ -1,5 +1,5 @@
-#on POS functionality is set Aloha.INI:
 Feature: 7 AutoOrder Items
+#on POS functionality is set Aloha.INI:
 
 
 Scenario: 1 Auto Order Items

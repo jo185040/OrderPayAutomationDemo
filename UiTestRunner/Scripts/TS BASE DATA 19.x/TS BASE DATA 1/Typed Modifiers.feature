@@ -217,10 +217,10 @@ Scenario: 4 Type Modifier on Forced Modifier
 			Then verify presence of /MenuOrModButtons/,"COMBO 3"
 			Then clicked "Quick Burger"
 #Action: 6 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\ CUP\ CHEESECAKE","5.99"
+			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\   CUP\   CHEESECAKE","5.99"
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\ CUP\ CHEESECAKE","5.99"
+			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\   CUP\   CHEESECAKE","5.99"
 			Then clicked [$]
 #Action: 8 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"Balance Due","$6.36"

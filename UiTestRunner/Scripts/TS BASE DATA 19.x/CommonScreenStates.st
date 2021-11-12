@@ -232,6 +232,177 @@ State:406
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:405
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie"
+	"9.99\\\\\1.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:404
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL"
+	"5.50"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.50"
+/Taxes/
+	"Tax"
+	"0.34"
+	"Total"
+	"5.84"
+/Tenders/
+	"CASH"
+	"5.84"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:403
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL"
+	"5.50"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.50"
+/Taxes/
+	"Tax"
+	"0.34"
+	"Total"
+	"5.84"
+/Tenders/
+	"Balance Due"
+	"$5.84"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:402
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -533,6 +704,2511 @@ State:395
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:394
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL"
+	"5.50"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:393
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Burrito Classic\ Verde\ Tomato\ Tomato"
+	"11.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:392
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Burrito Persona\ Chili Rice\ Chili Rice\ White Beans\ Chicken\ Chicken\ Verde\ Tomato"
+	"11.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:391
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"7 UP\ Ice"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Mod Menu"
+	"PORK\CHOP"
+	"Special\Burger"
+	"BBQ\RIBS"
+	[Add Ice Mod]
+	[Back to Menu]
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:390
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Bread\ Chive Spread\  BACON"
+	"2.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:389
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Bread\ Garlic Spread"
+	"1.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:388
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD"
+	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:387
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"11.99\\\\3.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:386
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"PORK CHOP\ BLACK & BLUE\ NO MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:385
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Special Burger\ BACON\ BACON"
+	"7.50"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.50"
+/Taxes/
+	"Tax"
+	"0.46"
+	"Total"
+	"7.96"
+/Tenders/
+	"CASH"
+	"7.96"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:384
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Special Burger\ BACON\ BACON"
+	"7.50"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.50"
+/Taxes/
+	"Tax"
+	"0.46"
+	"Total"
+	"7.96"
+/Tenders/
+	"Balance Due"
+	"$7.96"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:383
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Special Burger\ BACON\ BACON"
+	"7.50"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Mod Menu"
+	"PORK\CHOP"
+	"Special\Burger"
+	"BBQ\RIBS"
+	[Add Ice Mod]
+	[Back to Menu]
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:382
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Special Burger\ RARE\ BACON"
+	"6.50"
+/Promos/
+/Comps/
+	"Sub Total"
+	"6.50"
+/Taxes/
+	"Tax"
+	"0.40"
+	"Total"
+	"6.90"
+/Tenders/
+	"CASH"
+	"6.90"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:381
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"Special Burger\ RARE\ BACON"
+	"6.50"
+/Promos/
+/Comps/
+	"Sub Total"
+	"6.50"
+/Taxes/
+	"Tax"
+	"0.40"
+	"Total"
+	"6.90"
+/Tenders/
+	"Balance Due"
+	"$6.90"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:380
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Special Burger\ RARE\ BACON"
+	"6.50"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Mod Menu"
+	"PORK\CHOP"
+	"Special\Burger"
+	"BBQ\RIBS"
+	[Add Ice Mod]
+	[Back to Menu]
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:379
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Black Beans\ CUP"
+	"11.99\\1.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.99"
+/Taxes/
+	"Tax"
+	"0.79"
+	"Total"
+	"13.78"
+/Tenders/
+	"CASH"
+	"13.78"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:378
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Black Beans\ CUP"
+	"11.99\\1.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.99"
+/Taxes/
+	"Tax"
+	"0.79"
+	"Total"
+	"13.78"
+/Tenders/
+	"Balance Due"
+	"$13.78"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:377
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Black Beans\ CUP"
+	"11.99\\1.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:376
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Red Beans\ CUP"
+	"12.99"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.99"
+/Taxes/
+	"Tax"
+	"0.79"
+	"Total"
+	"13.78"
+/Tenders/
+	"CASH"
+	"13.78"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:375
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Red Beans\ CUP"
+	"12.99"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.99"
+/Taxes/
+	"Tax"
+	"0.79"
+	"Total"
+	"13.78"
+/Tenders/
+	"Balance Due"
+	"$13.78"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:374
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Red Beans\ CUP"
+	"12.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:373
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE\ XT Ice"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:372
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE\ XT Ice"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:371
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ XT Ice"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:370
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE\ NO Ice"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:369
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE\ NO Ice"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:368
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ NO Ice"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:367
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO"
+	"5.00\\0.80"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"SPN ARTCHK\DIP"
+	"PORK\NACHOS"
+	"HELLS\CHIPS"
+	"QUESADILLA"
+	"HUMMUS\APP"
+	"FRIED MOZZ"
+	"POTATO\CHIPS"
+	"TENDERLN\WRAPS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:366
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"TENDERLN WRAPS\ Baked Potato"
+	"5.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"SPN ARTCHK\DIP"
+	"PORK\NACHOS"
+	"HELLS\CHIPS"
+	"QUESADILLA"
+	"HUMMUS\APP"
+	"FRIED MOZZ"
+	"POTATO\CHIPS"
+	"TENDERLN\WRAPS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:365
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+/ItemSelectionDialog/
+	"Select items to void"
+/DialogSeparator/
+	^SELECT ALL^
+	"SELECT ALL"
+/Items_Container/
+/Items/
+	"Seat 1"
+	^COKE\ COKE^
+	"COKE\ COKE"
+	"2.00"
+	[Cancel]
+	[OK*]
+State:364
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"7 UP"
+	"2.00"
+	"COKE\ COKE"
+	"2.00.2"
+/Promos/
+/Comps/
+	"Sub Total"
+	"4.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"4.00"
+/Tenders/
+	"CASH"
+	"4.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:363
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"7 UP"
+	"2.00"
+	"COKE\ COKE"
+	"2.00.2"
+/Promos/
+/Comps/
+	"Sub Total"
+	"4.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"4.00"
+/Tenders/
+	"Balance Due"
+	"$4.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:362
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"CASH"
+	"2.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:361
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:360
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Quick Burger\ CUP\ CHEESECAKE"
+	"5.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:359
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"QUESADILLA\ ADD AVOCADO"
+	"5.00\0.80"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.80"
+/Taxes/
+	"Tax"
+	"0.35"
+	"Total"
+	"6.15"
+/Tenders/
+	"CASH"
+	"6.15"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:358
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"QUESADILLA\ ADD AVOCADO"
+	"5.00\0.80"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.80"
+/Taxes/
+	"Tax"
+	"0.35"
+	"Total"
+	"6.15"
+/Tenders/
+	"Balance Due"
+	"$6.15"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:357
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"QUESADILLA\ ADD AVOCADO"
+	"5.00\0.80"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"SPN ARTCHK\DIP"
+	"PORK\NACHOS"
+	"HELLS\CHIPS"
+	"QUESADILLA"
+	"HUMMUS\APP"
+	"FRIED MOZZ"
+	"POTATO\CHIPS"
+	"TENDERLN\WRAPS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:356
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:355
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:354
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.50"
+/Tenders/
+	"Balance Due"
+	"$44.50"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[MGR COMP]
+	[OPEN $$]
+	[EMP MEAL]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/ItemSelectionDialog/
+	"Select items to comp"
+/DialogSeparator/
+	^SELECT ALL^
+	"SELECT ALL"
+/Items_Container/
+/Items/
+	"Seat 1"
+	^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+	[Cancel]
+	[OK]
+State:353
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.50"
+/Tenders/
+	"Balance Due"
+	"$44.50"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[MGR COMP]
+	[OPEN $$]
+	[EMP MEAL]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/ItemSelectionDialog/
+	"Select items to comp"
+/DialogSeparator/
+	^SELECT ALL^
+	"SELECT ALL"
+/Items_Container/
+/Items/
+	"Seat 1"
+	^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+	[Cancel]
+	[OK*]
+State:352
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:351
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 2]
+	[+]
+/EntriesBySeat/
+	"Seat 2"
+	"COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 State:350
 /SplitCheckScreen/
 /SplitScreen/
@@ -4745,7 +7421,7 @@ State:279
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\ COKE"
+	"COKE\ COKE"
 	"2.00"
 /Seats/
 	[T]
@@ -4795,7 +7471,7 @@ State:279
 /Modifier/
 	"COKE"
 	"2.00"
-	" - COKE"
+	"- COKE"
 /CenterCategoryButtons/
 	[Drink Refill]
 /RightPanelButtons/
@@ -4852,7 +7528,7 @@ State:278
 	"Seat 1"
 	"7 UP"
 	"2.00"
-	"COKE\ COKE"
+	"COKE\ COKE"
 	"2.00.2"
 /Seats/
 	[T]
@@ -4911,7 +7587,7 @@ State:277
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\ COKE"
+	"COKE\ COKE"
 	"2.00"
 /Seats/
 	[T]
@@ -5293,6 +7969,10 @@ State:270
 	[Delete]
 	[btnMessage]
 State:269
+/Dialog/
+	"Delete Item Error"
+	"You have not selected an item which can be deleted"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -5348,12 +8028,6 @@ State:269
 	[Hold]
 	[Recipe]
 	""
-/MessageDialog/
-	"Delete Item Error"
-/DialogSeparator/
-	"You have not selected an item which can be deleted"
-	[X]
-	[OK]
 State:268
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -6589,7 +9263,7 @@ State:239
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
 	"41.89"
 /Promos/
 /Comps/
@@ -6645,7 +9319,7 @@ State:238
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -6746,10 +9420,10 @@ State:237
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - NO FULL RACK"
-	" - 1/2 RACK"
-	" - 1/2 RACK.2"
-	" - Baked Potato"
+	"- NO FULL RACK"
+	"- 1/2 RACK"
+	"- 1/2 RACK.2"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -6851,9 +9525,9 @@ State:236
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - NO FULL RACK"
-	" - 1/2 RACK"
-	" - 1/2 RACK.2"
+	"- NO FULL RACK"
+	"- 1/2 RACK"
+	"- 1/2 RACK.2"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -6955,8 +9629,8 @@ State:235
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - NO FULL RACK"
-	" - 1/2 RACK"
+	"- NO FULL RACK"
+	"- 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -7058,7 +9732,7 @@ State:234
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - NO FULL RACK"
+	"- NO FULL RACK"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -7627,7 +10301,7 @@ State:223
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
 /Promos/
 /Comps/
@@ -7683,7 +10357,7 @@ State:222
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
 /Promos/
 /Comps/
@@ -7737,7 +10411,7 @@ State:221
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
+	"Platter\ Special canapes\  Vegetarian\  Vegan\ Ham Canapes"
 	"0.00\3.50\\\1.00"
 /Seats/
 	[T]
@@ -7852,9 +10526,9 @@ State:220
 /Modifier/
 	"Platter"
 	"0.00"
-	" - Special canapes"
-	" -  - Vegetarian"
-	" -  - Vegan"
+	"- Special canapes"
+	"-  - Vegetarian"
+	"-  - Vegan"
 /CenterCategoryButtons/
 	[Czech canapes]
 	[Canapes]
@@ -7984,7 +10658,7 @@ State:218
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"Platter\ Stand canapes\ Cheese Canapes"
+	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
 /Promos/
 /Comps/
@@ -8040,7 +10714,7 @@ State:217
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"Platter\ Stand canapes\ Cheese Canapes"
+	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
 /Promos/
 /Comps/
@@ -8132,7 +10806,7 @@ State:215
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Platter\ Stand canapes\ Cheese Canapes"
+	"Platter\ Stand canapes\ Cheese Canapes"
 	"0.00\2.50\1.00"
 /Seats/
 	[T]
@@ -8247,7 +10921,7 @@ State:214
 /Modifier/
 	"Platter"
 	"0.00"
-	" - Stand canapes"
+	"- Stand canapes"
 /CenterCategoryButtons/
 	[Czech canapes]
 	[Canapes]
@@ -9507,9 +12181,9 @@ State:198
 /Modifier/
 	"3pcDrkBrstr"
 	"9.99"
-	" - SP Bean C"
-	" - Carrots"
-	" - Cherry Bread"
+	"- SP Bean C"
+	"- Carrots"
+	"- Cherry Bread"
 /CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
@@ -9617,8 +12291,8 @@ State:197
 /Modifier/
 	"3pcDrkBrstr"
 	"9.99"
-	" - SP Bean C"
-	" - Carrots"
+	"- SP Bean C"
+	"- Carrots"
 /CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
@@ -9729,7 +12403,7 @@ State:196
 /Modifier/
 	"3pcDrkBrstr"
 	"9.99"
-	" - SP Bean C"
+	"- SP Bean C"
 /CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
@@ -10058,9 +12732,9 @@ State:193
 /Modifier/
 	"Wrap"
 	"5.50"
-	" - 3 Bowl"
-	" - NO Onion"
-	" - Less Spicy"
+	"- 3 Bowl"
+	"- NO Onion"
+	"- Less Spicy"
 /CenterCategoryButtons/
 	[ADD BACON]
 	[R.General MOD]
@@ -10269,7 +12943,7 @@ State:191
 /Modifier/
 	"Burrito Classic"
 	"11.00"
-	" - Verde"
+	"- Verde"
 /CenterCategoryButtons/
 	[Burrito Rice]
 	[Burrito Beans]
@@ -10458,12 +13132,12 @@ State:189
 /Modifier/
 	"Burrito Persona"
 	"11.00"
-	" - Chili Rice"
-	" - Chili Rice.2"
-	" - White Beans"
-	" - Chicken"
-	" - Chicken.2"
-	" - Verde"
+	"- Chili Rice"
+	"- Chili Rice.2"
+	"- White Beans"
+	"- Chicken"
+	"- Chicken.2"
+	"- Verde"
 /CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
@@ -10558,11 +13232,11 @@ State:188
 /Modifier/
 	"Burrito Persona"
 	"11.00"
-	" - Chili Rice"
-	" - Chili Rice.2"
-	" - White Beans"
-	" - Chicken"
-	" - Chicken.2"
+	"- Chili Rice"
+	"- Chili Rice.2"
+	"- White Beans"
+	"- Chicken"
+	"- Chicken.2"
 /CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
@@ -10657,9 +13331,9 @@ State:187
 /Modifier/
 	"Burrito Persona"
 	"11.00"
-	" - Chili Rice"
-	" - Chili Rice.2"
-	" - White Beans"
+	"- Chili Rice"
+	"- Chili Rice.2"
+	"- White Beans"
 /CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
@@ -10752,8 +13426,8 @@ State:186
 /Modifier/
 	"Burrito Persona"
 	"11.00"
-	" - Chili Rice"
-	" - Chili Rice.2"
+	"- Chili Rice"
+	"- Chili Rice.2"
 /CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
@@ -10958,6 +13632,10 @@ State:183
 	[X]
 	[OK]
 State:182
+/Dialog/
+	"Warning"
+	"At least 1 of Spread Light T is required"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -10975,7 +13653,7 @@ State:182
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread\ Garlic Spread"
+	"Bread\ Garlic Spread"
 	"1.99"
 /Seats/
 	[T]
@@ -11054,12 +13732,6 @@ State:182
 	[Special]
 	[Cancel]
 	[OK]
-/MessageDialog/
-	"Warning"
-/DialogSeparator/
-	"At least 1 of Spread Light T is required"
-	[X]
-	[OK]
 State:181
 /OrderScreen/
 /TopLeftButtons/
@@ -11078,7 +13750,7 @@ State:181
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread\ Garlic Spread"
+	"Bread\ Garlic Spread"
 	"1.99"
 /Seats/
 	[T]
@@ -11175,7 +13847,7 @@ State:180
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread\ Garlic Spread"
+	"Bread\ Garlic Spread"
 	"1.99"
 /Seats/
 	[T]
@@ -11228,7 +13900,7 @@ State:180
 /Modifier/
 	"Bread"
 	"1.99"
-	" - Garlic Spread"
+	"- Garlic Spread"
 /CenterCategoryButtons/
 	[Breads Spreads]
 /RightPanelButtons/
@@ -11450,7 +14122,7 @@ State:177
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
 	"11.99\\\\3.00"
 /Seats/
 	[T]
@@ -11496,10 +14168,10 @@ State:177
 /Modifier/
 	"RIBEYE"
 	"11.99"
-	" - BLACK & BLUE"
-	" - Baked Potato"
-	" - CAESAR SALAD"
-	" -  - ADD CHICKEN"
+	"- BLACK & BLUE"
+	"- Baked Potato"
+	"- CAESAR SALAD"
+	"-  - ADD CHICKEN"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -11682,8 +14354,8 @@ State:175
 /Modifier/
 	"RIBEYE"
 	"11.99"
-	" - BLACK & BLUE"
-	" - Baked Potato"
+	"- BLACK & BLUE"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -11827,7 +14499,7 @@ State:173
 /Modifier/
 	"RIBEYE"
 	"11.99"
-	" - BLACK & BLUE"
+	"- BLACK & BLUE"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -12031,8 +14703,8 @@ State:171
 /Modifier/
 	"PORK CHOP"
 	"11.99"
-	" - BLACK & BLUE"
-	" - Baked Potato"
+	"- BLACK & BLUE"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -12176,7 +14848,7 @@ State:169
 /Modifier/
 	"PORK CHOP"
 	"11.99"
-	" - BLACK & BLUE"
+	"- BLACK & BLUE"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -12275,7 +14947,7 @@ State:168
 /Modifier/
 	"Special Burger"
 	"5.50"
-	" - BACON"
+	"- BACON"
 /CenterCategoryButtons/
 	[Special Burger]
 /RightPanelButtons/
@@ -12362,7 +15034,7 @@ State:167
 /Modifier/
 	"Special Burger"
 	"5.50"
-	" - RARE"
+	"- RARE"
 /CenterCategoryButtons/
 	[Special Burger]
 /RightPanelButtons/
@@ -12908,8 +15580,8 @@ State:160
 /Modifier/
 	"PORK CHOP"
 	"11.99"
-	" - MEDIUM"
-	" - Black Beans"
+	"- MEDIUM"
+	"- Black Beans"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -13015,7 +15687,7 @@ State:159
 /Modifier/
 	"COKE"
 	"2.00"
-	" - XT Ice"
+	"- XT Ice"
 /CenterCategoryButtons/
 	[Drink Mods]
 /RightPanelButtons/
@@ -13235,7 +15907,7 @@ State:155
 /Modifier/
 	"COKE"
 	"2.00"
-	" - NO Ice"
+	"- NO Ice"
 /CenterCategoryButtons/
 	[Drink Mods]
 /RightPanelButtons/
@@ -13360,7 +16032,7 @@ State:153
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"TENDERLN WRAPS\ Baked Potato"
+	"TENDERLN WRAPS\ Baked Potato"
 	"5.00"
 /Seats/
 	[T]
@@ -13405,8 +16077,8 @@ State:153
 /Modifier/
 	"TENDERLN WRAPS"
 	"5.00"
-	" - Baked Potato"
-	" - ADD AVOCADO"
+	"- Baked Potato"
+	"- ADD AVOCADO"
 /CenterCategoryButtons/
 	[STARCH]
 /RightPanelButtons/
@@ -13539,7 +16211,7 @@ State:150
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"TENDERLN WRAPS\ Baked Potato"
+	"TENDERLN WRAPS\ Baked Potato"
 	"5.00"
 /Seats/
 	[T]
@@ -13584,7 +16256,7 @@ State:150
 /Modifier/
 	"TENDERLN WRAPS"
 	"5.00"
-	" - Baked Potato"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[STARCH]
 /RightPanelButtons/
@@ -13640,7 +16312,7 @@ State:149
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"TENDERLN WRAPS\ Baked Potato"
+	"TENDERLN WRAPS\ Baked Potato"
 	"5.00"
 /Seats/
 	[T]
@@ -13685,7 +16357,7 @@ State:149
 /Modifier/
 	"TENDERLN WRAPS"
 	"5.00"
-	" - Baked Potato"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[STARCH]
 /RightPanelButtons/
@@ -13902,7 +16574,7 @@ State:146
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\ COKE"
+	"COKE\ COKE"
 	"2.00"
 /Seats/
 	[T]
@@ -14200,7 +16872,7 @@ State:142
 /Modifier/
 	"COKE"
 	"2.00"
-	" - COKE"
+	"- COKE"
 /CenterCategoryButtons/
 	[Drink Refill]
 /RightPanelButtons/
@@ -14451,7 +17123,7 @@ State:139
 /Modifier/
 	"COKE"
 	"2.00"
-	" - COKE"
+	"- COKE"
 /CenterCategoryButtons/
 	[Drink Refill]
 /RightPanelButtons/
@@ -14655,7 +17327,7 @@ State:137
 /Modifier/
 	"QUESADILLA"
 	"5.00"
-	" - ADD AVOCADO"
+	"- ADD AVOCADO"
 /CenterCategoryButtons/
 /RightPanelButtons/
 /ModifierCodeButtons/
@@ -14756,8 +17428,8 @@ State:136
 /Modifier/
 	"PORK CHOP"
 	"11.99"
-	" - MEDIUM"
-	" - Baked Potato"
+	"- MEDIUM"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -14859,7 +17531,7 @@ State:135
 /Modifier/
 	"PORK CHOP"
 	"11.99"
-	" - MEDIUM"
+	"- MEDIUM"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -15063,9 +17735,9 @@ State:133
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - 1/2 RACK"
-	" - 1/2 RACK.2"
-	" - Baked Potato"
+	"- 1/2 RACK"
+	"- 1/2 RACK.2"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -15167,8 +17839,8 @@ State:132
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - 1/2 RACK"
-	" - 1/2 RACK.2"
+	"- 1/2 RACK"
+	"- 1/2 RACK.2"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -15270,7 +17942,7 @@ State:131
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - 1/2 RACK"
+	"- 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -15372,8 +18044,8 @@ State:130
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - FULL RACK"
-	" - Baked Potato"
+	"- FULL RACK"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -15475,7 +18147,7 @@ State:129
 /Modifier/
 	"BBQ RIBS"
 	"11.99"
-	" - FULL RACK"
+	"- FULL RACK"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -15632,7 +18304,7 @@ State:127
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI"
+	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI"
 	"10.00"
 /Seats/
 	[T]
@@ -15746,7 +18418,7 @@ State:126
 /Modifier_Container/
 /Modifier/
 	"ROASTED CHCKEN"
-	" - FRIES"
+	"- FRIES"
 /CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
@@ -15961,12 +18633,12 @@ State:124
 /Modifier/
 	"COMBO 3"
 	"10.00"
-	" - TILAPIA"
-	" -  - FRIES"
-	" -  - PEPSI"
-	" - GRILLED CHCKEN"
-	" -  - FRIES.2"
-	" -  - PEPSI.2"
+	"- TILAPIA"
+	"-  - FRIES"
+	"-  - PEPSI"
+	"- GRILLED CHCKEN"
+	"-  - FRIES.2"
+	"-  - PEPSI.2"
 /CenterCategoryButtons/
 	[COMBO 3]
 /RightPanelButtons/
@@ -16072,7 +18744,7 @@ State:123
 /Modifier_Container/
 /Modifier/
 	"GRILLED CHCKEN"
-	" - FRIES"
+	"- FRIES"
 /CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
@@ -16287,9 +18959,9 @@ State:121
 /Modifier/
 	"COMBO 3"
 	"10.00"
-	" - TILAPIA"
-	" -  - FRIES"
-	" -  - PEPSI"
+	"- TILAPIA"
+	"-  - FRIES"
+	"-  - PEPSI"
 /CenterCategoryButtons/
 	[COMBO 3]
 /RightPanelButtons/
@@ -16395,7 +19067,7 @@ State:120
 /Modifier_Container/
 /Modifier/
 	"TILAPIA"
-	" - FRIES"
+	"- FRIES"
 /CenterCategoryButtons/
 	[Sides]
 	[Drink Combo]
@@ -19040,6 +21712,70 @@ State:057
 	[Add]
 	[Split seat]
 	[Close]
+State:056
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:055
 /WWTScreen/
 	"JEFFREY"

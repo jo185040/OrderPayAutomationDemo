@@ -31,10 +31,10 @@ Scenario: 1 Manager Comp
 			Given screen state: 130
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Given screen state: 352
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\ FULL RACK\ Baked Potato\ CUP","41.94"
+			Given screen state: 352
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
@@ -43,10 +43,10 @@ Scenario: 1 Manager Comp
 			Then verify presence of /MidLeftButtons/,[MGR COMP],[OPEN $$],[EMP MEAL]
 			Then clicked /MidLeftButtons/,[MGR COMP]
 #Action: 13 Select BBQ Ribs on Comp Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items to comp",/Items/,"Seat 1",^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
-			Then clicked /Items/,^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
+			Given screen state: 353
+			Then clicked /Items/,^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
 #Action: 14 Select OK
-			Then verify presence of /ItemSelectionDialog/,"Select items to comp",/Items/,"Seat 1",^BBQ RIBS\ FULL RACK\ Baked Potato\ CUP^
+			Given screen state: 354
 			Then clicked /Items/,[OK]
 #Action: 15 Select OK
 			Then verify presence of /MidLeftButtons/,[MGR COMP],[OPEN $$],[EMP MEAL]

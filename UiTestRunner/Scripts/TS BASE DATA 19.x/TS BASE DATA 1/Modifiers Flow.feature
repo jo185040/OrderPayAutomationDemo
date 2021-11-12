@@ -31,10 +31,10 @@ Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 			Given screen state: 171
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK CHOP\ BLACK & BLUE\ NO MEDIUM\ Baked Potato\ CUP"
+			Given screen state: 386
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK CHOP\ BLACK & BLUE\ NO MEDIUM\ Baked Potato\ CUP"
+			Given screen state: 386
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72"
@@ -68,10 +68,10 @@ Scenario: 2 Forced Modifier
 			Then verify presence of /MenuOrModButtons/,"COMBO 3"
 			Then clicked "Quick Burger"
 #Action: 6 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\ CUP\ CHEESECAKE","5.99"
+			Given screen state: 360
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\ CUP\ CHEESECAKE","5.99"
+			Given screen state: 360
 			Then clicked [$]
 #Action: 8 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"Balance Due","$6.36"
@@ -132,10 +132,10 @@ Scenario: 3 Verify Combo Scenario
 			Given screen state: 126
 			Then clicked [PEPSI]
 #Action: 15 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI","10.00"
+			Given screen state: 127
 			Then clicked [HERE]
 #Action: 16 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI","10.00"
+			Given screen state: 127
 			Then clicked [$]
 #Action: 17 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61"
@@ -180,19 +180,19 @@ Scenario: 4 Delete Modifier
 			Given screen state: 176
 			Then clicked [ADD\CHICKEN]
 #Action: 10 On Modify Item
-			Then verify presence of /EntriesBySeat/,"Seat 1","RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN","11.99\\\\3.00"
-			Then clicked /EntriesBySeat/,"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+			Given screen state: 387
+			Then clicked "RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
 			Then clicked /BottomButtons/,[Modify]
 #Action: 11 On Delete Chicken
 			Given screen state: 177
-			Then clicked " -  - ADD CHICKEN"
+			Then clicked "-  - ADD CHICKEN"
 			Then clicked [Delete Modifier]
 			Then clicked [OK]
 #Action: 12 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD","11.99"
+			Given screen state: 388
 			Then clicked [HERE]
 #Action: 13 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD","11.99"
+			Given screen state: 388
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72"
@@ -238,7 +238,7 @@ Scenario: 5 Verify Bread Scenario
 			Given screen state: 179
 			Then clicked [OK]
 #Action: 10 Modify Bread
-			Then verify presence of /EntriesBySeat/,"Seat 1","Bread\ Garlic Spread","1.99"
+			Given screen state: 389
 			Then clicked /BottomButtons/,[Modify]
 #Action: 11 On Bread Spreads Select Chive Spread
 			Given screen state: 180
@@ -248,15 +248,15 @@ Scenario: 5 Verify Bread Scenario
 			Then clicked [OK]
 #Action: 13 Dismiss Error Message
 			Given screen state: 182
-			Then clicked /DialogSeparator/,[OK]
+			Then clicked /Dialog/,[OK]
 #Action: 14 On Spread Light Modscreen Select Bacon
 			Given screen state: 181
 			Then clicked [BACON]
 #Action: 15 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","Bread\ Chive Spread\  BACON","2.99"
+			Given screen state: 390
 			Then clicked [HERE]
 #Action: 16 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Bread\ Chive Spread\  BACON","2.99"
+			Given screen state: 390
 			Then clicked [$]
 #Action: 17 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","2.99",/Taxes/,"Tax","0.18","Total","3.17",/Tenders/,"Balance Due","$3.17"
@@ -292,10 +292,10 @@ Scenario: 6 Verify adding separate modifier on panel
 			Then verify presence of /EntriesBySeat/,"Seat 1","7 UP","2.00"
 			Then clicked [Add Ice Mod]
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","7 UP\ Ice","2.00"
+			Given screen state: 391
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","7 UP\ Ice","2.00"
+			Given screen state: 391
 			Then clicked [$]
 #Action: 9 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
@@ -348,10 +348,10 @@ Scenario: 7 Burrito Persona Modifier Flow
 			Then clicked /RightModifierButtons/,[Tomato]
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 11 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","Burrito Persona\ Chili Rice\ Chili Rice\ White Beans\ Chicken\ Chicken\ Verde\ Tomato","11.00"
+			Given screen state: 392
 			Then clicked [HERE]
 #Action: 12 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Burrito Persona\ Chili Rice\ Chili Rice\ White Beans\ Chicken\ Chicken\ Verde\ Tomato","11.00"
+			Given screen state: 392
 			Then clicked [$]
 #Action: 13 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","11.00",/Taxes/,"Tax","0.67","Total","11.67"
@@ -392,10 +392,10 @@ Scenario: 8 Burrito Classic Modifier Flow
 			Then clicked /RightModifierButtons/,[Tomato]
 			Then clicked /RightModifierButtons/,[Tomato]
 #Action: 8 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","Burrito Classic\ Verde\ Tomato\ Tomato","11.00"
+			Given screen state: 393
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Burrito Classic\ Verde\ Tomato\ Tomato","11.00"
+			Given screen state: 393
 			Then clicked [$]
 #Action: 10 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","11.00",/Taxes/,"Tax","0.67","Total","11.67",/Tenders/,"Balance Due","$11.67"
@@ -441,16 +441,16 @@ Scenario: 9 Wrap Modifier Flow
 			Given screen state: 194
 			Then clicked /RightModifierButtons/,[ON\BAGEL]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","5.50"
+			Given screen state: 394
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","5.50"
+			Given screen state: 394
 			Then clicked [$]
 #Action: 11 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","5.50",/Comps/,"Sub Total","5.50",/Taxes/,"Tax","0.34","Total","5.84",/Tenders/,"Balance Due","$5.84"
+			Given screen state: 403
 			Then clicked [Exact]
 #Action: 12 Click Close
-			Then verify presence of /ItemEntries/,"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL","5.50",/Comps/,"Sub Total","5.50",/Taxes/,"Tax","0.34","Total","5.84",/Tenders/,"CASH","5.84","Change","$0.00"
+			Given screen state: 404
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
@@ -492,10 +492,10 @@ Scenario: 10 pcDarkBrstr Modifier Flow
 			Then clicked /RightModifierButtons/,[Coco\CrmPie]
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie","9.99\\\\\1.00"
+			Given screen state: 405
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie","9.99\\\\\1.00"
+			Given screen state: 405
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","10.99",/Taxes/,"Tax","0.67","Total","11.66",/Tenders/,"Balance Due","$11.66"

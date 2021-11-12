@@ -1,7 +1,7 @@
 Feature: 20 Open Items
 
 
-Scenario: 1 Verify you can order an �Open Item� from Retail Menu
+Scenario: 1 Verify you can order an Open Item from Retail Menu
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -185,10 +185,10 @@ Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Ret
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 11 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\ TEST","2.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\2.00"
 			Then clicked [HERE]
 #Action: 12 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\ TEST","2.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\2.00"
 			Then clicked [$]
 #Action: 13 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.12","Total","4.12",/Tenders/,"Balance Due","$4.12"
@@ -243,10 +243,10 @@ Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier fr
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\ OPEN ITEM PRICE","2.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   OPEN ITEM PRICE","2.00\2.00"
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\ OPEN ITEM PRICE","2.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   OPEN ITEM PRICE","2.00\2.00"
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.12","Total","4.12",/Tenders/,"Balance Due","$4.12"
@@ -302,10 +302,10 @@ Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\ TEST","2.00\10.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\10.00"
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\ TEST","2.00\10.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM MOD\   TEST","2.00\10.00"
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.61","Total","12.61",/Tenders/,"Balance Due","$12.61"
@@ -360,10 +360,10 @@ Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Re
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\ TEST","2.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\   TEST","2.00\2.00"
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\ TEST","2.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\   TEST","2.00\2.00"
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.24","Total","4.24",/Tenders/,"Balance Due","$4.24"
@@ -411,10 +411,10 @@ Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retai
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of "2.00\2.00",/EntriesBySeat/,"Seat 1","OPEN PRICE MOD\ OPEN ITEM PRICE"
+			Then verify presence of "2.00\2.00",/EntriesBySeat/,"Seat 1","OPEN PRICE MOD\   OPEN ITEM PRICE"
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\ OPEN ITEM PRICE","2.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\   OPEN ITEM PRICE","2.00\2.00"
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.24","Total","4.24",/Tenders/,"Balance Due","$4.24"
@@ -463,10 +463,10 @@ Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail 
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\ TEST","2.00\10.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\   TEST","2.00\10.00"
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\ TEST","2.00\10.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD\   TEST","2.00\10.00"
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.73","Total","12.73",/Tenders/,"Balance Due","$12.73"
@@ -525,7 +525,7 @@ Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier 
 			Given screen state: 347
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\ TEST","10.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\   TEST","10.00\2.00"
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.73","Total","12.73",/Tenders/,"Balance Due","$12.73"
@@ -574,16 +574,16 @@ Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price fro
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\ OPEN ITEM PRICE","10.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\   OPEN ITEM PRICE","10.00\2.00"
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\ OPEN ITEM PRICE","10.00\2.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\   OPEN ITEM PRICE","10.00\2.00"
 			Then clicked [$]
 #Action: 11 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\ OPEN ITEM PRICE","10.00\2.00",/Comps/,"Sub Total","12.00",/Taxes/,"0.73","Total","12.73",/Tenders/,"Balance Due","$12.73"
+			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\   OPEN ITEM PRICE","10.00\2.00",/Comps/,"Sub Total","12.00",/Taxes/,"0.73","Total","12.73",/Tenders/,"Balance Due","$12.73"
 			Then clicked [Exact]
 #Action: 12 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\ OPEN ITEM PRICE","10.00\2.00",/Comps/,"Sub Total","12.00",/Taxes/,"0.73","Total","12.73",/Tenders/,"CASH","12.73","Change","$0.00"
+			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\   OPEN ITEM PRICE","10.00\2.00",/Comps/,"Sub Total","12.00",/Taxes/,"0.73","Total","12.73",/Tenders/,"CASH","12.73","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
@@ -627,16 +627,16 @@ Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from 
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\ TEST","10.00\10.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\   TEST","10.00\10.00"
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\ TEST","10.00\10.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN DESCR MOD\   TEST","10.00\10.00"
 			Then clicked [$]
 #Action: 11 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\ TEST","10.00\10.00",/Comps/,"Sub Total","20.00",/Taxes/,"Tax","1.22","Total","21.22",/Tenders/,"Balance Due","$21.22"
+			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\   TEST","10.00\10.00",/Comps/,"Sub Total","20.00",/Taxes/,"Tax","1.22","Total","21.22",/Tenders/,"Balance Due","$21.22"
 			Then clicked [Exact]
 #Action: 12 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\ TEST","10.00\10.00",/Comps/,"Sub Total","20.00",/Taxes/,"Tax","1.22","Total","21.22",/Tenders/,"CASH","21.22","Change","$0.00"
+			Then verify presence of /ItemEntries/,"Seat 1","OPEN DESCR MOD\   TEST","10.00\10.00",/Comps/,"Sub Total","20.00",/Taxes/,"Tax","1.22","Total","21.22",/Tenders/,"CASH","21.22","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
@@ -686,16 +686,16 @@ Scenario: 13 Verify you can order "Open Item MOD" with Open Mod Modifier from Re
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST\ TY","2.00\0.20"
+			Then verify presence of /EntriesBySeat/,"Seat 1","TEST\   TY","2.00\0.20"
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST\ TY","2.00\0.20"
+			Then verify presence of /EntriesBySeat/,"Seat 1","TEST\   TY","2.00\0.20"
 			Then clicked [$]
 #Action: 12 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","TEST\ TY","2.00\0.20",/Comps/,"Sub Total","2.20",/Taxes/,"Tax","0.01","Total","2.21",/Tenders/,"Balance Due","$2.21"
+			Then verify presence of /ItemEntries/,"Seat 1","TEST\   TY","2.00\0.20",/Comps/,"Sub Total","2.20",/Taxes/,"Tax","0.01","Total","2.21",/Tenders/,"Balance Due","$2.21"
 			Then clicked [Exact]
 #Action: 13 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","TEST\ TY","2.00\0.20",/Comps/,"Sub Total","2.20",/Taxes/,"Tax","0.01","Total","2.21",/Tenders/,"Balance Due","2.21","Change","$0.00"
+			Then verify presence of /ItemEntries/,"Seat 1","TEST\   TY","2.00\0.20",/Comps/,"Sub Total","2.20",/Taxes/,"Tax","0.01","Total","2.21",/Tenders/,"Balance Due","2.21","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
 			Given screen state: 558

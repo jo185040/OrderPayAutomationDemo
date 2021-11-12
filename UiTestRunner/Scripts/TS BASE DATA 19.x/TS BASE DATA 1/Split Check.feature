@@ -1,7 +1,7 @@
 Feature: 27 Split Check
 
 
-Scenario: 1 Verify that you can split checks with unordered items using the �Split Button�
+Scenario: 1 Verify that you can split checks with unordered items using the Split Button
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -66,7 +66,7 @@ Scenario: 1 Verify that you can split checks with unordered items using the �S
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 2 Verify that you can split checks with ordered items using the �Split Button�
+Scenario: 2 Verify that you can split checks with ordered items using the Split Button
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -122,7 +122,7 @@ Scenario: 2 Verify that you can split checks with ordered items using the �Spl
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 3 Verify that you can split checks with the “+” sign
+Scenario: 3 Verify that you can split checks with the + sign
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -216,7 +216,7 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			Then clicked /TopLeftButtons/,[Split Seat]
 #Action: 15 Select "Pork Chop"
 			Given screen state: 058
-			Then clicked /CheckOrSeat.2/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /CheckOrSeat.2/,"PORK CHOP\   MEDIUM\   Baked Potato\   CUP"
 #Action: 16 Add Check
 			Given screen state: 058
 			Then clicked /BottomCenterButtons/,[Add]
@@ -225,10 +225,10 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			Given screen state: 059
 			Then clicked /BottomCenterButtons/,[Close]
 #Action: 18 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP","11.99"
+			Then verify presence of /EntriesBySeat/,"PORK CHOP\   MEDIUM\   Baked Potato\   CUP","11.99"
 			Then clicked [HERE]
 #Action: 19 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP","11.99"
+			Then verify presence of /EntriesBySeat/,"PORK CHOP\   MEDIUM\   Baked Potato\   CUP","11.99"
 			Then clicked [$]
 #Action: 20 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","53.88",/Taxes/,"Tax","3.29","Total","57.17",/Tenders/,"Balance Due","$57.17"
@@ -289,7 +289,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Then clicked /TopLeftButtons/,[Split Seat]
 #Action: 15 Select "Pork Chop"
 			Given screen state: 058
-			Then clicked /CheckOrSeat.2/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /CheckOrSeat.2/,"PORK CHOP\   MEDIUM\   Baked Potato\   CUP"
 #Action: 16 Add Check
 			Given screen state: 058
 			Then clicked /BottomCenterButtons/,[Add]
@@ -299,7 +299,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Then clicked /BottomCenterButtons/,[Split check]
 #Action: 18 Select "Pork Chop"
 			Given screen state: 060
-			Then clicked /CheckOrSeat/,"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+			Then clicked /CheckOrSeat/,"PORK CHOP\   MEDIUM\   Baked Potato\   CUP"
 #Action: 19 Add Check
 			Given screen state: 060
 			Then clicked /BottomCenterButtons/,[Add]
@@ -308,22 +308,22 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Given screen state: 061
 			Then clicked /BottomCenterButtons/,[Close]
 #Action: 21 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 2","PORK CHOP\ MEDIUM\ Baked Potato\ CUP","11.99"
+			Then verify presence of /EntriesBySeat/,"Seat 2","PORK CHOP\   MEDIUM\   Baked Potato\   CUP","11.99"
 			Then clicked [HERE]
 #Action: 22 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 2","PORK CHOP\ MEDIUM\ Baked Potato\ CUP","11.99"
+			Then verify presence of /EntriesBySeat/,"Seat 2","PORK CHOP\   MEDIUM\   Baked Potato\   CUP","11.99"
 			Then clicked [$]
 #Action: 23 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP","41.89",/Comps/,"Sub Total","41.89",/Taxes/,"Tax","2.56","Total","44.45",/Tenders/,"Balance Due","$44.45"
+			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","41.89",/Comps/,"Sub Total","41.89",/Taxes/,"Tax","2.56","Total","44.45",/Tenders/,"Balance Due","$44.45"
 			Then clicked [Exact]
 #Action: 24 Click Close
-			Then verify presence of /ItemEntries/,"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP","41.89",/Comps/,"Sub Total","41.89",/Taxes/,"Tax","2.56","Total","44.45",/Tenders/,"CASH","44.45","Change","$0.00"
+			Then verify presence of /ItemEntries/,"BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","41.89",/Comps/,"Sub Total","41.89",/Taxes/,"Tax","2.56","Total","44.45",/Tenders/,"CASH","44.45","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 25 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 2","PORK CHOP\ MEDIUM\ Baked Potato\ CUP","11.99",/Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72"
+			Then verify presence of /ItemEntries/,"Seat 2","PORK CHOP\   MEDIUM\   Baked Potato\   CUP","11.99",/Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72"
 			Then clicked [Exact]
 #Action: 26 Click Close
-			Then verify presence of /ItemEntries/,"Seat 2","PORK CHOP\ MEDIUM\ Baked Potato\ CUP","11.99",/Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"CASH","12.72","Change","$0.00"
+			Then verify presence of /ItemEntries/,"Seat 2","PORK CHOP\   MEDIUM\   Baked Potato\   CUP","11.99",/Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"CASH","12.72","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 27 Exit FloorPlan
 			Given screen state: 558
