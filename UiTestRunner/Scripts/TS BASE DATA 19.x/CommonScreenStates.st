@@ -61,6 +61,60 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:456
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.50"
+/Tenders/
+	"Balance Due"
+	"$44.50"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
 State:455
 /OrderScreen/
 /TopLeftButtons/

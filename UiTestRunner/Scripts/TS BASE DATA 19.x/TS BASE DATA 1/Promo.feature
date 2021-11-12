@@ -199,13 +199,13 @@ Scenario: 4 off $20 Dollars
 			Then verify presence of /RightModifierButtons/,[CUP]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 352
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 352
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94",/Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
+			Given screen state: 456
 			Then clicked /TopLeftButtons/,[Promo]
 #Action: 12 Select $5 off $20 Off
 			Then verify presence of /MidLeftButtons/,[BUY 1 GET 1 FREE],[Lunch Combo]
