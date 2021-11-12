@@ -131,13 +131,13 @@ Scenario: 3 Order Pork Chop Mods
 			Then verify presence of /RightModifierButtons/,[FRIES],[NO SIDE]
 			Then clicked /RightModifierButtons/,[SWT POT\FRIES]
 #Action: 16 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK CHOP MODS\   MEDIUM\   Baked Potato\   CUP\   ADD BRWN SUGAR\   ADD RAISIN\   ADD GRANOLA\   ON CROISSANT\   SUB HASHBROWNS\   VEGGIE\   WHITE\   RANCH\   SWT POT FRIES","0.00\\\\\\\\1.50\\\\1.00"
+			Given screen state: 414
 			Then clicked [$]
 #Action: 17 Exact Payment
-			Then verify presence of /ItemEntries/,"PORK CHOP MODS\   MEDIUM\   Baked Potato\   CUP\   ADD BRWN SUGAR\   ADD RAISIN\   ADD GRANOLA\   ON CROISSANT\   SUB HASHBROWNS\   VEGGIE\   WHITE\   RANCH\   SWT POT FRIES","0.00\\\\\\\\1.50\\\\1.00",/Comps/,"Sub Total","2.50",/Taxes/,"Tax","0.15"
+			Given screen state: 415
 			Then clicked [Exact]
 #Action: 18 Click Close
-			Then verify presence of /ItemEntries/,"PORK CHOP MODS\   MEDIUM\   Baked Potato\   CUP\   ADD BRWN SUGAR\   ADD RAISIN\   ADD GRANOLA\   ON CROISSANT\   SUB HASHBROWNS\   VEGGIE\   WHITE\   RANCH\   SWT POT FRIES","0.00\\\\\\\\1.50\\\\1.00",/Comps/,"Sub Total","2.50",/Taxes/,"Tax","0.15"
+			Given screen state: 416
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
 			Given screen state: 558
