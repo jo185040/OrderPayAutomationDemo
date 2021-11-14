@@ -61,6 +61,616 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:472
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"TEST\ TY"
+	"2.00\0.20"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.20"
+/Taxes/
+	"Tax"
+	"0.01"
+	"Total"
+	"2.21"
+/Tenders/
+	"CASH"
+	"2.21"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:471
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"TEST\ TY"
+	"2.00\0.20"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.20"
+/Taxes/
+	"Tax"
+	"0.01"
+	"Total"
+	"2.21"
+/Tenders/
+	"Balance Due"
+	"$2.21"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:470
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"TEST\ TY"
+	"2.00\0.20"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:469
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"OPEN DESCR MOD\ TEST"
+	"10.00\10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"20.00"
+/Taxes/
+	"Tax"
+	"1.22"
+	"Total"
+	"21.22"
+/Tenders/
+	"CASH"
+	"21.22"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:468
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"OPEN DESCR MOD\ TEST"
+	"10.00\10.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"20.00"
+/Taxes/
+	"Tax"
+	"1.22"
+	"Total"
+	"21.22"
+/Tenders/
+	"Balance Due"
+	"$21.22"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:467
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN DESCR MOD\ TEST"
+	"10.00\10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:466
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"OPEN DESCR MOD\ OPEN ITEM PRICE"
+	"10.00\2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.00"
+/Taxes/
+	"Tax"
+	"0.73"
+	"Total"
+	"12.73"
+/Tenders/
+	"CASH"
+	"12.73"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:465
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"OPEN DESCR MOD\ OPEN ITEM PRICE"
+	"10.00\2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"12.00"
+/Taxes/
+	"Tax"
+	"0.73"
+	"Total"
+	"12.73"
+/Tenders/
+	"Balance Due"
+	"$12.73"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Not connected to internet)"
+State:464
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN DESCR MOD\ OPEN ITEM PRICE"
+	"10.00\2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:463
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN PRICE MOD\ TEST"
+	"2.00\10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:462
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN PRICE MOD\ OPEN ITEM PRICE"
+	"2.00\2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:461
 /Dialog/
 	"Select Void Reason"
@@ -6108,7 +6718,7 @@ State:347
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"OPEN DESCR MOD\ TEST"
+	"OPEN DESCR MOD\ TEST"
 	"10.00\2.00"
 /Seats/
 	[T]
@@ -11645,6 +12255,62 @@ State:249
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Not connected to internet)"
+State:248
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN PRICE MOD\ TEST"
+	"2.00\2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:247
 /TenderScreen/
 /TopRightButtons/
@@ -14163,9 +14829,9 @@ State:206
 	[m]
 	[_]
 	[Clear]
-	[ ]
 	[]
-	[⌫]
+	[.2]
+	[ ]
 	[Ok*]
 	[X]
 State:205
