@@ -61,6 +61,240 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:476
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+/Promos/
+/Comps/
+	"Sub Total"
+	"0.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"0.00.2"
+/Tenders/
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:475
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
+State:474
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"2 BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"83.78"
+/Promos/
+/Comps/
+	"Sub Total"
+	"83.78"
+/Taxes/
+	"Tax"
+	"5.11"
+	"Total"
+	"88.89"
+/Tenders/
+	"CASH"
+	"88.89"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:473
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"2 BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"83.78"
+/Promos/
+/Comps/
+	"Sub Total"
+	"83.78"
+/Taxes/
+	"Tax"
+	"5.11"
+	"Total"
+	"88.89"
+/Tenders/
+	"Balance Due"
+	"$88.89"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:472
 /TenderScreen/
 /TopRightButtons/
@@ -6571,6 +6805,10 @@ State:350
 	[Equal Split]
 	[Close]
 State:349
+/Dialog/
+	"Error"
+	"Repeat is not permitted on Ordered Refillable Items:  COKE"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -6629,12 +6867,6 @@ State:349
 	[Repeat]
 	[Modify]
 	""
-/MessageDialog/
-	"Error"
-/DialogSeparator/
-	"Repeat is not permitted on Ordered Refillable Items:  COKE"
-	[X]
-	[OK]
 State:348
 /OrderScreen/
 /TopLeftButtons/
@@ -22781,8 +23013,8 @@ State:108
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	"2 BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"83.78"
 /Seats/
 	[T]
 	[1]

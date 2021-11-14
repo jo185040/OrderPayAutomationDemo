@@ -85,7 +85,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Given screen state: 133
 			Then clicked [CUP]
 #Action: 10 Modify BBQ Rib
-			Given screen state: 108
+			Given screen state: 355
 			Then clicked [Modify]
 #Action: 11 Modify 1/2 Rack
 			Given screen state: 331

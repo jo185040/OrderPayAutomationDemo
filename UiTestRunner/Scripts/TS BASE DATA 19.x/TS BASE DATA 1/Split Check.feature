@@ -200,7 +200,7 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 10 Order Pork Chop
-			Given screen state: 108
+			Given screen state: 355
 			Then clicked "PORK\CHOP"
 #Action: 11 On Meat Temp Press OK
 			Then verify presence of /RightModifierButtons/,[BLACK & BLUE]
@@ -273,7 +273,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 10 Order Pork Chop
-			Given screen state: 108
+			Given screen state: 355
 			Then clicked "PORK\CHOP"
 #Action: 11 On Meat Temp Press OK
 			Then verify presence of /RightModifierButtons/,[BLACK & BLUE]

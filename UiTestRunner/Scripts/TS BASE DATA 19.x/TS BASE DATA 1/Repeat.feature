@@ -116,19 +116,19 @@ Scenario: 3 Verify Repeat works on items with modifiers
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 10 Repeat Item
-			Given screen state: 108
+			Given screen state: 355
 			Then clicked /BottomButtons/,[Repeat]
 #Action: 11 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 12 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","2 BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","83.78"
+			Given screen state: 108
 			Then clicked [$]
 #Action: 13 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","2 BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","83.78",/Comps/,"Sub Total","83.78",/Taxes/,"Tax","5.11","Total","88.89",/Tenders/,"Balance Due","$88.89"
+			Given screen state: 473
 			Then clicked [Exact]
 #Action: 14 Click Close
-			Then verify presence of /ItemEntries/,"2 BBQ RIBS\   1/2 RACK\   1/2 RACK\   Baked Potato\   CUP","83.78",/Comps/,"Sub Total","83.78",/Taxes/,"Tax","5.11","Total","88.89",/Tenders/,"CASH","88.89","Change","$0.00"
+			Given screen state: 474
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
 			Given screen state: 558
@@ -205,19 +205,20 @@ Scenario: 5 Verify voided items cannot be repeated
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /Items/,[OK]
 #Action: 9 Select Void Reason on Void Screen
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /DialogSeparator/,[OVERRING]
+			Given screen state: 475
+			Then clicked /Dialog/,^OVERRING^
+			Then clicked /Dialog/,[OK]
 #Action: 10 Repeat Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Repeat]
 #Action: 11 Select OK Button
 			Given screen state: 349
-			Then clicked /DialogSeparator/,[OK]
+			Then clicked /Dialog/,[OK]
 #Action: 12 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE"
 			Then clicked [$]
 #Action: 13 Select Close on Payment Screen
-			Then verify presence of /ItemEntries/,"Seat 1","COKE",/Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
+			Given screen state: 476
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
 			Given screen state: 558
