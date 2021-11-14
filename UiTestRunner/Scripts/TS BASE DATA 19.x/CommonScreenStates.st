@@ -6653,7 +6653,7 @@ State:348
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\ COKE"
+	"COKE\ COKE"
 	"2.00"
 /Seats/
 	[T]
@@ -6694,11 +6694,9 @@ State:348
 	[Repeat]
 	[Modify]
 	""
-/MessageDialog/
+/Dialog/
 	"Error"
-/DialogSeparator/
 	"Repeat is not permitted on Ordered Refillable Items:  COKE<br/>&ensp;COKE"
-	[X]
 	[OK]
 State:347
 /OrderScreen/
