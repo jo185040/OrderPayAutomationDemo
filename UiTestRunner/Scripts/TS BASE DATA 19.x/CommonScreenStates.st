@@ -61,6 +61,566 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:486
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax Exempt TEST"
+	"0.00"
+	"Total"
+	"41.94"
+/Tenders/
+	"Balance Due"
+	"$41.94"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:485
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.50"
+/Tenders/
+	"Balance Due"
+	"$44.50"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/KeyboardEntryDialog/
+	"Enter Tax Exempt Number"
+	""
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[0]
+	[Q]
+	[W]
+	[E]
+	[R]
+	[T]
+	[Y]
+	[U]
+	[I]
+	[O]
+	[P]
+	[A]
+	[S]
+	[D]
+	[F]
+	[G]
+	[H]
+	[J]
+	[K]
+	[L]
+	[Z]
+	[X]
+	[C]
+	[V]
+	[B]
+	[N]
+	[M]
+	[_]
+	[Clear]
+	[]
+	[*]
+	[ ]
+	[Ok*]
+	[X.2]
+State:484
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.50"
+/Tenders/
+	"Balance Due"
+	"$44.50"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:483
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 2]
+/ItemEntries/
+	"Seat 2"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Promos/
+/Comps/
+	"Sub Total"
+	"11.99"
+/Taxes/
+	"Tax"
+	"0.73"
+	"Total"
+	"12.72"
+/Tenders/
+	"CASH"
+	"12.72"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:482
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 2]
+/ItemEntries/
+	"Seat 2"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Promos/
+/Comps/
+	"Sub Total"
+	"11.99"
+/Taxes/
+	"Tax"
+	"0.73"
+	"Total"
+	"12.72"
+/Tenders/
+	"Balance Due"
+	"$12.72"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:481
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.89"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.45"
+/Tenders/
+	"CASH"
+	"44.45"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:480
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.89"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.45"
+/Tenders/
+	"Balance Due"
+	"$44.45"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:479
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 2]
+	[+]
+/EntriesBySeat/
+	"Seat 2"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:478
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 2"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Promos/
+/Comps/
+	"Sub Total"
+	"53.88"
+/Taxes/
+	"Tax"
+	"3.29"
+	"Total"
+	"57.17"
+/Tenders/
+	"Balance Due"
+	"$57.17"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:477
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"COKE"
+	"Seat 2"
+	"7 UP"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Equal Split]
+	[Close]
 State:476
 /TenderScreen/
 /TopRightButtons/
@@ -6784,26 +7344,64 @@ State:351
 	[Cancel]
 	[OK]
 State:350
-/SplitCheckScreen/
-/SplitScreen/
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
 	"Table 1"
-/SplitAndMergeButtons/
-	[Split Items]
-	[Merge Split Items*]
-/CheckOrSeat/
-	"Check 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
 	"Seat 1"
-	"COKE"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
 	"Seat 2"
-	"7 UP"
-	[<]
-	[>]
-/BottomCenterButtons/
-	[Combine]
-	[Add]
-	[Split seat]
-	[Equal Split]
-	[Close]
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:349
 /Dialog/
 	"Error"
@@ -14726,26 +15324,28 @@ State:210
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
 	"41.94"
 /Promos/
 /Comps/
 	"Sub Total"
 	"41.94"
 /Taxes/
-	"Tax Exempt TEST"
-	"0.00"
+	"Tax"
+	"2.56"
 	"Total"
-	"41.94"
+	"44.50"
 /Tenders/
-	"Balance Due"
-	"$41.94"
+	"CASH"
+	"44.50"
+	"Change"
+	"$0.00"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
 	[Saved Card*]
-	[Close*]
+	[Close]
 /MidLeftButtons/
 	[CASH]
 	[ECARD]
@@ -14780,7 +15380,7 @@ State:209
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
 	"41.94"
 /Promos/
 /Comps/
@@ -25183,11 +25783,11 @@ State:061
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 /CheckOrSeat.2/
 	"Check 2"
 	"Seat 2"
-	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -25205,9 +25805,9 @@ State:060
 /CheckOrSeat/
 	"Check 1"
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"Seat 2"
-	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -25223,10 +25823,10 @@ State:059
 	"For Table"
 /CheckOrSeat.2/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 /CheckOrSeat.3/
 	"Seat 2"
-	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -25242,8 +25842,8 @@ State:058
 	"For Table"
 /CheckOrSeat.2/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	[<]
 	[>]
 /BottomCenterButtons/
@@ -26226,9 +26826,9 @@ State:034
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
-	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	"11.99"
 /Seats/
 	[T]

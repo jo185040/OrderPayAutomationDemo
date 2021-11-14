@@ -31,20 +31,20 @@ Scenario: 1 Add Tax Exempt
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 352
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 352
 			Then clicked [$]
 #Action: 11 Add Tax Exempt
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94",/Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
+			Given screen state: 484
 			Then clicked /BottomLeftButtons/,[Tax Exempt]
 #Action: 12 Press Ok
-			Then verify presence of /KeyboardEntryDialog/,"Enter Tax Exempt Number"
+			Given screen state: 485
 			Then clicked /DialogSeparator/,[T],[E],[S],[T]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 13 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94",/Comps/,"Sub Total","41.94",/Taxes/,"Tax Exempt TEST","0.00","Total","41.94",/Tenders/,"Balance Due","$41.94"
+			Given screen state: 486
 			Then clicked [Exact]
 #Action: 14 Click Close
 			Given screen state: 209
@@ -83,29 +83,29 @@ Scenario: 2 Remove Tax Exempt
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 352
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94"
+			Given screen state: 352
 			Then clicked [$]
 #Action: 11 Add Tax Exempt
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94",/Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
+			Given screen state: 484
 			Then clicked /BottomLeftButtons/,[Tax Exempt]
 #Action: 12 Press Ok
 			Then verify presence of /KeyboardEntryDialog/,"Enter Tax Exempt Number"
 			Then clicked /DialogSeparator/,[T],[E],[S],[T]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 13 Select Tax Exempt on Check
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94",/Comps/,"Sub Total","41.94",/Taxes/,"Tax Exempt TEST","0.00","Total","41.94",/Tenders/,"Balance Due","$41.94"
+			Given screen state: 486
 			Then clicked /Taxes/,"Tax Exempt TEST"
 #Action: 14 Remove Tax Exempt
-			Given screen state: 210
+			Given screen state: 486
 			Then clicked /BottomRightButtons/,[Delete]
 #Action: 15 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94",/Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
+			Given screen state: 484
 			Then clicked [Exact]
 #Action: 16 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","BBQ RIBS\   FULL RACK\   Baked Potato\   CUP","41.94",/Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"CASH","44.50","Change","$0.00"
+			Given screen state: 210
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
 			Given screen state: 558
