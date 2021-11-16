@@ -89,7 +89,7 @@ Scenario: 2 No Access To Server
 			Given screen state: 558
 			Then clicked [1]
 #Action: 11 Dismiss Error Message
-			Then verify presence of /MessageDialog/,"Failed to Open Table.",/DialogSeparator/,"You do not have access to open the selected table."
+			Given screen state: 487
 			Then clicked [OK]
 #Action: 12 Exit FloorPlan
 			Given screen state: 558

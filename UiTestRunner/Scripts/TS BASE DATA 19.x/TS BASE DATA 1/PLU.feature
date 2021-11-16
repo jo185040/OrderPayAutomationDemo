@@ -27,8 +27,8 @@ Scenario: 1 PLU Items
 			Then clicked /DialogSeparator/,[6]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Select "OK" on Message Dialog
-			Then verify presence of /MessageDialog/,"Not Found",/DialogSeparator/,"PLU/SKU number not found!",[X],[OK]
-			Then clicked /DialogSeparator/,[OK]
+			Given screen state: 461
+			Then clicked /Dialog/,[OK]
 #Action: 8 Exit FloorPlan
 			Then verify presence of /CenterMenuButtons/,[RETAIL]
 			When clicked /TopLeftButtons/,[Done]

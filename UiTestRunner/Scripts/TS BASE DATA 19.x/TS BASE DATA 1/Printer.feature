@@ -19,14 +19,16 @@ Scenario: 1 Select Printer
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Select Printer]
 #Action: 5 Select Bixlon Printer
-			Then verify presence of /SelectEntityDialog/,"Select default printer",/SelectEntityButtons/,[Bixolon],[Bixlon Kitchen],[X],[Cancel]
-			Then clicked /SelectEntityButtons/,[Bixlon Kitchen]
+			Given screen state: 488
+			Then clicked /Dialog/,^Bixlon Kitchen^
+			Then clicked /Dialog/,[OK]
 #Action: 6 Select Printer
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Select Printer]
 #Action: 7 Select Bixlon Printer
-			Then verify presence of /SelectEntityDialog/,"Select default printer",/SelectEntityButtons/,[Bixolon],[Bixlon Kitchen],[X],[Cancel]
-			Then clicked /SelectEntityButtons/,[Bixolon]
+			Given screen state: 489
+			Then clicked /Dialog/,^Bixolon^
+			Then clicked /Dialog/,[OK]
 #Action: 8 Exit
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[Done]

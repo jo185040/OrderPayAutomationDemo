@@ -34,7 +34,7 @@ Scenario: 1 Verify you can void items with no issues
 			Given screen state: 023
 			Then clicked /Items/,[OK]
 #Action: 10 Select Void Reason on Void Screen
-			Given screen state: 461
+			Given screen state: 475
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 11 Select $ on Payment Screen

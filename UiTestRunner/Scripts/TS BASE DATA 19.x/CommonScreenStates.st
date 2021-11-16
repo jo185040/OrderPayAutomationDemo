@@ -61,6 +61,149 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:489
+/Dialog/
+	"Select default printer"
+	^Bixolon^
+	^Bixlon Kitchen^
+	[Cancel]
+	[OK]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:488
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+/Dialog/
+	"Select default printer"
+	^Bixolon^
+	^Bixlon Kitchen^
+	[Cancel]
+	[OK]
+State:487
+/Dialog/
+	"Failed to Open Table."
+	"You do not have access to open the selected table."
+	[OK]
+/FloorPlanScreen/
+	[7]
+	[WWT\Screen]
+	[1]
+	[Exit]
+	[5]
+	[4]
+	[Detach\Tables]
+	[2]
+	[Combine\Tables]
+	[8]
+	[BAR]
+	[3]
+	[6]
 State:486
 /TenderScreen/
 /TopRightButtons/
@@ -1466,18 +1609,6 @@ State:462
 	[Modify]
 	""
 State:461
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1494,36 +1625,30 @@ State:461
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COKE"
-	"2.00"
 /Seats/
 	[T]
 	[1]
 	[+]
 /CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
 /MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
 	[Scan Barcode]
@@ -1536,6 +1661,10 @@ State:461
 	[Repeat]
 	[Modify]
 	""
+/Dialog/
+	"Not Found"
+	"PLU/SKU number not found!"
+	[OK]
 State:460
 /OrderScreen/
 /TopLeftButtons/
@@ -7720,7 +7849,7 @@ State:344
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"QUESADILLA\test\ ADD AVOCADO"
+	"QUESADILLA\test\ ADD AVOCADO"
 	"5.00\\\0.80"
 /Seats/
 	[T]
@@ -7774,7 +7903,7 @@ State:343
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"QUESADILLA\test\ ADD AVOCADO"
+	"QUESADILLA\test\ ADD AVOCADO"
 	"5.00\\\0.80"
 /Promos/
 /Comps/
@@ -7830,7 +7959,7 @@ State:342
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"QUESADILLA\test\ ADD AVOCADO"
+	"QUESADILLA\test\ ADD AVOCADO"
 	"5.00\\\0.80"
 /Promos/
 /Comps/
@@ -7949,7 +8078,7 @@ State:340
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"QUESADILLA\ ADD AVOCADO"
+	"QUESADILLA\ ADD AVOCADO"
 	"5.00\0.80"
 /Seats/
 	[T]
@@ -7994,7 +8123,7 @@ State:340
 /Modifier/
 	"QUESADILLA"
 	"5.00"
-	" - ADD AVOCADO"
+	"- ADD AVOCADO"
 /CenterCategoryButtons/
 /RightPanelButtons/
 /ModifierCodeButtons/
@@ -8031,60 +8160,6 @@ State:340
 	[Special]
 	[Cancel]
 	[OK]
-State:339
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"QUESADILLA\ ADD AVOCADO"
-	"5.00\0.80"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"SPN ARTCHK\DIP"
-	"PORK\NACHOS"
-	"HELLS\CHIPS"
-	"QUESADILLA"
-	"HUMMUS\APP"
-	"FRIED MOZZ"
-	"POTATO\CHIPS"
-	"TENDERLN\WRAPS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Add Saved Card]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	""
 State:338
 /OrderScreen/
 /TopLeftButtons/
@@ -8103,7 +8178,7 @@ State:338
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
+	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
 	"41.89"
 /Seats/
 	[T]
@@ -8158,7 +8233,7 @@ State:337
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -8237,7 +8312,7 @@ State:336
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -8283,13 +8358,13 @@ State:336
 /Modifier/
 	"BBQ RIBS"
 	"41.89"
-	" - 1/2 RACK"
-	" -  - t1"
-	" - 1/2 RACK.2"
-	" -  - t2"
-	" - Baked Potato"
-	" -  - t3"
-	" - CUP"
+	"- 1/2 RACK"
+	"-  - t1"
+	"- 1/2 RACK.2"
+	"-  - t2"
+	"- Baked Potato"
+	"-  - t3"
+	"- CUP"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -8345,7 +8420,7 @@ State:335
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -8424,7 +8499,7 @@ State:334
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -8470,12 +8545,12 @@ State:334
 /Modifier/
 	"BBQ RIBS"
 	"41.89"
-	" - 1/2 RACK"
-	" -  - t1"
-	" - 1/2 RACK.2"
-	" -  - t2"
-	" - Baked Potato"
-	" - CUP"
+	"- 1/2 RACK"
+	"-  - t1"
+	"- 1/2 RACK.2"
+	"-  - t2"
+	"- Baked Potato"
+	"- CUP"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -8531,7 +8606,7 @@ State:333
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -8577,11 +8652,11 @@ State:333
 /Modifier/
 	"BBQ RIBS"
 	"41.89"
-	" - 1/2 RACK"
-	" -  - t1"
-	" - 1/2 RACK.2"
-	" - Baked Potato"
-	" - CUP"
+	"- 1/2 RACK"
+	"-  - t1"
+	"- 1/2 RACK.2"
+	"- Baked Potato"
+	"- CUP"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -8637,7 +8712,7 @@ State:332
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -8716,7 +8791,7 @@ State:331
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
 	"41.89"
 /Seats/
 	[T]
@@ -8762,10 +8837,10 @@ State:331
 /Modifier/
 	"BBQ RIBS"
 	"41.89"
-	" - 1/2 RACK"
-	" - 1/2 RACK.2"
-	" - Baked Potato"
-	" - CUP"
+	"- 1/2 RACK"
+	"- 1/2 RACK.2"
+	"- Baked Potato"
+	"- CUP"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -8820,7 +8895,7 @@ State:330
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
+	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
 	"41.89"
 /Promos/
 /Comps/
@@ -8873,7 +8948,7 @@ State:329
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
+	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
 	"41.89"
 /Promos/
 /Comps/
@@ -9785,9 +9860,9 @@ State:316
 	[*]
 	[!]
 	[Clear]
-	[ ]
 	[]
-	[⌫]
+	[.2]
+	[ ]
 	[Ok*]
 	[X]
 State:315
@@ -11195,9 +11270,9 @@ State:288
 	[*]
 	[!]
 	[Clear]
-	[ ]
 	[]
-	[⌫]
+	[.2]
+	[ ]
 	[Ok*]
 	[X]
 State:287
@@ -11263,7 +11338,7 @@ State:286
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:285
 /TenderScreen/
 /TopRightButtons/
@@ -11281,13 +11356,13 @@ State:285
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"VEGGIE WRAP\ FRIES"
+	"VEGGIE WRAP\ FRIES"
 	"4.00"
-	"CHIX SLD SAND\ FRIES"
+	"CHIX SLD SAND\ FRIES"
 	"4.00.2"
-	"HAM SANDWICH\ FRIES"
+	"HAM SANDWICH\ FRIES"
 	"4.00.3"
-	"CALI CHIX WRAP\ FRIES"
+	"CALI CHIX WRAP\ FRIES"
 	"4.00.4"
 /Promos/
 /Comps/
@@ -11322,7 +11397,7 @@ State:285
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:284
 /SplitSeatScreen/
 /SplitScreen/
@@ -11461,7 +11536,7 @@ State:282
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:281
 /TenderScreen/
 /TopRightButtons/
@@ -11517,7 +11592,7 @@ State:281
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:280
 /OrderScreen/
 /TopLeftButtons/
@@ -12492,7 +12567,7 @@ State:260
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:259
 /OrderScreen/
 /TopLeftButtons/
@@ -12833,7 +12908,7 @@ State:254
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:253
 /TenderScreen/
 /TopRightButtons/
@@ -13026,7 +13101,7 @@ State:250
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:249
 /TenderScreen/
 /TopRightButtons/
@@ -13082,7 +13157,7 @@ State:249
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:248
 /OrderScreen/
 /TopLeftButtons/
@@ -15305,7 +15380,7 @@ State:211
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:210
 /TenderScreen/
 /TopRightButtons/
@@ -23369,7 +23444,7 @@ State:117
 	[Add Gratuity*]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:116
 /ReceiveTransfersScreen/
 	"LEBRON JAMES"
@@ -23753,7 +23828,7 @@ State:106
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:105
 /WWTScreen/
 	"JEFFREY"
@@ -24178,7 +24253,7 @@ State:097
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:096
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
@@ -24272,7 +24347,7 @@ State:095
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:094
 /OrderScreen/
 /TopLeftButtons/
@@ -24293,9 +24368,9 @@ State:094
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
-	"CAESAR SALAD\ ADD CHICKEN"
+	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
-	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
 	"3.00.2"
@@ -24635,11 +24710,11 @@ State:087
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"CHIX SLD SAND\ FRIES"
+	"CHIX SLD SAND\ FRIES"
 	"4.00"
-	"HAM SANDWICH\ FRIES"
+	"HAM SANDWICH\ FRIES"
 	"4.00.2"
-	"CALI CHIX WRAP\ FRIES"
+	"CALI CHIX WRAP\ FRIES"
 	"4.00.3"
 /Promos/
 /Comps/
@@ -24676,7 +24751,7 @@ State:087
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:086
 /WWTScreen/
 	"JEFFREY"
@@ -24776,15 +24851,15 @@ State:084
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
+	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
-	"VEGGIE WRAP\ FRIES"
+	"VEGGIE WRAP\ FRIES"
 	"4.00.2"
-	"CHIX SLD SAND\ FRIES"
+	"CHIX SLD SAND\ FRIES"
 	"4.00.3"
-	"HAM SANDWICH\ FRIES"
+	"HAM SANDWICH\ FRIES"
 	"4.00.4"
-	"CALI CHIX WRAP\ FRIES"
+	"CALI CHIX WRAP\ FRIES"
 	"4.00.5"
 /Seats/
 	[T]
@@ -24835,13 +24910,13 @@ State:083
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
+	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
-	"VEGGIE WRAP\ FRIES"
+	"VEGGIE WRAP\ FRIES"
 	"4.00.2"
-	"CHIX SLD SAND\ FRIES"
+	"CHIX SLD SAND\ FRIES"
 	"4.00.3"
-	"HAM SANDWICH\ FRIES"
+	"HAM SANDWICH\ FRIES"
 	"4.00.4"
 /Seats/
 	[T]
@@ -24892,11 +24967,11 @@ State:082
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
+	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
-	"VEGGIE WRAP\ FRIES"
+	"VEGGIE WRAP\ FRIES"
 	"4.00.2"
-	"CHIX SLD SAND\ FRIES"
+	"CHIX SLD SAND\ FRIES"
 	"4.00.3"
 /Seats/
 	[T]
@@ -24998,9 +25073,9 @@ State:080
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
+	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
-	"VEGGIE WRAP\ FRIES"
+	"VEGGIE WRAP\ FRIES"
 	"4.00.2"
 /Seats/
 	[T]
@@ -25080,7 +25155,7 @@ State:078
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BUFF CHIX WRAP\ FRIES"
+	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
 /Seats/
 	[T]
@@ -25220,7 +25295,7 @@ State:076
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:075
 /TenderScreen/
 /TopRightButtons/
@@ -25278,7 +25353,7 @@ State:075
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:074
 /OrderScreen/
 /TopLeftButtons/
@@ -25511,11 +25586,11 @@ State:069
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
 	"3.00"
-	"SOUP OF DAY\ CUP"
+	"SOUP OF DAY\ CUP"
 	"3.00.2"
 /Promos/
 /Comps/
@@ -25552,7 +25627,7 @@ State:069
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:068
 /TenderScreen/
 /TopRightButtons/
@@ -25570,13 +25645,13 @@ State:068
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"CAESAR SALAD\ ADD CHICKEN"
+	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
-	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
 	"3.00"
-	"SOUP OF DAY\ CUP"
+	"SOUP OF DAY\ CUP"
 	"3.00.2"
 /Promos/
 /Comps/
@@ -25611,7 +25686,7 @@ State:068
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:067
 /SplitCheckScreen/
 /SplitScreen/
@@ -25874,11 +25949,6 @@ State:057
 	[Split seat]
 	[Close]
 State:056
-/Dialog/
-	"Clear All Unordered Items"
-	"Are you sure you want to clear all items which have not been held or ordered?"
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -25937,6 +26007,11 @@ State:056
 	[Repeat]
 	[Modify]
 	""
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 State:055
 /WWTScreen/
 	"JEFFREY"
@@ -26086,13 +26161,13 @@ State:052
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
-	"CAESAR SALAD\ ADD CHICKEN"
+	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
-	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
 	"3.00.2"
-	"SOUP OF DAY\ CUP"
+	"SOUP OF DAY\ CUP"
 	"3.00.3"
 /Seats/
 	[T]
@@ -26302,9 +26377,9 @@ State:048
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
-	"CAESAR SALAD\ ADD CHICKEN"
+	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
-	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
+	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 /Seats/
 	[T]
@@ -26544,7 +26619,7 @@ State:043
 	"Seat 1"
 	"CHOPPED SALAD"
 	"3.00"
-	"CAESAR SALAD\ ADD CHICKEN"
+	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
 /Seats/
 	[T]
@@ -27975,4 +28050,4 @@ State:001
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"

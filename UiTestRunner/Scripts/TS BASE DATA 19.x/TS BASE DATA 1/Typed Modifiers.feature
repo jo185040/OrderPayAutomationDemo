@@ -89,7 +89,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Then clicked [Modify]
 #Action: 11 Modify 1/2 Rack
 			Given screen state: 331
-			Then clicked /Modifier/," - 1/2 RACK"
+			Then clicked /Modifier/,"- 1/2 RACK"
 			Then clicked /BottomLeftButtons/,[Modify]
 #Action: 12 Add Typed Message on 1/2 Rack
 			Given screen state: 332
@@ -98,7 +98,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 13 Modify 1/2 Rack 2nd Rack
 			Given screen state: 333
-			Then clicked /Modifier/," - 1/2 RACK.2"
+			Then clicked /Modifier/,"- 1/2 RACK.2"
 			Then clicked /BottomLeftButtons/,[Modify]
 #Action: 14 Add Typed Message on 1/2 Rack
 			Given screen state: 332
@@ -107,7 +107,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 15 Modify Baked Potato
 			Given screen state: 334
-			Then clicked /Modifier/," - Baked Potato"
+			Then clicked /Modifier/,"- Baked Potato"
 			Then clicked /BottomLeftButtons/,[Modify]
 #Action: 16 Add Typed Message on Baked Potato
 			Given screen state: 335
@@ -116,7 +116,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 17 Modify CUP
 			Given screen state: 336
-			Then clicked /Modifier/," - CUP"
+			Then clicked /Modifier/,"- CUP"
 			Then clicked /BottomLeftButtons/,[Modify]
 #Action: 18 Add Typed Message on CUP
 			Given screen state: 337
@@ -172,7 +172,7 @@ Scenario: 3 Typed Modifiers on exceptional mod group Pizza.
 			Given screen state: 137
 			Then clicked [OK]
 #Action: 10 Modify Quesidilla
-			Given screen state: 339
+			Given screen state: 357
 			Then clicked [Modify]
 #Action: 11 Add Typed Modifier
 			Given screen state: 340
@@ -217,10 +217,10 @@ Scenario: 4 Type Modifier on Forced Modifier
 			Then verify presence of /MenuOrModButtons/,"COMBO 3"
 			Then clicked "Quick Burger"
 #Action: 6 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\   CUP\   CHEESECAKE","5.99"
+			Given screen state: 360
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Quick Burger\   CUP\   CHEESECAKE","5.99"
+			Given screen state: 360
 			Then clicked [$]
 #Action: 8 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"Balance Due","$6.36"
