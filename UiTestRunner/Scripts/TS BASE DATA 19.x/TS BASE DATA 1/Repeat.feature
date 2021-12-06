@@ -210,7 +210,7 @@ Scenario: 5 Verify voided items cannot be repeated
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Repeat]
 #Action: 11 Select OK Button
-			Then verify presence of /DialogSeparator/,"Repeat is not permitted on Refillable Items"
+			Given screen state: 332
 			Then clicked /DialogSeparator/,[OK]
 #Action: 12 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE"

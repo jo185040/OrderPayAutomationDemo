@@ -22,10 +22,10 @@ Scenario: 1 Login as manager 200 to Floor Plan
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","7 UP","CORONA"
 			Then clicked /TopLeftButtons/,[Split Seat]
 #Action: 6 Select "7Up"
-			Given screen state: 101
+			Given screen state: 333
 			Then clicked "7 UP"
 #Action: 7 Click 'Add' to move 7Up to new Seat 2
-			Given screen state: 101
+			Given screen state: 333
 			Then clicked [Add]
 #Action: 8 Move item to seat 2
 			Given screen state: 262

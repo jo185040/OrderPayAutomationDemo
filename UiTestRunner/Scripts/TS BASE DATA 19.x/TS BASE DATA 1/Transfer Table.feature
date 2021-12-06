@@ -62,7 +62,7 @@ Scenario: 1 Transfer Table to Server
 			Given screen state: 103
 			Then clicked /Tables/,"1"
 #Action: 18 Select Table 1 on Transfer Tables
-			Given screen state: 314
+			Given screen state: 015
 			Then clicked "1"
 #Action: 19 Select Ok Button
 			Given screen state: 015
@@ -825,7 +825,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 031
 			Then clicked /Tabs/,"j1"
 #Action: 23 Select Tab j1 on Transfer Tables
-			Given screen state: 313
+			Given screen state: 118
 			Then clicked "j1"
 #Action: 24 Select Merge Table Button
 			Given screen state: 118

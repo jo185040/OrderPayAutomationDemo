@@ -133,7 +133,7 @@ Scenario: 3 Split Item into 4 Items
 			Then clicked /DialogSeparator/,[4]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 10 Press Close Button
-			Given screen state: 302
+			Given screen state: 334
 			Then clicked /BottomCenterButtons/,[Close]
 #Action: 11 Select $ on Payment Screen
 			Given screen state: 303

@@ -533,6 +533,110 @@ State:395
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:334
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"1/4 7 UP"
+	"1/4 7 UP.2"
+	"1/4 7 UP.3"
+	"1/4 7 UP.4"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:333
+/SplitSeatScreen/
+/SplitScreen/
+	"Table 1"
+/CheckOrSeat/
+	"For Table"
+/CheckOrSeat.2/
+	"Seat 1"
+	"COKE"
+	"7 UP"
+	"CORONA"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split check]
+	[Close]
+State:332
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+/MessageDialog/
+	"Error"
+/DialogSeparator/
+	"Repeat is not permitted on Refillable Items:  COKE"
+	[X]
+	[OK]
 State:331
 /TenderScreen/
 /TopRightButtons/
@@ -17195,16 +17299,14 @@ State:068
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"CHOPPED SALAD"
-	"3.00"
 	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
-	"3.00.2"
+	"3.00"
 	"SOUP OF DAY\ CUP"
-	"3.00.3"
+	"3.00.2"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -17215,6 +17317,8 @@ State:068
 	"Total"
 	"22.28"
 /Tenders/
+	"Balance Due"
+	"$22.28"
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
