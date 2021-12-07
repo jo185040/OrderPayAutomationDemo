@@ -34,8 +34,9 @@ Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 			Then clicked /Items/,^COKE^
 			Then clicked /Items/,[OK]
 #Action: 9 Select "Misring"
-			Then verify presence of /SelectEntityDialog/,"Select Void Reason",/DialogSeparator/,[TESTING],[OVERRING],[MISRING],[*86*],[X],[Cancel]
-			Then clicked /DialogSeparator/,[MISRING]
+			Given screen state: 491
+			Then clicked /Dialog/,^MISRING^
+			Then clicked /Dialog/,[OK]
 #Action: 10 Select Payment
 			Then verify presence of /EntriesBySeat/,"Table","COKE"
 			Then clicked [$]

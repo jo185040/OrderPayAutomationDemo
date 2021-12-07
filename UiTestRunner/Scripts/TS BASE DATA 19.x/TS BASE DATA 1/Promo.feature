@@ -205,7 +205,7 @@ Scenario: 4 off $20 Dollars
 			Given screen state: 352
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
-			Given screen state: 456
+			Given screen state: 484
 			Then clicked /TopLeftButtons/,[Promo]
 #Action: 12 Select $5 off $20 Off
 			Then verify presence of /MidLeftButtons/,[BUY 1 GET 1 FREE],[Lunch Combo]

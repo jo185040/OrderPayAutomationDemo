@@ -39,8 +39,8 @@ Scenario: 1 Pay with House Account & No Tip
 			Then clicked /DialogSeparator/,[8]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 11 Confirm Yes on Dialog
-			Then verify presence of /ConfirmDialog/,"Confirm","Found account for TECH \Is this correct?"
-			Then clicked /ConfirmDialog/,[Yes]
+			Given screen state: 456
+			Then clicked /Dialog/,[Yes]
 #Action: 12 Click Close
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"TECH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
@@ -86,8 +86,8 @@ Scenario: 2 Pay with House Account & 15% Tip
 			Then clicked /DialogSeparator/,[8]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 11 Confirm Yes on Dialog
-			Then verify presence of /ConfirmDialog/,"Confirm","Found account for TECH \Is this correct?"
-			Then clicked /ConfirmDialog/,[Yes]
+			Given screen state: 457
+			Then clicked /Dialog/,[Yes]
 #Action: 12 Click Close
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"TECH","2.00",/Tips/,"TIP","0.30","Change","$0.00"
 			Then clicked /MidButtons/,[Close]

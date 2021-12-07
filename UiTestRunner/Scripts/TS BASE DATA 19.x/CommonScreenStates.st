@@ -61,6 +61,202 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:493
+/SplitCheckScreen/
+/SplitScreen/
+	"Table 1"
+/SplitAndMergeButtons/
+	[Split Items]
+	[Merge Split Items*]
+/CheckOrSeat/
+	"Check 1"
+	"Seat 1"
+	"COKE"
+	"Seat 2"
+	"7 UP"
+	[<]
+	[>]
+/BottomCenterButtons/
+	[Combine]
+	[Add]
+	[Split seat]
+	[Close]
+State:492
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:491
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Table"
+	"COKE"
+	"2.00"
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
+State:490
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:489
 /Dialog/
 	"Select default printer"
@@ -1219,7 +1415,7 @@ State:469
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:468
 /TenderScreen/
 /TopRightButtons/
@@ -1273,7 +1469,7 @@ State:468
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:467
 /OrderScreen/
 /TopLeftButtons/
@@ -1385,7 +1581,7 @@ State:466
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:465
 /TenderScreen/
 /TopRightButtons/
@@ -1439,7 +1635,7 @@ State:465
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:464
 /OrderScreen/
 /TopLeftButtons/
@@ -1834,62 +2030,11 @@ State:458
 	[Modify]
 	""
 State:457
-/TenderScreen/
-/TopRightButtons/
-	[Tables]
-	[Order]
-	[Print]
-	[Print All]
-	[Email/SMS]
-	[Exit]
-/TopLeftButtons/
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"j1"
-	[Check 1]
-/ItemEntries/
-	"Seat 1"
-	"COKE"
-	"2.00"
-/Promos/
-/Comps/
-	"Sub Total"
-	"2.00"
-/Taxes/
-	"Tax"
-	"0.00"
-	"Total"
-	"2.00"
-/Tenders/
-	"CASH"
-	"2.00"
-	"Change"
-	"$0.00"
-/MidButtonsTop/
-	[GCP]
-/MidButtons/
-	[Gift Card Balance]
-	[Saved Card*]
-	[Close]
-/MidLeftButtons/
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-/BottomRightButtons/
-	[Delete]
-/BottomLeftButtons/
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-/WarningBarControl/
-	"Card payments not available (Not connected to internet)"
-State:456
+/Dialog/
+	"Confirm"
+	"Found account for TECH \Is this correct?"
+	[No]
+	[Yes]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -1907,20 +2052,20 @@ State:456
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
-	"41.94"
+	"COKE"
+	"2.00"
 /Promos/
 /Comps/
 	"Sub Total"
-	"41.94"
+	"2.00"
 /Taxes/
 	"Tax"
-	"2.56"
+	"0.00"
 	"Total"
-	"44.50"
+	"2.00"
 /Tenders/
 	"Balance Due"
-	"$44.50"
+	"$2.00"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
@@ -1942,7 +2087,66 @@ State:456
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:456
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/Dialog/
+	"Confirm"
+	"Found account for TECH \Is this correct?"
+	[No]
+	[Yes]
 State:455
 /OrderScreen/
 /TopLeftButtons/
@@ -2084,47 +2288,67 @@ State:452
 	[Modify]
 	""
 State:451
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
-	"10.00"
-/Items/
-	"Large"
-	"Sausage"
-	"1/2"
-	"1/2.2"
-/CenterModButtons/
-	[Sausage]
-	[Pepperoni]
-	[Onions]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
-	[Delete]
-	[btnMessage]
 /Dialog/
-	"Warning"
-	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
 	[OK]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:450
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -2254,7 +2478,7 @@ State:448
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:447
 /TenderScreen/
 /TopRightButtons/
@@ -2308,7 +2532,7 @@ State:447
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:446
 /OrderScreen/
 /TopLeftButtons/
@@ -2446,7 +2670,7 @@ State:444
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:443
 /TenderScreen/
 /TopRightButtons/
@@ -2496,7 +2720,7 @@ State:443
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:442
 /OrderScreen/
 /TopLeftButtons/
@@ -2601,7 +2825,7 @@ State:441
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:440
 /TenderScreen/
 /TopRightButtons/
@@ -2655,7 +2879,7 @@ State:440
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:439
 /OrderScreen/
 /TopLeftButtons/
@@ -2824,7 +3048,7 @@ State:437
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:436
 /TenderScreen/
 /TopRightButtons/
@@ -2878,7 +3102,7 @@ State:436
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:435
 /TenderScreen/
 /TopRightButtons/
@@ -2934,7 +3158,7 @@ State:435
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:434
 /TenderScreen/
 /TopRightButtons/
@@ -2988,7 +3212,7 @@ State:434
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:433
 /TenderScreen/
 /TopRightButtons/
@@ -3044,7 +3268,7 @@ State:433
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:432
 /TenderScreen/
 /TopRightButtons/
@@ -3098,7 +3322,7 @@ State:432
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:431
 /OrderScreen/
 /TopLeftButtons/
@@ -3263,7 +3487,7 @@ State:429
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:428
 /TenderScreen/
 /TopRightButtons/
@@ -3317,7 +3541,7 @@ State:428
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:427
 /TenderScreen/
 /TopRightButtons/
@@ -3370,7 +3594,7 @@ State:427
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:426
 /TenderScreen/
 /TopRightButtons/
@@ -3423,7 +3647,7 @@ State:426
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:425
 /OrderScreen/
 /TopLeftButtons/
@@ -3528,7 +3752,7 @@ State:424
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:423
 /TenderScreen/
 /TopRightButtons/
@@ -3582,7 +3806,7 @@ State:423
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:422
 /OrderScreen/
 /TopLeftButtons/
@@ -3697,7 +3921,7 @@ State:421
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:420
 /TenderScreen/
 /TopRightButtons/
@@ -3751,7 +3975,7 @@ State:420
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:419
 /OrderScreen/
 /TopLeftButtons/
@@ -3866,7 +4090,7 @@ State:418
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:417
 /TenderScreen/
 /TopRightButtons/
@@ -3920,7 +4144,7 @@ State:417
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:416
 /TenderScreen/
 /TopRightButtons/
@@ -3968,7 +4192,7 @@ State:416
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:415
 /TenderScreen/
 /TopRightButtons/
@@ -4016,7 +4240,7 @@ State:415
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:414
 /OrderScreen/
 /TopLeftButtons/
@@ -4125,7 +4349,7 @@ State:413
 	[Add Gratuity*]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:412
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -4215,7 +4439,7 @@ State:411
 	[Add Gratuity*]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 /ItemSelectionDialog/
 	"Select items to comp"
 /DialogSeparator/
@@ -7408,6 +7632,11 @@ State:352
 	[Modify]
 	""
 State:351
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -7467,11 +7696,6 @@ State:351
 	[Repeat]
 	[Modify]
 	""
-/Dialog/
-	"Clear All Unordered Items"
-	"Are you sure you want to clear all items which have not been held or ordered?"
-	[Cancel]
-	[OK]
 State:350
 /OrderScreen/
 /TopLeftButtons/
@@ -7532,10 +7756,6 @@ State:350
 	[Modify]
 	""
 State:349
-/Dialog/
-	"Error"
-	"Repeat is not permitted on Ordered Refillable Items:  COKE"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -7594,7 +7814,15 @@ State:349
 	[Repeat]
 	[Modify]
 	""
+/Dialog/
+	"Error"
+	"Repeat is not permitted on Ordered Refillable Items:  COKE"
+	[OK]
 State:348
+/Dialog/
+	"Error"
+	"Repeat is not permitted on Ordered Refillable Items:  COKE<br/>&ensp;COKE"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -7653,10 +7881,6 @@ State:348
 	[Repeat]
 	[Modify]
 	""
-/Dialog/
-	"Error"
-	"Repeat is not permitted on Ordered Refillable Items:  COKE<br/>&ensp;COKE"
-	[OK]
 State:347
 /OrderScreen/
 /TopLeftButtons/
@@ -7768,10 +7992,6 @@ State:346
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:345
-/Dialog/
-	"Warning"
-	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
-	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -7830,7 +8050,11 @@ State:345
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/Dialog/
+	"Warning"
+	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
+	[OK]
 State:344
 /OrderScreen/
 /TopLeftButtons/
@@ -8160,6 +8384,77 @@ State:340
 	[Special]
 	[Cancel]
 	[OK]
+State:339
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan Barcode]
+	[Select Printer]
+	[Transfer]
+	[Void]
+	[Add Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	""
 State:338
 /OrderScreen/
 /TopLeftButtons/
@@ -11927,7 +12222,7 @@ State:276
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:275
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -12063,7 +12358,7 @@ State:273
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:272
 /Dialog/
 	"Warning"
@@ -13342,7 +13637,7 @@ State:246
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Not connected to internet)"
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:245
 /SplitSeatScreen/
 /SplitScreen/

@@ -388,10 +388,11 @@ Scenario: 8 Verify refilled item can be voided
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 15 Select Void Reason on Void Screen
-			Then verify presence of /SelectEntityDialog/,"Select Void Reason",/DialogSeparator/,[TESTING],[OVERRING],[MISRING],[*86*],[X],[Cancel]
-			Then clicked /DialogSeparator/,[OVERRING]
+			Given screen state: 339
+			Then clicked /Dialog/,^OVERRING^
+			Then clicked /Dialog/,[OK]
 #Action: 16 Select Payment
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\   COKE"
+			Given screen state: 490
 			Then clicked [$]
 #Action: 17 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
@@ -402,6 +403,7 @@ Scenario: 8 Verify refilled item can be voided
 
 Scenario: 9 Verify you cannot refill a voided item
 #Action: 1 Login as manager 200
+			#TODO ALOHAP-34611
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -436,25 +438,26 @@ Scenario: 9 Verify you cannot refill a voided item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 11 Select Coke on Check
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\   COKE","2.00"
-			Then clicked "COKE\   COKE"
+			Given screen state: 277
+			Then clicked "COKE\ COKE"
 #Action: 12 Void COKE
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\   COKE","2.00"
+			Given screen state: 277
 			Then clicked /BottomButtons/,[Void]
 #Action: 13 Select COKE on Void Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\   COKE","2.00"
-			Then clicked /Items/,^COKE\   COKE^
+			Given screen state: 365
+			Then clicked /Items/,^COKE\ COKE^
 #Action: 14 Select OK on Void Screen
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 15 Select Void Reason on Void Screen
-			Then verify presence of /SelectEntityDialog/,"Select Void Reason",/DialogSeparator/,[TESTING],[OVERRING],[MISRING],[*86*],[X],[Cancel]
-			Then clicked /DialogSeparator/,[OVERRING]
+			Given screen state: 339
+			Then clicked /Dialog/,^OVERRING^
+			Then clicked /Dialog/,[OK]
 #Action: 16 Select COKE refill on Guest Check
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\   COKE"
-			Then clicked "COKE\   COKE"
+			Given screen state: 490
+			Then clicked "COKE\ COKE"
 #Action: 17 Modify Coke
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE\   COKE"
+			Given screen state: 490
 			Then clicked [Modify]
 #Action: 18 Select OK
 			Given screen state: 147

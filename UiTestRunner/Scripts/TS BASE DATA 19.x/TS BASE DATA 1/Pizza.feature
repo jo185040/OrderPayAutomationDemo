@@ -312,7 +312,7 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 258
 			Then clicked [OK]
 #Action: 9 Dismiss Error Message
-			Given screen state: 451
+			Given screen state: 264
 			Then clicked /Dialog/,[OK]
 #Action: 10 Select Pizza Crust
 			Given screen state: 258
@@ -603,10 +603,11 @@ Scenario: 10 Verify you can void a pizza item
 			Then clicked /Items/,^Sausage Pizza\ Large\ Pan\ Sausage^
 			Then clicked /Items/,[OK]
 #Action: 13 Select Misring
-			Then verify presence of /SelectEntityDialog/,"Select Void Reason"
-			Then clicked /DialogSeparator/,[MISRING]
+			Given screen state: 451
+			Then clicked /Dialog/,^MISRING^
+			Then clicked /Dialog/,[OK]
 #Action: 14 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","Sausage Pizza\   Large\   Pan\   Sausage"
+			Given screen state: 492
 			Then clicked [$]
 #Action: 15 Click Close
 			Then verify presence of /Tenders/,"Change","$0.00"

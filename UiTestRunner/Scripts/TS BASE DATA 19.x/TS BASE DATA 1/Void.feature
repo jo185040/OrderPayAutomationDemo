@@ -111,8 +111,9 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 10 Select Void Reason on Void Screen
-			Then verify presence of /SelectEntityDialog/,"Select Void Reason",/DialogSeparator/,[TESTING],[OVERRING],[MISRING],[*86*],[X],[Cancel]
-			Then clicked /DialogSeparator/,[OVERRING]
+			Given screen state: 491
+			Then clicked /Dialog/,^OVERRING^
+			Then clicked /Dialog/,[OK]
 #Action: 11 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Table","COKE"
 			Then clicked [$]
