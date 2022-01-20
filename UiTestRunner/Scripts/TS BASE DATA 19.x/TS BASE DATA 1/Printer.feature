@@ -16,17 +16,17 @@ Scenario: 1 Select Printer
 			And clicked [OK]
 			Then verify absence of "Enter Guest Count"
 #Action: 4 Select Printer
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Select Printer]
+			Given screen state: 318
+			Then clicked /BottomButtons/,[Select\Printer]
 #Action: 5 Select Bixlon Printer
 			Given screen state: 488
 			Then clicked /Dialog/,^Bixlon Kitchen^
 			Then clicked /Dialog/,[OK]
 #Action: 6 Select Printer
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Select Printer]
+			Given screen state: 318
+			Then clicked /BottomButtons/,[Select\Printer]
 #Action: 7 Select Bixlon Printer
-			Given screen state: 489
+			Given screen state: 488
 			Then clicked /Dialog/,^Bixolon^
 			Then clicked /Dialog/,[OK]
 #Action: 8 Exit

@@ -99,7 +99,7 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Void]
 #Action: 7 Enter manager 20 on JIT Screen
-			Then verify presence of /NumpadButtons/,"Enter manager password"
+			Given screen state: 148
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[0]

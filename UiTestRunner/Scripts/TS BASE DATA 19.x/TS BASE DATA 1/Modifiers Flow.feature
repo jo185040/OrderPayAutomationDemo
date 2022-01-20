@@ -181,10 +181,10 @@ Scenario: 4 Delete Modifier
 			Then clicked [ADD\CHICKEN]
 #Action: 10 On Modify Item
 			Given screen state: 387
-			Then clicked "RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+			Then clicked "-  - ADD CHICKEN"
 			Then clicked /BottomButtons/,[Modify]
 #Action: 11 On Delete Chicken
-			Given screen state: 177
+			Given screen state: 387
 			Then clicked "-  - ADD CHICKEN"
 			Then clicked [Delete Modifier]
 			Then clicked [OK]

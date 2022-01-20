@@ -245,7 +245,7 @@ Scenario: 6 Verify you cant delete payment without JIT screen approval (Ordertak
 			Then verify presence of /ItemEntries/,"COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00",/Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.31","Total","10.31",/Tenders/,"10.31","Change","$0.00","CASH"
 			Then clicked /BottomRightButtons/,[Delete]
 #Action: 12 Enter Manager
-			Then verify presence of /NumpadButtons/,"Enter manager password"
+			Given screen state: 494
 			When clicked /DialogSeparator/,[2]
 			When clicked /DialogSeparator/,[0]
 			When clicked /DialogSeparator/,[0]

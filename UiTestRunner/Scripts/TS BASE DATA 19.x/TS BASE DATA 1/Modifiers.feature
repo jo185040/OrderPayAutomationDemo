@@ -392,7 +392,7 @@ Scenario: 8 Verify refilled item can be voided
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select Payment
-			Given screen state: 490
+			Given screen state: 277
 			Then clicked [$]
 #Action: 17 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
@@ -454,16 +454,16 @@ Scenario: 9 Verify you cannot refill a voided item
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select COKE refill on Guest Check
-			Given screen state: 490
+			Given screen state: 277
 			Then clicked "COKE\ COKE"
 #Action: 17 Modify Coke
-			Given screen state: 490
+			Given screen state: 277
 			Then clicked [Modify]
 #Action: 18 Select OK
-			Given screen state: 147
+			Given screen state: 490
 			Then clicked [OK]
 #Action: 19 Select Payment
-			Given screen state: 148
+			Given screen state: 277
 			Then clicked [$]
 #Action: 20 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"

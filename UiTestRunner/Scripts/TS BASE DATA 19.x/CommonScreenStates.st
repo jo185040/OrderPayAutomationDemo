@@ -30,7 +30,6 @@ State:576
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:575
 /FloorPlanScreen/
 	[7]
@@ -61,6 +60,81 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:494
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"MILLER LITE"
+	"3.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.31"
+	"Total"
+	"10.31"
+/Tenders/
+	"CASH"
+	"10.31"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity*]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/LoginDialog/
+	"Enter manager password"
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
 State:493
 /SplitCheckScreen/
 /SplitScreen/
@@ -132,18 +206,6 @@ State:492
 	[Modify]
 	""
 State:491
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -188,17 +250,34 @@ State:491
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:490
+/Dialog/
+	"Modify Void Item Error"
+	"You have items selected which have already been ordered"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -217,7 +296,7 @@ State:490
 /EntriesBySeat/
 	"Seat 1"
 	"COKE\ COKE"
-	""
+	"2.00"
 /Seats/
 	[T]
 	[1]
@@ -247,77 +326,16 @@ State:490
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	""
-State:489
-/Dialog/
-	"Select default printer"
-	^Bixolon^
-	^Bixlon Kitchen^
-	[Cancel]
-	[OK]
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Add Saved Card]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
+	[Delete]
 	""
 State:488
 /OrderScreen/
@@ -365,15 +383,16 @@ State:488
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /Dialog/
 	"Select default printer"
@@ -382,10 +401,6 @@ State:488
 	[Cancel]
 	[OK]
 State:487
-/Dialog/
-	"Failed to Open Table."
-	"You do not have access to open the selected table."
-	[OK]
 /FloorPlanScreen/
 	[7]
 	[WWT\Screen]
@@ -400,6 +415,10 @@ State:487
 	[BAR]
 	[3]
 	[6]
+/Dialog/
+	"Failed to Open Table."
+	"You do not have access to open the selected table."
+	[OK]
 State:486
 /TenderScreen/
 /TopRightButtons/
@@ -554,7 +573,6 @@ State:485
 	[*]
 	[ ]
 	[Ok*]
-	[X.2]
 State:484
 /TenderScreen/
 /TopRightButtons/
@@ -875,15 +893,16 @@ State:479
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:478
 /TenderScreen/
@@ -902,6 +921,8 @@ State:478
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
 	"Seat 2"
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
 	"11.99"
@@ -1014,6 +1035,18 @@ State:476
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:475
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1062,28 +1095,17 @@ State:475
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 State:474
 /TenderScreen/
 /TopRightButtons/
@@ -2029,65 +2051,6 @@ State:458
 	[Repeat]
 	[Modify]
 	""
-State:457
-/Dialog/
-	"Confirm"
-	"Found account for TECH \Is this correct?"
-	[No]
-	[Yes]
-/TenderScreen/
-/TopRightButtons/
-	[Tables]
-	[Order]
-	[Print]
-	[Print All]
-	[Email/SMS]
-	[Exit]
-/TopLeftButtons/
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
-	[Check 1]
-/ItemEntries/
-	"Seat 1"
-	"COKE"
-	"2.00"
-/Promos/
-/Comps/
-	"Sub Total"
-	"2.00"
-/Taxes/
-	"Tax"
-	"0.00"
-	"Total"
-	"2.00"
-/Tenders/
-	"Balance Due"
-	"$2.00"
-/MidButtonsTop/
-	[GCP]
-/MidButtons/
-	[Gift Card Balance]
-	[Saved Card*]
-	[Close*]
-/MidLeftButtons/
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-/BottomRightButtons/
-	[Delete]
-/BottomLeftButtons/
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-/WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:456
 /TenderScreen/
 /TopRightButtons/
@@ -3715,6 +3678,7 @@ State:424
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"Seat 1"
 	"Sausage Pizza\ Large\ Pan\ Chicken\ Cheese\ Beef"
 	"6.00"
 /Promos/
@@ -3856,15 +3820,16 @@ State:422
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:421
 /TenderScreen/
@@ -4025,15 +3990,16 @@ State:419
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:418
 /TenderScreen/
@@ -4286,15 +4252,16 @@ State:414
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:413
 /Dialog/
@@ -4494,15 +4461,16 @@ State:410
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:409
 /Dialog/
@@ -4553,15 +4521,16 @@ State:409
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:408
 /PizzaModifierScreen/
@@ -4744,15 +4713,16 @@ State:405
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:404
 /TenderScreen/
@@ -4771,6 +4741,7 @@ State:404
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"Seat 1"
 	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL"
 	"5.50"
 /Promos/
@@ -5243,15 +5214,16 @@ State:394
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:393
 /OrderScreen/
@@ -5305,15 +5277,16 @@ State:393
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:392
 /OrderScreen/
@@ -5367,15 +5340,16 @@ State:392
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:391
 /OrderScreen/
@@ -5419,15 +5393,16 @@ State:391
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:390
 /OrderScreen/
@@ -5448,7 +5423,7 @@ State:390
 /EntriesBySeat/
 	"Seat 1"
 	"Bread\ Chive Spread\  BACON"
-	"2.99"
+	"1.99"
 /Seats/
 	[T]
 	[1]
@@ -5481,15 +5456,16 @@ State:390
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:389
 /OrderScreen/
@@ -5543,15 +5519,16 @@ State:389
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:388
 /OrderScreen/
@@ -5598,15 +5575,16 @@ State:388
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:387
 /OrderScreen/
@@ -5625,9 +5603,6 @@ State:387
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
-	"11.99\\\\3.00"
 /Seats/
 	[T]
 	[1]
@@ -5653,16 +5628,67 @@ State:387
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
+/ModifierScreen/
+	"RIBEYE"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"RIBEYE"
+	"11.99"
+	"- BLACK & BLUE"
+	"- Baked Potato"
+	"- CAESAR SALAD"
+	"-  - ADD CHICKEN"
+/CenterCategoryButtons/
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[CUP]
+	[*]
+	[*.2]
+	[HOUSE\SALAD]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[CAESAR\SALAD]
+	[*.15]
+	[BOWL]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:386
 /OrderScreen/
 /TopLeftButtons/
@@ -5708,15 +5734,16 @@ State:386
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:385
 /TenderScreen/
@@ -5870,15 +5897,16 @@ State:383
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:382
 /TenderScreen/
@@ -6032,15 +6060,16 @@ State:380
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:379
 /TenderScreen/
@@ -6197,15 +6226,16 @@ State:377
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:376
 /TenderScreen/
@@ -6362,15 +6392,16 @@ State:374
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:373
 /TenderScreen/
@@ -6531,15 +6562,16 @@ State:371
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:370
 /TenderScreen/
@@ -6700,15 +6732,16 @@ State:368
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:367
 /OrderScreen/
@@ -6729,7 +6762,7 @@ State:367
 /EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO"
-	"5.00\\0.80"
+	"5.00"
 /Seats/
 	[T]
 	[1]
@@ -6754,15 +6787,16 @@ State:367
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:366
 /OrderScreen/
@@ -6808,15 +6842,16 @@ State:366
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:365
 /OrderScreen/
@@ -6867,15 +6902,16 @@ State:365
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -7166,15 +7202,16 @@ State:360
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:359
 /TenderScreen/
@@ -7305,7 +7342,7 @@ State:357
 /EntriesBySeat/
 	"Seat 1"
 	"QUESADILLA\ ADD AVOCADO"
-	"5.00\0.80"
+	"5.00"
 /Seats/
 	[T]
 	[1]
@@ -7330,15 +7367,16 @@ State:357
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:356
 /OrderScreen/
@@ -7385,15 +7423,16 @@ State:356
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:355
 /OrderScreen/
@@ -7440,15 +7479,16 @@ State:355
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:354
 /TenderScreen/
@@ -7621,15 +7661,16 @@ State:352
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:351
 /Dialog/
@@ -7686,15 +7727,16 @@ State:351
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:350
 /OrderScreen/
@@ -7745,15 +7787,16 @@ State:350
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:349
 /OrderScreen/
@@ -7774,7 +7817,7 @@ State:349
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	""
+	"2.00"
 /Seats/
 	[T]
 	[1]
@@ -7804,25 +7847,22 @@ State:349
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /Dialog/
 	"Error"
-	"Repeat is not permitted on Ordered Refillable Items:  COKE"
+	"Repeat is not permitted on ordered refillable items."
 	[OK]
 State:348
-/Dialog/
-	"Error"
-	"Repeat is not permitted on Ordered Refillable Items:  COKE<br/>&ensp;COKE"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -7871,16 +7911,21 @@ State:348
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
+/Dialog/
+	"Error"
+	"Repeat is not permitted on ordered refillable items."
+	[OK]
 State:347
 /OrderScreen/
 /TopLeftButtons/
@@ -7992,6 +8037,10 @@ State:346
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:345
+/Dialog/
+	"Warning"
+	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
+	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -8051,10 +8100,6 @@ State:345
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-/Dialog/
-	"Warning"
-	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
-	[OK]
 State:344
 /OrderScreen/
 /TopLeftButtons/
@@ -8250,6 +8295,8 @@ State:341
 	"0.10.6"
 	"1/20 7 UP.7"
 	"0.10.7"
+	"1/20 7 UP.8"
+	"0.10.8"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -8445,15 +8492,16 @@ State:339
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:338
 /OrderScreen/
@@ -10025,15 +10073,16 @@ State:318
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:317
 /OrderScreen/
@@ -10668,15 +10717,16 @@ State:308
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:307
 /SplitCheckScreen/
@@ -10914,15 +10964,16 @@ State:303
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:302
 /SplitCheckScreen/
@@ -11113,15 +11164,16 @@ State:299
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:298
 /SplitCheckScreen/
@@ -11367,15 +11419,16 @@ State:292
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:291
 /SplitCheckScreen/
@@ -11413,7 +11466,6 @@ State:291
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:290
 /OrderScreen/
 /TopLeftButtons/
@@ -11463,15 +11515,16 @@ State:290
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:289
 /ReceiveTransfersScreen/
@@ -11988,15 +12041,16 @@ State:279
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -12095,15 +12149,16 @@ State:278
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:277
 /OrderScreen/
@@ -12154,15 +12209,16 @@ State:277
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:276
 /TenderScreen/
@@ -12454,15 +12510,16 @@ State:271
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:270
 /PizzaModifierScreen/
@@ -12551,9 +12608,10 @@ State:269
 	[Pizza Menu]
 	"ICED\COFFEE"
 /BottomButtons/
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
@@ -12644,9 +12702,10 @@ State:267
 	[Pizza Menu]
 	"ICED\COFFEE"
 /BottomButtons/
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
@@ -13787,6 +13846,7 @@ State:239
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
 	"41.89"
 /Promos/
@@ -13870,15 +13930,16 @@ State:238
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:237
 /OrderScreen/
@@ -13897,9 +13958,6 @@ State:237
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -13925,15 +13983,16 @@ State:237
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -14002,9 +14061,6 @@ State:236
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -14030,15 +14086,16 @@ State:236
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -14106,9 +14163,6 @@ State:235
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -14134,15 +14188,16 @@ State:235
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -14209,9 +14264,6 @@ State:234
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -14237,15 +14289,16 @@ State:234
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -14969,15 +15022,16 @@ State:221
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:220
 /OrderScreen/
@@ -14996,9 +15050,6 @@ State:220
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Platter"
-	"0.00"
 /Seats/
 	[T]
 	[1]
@@ -15031,15 +15082,16 @@ State:220
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -15091,9 +15143,6 @@ State:219
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Platter"
-	"0.00"
 /Seats/
 	[T]
 	[1]
@@ -15126,15 +15175,16 @@ State:219
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -15364,15 +15414,16 @@ State:215
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:214
 /OrderScreen/
@@ -15391,9 +15442,6 @@ State:214
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Platter"
-	"0.00"
 /Seats/
 	[T]
 	[1]
@@ -15426,15 +15474,16 @@ State:214
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -15484,9 +15533,6 @@ State:213
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Platter"
-	"0.00"
 /Seats/
 	[T]
 	[1]
@@ -15519,15 +15565,16 @@ State:213
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Platter"
@@ -15892,9 +15939,10 @@ State:207
 	[Pizza Menu]
 	"ICED\COFFEE"
 /BottomButtons/
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
@@ -16372,9 +16420,6 @@ State:201
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS"
-	"11.99"
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -16396,15 +16441,16 @@ State:201
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -16471,9 +16517,6 @@ State:200
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS"
-	"11.99"
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -16495,15 +16538,16 @@ State:200
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -16569,9 +16613,6 @@ State:199
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS"
-	"11.99"
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -16593,15 +16634,16 @@ State:199
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -16666,9 +16708,6 @@ State:198
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"3pcDrkBrstr"
-	"9.99"
 /Seats/
 	[T]
 	[1]
@@ -16701,15 +16740,16 @@ State:198
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -16776,9 +16816,6 @@ State:197
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"3pcDrkBrstr"
-	"9.99"
 /Seats/
 	[T]
 	[1]
@@ -16811,15 +16848,16 @@ State:197
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -16888,9 +16926,6 @@ State:196
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"3pcDrkBrstr"
-	"9.99"
 /Seats/
 	[T]
 	[1]
@@ -16923,15 +16958,16 @@ State:196
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -17000,9 +17036,6 @@ State:195
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"3pcDrkBrstr"
-	"9.99"
 /Seats/
 	[T]
 	[1]
@@ -17035,15 +17068,16 @@ State:195
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -17111,9 +17145,6 @@ State:194
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Wrap"
-	"5.50"
 /Seats/
 	[T]
 	[1]
@@ -17146,15 +17177,16 @@ State:194
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -17217,9 +17249,6 @@ State:193
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Wrap"
-	"5.50"
 /Seats/
 	[T]
 	[1]
@@ -17252,15 +17281,16 @@ State:193
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -17317,9 +17347,6 @@ State:192
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Wrap"
-	"5.50"
 /Seats/
 	[T]
 	[1]
@@ -17352,15 +17379,16 @@ State:192
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -17428,9 +17456,6 @@ State:191
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Burrito Classic"
-	"11.00"
 /Seats/
 	[T]
 	[1]
@@ -17463,15 +17488,16 @@ State:191
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Classic"
@@ -17523,9 +17549,6 @@ State:190
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Burrito Classic"
-	"11.00"
 /Seats/
 	[T]
 	[1]
@@ -17558,15 +17581,16 @@ State:190
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Classic"
@@ -17617,9 +17641,6 @@ State:189
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Burrito Persona"
-	"11.00"
 /Seats/
 	[T]
 	[1]
@@ -17652,15 +17673,16 @@ State:189
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -17717,9 +17739,6 @@ State:188
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Burrito Persona"
-	"11.00"
 /Seats/
 	[T]
 	[1]
@@ -17752,15 +17771,16 @@ State:188
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -17816,9 +17836,6 @@ State:187
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Burrito Persona"
-	"11.00"
 /Seats/
 	[T]
 	[1]
@@ -17851,15 +17868,16 @@ State:187
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -17911,9 +17929,6 @@ State:186
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Burrito Persona"
-	"11.00"
 /Seats/
 	[T]
 	[1]
@@ -17946,15 +17961,16 @@ State:186
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -18047,9 +18063,6 @@ State:184
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Burrito Persona"
-	"11.00"
 /Seats/
 	[T]
 	[1]
@@ -18082,15 +18095,16 @@ State:184
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -18224,15 +18238,16 @@ State:182
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -18321,15 +18336,16 @@ State:181
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -18418,15 +18434,16 @@ State:180
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -18509,15 +18526,16 @@ State:179
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -18603,15 +18621,16 @@ State:178
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Bread"
@@ -18642,110 +18661,69 @@ State:178
 	[Cancel]
 	[OK]
 State:177
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
+/TenderScreen/
 /TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
-	"11.99\\\\3.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Add Saved Card]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	""
-/ModifierScreen/
-	"RIBEYE"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"RIBEYE"
-	"11.99"
-	"- BLACK & BLUE"
-	"- Baked Potato"
-	"- CAESAR SALAD"
-	"-  - ADD CHICKEN"
-/CenterCategoryButtons/
-	[MEAT TEMP]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[BLACK & BLUE]
-	[MEDIUM\WELL]
-	[*]
-	[MEDIUM]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[MED RARE]
-	[*.14]
-	[RARE]
-	[WELL]
+/ItemEntries/
+	"Table"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.50"
+/Tenders/
+	"Balance Due"
+	"$44.50"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[MGR COMP]
+	[OPEN $$]
+	[EMP MEAL]
+/BottomRightButtons/
+	[Delete]
 /BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
+	[Loyalty]
+	[Add Gratuity*]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/LoginDialog/
+	"Enter manager password"
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
 	[OK]
 State:176
 /OrderScreen/
@@ -18764,9 +18742,6 @@ State:176
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"RIBEYE"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -18792,15 +18767,16 @@ State:176
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -18844,9 +18820,6 @@ State:175
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"RIBEYE"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -18872,15 +18845,16 @@ State:175
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -18989,9 +18963,6 @@ State:173
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"RIBEYE"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -19017,15 +18988,16 @@ State:173
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -19091,9 +19063,6 @@ State:172
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"RIBEYE"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -19119,15 +19088,16 @@ State:172
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"RIBEYE"
@@ -19193,9 +19163,6 @@ State:171
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -19221,15 +19188,16 @@ State:171
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -19338,9 +19306,6 @@ State:169
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -19366,15 +19331,16 @@ State:169
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -19440,9 +19406,6 @@ State:168
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Special Burger"
-	"5.50"
 /Seats/
 	[T]
 	[1]
@@ -19465,15 +19428,16 @@ State:168
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Special Burger"
@@ -19527,9 +19491,6 @@ State:167
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Special Burger"
-	"5.50"
 /Seats/
 	[T]
 	[1]
@@ -19552,15 +19513,16 @@ State:167
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Special Burger"
@@ -19614,9 +19576,6 @@ State:166
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Special Burger"
-	"5.50"
 /Seats/
 	[T]
 	[1]
@@ -19639,15 +19598,16 @@ State:166
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"Special Burger"
@@ -19732,15 +19692,16 @@ State:165
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -19820,15 +19781,16 @@ State:164
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:163
 /Dialog/
@@ -20068,9 +20030,6 @@ State:160
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -20096,15 +20055,16 @@ State:160
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -20203,15 +20163,16 @@ State:159
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -20286,10 +20247,6 @@ State:158
 	[Delete]
 	[btnMessage]
 State:157
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -20332,6 +20289,10 @@ State:157
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 State:156
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -20421,15 +20382,16 @@ State:155
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -20509,15 +20471,16 @@ State:154
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -20591,15 +20554,16 @@ State:153
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"TENDERLN WRAPS"
@@ -20770,15 +20734,16 @@ State:150
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"TENDERLN WRAPS"
@@ -20871,15 +20836,16 @@ State:149
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"TENDERLN WRAPS"
@@ -20931,7 +20897,7 @@ State:148
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat]
+	[Split Seat*]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -20943,12 +20909,9 @@ State:148
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COKE\ COKE"
-/Seats/
-	[T]
-	[1]
-	[+]
+	"Table"
+	"COKE"
+	"2.00"
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -20974,16 +20937,32 @@ State:148
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
+/LoginDialog/
+	"Enter manager password"
+/DialogSeparator/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[OK]
 State:147
 /OrderScreen/
 /TopLeftButtons/
@@ -21138,15 +21117,16 @@ State:146
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -21384,15 +21364,16 @@ State:142
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -21491,15 +21472,16 @@ State:141
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -21635,15 +21617,16 @@ State:139
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -21740,15 +21723,16 @@ State:138
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COKE"
@@ -21839,15 +21823,16 @@ State:137
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"QUESADILLA"
@@ -21912,9 +21897,6 @@ State:136
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -21940,15 +21922,16 @@ State:136
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -22015,9 +21998,6 @@ State:135
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22043,15 +22023,16 @@ State:135
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -22117,9 +22098,6 @@ State:134
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"PORK CHOP"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22145,15 +22123,16 @@ State:134
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -22219,9 +22198,6 @@ State:133
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22247,15 +22223,16 @@ State:133
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -22323,9 +22300,6 @@ State:132
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22351,15 +22325,16 @@ State:132
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -22426,9 +22401,6 @@ State:131
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22454,15 +22426,16 @@ State:131
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -22528,9 +22501,6 @@ State:130
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22556,15 +22526,16 @@ State:130
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -22631,9 +22602,6 @@ State:129
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22659,15 +22627,16 @@ State:129
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -22733,9 +22702,6 @@ State:128
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS"
-	"11.99"
 /Seats/
 	[T]
 	[1]
@@ -22761,15 +22727,16 @@ State:128
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -22869,15 +22836,16 @@ State:127
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:126
 /OrderScreen/
@@ -22896,9 +22864,6 @@ State:126
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COMBO 3"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -22931,15 +22896,16 @@ State:126
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -23004,9 +22970,6 @@ State:125
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COMBO 3"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -23039,15 +23002,16 @@ State:125
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -23110,9 +23074,6 @@ State:124
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COMBO 3"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -23145,15 +23106,16 @@ State:124
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -23222,9 +23184,6 @@ State:123
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COMBO 3"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -23257,15 +23216,16 @@ State:123
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -23330,9 +23290,6 @@ State:122
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COMBO 3"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -23365,15 +23322,16 @@ State:122
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -23436,9 +23394,6 @@ State:121
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COMBO 3"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -23471,15 +23426,16 @@ State:121
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -23545,9 +23501,6 @@ State:120
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"COMBO 3"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -23580,15 +23533,16 @@ State:120
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"COMBO 3"
@@ -24010,15 +23964,16 @@ State:108
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:107
 /WWTScreen/
@@ -24274,15 +24229,16 @@ State:102
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:101
 /SplitSeatScreen/
@@ -24477,15 +24433,16 @@ State:098
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:097
 /TenderScreen/
@@ -26292,15 +26249,16 @@ State:056
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /Dialog/
 	"Clear All Unordered Items"
@@ -26348,7 +26306,6 @@ State:055
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:054
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
@@ -26612,15 +26569,16 @@ State:050
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:049
 /WWTScreen/
@@ -27225,15 +27183,16 @@ State:034
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:033
 /ReceiveTransfersScreen/
@@ -27470,7 +27429,6 @@ State:025
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:024
 /TransferTableScreen/
 	[btnWaiter]
@@ -27538,15 +27496,16 @@ State:023
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -27721,15 +27680,16 @@ State:019
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ItemSelectionDialog/
 	"Select items to void"

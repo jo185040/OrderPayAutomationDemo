@@ -26,7 +26,7 @@ Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
 			Then clicked /BottomButtons/,[Void]
 #Action: 7 Enter Manager Code
-			Then verify presence of /NumpadButtons/,"Enter manager password"
+			Given screen state: 148
 			When clicked /DialogSeparator/,[2],[0],[0]
 			And clicked /DialogSeparator/,[OK]
 #Action: 8 Void Item
@@ -74,7 +74,7 @@ Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
 			Then clicked /BottomButtons/,[Void]
 #Action: 7 Add Manager Code
-			Then verify presence of /NumpadButtons/,"Enter manager password"
+			Given screen state: 148
 			When clicked /DialogSeparator/,[2],[0],[2]
 			And clicked /DialogSeparator/,[OK]
 #Action: 8 Select "OK"
@@ -135,7 +135,7 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			Then verify presence of /MidLeftButtons/,[MGR COMP],[OPEN $$],[EMP MEAL]
 			Then clicked /MidLeftButtons/,[MGR COMP]
 #Action: 13 Add Manager Password
-			Then verify presence of /NumpadButtons/,"Enter manager password"
+			Given screen state: 177
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[0]
@@ -199,7 +199,7 @@ Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manage
 			Then verify presence of /MidLeftButtons/,[MGR COMP],[OPEN $$],[EMP MEAL]
 			Then clicked /MidLeftButtons/,[MGR COMP]
 #Action: 13 Add Manager Password
-			Then verify presence of /NumpadButtons/,"Enter manager password"
+			Given screen state: 177
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[2]
