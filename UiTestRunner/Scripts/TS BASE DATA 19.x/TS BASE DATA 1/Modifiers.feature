@@ -341,7 +341,6 @@ Scenario: 7 Verify refill can be deleted
 
 Scenario: 8 Verify refilled item can be voided
 #Action: 1 Login as manager 200
-			#TODO ALOHAP-34211
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -403,7 +402,6 @@ Scenario: 8 Verify refilled item can be voided
 
 Scenario: 9 Verify you cannot refill a voided item
 #Action: 1 Login as manager 200
-			#TODO ALOHAP-34611
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]

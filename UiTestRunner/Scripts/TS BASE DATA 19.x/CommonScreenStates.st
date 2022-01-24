@@ -174,7 +174,7 @@ State:492
 /EntriesBySeat/
 	"Seat 1"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
-	""
+	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -195,15 +195,16 @@ State:492
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:491
 /OrderScreen/
@@ -274,10 +275,6 @@ State:491
 	[Cancel]
 	[OK]
 State:490
-/Dialog/
-	"Modify Void Item Error"
-	"You have items selected which have already been ordered"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -337,6 +334,10 @@ State:490
 	[Modify]
 	[Delete]
 	""
+/Dialog/
+	"Modify Void Item Error"
+	"You have items selected which have already been ordered"
+	[OK]
 State:488
 /OrderScreen/
 /TopLeftButtons/
@@ -2340,18 +2341,6 @@ State:452
 	[Modify]
 	""
 State:451
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -2391,16 +2380,29 @@ State:451
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:450
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -3022,15 +3024,16 @@ State:438
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -8522,18 +8525,6 @@ State:340
 	[Cancel]
 	[OK]
 State:339
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -8593,6 +8584,18 @@ State:339
 	[Modify]
 	[Delete]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:338
 /OrderScreen/
 /TopLeftButtons/
