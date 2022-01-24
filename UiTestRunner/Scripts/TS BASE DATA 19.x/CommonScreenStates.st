@@ -1400,7 +1400,7 @@ State:469
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"OPEN DESCR MOD\ TEST"
+	"TEST\ TEST"
 	"10.00\10.00"
 /Promos/
 /Comps/
@@ -1456,7 +1456,7 @@ State:468
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"OPEN DESCR MOD\ TEST"
+	"TEST\ TEST"
 	"10.00\10.00"
 /Promos/
 /Comps/
@@ -1510,7 +1510,7 @@ State:467
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"OPEN DESCR MOD\ TEST"
+	"TEST\ TEST"
 	"10.00\10.00"
 /Seats/
 	[T]
@@ -1538,15 +1538,16 @@ State:467
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:466
 /TenderScreen/
@@ -1566,7 +1567,7 @@ State:466
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"OPEN DESCR MOD\ OPEN ITEM PRICE"
+	"TEST\ OPEN ITEM PRICE"
 	"10.00\2.00"
 /Promos/
 /Comps/
@@ -1622,7 +1623,7 @@ State:465
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"OPEN DESCR MOD\ OPEN ITEM PRICE"
+	"TEST\ OPEN ITEM PRICE"
 	"10.00\2.00"
 /Promos/
 /Comps/
@@ -1676,7 +1677,7 @@ State:464
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"OPEN DESCR MOD\ OPEN ITEM PRICE"
+	"TEST\ OPEN ITEM PRICE"
 	"10.00\2.00"
 /Seats/
 	[T]
@@ -1704,15 +1705,16 @@ State:464
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:463
 /OrderScreen/
@@ -1760,15 +1762,16 @@ State:463
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:462
 /OrderScreen/
@@ -1816,15 +1819,16 @@ State:462
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:461
 /OrderScreen/
@@ -1901,7 +1905,7 @@ State:460
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"OPEN ITEM MOD\ TEST"
+	"TEST\ TEST"
 	"2.00\10.00"
 /Seats/
 	[T]
@@ -1929,15 +1933,16 @@ State:460
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:459
 /OrderScreen/
@@ -1957,7 +1962,7 @@ State:459
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"OPEN ITEM MOD\ OPEN ITEM PRICE"
+	"TEST\ OPEN ITEM PRICE"
 	"2.00\2.00"
 /Seats/
 	[T]
@@ -1985,15 +1990,16 @@ State:459
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:458
 /OrderScreen/
@@ -2013,7 +2019,7 @@ State:458
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"OPEN ITEM MOD\ TEST"
+	"TEST\ TEST"
 	"2.00\2.00"
 /Seats/
 	[T]
@@ -2041,16 +2047,99 @@ State:458
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
+State:457
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan\Barcode]
+	[Select\Printer]
+	[Transfer]
+	[Void]
+	[Add\Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+/ModifierScreen/
+	"OPEN PRICE MOD"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"OPEN PRICE MOD"
+	"2.00"
+/CenterCategoryButtons/
+	[Open Mods]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[OPEN ITEM]
+	[OPEN ITEM PRICE]
+	[OPEN ITEM DES]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:456
 /TenderScreen/
 /TopRightButtons/
@@ -7944,7 +8033,7 @@ State:347
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"OPEN DESCR MOD\ TEST"
+	"TEST\ TEST"
 	"10.00\2.00"
 /Seats/
 	[T]
@@ -7972,15 +8061,16 @@ State:347
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:346
 /TenderScreen/
@@ -10208,7 +10298,6 @@ State:316
 	[.2]
 	[ ]
 	[Ok*]
-	[X]
 State:315
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
@@ -10241,7 +10330,6 @@ State:315
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:314
 /OrderScreen/
 /TopLeftButtons/
@@ -11558,7 +11646,6 @@ State:289
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:288
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
@@ -11622,7 +11709,6 @@ State:288
 	[.2]
 	[ ]
 	[Ok*]
-	[X]
 State:287
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"
@@ -13558,15 +13644,16 @@ State:248
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:247
 /TenderScreen/
@@ -15968,9 +16055,6 @@ State:206
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"OPEN DESCR MOD"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -15997,15 +16081,16 @@ State:206
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"TEST"
@@ -16081,7 +16166,6 @@ State:206
 	[.2]
 	[ ]
 	[Ok*]
-	[X]
 State:205
 /OrderScreen/
 /TopLeftButtons/
@@ -16099,9 +16183,6 @@ State:205
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"OPEN DESCR MOD"
-	"10.00"
 /Seats/
 	[T]
 	[1]
@@ -16128,15 +16209,16 @@ State:205
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"TEST"
@@ -16233,9 +16315,6 @@ State:203
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"OPEN PRICE MOD"
-	"0.00"
 /Seats/
 	[T]
 	[1]
@@ -16262,15 +16341,16 @@ State:203
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"OPEN PRICE MOD"
@@ -16318,91 +16398,6 @@ State:203
 	[Clear]
 	[0]
 	[OK*]
-	[X]
-State:202
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"OPEN PRICE MOD"
-	"0.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
-	"ECARD"
-	"$10 ECard"
-	"PLU"
-	"OPEN ITEM"
-	"OPEN ITEM PRICE"
-	"OPEN ITEM DES"
-	"OPEN ITEM MOD"
-	"OPEN PRICE MOD"
-	"OPEN DESCR MOD"
-	"OPEN FORCED MOD"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Add Saved Card]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	""
-/ModifierScreen/
-	"OPEN PRICE MOD"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"OPEN PRICE MOD"
-	"2.00"
-/CenterCategoryButtons/
-	[Open Mods]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[OPEN ITEM]
-	[OPEN ITEM PRICE]
-	[OPEN ITEM DES]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:201
 /OrderScreen/
 /TopLeftButtons/
@@ -23842,7 +23837,6 @@ State:112
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:111
 /WWTScreen/
 	"MIGUEL"
@@ -27325,7 +27319,6 @@ State:029
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:028
 /WWTScreen/
 	"MIGUEL"

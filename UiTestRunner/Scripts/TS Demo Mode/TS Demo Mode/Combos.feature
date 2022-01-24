@@ -1,5 +1,5 @@
-#TODO ALOHAP-32985 support modifiers needs to be resolved.
 Feature: 5 Combos
+#TODO ALOHAP-32985 support modifiers needs to be resolved.
 
 
 Scenario: 1 Verify you can add combo
@@ -54,7 +54,7 @@ Scenario: 1 Verify you can add combo
 			Given screen state: 127
 			Then clicked [HERE]
 #Action: 16 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI","10.00"
+			Then verify presence of /EntriesBySeat/,"Seat 1","COMBO 3\   TILAPIA\      FRIES\      PEPSI\   GRILLED CHCKEN\      FRIES\      PEPSI\   ROASTED CHCKEN\      FRIES\      PEPSI","10.00"
 			Then clicked [$]
 #Action: 17 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61"

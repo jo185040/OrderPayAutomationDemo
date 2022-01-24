@@ -1,5 +1,5 @@
-#TODO ALOHAP-33130 table not clearing after deleting items.
 Feature: 8 Delete
+#TODO ALOHAP-33130 table not clearing after deleting items.
 
 
 Scenario: 1 Login as manager 200 to Floor Plan

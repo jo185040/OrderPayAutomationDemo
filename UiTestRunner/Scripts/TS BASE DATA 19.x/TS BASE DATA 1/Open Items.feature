@@ -344,7 +344,7 @@ Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Re
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Order Open Item on Modifier
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD","0.00"
+			Given screen state: 457
 			Then clicked /RightModifierButtons/,[OPEN ITEM]
 #Action: 8 Enter "Test" on description
 			Then verify presence of /KeyboardEntryDialog/,"Enter description"
@@ -402,7 +402,7 @@ Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retai
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Order Open Item on Modifier
-			Given screen state: 202
+			Given screen state: 457
 			Then clicked /RightModifierButtons/,[OPEN ITEM PRICE]
 #Action: 8 Enter "2.00" on description
 			Given screen state: 203
@@ -453,7 +453,7 @@ Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail 
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Order Open Item on Modifier
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN PRICE MOD","0.00"
+			Given screen state: 457
 			Then clicked /RightModifierButtons/,[OPEN ITEM DES]
 #Action: 8 Enter "Test"
 			Then verify presence of /KeyboardEntryDialog/,"Enter description"

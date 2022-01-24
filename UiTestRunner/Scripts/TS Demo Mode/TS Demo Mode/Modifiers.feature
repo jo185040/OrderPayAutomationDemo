@@ -253,7 +253,7 @@ Scenario: 6 Verify Tenderlin Wraps item contains exceptional mod group Pizza rig
 			Then clicked [Baked Potato]
 #Action: 7 Select Tenderlin Wrap
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/,"TENDERLN WRAPS\ Baked Potato"
+			Then clicked /EntriesBySeat/,"TENDERLN WRAPS\   Baked Potato"
 #Action: 8 Modify Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Modify]

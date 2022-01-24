@@ -1,5 +1,5 @@
-#TODO ALOHAP-32933 Order mode is missing so i cannot test this test correctly.
 Feature: 3 Add Check
+#TODO ALOHAP-32933 Order mode is missing so i cannot test this test correctly.
 
 
 Scenario: 1 Add Check
