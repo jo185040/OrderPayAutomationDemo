@@ -123,19 +123,22 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Then clicked /BottomLeftButtons/,[btnKeyboard]
 			Then clicked /DialogSeparator/,[t],[4],[Ok]
 			Then clicked /BottomLeftButtons/,[OK]
-#Action: 19 Apply HERE Ordermode
+#Action: 19 Press OK on Mod Screen
+			Given screen state: 338
+			Then clicked /BottomLeftButtons/,[OK]
+#Action: 20 Apply HERE Ordermode
 			Given screen state: 338
 			Then clicked [HERE]
-#Action: 20 Select $ on Payment Screen
+#Action: 21 Select $ on Payment Screen
 			Given screen state: 338
 			Then clicked [$]
-#Action: 21 Exact Payment
-			Given screen state: 329
+#Action: 22 Exact Payment
+			Given screen state: 338
 			Then clicked [Exact]
-#Action: 22 Click Close
+#Action: 23 Click Close
 			Given screen state: 330
 			Then clicked /MidButtons/,[Close]
-#Action: 23 Exit FloorPlan
+#Action: 24 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
 

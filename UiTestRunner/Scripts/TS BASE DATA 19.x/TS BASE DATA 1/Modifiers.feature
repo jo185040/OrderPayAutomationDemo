@@ -458,7 +458,7 @@ Scenario: 9 Verify you cannot refill a voided item
 			Given screen state: 277
 			Then clicked [Modify]
 #Action: 18 Select OK
-			Given screen state: 490
+			Given screen state: 329
 			Then clicked [OK]
 #Action: 19 Select Payment
 			Given screen state: 277

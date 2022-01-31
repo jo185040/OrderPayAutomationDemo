@@ -322,10 +322,10 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 006
 			Then clicked [OK]
 #Action: 12 Apply HERE Ordermode
-			Given screen state: 430
+			Given screen state: 492
 			Then clicked [HERE]
 #Action: 13 Select $ on Payment Screen
-			Given screen state: 430
+			Given screen state: 492
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Given screen state: 417
@@ -396,6 +396,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 
 Scenario: 8 Verify you add a pizza to a split check
 #Action: 1 Login as manager 200
+			#TODO Alohap-35104
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -431,7 +432,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /CenterMenuButtons/,[PIZZA]
 #Action: 11 Order Sausage Pizza
-			Given screen state: 430
+			Given screen state: 492
 			Then clicked "Veg 7\Thin"
 #Action: 12 Select Pizza Size
 			Given screen state: 151
@@ -541,7 +542,7 @@ Scenario: 9 Verify Repeat works on pizza items
 			Given screen state: 006
 			Then clicked [OK]
 #Action: 10 Repeat Item
-			Given screen state: 430
+			Given screen state: 492
 			Then clicked [Repeat]
 #Action: 11 Apply HERE Ordermode
 			Given screen state: 401

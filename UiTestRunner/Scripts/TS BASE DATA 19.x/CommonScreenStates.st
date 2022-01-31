@@ -207,6 +207,18 @@ State:492
 	[Delete]
 	""
 State:491
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -262,18 +274,6 @@ State:491
 	[Modify]
 	[Delete]
 	""
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 State:490
 /OrderScreen/
 /TopLeftButtons/
@@ -1036,18 +1036,6 @@ State:476
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:475
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1107,6 +1095,18 @@ State:475
 	[Modify]
 	[Delete]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:474
 /TenderScreen/
 /TopRightButtons/
@@ -2627,15 +2627,16 @@ State:446
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:445
 /PizzaModifierScreen/
@@ -2753,6 +2754,7 @@ State:443
 	"0.73"
 	"Total"
 	"12.73"
+/Tenders/
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
@@ -2815,15 +2817,16 @@ State:442
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:441
 /TenderScreen/
@@ -2974,15 +2977,16 @@ State:439
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:438
 /OrderScreen/
@@ -3427,65 +3431,16 @@ State:431
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
-	""
-State:430
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
-	"10.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"Peperoni\Pizza"
-	"Cheese\Pizza"
-	"Sausage\Pizza"
-	"Veg 7\Thin"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Add Saved Card]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
+	[Delete]
 	""
 State:429
 /TenderScreen/
@@ -4356,10 +4311,6 @@ State:414
 	[Delete]
 	""
 State:413
-/Dialog/
-	"Error"
-	"The supplied employee must login with a magcard"
-	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -4409,6 +4360,10 @@ State:413
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/Dialog/
+	"Error"
+	"The supplied employee must login with a magcard"
+	[OK]
 State:412
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -4565,10 +4520,6 @@ State:410
 	[Delete]
 	""
 State:409
-/Dialog/
-	"Error"
-	"The supplied employee must login with a magcard"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -4624,6 +4575,10 @@ State:409
 	[Modify]
 	[Delete]
 	""
+/Dialog/
+	"Error"
+	"The supplied employee must login with a magcard"
+	[OK]
 State:408
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -4667,10 +4622,6 @@ State:408
 	[Delete]
 	[btnMessage]
 State:407
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -4712,6 +4663,10 @@ State:407
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 State:406
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -4966,15 +4921,16 @@ State:402
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:401
 /OrderScreen/
@@ -5018,15 +4974,16 @@ State:401
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:400
 /PizzaModifierScreen/
@@ -8130,10 +8087,6 @@ State:346
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:345
-/Dialog/
-	"Warning"
-	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
-	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -8193,6 +8146,10 @@ State:345
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/Dialog/
+	"Warning"
+	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
+	[OK]
 State:344
 /OrderScreen/
 /TopLeftButtons/
@@ -8525,6 +8482,18 @@ State:340
 	[Cancel]
 	[OK]
 State:339
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -8584,73 +8553,59 @@ State:339
 	[Modify]
 	[Delete]
 	""
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 State:338
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
+/TenderScreen/
 /TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
+/ItemEntries/
 	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
 	"41.89"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
-	[Void]
-	[Add Saved Card]
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.89"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.45"
+/Tenders/
+	"Balance Due"
+	"$44.45"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
 	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	""
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:337
 /OrderScreen/
 /TopLeftButtons/
@@ -8696,15 +8651,16 @@ State:337
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -8775,15 +8731,16 @@ State:336
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -8883,15 +8840,16 @@ State:335
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -8962,15 +8920,16 @@ State:334
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9069,15 +9028,16 @@ State:333
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9175,15 +9135,16 @@ State:332
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9254,15 +9215,16 @@ State:331
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9368,56 +9330,69 @@ State:330
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:329
-/TenderScreen/
-/TopRightButtons/
-	[Tables]
-	[Order]
-	[Print]
-	[Print All]
-	[Email/SMS]
-	[Exit]
+/Dialog/
+	"Modify Void Item Error"
+	"You have items selected which have already been ordered"
+	[OK]
+/OrderScreen/
 /TopLeftButtons/
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
 	"Table 1"
+	[Clear]
 	[Check 1]
-/ItemEntries/
-	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
-	"41.89"
-/Promos/
-/Comps/
-	"Sub Total"
-	"41.89"
-/Taxes/
-	"Tax"
-	"2.56"
-	"Total"
-	"44.45"
-/Tenders/
-/MidButtonsTop/
-	[GCP]
-/MidButtons/
-	[Gift Card Balance]
-	[Saved Card*]
-	[Close*]
-/MidLeftButtons/
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-/BottomRightButtons/
-	[Delete]
-/BottomLeftButtons/
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan\Barcode]
+	[Select\Printer]
+	[Transfer]
+	[Void]
+	[Add\Saved Card]
 	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-/WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:328
 /OrderScreen/
 /TopLeftButtons/
@@ -12505,10 +12480,6 @@ State:273
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:272
-/Dialog/
-	"Warning"
-	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -12546,6 +12517,10 @@ State:272
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
+	[OK]
 State:271
 /OrderScreen/
 /TopLeftButtons/
@@ -12649,10 +12624,6 @@ State:270
 	[Delete]
 	[btnMessage]
 State:269
-/Dialog/
-	"Delete Item Error"
-	"You have not selected an item which can be deleted"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -12709,6 +12680,10 @@ State:269
 	[Hold]
 	[Recipe]
 	""
+/Dialog/
+	"Delete Item Error"
+	"You have not selected an item which can be deleted"
+	[OK]
 State:268
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -12853,10 +12828,6 @@ State:265
 	[Delete]
 	[btnMessage]
 State:264
-/Dialog/
-	"Warning"
-	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -12894,6 +12865,10 @@ State:264
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
+	[OK]
 State:263
 /SplitSeatScreen/
 /SplitScreen/
@@ -16291,15 +16266,16 @@ State:204
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:203
 /OrderScreen/
@@ -16401,6 +16377,33 @@ State:203
 	[Clear]
 	[0]
 	[OK*]
+State:202
+/Dialog/
+	"Modify Void Item Error"
+	"You have items selected which have already been ordered"
+	[OK]
+/LoginForm/
+	"Live Mode"
+	""
+	"...(Server:..."
+	"iOS1"
+	"SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600"
+	"SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150"
+/NumpadButtons/
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[Clear]
+	[0]
+	[Login*]
+	""
+	"Don't forget to smile."
 State:201
 /OrderScreen/
 /TopLeftButtons/
@@ -18181,10 +18184,6 @@ State:183
 	[Delete]
 	[btnMessage]
 State:182
-/Dialog/
-	"Warning"
-	"At least 1 of Spread Light T is required"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -18281,6 +18280,10 @@ State:182
 	[Modify]
 	[Special]
 	[Cancel]
+	[OK]
+/Dialog/
+	"Warning"
+	"At least 1 of Spread Light T is required"
 	[OK]
 State:181
 /OrderScreen/
@@ -19791,10 +19794,6 @@ State:164
 	[Delete]
 	""
 State:163
-/Dialog/
-	"Warning"
-	"You may not have more than 1 items from the QUICHE group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -19836,6 +19835,10 @@ State:163
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 1 items from the QUICHE group."
+	[OK]
 State:162
 /OrderScreen/
 /TopLeftButtons/
@@ -21213,10 +21216,6 @@ State:145
 	[Delete]
 	[btnMessage]
 State:144
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -21257,6 +21256,10 @@ State:144
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 State:143
 /TenderScreen/
 /TopRightButtons/
@@ -23746,15 +23749,16 @@ State:115
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:114
 /ReceiveTransfersScreen/
@@ -24644,15 +24648,16 @@ State:094
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:093
 /WWTScreen/
@@ -24729,15 +24734,16 @@ State:092
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:091
 /OrderScreen/
@@ -24783,15 +24789,16 @@ State:091
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:090
 /OrderScreen/
@@ -24835,15 +24842,16 @@ State:090
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:089
 /OrderScreen/
@@ -24885,15 +24893,16 @@ State:089
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:088
 /OrderScreen/
@@ -24932,15 +24941,16 @@ State:088
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:087
 /TenderScreen/
@@ -25131,15 +25141,16 @@ State:084
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:083
 /OrderScreen/
@@ -25188,15 +25199,16 @@ State:083
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:082
 /OrderScreen/
@@ -25243,15 +25255,16 @@ State:082
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:081
 /OrderScreen/
@@ -25294,15 +25307,16 @@ State:081
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:080
 /OrderScreen/
@@ -25347,15 +25361,16 @@ State:080
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:079
 /WWTScreen/
@@ -25427,15 +25442,16 @@ State:078
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:077
 /OrderScreen/
@@ -25475,15 +25491,16 @@ State:077
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:076
 /TenderScreen/
@@ -25646,15 +25663,16 @@ State:074
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:073
 /OrderScreen/
@@ -25697,15 +25715,16 @@ State:073
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:072
 /ReceiveTransfersScreen/
@@ -25762,15 +25781,16 @@ State:071
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:070
 /OrderScreen/
@@ -25808,15 +25828,16 @@ State:070
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:069
 /TenderScreen/
@@ -26439,15 +26460,16 @@ State:052
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:051
 /ReceiveTransfersScreen/
@@ -26652,15 +26674,16 @@ State:048
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:047
 /ReceiveTransfersScreen/
@@ -26892,15 +26915,16 @@ State:043
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:042
 /ReceiveTransfersScreen/
@@ -28056,7 +28080,6 @@ State:007
 	[.2]
 	[ ]
 	[Ok*]
-	[X]
 State:006
 /PizzaModifierScreen/
 /GroupOneButtons/
