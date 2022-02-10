@@ -26,23 +26,18 @@ Scenario: 1 Quantity
 			Then clicked /DialogSeparator/,[7]
 			Then clicked /DialogSeparator/,[5]
 			Then clicked /DialogSeparator/,[OK]
-#Action: 7 Enter Quantity of llbs
-			Given screen state: 257
-			Then clicked /DialogSeparator/,[7]
-			Then clicked /DialogSeparator/,[5]
-			Then clicked /DialogSeparator/,[OK]
-#Action: 8 Apply HERE Ordermode
-			Given screen state: 259
+#Action: 7 Apply HERE Ordermode
+			Given screen state: 499
 			Then clicked [HERE]
-#Action: 9 Select $ on Payment Screen
-			Given screen state: 259
+#Action: 8 Select $ on Payment Screen
+			Given screen state: 499
 			Then clicked [$]
-#Action: 10 Exact Payment
+#Action: 9 Exact Payment
 			Given screen state: 260
 			Then clicked [Exact]
-#Action: 11 Click Close
+#Action: 10 Click Close
 			Given screen state: 001
 			Then clicked /MidButtons/,[Close]
-#Action: 12 Exit FloorPlan
+#Action: 11 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]

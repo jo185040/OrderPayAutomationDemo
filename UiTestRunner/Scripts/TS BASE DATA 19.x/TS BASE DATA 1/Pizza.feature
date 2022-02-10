@@ -254,9 +254,6 @@ Scenario: 5 Verify you can order a pizza without selecting a pizza size
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "Sausage\Pizza"
 #Action: 6 Select Pizza Crust: Pan
-			#NOTE on emulator if this is run right after 16.4 " Pan" is clicked but the action did not happen.
-			#actually all "Pizza Size" and "Pizza Crust" do not produce action. no matter howlong is wait or if done by hand.
-			#same 16.5 run by itself again works fine. Slow device can handle 16.4 16.5 combination too.
 			Given screen state: 400
 			Then clicked [Pan]
 #Action: 7 Select Sausage
@@ -528,7 +525,6 @@ Scenario: 9 Verify Repeat works on pizza items
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "Sausage\Pizza"
 #Action: 6 Select Pizza Size
-			#NOTE same problem on emulator as with NOTE on 16.5  now size "Large" is clicked but does not apply.
 			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust

@@ -60,6 +60,291 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:499
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BUFFET (0.75 llbs)"
+	"3.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Scan\Barcode]
+	[Select\Printer]
+	[Transfer]
+	[Void]
+	[Add\Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+State:498
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"GUMBALLHEAD"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"5.00"
+/Tenders/
+	"CASH"
+	"5.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:497
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"GUMBALLHEAD"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"5.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"5.00"
+/Tenders/
+	"Balance Due"
+	"$5.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:496
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"GUMBALLHEAD"
+	"3.00"
+	"BLUE MOON"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan\Barcode]
+	[Select\Printer]
+	[Transfer]
+	[Void]
+	[Add\Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
+State:495
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"GUMBALLHEAD"
+	"3.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"3.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"3.00"
+/Tenders/
+	"CASH"
+	"3.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:494
 /TenderScreen/
 /TopRightButtons/
@@ -338,6 +623,60 @@ State:490
 	"Modify Void Item Error"
 	"You have items selected which have already been ordered"
 	[OK]
+State:489
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"GUMBALLHEAD"
+	"3.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"3.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"3.00"
+/Tenders/
+	"Balance Due"
+	"$3.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:488
 /OrderScreen/
 /TopLeftButtons/
@@ -402,6 +741,10 @@ State:488
 	[Cancel]
 	[OK]
 State:487
+/Dialog/
+	"Failed to Open Table."
+	"You do not have access to open the selected table."
+	[OK]
 /FloorPlanScreen/
 	[7]
 	[WWT\Screen]
@@ -416,10 +759,6 @@ State:487
 	[BAR]
 	[3]
 	[6]
-/Dialog/
-	"Failed to Open Table."
-	"You do not have access to open the selected table."
-	[OK]
 State:486
 /TenderScreen/
 /TopRightButtons/
@@ -1832,6 +2171,10 @@ State:462
 	[Delete]
 	""
 State:461
+/Dialog/
+	"Not Found"
+	"PLU/SKU number not found!"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1874,20 +2217,17 @@ State:461
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
-/Dialog/
-	"Not Found"
-	"PLU/SKU number not found!"
-	[OK]
 State:460
 /OrderScreen/
 /TopLeftButtons/
@@ -2341,6 +2681,18 @@ State:452
 	[Modify]
 	""
 State:451
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -2391,18 +2743,6 @@ State:451
 	[Modify]
 	[Delete]
 	""
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 State:450
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -3442,6 +3782,63 @@ State:431
 	[Modify]
 	[Delete]
 	""
+State:430
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"GUMBALLHEAD"
+	"3.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Scan\Barcode]
+	[Select\Printer]
+	[Transfer]
+	[Void]
+	[Add\Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:429
 /TenderScreen/
 /TopRightButtons/
@@ -4311,6 +4708,10 @@ State:414
 	[Delete]
 	""
 State:413
+/Dialog/
+	"Error"
+	"The supplied employee must login with a magcard"
+	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -4360,10 +4761,6 @@ State:413
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-/Dialog/
-	"Error"
-	"The supplied employee must login with a magcard"
-	[OK]
 State:412
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -4520,6 +4917,10 @@ State:410
 	[Delete]
 	""
 State:409
+/Dialog/
+	"Error"
+	"The supplied employee must login with a magcard"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -4575,10 +4976,6 @@ State:409
 	[Modify]
 	[Delete]
 	""
-/Dialog/
-	"Error"
-	"The supplied employee must login with a magcard"
-	[OK]
 State:408
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -4622,6 +5019,10 @@ State:408
 	[Delete]
 	[btnMessage]
 State:407
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -4663,10 +5064,6 @@ State:407
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 State:406
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -5472,7 +5869,7 @@ State:390
 /EntriesBySeat/
 	"Seat 1"
 	"Bread\ Chive Spread\  BACON"
-	"1.99"
+	"2.99"
 /Seats/
 	[T]
 	[1]
@@ -6811,7 +7208,7 @@ State:367
 /EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO"
-	"5.00"
+	"5.00\\0.80"
 /Seats/
 	[T]
 	[1]
@@ -7391,7 +7788,7 @@ State:357
 /EntriesBySeat/
 	"Seat 1"
 	"QUESADILLA\ ADD AVOCADO"
-	"5.00"
+	"5.00\0.80"
 /Seats/
 	[T]
 	[1]
@@ -7848,6 +8245,10 @@ State:350
 	[Delete]
 	""
 State:349
+/Dialog/
+	"Error"
+	"Repeat is not permitted on ordered refillable items."
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -7866,7 +8267,7 @@ State:349
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -7907,11 +8308,11 @@ State:349
 	[Modify]
 	[Delete]
 	""
+State:348
 /Dialog/
 	"Error"
 	"Repeat is not permitted on ordered refillable items."
 	[OK]
-State:348
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -7971,10 +8372,6 @@ State:348
 	[Modify]
 	[Delete]
 	""
-/Dialog/
-	"Error"
-	"Repeat is not permitted on ordered refillable items."
-	[OK]
 State:347
 /OrderScreen/
 /TopLeftButtons/
@@ -8087,6 +8484,10 @@ State:346
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:345
+/Dialog/
+	"Warning"
+	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
+	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -8146,10 +8547,6 @@ State:345
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-/Dialog/
-	"Warning"
-	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
-	[OK]
 State:344
 /OrderScreen/
 /TopLeftButtons/
@@ -9352,7 +9749,7 @@ State:329
 /EntriesBySeat/
 	"Seat 1"
 	"COKE\ COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -12480,6 +12877,10 @@ State:273
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:272
+/Dialog/
+	"Warning"
+	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -12517,10 +12918,6 @@ State:272
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/Dialog/
-	"Warning"
-	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
-	[OK]
 State:271
 /OrderScreen/
 /TopLeftButtons/
@@ -12624,6 +13021,10 @@ State:270
 	[Delete]
 	[btnMessage]
 State:269
+/Dialog/
+	"Delete Item Error"
+	"You have not selected an item which can be deleted"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -12680,10 +13081,6 @@ State:269
 	[Hold]
 	[Recipe]
 	""
-/Dialog/
-	"Delete Item Error"
-	"You have not selected an item which can be deleted"
-	[OK]
 State:268
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -12828,6 +13225,10 @@ State:265
 	[Delete]
 	[btnMessage]
 State:264
+/Dialog/
+	"Warning"
+	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -12865,10 +13266,6 @@ State:264
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/Dialog/
-	"Warning"
-	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
-	[OK]
 State:263
 /SplitSeatScreen/
 /SplitScreen/
@@ -12987,6 +13384,12 @@ State:260
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:259
+/Dialog/
+	"Select default printer"
+	^Bixolon^
+	^Bixlon Kitchen^
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -13003,9 +13406,6 @@ State:259
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BUFFET (0.75 llbs)"
-	"3.00"
 /Seats/
 	[T]
 	[1]
@@ -13020,26 +13420,31 @@ State:259
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:258
 /PizzaModifierScreen/
@@ -13191,19 +13596,20 @@ State:256
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
-/InputDialog/
-	"Enter quantity of llbs (@ 4.00)"
-	"0"
+/CurrencyInputDialog/
+	"Enter quantity (@ 4.00 per llbs)"
+	"0.00"
 	[<]
 /DialogSeparator/
 	[1]
@@ -13217,8 +13623,7 @@ State:256
 	[9]
 	[Clear]
 	[0]
-	[OK]
-	[X]
+	[OK*]
 State:255
 /OrderScreen/
 /TopLeftButtons/
@@ -18184,6 +18589,10 @@ State:183
 	[Delete]
 	[btnMessage]
 State:182
+/Dialog/
+	"Warning"
+	"At least 1 of Spread Light T is required"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -18280,10 +18689,6 @@ State:182
 	[Modify]
 	[Special]
 	[Cancel]
-	[OK]
-/Dialog/
-	"Warning"
-	"At least 1 of Spread Light T is required"
 	[OK]
 State:181
 /OrderScreen/
@@ -19794,6 +20199,10 @@ State:164
 	[Delete]
 	""
 State:163
+/Dialog/
+	"Warning"
+	"You may not have more than 1 items from the QUICHE group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -19835,10 +20244,6 @@ State:163
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/Dialog/
-	"Warning"
-	"You may not have more than 1 items from the QUICHE group."
-	[OK]
 State:162
 /OrderScreen/
 /TopLeftButtons/
@@ -20248,6 +20653,10 @@ State:158
 	[Delete]
 	[btnMessage]
 State:157
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -20290,10 +20699,6 @@ State:157
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 State:156
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -21216,6 +21621,10 @@ State:145
 	[Delete]
 	[btnMessage]
 State:144
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -21256,10 +21665,6 @@ State:144
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 State:143
 /TenderScreen/
 /TopRightButtons/
@@ -26219,6 +26624,11 @@ State:057
 	[Split seat]
 	[Close]
 State:056
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -26278,11 +26688,6 @@ State:056
 	[Modify]
 	[Delete]
 	""
-/Dialog/
-	"Clear All Unordered Items"
-	"Are you sure you want to clear all items which have not been held or ordered?"
-	[Cancel]
-	[OK]
 State:055
 /WWTScreen/
 	"JEFFREY"
