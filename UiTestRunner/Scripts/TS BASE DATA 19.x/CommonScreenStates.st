@@ -60,6 +60,179 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:502
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+	"Seat 2"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	"11.99"
+/Promos/
+/Comps/
+	"Sub Total"
+	"53.88"
+/Taxes/
+	"Tax"
+	"3.29"
+	"Total"
+	"57.17"
+/Tenders/
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:501
+/Dialog/
+	"Confirm"
+	"Found account for TECH \Is this correct?"
+	[No]
+	[Yes]
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"2.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"2.00"
+/Tenders/
+	"Balance Due"
+	"$2.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Saved Card*]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:500
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Scan\Barcode]
+	[Select\Printer]
+	[Transfer]
+	[Void]
+	[Add\Saved Card]
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	""
 State:499
 /OrderScreen/
 /TopLeftButtons/
@@ -1375,6 +1548,18 @@ State:476
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:475
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1434,18 +1619,6 @@ State:475
 	[Modify]
 	[Delete]
 	""
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 State:474
 /TenderScreen/
 /TopRightButtons/
@@ -2171,10 +2344,6 @@ State:462
 	[Delete]
 	""
 State:461
-/Dialog/
-	"Not Found"
-	"PLU/SKU number not found!"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -2228,6 +2397,10 @@ State:461
 	[Modify]
 	[Delete]
 	""
+/Dialog/
+	"Not Found"
+	"PLU/SKU number not found!"
+	[OK]
 State:460
 /OrderScreen/
 /TopLeftButtons/
@@ -8591,15 +8764,16 @@ State:344
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 State:343
 /TenderScreen/
@@ -8744,6 +8918,8 @@ State:341
 	"0.10.7"
 	"1/20 7 UP.8"
 	"0.10.8"
+	"1/20 7 UP.9"
+	"0.10.9"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -8754,8 +8930,6 @@ State:341
 	"Total"
 	"2.00"
 /Tenders/
-	"Balance Due"
-	"$2.00"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
@@ -8822,15 +8996,16 @@ State:340
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
+	[Scan\Barcode]
+	[Select\Printer]
 	[Transfer]
 	[Void]
-	[Add Saved Card]
+	[Add\Saved Card]
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
 	""
 /ModifierScreen/
 	"QUESADILLA"
@@ -8967,6 +9142,7 @@ State:338
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
 	"41.89"
 /Promos/
@@ -8979,8 +9155,6 @@ State:338
 	"Total"
 	"44.45"
 /Tenders/
-	"Balance Due"
-	"$44.45"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
@@ -12165,14 +12339,16 @@ State:285
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"VEGGIE WRAP\ FRIES"
+	"BUFF CHIX WRAP\ FRIES"
 	"4.00"
-	"CHIX SLD SAND\ FRIES"
+	"VEGGIE WRAP\ FRIES"
 	"4.00.2"
-	"HAM SANDWICH\ FRIES"
+	"CHIX SLD SAND\ FRIES"
 	"4.00.3"
-	"CALI CHIX WRAP\ FRIES"
+	"HAM SANDWICH\ FRIES"
 	"4.00.4"
+	"CALI CHIX WRAP\ FRIES"
+	"4.00.5"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -12183,8 +12359,6 @@ State:285
 	"Total"
 	"21.22"
 /Tenders/
-	"Balance Due"
-	"$21.22"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
@@ -13383,69 +13557,6 @@ State:260
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-State:259
-/Dialog/
-	"Select default printer"
-	^Bixolon^
-	^Bixlon Kitchen^
-	[Cancel]
-	[OK]
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Scan\Barcode]
-	[Select\Printer]
-	[Transfer]
-	[Void]
-	[Add\Saved Card]
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	""
 State:258
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -20156,8 +20267,8 @@ State:164
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE"
-	"2.00"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
 /Seats/
 	[T]
 	[1]
@@ -20172,19 +20283,15 @@ State:164
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
 	[Scan\Barcode]
@@ -20198,6 +20305,60 @@ State:164
 	[Modify]
 	[Delete]
 	""
+/ModifierScreen/
+	"BBQ RIBS"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"BBQ RIBS"
+	"41.89"
+	"- 1/2 RACK"
+	"-  - t1"
+	"- 1/2 RACK.2"
+	"-  - t2"
+	"- Baked Potato"
+	"-  - t3"
+	"- CUP"
+	"-  - t4"
+/CenterCategoryButtons/
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[CUP]
+	[*]
+	[*.2]
+	[HOUSE\SALAD]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[CAESAR\SALAD]
+	[*.15]
+	[BOWL]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:163
 /Dialog/
 	"Warning"
@@ -26320,14 +26481,16 @@ State:068
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"CHOPPED SALAD"
+	"3.00"
 	"CAESAR SALAD\ ADD CHICKEN"
 	"3.00\3.00"
 	"HOUSE SALAD\ RANCH\ ADD CHICKEN"
 	"3.00\\3.00"
 	"CHICKEN CAESAR"
-	"3.00"
-	"SOUP OF DAY\ CUP"
 	"3.00.2"
+	"SOUP OF DAY\ CUP"
+	"3.00.3"
 /Promos/
 /Comps/
 	"Sub Total"
@@ -26338,8 +26501,6 @@ State:068
 	"Total"
 	"22.28"
 /Tenders/
-	"Balance Due"
-	"$22.28"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
@@ -26624,11 +26785,6 @@ State:057
 	[Split seat]
 	[Close]
 State:056
-/Dialog/
-	"Clear All Unordered Items"
-	"Are you sure you want to clear all items which have not been held or ordered?"
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -26688,6 +26844,11 @@ State:056
 	[Modify]
 	[Delete]
 	""
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 State:055
 /WWTScreen/
 	"JEFFREY"

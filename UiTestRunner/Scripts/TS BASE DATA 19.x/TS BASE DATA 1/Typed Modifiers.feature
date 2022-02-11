@@ -23,7 +23,7 @@ Scenario: 1 Typed Modifier
 			Then clicked /EntriesBySeat/,"COKE"
 #Action: 6 Modify Coke
 			# 7 Add Typed Modifier
-			Given screen state: 164
+			Given screen state: 500
 			Then clicked [Modify]
 			Then clicked /BottomLeftButtons/,[btnKeyboard]
 #Action: 7 Add Typed Modifier Message
@@ -124,7 +124,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Then clicked /DialogSeparator/,[t],[4],[Ok]
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 19 Press OK on Mod Screen
-			Given screen state: 338
+			Given screen state: 164
 			Then clicked /BottomLeftButtons/,[OK]
 #Action: 20 Apply HERE Ordermode
 			Given screen state: 338

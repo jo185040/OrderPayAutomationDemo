@@ -773,7 +773,7 @@ Scenario: 16 Typed Modifier
 			Then clicked /EntriesBySeat/,"COKE"
 #Action: 6 Modify Coke
 			# 7 Add Typed Modifier
-			Given screen state: 164
+			Given screen state: 500
 			Then clicked [Modify]
 			Then clicked /BottomLeftButtons/,[btnKeyboard]
 #Action: 7 Add Typed Modifier Message

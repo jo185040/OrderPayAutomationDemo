@@ -19,7 +19,7 @@ Scenario: 1 Pay with House Account & No Tip
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Apply HERE Ordermode
-			Given screen state: 164
+			Given screen state: 500
 			Then clicked [HERE]
 #Action: 6 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -86,7 +86,7 @@ Scenario: 2 Pay with House Account & 15% Tip
 			Then clicked /DialogSeparator/,[8]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 11 Confirm Yes on Dialog
-			Given screen state: 456
+			Given screen state: 501
 			Then clicked /Dialog/,[Yes]
 #Action: 12 Click Close
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"TECH","2.00",/Tips/,"TIP","0.30","Change","$0.00"

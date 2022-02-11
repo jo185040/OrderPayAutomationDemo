@@ -19,7 +19,7 @@ Scenario: 1 Verify that you can split checks with unordered items using the Spli
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Add 7Up
-			Given screen state: 164
+			Given screen state: 500
 			Then clicked /Seats/,[+]
 			Then clicked "7 UP"
 #Action: 6 Add Check
@@ -231,7 +231,7 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			Given screen state: 350
 			Then clicked [$]
 #Action: 20 Exact Payment
-			Given screen state: 478
+			Given screen state: 502
 			Then clicked [Exact]
 #Action: 21 Click Close
 			Then verify presence of /Comps/,"Sub Total","53.88",/Taxes/,"Tax","3.29","Total","57.17",/Tenders/,"CASH","57.17","Change","$0.00"
