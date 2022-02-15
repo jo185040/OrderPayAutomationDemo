@@ -1,7 +1,7 @@
 Feature: 11 Modifiers
 
 
-Scenario: 1 Modifier Weight 2
+Scenario: 1 Add Item with Modifier Weight 2
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -49,7 +49,7 @@ Scenario: 1 Modifier Weight 2
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 2 Modifier Weight 1
+Scenario: 2 Add Item with Modifier Weight 1
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -142,7 +142,7 @@ Scenario: 3 Verify Apps submenu items contains exceptional mod group Pizza.
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 4 Forced Modifier
+Scenario: 4 Add Item with Forced Modifier
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -180,7 +180,7 @@ Scenario: 4 Forced Modifier
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 5 Refill Drink
+Scenario: 5 Add item with Refill Drink
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
@@ -751,7 +751,7 @@ Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 16 Typed Modifier
+Scenario: 16 Add Item with a Typed Modifier
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]

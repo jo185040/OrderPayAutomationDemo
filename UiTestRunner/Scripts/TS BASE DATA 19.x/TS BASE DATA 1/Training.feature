@@ -1,4 +1,4 @@
-Feature: 39 Training
+Feature: 39 Training Employee
 
 
 Scenario: 1 Open Table as a Training Emp
