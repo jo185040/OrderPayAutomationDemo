@@ -44,13 +44,12 @@ Scenario: 2 Delete Item on Empty Check
 			Then verify absence of "Enter Guest Count"
 #Action: 4 Delete COKE
 			Given screen state: 318
-			When swiped left on /BottomButtons/
-			Then clicked /BottomButtons/,[Delete]
+			Then clicked /FixedBottomButtons/,[Delete]
 #Action: 5 Dismiss Error COKE
 			Given screen state: 269
 			Then clicked /Dialog/,[OK]
 #Action: 6 Click Done
-			Given screen state: 267
+			Given screen state: 318
 			When clicked /TopLeftButtons/,[Done]
 
 Scenario: 3 Clear Item on Multiple Checks

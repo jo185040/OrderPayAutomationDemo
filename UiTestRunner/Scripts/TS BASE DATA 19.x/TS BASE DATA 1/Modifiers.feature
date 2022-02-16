@@ -119,7 +119,7 @@ Scenario: 3 Verify Apps submenu items contains exceptional mod group Pizza.
 			Then clicked /EntriesBySeat/,"QUESADILLA"
 #Action: 7 Modify Quesidilla
 			Then verify presence of /EntriesBySeat/,"Seat 1","QUESADILLA","5.00"
-			Then clicked /BottomButtons/,[Modify]
+			Then clicked /FixedBottomButtons/,[Modify]
 #Action: 8 Add Avacado Modifier on Special Menu
 			Then verify presence of /RightModifierButtons/,[ADD\AVOCADO]
 			Then clicked [ADD\AVOCADO]
@@ -542,8 +542,8 @@ Scenario: 11 Verify Tenderlin Wraps item contains exceptional mod group Pizza ri
 			Given screen state: 366
 			Then clicked /EntriesBySeat/,"TENDERLN WRAPS\ Baked Potato"
 #Action: 8 Modify Item
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Modify]
+			Given screen state: 366
+			Then clicked /FixedBottomButtons/,[Modify]
 #Action: 9 Select Special Button
 			Given screen state: 149
 			Then clicked [Special]

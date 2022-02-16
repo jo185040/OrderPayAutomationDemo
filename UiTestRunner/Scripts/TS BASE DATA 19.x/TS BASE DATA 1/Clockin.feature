@@ -55,15 +55,14 @@ Scenario: 4 Login as OrderTaker 203 to Floor Plan
 			When clicked [Exit]
 
 Scenario: 5 Login as bartender 300 to Floor Plan
-#Action: 1 Login as manager 200
+#Action: 1 Login as Bartender 300
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [3],[0],[0]
 			And clicked [Login]
 #Action: 2 Clockin as manager 200
-			Then verify presence of "BAR", [Clock-IN], [EXIT], "SAMEUL L. JACKSON"
 			When clicked [Clock-IN]
 #Action: 3 Exit FloorPlan
-			Given screen state: 053
+			Then verify presence of /BottomButtons/,[$]
 			When clicked /TopLeftButtons/,[Done]
 
 Scenario: 6 Login as TRAINING 150 to Floor Plan
@@ -88,5 +87,5 @@ Scenario: 7 Invalid Emp
 			When clicked [2],[0],[8]
 			And clicked [Login]
 #Action: 3 Clockin as manager 201
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150",[Login*],/DialogSeparator/,"Invalid employee number. Try again."
-			When clicked /DialogSeparator/,[OK]
+			Given screen state: 503
+			When clicked /Dialog/,[OK]

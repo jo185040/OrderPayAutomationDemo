@@ -28,7 +28,7 @@ Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 			Given screen state: 169
 			Then clicked [Baked Potato]
 #Action: 8 On Soup Mod, select Cup
-			Given screen state: 171
+			Given screen state: 169
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
 			Given screen state: 386
@@ -173,7 +173,7 @@ Scenario: 4 Delete Modifier
 #Action: 7 On Starch Menu, Select Baked Potato
 			Given screen state: 173
 			Then clicked [Baked Potato]
-#Action: 8 On Soup Mod, select Cup
+#Action: 8 On Soup Mod, select Ceaser Salad
 			Given screen state: 175
 			Then clicked [CAESAR\SALAD]
 #Action: 9 On Add Chicken Mod add Chicken
@@ -182,7 +182,7 @@ Scenario: 4 Delete Modifier
 #Action: 10 On Modify Item
 			Given screen state: 387
 			Then clicked "-  - ADD CHICKEN"
-			Then clicked /BottomButtons/,[Modify]
+			Then clicked /BottomLeftButtons/,[Modify]
 #Action: 11 On Delete Chicken
 			Given screen state: 387
 			Then clicked "-  - ADD CHICKEN"
