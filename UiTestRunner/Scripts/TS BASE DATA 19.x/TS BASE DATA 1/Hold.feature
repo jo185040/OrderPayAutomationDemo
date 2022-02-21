@@ -25,7 +25,7 @@ Scenario: 1 Hold Item
 #Action: 6 Add Hold
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When swiped left on /BottomButtons/
-			Then clicked /BottomButtons/,[Hold]
+			Then clicked [Hold]
 #Action: 7 Apply HERE Ordermode
 			Given screen state: 207
 			Then clicked [HERE]

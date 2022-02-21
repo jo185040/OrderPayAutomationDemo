@@ -25,7 +25,7 @@ Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 			Given screen state: 134
 			Then clicked [BLACK & BLUE]
 #Action: 7 On Starch Menu, Select Baked Potato
-			Given screen state: 169
+			Given screen state: 267
 			Then clicked [Baked Potato]
 #Action: 8 On Soup Mod, select Cup
 			Given screen state: 169
@@ -149,6 +149,7 @@ Scenario: 3 Verify Combo Scenario
 
 Scenario: 4 Delete Modifier
 #Action: 1 Login as manager 200
+			#TODO ALOHAP-35651
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -230,7 +231,7 @@ Scenario: 5 Verify Bread Scenario
 			Then clicked /EntriesBySeat/,"Bread"
 #Action: 7 Modify Bread
 			Then verify presence of /EntriesBySeat/,"Seat 1","Bread","1.99"
-			Then clicked /BottomButtons/,[Modify]
+			Then clicked /FixedBottomButtons/,[Modify]
 #Action: 8 On Bread Spreads Select Garlic Spread
 			Given screen state: 178
 			Then clicked [Garlic Spread]
@@ -239,7 +240,7 @@ Scenario: 5 Verify Bread Scenario
 			Then clicked [OK]
 #Action: 10 Modify Bread
 			Given screen state: 389
-			Then clicked /BottomButtons/,[Modify]
+			Then clicked /FixedBottomButtons/,[Modify]
 #Action: 11 On Bread Spreads Select Chive Spread
 			Given screen state: 180
 			Then clicked [Chive Spread]
@@ -438,7 +439,7 @@ Scenario: 9 Wrap Modifier Flow
 			Given screen state: 193
 			Then clicked /RightModifierButtons/,[Pastries]
 #Action: 8 On Add On Bagel
-			Given screen state: 194
+			Given screen state: 504
 			Then clicked /RightModifierButtons/,[ON\BAGEL]
 #Action: 9 Apply HERE Ordermode
 			Given screen state: 394

@@ -34,10 +34,10 @@ Scenario: 1 Refill Drink
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
-			Given screen state: 277
+			Given screen state: 171
 			Then clicked [HERE]
-#Action: 11 Select Coke
-			Given screen state: 277
+#Action: 11 Select Payments $
+			Given screen state: 171
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 361
@@ -82,16 +82,16 @@ Scenario: 2 Repeat Refill Drink
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
-			Given screen state: 277
+			Given screen state: 171
 			Then clicked [HERE]
 #Action: 11 Repeat Refill Drink
-			Given screen state: 277
-			Then clicked /BottomButtons/,[Repeat]
+			Given screen state: 171
+			Then clicked [Repeat]
 #Action: 12 Select OK Button
 			Given screen state: 348
 			Then clicked /Dialog/,[OK]
 #Action: 13 Select Payment $
-			Given screen state: 277
+			Given screen state: 171
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Given screen state: 361

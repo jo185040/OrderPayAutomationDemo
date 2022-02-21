@@ -26,7 +26,7 @@ Scenario: 1 Quantity
 			Then clicked /EntriesBySeat/,"PORK NACHOS"
 #Action: 7 Select Quality Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Quantity]
+			Then clicked [Quantity]
 #Action: 8 Select Qty 3
 			Then verify presence of /InputDialog/,"Enter quantity"
 			Then clicked /DialogSeparator/,[3]
@@ -74,7 +74,7 @@ Scenario: 2 Add Quantity on Multiple Checks
 			Then clicked /EntriesBySeat/,"PORK NACHOS"
 #Action: 7 Select Quality Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Quantity]
+			Then clicked [Quantity]
 #Action: 8 Select Qty 3
 			Then verify presence of /InputDialog/,"Enter quantity"
 			Then clicked /DialogSeparator/,[3]

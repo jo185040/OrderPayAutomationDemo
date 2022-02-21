@@ -210,7 +210,7 @@ Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manage
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
 			Then clicked /TopLeftButtons/,[Payment]
 #Action: 16 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
+			Given screen state: 505
 			Then clicked [Exact]
 #Action: 17 Click Close
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"

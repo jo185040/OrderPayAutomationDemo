@@ -592,7 +592,8 @@ Scenario: 10 Verify you can void a pizza item
 #Action: 10 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
-#Action: 11 Repeat Item
+			When waited 0.1
+#Action: 11 Void item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [Void]
 #Action: 12 Select Sausage Pizza on Void Screen

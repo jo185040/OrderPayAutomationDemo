@@ -24,6 +24,7 @@ Scenario: 1 Clear Item on Guest Check
 #Action: 6 Press OK, on Clear Item Dialog
 			Given screen state: 056
 			Then clicked /Dialog/,[OK]
+			When waited .1
 #Action: 7 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When clicked /TopLeftButtons/,[Done]
@@ -75,6 +76,7 @@ Scenario: 3 Clear Item on Multiple Checks
 #Action: 6 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
+			When waited 0.1
 #Action: 7 Clear Items
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]

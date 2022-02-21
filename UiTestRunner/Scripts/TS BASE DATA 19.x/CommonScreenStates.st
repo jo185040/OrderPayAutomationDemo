@@ -60,6 +60,164 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:505
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.94"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.50"
+/Tenders/
+	"Balance Due"
+	"$44.50"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity*]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:504
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+/ModifierScreen/
+	"Wrap"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Pastries"
+/CenterCategoryButtons/
+	[ADD SOUR CRM]
+	[BAGEL/CROISSANT]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[ON\BAGEL]
+	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
+	[ON\CROISSANT]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:503
 /LoginForm/
 	"Live Mode"
@@ -123,7 +281,6 @@ State:502
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -142,11 +299,6 @@ State:502
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:501
-/Dialog/
-	"Confirm"
-	"Found account for TECH \Is this correct?"
-	[No]
-	[Yes]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -182,7 +334,6 @@ State:501
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -200,6 +351,11 @@ State:501
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/Dialog/
+	"Confirm"
+	"Found account for TECH \Is this correct?"
+	[No]
+	[Yes]
 State:500
 /OrderScreen/
 /TopLeftButtons/
@@ -306,16 +462,17 @@ State:499
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:498
 /TenderScreen/
@@ -357,7 +514,6 @@ State:498
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -413,7 +569,6 @@ State:497
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -479,16 +634,17 @@ State:496
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:495
 /TenderScreen/
@@ -528,7 +684,6 @@ State:495
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -588,7 +743,6 @@ State:494
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -660,7 +814,7 @@ State:492
 /EntriesBySeat/
 	"Seat 1"
 	"Sausage Pizza\ Large\ Pan\ Sausage"
-	"10.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -681,16 +835,17 @@ State:492
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:491
 /Dialog/
@@ -749,16 +904,17 @@ State:491
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:490
 /OrderScreen/
@@ -860,7 +1016,6 @@ State:489
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -879,6 +1034,12 @@ State:489
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:488
+/Dialog/
+	"Select default printer"
+	^Bixolon^
+	^Bixlon Kitchen^
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -924,23 +1085,18 @@ State:488
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
-/Dialog/
-	"Select default printer"
-	^Bixolon^
-	^Bixlon Kitchen^
-	[Cancel]
-	[OK]
 State:487
 /Dialog/
 	"Failed to Open Table."
@@ -996,7 +1152,6 @@ State:486
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1050,7 +1205,6 @@ State:485
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1150,7 +1304,6 @@ State:484
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1206,7 +1359,6 @@ State:483
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -1260,7 +1412,6 @@ State:482
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1316,7 +1467,6 @@ State:481
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -1370,7 +1520,6 @@ State:480
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1434,16 +1583,17 @@ State:479
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:478
 /TenderScreen/
@@ -1557,7 +1707,6 @@ State:476
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -1636,16 +1785,17 @@ State:475
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:474
 /TenderScreen/
@@ -1685,7 +1835,6 @@ State:474
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -1739,7 +1888,6 @@ State:473
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -1961,7 +2109,6 @@ State:469
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -2015,7 +2162,6 @@ State:468
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -2079,16 +2225,17 @@ State:467
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:466
 /TenderScreen/
@@ -2128,7 +2275,6 @@ State:466
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -2182,7 +2328,6 @@ State:465
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -2246,16 +2391,17 @@ State:464
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:463
 /OrderScreen/
@@ -2303,16 +2449,17 @@ State:463
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:462
 /OrderScreen/
@@ -2360,18 +2507,23 @@ State:462
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:461
+/Dialog/
+	"Not Found"
+	"PLU/SKU number not found!"
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -2414,21 +2566,18 @@ State:461
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
-/Dialog/
-	"Not Found"
-	"PLU/SKU number not found!"
-	[OK]
 State:460
 /OrderScreen/
 /TopLeftButtons/
@@ -2475,16 +2624,17 @@ State:460
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:459
 /OrderScreen/
@@ -2532,16 +2682,17 @@ State:459
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:458
 /OrderScreen/
@@ -2589,16 +2740,17 @@ State:458
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:457
 /OrderScreen/
@@ -2643,16 +2795,17 @@ State:457
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"OPEN PRICE MOD"
@@ -2683,6 +2836,11 @@ State:457
 	[Cancel]
 	[OK]
 State:456
+/Dialog/
+	"Confirm"
+	"Found account for TECH \Is this correct?"
+	[No]
+	[Yes]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -2718,7 +2876,6 @@ State:456
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -2736,11 +2893,6 @@ State:456
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-/Dialog/
-	"Confirm"
-	"Found account for TECH \Is this correct?"
-	[No]
-	[Yes]
 State:455
 /OrderScreen/
 /TopLeftButtons/
@@ -2933,16 +3085,17 @@ State:451
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:450
 /PizzaModifierScreen/
@@ -3056,7 +3209,6 @@ State:448
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3110,7 +3262,6 @@ State:447
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -3168,16 +3319,17 @@ State:446
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:445
 /PizzaModifierScreen/
@@ -3249,7 +3401,6 @@ State:444
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3300,7 +3451,6 @@ State:443
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -3358,16 +3508,17 @@ State:442
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:441
 /TenderScreen/
@@ -3406,7 +3557,6 @@ State:441
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3460,7 +3610,6 @@ State:440
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -3518,16 +3667,17 @@ State:439
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:438
 /OrderScreen/
@@ -3569,16 +3719,17 @@ State:438
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -3631,7 +3782,6 @@ State:437
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3685,7 +3835,6 @@ State:436
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -3851,7 +4000,6 @@ State:433
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -3905,7 +4053,6 @@ State:432
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -3972,16 +4119,17 @@ State:431
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:430
 /OrderScreen/
@@ -4029,16 +4177,17 @@ State:430
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:429
 /TenderScreen/
@@ -4078,7 +4227,6 @@ State:429
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4132,7 +4280,6 @@ State:428
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4344,7 +4491,6 @@ State:424
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4398,7 +4544,6 @@ State:423
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4465,16 +4610,17 @@ State:422
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:421
 /TenderScreen/
@@ -4514,7 +4660,6 @@ State:421
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4568,7 +4713,6 @@ State:420
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4635,16 +4779,17 @@ State:419
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:418
 /TenderScreen/
@@ -4684,7 +4829,6 @@ State:418
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4738,7 +4882,6 @@ State:417
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4786,7 +4929,6 @@ State:416
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4834,7 +4976,6 @@ State:415
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4897,16 +5038,17 @@ State:414
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:413
 /Dialog/
@@ -4948,7 +5090,6 @@ State:413
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[MGR COMP]
@@ -5038,7 +5179,6 @@ State:411
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[MGR COMP]
@@ -5106,16 +5246,17 @@ State:410
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:409
 /Dialog/
@@ -5166,16 +5307,17 @@ State:409
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:408
 /PizzaModifierScreen/
@@ -5220,10 +5362,6 @@ State:408
 	[Delete]
 	[btnMessage]
 State:407
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -5265,6 +5403,10 @@ State:407
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 State:406
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -5358,16 +5500,17 @@ State:405
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:404
 /TenderScreen/
@@ -5407,7 +5550,6 @@ State:404
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -5461,7 +5603,6 @@ State:403
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -5519,16 +5660,17 @@ State:402
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:401
 /OrderScreen/
@@ -5572,16 +5714,17 @@ State:401
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:400
 /PizzaModifierScreen/
@@ -5861,16 +6004,17 @@ State:394
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:393
 /OrderScreen/
@@ -5924,16 +6068,17 @@ State:393
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:392
 /OrderScreen/
@@ -5987,16 +6132,17 @@ State:392
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:391
 /OrderScreen/
@@ -6040,16 +6186,17 @@ State:391
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:390
 /OrderScreen/
@@ -6103,16 +6250,17 @@ State:390
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:389
 /OrderScreen/
@@ -6166,16 +6314,17 @@ State:389
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:388
 /OrderScreen/
@@ -8431,16 +8580,17 @@ State:350
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:349
 /Dialog/
@@ -8495,16 +8645,17 @@ State:349
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:348
 /Dialog/
@@ -8559,16 +8710,17 @@ State:348
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:347
 /OrderScreen/
@@ -8616,16 +8768,17 @@ State:347
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:346
 /TenderScreen/
@@ -8727,7 +8880,6 @@ State:345
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -8789,16 +8941,17 @@ State:344
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:343
 /TenderScreen/
@@ -8838,7 +8991,6 @@ State:343
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -8892,7 +9044,6 @@ State:342
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -8959,7 +9110,6 @@ State:341
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -9021,16 +9171,17 @@ State:340
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"QUESADILLA"
@@ -9152,57 +9303,62 @@ State:339
 	[Hold]
 	""
 State:338
-/TenderScreen/
-/TopRightButtons/
-	[Tables]
-	[Order]
-	[Print]
-	[Print All]
-	[Email/SMS]
-	[Exit]
+/OrderScreen/
 /TopLeftButtons/
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
 	"Table 1"
+	[Clear]
 	[Check 1]
-/ItemEntries/
+	[+]
+/EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
 	"41.89"
-/Promos/
-/Comps/
-	"Sub Total"
-	"41.89"
-/Taxes/
-	"Tax"
-	"2.56"
-	"Total"
-	"44.45"
-/Tenders/
-/MidButtonsTop/
-	[GCP]
-/MidButtons/
-	[Gift Card Balance]
-	[Saved Card*]
-	[Close*]
-/MidLeftButtons/
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-/BottomRightButtons/
-	[Delete]
-/BottomLeftButtons/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-/WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:337
 /OrderScreen/
 /TopLeftButtons/
@@ -9248,16 +9404,17 @@ State:337
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9328,16 +9485,17 @@ State:336
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9437,16 +9595,17 @@ State:335
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9517,16 +9676,17 @@ State:334
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9625,16 +9785,17 @@ State:333
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9732,16 +9893,17 @@ State:332
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9812,16 +9974,17 @@ State:331
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -9908,7 +10071,6 @@ State:330
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -11143,7 +11305,6 @@ State:311
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -11382,16 +11543,17 @@ State:308
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:307
 /SplitCheckScreen/
@@ -11496,7 +11658,6 @@ State:305
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -11556,7 +11717,6 @@ State:304
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -11629,16 +11789,17 @@ State:303
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:302
 /SplitCheckScreen/
@@ -11700,7 +11861,6 @@ State:301
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -11758,7 +11918,6 @@ State:300
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -11829,16 +11988,17 @@ State:299
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:298
 /SplitCheckScreen/
@@ -11940,7 +12100,6 @@ State:295
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -12015,7 +12174,6 @@ State:293
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -12084,16 +12242,17 @@ State:292
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:291
 /SplitCheckScreen/
@@ -12180,16 +12339,17 @@ State:290
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:289
 /ReceiveTransfersScreen/
@@ -12332,7 +12492,6 @@ State:286
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -12391,7 +12550,6 @@ State:285
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -12530,7 +12688,6 @@ State:282
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -12586,7 +12743,6 @@ State:281
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -12826,66 +12982,56 @@ State:278
 	[Hold]
 	""
 State:277
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
+/TenderScreen/
 /TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-/EntriesBySeat/
+/ItemEntries/
 	"Seat 1"
-	"COKE\ COKE"
-	""
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
+	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
+	"41.89"
+/Promos/
+/Comps/
+	"Sub Total"
+	"41.89"
+/Taxes/
+	"Tax"
+	"2.56"
+	"Total"
+	"44.45"
+/Tenders/
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
 	[Delete]
-	[Hold]
-	""
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:276
 /TenderScreen/
 /TopRightButtons/
@@ -12927,7 +13073,6 @@ State:276
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -13063,7 +13208,6 @@ State:273
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -13082,10 +13226,6 @@ State:273
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:272
-/Dialog/
-	"Warning"
-	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -13123,6 +13263,10 @@ State:272
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group."
+	[OK]
 State:271
 /OrderScreen/
 /TopLeftButtons/
@@ -13176,16 +13320,17 @@ State:271
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:270
 /PizzaModifierScreen/
@@ -13324,6 +13469,107 @@ State:268
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+State:267
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+/ModifierScreen/
+	"PORK CHOP"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"PORK CHOP"
+	"11.99"
+	"- BLACK & BLUE"
+/CenterCategoryButtons/
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Baked Potato]
+	[*]
+	[BUFFET]
+	[No Starch]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[Black Beans]
+	[*.14]
+	[Red Beans]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:266
 /SplitCheckScreen/
 /SplitScreen/
@@ -13514,7 +13760,6 @@ State:260
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -13709,16 +13954,17 @@ State:256
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /CurrencyInputDialog/
 	"Enter quantity (@ 4.00 per llbs)"
@@ -13827,7 +14073,6 @@ State:254
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -13883,7 +14128,6 @@ State:253
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -13939,7 +14183,6 @@ State:252
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14020,7 +14263,6 @@ State:250
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14076,7 +14318,6 @@ State:249
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14140,16 +14381,17 @@ State:248
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:247
 /TenderScreen/
@@ -14187,7 +14429,6 @@ State:247
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -14262,7 +14503,6 @@ State:246
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -14972,7 +15212,6 @@ State:233
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15026,7 +15265,6 @@ State:232
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -15082,7 +15320,6 @@ State:231
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15136,7 +15373,6 @@ State:230
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -15192,7 +15428,6 @@ State:229
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15246,7 +15481,6 @@ State:228
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -15302,7 +15536,6 @@ State:227
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15356,7 +15589,6 @@ State:226
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -15410,7 +15642,6 @@ State:225
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15485,7 +15716,6 @@ State:223
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15539,7 +15769,6 @@ State:222
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -15609,16 +15838,17 @@ State:221
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:220
 /OrderScreen/
@@ -15669,16 +15899,17 @@ State:220
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Platter"
@@ -15762,16 +15993,17 @@ State:219
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Platter"
@@ -15839,7 +16071,6 @@ State:218
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -15893,7 +16124,6 @@ State:217
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -16001,16 +16231,17 @@ State:215
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:214
 /OrderScreen/
@@ -16061,16 +16292,17 @@ State:214
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Platter"
@@ -16152,16 +16384,17 @@ State:213
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Platter"
@@ -16232,7 +16465,6 @@ State:212
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -16292,7 +16524,6 @@ State:211
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -16348,7 +16579,6 @@ State:210
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -16404,7 +16634,6 @@ State:209
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -16460,7 +16689,6 @@ State:208
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -16527,16 +16755,17 @@ State:207
 	"ICED\COFFEE"
 /BottomButtons/
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+	[Recipe]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
 	[Hold]
-	[Recipe]
 	""
 State:206
 /OrderScreen/
@@ -16581,16 +16810,17 @@ State:206
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"TEST"
@@ -16709,16 +16939,17 @@ State:205
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"TEST"
@@ -16788,16 +17019,17 @@ State:204
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:203
 /OrderScreen/
@@ -16842,16 +17074,17 @@ State:203
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"OPEN PRICE MOD"
@@ -16964,16 +17197,17 @@ State:201
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -17061,16 +17295,17 @@ State:200
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -17157,16 +17392,17 @@ State:199
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -17263,16 +17499,17 @@ State:198
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -17371,16 +17608,17 @@ State:197
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -17481,16 +17719,17 @@ State:196
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -17591,16 +17830,17 @@ State:195
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"3pcDrkBrstr"
@@ -17804,16 +18044,17 @@ State:193
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -17902,16 +18143,17 @@ State:192
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Wrap"
@@ -18011,16 +18253,17 @@ State:191
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Burrito Classic"
@@ -18104,16 +18347,17 @@ State:190
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Burrito Classic"
@@ -18196,16 +18440,17 @@ State:189
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -18294,16 +18539,17 @@ State:188
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -18391,16 +18637,17 @@ State:187
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -18484,16 +18731,17 @@ State:186
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -18618,16 +18866,17 @@ State:184
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Burrito Persona"
@@ -18761,16 +19010,17 @@ State:182
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Bread"
@@ -18859,16 +19109,17 @@ State:181
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Bread"
@@ -18957,16 +19208,17 @@ State:180
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Bread"
@@ -19049,16 +19301,17 @@ State:179
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Bread"
@@ -19144,16 +19397,17 @@ State:178
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"Bread"
@@ -19219,7 +19473,6 @@ State:177
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[MGR COMP]
@@ -19673,6 +19926,67 @@ State:172
 	[Special]
 	[Cancel]
 	[OK]
+State:171
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:170
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -20209,16 +20523,17 @@ State:164
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -21426,16 +21741,17 @@ State:148
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /LoginDialog/
 	"Enter manager password"
@@ -24187,7 +24503,6 @@ State:117
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -24259,16 +24574,17 @@ State:115
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:114
 /ReceiveTransfersScreen/
@@ -24475,16 +24791,17 @@ State:108
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:107
 /WWTScreen/
@@ -24572,7 +24889,6 @@ State:106
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -24740,16 +25056,17 @@ State:102
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:101
 /SplitSeatScreen/
@@ -24812,7 +25129,6 @@ State:100
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -24871,7 +25187,6 @@ State:099
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -24944,16 +25259,17 @@ State:098
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:097
 /TenderScreen/
@@ -24999,7 +25315,6 @@ State:097
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -25093,7 +25408,6 @@ State:095
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -25158,16 +25472,17 @@ State:094
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:093
 /WWTScreen/
@@ -25244,16 +25559,17 @@ State:092
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:091
 /OrderScreen/
@@ -25299,16 +25615,17 @@ State:091
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:090
 /OrderScreen/
@@ -25352,16 +25669,17 @@ State:090
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:089
 /OrderScreen/
@@ -25403,16 +25721,17 @@ State:089
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:088
 /OrderScreen/
@@ -25451,16 +25770,17 @@ State:088
 	"HIGH\LIFE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:087
 /TenderScreen/
@@ -25503,7 +25823,6 @@ State:087
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -25651,16 +25970,17 @@ State:084
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:083
 /OrderScreen/
@@ -25709,16 +26029,17 @@ State:083
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:082
 /OrderScreen/
@@ -25765,16 +26086,17 @@ State:082
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:081
 /OrderScreen/
@@ -25817,16 +26139,17 @@ State:081
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:080
 /OrderScreen/
@@ -25871,16 +26194,17 @@ State:080
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:079
 /WWTScreen/
@@ -25952,16 +26276,17 @@ State:078
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:077
 /OrderScreen/
@@ -26001,16 +26326,17 @@ State:077
 	"CALI CHIX\WRAP"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:076
 /TenderScreen/
@@ -26054,7 +26380,6 @@ State:076
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -26112,7 +26437,6 @@ State:075
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -26173,16 +26497,17 @@ State:074
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:073
 /OrderScreen/
@@ -26225,16 +26550,17 @@ State:073
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:072
 /ReceiveTransfersScreen/
@@ -26291,16 +26617,17 @@ State:071
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:070
 /OrderScreen/
@@ -26338,16 +26665,17 @@ State:070
 	"CHEESECAKE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:069
 /TenderScreen/
@@ -26390,7 +26718,6 @@ State:069
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -26449,7 +26776,6 @@ State:068
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -26729,6 +27055,11 @@ State:057
 	[Split seat]
 	[Close]
 State:056
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -26789,11 +27120,6 @@ State:056
 	[Delete]
 	[Hold]
 	""
-/Dialog/
-	"Clear All Unordered Items"
-	"Are you sure you want to clear all items which have not been held or ordered?"
-	[Cancel]
-	[OK]
 State:055
 /WWTScreen/
 	"JEFFREY"
@@ -26971,16 +27297,17 @@ State:052
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:051
 /ReceiveTransfersScreen/
@@ -27099,16 +27426,17 @@ State:050
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:049
 /WWTScreen/
@@ -27185,16 +27513,17 @@ State:048
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:047
 /ReceiveTransfersScreen/
@@ -27426,16 +27755,17 @@ State:043
 	"SOUP\OF DAY"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:042
 /ReceiveTransfersScreen/
@@ -27715,16 +28045,17 @@ State:034
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:033
 /ReceiveTransfersScreen/
@@ -28027,16 +28358,17 @@ State:023
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -28211,16 +28543,17 @@ State:019
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ItemSelectionDialog/
 	"Select items to void"
@@ -28273,7 +28606,6 @@ State:018
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -28818,7 +29150,6 @@ State:001
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]

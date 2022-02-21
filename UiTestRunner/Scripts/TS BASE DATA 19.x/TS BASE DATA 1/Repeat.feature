@@ -23,7 +23,7 @@ Scenario: 1 Verify Repeat works on unordered items
 			Then clicked "PORK\NACHOS"
 #Action: 6 Repeat Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Repeat]
+			Then clicked [Repeat]
 #Action: 7 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
@@ -65,7 +65,7 @@ Scenario: 2 Verify Repeat works on ordered items
 			Then clicked [HERE]
 #Action: 7 Repeat Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Repeat]
+			Then clicked [Repeat]
 #Action: 8 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
@@ -116,7 +116,7 @@ Scenario: 3 Verify Repeat works on items with modifiers
 			Then clicked [CUP]
 #Action: 10 Repeat Item
 			Given screen state: 355
-			Then clicked /BottomButtons/,[Repeat]
+			Then clicked [Repeat]
 #Action: 11 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
@@ -157,7 +157,7 @@ Scenario: 4 Verify Repeat works on Smart Select items
 			Then clicked "Miller Lite"
 #Action: 6 Repeat Item
 			Then verify presence of /CenterMenuButtons/,[BEER]
-			Then clicked /BottomButtons/,[Repeat]
+			Then clicked [Repeat]
 #Action: 7 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[BEER]
 			Then clicked [HERE]
@@ -209,7 +209,7 @@ Scenario: 5 Verify voided items cannot be repeated
 			Then clicked /Dialog/,[OK]
 #Action: 10 Repeat Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Repeat]
+			Then clicked [Repeat]
 #Action: 11 Select OK Button
 			Given screen state: 349
 			Then clicked /Dialog/,[OK]
