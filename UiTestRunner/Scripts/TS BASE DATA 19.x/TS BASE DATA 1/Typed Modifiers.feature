@@ -133,7 +133,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Given screen state: 338
 			Then clicked [$]
 #Action: 22 Exact Payment
-			Given screen state: 338
+			Given screen state: 277
 			Then clicked [Exact]
 #Action: 23 Click Close
 			Given screen state: 330
@@ -167,7 +167,7 @@ Scenario: 3 Typed Modifiers on exceptional mod group Pizza.
 			Then clicked /EntriesBySeat/,"QUESADILLA"
 #Action: 7 Modify Quesidilla
 			Then verify presence of /EntriesBySeat/,"Seat 1","QUESADILLA","5.00"
-			Then clicked /BottomButtons/,[Modify]
+			Then clicked [Modify]
 #Action: 8 Add Avacado Modifier on Special Menu
 			Then verify presence of /RightModifierButtons/,[ADD\AVOCADO]
 			Then clicked [ADD\AVOCADO]

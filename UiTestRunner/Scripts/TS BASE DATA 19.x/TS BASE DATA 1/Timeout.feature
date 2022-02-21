@@ -52,5 +52,5 @@ Scenario: 3 Bartender Timeout
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 4 Exit FloorPlan
-			Given screen state: 558
-			When clicked [Exit]
+			Then verify presence of /TopRightButtons/,[HERE]
+			When clicked [Done]
