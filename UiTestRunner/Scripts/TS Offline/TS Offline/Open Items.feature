@@ -8,7 +8,7 @@ Scenario: 1 Verify you can order an Open Item from Retail Menu
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -35,7 +35,7 @@ Scenario: 1 Verify you can order an Open Item from Retail Menu
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 8 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
+			Given screen state: 526
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
@@ -47,7 +47,7 @@ Scenario: 1 Verify you can order an Open Item from Retail Menu
 			Given screen state: 246
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
@@ -57,7 +57,7 @@ Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -77,7 +77,7 @@ Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM PRICE","2.00"
+			Given screen state: 527
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","OPEN ITEM PRICE","2.00"
@@ -89,7 +89,7 @@ Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 			Then verify presence of /ItemEntries/,"Seat 1","OPEN ITEM PRICE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"Balance Due","$2.12"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
@@ -99,7 +99,7 @@ Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -120,7 +120,7 @@ Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","10.00"
+			Given screen state: 528
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","10.00"
@@ -132,7 +132,7 @@ Scenario: 3 Verify you can order "Open Item Des" from Retail Submenu
 			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61",/Tenders/,"CASH","10.61","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
@@ -142,7 +142,7 @@ Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Ret
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -197,7 +197,7 @@ Scenario: 4 Verify you can order "Open Item MOD" with Open Mod Modifier from Ret
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.12","Total","4.12",/Tenders/,"CASH","4.12","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier from Retail Submenu
@@ -207,7 +207,7 @@ Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier fr
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -255,7 +255,7 @@ Scenario: 5 Verify you can order "Open Item MOD" with Open Mod Price Modifier fr
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.12","Total","4.12",/Tenders/,"CASH","4.12","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from Retail Submenu
@@ -265,7 +265,7 @@ Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -314,7 +314,7 @@ Scenario: 6 Verify you can order "Open Item MOD" with Open Mod Des Modifier from
 			Then verify presence of /Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.61","Total","12.61",/Tenders/,"CASH","12.61","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Retail Submenu
@@ -324,7 +324,7 @@ Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Re
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -372,7 +372,7 @@ Scenario: 7 Verify you can order "Open Price MOD" with Open Mod Modifier from Re
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.24","Total","4.24",/Tenders/,"CASH","4.24","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retail Submenu
@@ -382,7 +382,7 @@ Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retai
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -423,7 +423,7 @@ Scenario: 8 Verify you can order "Open Price MOD" with Open Mod Price from Retai
 			Then verify presence of /Comps/,"Sub Total","4.00",/Taxes/,"Tax","0.24","Total","4.24",/Tenders/,"CASH","4.24","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail Submenu
@@ -433,7 +433,7 @@ Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail 
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -475,7 +475,7 @@ Scenario: 9 Verify you can order "Open Price MOD" with Open Mod Des from Retail 
 			Then verify presence of /Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.73","Total","12.73",/Tenders/,"CASH","12.73","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier from Retail Submenu
@@ -485,7 +485,7 @@ Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier 
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -534,7 +534,7 @@ Scenario: 10 Verify you can order "Open Description MOD" with Open Mod Modifier 
 			Then verify presence of /Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.73","Total","12.73",/Tenders/,"CASH","12.73","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price from Retail Submenu
@@ -544,7 +544,7 @@ Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price fro
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -586,7 +586,7 @@ Scenario: 11 Verify you can order "Open Description MOD" with Open Mod Price fro
 			Given screen state: 466
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from Retail Submenu
@@ -596,7 +596,7 @@ Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from 
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -627,10 +627,10 @@ Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from 
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 467
+			Given screen state: 347
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 467
+			Given screen state: 347
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 468
@@ -639,7 +639,7 @@ Scenario: 12 Verify you can order "Open Description MOD" with Open Mod Des from 
 			Given screen state: 469
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 13 Verify you can order "Open Item MOD" with Open Mod Modifier from Retail Submenu
@@ -650,7 +650,7 @@ Scenario: 13 Verify you can order "Open Item MOD" with Open Mod Modifier from Re
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -699,5 +699,5 @@ Scenario: 13 Verify you can order "Open Item MOD" with Open Mod Modifier from Re
 			Given screen state: 472
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

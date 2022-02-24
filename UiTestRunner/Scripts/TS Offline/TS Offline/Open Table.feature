@@ -8,7 +8,7 @@ Scenario: 1 Open Table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -35,7 +35,7 @@ Scenario: 1 Open Table
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 8 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
+			Given screen state: 526
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
@@ -47,5 +47,5 @@ Scenario: 1 Open Table
 			Then verify presence of /ItemEntries/,"Seat 1","TEST","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"CASH","2.12","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

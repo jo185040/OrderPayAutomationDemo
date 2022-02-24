@@ -8,7 +8,7 @@ Scenario: 1 Combine Tables
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Combine Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [Combine\Tables]
 			Then clicked [1], [2], [3]
 			Then clicked [Combine\Tables]
@@ -30,7 +30,7 @@ Scenario: 1 Combine Tables
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
 #Action: 8 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
+			Given screen state: 512
 			Then clicked [HERE]
 #Action: 9 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
@@ -47,5 +47,5 @@ Scenario: 1 Combine Tables
 			Then clicked /FloorPlanScreen/,[1],[1.2],[1.3]
 			Then clicked [Detach\Tables]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

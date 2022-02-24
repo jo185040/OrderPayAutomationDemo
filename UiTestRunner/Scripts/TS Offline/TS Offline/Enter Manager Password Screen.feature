@@ -8,7 +8,7 @@ Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -19,7 +19,7 @@ Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
+			Given screen state: 522
 			Then clicked [HERE]
 #Action: 6 Void Item
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
@@ -46,7 +46,7 @@ Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00","CASH"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
@@ -56,7 +56,7 @@ Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -67,7 +67,7 @@ Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
+			Given screen state: 522
 			Then clicked [HERE]
 #Action: 6 Void Item
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
@@ -89,7 +89,7 @@ Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
@@ -99,7 +99,7 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -153,7 +153,7 @@ Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 			Then verify presence of /Comps/,"MGR COMP","-41.94","Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manager
@@ -163,7 +163,7 @@ Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manage
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -216,5 +216,5 @@ Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manage
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

@@ -8,7 +8,7 @@ Scenario: 1 Verify order item from Pizza Menu
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -35,7 +35,7 @@ Scenario: 1 Verify order item from Pizza Menu
 			Given screen state: 006
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 525
 			Then clicked [HERE]
 #Action: 11 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -47,7 +47,7 @@ Scenario: 1 Verify order item from Pizza Menu
 			Given screen state: 418
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
@@ -57,7 +57,7 @@ Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -71,13 +71,13 @@ Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "Sausage\Pizza"
 #Action: 6 Select Pizza Size
-			Given screen state: 002
+			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 003
+			Given screen state: 449
 			Then clicked [Pan]
 #Action: 8 Select Sausage
-			Given screen state: 004
+			Given screen state: 445
 			Then clicked [Chicken]
 #Action: 9 Select OK on Pizza Menu
 			Given screen state: 005
@@ -95,7 +95,7 @@ Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
 			Given screen state: 421
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
@@ -105,7 +105,7 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -119,13 +119,13 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "Sausage\Pizza"
 #Action: 6 Select Pizza Size
-			Given screen state: 002
+			Given screen state: 400
 			Then clicked [Large]
 #Action: 7 Select Pizza Crust
-			Given screen state: 003
+			Given screen state: 449
 			Then clicked [Pan]
 #Action: 8 Select Chicken
-			Given screen state: 004
+			Given screen state: 445
 			Then clicked [Chicken]
 #Action: 9 Select Cheese
 			Given screen state: 005
@@ -155,7 +155,7 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			Given screen state: 424
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 Verify you can order a pizza with 5 modifier groups
@@ -166,7 +166,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -230,7 +230,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			Given screen state: 427
 			Then clicked /MidButtons/,[Close]
 #Action: 21 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 5 Verify you can order a pizza without selecting a pizza size
@@ -240,7 +240,7 @@ Scenario: 5 Verify you can order a pizza without selecting a pizza size
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -276,7 +276,7 @@ Scenario: 5 Verify you can order a pizza without selecting a pizza size
 			Given screen state: 429
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
@@ -286,7 +286,7 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -319,10 +319,10 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 006
 			Then clicked [OK]
 #Action: 12 Apply HERE Ordermode
-			Given screen state: 492
+			Given screen state: 525
 			Then clicked [HERE]
 #Action: 13 Select $ on Payment Screen
-			Given screen state: 492
+			Given screen state: 525
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Given screen state: 417
@@ -331,7 +331,7 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 418
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
@@ -341,7 +341,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -388,7 +388,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			Given screen state: 433
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 8 Verify you add a pizza to a split check
@@ -399,7 +399,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -429,7 +429,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /CenterMenuButtons/,[PIZZA]
 #Action: 11 Order Sausage Pizza
-			Given screen state: 492
+			Given screen state: 525
 			Then clicked "Veg 7\Thin"
 #Action: 12 Select Pizza Size
 			Given screen state: 151
@@ -501,7 +501,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			Given screen state: 435
 			Then clicked /MidButtons/,[Close]
 #Action: 34 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 9 Verify Repeat works on pizza items
@@ -511,7 +511,7 @@ Scenario: 9 Verify Repeat works on pizza items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -538,7 +538,7 @@ Scenario: 9 Verify Repeat works on pizza items
 			Given screen state: 006
 			Then clicked [OK]
 #Action: 10 Repeat Item
-			Given screen state: 492
+			Given screen state: 525
 			Then clicked [Repeat]
 #Action: 11 Apply HERE Ordermode
 			Given screen state: 401
@@ -553,7 +553,7 @@ Scenario: 9 Verify Repeat works on pizza items
 			Given screen state: 437
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 10 Verify you can void a pizza item
@@ -563,7 +563,7 @@ Scenario: 10 Verify you can void a pizza item
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -605,13 +605,13 @@ Scenario: 10 Verify you can void a pizza item
 			Then clicked /Dialog/,^MISRING^
 			Then clicked /Dialog/,[OK]
 #Action: 14 Select $ on Payment Screen
-			Given screen state: 492
+			Given screen state: 525
 			Then clicked [$]
 #Action: 15 Click Close
 			Then verify presence of /Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 11 Verify you can order pizza on both left and right halves
@@ -621,7 +621,7 @@ Scenario: 11 Verify you can order pizza on both left and right halves
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -668,7 +668,7 @@ Scenario: 11 Verify you can order pizza on both left and right halves
 			Given screen state: 441
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 12 Verify you can only order 3 toppings with pizza halves
@@ -678,7 +678,7 @@ Scenario: 12 Verify you can only order 3 toppings with pizza halves
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -733,7 +733,7 @@ Scenario: 12 Verify you can only order 3 toppings with pizza halves
 			Given screen state: 444
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 13 Verify you can add a typed modifier to a pizza item
@@ -743,7 +743,7 @@ Scenario: 13 Verify you can add a typed modifier to a pizza item
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -793,5 +793,5 @@ Scenario: 13 Verify you can add a typed modifier to a pizza item
 			Given screen state: 448
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

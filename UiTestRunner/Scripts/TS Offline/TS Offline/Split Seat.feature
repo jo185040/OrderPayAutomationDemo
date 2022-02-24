@@ -8,7 +8,7 @@ Scenario: 1 Split Seat
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -46,7 +46,7 @@ Scenario: 1 Split Seat
 			Then verify presence of /Tenders/,"CASH","7.00","Change","$0.00",
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Select Multiple Items on Split Check
@@ -56,7 +56,7 @@ Scenario: 2 Select Multiple Items on Split Check
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -101,5 +101,54 @@ Scenario: 2 Select Multiple Items on Split Check
 			Given screen state: 100
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
+			When clicked [Exit]
+
+Scenario: 3 Verify Items dont get removed when splitting seats ALOHAP-35727
+#Action: 1 Login as manager 200
+			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			When clicked [2],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 2 Floor Plan select Table 1
+			Given screen state: 492
+			Then clicked [1]
+#Action: 3 Enter Guest Count 1
+			Given screen state: 025
+			When clicked /DialogSeparator/,[1]
+			And clicked /DialogSeparator/,[OK]
+			Then verify absence of "Enter Guest Count"
+#Action: 4 Add COKE
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked "COKE"
+#Action: 5 Add Seat
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked /Seats/,[+]
+#Action: 6 Add 7-Up
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked "7 UP"
+#Action: 7 Apply OrderMode
+			Given screen state: 507
+			Then clicked [HERE]
+			When waited 0.1
+#Action: 8 Add Blue Moon
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked "BLUE\MOON"
+#Action: 9 Tap Seat 1
+			Given screen state: 508
+			Then clicked /Seats/,[1]
+#Action: 10 Apply HERE Ordermode
+			Given screen state: 508
+			Then clicked [HERE]
+#Action: 11 Select $ on Payment Screen
+			Given screen state: 509
+			Then clicked [$]
+#Action: 12 Exact Payment
+			Given screen state: 510
+			Then clicked [Exact]
+#Action: 13 Click Close
+			Given screen state: 511
+			Then clicked /MidButtons/,[Close]
+#Action: 14 Exit FloorPlan
+			Given screen state: 492
 			When clicked [Exit]

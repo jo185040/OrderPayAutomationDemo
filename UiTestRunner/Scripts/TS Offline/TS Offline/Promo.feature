@@ -8,7 +8,7 @@ Scenario: 1 BOGO
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -25,7 +25,7 @@ Scenario: 1 BOGO
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "TILAPIA"
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","LOBSTR MAC CHZ","11.99","TILAPIA","11.99"
+			Given screen state: 002
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","LOBSTR MAC CHZ","11.99","TILAPIA","11.99"
@@ -58,7 +58,7 @@ Scenario: 1 BOGO
 			Then verify presence of /ItemEntries/,"Seat 1","LOBSTR MAC CHZ","11.99","TILAPIA","11.99",/Promos/,"BUY 1 GET 1 FREE","-11.99",/Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"CASH","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Lunch Combo
@@ -68,7 +68,7 @@ Scenario: 2 Lunch Combo
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -115,7 +115,7 @@ Scenario: 2 Lunch Combo
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","PORK NACHOS","5.00",/Promos/,"Lunch Combo","-1.50",/Comps/,"Sub Total","5.50",/Taxes/,"Tax","0.24","Total","5.74",/Tenders/,"CASH","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Free Dessert
@@ -125,7 +125,7 @@ Scenario: 3 Free Dessert
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -139,7 +139,7 @@ Scenario: 3 Free Dessert
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "CARROT\CAKE"
 #Action: 6 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","CARROT CAKE","2.50"
+			Given screen state: 003
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","CARROT CAKE","2.50"
@@ -166,7 +166,7 @@ Scenario: 3 Free Dessert
 			Then verify presence of /Promos/,"$1 Dessert","-1.50",/Comps/,"Sub Total","1.00",/Taxes/,"Tax","0.06","Total","1.06",/Tenders/,"CASH","Change","$8.94"
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 off $20 Dollars
@@ -176,7 +176,7 @@ Scenario: 4 off $20 Dollars
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -199,10 +199,10 @@ Scenario: 4 off $20 Dollars
 			Then verify presence of /RightModifierButtons/,[CUP]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Given screen state: 484
@@ -220,7 +220,7 @@ Scenario: 4 off $20 Dollars
 			Then verify presence of /Promos/,"$5 Off $20 Dollars","-5.00",/Comps/,"Sub Total","36.94",/Taxes/,"Tax","2.25","Total","39.19",/Tenders/,"CASH","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 5 Coupon Type
@@ -230,7 +230,7 @@ Scenario: 5 Coupon Type
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -241,7 +241,7 @@ Scenario: 5 Coupon Type
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
 #Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","MILLER LITE","3.00"
+			Given screen state: 004
 			Then clicked [HERE]
 #Action: 6 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","MILLER LITE","3.00"
@@ -256,5 +256,5 @@ Scenario: 5 Coupon Type
 			Then verify presence of /Promos/,"Free Beer","-3.00",/Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

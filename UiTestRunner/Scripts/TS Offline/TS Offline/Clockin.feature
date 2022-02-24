@@ -14,7 +14,7 @@ Scenario: 1 Login as manager 201 to Floor Plan
 			Then verify presence of "MANAGER", [Clock-IN], [EXIT], "MIGUEL SAAVEDRA"
 			When clicked [Clock-IN]
 #Action: 4 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Login as manager 200 to Floor Plan
@@ -26,7 +26,7 @@ Scenario: 2 Login as manager 200 to Floor Plan
 			Then verify presence of "MANAGER", [Clock-IN], [EXIT], "JEFFREY OYENEYE"
 			When clicked [Clock-IN]
 #Action: 3 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Login as server 100 to Floor Plan
@@ -38,7 +38,7 @@ Scenario: 3 Login as server 100 to Floor Plan
 			Then verify presence of "SERVER", [Clock-IN], [EXIT], "LEBRON JAMES"
 			When clicked [Clock-IN]
 #Action: 3 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 Login as OrderTaker 203 to Floor Plan
@@ -51,7 +51,7 @@ Scenario: 4 Login as OrderTaker 203 to Floor Plan
 			When clicked "ORDERTAKER"
 			When clicked [Clock-IN]
 #Action: 3 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 5 Login as bartender 300 to Floor Plan
@@ -74,7 +74,7 @@ Scenario: 6 Login as TRAINING 150 to Floor Plan
 			Then verify presence of "TRAINING", [Clock-IN], [EXIT], "VLADIMIR PALOCKO"
 			When clicked [Clock-IN]
 #Action: 3 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 7 Invalid Emp

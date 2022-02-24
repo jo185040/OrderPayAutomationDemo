@@ -45,21 +45,1445 @@ State:575
 	[BAR]
 	[1.3]
 	[6]
-State:558
-/FloorPlanScreen/
-	[7]
-	[WWT\Screen]
+State:528
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN ITEM DES"
+	""
+/Seats/
+	[T]
 	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:527
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN ITEM PRICE"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:526
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"OPEN ITEM"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"ECARD"
+	"$10 ECard"
+	"PLU"
+	"OPEN ITEM"
+	"OPEN ITEM PRICE"
+	"OPEN ITEM DES"
+	"OPEN ITEM MOD"
+	"OPEN PRICE MOD"
+	"OPEN DESCR MOD"
+	"OPEN FORCED MOD"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:525
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:524
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"WATER"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"WATER"
+	"COKE"
+	"DIET COKE"
+	"DIET 7UP"
+	"ICED TEA"
+	"COFFEE"
+	"ICED\COFFEE"
+	"Wldfre\Sauce"
+	"Fanta\Orange"
+	"Fanta\Grape"
+	"Fanta\Strby"
+	"SWEET TEA"
+	"POWERADE"
+	"HI C ORANGE"
+	"PEPSI"
+	"CHERRY\PEPSI"
+	"OJ"
+	"CRANBERRY"
+	"CHERRY\SPRITE"
+	"7 UP"
+	"DIET SPRITE"
+	[ ]
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:523
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	""
+	"COKE.2"
+	".2"
+	"7 UP"
+	".3"
+	"7 UP.2"
+	".4"
+	"7 UP.3"
+	".5"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:522
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Table"
+	"COKE"
+	""
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:521
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Bread"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:520
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+/ModifierScreen/
+	"PORK CHOP"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"PORK CHOP"
+	"---"
+	"- BLACK & BLUE"
+/CenterCategoryButtons/
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Baked Potato]
+	[*]
+	[BUFFET]
+	[No Starch]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[Black Beans]
+	[*.14]
+	[Red Beans]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+State:519
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"7 UP"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:518
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"QUESADILLA"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"SPN ARTCHK\DIP"
+	"PORK\NACHOS"
+	"HELLS\CHIPS"
+	"QUESADILLA"
+	"HUMMUS\APP"
+	"FRIED MOZZ"
+	"POTATO\CHIPS"
+	"TENDERLN\WRAPS"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:517
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:516
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:515
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	"41.89"
+/Seats/
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:514
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:513
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"PORK NACHOS"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:512
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	""
+	"PORK NACHOS"
+	".2"
+	"MILLER LITE"
+	".3"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:511
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
 	[Exit]
-	[5]
-	[4]
-	[Detach\Tables]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"Seat 2"
+	"7 UP"
+	"2.00.2"
+	"BLUE MOON"
+	"3.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"7.00"
+/Tenders/
+	"CASH"
+	"7.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:510
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"Seat 2"
+	"7 UP"
+	"2.00.2"
+	"BLUE MOON"
+	"3.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.00"
+/Taxes/
+	"Tax"
+	"0.00"
+	"Total"
+	"7.00"
+/Tenders/
+	"Balance Due"
+	"$7.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:509
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"Seat 2"
+	"7 UP"
+	"2.00.2"
+	"BLUE MOON"
+	"3.00"
+/Seats/
+	[T]
+	[1]
 	[2]
-	[Combine\Tables]
-	[8]
-	[BAR]
-	[3]
-	[6]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:508
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"Seat 2"
+	"7 UP"
+	"2.00.2"
+	"BLUE MOON"
+	""
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:507
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	""
+	"Seat 2"
+	"7 UP"
+	".2"
+/Seats/
+	[T]
+	[1]
+	[2]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:506
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:505
 /TenderScreen/
 /TopRightButtons/
@@ -162,10 +1586,10 @@ State:504
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -299,6 +1723,11 @@ State:502
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:501
+/Dialog/
+	"Confirm"
+	"Found account for TECH \Is this correct?"
+	[No]
+	[Yes]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -351,11 +1780,6 @@ State:501
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
-/Dialog/
-	"Confirm"
-	"Found account for TECH \Is this correct?"
-	[No]
-	[Yes]
 State:500
 /OrderScreen/
 /TopLeftButtons/
@@ -375,7 +1799,7 @@ State:500
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -405,10 +1829,10 @@ State:500
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -462,10 +1886,10 @@ State:499
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -605,9 +2029,9 @@ State:496
 /EntriesBySeat/
 	"Seat 1"
 	"GUMBALLHEAD"
-	"3.00"
+	""
 	"BLUE MOON"
-	"2.00"
+	".2"
 /Seats/
 	[T]
 	[1]
@@ -634,10 +2058,10 @@ State:496
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -796,70 +2220,21 @@ State:493
 	[Split seat]
 	[Close]
 State:492
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
-	""
-/Seats/
-	[T]
+/FloorPlanScreen/
+	[7]
+	[WWT\Screen]
 	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"Peperoni\Pizza"
-	"Cheese\Pizza"
-	"Sausage\Pizza"
-	"Veg 7\Thin"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
+	[Exit]
+	[5]
+	[4]
+	[Detach\Tables]
+	[2]
+	[Combine\Tables]
+	[8]
+	[BAR]
+	[3]
+	[6]
 State:491
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -904,10 +2279,10 @@ State:491
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -916,6 +2291,18 @@ State:491
 	[Delete]
 	[Hold]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:490
 /OrderScreen/
 /TopLeftButtons/
@@ -1034,12 +2421,6 @@ State:489
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:488
-/Dialog/
-	"Select default printer"
-	^Bixolon^
-	^Bixlon Kitchen^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1085,10 +2466,10 @@ State:488
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -1097,11 +2478,13 @@ State:488
 	[Delete]
 	[Hold]
 	""
-State:487
 /Dialog/
-	"Failed to Open Table."
-	"You do not have access to open the selected table."
+	"Select default printer"
+	^Bixolon^
+	^Bixlon Kitchen^
+	[Cancel]
 	[OK]
+State:487
 /FloorPlanScreen/
 	[7]
 	[WWT\Screen]
@@ -1116,6 +2499,10 @@ State:487
 	[BAR]
 	[3]
 	[6]
+/Dialog/
+	"Failed to Open Table."
+	"You do not have access to open the selected table."
+	[OK]
 State:486
 /TenderScreen/
 /TopRightButtons/
@@ -1583,10 +2970,10 @@ State:479
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -1652,26 +3039,64 @@ State:478
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:477
-/SplitCheckScreen/
-/SplitScreen/
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat*]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
 	"Table 1"
-/SplitAndMergeButtons/
-	[Split Items]
-	[Merge Split Items*]
-/CheckOrSeat/
-	"Check 1"
-	"Seat 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Table"
 	"COKE"
-	"Seat 2"
+	""
+	"PORK NACHOS"
+	".2"
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
 	"7 UP"
-	[<]
-	[>]
-/BottomCenterButtons/
-	[Combine]
-	[Add]
-	[Split seat]
-	[Equal Split]
-	[Close]
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:476
 /TenderScreen/
 /TopRightButtons/
@@ -1725,18 +3150,6 @@ State:476
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:475
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1785,10 +3198,10 @@ State:475
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -1797,6 +3210,18 @@ State:475
 	[Delete]
 	[Hold]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:474
 /TenderScreen/
 /TopRightButtons/
@@ -2059,10 +3484,10 @@ State:470
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2191,44 +3616,47 @@ State:467
 	[TO GO]
 	[DON'T MAKE]
 /TableAndChecks/
-	"Table 1"
+	"t2"
 	[Clear]
 	[Check 1]
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"TEST\ TEST"
-	"10.00\10.00"
+	"COKE"
+	""
 /Seats/
 	[T]
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
-	"ECARD"
-	"$10 ECard"
-	"PLU"
-	"OPEN ITEM"
-	"OPEN ITEM PRICE"
-	"OPEN ITEM DES"
-	"OPEN ITEM MOD"
-	"OPEN PRICE MOD"
-	"OPEN DESCR MOD"
-	"OPEN FORCED MOD"
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2391,10 +3819,10 @@ State:464
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2449,10 +3877,10 @@ State:463
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2507,10 +3935,10 @@ State:462
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2520,10 +3948,6 @@ State:462
 	[Hold]
 	""
 State:461
-/Dialog/
-	"Not Found"
-	"PLU/SKU number not found!"
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -2566,10 +3990,10 @@ State:461
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2578,6 +4002,10 @@ State:461
 	[Delete]
 	[Hold]
 	""
+/Dialog/
+	"Not Found"
+	"PLU/SKU number not found!"
+	[OK]
 State:460
 /OrderScreen/
 /TopLeftButtons/
@@ -2624,10 +4052,10 @@ State:460
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2682,10 +4110,10 @@ State:459
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2740,10 +4168,10 @@ State:458
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2795,10 +4223,10 @@ State:457
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -2815,7 +4243,7 @@ State:457
 /Modifier_Container/
 /Modifier/
 	"OPEN PRICE MOD"
-	"2.00"
+	"---"
 /CenterCategoryButtons/
 	[Open Mods]
 /RightPanelButtons/
@@ -2836,63 +4264,66 @@ State:457
 	[Cancel]
 	[OK]
 State:456
-/Dialog/
-	"Confirm"
-	"Found account for TECH \Is this correct?"
-	[No]
-	[Yes]
-/TenderScreen/
-/TopRightButtons/
-	[Tables]
-	[Order]
-	[Print]
-	[Print All]
-	[Email/SMS]
-	[Exit]
+/OrderScreen/
 /TopLeftButtons/
-	[Payment]
-	[Get Mobile Pay Code*]
-	[Promo]
-	[Comp]
-	"Table 1"
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"j1"
+	[Clear]
 	[Check 1]
-/ItemEntries/
+	[+]
+/EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
-/Promos/
-/Comps/
-	"Sub Total"
-	"2.00"
-/Taxes/
-	"Tax"
-	"0.00"
-	"Total"
-	"2.00"
-/Tenders/
-	"Balance Due"
-	"$2.00"
-/MidButtonsTop/
-	[GCP]
-/MidButtons/
-	[Gift Card Balance]
-	[Close*]
-/MidLeftButtons/
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[$10]
-/BottomRightButtons/
-	[Delete]
-/BottomLeftButtons/
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
 	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-/WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:455
 /OrderScreen/
 /TopLeftButtons/
@@ -3034,18 +4465,6 @@ State:452
 	[Modify]
 	""
 State:451
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -3085,10 +4504,10 @@ State:451
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -3097,6 +4516,18 @@ State:451
 	[Delete]
 	[Hold]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:450
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -3119,7 +4550,6 @@ State:450
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Pan"
 	"1/2"
@@ -3156,7 +4586,6 @@ State:449
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"1/2"
@@ -3297,8 +4726,8 @@ State:446
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Sausage Pizza\test\ Large\ Pan\ Sausage"
-	"10.00"
+	"Sausage Pizza\test\ Large\ Pan\ Sausage\ 1/2\ 1/2"
+	""
 /Seats/
 	[T]
 	[1]
@@ -3319,10 +4748,10 @@ State:446
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -3353,7 +4782,6 @@ State:445
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -3467,7 +4895,7 @@ State:443
 	[Add Gratuity]
 	[Tax Exempt]
 /WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+	"Card payments not available (Not connected to internet)"
 State:442
 /OrderScreen/
 /TopLeftButtons/
@@ -3487,7 +4915,7 @@ State:442
 /EntriesBySeat/
 	"Seat 1"
 	"Peperoni Pizza\ Large\ Pan\ 1/2\ Beef\ Beef\ Beef\ 1/2\ Chicken\ Chicken\ Chicken"
-	"12.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -3508,10 +4936,10 @@ State:442
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -3667,10 +5095,10 @@ State:439
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -3719,10 +5147,10 @@ State:438
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -4119,10 +5547,10 @@ State:431
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -4177,10 +5605,10 @@ State:430
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -4610,10 +6038,10 @@ State:422
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -4779,10 +6207,10 @@ State:419
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -5012,7 +6440,7 @@ State:414
 /EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP MODS\ MEDIUM\ Baked Potato\ CUP\ ADD BRWN SUGAR\ ADD RAISIN\ ADD GRANOLA\ ON CROISSANT\ SUB HASHBROWNS\ VEGGIE\ WHITE\ RANCH\ SWT POT FRIES"
-	"0.00\\\\\\\\1.50\\\\1.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -5038,10 +6466,10 @@ State:414
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -5125,7 +6553,6 @@ State:412
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 	"test"
 /Items/
 	"Large"
@@ -5246,10 +6673,10 @@ State:410
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -5307,10 +6734,10 @@ State:409
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -5341,7 +6768,6 @@ State:408
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -5362,6 +6788,10 @@ State:408
 	[Delete]
 	[btnMessage]
 State:407
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -5383,7 +6813,6 @@ State:407
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -5403,10 +6832,6 @@ State:407
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 State:406
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -5429,7 +6854,6 @@ State:406
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -5500,10 +6924,10 @@ State:405
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -5660,10 +7084,10 @@ State:402
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -5690,10 +7114,10 @@ State:401
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
-	"10.00"
-	"Sausage Pizza\ Large\ Pan\ Sausage.2"
-	"10.00.2"
+	"Sausage Pizza\ Large\ Pan\ Sausage\ 1/2\ 1/2"
+	""
+	"Sausage Pizza\ Large\ Pan\ Sausage\ 1/2\ 1/2.2"
+	".2"
 /Seats/
 	[T]
 	[1]
@@ -5714,10 +7138,10 @@ State:401
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -5748,7 +7172,6 @@ State:400
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"1/2"
 	"1/2.2"
@@ -5784,7 +7207,6 @@ State:399
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -5824,7 +7246,6 @@ State:398
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -5863,7 +7284,6 @@ State:397
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -5901,7 +7321,6 @@ State:396
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"1/2"
@@ -5938,7 +7357,6 @@ State:395
 	[Left]
 	[Right]
 	"Peperoni Pizza"
-	"10.00"
 /Items/
 	"1/2"
 	"1/2.2"
@@ -5969,9 +7387,6 @@ State:394
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"Wrap\ 3 Bowl\ NO Onion\ Less Spicy\ Pastries\  ON BAGEL"
-	"5.50"
 /Seats/
 	[T]
 	[1]
@@ -6004,10 +7419,10 @@ State:394
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -6016,6 +7431,46 @@ State:394
 	[Delete]
 	[Hold]
 	""
+/ModifierScreen/
+	"Wrap"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Wrap"
+	"---"
+	"- 3 Bowl"
+	"- NO Onion"
+	"- Less Spicy"
+	"- Pastries"
+	"-  - ON BAGEL"
+/CenterCategoryButtons/
+	[ADD BACON]
+	[R.General MOD]
+	[Mods A-F]
+	[Desserts]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Milk Pudding]
+	[Chocolate Ice]
+	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[Pastries]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:393
 /OrderScreen/
 /TopLeftButtons/
@@ -6068,10 +7523,10 @@ State:393
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -6132,10 +7587,10 @@ State:392
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -6280,8 +7735,8 @@ State:389
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread\ Garlic Spread"
-	"1.99"
+	"Bread"
+	""
 /Seats/
 	[T]
 	[1]
@@ -6314,10 +7769,10 @@ State:389
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -6326,6 +7781,35 @@ State:389
 	[Delete]
 	[Hold]
 	""
+/ModifierScreen/
+	"Bread"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Bread"
+	"---"
+	"- Garlic Spread"
+/CenterCategoryButtons/
+	[Breads Spreads]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Garlic Spread]
+	[*]
+	[Chive Spread]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:388
 /OrderScreen/
 /TopLeftButtons/
@@ -6371,16 +7855,17 @@ State:388
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
+	[Update\Check*]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:387
 /OrderScreen/
@@ -6399,6 +7884,9 @@ State:387
 	[Check 1]
 	[+]
 /EntriesBySeat/
+	"Seat 1"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	""
 /Seats/
 	[T]
 	[1]
@@ -6424,10 +7912,10 @@ State:387
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -6444,7 +7932,7 @@ State:387
 /Modifier_Container/
 /Modifier/
 	"RIBEYE"
-	"11.99"
+	"---"
 	"- BLACK & BLUE"
 	"- Baked Potato"
 	"- CAESAR SALAD"
@@ -6460,10 +7948,11 @@ State:387
 	[Side]
 	[Half]
 /RightModifierButtons/
-	[CUP]
+	[BLACK & BLUE]
+	[MEDIUM\WELL]
 	[*]
+	[MEDIUM]
 	[*.2]
-	[HOUSE\SALAD]
 	[*.3]
 	[*.4]
 	[*.5]
@@ -6475,10 +7964,10 @@ State:387
 	[*.11]
 	[*.12]
 	[*.13]
+	[MED RARE]
 	[*.14]
-	[CAESAR\SALAD]
-	[*.15]
-	[BOWL]
+	[RARE]
+	[WELL]
 /BottomLeftButtons/
 	[btnKeyboard]
 	[Delete Modifier]
@@ -6504,7 +7993,7 @@ State:386
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"PORK CHOP\ BLACK & BLUE\ NO MEDIUM\ Baked Potato\ CUP"
+	"PORK CHOP\ BLACK & BLUE\ MEDIUM\ Baked Potato\ CUP"
 	"11.99"
 /Seats/
 	[T]
@@ -6531,10 +8020,10 @@ State:386
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -6693,10 +8182,10 @@ State:383
 	[Back to Menu]
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -6855,10 +8344,10 @@ State:380
 	[Back to Menu]
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -7020,10 +8509,10 @@ State:377
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -7185,10 +8674,10 @@ State:374
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -7579,10 +9068,10 @@ State:367
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -7610,7 +9099,7 @@ State:366
 /EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato"
-	"5.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -7635,10 +9124,10 @@ State:366
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -7993,10 +9482,10 @@ State:360
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8132,7 +9621,7 @@ State:357
 /EntriesBySeat/
 	"Seat 1"
 	"QUESADILLA\ ADD AVOCADO"
-	"5.00\0.80"
+	""
 /Seats/
 	[T]
 	[1]
@@ -8157,10 +9646,10 @@ State:357
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8214,10 +9703,10 @@ State:356
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8245,7 +9734,7 @@ State:355
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -8271,10 +9760,10 @@ State:355
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8424,9 +9913,6 @@ State:352
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
-	"41.94"
 /Seats/
 	[T]
 	[1]
@@ -8452,10 +9938,10 @@ State:352
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8464,6 +9950,53 @@ State:352
 	[Delete]
 	[Hold]
 	""
+/ModifierScreen/
+	"BBQ RIBS"
+	"(Please add between 1 and 2 modifiers)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"BBQ RIBS"
+	"---"
+	"- NO FULL RACK"
+/CenterCategoryButtons/
+	[RIBS]
+	[STARCH]
+	[SOUP MOD]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[1/2 RACK]
+	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[*.14]
+	[*.15]
+	[*.16]
+	[*.17]
+	[FULL RACK]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:351
 /Dialog/
 	"Clear All Unordered Items"
@@ -8488,7 +10021,7 @@ State:351
 /EntriesBySeat/
 	"Seat 2"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -8519,10 +10052,10 @@ State:351
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8580,10 +10113,10 @@ State:350
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8593,10 +10126,6 @@ State:350
 	[Hold]
 	""
 State:349
-/Dialog/
-	"Error"
-	"Repeat is not permitted on ordered refillable items."
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -8615,7 +10144,7 @@ State:349
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	""
+	"COKE.2"
 /Seats/
 	[T]
 	[1]
@@ -8645,10 +10174,10 @@ State:349
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8741,7 +10270,7 @@ State:347
 /EntriesBySeat/
 	"Seat 1"
 	"TEST\ TEST"
-	"10.00\2.00"
+	"10.00\10.00"
 /Seats/
 	[T]
 	[1]
@@ -8768,10 +10297,10 @@ State:347
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -8835,10 +10364,6 @@ State:346
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:345
-/Dialog/
-	"Warning"
-	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
-	[OK]
 /TenderScreen/
 /TopRightButtons/
 	[Tables]
@@ -8897,6 +10422,10 @@ State:345
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/Dialog/
+	"Warning"
+	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
+	[OK]
 State:344
 /OrderScreen/
 /TopLeftButtons/
@@ -8941,10 +10470,10 @@ State:344
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9146,7 +10675,7 @@ State:340
 /EntriesBySeat/
 	"Seat 1"
 	"QUESADILLA\ ADD AVOCADO"
-	"5.00\0.80"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9171,10 +10700,10 @@ State:340
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9191,7 +10720,7 @@ State:340
 /Modifier_Container/
 /Modifier/
 	"QUESADILLA"
-	"5.00"
+	"---"
 	"- ADD AVOCADO"
 /CenterCategoryButtons/
 /RightPanelButtons/
@@ -9378,7 +10907,7 @@ State:337
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9404,10 +10933,10 @@ State:337
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9459,7 +10988,7 @@ State:336
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9485,10 +11014,10 @@ State:336
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9505,7 +11034,7 @@ State:336
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"41.89"
+	"---"
 	"- 1/2 RACK"
 	"-  - t1"
 	"- 1/2 RACK.2"
@@ -9569,7 +11098,7 @@ State:335
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9595,10 +11124,10 @@ State:335
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9650,7 +11179,7 @@ State:334
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9676,10 +11205,10 @@ State:334
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9696,7 +11225,7 @@ State:334
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"41.89"
+	"---"
 	"- 1/2 RACK"
 	"-  - t1"
 	"- 1/2 RACK.2"
@@ -9759,7 +11288,7 @@ State:333
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9785,10 +11314,10 @@ State:333
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9805,7 +11334,7 @@ State:333
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"41.89"
+	"---"
 	"- 1/2 RACK"
 	"-  - t1"
 	"- 1/2 RACK.2"
@@ -9867,7 +11396,7 @@ State:332
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9893,10 +11422,10 @@ State:332
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9948,7 +11477,7 @@ State:331
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9974,10 +11503,10 @@ State:331
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9994,7 +11523,7 @@ State:331
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"41.89"
+	"---"
 	"- 1/2 RACK"
 	"- 1/2 RACK.2"
 	"- Baked Potato"
@@ -10901,10 +12430,10 @@ State:318
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -11543,10 +13072,10 @@ State:308
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -11789,10 +13318,10 @@ State:303
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -11988,10 +13517,10 @@ State:299
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -12242,10 +13771,10 @@ State:292
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -12339,10 +13868,10 @@ State:290
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -13112,7 +14641,6 @@ State:275
 	[Left]
 	[Right]
 	"Cheese Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -13152,7 +14680,6 @@ State:274
 	[Left]
 	[Right]
 	"Cheese Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -13247,7 +14774,6 @@ State:272
 	[Left]
 	[Right]
 	"Cheese Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -13354,7 +14880,6 @@ State:270
 	[Left]
 	[Right]
 	"Cheese Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -13420,10 +14945,10 @@ State:269
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -13454,7 +14979,6 @@ State:268
 	[Left]
 	[Right]
 	"Cheese Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"1/2"
@@ -13605,7 +15129,6 @@ State:265
 	[Left]
 	[Right]
 	"Cheese Pizza"
-	"5.00"
 /Items/
 	"1/2"
 	"1/2.2"
@@ -13620,10 +15143,6 @@ State:265
 	[Delete]
 	[btnMessage]
 State:264
-/Dialog/
-	"Warning"
-	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -13645,7 +15164,6 @@ State:264
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Sausage"
@@ -13661,6 +15179,10 @@ State:264
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You are required to enter exactly 1 item(s) from the Pizza Crust mod group."
+	[OK]
 State:263
 /SplitSeatScreen/
 /SplitScreen/
@@ -13826,7 +15348,6 @@ State:258
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Sausage"
@@ -13954,10 +15475,10 @@ State:256
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -14381,10 +15902,10 @@ State:248
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -14670,7 +16191,7 @@ State:239
 	[Check 1]
 /ItemEntries/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
+	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ FULL RACK\ Baked Potato\ CUP"
 	"41.89"
 /Promos/
 /Comps/
@@ -14725,8 +16246,8 @@ State:238
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ NO FULL RACK\ Baked Potato\ CUP"
-	"41.89"
+	"BBQ RIBS\ NO FULL RACK\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
+	""
 /Seats/
 	[T]
 	[1]
@@ -14752,10 +16273,10 @@ State:238
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -14806,10 +16327,10 @@ State:237
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -14826,7 +16347,7 @@ State:237
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- NO FULL RACK"
 	"- 1/2 RACK"
 	"- 1/2 RACK.2"
@@ -14910,10 +16431,10 @@ State:236
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -14930,7 +16451,7 @@ State:236
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- NO FULL RACK"
 	"- 1/2 RACK"
 	"- 1/2 RACK.2"
@@ -15013,10 +16534,10 @@ State:235
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -15033,7 +16554,7 @@ State:235
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- NO FULL RACK"
 	"- 1/2 RACK"
 /CenterCategoryButtons/
@@ -15838,10 +17359,10 @@ State:221
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -15899,10 +17420,10 @@ State:220
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -15919,7 +17440,7 @@ State:220
 /Modifier_Container/
 /Modifier/
 	"Platter"
-	"0.00"
+	"---"
 	"- Special canapes"
 	"-  - Vegetarian"
 	"-  - Vegan"
@@ -15993,10 +17514,10 @@ State:219
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -16163,7 +17684,6 @@ State:216
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Pan"
 	"Sausage"
@@ -16231,10 +17751,10 @@ State:215
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -16292,10 +17812,10 @@ State:214
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -16312,7 +17832,7 @@ State:214
 /Modifier_Container/
 /Modifier/
 	"Platter"
-	"0.00"
+	"---"
 	"- Stand canapes"
 /CenterCategoryButtons/
 	[Czech canapes]
@@ -16384,10 +17904,10 @@ State:213
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -16404,7 +17924,7 @@ State:213
 /Modifier_Container/
 /Modifier/
 	"Platter"
-	"0.00"
+	"---"
 /CenterCategoryButtons/
 	[Czech canapes]
 	[Canapes]
@@ -16810,10 +18330,10 @@ State:206
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -16830,7 +18350,7 @@ State:206
 /Modifier_Container/
 /Modifier/
 	"TEST"
-	"10.00"
+	"---"
 /CenterCategoryButtons/
 	[Open Mods]
 /RightPanelButtons/
@@ -16939,10 +18459,10 @@ State:205
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -16959,7 +18479,7 @@ State:205
 /Modifier_Container/
 /Modifier/
 	"TEST"
-	"10.00"
+	"---"
 /CenterCategoryButtons/
 	[Open Mods]
 /RightPanelButtons/
@@ -17019,10 +18539,10 @@ State:204
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17074,10 +18594,10 @@ State:203
 	"OPEN FORCED MOD"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17094,7 +18614,7 @@ State:203
 /Modifier_Container/
 /Modifier/
 	"OPEN PRICE MOD"
-	"2.00"
+	"---"
 /CenterCategoryButtons/
 	[Open Mods]
 /RightPanelButtons/
@@ -17197,10 +18717,10 @@ State:201
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17217,7 +18737,7 @@ State:201
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- FULL RACK"
 	"- Baked Potato"
 /CenterCategoryButtons/
@@ -17295,10 +18815,10 @@ State:200
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17315,7 +18835,7 @@ State:200
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- FULL RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -17392,10 +18912,10 @@ State:199
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17412,7 +18932,7 @@ State:199
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -17499,10 +19019,10 @@ State:198
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17519,7 +19039,7 @@ State:198
 /Modifier_Container/
 /Modifier/
 	"3pcDrkBrstr"
-	"9.99"
+	"---"
 	"- SP Bean C"
 	"- Carrots"
 	"- Cherry Bread"
@@ -17608,10 +19128,10 @@ State:197
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17628,7 +19148,7 @@ State:197
 /Modifier_Container/
 /Modifier/
 	"3pcDrkBrstr"
-	"9.99"
+	"---"
 	"- SP Bean C"
 	"- Carrots"
 /CenterCategoryButtons/
@@ -17719,10 +19239,10 @@ State:196
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17739,7 +19259,7 @@ State:196
 /Modifier_Container/
 /Modifier/
 	"3pcDrkBrstr"
-	"9.99"
+	"---"
 	"- SP Bean C"
 /CenterCategoryButtons/
 	[3C\Starter]
@@ -17830,10 +19350,10 @@ State:195
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -17850,7 +19370,7 @@ State:195
 /Modifier_Container/
 /Modifier/
 	"3pcDrkBrstr"
-	"9.99"
+	"---"
 /CenterCategoryButtons/
 	[3C\Starter]
 	[Farmhouse\Sd]
@@ -18044,10 +19564,10 @@ State:193
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18064,7 +19584,7 @@ State:193
 /Modifier_Container/
 /Modifier/
 	"Wrap"
-	"5.50"
+	"---"
 	"- 3 Bowl"
 	"- NO Onion"
 	"- Less Spicy"
@@ -18143,10 +19663,10 @@ State:192
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18163,7 +19683,7 @@ State:192
 /Modifier_Container/
 /Modifier/
 	"Wrap"
-	"5.50"
+	"---"
 /CenterCategoryButtons/
 	[ADD BACON]
 	[R.General MOD]
@@ -18253,10 +19773,10 @@ State:191
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18273,7 +19793,7 @@ State:191
 /Modifier_Container/
 /Modifier/
 	"Burrito Classic"
-	"11.00"
+	"---"
 	"- Verde"
 /CenterCategoryButtons/
 	[Burrito Rice]
@@ -18347,10 +19867,10 @@ State:190
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18367,7 +19887,7 @@ State:190
 /Modifier_Container/
 /Modifier/
 	"Burrito Classic"
-	"11.00"
+	"---"
 /CenterCategoryButtons/
 	[Burrito Rice]
 	[Burrito Beans]
@@ -18440,10 +19960,10 @@ State:189
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18460,7 +19980,7 @@ State:189
 /Modifier_Container/
 /Modifier/
 	"Burrito Persona"
-	"11.00"
+	"---"
 	"- Chili Rice"
 	"- Chili Rice.2"
 	"- White Beans"
@@ -18539,10 +20059,10 @@ State:188
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18559,7 +20079,7 @@ State:188
 /Modifier_Container/
 /Modifier/
 	"Burrito Persona"
-	"11.00"
+	"---"
 	"- Chili Rice"
 	"- Chili Rice.2"
 	"- White Beans"
@@ -18637,10 +20157,10 @@ State:187
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18657,7 +20177,7 @@ State:187
 /Modifier_Container/
 /Modifier/
 	"Burrito Persona"
-	"11.00"
+	"---"
 	"- Chili Rice"
 	"- Chili Rice.2"
 	"- White Beans"
@@ -18731,10 +20251,10 @@ State:186
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18751,7 +20271,7 @@ State:186
 /Modifier_Container/
 /Modifier/
 	"Burrito Persona"
-	"11.00"
+	"---"
 	"- Chili Rice"
 	"- Chili Rice.2"
 /CenterCategoryButtons/
@@ -18866,10 +20386,10 @@ State:184
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -18886,7 +20406,7 @@ State:184
 /Modifier_Container/
 /Modifier/
 	"Burrito Persona"
-	"11.00"
+	"---"
 /CenterCategoryButtons/
 	[Burrito Rice R]
 	[Burrito Beans R]
@@ -18976,8 +20496,8 @@ State:182
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread\ Garlic Spread"
-	"1.99"
+	"Bread"
+	""
 /Seats/
 	[T]
 	[1]
@@ -19010,10 +20530,10 @@ State:182
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19075,8 +20595,8 @@ State:181
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread\ Garlic Spread"
-	"1.99"
+	"Bread"
+	""
 /Seats/
 	[T]
 	[1]
@@ -19109,10 +20629,10 @@ State:181
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19174,44 +20694,34 @@ State:180
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread\ Garlic Spread"
-	"1.99"
+	"7 UP"
+	""
 /Seats/
 	[T]
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
+	"Mod Menu"
+	"PORK\CHOP"
+	"Special\Burger"
+	"BBQ\RIBS"
+	[Add Ice Mod]
+	[Back to Menu]
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19220,35 +20730,6 @@ State:180
 	[Delete]
 	[Hold]
 	""
-/ModifierScreen/
-	"Bread"
-	"(Optional modifiers, but no more than 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"Bread"
-	"1.99"
-	"- Garlic Spread"
-/CenterCategoryButtons/
-	[Breads Spreads]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Garlic Spread]
-	[*]
-	[Chive Spread]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:179
 /OrderScreen/
 /TopLeftButtons/
@@ -19268,7 +20749,7 @@ State:179
 /EntriesBySeat/
 	"Seat 1"
 	"Bread"
-	"1.99"
+	""
 /Seats/
 	[T]
 	[1]
@@ -19301,10 +20782,10 @@ State:179
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19364,7 +20845,7 @@ State:178
 /EntriesBySeat/
 	"Seat 1"
 	"Bread"
-	"1.99"
+	""
 /Seats/
 	[T]
 	[1]
@@ -19397,10 +20878,10 @@ State:178
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19417,7 +20898,7 @@ State:178
 /Modifier_Container/
 /Modifier/
 	"Bread"
-	"1.99"
+	"---"
 /CenterCategoryButtons/
 	[Breads Spreads]
 /RightPanelButtons/
@@ -19543,10 +21024,10 @@ State:176
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19622,10 +21103,10 @@ State:175
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19642,7 +21123,7 @@ State:175
 /Modifier_Container/
 /Modifier/
 	"RIBEYE"
-	"11.99"
+	"---"
 	"- BLACK & BLUE"
 	"- Baked Potato"
 /CenterCategoryButtons/
@@ -19766,10 +21247,10 @@ State:173
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19786,7 +21267,7 @@ State:173
 /Modifier_Container/
 /Modifier/
 	"RIBEYE"
-	"11.99"
+	"---"
 	"- BLACK & BLUE"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -19867,10 +21348,10 @@ State:172
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -19887,7 +21368,7 @@ State:172
 /Modifier_Container/
 /Modifier/
 	"RIBEYE"
-	"11.99"
+	"---"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -20011,7 +21492,6 @@ State:170
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -20071,10 +21551,10 @@ State:169
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20091,7 +21571,7 @@ State:169
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
+	"---"
 	"- BLACK & BLUE"
 	"- Baked Potato"
 /CenterCategoryButtons/
@@ -20170,10 +21650,10 @@ State:168
 	[Back to Menu]
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20190,7 +21670,7 @@ State:168
 /Modifier_Container/
 /Modifier/
 	"Special Burger"
-	"5.50"
+	"---"
 	"- BACON"
 /CenterCategoryButtons/
 	[Special Burger]
@@ -20256,10 +21736,10 @@ State:167
 	[Back to Menu]
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20276,7 +21756,7 @@ State:167
 /Modifier_Container/
 /Modifier/
 	"Special Burger"
-	"5.50"
+	"---"
 	"- RARE"
 /CenterCategoryButtons/
 	[Special Burger]
@@ -20342,10 +21822,10 @@ State:166
 	[Back to Menu]
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20362,7 +21842,7 @@ State:166
 /Modifier_Container/
 /Modifier/
 	"Special Burger"
-	"5.50"
+	"---"
 /CenterCategoryButtons/
 	[Special Burger]
 /RightPanelButtons/
@@ -20407,7 +21887,7 @@ State:165
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -20437,10 +21917,10 @@ State:165
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20457,7 +21937,7 @@ State:165
 /Modifier_Container/
 /Modifier/
 	"COKE"
-	"2.00"
+	"---"
 	"test"
 /CenterCategoryButtons/
 	[Drink Mods]
@@ -20496,8 +21976,8 @@ State:164
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	"BBQ RIBS\ 1/2 RACK\  t1\ 1/2 RACK\  t2\ Baked Potato\  t3\ CUP\  t4"
+	""
 /Seats/
 	[T]
 	[1]
@@ -20523,10 +22003,10 @@ State:164
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20535,65 +22015,7 @@ State:164
 	[Delete]
 	[Hold]
 	""
-/ModifierScreen/
-	"BBQ RIBS"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"BBQ RIBS"
-	"41.89"
-	"- 1/2 RACK"
-	"-  - t1"
-	"- 1/2 RACK.2"
-	"-  - t2"
-	"- Baked Potato"
-	"-  - t3"
-	"- CUP"
-	"-  - t4"
-/CenterCategoryButtons/
-	[RIBS]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[CUP]
-	[*]
-	[*.2]
-	[HOUSE\SALAD]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[*.14]
-	[CAESAR\SALAD]
-	[*.15]
-	[BOWL]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:163
-/Dialog/
-	"Warning"
-	"You may not have more than 1 items from the QUICHE group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -20617,7 +22039,6 @@ State:163
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -20635,6 +22056,10 @@ State:163
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 1 items from the QUICHE group."
+	[OK]
 State:162
 /OrderScreen/
 /TopLeftButtons/
@@ -20793,7 +22218,6 @@ State:161
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -20852,10 +22276,10 @@ State:160
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20872,7 +22296,7 @@ State:160
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
+	"---"
 	"- MEDIUM"
 	"- Black Beans"
 /CenterCategoryButtons/
@@ -20931,7 +22355,7 @@ State:159
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -20961,10 +22385,10 @@ State:159
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20981,7 +22405,7 @@ State:159
 /Modifier_Container/
 /Modifier/
 	"COKE"
-	"2.00"
+	"---"
 	"- XT Ice"
 /CenterCategoryButtons/
 	[Drink Mods]
@@ -21026,7 +22450,6 @@ State:158
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -21046,10 +22469,6 @@ State:158
 	[Delete]
 	[btnMessage]
 State:157
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -21073,7 +22492,6 @@ State:157
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -21092,6 +22510,10 @@ State:157
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 State:156
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -21116,7 +22538,6 @@ State:156
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -21151,7 +22572,7 @@ State:155
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -21181,10 +22602,10 @@ State:155
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -21201,7 +22622,7 @@ State:155
 /Modifier_Container/
 /Modifier/
 	"COKE"
-	"2.00"
+	"---"
 	"- NO Ice"
 /CenterCategoryButtons/
 	[Drink Mods]
@@ -21241,7 +22662,7 @@ State:154
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -21271,10 +22692,10 @@ State:154
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -21291,7 +22712,7 @@ State:154
 /Modifier_Container/
 /Modifier/
 	"COKE"
-	"2.00"
+	"---"
 /CenterCategoryButtons/
 	[Drink Mods]
 /RightPanelButtons/
@@ -21330,7 +22751,7 @@ State:153
 /EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato"
-	"5.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -21355,10 +22776,10 @@ State:153
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -21375,7 +22796,7 @@ State:153
 /Modifier_Container/
 /Modifier/
 	"TENDERLN WRAPS"
-	"5.00"
+	"---"
 	"- Baked Potato"
 	"- ADD AVOCADO"
 /CenterCategoryButtons/
@@ -21439,7 +22860,6 @@ State:152
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"Large"
 	"1/2"
@@ -21478,7 +22898,6 @@ State:151
 	[Left]
 	[Right]
 	"VEG 7 THIN"
-	"10.00"
 /Items/
 	"1/2"
 	"1/2.2"
@@ -21511,7 +22930,7 @@ State:150
 /EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato"
-	"5.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -21536,10 +22955,10 @@ State:150
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -21556,7 +22975,7 @@ State:150
 /Modifier_Container/
 /Modifier/
 	"TENDERLN WRAPS"
-	"5.00"
+	"---"
 	"- Baked Potato"
 /CenterCategoryButtons/
 	[STARCH]
@@ -21614,7 +23033,7 @@ State:149
 /EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato"
-	"5.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -21639,10 +23058,10 @@ State:149
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -21659,7 +23078,7 @@ State:149
 /Modifier_Container/
 /Modifier/
 	"TENDERLN WRAPS"
-	"5.00"
+	"---"
 	"- Baked Potato"
 /CenterCategoryButtons/
 	[STARCH]
@@ -21741,10 +23160,10 @@ State:148
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -22001,7 +23420,6 @@ State:145
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -22021,10 +23439,6 @@ State:145
 	[Delete]
 	[btnMessage]
 State:144
-/Dialog/
-	"Warning"
-	"You may not have more than 3 items from the Pizza Toppings group."
-	[OK]
 /PizzaModifierScreen/
 /GroupOneButtons/
 	"Pizza Size"
@@ -22046,7 +23460,6 @@ State:144
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -22065,6 +23478,10 @@ State:144
 /BottomRightButtons/
 	[Delete]
 	[btnMessage]
+/Dialog/
+	"Warning"
+	"You may not have more than 3 items from the Pizza Toppings group."
+	[OK]
 State:143
 /TenderScreen/
 /TopRightButtons/
@@ -22357,7 +23774,6 @@ State:140
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -22607,7 +24023,7 @@ State:137
 /EntriesBySeat/
 	"Seat 1"
 	"QUESADILLA"
-	"5.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -22632,10 +24048,10 @@ State:137
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -22652,7 +24068,7 @@ State:137
 /Modifier_Container/
 /Modifier/
 	"QUESADILLA"
-	"5.00"
+	"---"
 	"- ADD AVOCADO"
 /CenterCategoryButtons/
 /RightPanelButtons/
@@ -22732,10 +24148,10 @@ State:136
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -22752,7 +24168,7 @@ State:136
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
+	"---"
 	"- MEDIUM"
 	"- Baked Potato"
 /CenterCategoryButtons/
@@ -22834,10 +24250,10 @@ State:135
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -22854,7 +24270,7 @@ State:135
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
+	"---"
 	"- MEDIUM"
 /CenterCategoryButtons/
 	[MEAT TEMP]
@@ -22935,10 +24351,10 @@ State:134
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -22955,7 +24371,7 @@ State:134
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
+	"---"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -23036,10 +24452,10 @@ State:133
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23056,7 +24472,7 @@ State:133
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- 1/2 RACK"
 	"- 1/2 RACK.2"
 	"- Baked Potato"
@@ -23139,10 +24555,10 @@ State:132
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23159,7 +24575,7 @@ State:132
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- 1/2 RACK"
 	"- 1/2 RACK.2"
 /CenterCategoryButtons/
@@ -23241,10 +24657,10 @@ State:131
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23261,7 +24677,7 @@ State:131
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -23342,10 +24758,10 @@ State:130
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23362,7 +24778,7 @@ State:130
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- FULL RACK"
 	"- Baked Potato"
 /CenterCategoryButtons/
@@ -23444,10 +24860,10 @@ State:129
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23464,7 +24880,7 @@ State:129
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 	"- FULL RACK"
 /CenterCategoryButtons/
 	[RIBS]
@@ -23545,10 +24961,10 @@ State:128
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23565,7 +24981,7 @@ State:128
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"---"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -23655,10 +25071,10 @@ State:127
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23716,10 +25132,10 @@ State:126
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23823,10 +25239,10 @@ State:125
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23928,10 +25344,10 @@ State:124
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23948,7 +25364,7 @@ State:124
 /Modifier_Container/
 /Modifier/
 	"COMBO 3"
-	"10.00"
+	"---"
 	"- TILAPIA"
 	"-  - FRIES"
 	"-  - PEPSI"
@@ -24039,10 +25455,10 @@ State:123
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -24146,10 +25562,10 @@ State:122
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -24251,10 +25667,10 @@ State:121
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -24271,7 +25687,7 @@ State:121
 /Modifier_Container/
 /Modifier/
 	"COMBO 3"
-	"10.00"
+	"---"
 	"- TILAPIA"
 	"-  - FRIES"
 	"-  - PEPSI"
@@ -24359,10 +25775,10 @@ State:120
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -24791,10 +26207,10 @@ State:108
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -25022,11 +26438,11 @@ State:102
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 	"7 UP"
-	"2.00.2"
+	".2"
 	"ICED COFFEE"
-	"2.00.3"
+	".3"
 /Seats/
 	[T]
 	[1]
@@ -25056,10 +26472,10 @@ State:102
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -25107,9 +26523,9 @@ State:100
 	"ICED COFFEE"
 	"2.00"
 	"Seat 2"
-	"COKE"
-	"2.00.2"
 	"7 UP"
+	"2.00.2"
+	"COKE"
 	"2.00.3"
 /Promos/
 /Comps/
@@ -25167,9 +26583,9 @@ State:099
 	"ICED COFFEE"
 	"2.00"
 	"Seat 2"
-	"COKE"
-	"2.00.2"
 	"7 UP"
+	"2.00.2"
+	"COKE"
 	"2.00.3"
 /Promos/
 /Comps/
@@ -25225,9 +26641,9 @@ State:098
 	"ICED COFFEE"
 	"2.00"
 	"Seat 2"
-	"COKE"
-	"2.00.2"
 	"7 UP"
+	"2.00.2"
+	"COKE"
 	"2.00.3"
 /Seats/
 	[T]
@@ -25259,10 +26675,10 @@ State:098
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -27055,11 +28471,6 @@ State:057
 	[Split seat]
 	[Close]
 State:056
-/Dialog/
-	"Clear All Unordered Items"
-	"Are you sure you want to clear all items which have not been held or ordered?"
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -27078,7 +28489,7 @@ State:056
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -27108,10 +28519,10 @@ State:056
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -27120,6 +28531,11 @@ State:056
 	[Delete]
 	[Hold]
 	""
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 State:055
 /WWTScreen/
 	"JEFFREY"
@@ -27394,9 +28810,9 @@ State:050
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	"2.00"
+	""
 	"PORK NACHOS"
-	"5.00"
+	".2"
 /Seats/
 	[T]
 	[1]
@@ -27426,10 +28842,10 @@ State:050
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -28017,9 +29433,9 @@ State:034
 /EntriesBySeat/
 	"Seat 1"
 	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"41.89"
+	""
 	"PORK CHOP\ MEDIUM\ Baked Potato\ CUP"
-	"11.99"
+	".2"
 /Seats/
 	[T]
 	[1]
@@ -28045,10 +29461,10 @@ State:034
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -28358,10 +29774,10 @@ State:023
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -28543,10 +29959,10 @@ State:019
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -28860,7 +30276,6 @@ State:007
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -28945,7 +30360,6 @@ State:006
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"10.00"
 /Items/
 	"Large"
 	"Pan"
@@ -28984,7 +30398,6 @@ State:005
 	[Left]
 	[Right]
 	"Sausage Pizza"
-	"5.00"
 /Items/
 	"Large"
 	"Pan"
@@ -29002,116 +30415,176 @@ State:005
 	[Delete]
 	[btnMessage]
 State:004
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
-	"5.00"
-/Items/
-	"Large"
-	"Pan"
-	"1/2"
-	"1/2.2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"MILLER LITE"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
 	[Delete]
-	[btnMessage]
+	[Hold]
+	""
 State:003
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
-	"5.00"
-/Items/
-	"Large"
-	"1/2"
-	"1/2.2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"CARROT CAKE"
+	""
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"CARROT\CAKE"
+	"CHOCOLATE\CAKE"
+	"CHEESECAKE"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
 	[Delete]
-	[btnMessage]
+	[Hold]
+	""
 State:002
-/PizzaModifierScreen/
-/GroupOneButtons/
-	"Pizza Size"
-	[Small]
-	[Medium]
-	[Large]
-/GroupTwoButtons/
-	"Pizza Crust"
-	[Thin]
-	[Chicago Style]
-	[Pan]
-/ModCodeButtons/
-	[Add]
-	[No]
-/AdditionalModGroupButtons/
-	[Pizza Toppings]
-/PizzaPortionButtons/
-	[Whole]
-	[Left]
-	[Right]
-	"Sausage Pizza"
-	"5.00"
-/Items/
-	"1/2"
-	"1/2.2"
-/CenterModButtons/
-	[Cheese]
-	[Chicken]
-	[Beef]
-/BottomCenterButtons/
-	[OK]
-	[Cancel]
-/BottomRightButtons/
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"LOBSTR MAC CHZ"
+	""
+	"TILAPIA"
+	".2"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Update\Check]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
 	[Delete]
-	[btnMessage]
+	[Hold]
+	""
 State:001
 /TenderScreen/
 /TopRightButtons/

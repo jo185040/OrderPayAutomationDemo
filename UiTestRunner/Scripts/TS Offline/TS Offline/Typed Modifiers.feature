@@ -3,12 +3,13 @@ Feature: 42 Typed Modifiers
 
 Scenario: 1 Typed Modifier
 #Action: 1 Login as manager 200
+			#TODO ALOHAP-35812
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -49,7 +50,7 @@ Scenario: 1 Typed Modifier
 			Then verify presence of /ItemEntries/,"Seat 1","COKE\test","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00","Change","$0.00","CASH"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Typed Modifier on Mulitple Modifiers
@@ -59,7 +60,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -139,7 +140,7 @@ Scenario: 2 Typed Modifier on Mulitple Modifiers
 			Given screen state: 330
 			Then clicked /MidButtons/,[Close]
 #Action: 24 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Typed Modifiers on exceptional mod group Pizza.
@@ -149,7 +150,7 @@ Scenario: 3 Typed Modifiers on exceptional mod group Pizza.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -163,10 +164,10 @@ Scenario: 3 Typed Modifiers on exceptional mod group Pizza.
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "QUESADILLA"
 #Action: 6 Select Quesidilla on Guest Check
-			Then verify presence of /EntriesBySeat/,"Seat 1","QUESADILLA","5.00"
+			Given screen state: 518
 			Then clicked /EntriesBySeat/,"QUESADILLA"
 #Action: 7 Modify Quesidilla
-			Then verify presence of /EntriesBySeat/,"Seat 1","QUESADILLA","5.00"
+			Given screen state: 518
 			Then clicked [Modify]
 #Action: 8 Add Avacado Modifier on Special Menu
 			Then verify presence of /RightModifierButtons/,[ADD\AVOCADO]
@@ -195,7 +196,7 @@ Scenario: 3 Typed Modifiers on exceptional mod group Pizza.
 			Given screen state: 343
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 Type Modifier on Forced Modifier
@@ -205,7 +206,7 @@ Scenario: 4 Type Modifier on Forced Modifier
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -233,5 +234,5 @@ Scenario: 4 Type Modifier on Forced Modifier
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"6.36","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

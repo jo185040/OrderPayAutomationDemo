@@ -8,7 +8,7 @@ Scenario: 1 Dine-In Order Mode
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -25,7 +25,7 @@ Scenario: 1 Dine-In Order Mode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
+			Given screen state: 512
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
@@ -37,7 +37,7 @@ Scenario: 1 Dine-In Order Mode
 			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 ToGO Indicator Mode
@@ -47,7 +47,7 @@ Scenario: 2 ToGO Indicator Mode
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -58,7 +58,7 @@ Scenario: 2 ToGO Indicator Mode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
 #Action: 5 Apply TOGO Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
+			Given screen state: 513
 			Then clicked [TO GO]
 #Action: 6 Select Pork Nachos Ordermode
 			Then verify presence of /ItemSelectionDialog/,"Select items to order",/DialogSeparator/,^SELECT ALL^,"SELECT ALL",/Items/,"Check 1",^PORK NACHOS^,"PORK NACHOS",[Cancel],[OK*]
@@ -74,7 +74,7 @@ Scenario: 2 ToGO Indicator Mode
 			Then verify presence of /ItemEntries/,"Seat 1","-> PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"Balance Due","$5.31","Change","$0.00","CASH"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Order Pork Chop Mods
@@ -84,7 +84,7 @@ Scenario: 3 Order Pork Chop Mods
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -140,7 +140,7 @@ Scenario: 3 Order Pork Chop Mods
 			Given screen state: 416
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 Order [DON'T MAKE] with selection from list
@@ -150,7 +150,7 @@ Scenario: 4 Order [DON'T MAKE] with selection from list
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -161,7 +161,7 @@ Scenario: 4 Order [DON'T MAKE] with selection from list
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE", "COKE", "7 UP","7 UP","7 UP"
 #Action: 5 Click [DON'T MAKE]
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","COKE.2","2.00.2","7 UP","2.00.3","7 UP.2","2.00.4","7 UP.3","2.00.5",
+			Given screen state: 523
 			Then clicked /TopRightButtons/,[DON'T MAKE]
 #Action: 6 Select second COKE by CheckMakrk and third 7 UP by label
 			Then verify presence of /Items/,"Check 1",^COKE^,"COKE",^COKE.2^,"COKE.2",^7 UP^,"7 UP",^7 UP.2^,"7 UP.2",^7 UP.3^,"7 UP.3"
@@ -179,5 +179,5 @@ Scenario: 4 Order [DON'T MAKE] with selection from list
 			Then verify presence of /Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

@@ -8,7 +8,7 @@ Scenario: 1 Clear Item on Guest Check
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -22,7 +22,7 @@ Scenario: 1 Clear Item on Guest Check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 6 Press OK, on Clear Item Dialog
-			Given screen state: 056
+			Given screen state: 506
 			Then clicked /Dialog/,[OK]
 			When waited .1
 #Action: 7 Click Done
@@ -36,7 +36,7 @@ Scenario: 2 Delete Item on Empty Check
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -60,7 +60,7 @@ Scenario: 3 Clear Item on Multiple Checks
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025

@@ -2,13 +2,14 @@ Feature: 21 Refill
 
 
 Scenario: 1 Refill Drink
+#TODO ALOHAP-35023
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -19,7 +20,7 @@ Scenario: 1 Refill Drink
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
+			Given screen state: 500
 			Then clicked [HERE]
 #Action: 6 Select Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -46,17 +47,18 @@ Scenario: 1 Refill Drink
 			Given screen state: 362
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Repeat Refill Drink
+#TODO ALOHAP-35023
 #Action: 1 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -100,5 +102,5 @@ Scenario: 2 Repeat Refill Drink
 			Given screen state: 362
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

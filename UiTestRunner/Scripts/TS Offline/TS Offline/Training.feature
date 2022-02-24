@@ -8,7 +8,7 @@ Scenario: 1 Open Table as a Training Emp
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -22,7 +22,7 @@ Scenario: 1 Open Table as a Training Emp
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
 #Action: 6 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00","PORK NACHOS","5.00"
+			Given screen state: 477
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00","PORK NACHOS","5.00"
@@ -34,5 +34,5 @@ Scenario: 1 Open Table as a Training Emp
 			Given screen state: 212
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

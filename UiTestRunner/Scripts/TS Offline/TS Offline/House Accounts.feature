@@ -8,7 +8,7 @@ Scenario: 1 Pay with House Account & No Tip
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -39,13 +39,13 @@ Scenario: 1 Pay with House Account & No Tip
 			Then clicked /DialogSeparator/,[8]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 11 Confirm Yes on Dialog
-			Given screen state: 456
+			Given screen state: 501
 			Then clicked /Dialog/,[Yes]
 #Action: 12 Click Close
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"TECH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Pay with House Account & 15% Tip
@@ -55,7 +55,7 @@ Scenario: 2 Pay with House Account & 15% Tip
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -92,5 +92,5 @@ Scenario: 2 Pay with House Account & 15% Tip
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"TECH","2.00",/Tips/,"TIP","0.30","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

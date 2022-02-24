@@ -8,7 +8,7 @@ Scenario: 1 Add Tax Exempt
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -31,10 +31,10 @@ Scenario: 1 Add Tax Exempt
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [$]
 #Action: 11 Add Tax Exempt
 			Given screen state: 484
@@ -50,7 +50,7 @@ Scenario: 1 Add Tax Exempt
 			Given screen state: 209
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Remove Tax Exempt
@@ -60,7 +60,7 @@ Scenario: 2 Remove Tax Exempt
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -83,10 +83,10 @@ Scenario: 2 Remove Tax Exempt
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [$]
 #Action: 11 Add Tax Exempt
 			Given screen state: 484
@@ -108,5 +108,5 @@ Scenario: 2 Remove Tax Exempt
 			Given screen state: 210
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

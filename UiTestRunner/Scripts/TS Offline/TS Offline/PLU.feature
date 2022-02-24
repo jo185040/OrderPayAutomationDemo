@@ -8,7 +8,7 @@ Scenario: 1 PLU Items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -39,7 +39,7 @@ Scenario: 1 PLU Items
 			Given screen state: 495
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Multiple PLU Items
@@ -49,7 +49,7 @@ Scenario: 2 Multiple PLU Items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -88,7 +88,7 @@ Scenario: 2 Multiple PLU Items
 			Given screen state: 498
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 PLU Items with Error
@@ -98,7 +98,7 @@ Scenario: 3 PLU Items with Error
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025

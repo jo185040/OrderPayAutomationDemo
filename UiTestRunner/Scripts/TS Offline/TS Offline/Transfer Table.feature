@@ -8,7 +8,7 @@ Scenario: 1 Transfer Table to Server
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -30,7 +30,7 @@ Scenario: 1 Transfer Table to Server
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 8 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 9 Transfer Table
 			Given screen state: 036
@@ -53,7 +53,7 @@ Scenario: 1 Transfer Table to Server
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 15 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 16 Select Table 1
 			Given screen state: 103
@@ -77,7 +77,7 @@ Scenario: 1 Transfer Table to Server
 			Given screen state: 117
 			Then clicked /MidButtons/,[Close]
 #Action: 23 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 Verify you can transfer table with OK
@@ -87,7 +87,7 @@ Scenario: 2 Verify you can transfer table with OK
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -104,7 +104,7 @@ Scenario: 2 Verify you can transfer table with OK
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 7 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 8 Transfer Table
 			Given screen state: 036
@@ -127,7 +127,7 @@ Scenario: 2 Verify you can transfer table with OK
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 14 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 15 Select Table 1
 			Given screen state: 104
@@ -151,7 +151,7 @@ Scenario: 2 Verify you can transfer table with OK
 			Given screen state: 208
 			Then clicked /MidButtons/,[Close]
 #Action: 22 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 3 Verify you can transfer tab with OK
@@ -161,7 +161,7 @@ Scenario: 3 Verify you can transfer tab with OK
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -185,7 +185,7 @@ Scenario: 3 Verify you can transfer tab with OK
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 9 Transfer Table
 			Given screen state: 251
@@ -208,7 +208,7 @@ Scenario: 3 Verify you can transfer tab with OK
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 15 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 16 Select Tab
 			Given screen state: 109
@@ -232,7 +232,7 @@ Scenario: 3 Verify you can transfer tab with OK
 			Given screen state: 018
 			Then clicked /MidButtons/,[Close]
 #Action: 23 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 4 Verify you can transfer table with merge table
@@ -242,7 +242,7 @@ Scenario: 4 Verify you can transfer table with merge table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -259,7 +259,7 @@ Scenario: 4 Verify you can transfer table with merge table
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 7 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 8 Transfer Table
 			Given screen state: 036
@@ -282,7 +282,7 @@ Scenario: 4 Verify you can transfer table with merge table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 14 Floor Plan select Table 2
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [2]
 #Action: 15 Enter Guest Count 1
 			Given screen state: 025
@@ -299,7 +299,7 @@ Scenario: 4 Verify you can transfer table with merge table
 			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 19 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 20 Select Table 1
 			Given screen state: 110
@@ -332,7 +332,7 @@ Scenario: 4 Verify you can transfer table with merge table
 			Given screen state: 250
 			Then clicked /MidButtons/,[Close]
 #Action: 30 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 5 Verify you can transfer tab with merge tab
@@ -342,7 +342,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -366,7 +366,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 9 Transfer Table
 			Given screen state: 251
@@ -389,7 +389,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 15 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 16 Open Tab
 			Given screen state: 109
@@ -413,7 +413,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 21 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 22 Select Tab J1
 			Given screen state: 113
@@ -446,7 +446,7 @@ Scenario: 5 Verify you can transfer tab with merge tab
 			Given screen state: 253
 			Then clicked /MidButtons/,[Close]
 #Action: 32 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 6 Verify you can transfer table with new table
@@ -456,7 +456,7 @@ Scenario: 6 Verify you can transfer table with new table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -473,7 +473,7 @@ Scenario: 6 Verify you can transfer table with new table
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 7 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 8 Transfer Table
 			Given screen state: 036
@@ -496,7 +496,7 @@ Scenario: 6 Verify you can transfer table with new table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 14 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 15 Select Table 1
 			Given screen state: 104
@@ -524,7 +524,7 @@ Scenario: 6 Verify you can transfer table with new table
 			Given screen state: 254
 			Then clicked /MidButtons/,[Close]
 #Action: 23 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 7 Verify you can transfer tab with new tab.
@@ -534,7 +534,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -558,7 +558,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 9 Transfer Table
 			Given screen state: 251
@@ -581,7 +581,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 15 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 16 Select Tab
 			Given screen state: 109
@@ -610,7 +610,7 @@ Scenario: 7 Verify you can transfer tab with new tab.
 			Given screen state: 106
 			Then clicked /MidButtons/,[Close]
 #Action: 24 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 8 Verify you can transfer table with merge tab
@@ -620,7 +620,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -637,7 +637,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 7 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 8 Transfer Table
 			Given screen state: 036
@@ -660,7 +660,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 14 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 15 Open Tab
 			Given screen state: 104
@@ -684,7 +684,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 20 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 21 Select Table 1
 			Given screen state: 030
@@ -717,7 +717,7 @@ Scenario: 8 Verify you can transfer table with merge tab
 			Given screen state: 282
 			Then clicked /MidButtons/,[Close]
 #Action: 31 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 9 Verify you can transfer tab with merge table
@@ -727,7 +727,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -751,7 +751,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 9 Transfer Table
 			Given screen state: 251
@@ -774,7 +774,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 15 Floor Plan select Table 2
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [2]
 #Action: 16 Enter Guest Count 1
 			Given screen state: 025
@@ -791,7 +791,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 20 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 21 Select Tab j1
 			Given screen state: 031
@@ -824,7 +824,7 @@ Scenario: 9 Verify you can transfer tab with merge table
 			Given screen state: 250
 			Then clicked /MidButtons/,[Close]
 #Action: 31 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 10 Verify you can transfer table with new tab
@@ -834,7 +834,7 @@ Scenario: 10 Verify you can transfer table with new tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -851,7 +851,7 @@ Scenario: 10 Verify you can transfer table with new tab
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 7 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 8 Transfer Table
 			Given screen state: 036
@@ -874,7 +874,7 @@ Scenario: 10 Verify you can transfer table with new tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 14 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 15 Select Table 1
 			Given screen state: 104
@@ -903,7 +903,7 @@ Scenario: 10 Verify you can transfer table with new tab
 			Given screen state: 018
 			Then clicked /MidButtons/,[Close]
 #Action: 23 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 11 Verify you can transfer tab with new tab.
@@ -913,7 +913,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -937,7 +937,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 9 Transfer Table
 			Given screen state: 251
@@ -960,7 +960,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 15 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 16 Select Tab
 			Given screen state: 109
@@ -988,7 +988,7 @@ Scenario: 11 Verify you can transfer tab with new tab.
 			Given screen state: 208
 			Then clicked /MidButtons/,[Close]
 #Action: 24 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 12 Verify you can transfer tab with new table.
@@ -998,7 +998,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -1022,7 +1022,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 9 Transfer Table
 			Given screen state: 251
@@ -1045,7 +1045,7 @@ Scenario: 12 Verify you can transfer tab with new table.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 15 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [WWT\Screen]
 #Action: 16 Select Tab
 			Given screen state: 109
@@ -1073,5 +1073,5 @@ Scenario: 12 Verify you can transfer tab with new table.
 			Given screen state: 254
 			Then clicked /MidButtons/,[Close]
 #Action: 24 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

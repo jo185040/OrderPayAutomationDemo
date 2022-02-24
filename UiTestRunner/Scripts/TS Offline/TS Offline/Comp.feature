@@ -8,7 +8,7 @@ Scenario: 1 Manager Comp
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -31,10 +31,10 @@ Scenario: 1 Manager Comp
 			Given screen state: 130
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 352
+			Given screen state: 514
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
@@ -56,5 +56,5 @@ Scenario: 1 Manager Comp
 			Then verify presence of /Comps/,"MGR COMP","-41.94","Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

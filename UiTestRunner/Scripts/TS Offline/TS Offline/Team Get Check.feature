@@ -8,7 +8,7 @@ Scenario: 1 Team Get Check on Floorplan
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -36,7 +36,7 @@ Scenario: 1 Team Get Check on Floorplan
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 10 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 11 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -48,7 +48,7 @@ Scenario: 1 Team Get Check on Floorplan
 			Given screen state: 211
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 
 Scenario: 2 No Access To Server
@@ -58,7 +58,7 @@ Scenario: 2 No Access To Server
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -86,13 +86,13 @@ Scenario: 2 No Access To Server
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 10 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 11 Dismiss Error Message
 			Given screen state: 487
 			Then clicked [OK]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
 #Action: 13 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -100,7 +100,7 @@ Scenario: 2 No Access To Server
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 14 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 15 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -112,5 +112,5 @@ Scenario: 2 No Access To Server
 			Given screen state: 211
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]

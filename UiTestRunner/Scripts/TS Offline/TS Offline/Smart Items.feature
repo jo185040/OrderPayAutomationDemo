@@ -8,7 +8,7 @@ Scenario: 1 Verify smart items work with no issue (Smart Beer submenu)
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 492
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -40,5 +40,5 @@ Scenario: 1 Verify smart items work with no issue (Smart Beer submenu)
 			Then verify presence of /ItemEntries/,"Seat 1","PT MILLER LITE","5.00","MILLER LITE","3.00",/Comps/,"Sub Total",/Taxes/,"8.00","Tax","0.00","Total","8.00",/Tenders/,"CASH","8.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 492
 			When clicked [Exit]
