@@ -26,7 +26,7 @@ Scenario: 1 Select Printer
 			Given screen state: 318
 			Then clicked /BottomButtons/,[Select\Printer]
 #Action: 7 Select Bixlon Printer
-			Given screen state: 488
+			Then verify presence of /Dialog/,"Select default printer",^Bixolon^,^Bixlon Kitchen^,[Cancel],[OK]
 			Then clicked /Dialog/,^Bixolon^
 			Then clicked /Dialog/,[OK]
 #Action: 8 Exit

@@ -68,10 +68,10 @@ Scenario: 2 Add item with Forced Modifier
 			Then verify presence of /MenuOrModButtons/,"COMBO 3"
 			Then clicked "Quick Burger"
 #Action: 6 Apply HERE Ordermode
-			Given screen state: 360
+			Given screen state: 531
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
-			Given screen state: 360
+			Given screen state: 531
 			Then clicked [$]
 #Action: 8 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"Balance Due","$6.36"
@@ -181,7 +181,7 @@ Scenario: 4 Delete Modifier
 			Given screen state: 176
 			Then clicked [ADD\CHICKEN]
 #Action: 10 On Modify Item
-			Given screen state: 387
+			Given screen state: 360
 			Then clicked /EntriesBySeat/,"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
 			Then clicked [Modify]
 #Action: 11 On Delete Chicken
@@ -243,13 +243,13 @@ Scenario: 5 Verify Bread Scenario
 			Given screen state: 389
 			Then clicked /FixedBottomButtons/,[Modify]
 #Action: 11 On Bread Spreads Select Chive Spread
-			Given screen state: 389
+			Given screen state: 368
 			Then clicked [Chive Spread]
 #Action: 12 Press OK
 			Given screen state: 181
 			Then clicked [OK]
 #Action: 13 Dismiss Error Message
-			Given screen state: 182
+			Then verify presence of /Dialog/,"Warning","At least 1 of Spread Light T is required",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 14 On Spread Light Modscreen Select Bacon
 			Given screen state: 181
@@ -295,10 +295,10 @@ Scenario: 6 Verify adding separate modifier on panel
 			Given screen state: 180
 			Then clicked [Add Ice Mod]
 #Action: 7 Apply HERE Ordermode
-			Given screen state: 391
+			Given screen state: 180
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
-			Given screen state: 391
+			Given screen state: 180
 			Then clicked [$]
 #Action: 9 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
@@ -412,7 +412,7 @@ Scenario: 8 Burrito Classic Modifier Flow
 
 Scenario: 9 Wrap Modifier Flow
 #Action: 1 Login as manager 200
-			#TODO ALOHAP-35825
+			#TODO ALOHAP-36047
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]

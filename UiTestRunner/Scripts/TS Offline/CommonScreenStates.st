@@ -45,6 +45,252 @@ State:575
 	[BAR]
 	[1.3]
 	[6]
+State:532
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE\ COKE"
+	"2.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:531
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Quick Burger\ CUP\ CHEESECAKE"
+	"5.99"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:530
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
+	"41.94"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:529
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Update\Check*]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:528
 /OrderScreen/
 /TopLeftButtons/
@@ -918,63 +1164,6 @@ State:515
 	[Delete]
 	[Hold]
 	""
-State:514
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"BBQ RIBS\ FULL RACK\ Baked Potato\ CUP"
-	""
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Update\Check]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
 State:513
 /OrderScreen/
 /TopLeftButtons/
@@ -1419,11 +1608,6 @@ State:507
 	[Hold]
 	""
 State:506
-/Dialog/
-	"Clear All Unordered Items"
-	"Are you sure you want to clear all items which have not been held or ordered?"
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -1442,7 +1626,7 @@ State:506
 /EntriesBySeat/
 	"Seat 1"
 	"COKE"
-	""
+	"2.00"
 /Seats/
 	[T]
 	[1]
@@ -1472,10 +1656,10 @@ State:506
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
+	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -1484,6 +1668,11 @@ State:506
 	[Delete]
 	[Hold]
 	""
+/Dialog/
+	"Clear All Unordered Items"
+	"Are you sure you want to clear all items which have not been held or ordered?"
+	[Cancel]
+	[OK]
 State:505
 /TenderScreen/
 /TopRightButtons/
@@ -6891,7 +7080,7 @@ State:405
 /EntriesBySeat/
 	"Seat 1"
 	"3pcDrkBrstr\ SP Bean C\ Carrots\ Cherry Bread\ Carml Sundae\ Coco CrmPie"
-	"9.99\\\\\1.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -6924,7 +7113,7 @@ State:405
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -7490,7 +7679,7 @@ State:393
 /EntriesBySeat/
 	"Seat 1"
 	"Burrito Classic\ Verde\ Tomato\ Tomato"
-	"11.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -7523,7 +7712,7 @@ State:393
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -7604,7 +7793,7 @@ State:391
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat]
+	[Split Seat*]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -7616,13 +7805,13 @@ State:391
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Seat 1"
-	"7 UP\ Ice"
-	"2.00"
-/Seats/
-	[T]
-	[1]
-	[+]
+	"Table"
+	"COKE"
+	""
+	"PORK NACHOS"
+	".2"
+	"MILLER LITE"
+	".3"
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -7633,18 +7822,25 @@ State:391
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"Mod Menu"
-	"PORK\CHOP"
-	"Special\Burger"
-	"BBQ\RIBS"
-	[Add Ice Mod]
-	[Back to Menu]
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -7705,10 +7901,10 @@ State:390
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -7735,7 +7931,7 @@ State:389
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread"
+	"Bread\ Garlic Spread"
 	""
 /Seats/
 	[T]
@@ -7781,35 +7977,6 @@ State:389
 	[Delete]
 	[Hold]
 	""
-/ModifierScreen/
-	"Bread"
-	"(Optional modifiers, but no more than 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"Bread"
-	"---"
-	"- Garlic Spread"
-/CenterCategoryButtons/
-	[Breads Spreads]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Garlic Spread]
-	[*]
-	[Chive Spread]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:388
 /OrderScreen/
 /TopLeftButtons/
@@ -8321,7 +8488,7 @@ State:380
 /EntriesBySeat/
 	"Seat 1"
 	"Special Burger\ RARE\ BACON"
-	"6.50"
+	""
 /Seats/
 	[T]
 	[1]
@@ -8344,7 +8511,7 @@ State:380
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -8483,7 +8650,7 @@ State:377
 /EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP\ MEDIUM\ Black Beans\ CUP"
-	"11.99\\1.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -8509,7 +8676,7 @@ State:377
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -8648,7 +8815,7 @@ State:374
 /EntriesBySeat/
 	"Seat 1"
 	"PORK CHOP\ MEDIUM\ Red Beans\ CUP"
-	"12.99"
+	""
 /Seats/
 	[T]
 	[1]
@@ -8674,7 +8841,7 @@ State:374
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -8981,41 +9148,44 @@ State:368
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\ NO Ice"
-	"2.00"
+	"Bread\ Garlic Spread"
+	""
 /Seats/
 	[T]
 	[1]
 	[+]
 /CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
 /MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -9024,6 +9194,35 @@ State:368
 	[Delete]
 	[Hold]
 	""
+/ModifierScreen/
+	"Bread"
+	"(Optional modifiers, but no more than 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Bread"
+	"---"
+	"- Garlic Spread"
+/CenterCategoryButtons/
+	[Breads Spreads]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Garlic Spread]
+	[*]
+	[Chive Spread]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
 State:367
 /OrderScreen/
 /TopLeftButtons/
@@ -9043,7 +9242,7 @@ State:367
 /EntriesBySeat/
 	"Seat 1"
 	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO"
-	"5.00\\0.80"
+	""
 /Seats/
 	[T]
 	[1]
@@ -9068,7 +9267,7 @@ State:367
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -9448,41 +9647,34 @@ State:360
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Quick Burger\ CUP\ CHEESECAKE"
-	"5.99"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	""
 /Seats/
 	[T]
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -9621,7 +9813,7 @@ State:357
 /EntriesBySeat/
 	"Seat 1"
 	"QUESADILLA\ ADD AVOCADO"
-	""
+	"5.00\0.80"
 /Seats/
 	[T]
 	[1]
@@ -9646,7 +9838,7 @@ State:357
 	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
-	[Update\Check]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -14358,8 +14550,8 @@ State:279
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\ COKE"
-	"2.00"
+	"TENDERLN WRAPS\ Baked Potato\ ADD AVOCADO"
+	"5.00\\0.80"
 /Seats/
 	[T]
 	[1]
@@ -14374,25 +14566,20 @@ State:279
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
 	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
+	"PORK\NACHOS"
+	"HELLS\CHIPS"
+	"QUESADILLA"
+	"HUMMUS\APP"
+	"FRIED MOZZ"
+	"POTATO\CHIPS"
+	"TENDERLN\WRAPS"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -14401,52 +14588,6 @@ State:279
 	[Delete]
 	[Hold]
 	""
-/ModifierScreen/
-	"COKE"
-	"(Please add between 1 and 99 modifiers)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"COKE"
-	"2.00"
-	"- COKE"
-/CenterCategoryButtons/
-	[Drink Refill]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[COKE]
-	[ICED TEA]
-	[*]
-	[DIET 7UP]
-	[*.2]
-	[*.3]
-	[ICED\COFFEE]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[DIET COKE]
-	[*.13]
-	[7 UP]
-	[COFFEE]
-/BottomLeftButtons/
-	[btnKeyboard*]
-	[Delete Modifier]
-	[Modify*]
-	[Special*]
-	[Cancel]
-	[OK]
 State:278
 /OrderScreen/
 /TopLeftButtons/
@@ -14498,10 +14639,10 @@ State:278
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -20595,7 +20736,7 @@ State:181
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Bread"
+	"Bread\ Garlic Spread"
 	""
 /Seats/
 	[T]
@@ -20695,7 +20836,7 @@ State:180
 /EntriesBySeat/
 	"Seat 1"
 	"7 UP"
-	""
+	"2.00"
 /Seats/
 	[T]
 	[1]
@@ -20718,7 +20859,7 @@ State:180
 	[Back to Menu]
 /BottomButtons/
 	[$]
-	[Update\Check]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
@@ -21425,7 +21566,7 @@ State:171
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"COKE\ COKE"
+	"COKE"
 	"2.00"
 /Seats/
 	[T]
@@ -21456,10 +21597,10 @@ State:171
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23311,7 +23452,7 @@ State:146
 /EntriesBySeat/
 	"Seat 1"
 	"COKE\ COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -23341,10 +23482,10 @@ State:146
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23353,51 +23494,6 @@ State:146
 	[Delete]
 	[Hold]
 	""
-/ModifierScreen/
-	"COKE"
-	"(Please add between 1 and 99 modifiers)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"COKE"
-	"2.00"
-/CenterCategoryButtons/
-	[Drink Refill]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[COKE]
-	[ICED TEA]
-	[*]
-	[DIET 7UP]
-	[*.2]
-	[*.3]
-	[ICED\COFFEE]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[DIET COKE]
-	[*.13]
-	[7 UP]
-	[COFFEE]
-/BottomLeftButtons/
-	[btnKeyboard*]
-	[Delete Modifier]
-	[Modify*]
-	[Special*]
-	[Cancel]
-	[OK]
 State:145
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -23586,10 +23682,10 @@ State:142
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23695,10 +23791,10 @@ State:141
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23840,10 +23936,10 @@ State:139
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -23947,10 +24043,10 @@ State:138
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
+	[Update\Check*]
 	[Select\Printer]
 	[Void]
 	[Transfer]
-	[Scan\Barcode]
 /FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
@@ -25038,7 +25134,7 @@ State:127
 /EntriesBySeat/
 	"Seat 1"
 	"COMBO 3\ TILAPIA\  FRIES\  PEPSI\ GRILLED CHCKEN\  FRIES\  PEPSI\ ROASTED CHCKEN\  FRIES\  PEPSI"
-	"10.00"
+	""
 /Seats/
 	[T]
 	[1]
@@ -25071,7 +25167,7 @@ State:127
 	"Pavels Meaty Bu"
 /BottomButtons/
 	[$]
-	[Update\Check*]
+	[Update\Check]
 	[Select\Printer]
 	[Void]
 	[Transfer]

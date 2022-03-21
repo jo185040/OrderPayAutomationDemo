@@ -60,6 +60,324 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:509
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"Sausage Pizza\ Large\ Pan\ Sausage"
+	"10.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"Peperoni\Pizza"
+	"Cheese\Pizza"
+	"Sausage\Pizza"
+	"Veg 7\Thin"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+State:508
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[SANDWICHES]
+	[PIZZA]
+	[BEER]
+	[RETAIL]
+	[Smart Beer]
+	[Combos]
+	[Burgers]
+	[Chicken & Fish]
+/MenuOrModButtons/
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+	"Warai Set (2)"
+	"Wrap"
+	"Burrito Classic"
+	"Burrito Persona"
+	"Bread"
+	"Platter"
+	"3pcDrkBrstr"
+	"Pavels Meaty Bu"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+/ModifierScreen/
+	"Wrap"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"Wrap"
+	"5.50"
+	"- 3 Bowl"
+	"- NO Onion"
+	"- Less Spicy"
+	"- Pastries"
+	"-  - ON BAGEL"
+/CenterCategoryButtons/
+	[ADD BACON]
+	[R.General MOD]
+	[Mods A-F]
+	[Desserts]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[Milk Pudding]
+	[Chocolate Ice]
+	[*]
+	[*.2]
+	[*.3]
+	[*.4]
+	[Pastries]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+State:507
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"11.99\\\\3.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
+/ModifierScreen/
+	"RIBEYE"
+	"(Please add exactly 1 modifier)"
+	[btnTopLeftCancel]
+	[btnTopRightClose]
+/Modifier_Container/
+/Modifier/
+	"RIBEYE"
+	"11.99"
+	"- BLACK & BLUE"
+	"- Baked Potato"
+	"- CAESAR SALAD"
+	"-  - ADD CHICKEN"
+/CenterCategoryButtons/
+	[MEAT TEMP]
+	[STARCH]
+	[SOUP MOD]
+/RightPanelButtons/
+/ModifierCodeButtons/
+	[No]
+	[Extra]
+	[Side]
+	[Half]
+/RightModifierButtons/
+	[BLACK & BLUE]
+	[MEDIUM\WELL]
+	[*]
+	[MEDIUM]
+	[*.2]
+	[*.3]
+	[*.4]
+	[*.5]
+	[*.6]
+	[*.7]
+	[*.8]
+	[*.9]
+	[*.10]
+	[*.11]
+	[*.12]
+	[*.13]
+	[MED RARE]
+	[*.14]
+	[RARE]
+	[WELL]
+/BottomLeftButtons/
+	[btnKeyboard]
+	[Delete Modifier]
+	[Modify]
+	[Special]
+	[Cancel]
+	[OK]
+State:506
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+	"11.99\\\\3.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+	"PORK\CHOP MODS"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:505
 /TenderScreen/
 /TopRightButtons/
@@ -813,8 +1131,8 @@ State:492
 	[+]
 /EntriesBySeat/
 	"Seat 1"
-	"Sausage Pizza\ Large\ Pan\ Sausage"
-	""
+	"COKE\ COKE"
+	"2.00"
 /Seats/
 	[T]
 	[1]
@@ -829,10 +1147,19 @@ State:492
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"Peperoni\Pizza"
-	"Cheese\Pizza"
-	"Sausage\Pizza"
-	"Veg 7\Thin"
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
 /BottomButtons/
 	[$]
 	[Select\Printer]
@@ -6371,16 +6698,17 @@ State:388
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan\Barcode]
 	[Select\Printer]
-	[Transfer]
 	[Void]
-	[Add\Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:387
 /OrderScreen/
@@ -19945,7 +20273,7 @@ State:171
 /EntriesBySeat/
 	"Seat 1"
 	"COKE\ COKE"
-	"2.00"
+	""
 /Seats/
 	[T]
 	[1]

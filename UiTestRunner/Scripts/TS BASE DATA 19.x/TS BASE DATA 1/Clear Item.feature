@@ -47,7 +47,7 @@ Scenario: 2 Delete Item on Empty Check
 			Given screen state: 318
 			Then clicked /FixedBottomButtons/,[Delete]
 #Action: 5 Dismiss Error COKE
-			Given screen state: 269
+			Then verify optional presence of /Dialog/,"Delete Item Error","You have not selected an item which can be deleted",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 6 Click Done
 			Given screen state: 318

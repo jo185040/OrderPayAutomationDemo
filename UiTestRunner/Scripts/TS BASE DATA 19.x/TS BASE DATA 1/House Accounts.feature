@@ -39,7 +39,7 @@ Scenario: 1 Pay with House Account & No Tip
 			Then clicked /DialogSeparator/,[8]
 			Then clicked /DialogSeparator/,[Ok]
 #Action: 11 Confirm Yes on Dialog
-			Given screen state: 456
+			Then verify presence of /Dialog/,"Confirm","Found account for TECH \Is this correct?",[No],[Yes]
 			Then clicked /Dialog/,[Yes]
 #Action: 12 Click Close
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"TECH","2.00","Change","$0.00"

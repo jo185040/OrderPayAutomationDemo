@@ -52,7 +52,7 @@ Scenario: 1 Verify you can add Order 3 Combo
 			Given screen state: 127
 			Then clicked [HERE]
 #Action: 16 Select $ on Payment Screen
-			Given screen state: 127
+			Given screen state: 529
 			Then clicked [$]
 #Action: 17 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61"

@@ -458,7 +458,7 @@ Scenario: 9 Verify you cannot refill a voided item
 			Given screen state: 171
 			Then clicked [Modify]
 #Action: 18 Select OK
-			Given screen state: 329
+			Then verify presence of /Dialog/,"Modify Void Item Error","You have items selected which have already been ordered",[OK]
 			Then clicked [OK]
 #Action: 19 Select Payment
 			Given screen state: 171

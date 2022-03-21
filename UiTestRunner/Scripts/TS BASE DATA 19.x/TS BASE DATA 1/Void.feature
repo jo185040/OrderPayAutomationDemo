@@ -68,7 +68,7 @@ Scenario: 2 Verify you can clear (delete) unordered an item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 6 Select OK
-			Given screen state: 056
+			Then verify presence of /Dialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 7 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -110,7 +110,7 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 10 Select Void Reason on Void Screen
-			Given screen state: 491
+			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 11 Select $ on Payment Screen

@@ -349,22 +349,27 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 #Action: 5 Order Water on Seat 1
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "WATER"
+			When waited 0.03
 #Action: 6 Order Coke on Seat 2
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /Seats/,[+]
 			Then clicked "COKE"
+			When waited 0.03
 #Action: 7 Order Coke on Seat 3
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /Seats/,[+]
 			Then clicked "DIET COKE"
+			When waited 0.03
 #Action: 8 Order Coke on Seat 4
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /Seats/,[+]
 			Then clicked "DIET 7UP"
+			When waited 0.03
 #Action: 9 Order Coke on Seat 5
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /Seats/,[+]
 			Then clicked "ICED TEA"
+			When waited 0.03
 #Action: 10 Split Check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[Split Check]

@@ -199,10 +199,10 @@ Scenario: 4 off $20 Dollars
 			Then verify presence of /RightModifierButtons/,[CUP]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [$]
 #Action: 11 Goto Promo Screen
 			Given screen state: 484

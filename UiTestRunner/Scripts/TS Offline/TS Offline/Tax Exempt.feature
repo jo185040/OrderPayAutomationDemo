@@ -31,10 +31,10 @@ Scenario: 1 Add Tax Exempt
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [$]
 #Action: 11 Add Tax Exempt
 			Given screen state: 484
@@ -83,10 +83,10 @@ Scenario: 2 Remove Tax Exempt
 			Then verify presence of /RightModifierButtons/,[HOUSE\SALAD]
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [$]
 #Action: 11 Add Tax Exempt
 			Given screen state: 484

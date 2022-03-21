@@ -18,12 +18,15 @@ Scenario: 1 Add Unordered Items
 #Action: 4 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
+			When waited 0.03
 #Action: 5 Add Pork Nachos
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
+			When waited 0.03
 #Action: 6 Add Miller Lite
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
+			When waited 0.03
 #Action: 7 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]

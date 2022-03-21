@@ -78,9 +78,11 @@ Scenario: 2 Lunch Combo
 #Action: 4 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
+			When waited 0.03
 #Action: 5 Order Pork Nachos
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
+			When waited 0.03
 #Action: 6 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS"
 			Then clicked [HERE]

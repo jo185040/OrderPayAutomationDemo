@@ -33,7 +33,7 @@ Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
 			Then clicked /Items/,^COKE^
 			Then clicked /Items/,[OK]
 #Action: 9 Select "Misring"
-			Given screen state: 491
+			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^MISRING^
 			Then clicked /Dialog/,[OK]
 #Action: 10 Select Payment
@@ -77,7 +77,7 @@ Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
 			When clicked /DialogSeparator/,[2],[0],[2]
 			And clicked /DialogSeparator/,[OK]
 #Action: 8 Select "OK"
-			Given screen state: 409
+			Then verify presence of /Dialog/,"Error","The supplied employee must login with a magcard",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 9 Select Payment
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
@@ -204,7 +204,7 @@ Scenario: 4 Comps: verify JIT screen can t be confirmed by not clocked in Manage
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 14 Dismiss Error Message
-			Given screen state: 413
+			Then verify presence of /Dialog/,"Error","The supplied employee must login with a magcard",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 15 Goto Promo Screen
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"

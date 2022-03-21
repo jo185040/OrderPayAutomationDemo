@@ -177,7 +177,7 @@ Scenario: 5 Verify you can delete Euro payment (Manager)
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
+			Given screen state: 512
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
@@ -226,13 +226,13 @@ Scenario: 6 Verify you cant delete payment without JIT screen approval (Ordertak
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
 #Action: 5 Add Pork Nachos
-			Then verify presence of /EntriesBySeat/,"COKE","2.00"
+			Given screen state: 522
 			Then clicked "PORK\NACHOS"
 #Action: 6 Add Miller Lite
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
 #Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
+			Given screen state: 391
 			Then clicked [HERE]
 #Action: 8 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"

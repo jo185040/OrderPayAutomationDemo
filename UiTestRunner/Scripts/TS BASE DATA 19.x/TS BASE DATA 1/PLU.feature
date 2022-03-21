@@ -117,7 +117,7 @@ Scenario: 3 PLU Items with Error
 			Then clicked /DialogSeparator/,[8]
 			Then clicked /DialogSeparator/,[OK]
 #Action: 7 Select "OK" on Message Dialog
-			Given screen state: 461
+			Then verify presence of /Dialog/,"Not Found","PLU/SKU number not found!",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 8 Exit FloorPlan
 			Then verify presence of /CenterMenuButtons/,[RETAIL]

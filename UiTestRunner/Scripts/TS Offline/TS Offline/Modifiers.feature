@@ -164,10 +164,10 @@ Scenario: 4 Add Item with Forced Modifier
 			Then verify presence of /MenuOrModButtons/,"COMBO 3"
 			Then clicked "Quick Burger"
 #Action: 6 Apply HERE Ordermode
-			Given screen state: 360
+			Given screen state: 531
 			Then clicked [HERE]
 #Action: 7 Select $ on Payment Screen
-			Given screen state: 360
+			Given screen state: 531
 			Then clicked [$]
 #Action: 8 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"Balance Due","$6.36"
@@ -216,8 +216,8 @@ Scenario: 5 Add item with Refill Drink
 #Action: 10 Apply HERE Ordermode
 			Given screen state: 171
 			Then clicked [HERE]
-#Action: 11 Select Coke
-			Given screen state: 171
+#Action: 11 Select Payment
+			Given screen state: 532
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 361
@@ -316,18 +316,18 @@ Scenario: 7 Verify refill can be deleted
 			Then clicked [OK]
 #Action: 10 Select Coke with refill
 			Given screen state: 171
-			Then clicked "COKE\ COKE"
+			Then clicked /EntriesBySeat/,"COKE"
 #Action: 11 Modify Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [Modify]
 #Action: 12 Select Coke with refill
-			Given screen state: 279
+			Given screen state: 139
 			Then clicked /Modifier/,"- COKE"
 #Action: 13 Delete Modifier Coke
-			Given screen state: 279
+			Given screen state: 139
 			Then clicked [Delete Modifier]
 #Action: 14 OK Modifier Coke
-			Given screen state: 146
+			Given screen state: 138
 			Then clicked [OK]
 #Action: 15 Select $ on Payment Screen
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -379,23 +379,23 @@ Scenario: 8 Verify refilled item can be voided
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 11 Select Coke on Check
-			Given screen state: 171
+			Given screen state: 532
 			Then clicked "COKE\ COKE"
 #Action: 12 Void COKE
-			Given screen state: 171
+			Given screen state: 532
 			Then clicked /BottomButtons/,[Void]
 #Action: 13 Select COKE on Void Screen
-			Given screen state: 365
+			Then verify presence of /Items/,"Seat 1",^COKE\ COKE^,"COKE\ COKE","2.00",[Cancel],[OK*]
 			Then clicked /Items/,^COKE\ COKE^
 #Action: 14 Select OK on Void Screen
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 15 Select Void Reason on Void Screen
-			Given screen state: 339
+			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select Payment
-			Given screen state: 171
+			Given screen state: 146
 			Then clicked [$]
 #Action: 17 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
@@ -441,32 +441,32 @@ Scenario: 9 Verify you cannot refill a voided item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 11 Select Coke on Check
-			Given screen state: 171
+			Given screen state: 532
 			Then clicked "COKE\ COKE"
 #Action: 12 Void COKE
-			Given screen state: 171
+			Given screen state: 532
 			Then clicked /BottomButtons/,[Void]
 #Action: 13 Select COKE on Void Screen
-			Given screen state: 365
+			Then verify presence of /Items/,"Seat 1",^COKE\ COKE^,"COKE\ COKE","2.00",[Cancel],[OK*]
 			Then clicked /Items/,^COKE\ COKE^
 #Action: 14 Select OK on Void Screen
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 15 Select Void Reason on Void Screen
-			Given screen state: 339
+			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select COKE refill on Guest Check
-			Given screen state: 171
+			Given screen state: 146
 			Then clicked "COKE\ COKE"
 #Action: 17 Modify Coke
-			Given screen state: 171
+			Given screen state: 146
 			Then clicked [Modify]
 #Action: 18 Select OK
-			Given screen state: 329
+			Then verify presence of /Dialog/,"Modify Void Item Error","You have items selected which have already been ordered",[OK]
 			Then clicked [OK]
 #Action: 19 Select Payment
-			Given screen state: 171
+			Given screen state: 146
 			Then clicked [$]
 #Action: 20 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
@@ -505,10 +505,10 @@ Scenario: 10 Verify Weighted Modifiers work with no issue
 			Given screen state: 130
 			Then clicked [CUP]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
-			Given screen state: 514
+			Given screen state: 530
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"Balance Due","$44.50"
@@ -562,7 +562,7 @@ Scenario: 11 Verify Tenderlin Wraps item contains exceptional mod group Pizza ri
 			Given screen state: 367
 			Then clicked [HERE]
 #Action: 13 Select $ on Payment Screen
-			Given screen state: 367
+			Given screen state: 279
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Then verify presence of /Comps/,"Sub Total","5.80",/Taxes/,"Tax","0.35","Total","6.15",/Tenders/,"Balance Due","$6.15"
@@ -576,7 +576,7 @@ Scenario: 11 Verify Tenderlin Wraps item contains exceptional mod group Pizza ri
 
 Scenario: 12 Verify adding mod with NO mod code is indicated by NO prefix on check
 #Action: 1 Login as manager 200
-			#TODO ALOHAP-35823
+			#TODO ALOHAP-36084
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -606,10 +606,10 @@ Scenario: 12 Verify adding mod with NO mod code is indicated by NO prefix on che
 			Given screen state: 155
 			Then clicked [OK]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 368
+			Given screen state: 500
 			Then clicked [HERE]
 #Action: 10 Select Coke
-			Given screen state: 368
+			Given screen state: 500
 			Then clicked [$]
 #Action: 11 Exact Payment
 			Given screen state: 369
@@ -623,7 +623,7 @@ Scenario: 12 Verify adding mod with NO mod code is indicated by NO prefix on che
 
 Scenario: 13 Verify adding mod with Extra mod code is indicated by XT prefix on check
 #Action: 1 Login as manager 200
-			#TODO ALOHAP-35823
+			#TODO ALOHAP-36084
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -760,7 +760,7 @@ Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
 
 Scenario: 16 Add Item with a Typed Modifier
 #Action: 1 Login as manager 200
-			#TODO  ALOHAP-35823
+			#TODO  ALOHAP-36084
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]

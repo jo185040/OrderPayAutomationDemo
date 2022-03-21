@@ -19,12 +19,15 @@ Scenario: 1 Auto Order Items
 #Action: 4 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
+			When waited .03
 #Action: 5 Add Pork Nachos
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
+			When waited .03
 #Action: 6 Add Miller Lite
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "MILLER\LITE"
+			When waited .03
 #Action: 7 Select $ on Payment Screen
 			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
 			Then clicked [$]

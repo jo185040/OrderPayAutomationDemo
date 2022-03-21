@@ -181,11 +181,11 @@ Scenario: 4 Delete Modifier
 			Given screen state: 176
 			Then clicked [ADD\CHICKEN]
 #Action: 10 On Modify Item
-			Given screen state: 387
-			Then clicked "-  - ADD CHICKEN"
-			Then clicked /BottomLeftButtons/,[Modify]
+			Given screen state: 506
+			Then clicked /EntriesBySeat/,"RIBEYE\ BLACK & BLUE\ Baked Potato\ CAESAR SALAD\  ADD CHICKEN"
+			Then clicked [Modify]
 #Action: 11 On Delete Chicken
-			Given screen state: 387
+			Given screen state: 507
 			Then clicked "-  - ADD CHICKEN"
 			Then clicked [Delete Modifier]
 			Then clicked [OK]
@@ -248,7 +248,7 @@ Scenario: 5 Verify Bread Scenario
 			Given screen state: 181
 			Then clicked [OK]
 #Action: 13 Dismiss Error Message
-			Given screen state: 182
+			Then verify presence of /Dialog/,"Warning","At least 1 of Spread Light T is required",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 14 On Spread Light Modscreen Select Bacon
 			Given screen state: 181
@@ -410,6 +410,7 @@ Scenario: 8 Burrito Classic Modifier Flow
 
 Scenario: 9 Wrap Modifier Flow
 #Action: 1 Login as manager 200
+			#TODO ALOHAP-36047
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
@@ -442,7 +443,7 @@ Scenario: 9 Wrap Modifier Flow
 			Given screen state: 504
 			Then clicked /RightModifierButtons/,[ON\BAGEL]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 394
+			Given screen state: 508
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
 			Given screen state: 394

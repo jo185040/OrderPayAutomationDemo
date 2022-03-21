@@ -137,7 +137,7 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 11 Dismiss Error Message
-			Given screen state: 144
+			Then verify presence of /Dialog/,"Warning","You may not have more than 3 items from the Pizza Toppings group.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 12 Select OK on Pizza Menu
 			Given screen state: 145
@@ -192,7 +192,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			Then clicked [Beef]
 			Then clicked [Beef]
 #Action: 9 Dismiss Error Message
-			Given screen state: 157
+			Then verify presence of /Dialog/,"Warning","You may not have more than 3 items from the Pizza Toppings group.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 10 Select Quiche Group
 			Given screen state: 158
@@ -319,10 +319,10 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 006
 			Then clicked [OK]
 #Action: 12 Apply HERE Ordermode
-			Given screen state: 492
+			Given screen state: 509
 			Then clicked [HERE]
 #Action: 13 Select $ on Payment Screen
-			Given screen state: 492
+			Given screen state: 509
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Given screen state: 417
@@ -429,7 +429,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /CenterMenuButtons/,[PIZZA]
 #Action: 11 Order Sausage Pizza
-			Given screen state: 492
+			Given screen state: 509
 			Then clicked "Veg 7\Thin"
 #Action: 12 Select Pizza Size
 			Given screen state: 151
@@ -538,7 +538,7 @@ Scenario: 9 Verify Repeat works on pizza items
 			Given screen state: 006
 			Then clicked [OK]
 #Action: 10 Repeat Item
-			Given screen state: 492
+			Given screen state: 509
 			Then clicked [Repeat]
 #Action: 11 Apply HERE Ordermode
 			Given screen state: 401
@@ -605,7 +605,7 @@ Scenario: 10 Verify you can void a pizza item
 			Then clicked /Dialog/,^MISRING^
 			Then clicked /Dialog/,[OK]
 #Action: 14 Select $ on Payment Screen
-			Given screen state: 492
+			Given screen state: 509
 			Then clicked [$]
 #Action: 15 Click Close
 			Then verify presence of /Tenders/,"Change","$0.00"
