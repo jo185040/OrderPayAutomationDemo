@@ -443,7 +443,7 @@ Scenario: 9 Wrap Modifier Flow
 			Given screen state: 504
 			Then clicked /RightModifierButtons/,[ON\BAGEL]
 #Action: 9 Apply HERE Ordermode
-			Given screen state: 508
+			Given screen state: 394
 			Then clicked [HERE]
 #Action: 10 Select $ on Payment Screen
 			Given screen state: 394

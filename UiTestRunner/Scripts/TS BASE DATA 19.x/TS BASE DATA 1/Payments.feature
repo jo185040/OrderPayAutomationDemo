@@ -299,7 +299,7 @@ Scenario: 7 Delete Cash Payment Error Message
 			Given screen state: 211
 			Then clicked /BottomRightButtons/,[Delete]
 #Action: 11 Dismiss Error Message
-			Given screen state: 345
+			Given screen state: 508
 			Then clicked /Dialog/,[OK]
 #Action: 12 Click Close
 			Given screen state: 211

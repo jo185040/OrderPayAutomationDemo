@@ -81,7 +81,7 @@ Scenario: 3 Clear Item on Multiple Checks
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 8 Press OK, on Clear Item Dialog
-			Given screen state: 351
+			Then verify presence of /Dialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 9 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]

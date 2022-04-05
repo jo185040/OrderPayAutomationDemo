@@ -213,10 +213,10 @@ Scenario: 5 Add item with Refill Drink
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Apply HERE Ordermode
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked [HERE]
 #Action: 11 Select Coke
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked [$]
 #Action: 12 Exact Payment
 			Given screen state: 361
@@ -312,7 +312,7 @@ Scenario: 7 Verify refill can be deleted
 			Given screen state: 139
 			Then clicked [OK]
 #Action: 10 Select Coke with refill
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked "COKE\ COKE"
 #Action: 11 Modify Coke
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
@@ -375,10 +375,10 @@ Scenario: 8 Verify refilled item can be voided
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 11 Select Coke on Check
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked "COKE\ COKE"
 #Action: 12 Void COKE
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked /BottomButtons/,[Void]
 #Action: 13 Select COKE on Void Screen
 			Given screen state: 365
@@ -387,11 +387,11 @@ Scenario: 8 Verify refilled item can be voided
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 15 Select Void Reason on Void Screen
-			Given screen state: 339
+			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select Payment
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked [$]
 #Action: 17 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
@@ -436,10 +436,10 @@ Scenario: 9 Verify you cannot refill a voided item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
 #Action: 11 Select Coke on Check
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked "COKE\ COKE"
 #Action: 12 Void COKE
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked /BottomButtons/,[Void]
 #Action: 13 Select COKE on Void Screen
 			Given screen state: 365
@@ -448,7 +448,7 @@ Scenario: 9 Verify you cannot refill a voided item
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 15 Select Void Reason on Void Screen
-			Given screen state: 339
+			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select COKE refill on Guest Check

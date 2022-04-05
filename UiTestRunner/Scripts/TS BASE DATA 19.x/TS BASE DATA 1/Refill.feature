@@ -86,13 +86,13 @@ Scenario: 2 Repeat Refill Drink
 			Given screen state: 492
 			Then clicked [HERE]
 #Action: 11 Repeat Refill Drink
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked [Repeat]
 #Action: 12 Select OK Button
 			Given screen state: 348
 			Then clicked /Dialog/,[OK]
 #Action: 13 Select Payment $
-			Given screen state: 171
+			Given screen state: 492
 			Then clicked [$]
 #Action: 14 Exact Payment
 			Given screen state: 361

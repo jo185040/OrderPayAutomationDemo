@@ -29,7 +29,6 @@ Scenario: 1 Verify order item from Pizza Menu
 			Then clicked [Pan]
 #Action: 8 Select Sausage
 			Given screen state: 445
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
 			Given screen state: 006
@@ -134,7 +133,6 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			# 16.3.11 Select Sausage
 			Given screen state: 140
 			Then clicked [Beef]
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 11 Dismiss Error Message
 			Then verify presence of /Dialog/,"Warning","You may not have more than 3 items from the Pizza Toppings group.",[OK]
@@ -202,7 +200,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			Then clicked [VEGGIE]
 			Then clicked [VEGGIE]
 #Action: 12 Dismiss Error Message
-			Given screen state: 163
+			Then verify presence of /Dialog/,"Warning","You may not have more than 1 items from the QUICHE group.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 13 Select Cheese Group
 			Given screen state: 170
@@ -212,7 +210,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			Then clicked [CHEDDAR]
 			Then clicked [CHEDDAR]
 #Action: 15 Dismiss Error Message
-			Given screen state: 183
+			Then verify presence of /Dialog/,"Warning","You may not have more than 1 items from the CHEESE group.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select OK on Pizza Menu
 			Given screen state: 185
@@ -258,7 +256,6 @@ Scenario: 5 Verify you can order a pizza without selecting a pizza size
 			Then clicked [Pan]
 #Action: 7 Select Sausage
 			Given screen state: 450
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 8 Select OK on Pizza Menu
 			Given screen state: 216
@@ -304,13 +301,12 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Then clicked [Large]
 #Action: 7 Select Sausage
 			Given screen state: 449
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 8 Select OK on Pizza Menu
 			Given screen state: 258
 			Then clicked [OK]
 #Action: 9 Dismiss Error Message
-			Given screen state: 264
+			Then verify presence of /Dialog/,"Warning","You are required to enter exactly 1 item(s) from the Pizza Crust mod group.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 10 Select Pizza Crust
 			Given screen state: 258
@@ -364,7 +360,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			Given screen state: 270
 			Then clicked [OK]
 #Action: 9 Dismiss Error Message
-			Given screen state: 272
+			Then verify presence of /Dialog/,"Warning","You are required to enter between 1 and 3 item(s) from the Pizza Toppings mod group.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 10 Select Chicken
 			Given screen state: 270
@@ -420,7 +416,6 @@ Scenario: 8 Verify you add a pizza to a split check
 			Then clicked [Pan]
 #Action: 8 Select Sausage
 			Given screen state: 445
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
 			Given screen state: 006
@@ -531,8 +526,6 @@ Scenario: 9 Verify Repeat works on pizza items
 			Given screen state: 449
 			Then clicked [Pan]
 #Action: 8 Select Sausage
-			Given screen state: 445
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
 			Given screen state: 006
@@ -584,7 +577,6 @@ Scenario: 10 Verify you can void a pizza item
 			Then clicked [Pan]
 #Action: 8 Select Sausage
 			Given screen state: 445
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select OK on Pizza Menu
 			Given screen state: 006
@@ -715,7 +707,7 @@ Scenario: 12 Verify you can only order 3 toppings with pizza halves
 			Then clicked [Chicken]
 			Then clicked [Chicken]
 #Action: 12 Dismiss the OK button
-			Given screen state: 407
+			Then verify presence of /Dialog/,"Warning","You may not have more than 3 items from the Pizza Toppings group.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 13 Select OK on Pizza Menu
 			Given screen state: 408
@@ -765,7 +757,6 @@ Scenario: 13 Verify you can add a typed modifier to a pizza item
 			Then clicked [Pan]
 #Action: 8 Select Sausage
 			Given screen state: 445
-			When swiped left on /CenterModButtons(size 0.5)/
 			Then clicked [Sausage]
 #Action: 9 Select Typewriter icon
 			Given screen state: 006

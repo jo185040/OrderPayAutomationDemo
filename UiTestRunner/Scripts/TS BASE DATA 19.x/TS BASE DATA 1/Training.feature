@@ -18,9 +18,11 @@ Scenario: 1 Open Table as a Training Emp
 #Action: 4 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
+			When waited 0.03
 #Action: 5 Add Pork Nachos
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "PORK\NACHOS"
+			When waited 0.03
 #Action: 6 Apply HERE Ordermode
 			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00","PORK NACHOS","5.00"
 			Then clicked [HERE]

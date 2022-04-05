@@ -113,105 +113,67 @@ State:509
 	[Hold]
 	""
 State:508
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
+/TenderScreen/
 /TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
 	"Table 1"
-	[Clear]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"MILLER LITE"
+	"3.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"10.00"
+/Taxes/
+	"Tax"
+	"0.31"
+	"Total"
+	"10.31"
+/Tenders/
+	"CASH"
+	"10.31"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
 	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"Wrap"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"Wrap"
-	"5.50"
-	"- 3 Bowl"
-	"- NO Onion"
-	"- Less Spicy"
-	"- Pastries"
-	"-  - ON BAGEL"
-/CenterCategoryButtons/
-	[ADD BACON]
-	[R.General MOD]
-	[Mods A-F]
-	[Desserts]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Milk Pudding]
-	[Chocolate Ice]
-	[*]
-	[*.2]
-	[*.3]
-	[*.4]
-	[Pastries]
 /BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+/Dialog/
+	"Warning"
+	"You must first touch the payment, comp,\promo, gratuity, or tax exempt\which you wish to delete."
 	[OK]
 State:507
 /OrderScreen/
@@ -3451,10 +3413,12 @@ State:450
 	"Pan"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -3488,10 +3452,12 @@ State:449
 	"Large"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -3686,10 +3652,12 @@ State:445
 	"Pan"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -4217,7 +4185,6 @@ State:435
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4271,7 +4238,6 @@ State:434
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4655,11 +4621,12 @@ State:427
 /Tenders/
 	"CASH"
 	"11.67"
+	"Change"
+	"$0.00"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close]
 /MidLeftButtons/
 	[CASH]
@@ -4694,6 +4661,7 @@ State:426
 	"Table 1"
 	[Check 1]
 /ItemEntries/
+	"Seat 1"
 	"Veg 7 Thin\ Large\ Pan\ Cheese\ Chicken\ Beef\ VEGGIE\ CHEDDAR"
 	"11.00"
 /Promos/
@@ -4706,13 +4674,10 @@ State:426
 	"Total"
 	"11.67"
 /Tenders/
-	"Balance Due"
-	"$11.67"
 /MidButtonsTop/
 	[GCP]
 /MidButtons/
 	[Gift Card Balance]
-	[Saved Card*]
 	[Close*]
 /MidLeftButtons/
 	[CASH]
@@ -4770,15 +4735,17 @@ State:425
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
-	[Add Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
+	[Hold]
 	""
 State:424
 /TenderScreen/
@@ -5460,7 +5427,9 @@ State:412
 	"Sausage"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
 	[Sausage]
 	[Pepperoni]
 	[Onions]
@@ -5678,10 +5647,14 @@ State:408
 	"Beef.3"
 	"1/2.2"
 	"Chicken"
-/CenterModButtons/
+	"Chicken.2"
+	"Chicken.3"
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -5765,10 +5738,12 @@ State:406
 	"Beef.2"
 	"Beef.3"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -6079,10 +6054,12 @@ State:400
 /Items/
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -6119,10 +6096,12 @@ State:399
 	"Beef"
 	"1/2.2"
 	"Chicken"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -6158,10 +6137,12 @@ State:398
 	"1/2"
 	"Beef"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -6196,10 +6177,12 @@ State:397
 	"Pan"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -6233,10 +6216,12 @@ State:396
 	"Large"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -6269,10 +6254,12 @@ State:395
 /Items/
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -13129,15 +13116,17 @@ State:280
 	"Veg 7\Thin"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
-	[Add Saved Card]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
+	[Delete]
+	[Hold]
 	""
 State:279
 /OrderScreen/
@@ -13448,10 +13437,12 @@ State:275
 	"Cheese"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -13487,10 +13478,12 @@ State:274
 	"Chicken"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -13688,10 +13681,12 @@ State:270
 	"Pan"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -13787,10 +13782,12 @@ State:268
 	"Large"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -13937,10 +13934,12 @@ State:265
 /Items/
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -14160,7 +14159,9 @@ State:258
 	"Sausage"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
 	[Sausage]
 	[Pepperoni]
 	[Onions]
@@ -14530,10 +14531,10 @@ State:252
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:251
 /WWTScreen/
-	"JEFFREY"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	"j1"
 	[New Tab]
@@ -16497,7 +16498,9 @@ State:216
 	"Sausage"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
 	[Sausage]
 	[Pepperoni]
 	[Onions]
@@ -19137,8 +19140,10 @@ State:185
 	"VEGGIE"
 	"CHEDDAR"
 	"1/2"
-/CenterModButtons/
+	"1/2.2"
 	[CHEDDAR]
+	[GOUDA]
+	[SWISS]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -20044,8 +20049,9 @@ State:174
 	"VEGGIE"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[CHEDDAR]
+	[GOUDA]
+	[SWISS]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -20349,8 +20355,8 @@ State:170
 	"VEGGIE"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[VEGGIE]
+	[MEAT]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -21130,8 +21136,8 @@ State:161
 	"Beef"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[VEGGIE]
+	[MEAT]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -21363,10 +21369,12 @@ State:158
 	"Beef"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -21450,10 +21458,12 @@ State:156
 	"Pan"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -21772,10 +21782,12 @@ State:152
 	"Large"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -21810,10 +21822,12 @@ State:151
 /Items/
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -22338,7 +22352,9 @@ State:145
 	"Beef"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
 	[Sausage]
 	[Pepperoni]
 	[Onions]
@@ -22693,10 +22709,12 @@ State:140
 	"Cheese"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -24932,10 +24950,10 @@ State:114
 	[Cancel]
 State:113
 /WWTScreen/
-	"MIGUEL"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"MIGUEL"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	"j1"
 	"j2"
@@ -24958,10 +24976,10 @@ State:113
 	[Order\Descending]
 State:112
 /WWTScreen/
-	"MIGUEL"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"MIGUEL"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	"j1"
 	[New Tab]
@@ -25000,10 +25018,10 @@ State:112
 	[OK]
 State:111
 /WWTScreen/
-	"MIGUEL"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"MIGUEL"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
@@ -25025,10 +25043,10 @@ State:111
 	[Order\Descending]
 State:110
 /WWTScreen/
-	"MIGUEL"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"MIGUEL"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
@@ -25051,10 +25069,10 @@ State:110
 	[Order\Descending]
 State:109
 /WWTScreen/
-	"MIGUEL"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"MIGUEL"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	"j1"
 	[New Tab]
@@ -25284,10 +25302,10 @@ State:105
 	[Ok]
 State:104
 /WWTScreen/
-	"MIGUEL"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"MIGUEL"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
@@ -25309,10 +25327,10 @@ State:104
 	[Order\Descending]
 State:103
 /WWTScreen/
-	"LEBRON"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"LEBRON"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
@@ -27450,10 +27468,10 @@ State:056
 	""
 State:055
 /WWTScreen/
-	"JEFFREY"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
@@ -28244,10 +28262,10 @@ State:039
 	[btnHideOrShowKeyboard]
 State:038
 /WWTScreen/
-	"JEFFREY"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
@@ -28285,10 +28303,10 @@ State:037
 	[Cancel]
 State:036
 /WWTScreen/
-	"JEFFREY"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
@@ -28564,10 +28582,10 @@ State:027
 	[Cancel]
 State:026
 /WWTScreen/
-	"MIGUEL"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"MIGUEL"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	"j2"
 	[New Tab]
@@ -29195,7 +29213,9 @@ State:007
 	"Sausage"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
 	[Sausage]
 	[Pepperoni]
 	[Onions]
@@ -29280,7 +29300,9 @@ State:006
 	"Sausage"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
+	[Cheese]
+	[Chicken]
+	[Beef]
 	[Sausage]
 	[Pepperoni]
 	[Onions]
@@ -29319,10 +29341,12 @@ State:005
 	"Chicken"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -29357,10 +29381,12 @@ State:004
 	"Pan"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -29394,10 +29420,12 @@ State:003
 	"Large"
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]
@@ -29430,10 +29458,12 @@ State:002
 /Items/
 	"1/2"
 	"1/2.2"
-/CenterModButtons/
 	[Cheese]
 	[Chicken]
 	[Beef]
+	[Sausage]
+	[Pepperoni]
+	[Onions]
 /BottomCenterButtons/
 	[OK]
 	[Cancel]

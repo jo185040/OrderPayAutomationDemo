@@ -18,9 +18,11 @@ Scenario: 1 Split Item into 2 Items
 #Action: 4 Add 7Up to default Seat 1
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "7 UP"
+			When waited 0.03
 #Action: 5 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
+			When waited 0.03
 #Action: 6 Open Split Seat screen
 			Given screen state: 290
 			Then clicked /TopLeftButtons/,[Split Check]
@@ -79,7 +81,7 @@ Scenario: 2 Split Item into 3 Items
 #Action: 8 Select Split Item
 			Given screen state: 319
 			Then clicked [Split Items]
-#Action: 9 Select 2 on Entity
+#Action: 9 Select 3 on Entity
 			Given screen state: 291
 			Then clicked /DialogSeparator/,[3]
 			Then clicked /DialogSeparator/,[OK]

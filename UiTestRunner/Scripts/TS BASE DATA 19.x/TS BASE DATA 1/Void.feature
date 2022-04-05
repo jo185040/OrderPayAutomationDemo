@@ -34,7 +34,7 @@ Scenario: 1 Verify you can void items with no issues
 			Given screen state: 023
 			Then clicked /Items/,[OK]
 #Action: 10 Select Void Reason on Void Screen
-			Given screen state: 475
+			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 11 Select $ on Payment Screen
@@ -91,12 +91,15 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 #Action: 4 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
+			When waited .03
 #Action: 5 Apply HERE Ordermode
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked [HERE]
+			When waited 0.03
 #Action: 6 Void COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /BottomButtons/,[Void]
+			When waited 0.03
 #Action: 7 Enter manager 20 on JIT Screen
 			Given screen state: 148
 			Then clicked /DialogSeparator/,[2]
