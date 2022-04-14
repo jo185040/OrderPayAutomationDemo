@@ -23,8 +23,8 @@ Scenario: 1 Clear Item on Empty Check
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 6 Delete COKE
-			Then verify presence of /ConfirmDialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
-			Then clicked /ConfirmDialog/,[OK]
+			Then verify presence of /Dialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
+			Then clicked /Dialog/,[OK]
 #Action: 7 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When clicked /TopLeftButtons/,[Done]
@@ -45,10 +45,10 @@ Scenario: 2 Delete Item on Empty Check
 			Then verify absence of "Enter Guest Count"
 #Action: 4 Delete COKE
 			Given screen state: 241
-			Then clicked /BottomButtons/,[Delete]
+			Then clicked [Delete]
 #Action: 5 Dismiss Error COKE
-			Given screen state: 517
-			Then clicked /DialogSeparator/,[OK]
+			Then verify presence of /Dialog/,"Delete Item Error","You have not selected an item which can be deleted",[OK]
+			Then clicked /Dialog/,[OK]
 #Action: 6 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When clicked /TopLeftButtons/,[Done]

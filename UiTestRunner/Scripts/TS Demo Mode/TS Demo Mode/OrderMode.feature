@@ -34,7 +34,7 @@ Scenario: 1 Dine-In Order Mode
 			Given screen state: 247
 			Then clicked [Exact]
 #Action: 10 Click Close
-			Given screen state: 248
+			Given screen state: 343
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
 			Given screen state: 558

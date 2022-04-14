@@ -34,16 +34,16 @@ Scenario: 1 Delete Cash Payment
 			Given screen state: 247
 			Then clicked [Exact]
 #Action: 10 Select Cash Payment
-			Given screen state: 248
+			Given screen state: 343
 			Then clicked /Tenders/,"Cash"
 #Action: 11 Delete Cash Payment
-			Given screen state: 248
+			Given screen state: 343
 			Then clicked /BottomRightButtons/,[Delete]
 #Action: 12 Exact Payment
-			Given screen state: 248
+			Given screen state: 343
 			Then clicked [Exact]
 #Action: 13 Click Close
-			Given screen state: 248
+			Given screen state: 343
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
 			Given screen state: 558

@@ -32,7 +32,7 @@ Scenario: 1 Auto Order Items
 			Given screen state: 247
 			Then clicked [Exact]
 #Action: 9 Click Close
-			Given screen state: 248
+			Given screen state: 343
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
 			Given screen state: 558

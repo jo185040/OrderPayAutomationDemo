@@ -63,13 +63,10 @@ State:558
 	[Detach\Tables]
 	[2]
 	[Combine\Tables]
-	[Adjust\Tips]
 	[8]
 	[BAR]
 	[3]
-	[Open\Drawer]
 	[6]
-	[Get\Check]
 State:522
 /TenderScreen/
 /TopRightButtons/
@@ -9096,6 +9093,128 @@ State:364
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:363
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 2"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"7.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Cash"
+	"7.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:362
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 2"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"7.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Balance Due"
+	"$7.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:361
 /OrderScreen/
 /TopLeftButtons/
@@ -9575,6 +9694,31 @@ State:355
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:354
+/WWTScreen/
+	[Aloha]
+	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
+/Tabs/
+	[New Tab]
+/Tables/
+	"2"
+	[New Table]
+/TopRightButtons/
+	[Exit]
+	[Get Check]
+	[View Tips]
+	[Transfer Table]
+	[Back]
+/CenterRightButtons/
+	[Show\Time opened]
+/BottomRightButtons/
+	"Sort by:"
+	[Time Created]
+	[Name]
+	[Time Opened]
+	[Order\Descending]
 State:353
 /OrderScreen/
 /TopLeftButtons/
@@ -10376,6 +10520,69 @@ State:344
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:343
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"MILLER LITE"
+	"2.00.2"
+/Promos/
+/Comps/
+	"Sub Total"
+	"9.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"9.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Cash"
+	"9.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:342
 /OrderScreen/
 /TopLeftButtons/
@@ -10517,7 +10724,7 @@ State:340
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -10529,9 +10736,10 @@ State:340
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"PORK CHOP"
-	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -10553,15 +10761,17 @@ State:340
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -10571,9 +10781,9 @@ State:340
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
-	" - BLACK & BLUE"
-	" - Baked Potato"
+	"0.00"
+	"- BLACK & BLUE"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -10601,7 +10811,7 @@ State:339
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -10613,9 +10823,10 @@ State:339
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"PORK CHOP"
-	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -10637,15 +10848,17 @@ State:339
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -10655,8 +10868,8 @@ State:339
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
-	" - BLACK & BLUE"
+	"0.00"
+	"- BLACK & BLUE"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -10680,6 +10893,68 @@ State:339
 	[Special]
 	[Cancel]
 	[OK]
+State:338
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Table"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"MILLER LITE"
+	"2.00.2"
+/Promos/
+/Comps/
+	"Sub Total"
+	"9.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"9.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Balance Due"
+	"$9.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:337
 /TenderScreen/
 /TopRightButtons/
@@ -11377,6 +11652,32 @@ State:328
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:327
+/WWTScreen/
+	[Aloha]
+	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
+/Tabs/
+	[New Tab]
+/Tables/
+	"1"
+	"2"
+	[New Table]
+/TopRightButtons/
+	[Exit]
+	[Get Check]
+	[View Tips]
+	[Transfer Table]
+	[Back]
+/CenterRightButtons/
+	[Show\Time opened]
+/BottomRightButtons/
+	"Sort by:"
+	[Time Created]
+	[Name]
+	[Time Opened]
+	[Order\Descending]
 State:326
 /OrderScreen/
 /TopLeftButtons/
@@ -12933,7 +13234,7 @@ State:303
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -12945,9 +13246,10 @@ State:303
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"PORK CHOP"
-	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -12969,15 +13271,17 @@ State:303
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"PORK CHOP"
@@ -12987,7 +13291,7 @@ State:303
 /Modifier_Container/
 /Modifier/
 	"PORK CHOP"
-	"11.99"
+	"0.00"
 /CenterCategoryButtons/
 	[MEAT TEMP]
 	[STARCH]
@@ -15161,7 +15465,7 @@ State:267
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -15173,9 +15477,10 @@ State:267
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS\ 1/2 RACK\ 1/2 RACK\ Baked Potato\ CUP"
-	"11.99\14.95\14.95\\3.50"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -15197,22 +15502,24 @@ State:267
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:266
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -15224,9 +15531,10 @@ State:266
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS"
-	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -15248,15 +15556,17 @@ State:266
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -15266,10 +15576,10 @@ State:266
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
-	" - 1/2 RACK"
-	" - 1/2 RACK.2"
-	" - Baked Potato"
+	"0.00"
+	"- 1/2 RACK"
+	"- 1/2 RACK.2"
+	"- Baked Potato"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -15377,7 +15687,7 @@ State:263
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -15389,9 +15699,10 @@ State:263
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS"
-	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -15413,15 +15724,17 @@ State:263
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -15431,9 +15744,9 @@ State:263
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
-	" - 1/2 RACK"
-	" - 1/2 RACK.2"
+	"0.00"
+	"- 1/2 RACK"
+	"- 1/2 RACK.2"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -15462,7 +15775,7 @@ State:262
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -15474,9 +15787,10 @@ State:262
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS"
-	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -15498,15 +15812,17 @@ State:262
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -15516,8 +15832,8 @@ State:262
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
-	" - 1/2 RACK"
+	"0.00"
+	"- 1/2 RACK"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -16064,7 +16380,7 @@ State:253
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -16076,9 +16392,10 @@ State:253
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
-	"BBQ RIBS"
-	"11.99"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -16100,15 +16417,17 @@ State:253
 	"PORK\CHOP MODS"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 /ModifierScreen/
 	"BBQ RIBS"
@@ -16118,7 +16437,7 @@ State:253
 /Modifier_Container/
 /Modifier/
 	"BBQ RIBS"
-	"11.99"
+	"0.00"
 /CenterCategoryButtons/
 	[RIBS]
 	[STARCH]
@@ -16369,67 +16688,6 @@ State:249
 	[Modify]
 	[Delete]
 	""
-State:248
-/TenderScreen/
-/TopRightButtons/
-	[Tables]
-	[Order]
-	[Print]
-	[Print All]
-	[Email/SMS]
-	[Exit]
-/TopLeftButtons/
-	[Payment]
-	[Get Mobile Pay Code]
-	"Table 1"
-	[Check 1]
-/ItemEntries/
-	"COKE"
-	"2.00"
-	"PORK NACHOS"
-	"5.00"
-	"MILLER LITE"
-	"2.00.2"
-/Promos/
-/Comps/
-	"Sub Total"
-	"9.00"
-/Taxes/
-	"Tax"
-	""
-	".2"
-	"Total"
-	"9.00"
-/Gratuity/
-	"Gratuity"
-	""
-	"Total"
-	"0.00"
-/Tenders/
-	"Cash"
-	"9.00"
-	"Change"
-	"$0.00"
-/MidButtons/
-	[Gift Card Balance]
-	[Close]
-/MidLeftButtons/
-	[CASH]
-	[ECARD]
-	[Euro]
-	[Exact]
-	[House Acc]
-	[Euro Round]
-	[Room Charg]
-	[$10]
-/BottomRightButtons/
-	[Delete]
-/BottomLeftButtons/
-	[Loyalty]
-	[Add Gratuity]
-	[Tax Exempt]
-/WarningBarControl/
-	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:247
 /TenderScreen/
 /TopRightButtons/
@@ -16445,7 +16703,7 @@ State:247
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Table"
+	"Seat 1"
 	"COKE"
 	"2.00"
 	"PORK NACHOS"
@@ -16470,6 +16728,8 @@ State:247
 /Tenders/
 	"Balance Due"
 	"$9.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -16495,7 +16755,7 @@ State:246
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -16507,13 +16767,17 @@ State:246
 	[Check 1]
 	[+]
 /EntriesBySeat/
-	"Table"
+	"Seat 1"
 	"COKE"
 	"2.00"
 	"PORK NACHOS"
 	"5.00"
 	"MILLER LITE"
 	"2.00.2"
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -16539,15 +16803,17 @@ State:246
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:245
 /TenderScreen/
@@ -16564,7 +16830,7 @@ State:245
 	"Table 1"
 	[Check 2]
 /ItemEntries/
-	"Table"
+	"Seat 1"
 	"COKE"
 	"2.00"
 /Promos/
@@ -16587,6 +16853,8 @@ State:245
 	"2.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -16622,7 +16890,7 @@ State:244
 	"Table 1"
 	[Check 2]
 /ItemEntries/
-	"Table"
+	"Seat 1"
 	"COKE"
 	"2.00"
 /Promos/
@@ -16643,6 +16911,8 @@ State:244
 /Tenders/
 	"Balance Due"
 	"$2.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -16678,7 +16948,7 @@ State:243
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Table"
+	"Seat 1"
 	"COKE"
 	"2.00"
 /Promos/
@@ -16701,6 +16971,8 @@ State:243
 	"0.00"
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -16736,7 +17008,7 @@ State:242
 	"Table 1"
 	[Check 1]
 /ItemEntries/
-	"Table"
+	"Seat 1"
 	"COKE"
 	"2.00"
 /Promos/
@@ -16757,6 +17029,8 @@ State:242
 /Tenders/
 	"Change"
 	"$0.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
 	[Close]
@@ -16782,7 +17056,7 @@ State:241
 /TopLeftButtons/
 	[btnGoToFloorplan]
 	[Split Check]
-	[Split Seat*]
+	[Split Seat]
 	[Done]
 /TopRightButtons/
 	[HERE]
@@ -16794,6 +17068,10 @@ State:241
 	[Check 1]
 	[+]
 /EntriesBySeat/
+/Seats/
+	[T]
+	[1]
+	[+]
 /CenterMenuButtons/
 	[LUNCH MENU]
 	[DRINKS]
@@ -16819,15 +17097,17 @@ State:241
 	"ICED\COFFEE"
 /BottomButtons/
 	[$]
-	[Scan Barcode]
-	[Select Printer]
-	[Transfer]
+	[Select\Printer]
 	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
 	[Loyalty]
 	[Quantity]
 	[Repeat]
 	[Modify]
 	[Delete]
+	[Hold]
 	""
 State:240
 /OrderScreen/
@@ -30327,13 +30607,10 @@ State:025
 	[Detach\Tables]
 	[2]
 	[Combine\Tables]
-	[Adjust\Tips]
 	[8]
 	[BAR]
 	[3]
-	[Open\Drawer]
 	[6]
-	[Get\Check]
 /InputDialog/
 	"Enter Guest Count"
 	"1"
@@ -30351,7 +30628,6 @@ State:025
 	[Clear]
 	[0]
 	[OK]
-	[X]
 State:024
 /TransferTableScreen/
 	[btnWaiter]
