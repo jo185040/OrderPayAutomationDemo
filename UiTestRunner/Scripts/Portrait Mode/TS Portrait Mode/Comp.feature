@@ -8,7 +8,7 @@ Scenario: 1 Manager Comp
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -56,5 +56,5 @@ Scenario: 1 Manager Comp
 			Then verify presence of /Comps/,"MGR COMP","-41.94","Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

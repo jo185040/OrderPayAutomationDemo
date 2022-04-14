@@ -8,7 +8,7 @@ Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -43,7 +43,7 @@ Scenario: 1 Verify modifier flow for Pork Chop (Entree Menu)
 			Then verify presence of /Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Add item with Forced Modifier
@@ -53,7 +53,7 @@ Scenario: 2 Add item with Forced Modifier
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -80,7 +80,7 @@ Scenario: 2 Add item with Forced Modifier
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"Balance Due","$6.36","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Verify Combo Scenario
@@ -90,7 +90,7 @@ Scenario: 3 Verify Combo Scenario
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -144,7 +144,7 @@ Scenario: 3 Verify Combo Scenario
 			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61"
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 Delete Modifier
@@ -155,7 +155,7 @@ Scenario: 4 Delete Modifier
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -202,7 +202,7 @@ Scenario: 4 Delete Modifier
 			Then verify presence of /Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 5 Verify Bread Scenario
@@ -212,7 +212,7 @@ Scenario: 5 Verify Bread Scenario
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -266,7 +266,7 @@ Scenario: 5 Verify Bread Scenario
 			Then verify presence of /Comps/,"Sub Total","2.99",/Taxes/,"Tax","0.18","Total","3.17",/Tenders/,"Balance Due","$3.17","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 6 Verify adding separate modifier on panel
@@ -276,7 +276,7 @@ Scenario: 6 Verify adding separate modifier on panel
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -305,7 +305,7 @@ Scenario: 6 Verify adding separate modifier on panel
 			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 7 Burrito Persona Modifier Flow
@@ -315,7 +315,7 @@ Scenario: 7 Burrito Persona Modifier Flow
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -361,7 +361,7 @@ Scenario: 7 Burrito Persona Modifier Flow
 			Then verify presence of /Comps/,"Sub Total","11.00",/Taxes/,"Tax","0.67","Total","11.67",/Tenders/,"CASH","11.67"
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 8 Burrito Classic Modifier Flow
@@ -371,7 +371,7 @@ Scenario: 8 Burrito Classic Modifier Flow
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -405,7 +405,7 @@ Scenario: 8 Burrito Classic Modifier Flow
 			Then verify presence of /Comps/,"Sub Total","11.00",/Taxes/,"Tax","0.67","Total","11.67",/Tenders/,"Balance Due","$11.67","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 9 Wrap Modifier Flow
@@ -416,7 +416,7 @@ Scenario: 9 Wrap Modifier Flow
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -455,7 +455,7 @@ Scenario: 9 Wrap Modifier Flow
 			Given screen state: 404
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 10 pcDarkBrstr Modifier Flow
@@ -465,7 +465,7 @@ Scenario: 10 pcDarkBrstr Modifier Flow
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -506,7 +506,7 @@ Scenario: 10 pcDarkBrstr Modifier Flow
 			Then verify presence of /Comps/,"Sub Total","10.99",/Taxes/,"Tax","0.67","Total","11.66",/Tenders/,"Balance Due","$11.66","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 11 Platter Scenario - Stand Canapes
@@ -516,7 +516,7 @@ Scenario: 11 Platter Scenario - Stand Canapes
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -549,7 +549,7 @@ Scenario: 11 Platter Scenario - Stand Canapes
 			Given screen state: 218
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 12 Platter Scenario - Special Canapes
@@ -559,7 +559,7 @@ Scenario: 12 Platter Scenario - Special Canapes
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -596,5 +596,5 @@ Scenario: 12 Platter Scenario - Special Canapes
 			Given screen state: 223
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

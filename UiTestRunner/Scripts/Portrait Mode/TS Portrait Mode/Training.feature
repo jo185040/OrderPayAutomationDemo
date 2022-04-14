@@ -8,7 +8,7 @@ Scenario: 1 Open Table as a Training Emp
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -36,5 +36,5 @@ Scenario: 1 Open Table as a Training Emp
 			Given screen state: 212
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

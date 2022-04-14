@@ -8,7 +8,7 @@ Scenario: 1 Verify you can void items with no issues
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -44,7 +44,7 @@ Scenario: 1 Verify you can void items with no issues
 			Then verify presence of /ItemEntries/,"Seat 1","COKE",/Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Verify you can clear (delete) unordered an item
@@ -54,7 +54,7 @@ Scenario: 2 Verify you can clear (delete) unordered an item
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -81,7 +81,7 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -123,5 +123,5 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 			Then verify presence of /ItemEntries/,"Table","COKE",/Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

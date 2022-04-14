@@ -8,7 +8,7 @@ Scenario: 1 Delete Cash Payment
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -46,7 +46,7 @@ Scenario: 1 Delete Cash Payment
 			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Verify enabled Close button displays when there is a zero balance (Manager)
@@ -56,7 +56,7 @@ Scenario: 2 Verify enabled Close button displays when there is a zero balance (M
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -79,7 +79,7 @@ Scenario: 2 Verify enabled Close button displays when there is a zero balance (M
 			Then verify presence of /Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 9 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Verify you can pay with cash with predefined amount (Server)
@@ -89,7 +89,7 @@ Scenario: 3 Verify you can pay with cash with predefined amount (Server)
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -112,7 +112,7 @@ Scenario: 3 Verify you can pay with cash with predefined amount (Server)
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","10.00","Change","$8.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 9 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 Verify you can process Euro payment (Manager)
@@ -122,7 +122,7 @@ Scenario: 4 Verify you can process Euro payment (Manager)
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -148,7 +148,7 @@ Scenario: 4 Verify you can process Euro payment (Manager)
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Euro /1.33","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 5 Verify you can delete Euro payment (Manager)
@@ -158,7 +158,7 @@ Scenario: 5 Verify you can delete Euro payment (Manager)
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -202,7 +202,7 @@ Scenario: 5 Verify you can delete Euro payment (Manager)
 			Then verify presence of /Tenders/,"Euro /6.87","10.31","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 6 Verify you cant delete payment without JIT screen approval (Ordertaker)
@@ -213,7 +213,7 @@ Scenario: 6 Verify you cant delete payment without JIT screen approval (Ordertak
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -260,7 +260,7 @@ Scenario: 6 Verify you cant delete payment without JIT screen approval (Ordertak
 			Then verify presence of /ItemEntries/,"COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00",/Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.31","Total","10.31"
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 7 Delete Cash Payment Error Message
@@ -270,7 +270,7 @@ Scenario: 7 Delete Cash Payment Error Message
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -305,5 +305,5 @@ Scenario: 7 Delete Cash Payment Error Message
 			Given screen state: 211
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

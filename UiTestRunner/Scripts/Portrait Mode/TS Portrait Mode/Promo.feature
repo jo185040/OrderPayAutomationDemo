@@ -8,7 +8,7 @@ Scenario: 1 BOGO
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -58,7 +58,7 @@ Scenario: 1 BOGO
 			Then verify presence of /ItemEntries/,"Seat 1","LOBSTR MAC CHZ","11.99","TILAPIA","11.99",/Promos/,"BUY 1 GET 1 FREE","-11.99",/Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"CASH","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Lunch Combo
@@ -68,7 +68,7 @@ Scenario: 2 Lunch Combo
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -117,7 +117,7 @@ Scenario: 2 Lunch Combo
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","PORK NACHOS","5.00",/Promos/,"Lunch Combo","-1.50",/Comps/,"Sub Total","5.50",/Taxes/,"Tax","0.24","Total","5.74",/Tenders/,"CASH","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Free Dessert
@@ -127,7 +127,7 @@ Scenario: 3 Free Dessert
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -168,7 +168,7 @@ Scenario: 3 Free Dessert
 			Then verify presence of /Promos/,"$1 Dessert","-1.50",/Comps/,"Sub Total","1.00",/Taxes/,"Tax","0.06","Total","1.06",/Tenders/,"CASH","Change","$8.94"
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 off $20 Dollars
@@ -178,7 +178,7 @@ Scenario: 4 off $20 Dollars
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -222,7 +222,7 @@ Scenario: 4 off $20 Dollars
 			Then verify presence of /Promos/,"$5 Off $20 Dollars","-5.00",/Comps/,"Sub Total","36.94",/Taxes/,"Tax","2.25","Total","39.19",/Tenders/,"CASH","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 5 Coupon Type
@@ -232,7 +232,7 @@ Scenario: 5 Coupon Type
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -258,5 +258,5 @@ Scenario: 5 Coupon Type
 			Then verify presence of /Promos/,"Free Beer","-3.00",/Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

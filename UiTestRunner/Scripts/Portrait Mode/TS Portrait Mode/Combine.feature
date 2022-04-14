@@ -8,7 +8,7 @@ Scenario: 1 Combine Tables
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Combine Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [Combine\Tables]
 			Then clicked [1], [2], [3]
 			Then clicked [Combine\Tables]
@@ -47,5 +47,5 @@ Scenario: 1 Combine Tables
 			Then clicked /FloorPlanScreen/,[1],[1.2],[1.3]
 			Then clicked [Detach\Tables]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

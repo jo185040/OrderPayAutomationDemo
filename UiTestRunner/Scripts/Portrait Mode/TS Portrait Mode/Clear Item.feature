@@ -7,27 +7,31 @@ Scenario: 1 Clear Item on Guest Check
 			When clicked [2],[0],[0]
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 513
-			Then clicked "Press the + to create a Table"
+			Given screen state: 518
+			Then clicked /AddTableBtn/
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
 #Action: 4 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 5 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 537
 			Then clicked "COKE"
-#Action: 6 Clear Item
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /TableAndChecks/,[Clear]
-#Action: 7 Press OK, on Clear Item Dialog
+#Action: 7 Go Back to Guest Check
+			Given screen state: 538
+			Then clicked /OK/
+#Action: 8 Clear Item
+			Given screen state: 539
+			Then clicked /OK/,[btnDelete]
+#Action: 9 Press OK, on Clear Item Dialog
 			Given screen state: 056
 			Then clicked /Dialog/,[OK]
 			When waited .1
-#Action: 8 Click Done
+#Action: 10 Click Done
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			When clicked /TopLeftButtons/,[Done]
 
@@ -38,7 +42,7 @@ Scenario: 2 Delete Item on Empty Check
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -62,7 +66,7 @@ Scenario: 3 Clear Item on Multiple Checks
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025

@@ -8,7 +8,7 @@ Scenario: 1 Verify that you can split checks with unordered items using the Spli
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -63,7 +63,7 @@ Scenario: 1 Verify that you can split checks with unordered items using the Spli
 			Then verify presence of /Tenders/,"CASH","2.00","Change","$0.00",
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Verify that you can split checks with ordered items using the Split Button
@@ -73,7 +73,7 @@ Scenario: 2 Verify that you can split checks with ordered items using the Split 
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -119,7 +119,7 @@ Scenario: 2 Verify that you can split checks with ordered items using the Split 
 			Then verify presence of /ItemEntries/,"Seat 2","7 UP","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Verify that you can split checks with the + sign
@@ -129,7 +129,7 @@ Scenario: 3 Verify that you can split checks with the + sign
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -164,7 +164,7 @@ Scenario: 3 Verify that you can split checks with the + sign
 			Then verify presence of /ItemEntries/,"Seat 2","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 Verify you can split seats with items with modifiers
@@ -174,7 +174,7 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -237,7 +237,7 @@ Scenario: 4 Verify you can split seats with items with modifiers
 			Then verify presence of /Comps/,"Sub Total","53.88",/Taxes/,"Tax","3.29","Total","57.17",/Tenders/,"CASH","57.17","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 22 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 5 Verify you can split seat and put it to split check without leaving the split menu.
@@ -247,7 +247,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -326,7 +326,7 @@ Scenario: 5 Verify you can split seat and put it to split check without leaving 
 			Given screen state: 483
 			Then clicked /MidButtons/,[Close]
 #Action: 27 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 6 Verify if you have more than 5 checks on split check screen you get an arrows to change the checks
@@ -336,7 +336,7 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -432,5 +432,5 @@ Scenario: 6 Verify if you have more than 5 checks on split check screen you get 
 			Given screen state: 233
 			Then clicked /MidButtons/,[Close]
 #Action: 27 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

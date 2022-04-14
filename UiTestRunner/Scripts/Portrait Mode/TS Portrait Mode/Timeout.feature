@@ -8,7 +8,7 @@ Scenario: 1 Manager Timeout
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			When waited for 2.0 min
 #Action: 3 Login as manager 200
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -16,7 +16,7 @@ Scenario: 1 Manager Timeout
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 4 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Server Timeout
@@ -26,7 +26,7 @@ Scenario: 2 Server Timeout
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			When waited for 2.0 min
 #Action: 3 Login as server 100
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
@@ -34,7 +34,7 @@ Scenario: 2 Server Timeout
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 4 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Bartender Timeout

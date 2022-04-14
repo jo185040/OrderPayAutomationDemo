@@ -9,7 +9,7 @@ Scenario: 1 Verify Repeat works on unordered items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -38,7 +38,7 @@ Scenario: 1 Verify Repeat works on unordered items
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","2 PORK NACHOS","10.00",/Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.61","Total","12.61",/Tenders/,"CASH","12.61","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Verify Repeat works on ordered items
@@ -49,7 +49,7 @@ Scenario: 2 Verify Repeat works on ordered items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -81,7 +81,7 @@ Scenario: 2 Verify Repeat works on ordered items
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","2 PORK NACHOS","10.00",/Comps/,"Sub Total","12.00",/Taxes/,"Tax","0.61","Total","12.61",/Tenders/,"CASH","12.61","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Verify Repeat works on items with modifiers
@@ -92,7 +92,7 @@ Scenario: 3 Verify Repeat works on items with modifiers
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -133,7 +133,7 @@ Scenario: 3 Verify Repeat works on items with modifiers
 			Given screen state: 474
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 Verify Repeat works on Smart Select items
@@ -144,7 +144,7 @@ Scenario: 4 Verify Repeat works on Smart Select items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -175,7 +175,7 @@ Scenario: 4 Verify Repeat works on Smart Select items
 			Then verify presence of /ItemEntries/,"Seat 1","2 PT MILLER LITE","10.00",/Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.00","Total","10.00",/Tenders/,"CASH","10.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 5 Verify voided items cannot be repeated
@@ -186,7 +186,7 @@ Scenario: 5 Verify voided items cannot be repeated
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -225,5 +225,5 @@ Scenario: 5 Verify voided items cannot be repeated
 			Given screen state: 476
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

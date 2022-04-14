@@ -8,7 +8,7 @@ Scenario: 1 Open Tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -38,7 +38,7 @@ Scenario: 1 Open Tab
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Rename Tab
@@ -48,7 +48,7 @@ Scenario: 2 Rename Tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -86,7 +86,7 @@ Scenario: 2 Rename Tab
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Bartender Scenario
@@ -99,5 +99,5 @@ Scenario: 3 Bartender Scenario
 			Then verify presence of /TopRightButtons/,[HERE]
 			When clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 3 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

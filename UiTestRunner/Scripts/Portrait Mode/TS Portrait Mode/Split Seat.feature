@@ -8,7 +8,7 @@ Scenario: 1 Split Seat
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -46,7 +46,7 @@ Scenario: 1 Split Seat
 			Then verify presence of /Tenders/,"CASH","7.00","Change","$0.00",
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Select Multiple Items on Split Check
@@ -56,7 +56,7 @@ Scenario: 2 Select Multiple Items on Split Check
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -101,5 +101,5 @@ Scenario: 2 Select Multiple Items on Split Check
 			Given screen state: 100
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

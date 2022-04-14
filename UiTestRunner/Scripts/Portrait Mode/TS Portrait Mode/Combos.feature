@@ -8,7 +8,7 @@ Scenario: 1 Verify you can add Order 3 Combo
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -61,5 +61,5 @@ Scenario: 1 Verify you can add Order 3 Combo
 			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.61","Total","10.61"
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

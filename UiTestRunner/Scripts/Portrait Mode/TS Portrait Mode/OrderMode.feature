@@ -8,7 +8,7 @@ Scenario: 1 Dine-In Order Mode
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -37,7 +37,7 @@ Scenario: 1 Dine-In Order Mode
 			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 ToGO Indicator Mode
@@ -47,7 +47,7 @@ Scenario: 2 ToGO Indicator Mode
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -74,7 +74,7 @@ Scenario: 2 ToGO Indicator Mode
 			Then verify presence of /ItemEntries/,"Seat 1","-> PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31",/Tenders/,"Balance Due","$5.31","Change","$0.00","CASH"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Order Pork Chop Mods
@@ -84,7 +84,7 @@ Scenario: 3 Order Pork Chop Mods
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -140,7 +140,7 @@ Scenario: 3 Order Pork Chop Mods
 			Given screen state: 416
 			Then clicked /MidButtons/,[Close]
 #Action: 19 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 Order [DON'T MAKE] with selection from list
@@ -150,7 +150,7 @@ Scenario: 4 Order [DON'T MAKE] with selection from list
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -179,5 +179,5 @@ Scenario: 4 Order [DON'T MAKE] with selection from list
 			Then verify presence of /Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 11 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

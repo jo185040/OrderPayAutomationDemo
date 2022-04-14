@@ -45,13 +45,308 @@ State:575
 	[BAR]
 	[1.3]
 	[6]
-State:558
+State:539
+/"Table 1"/
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
 /OK/
-	"MIGUEL"
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[T]
+	[1]
+	[+]
+	"COKE"
+	"2.00"
+	[Pay]
+	[Send]
+	[Menu]
+State:538
+/"Table 1"/
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"COKE"
+	"2.00"
+	"LUNCH MENU"
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE.2"
+State:537
+/"Table 1"/
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"LUNCH MENU"
+	"DRINKS"
+	"APPS"
+	"ENTREES"
+	"LUNCH MENU.2"
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+State:536
+/OK/
+	"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[T]
+	[1]
+	[+]
+	[Pay]
+	[Send]
+	[Menu]
+State:535
+/OK/
+	"Free Tables"
+/FreeTablesPortraitScreen/
+	"1"
+	"2"
+	"3"
+	"4"
+	"5"
+	"6"
+	"7"
+	"8"
+	"11"
+	"12"
+	"13"
+	"14"
+	"15"
+	"16"
+	"17"
+/InputDialog/
+	"Enter Guest Count"
+	?1?
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[]
+	[0]
+	[OK]
+State:534
+/OK/
+/LoginForm/
+/NumpadButtons/
+	"Enter Your Passcode"
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[]
+	[0]
+	[OK*]
+	"Invalid employee number. Try again."
+/Dialog/
+	"Error"
+	"Invalid employee number. Try again."
+	[OK]
+State:533
+/OK/
+	"VLADIMIR"
+/ThreeDotsBtn/
 /WorkingWithTablesPortraitScreen/
 	[Tables]
 	[Tabs]
 	"Press the + to create a Table"
+/AddTableBtn/
+	"Clock out"
+	"Transfer"
+State:532
+/OK/
+	"VLADIMIR"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+State:531
+/OK/
+	"VLADIMIR PALOCKO"
+/ClockInScreen/
+	"TRAINING"
+/BottomButtons/
+	[Clock In]
+	[EXIT]
+State:530
+/OK/
+	"VLADIMIR PALOCKO"
+/ClockInScreen/
+	"TRAINING"
+/BottomButtons/
+	[EXIT]
+State:529
+/OK/
+	"SAMEUL L. JACKSON"
+/ClockInScreen/
+	"BAR"
+/BottomButtons/
+	[Clock In]
+	[EXIT]
+State:528
+/OK/
+	"SAMEUL L. JACKSON"
+/ClockInScreen/
+	"BAR"
+/BottomButtons/
+	[EXIT]
+State:527
+/OK/
+	"JIRKA"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+	"Clock out"
+	"Transfer"
+State:526
+/OK/
+	"JIRKA"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+State:525
+/OK/
+	"JIRKA MALINA"
+/ClockInScreen/
+	"MANAGER"
+	"SERVER"
+	"BAR"
+	"KITCHEN"
+	"ORDERTAKER"
+/BottomButtons/
+	[Clock In]
+	[EXIT]
+State:524
+/OK/
+	"JIRKA MALINA"
+/ClockInScreen/
+	"MANAGER"
+	"SERVER"
+	"BAR"
+	"KITCHEN"
+	"ORDERTAKER"
+/BottomButtons/
+	[EXIT]
+State:523
+/OK/
+	"LEBRON"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+	"Clock out"
+	"Transfer"
+State:522
+/OK/
+	"LEBRON"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+State:521
+/OK/
+	"LEBRON JAMES"
+/ClockInScreen/
+	"SERVER"
+/BottomButtons/
+	[Clock In]
+	[EXIT]
+State:520
+/OK/
+	"LEBRON JAMES"
+/ClockInScreen/
+	"SERVER"
+/BottomButtons/
+	[EXIT]
+State:519
+/OK/
+	"JEFFREY"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+	"Clock out"
+	"Transfer"
+State:518
+/OK/
+	"JEFFREY"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+State:517
+/OK/
+	"JEFFREY OYENEYE"
+/ClockInScreen/
+	"MANAGER"
+/BottomButtons/
+	[Clock In]
+	[EXIT]
+State:516
+/OK/
+	"JEFFREY OYENEYE"
+/ClockInScreen/
+	"MANAGER"
+/BottomButtons/
+	[EXIT]
+State:515
+/OK/
+	"MIGUEL"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
+	"Clock out"
+	"Transfer"
 State:514
 /OK/
 	"Free Tables"
@@ -88,11 +383,13 @@ State:512
 	[EXIT]
 State:511
 /OK/
-	"MIGUEL SAAVEDRA"
-/ClockInScreen/
-	"MANAGER"
-/BottomButtons/
-	[EXIT]
+	"MIGUEL"
+/ThreeDotsBtn/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+/AddTableBtn/
 State:510
 /OK/
 /LoginForm/

@@ -8,7 +8,7 @@ Scenario: 1 Verify order item from Pizza Menu
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -46,7 +46,7 @@ Scenario: 1 Verify order item from Pizza Menu
 			Given screen state: 418
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
@@ -56,7 +56,7 @@ Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -94,7 +94,7 @@ Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
 			Given screen state: 421
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
@@ -104,7 +104,7 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -153,7 +153,7 @@ Scenario: 3 Verify you cannot order more than 3 toppings on a pizza
 			Given screen state: 424
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 Verify you can order a pizza with 5 modifier groups
@@ -164,7 +164,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -228,7 +228,7 @@ Scenario: 4 Verify you can order a pizza with 5 modifier groups
 			Given screen state: 427
 			Then clicked /MidButtons/,[Close]
 #Action: 21 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 5 Verify you can order a pizza without selecting a pizza size
@@ -238,7 +238,7 @@ Scenario: 5 Verify you can order a pizza without selecting a pizza size
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -273,7 +273,7 @@ Scenario: 5 Verify you can order a pizza without selecting a pizza size
 			Given screen state: 429
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
@@ -283,7 +283,7 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -327,7 +327,7 @@ Scenario: 6 Verify you cannot order a pizza without selecting a pizza crust
 			Given screen state: 418
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
@@ -337,7 +337,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -384,7 +384,7 @@ Scenario: 7 Verify you cannot order a pizza without selecting a pizza topping
 			Given screen state: 433
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 8 Verify you add a pizza to a split check
@@ -395,7 +395,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -496,7 +496,7 @@ Scenario: 8 Verify you add a pizza to a split check
 			Given screen state: 435
 			Then clicked /MidButtons/,[Close]
 #Action: 34 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 9 Verify Repeat works on pizza items
@@ -506,7 +506,7 @@ Scenario: 9 Verify Repeat works on pizza items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -546,7 +546,7 @@ Scenario: 9 Verify Repeat works on pizza items
 			Given screen state: 437
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 10 Verify you can void a pizza item
@@ -556,7 +556,7 @@ Scenario: 10 Verify you can void a pizza item
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -603,7 +603,7 @@ Scenario: 10 Verify you can void a pizza item
 			Then verify presence of /Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 11 Verify you can order pizza on both left and right halves
@@ -613,7 +613,7 @@ Scenario: 11 Verify you can order pizza on both left and right halves
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -660,7 +660,7 @@ Scenario: 11 Verify you can order pizza on both left and right halves
 			Given screen state: 441
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 12 Verify you can only order 3 toppings with pizza halves
@@ -670,7 +670,7 @@ Scenario: 12 Verify you can only order 3 toppings with pizza halves
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -725,7 +725,7 @@ Scenario: 12 Verify you can only order 3 toppings with pizza halves
 			Given screen state: 444
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 13 Verify you can add a typed modifier to a pizza item
@@ -735,7 +735,7 @@ Scenario: 13 Verify you can add a typed modifier to a pizza item
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -784,5 +784,5 @@ Scenario: 13 Verify you can add a typed modifier to a pizza item
 			Given screen state: 448
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

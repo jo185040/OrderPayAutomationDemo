@@ -8,7 +8,7 @@ Scenario: 1 Add Item with Modifier Weight 2
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -46,7 +46,7 @@ Scenario: 1 Add Item with Modifier Weight 2
 			Then verify presence of /Comps/,"Sub Total","41.89",/Taxes/,"Tax","2.56","Total","44.45",/Tenders/,"Balance Due","$44.45","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Add Item with Modifier Weight 1
@@ -56,7 +56,7 @@ Scenario: 2 Add Item with Modifier Weight 1
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -91,7 +91,7 @@ Scenario: 2 Add Item with Modifier Weight 1
 			Then verify presence of /Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72","CASH","Change"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 3 Verify Apps submenu items contains exceptional mod group Pizza.
@@ -101,7 +101,7 @@ Scenario: 3 Verify Apps submenu items contains exceptional mod group Pizza.
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -139,7 +139,7 @@ Scenario: 3 Verify Apps submenu items contains exceptional mod group Pizza.
 			Given screen state: 359
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 4 Add Item with Forced Modifier
@@ -149,7 +149,7 @@ Scenario: 4 Add Item with Forced Modifier
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -177,7 +177,7 @@ Scenario: 4 Add Item with Forced Modifier
 			Then verify presence of /Comps/,"Sub Total","5.99",/Taxes/,"Tax","0.37","Total","6.36",/Tenders/,"6.36","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 10 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 5 Add item with Refill Drink
@@ -187,7 +187,7 @@ Scenario: 5 Add item with Refill Drink
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -225,7 +225,7 @@ Scenario: 5 Add item with Refill Drink
 			Given screen state: 362
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 6 Verify refill do not go to other items
@@ -235,7 +235,7 @@ Scenario: 6 Verify refill do not go to other items
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -276,7 +276,7 @@ Scenario: 6 Verify refill do not go to other items
 			Given screen state: 364
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 7 Verify refill can be deleted
@@ -286,7 +286,7 @@ Scenario: 7 Verify refill can be deleted
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -336,7 +336,7 @@ Scenario: 7 Verify refill can be deleted
 			Then verify presence of /Tenders/,"CASH","2.00","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 8 Verify refilled item can be voided
@@ -346,7 +346,7 @@ Scenario: 8 Verify refilled item can be voided
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -397,7 +397,7 @@ Scenario: 8 Verify refilled item can be voided
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 18 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 9 Verify you cannot refill a voided item
@@ -407,7 +407,7 @@ Scenario: 9 Verify you cannot refill a voided item
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -467,7 +467,7 @@ Scenario: 9 Verify you cannot refill a voided item
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 21 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 10 Verify Weighted Modifiers work with no issue
@@ -477,7 +477,7 @@ Scenario: 10 Verify Weighted Modifiers work with no issue
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -512,7 +512,7 @@ Scenario: 10 Verify Weighted Modifiers work with no issue
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"CASH","44.50","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 11 Verify Tenderlin Wraps item contains exceptional mod group Pizza right after required Starch mod group
@@ -522,7 +522,7 @@ Scenario: 11 Verify Tenderlin Wraps item contains exceptional mod group Pizza ri
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -566,7 +566,7 @@ Scenario: 11 Verify Tenderlin Wraps item contains exceptional mod group Pizza ri
 			Then verify presence of /Comps/,"Sub Total","5.80",/Taxes/,"Tax","0.35","Total","6.15",/Tenders/,"Balance Due","$6.15","CASH","Change"
 			Then clicked /MidButtons/,[Close]
 #Action: 16 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 12 Verify adding mod with NO mod code is indicated by NO prefix on check
@@ -576,7 +576,7 @@ Scenario: 12 Verify adding mod with NO mod code is indicated by NO prefix on che
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -612,7 +612,7 @@ Scenario: 12 Verify adding mod with NO mod code is indicated by NO prefix on che
 			Given screen state: 370
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 13 Verify adding mod with Extra mod code is indicated by XT prefix on check
@@ -622,7 +622,7 @@ Scenario: 13 Verify adding mod with Extra mod code is indicated by XT prefix on 
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -658,7 +658,7 @@ Scenario: 13 Verify adding mod with Extra mod code is indicated by XT prefix on 
 			Given screen state: 373
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 14 Verify price is combined on Porkchop item with Red Beans modifier
@@ -668,7 +668,7 @@ Scenario: 14 Verify price is combined on Porkchop item with Red Beans modifier
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -703,7 +703,7 @@ Scenario: 14 Verify price is combined on Porkchop item with Red Beans modifier
 			Given screen state: 376
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
@@ -713,7 +713,7 @@ Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -748,7 +748,7 @@ Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
 			Given screen state: 379
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 16 Add Item with a Typed Modifier
@@ -758,7 +758,7 @@ Scenario: 16 Add Item with a Typed Modifier
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -799,7 +799,7 @@ Scenario: 16 Add Item with a Typed Modifier
 			Then verify presence of /ItemEntries/,"Seat 1","COKE\test","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00","Change","$0.00","CASH"
 			Then clicked /MidButtons/,[Close]
 #Action: 13 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 17 Verify ordering items with mods on panel is working without issue
@@ -809,7 +809,7 @@ Scenario: 17 Verify ordering items with mods on panel is working without issue
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -841,7 +841,7 @@ Scenario: 17 Verify ordering items with mods on panel is working without issue
 			Given screen state: 382
 			Then clicked /MidButtons/,[Close]
 #Action: 12 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 18 Verify modifier panel is working on Special burger item (submenu Combos).
@@ -851,7 +851,7 @@ Scenario: 18 Verify modifier panel is working on Special burger item (submenu Co
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -889,7 +889,7 @@ Scenario: 18 Verify modifier panel is working on Special burger item (submenu Co
 			Given screen state: 385
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 19 No Modifier Substitution Weight 2
@@ -899,7 +899,7 @@ Scenario: 19 No Modifier Substitution Weight 2
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -941,5 +941,5 @@ Scenario: 19 No Modifier Substitution Weight 2
 			Given screen state: 239
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

@@ -8,7 +8,7 @@ Scenario: 1 Get Table
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -30,7 +30,7 @@ Scenario: 1 Get Table
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Click WWT Screen
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [WWT\Screen]
 #Action: 9 Click Get Check
 			Given screen state: 036
@@ -49,7 +49,7 @@ Scenario: 1 Get Table
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","PORK NACHOS","5.00",/Comps/,"Sub Total","7.00",/Taxes/,"Tax","0.31","Total","7.31",/Tenders/,"CASH","7.31","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 14 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Get Tab
@@ -60,7 +60,7 @@ Scenario: 2 Get Tab
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Select WWT Screen
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [WWT\Screen]
 #Action: 3 Open Tab
 			Given screen state: 038
@@ -84,7 +84,7 @@ Scenario: 2 Get Tab
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TopLeftButtons/,[btnGoToFloorplan]
 #Action: 8 Click WWT Screen
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [WWT\Screen]
 #Action: 9 Click Get Check
 			Given screen state: 251
@@ -107,5 +107,5 @@ Scenario: 2 Get Tab
 			Given screen state: 018
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]

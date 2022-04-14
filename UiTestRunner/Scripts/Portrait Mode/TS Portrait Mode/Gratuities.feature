@@ -8,7 +8,7 @@ Scenario: 1 Add Gratuities
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -49,7 +49,7 @@ Scenario: 1 Add Gratuities
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","3.05","Total","44.99",/Gratuity/,"Gratuity","8.01","Total","53.00",/Tenders/,"CASH","53.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 15 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
 
 Scenario: 2 Delete Gratuities
@@ -59,7 +59,7 @@ Scenario: 2 Delete Gratuities
 			And clicked [Login]
 			Then verify absence of [Login]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 558
+			Given screen state: 511
 			Then clicked [1]
 #Action: 3 Enter Guest Count 1
 			Given screen state: 025
@@ -106,5 +106,5 @@ Scenario: 2 Delete Gratuities
 			Then verify presence of /Comps/,"Sub Total","41.94",/Taxes/,"Tax","2.56","Total","44.50",/Tenders/,"CASH","44.50","Change","$0.00"
 			Then clicked /MidButtons/,[Close]
 #Action: 17 Exit FloorPlan
-			Given screen state: 558
+			Given screen state: 511
 			When clicked [Exit]
