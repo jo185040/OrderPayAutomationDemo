@@ -18,11 +18,12 @@ Scenario: 1 Clear Item on Guest Check
 #Action: 4 Add COKE
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked "COKE"
+			When waited 0.1
 #Action: 5 Clear Item
 			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
 			Then clicked /TableAndChecks/,[Clear]
 #Action: 6 Press OK, on Clear Item Dialog
-			Given screen state: 056
+			Then verify presence of /Dialog/,"Clear All Unordered Items","Are you sure you want to clear all items which have not been held or ordered?",[Cancel],[OK]
 			Then clicked /Dialog/,[OK]
 			When waited .1
 #Action: 7 Click Done

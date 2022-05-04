@@ -49,3 +49,28 @@ Scenario: 1 Combine Tables
 #Action: 13 Exit FloorPlan
 			Given screen state: 558
 			When clicked [Exit]
+
+Scenario: 2 Verify Combine Tables doesnt work after you exit OPAY3661
+#Action: 1 Login as manager 200
+			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			When clicked [2],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 2 Combine Table 1
+			Given screen state: 558
+			Then clicked [Combine\Tables]
+			Then clicked [1]
+#Action: 3 Exit FloorPlan
+			Given screen state: 558
+			When clicked [Exit]
+#Action: 4 Login as manager 200
+			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			When clicked [2],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 5 Combine Table 1
+			Given screen state: 558
+			Then clicked [2]
+#Action: 6 Exit FloorPlan
+			Given screen state: 558
+			When clicked [Exit]

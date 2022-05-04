@@ -77,7 +77,47 @@ Scenario: 2 ToGO Indicator Mode
 			Given screen state: 558
 			When clicked [Exit]
 
-Scenario: 3 Order Pork Chop Mods
+Scenario: 3 Mixed Order Modes
+#Action: 1 Login as manager 200
+			Then verify presence of /LoginForm/,"Demo Mode"
+			When clicked [2],[0],[0]
+			And clicked [Login]
+			Then verify absence of [Login]
+#Action: 2 Floor Plan select Table 1
+			Given screen state: 558
+			Then clicked [1]
+#Action: 3 Enter Guest Count 1
+			Given screen state: 025
+			When clicked /DialogSeparator/,[1]
+			And clicked /DialogSeparator/,[OK]
+			Then verify absence of "Enter Guest Count"
+#Action: 4 Add COKE
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked "COKE"
+#Action: 5 Add Pork Nachos
+			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Then clicked "PORK\NACHOS"
+#Action: 6 Apply TOGO Ordermode
+			Given screen state: 248
+			Then clicked [TO GO]
+#Action: 7 Select Pork Nachos Ordermode
+			Then verify presence of /ItemSelectionDialog/,"Select items to order",/DialogSeparator/,^SELECT ALL^,"SELECT ALL",/Items/,"Check 1",^PORK NACHOS^,"PORK NACHOS",[Cancel],[OK*]
+			Then clicked /Items/,^PORK NACHOS^
+			Then clicked /Items/,[OK]
+#Action: 8 Select $ on Payment Screen
+			Given screen state: 374
+			Then clicked [$]
+#Action: 9 Exact Payment
+			Given screen state: 391
+			Then clicked [Exact]
+#Action: 10 Click Close
+			Given screen state: 409
+			Then clicked /MidButtons/,[Close]
+#Action: 11 Exit FloorPlan
+			Given screen state: 558
+			When clicked [Exit]
+
+Scenario: 4 Order Pork Chop Mods
 #Action: 1 Login as manager 200
 			Then verify presence of /LoginForm/,"Demo Mode"
 			When clicked [2],[0],[0]

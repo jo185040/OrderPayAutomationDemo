@@ -6420,6 +6420,68 @@ State:410
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:409
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"-> PORK NACHOS"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"7.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Cash"
+	"7.00"
+	"Change"
+	"$0.00"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:408
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -7287,6 +7349,66 @@ State:392
 /Tenders/
 	"Balance Due"
 	"$11.00"
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[Room Charg]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:391
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"-> PORK NACHOS"
+	"5.00"
+/Promos/
+/Comps/
+	"Sub Total"
+	"7.00"
+/Taxes/
+	"Tax"
+	""
+	".2"
+	"Total"
+	"7.00"
+/Gratuity/
+	"Gratuity"
+	""
+	"Total"
+	"0.00"
+/Tenders/
+	"Balance Due"
+	"$7.00"
+/MidButtonsTop/
+	[GCP]
 /MidButtons/
 	[Gift Card Balance]
 	[Close*]
@@ -8365,6 +8487,69 @@ State:375
 	[Tax Exempt]
 /WarningBarControl/
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:374
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"-> PORK NACHOS"
+	"5.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	[Script]
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
+	""
 State:373
 /OrderScreen/
 /TopLeftButtons/
@@ -16687,6 +16872,69 @@ State:249
 	[Repeat]
 	[Modify]
 	[Delete]
+	""
+State:248
+/OrderScreen/
+/TopLeftButtons/
+	[btnGoToFloorplan]
+	[Split Check]
+	[Split Seat]
+	[Done]
+/TopRightButtons/
+	[HERE]
+	[TO GO]
+	[DON'T MAKE]
+/TableAndChecks/
+	"Table 1"
+	[Clear]
+	[Check 1]
+	[+]
+/EntriesBySeat/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+/Seats/
+	[T]
+	[1]
+	[+]
+/CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
+	[SANDWICHES]
+	[PIZZA]
+/MenuOrModButtons/
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	[Script]
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
+/BottomButtons/
+	[$]
+	[Select\Printer]
+	[Void]
+	[Transfer]
+	[Scan\Barcode]
+/FixedBottomButtons/
+	[Loyalty]
+	[Quantity]
+	[Repeat]
+	[Modify]
+	[Delete]
+	[Hold]
 	""
 State:247
 /TenderScreen/
