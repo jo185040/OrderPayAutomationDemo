@@ -87,5 +87,5 @@ Scenario: 7 Invalid Emp
 			When clicked [2],[0],[8]
 			And clicked [Login]
 #Action: 3 Clockin as manager 201
-			Given screen state: 503
+			Then verify presence of /Dialog/,"Error","Invalid employee number. Try again.",[OK]
 			When clicked /Dialog/,[OK]

@@ -391,7 +391,7 @@ Scenario: 8 Verify refilled item can be voided
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select Payment
-			Given screen state: 492
+			Given screen state: 171
 			Then clicked [$]
 #Action: 17 Click Close
 			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"

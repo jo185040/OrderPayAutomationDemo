@@ -49,7 +49,7 @@ Scenario: 1 BOGO
 			Then verify presence of /ItemSelectionDialog/,"Please select the item to discount."
 			Then clicked /Items/,[OK]
 #Action: 15 Select Payment
-			Then verify presence of /MidLeftButtons/,[BUY 1 GET 1 FREE],[Lunch Combo]
+			Given screen state: 510
 			Then clicked /TopLeftButtons/,[Payment]
 #Action: 16 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 1","LOBSTR MAC CHZ","11.99","TILAPIA","11.99",/Promos/,"BUY 1 GET 1 FREE","-11.99",/Comps/,"Sub Total","11.99",/Taxes/,"Tax","0.73","Total","12.72",/Tenders/,"Balance Due","$12.72"
@@ -108,7 +108,7 @@ Scenario: 2 Lunch Combo
 			Then verify presence of /ItemSelectionDialog/,"Please select the required promo items."
 			Then clicked /Items/,[OK]
 #Action: 14 Select Payment
-			Then verify presence of /Promos/,"Lunch Combo","-1.50",/MidLeftButtons/,[BUY 1 GET 1 FREE]
+			Given screen state: 511
 			Then clicked /TopLeftButtons/,[Payment]
 #Action: 15 Exact Payment
 			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","PORK NACHOS","5.00",/Promos/,"Lunch Combo","-1.50",/Comps/,"Sub Total","5.50",/Taxes/,"Tax","0.24","Total","5.74",/Tenders/,"Balance Due","$5.74"

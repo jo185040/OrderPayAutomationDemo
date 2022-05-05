@@ -60,6 +60,120 @@ State:558
 	[BAR]
 	[3]
 	[6]
+State:511
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+/Promos/
+	"Lunch Combo"
+	"-1.50"
+/Comps/
+	"Sub Total"
+	"5.50"
+/Taxes/
+	"Tax"
+	"0.24"
+	"Total"
+	"5.74"
+/Tenders/
+	"Balance Due"
+	"$5.74"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
+State:510
+/TenderScreen/
+/TopRightButtons/
+	[Tables]
+	[Order]
+	[Print]
+	[Print All]
+	[Email/SMS]
+	[Exit]
+/TopLeftButtons/
+	[Payment]
+	[Get Mobile Pay Code*]
+	[Promo]
+	[Comp]
+	"Table 1"
+	[Check 1]
+/ItemEntries/
+	"Seat 1"
+	"LOBSTR MAC CHZ"
+	"11.99"
+	"TILAPIA"
+	"11.99.2"
+/Promos/
+	"BUY 1 GET 1 FREE"
+	"-11.99"
+/Comps/
+	"Sub Total"
+	"11.99"
+/Taxes/
+	"Tax"
+	"0.73"
+	"Total"
+	"12.72"
+/Tenders/
+	"Balance Due"
+	"$12.72"
+/MidButtonsTop/
+	[GCP]
+/MidButtons/
+	[Gift Card Balance]
+	[Close*]
+/MidLeftButtons/
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
+/BottomRightButtons/
+	[Delete]
+/BottomLeftButtons/
+	[Loyalty]
+	[Add Gratuity]
+	[Tax Exempt]
+/WarningBarControl/
+	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:509
 /OrderScreen/
 /TopLeftButtons/
@@ -3323,18 +3437,6 @@ State:452
 	[Modify]
 	""
 State:451
-/Dialog/
-	"Select Void Reason"
-	^TESTING^
-	^OVERRING^
-	^MISRING^
-	^*86*^
-	^CHANGE MIND^
-	^WALKOUT^
-	^KITCHEN ERROR^
-	^SERVER ERROR^
-	[Cancel]
-	[OK]
 /OrderScreen/
 /TopLeftButtons/
 	[btnGoToFloorplan]
@@ -3386,6 +3488,18 @@ State:451
 	[Delete]
 	[Hold]
 	""
+/Dialog/
+	"Select Void Reason"
+	^TESTING^
+	^OVERRING^
+	^MISRING^
+	^*86*^
+	^CHANGE MIND^
+	^WALKOUT^
+	^KITCHEN ERROR^
+	^SERVER ERROR^
+	[Cancel]
+	[OK]
 State:450
 /PizzaModifierScreen/
 /GroupOneButtons/
@@ -5477,9 +5591,13 @@ State:411
 	[Gift Card Balance]
 	[Close*]
 /MidLeftButtons/
-	[MGR COMP]
-	[OPEN $$]
-	[EMP MEAL]
+	[CASH]
+	[ECARD]
+	[Euro]
+	[Exact]
+	[House Acc]
+	[Euro Round]
+	[$10]
 /BottomRightButtons/
 	[Delete]
 /BottomLeftButtons/
@@ -5775,14 +5893,14 @@ State:405
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -6291,14 +6409,14 @@ State:394
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -6355,14 +6473,14 @@ State:393
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -6419,14 +6537,14 @@ State:392
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -6537,14 +6655,14 @@ State:390
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -6601,14 +6719,14 @@ State:389
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -7000,12 +7118,19 @@ State:383
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"Mod Menu"
-	"PORK\CHOP"
-	"Special\Burger"
-	"BBQ\RIBS"
-	[Add Ice Mod]
-	[Back to Menu]
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
 /BottomButtons/
 	[$]
 	[Select\Printer]
@@ -7162,12 +7287,19 @@ State:380
 	[SANDWICHES]
 	[PIZZA]
 /MenuOrModButtons/
-	"Mod Menu"
-	"PORK\CHOP"
-	"Special\Burger"
-	"BBQ\RIBS"
-	[Add Ice Mod]
-	[Back to Menu]
+	"FRIED MOZZ"
+	"Quick Menu"
+	[Mod Menu\Items]
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+	[Scripts Test\Panel]
+	[Pizza Menu]
+	"ICED\COFFEE"
 /BottomButtons/
 	[$]
 	[Select\Printer]
@@ -8281,14 +8413,14 @@ State:360
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -11639,10 +11771,10 @@ State:311
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:310
 /WWTScreen/
-	"JEFFREY"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	"j1"
 	[New Tab]
@@ -16140,14 +16272,14 @@ State:221
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -16535,14 +16667,14 @@ State:215
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -19415,14 +19547,14 @@ State:181
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -19514,14 +19646,14 @@ State:180
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -23974,14 +24106,14 @@ State:127
 	[1]
 	[+]
 /CenterMenuButtons/
+	[LUNCH MENU]
+	[DRINKS]
+	[APPS]
+	[ENTREES]
+	[SOUP & SALADS]
+	[DESSERT]
 	[SANDWICHES]
 	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
 /MenuOrModButtons/
 	"COMBO 1"
 	"COMBO 2"
@@ -25151,10 +25283,10 @@ State:108
 	""
 State:107
 /WWTScreen/
-	"JEFFREY"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	"j1"
 	[New Tab]
@@ -25254,10 +25386,10 @@ State:106
 	"Card payments not available (Status: Payment Service Disconnected or Not Found)"
 State:105
 /WWTScreen/
-	"JEFFREY"
-	"Sorted by Time Created\Ordered Ascending"
 	[Aloha]
 	[GCP]
+	"JEFFREY"
+	"Sorted by Time Created\Ordered Ascending"
 /Tabs/
 	[New Tab]
 /Tables/
