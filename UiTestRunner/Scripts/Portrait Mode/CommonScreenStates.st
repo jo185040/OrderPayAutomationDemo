@@ -45,6 +45,162 @@ State:575
 	[BAR]
 	[1.3]
 	[6]
+State:566
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.31"
+	"Total"
+	"$5.31"
+	"Euro /3.54"
+	"$5.31.2"
+	"Change"
+	"$0.00"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt]
+	[RECEIPT*]
+State:565
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.31"
+	"Total"
+	"$5.31"
+	"Balance Due"
+	"$5.31.2"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt*]
+	[RECEIPT*]
+/CurrencyInputDialog/
+/BackBtn/
+	"Enter amount in EUR"
+	"$"
+	?3.54?
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[]
+	[0]
+	[OK]
+State:564
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.31"
+	"Total"
+	"$5.31"
+	"Balance Due"
+	"$5.31.2"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt*]
+	[RECEIPT*]
+State:563
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"PORK NACHOS"
+	"5.00"
+	[Pay]
+	[Send]
+	[Menu]
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:562
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"PORK NACHOS"
+	"5.00"
+	[Pay]
+	[Send]
+	[Menu]
+State:561
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"PORK NACHOS"
+	"5.00"
+	"LUNCH MENU"
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
 State:560
 /OK/
 	"Check 1"

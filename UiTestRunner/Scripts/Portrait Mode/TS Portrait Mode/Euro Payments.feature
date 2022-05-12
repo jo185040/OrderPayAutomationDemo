@@ -3,36 +3,46 @@ Feature: 9 Euro Payments
 
 Scenario: 1 Close Check with Euro Payments
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add Pork Nachos
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked /AddTableBtn/
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Add Pork Nachos
+			Given screen state: 537
 			Then clicked "PORK\NACHOS"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
-			Then clicked [HERE]
-#Action: 6 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","PORK NACHOS","5.00"
-			Then clicked [$]
-#Action: 7 Euro Payment
-			Then verify presence of /ItemEntries/,"Seat 1","PORK NACHOS","5.00",/Comps/,"Sub Total","5.00",/Taxes/,"Tax","0.31","Total","5.31"
-			Then clicked /MidLeftButtons/,[Euro]
-#Action: 8 Select OK
-			Then verify presence of /CurrencyInputDialog/,"Enter amount in EUR","$","3.54",[<]
-			Then clicked /DialogSeparator/,[OK]
-#Action: 9 Click Close
-			Then verify presence of /Tenders/,"Euro /3.54","5.31","Change","$0.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 10 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 7 Go Back to Guest Check
+			Given screen state: 561
+			Then clicked /OK/
+#Action: 8 Click Send on OrderMode
+			Given screen state: 562
+			Then clicked /OK/,[Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 563
+			Then clicked /OK/,"HERE"
+#Action: 10 Select Pay on Payment Screen
+			Given screen state: 562
+			Then clicked /OK/,[Pay]
+#Action: 11 Exact Payment
+			Given screen state: 564
+			Then clicked "Euro"
+#Action: 12 Select OK, on Enter on EUR screen
+			Given screen state: 565
+			Then clicked /BackBtn/,[OK]
+#Action: 13 Select No Receipt
+			Given screen state: 566
+			Then clicked [No Receipt]
+#Action: 14 Logout on WWT Screen
+			Given screen state: 518
+			When clicked /ThreeDotsBtn/
+			When clicked /AddTableBtn/,"Clock Out"
