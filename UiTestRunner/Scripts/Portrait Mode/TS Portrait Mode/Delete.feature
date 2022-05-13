@@ -25,13 +25,13 @@ Scenario: 1 Delete Item
 			Given screen state: 538
 			Then clicked /OK/
 #Action: 8 Click Send on OrderMode
-			Given screen state: 541
+			Given screen state: 539
 			Then clicked /OK/,[Send]
 #Action: 9 Click "Here" on OrderMode
 			Given screen state: 549
 			Then clicked /OK/,"HERE"
 #Action: 10 Delete Items
-			Given screen state: 541
+			Given screen state: 539
 			Then clicked /OK/,[btnDelete]
 #Action: 11 Select Coke on Void Screen
 			Given screen state: 550

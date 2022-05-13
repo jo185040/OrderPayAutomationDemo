@@ -8,7 +8,7 @@ Scenario: 1 Add Check
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
 			Given screen state: 518
-			Then clicked /AddTableBtn/
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -25,9 +25,9 @@ Scenario: 1 Add Check
 			Given screen state: 538
 			Then clicked /OK/
 #Action: 8 Add Check
-			Given screen state: 541
+			Given screen state: 539
 			Then clicked /OK/,[Check 1]
-			Then clicked /OK/,[New Check]
+			Then clicked [New Check]
 #Action: 9 Select Menu
 			Given screen state: 542
 			Then clicked [Menu]

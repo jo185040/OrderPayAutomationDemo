@@ -8,7 +8,7 @@ Scenario: 1 Quantity
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
 			Given screen state: 518
-			Then clicked /AddTableBtn/
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -25,33 +25,37 @@ Scenario: 1 Quantity
 			Given screen state: 538
 			Then clicked "PORK\NACHOS"
 #Action: 8 Go Back to Guest Check
-			Given screen state: 553
+			Given screen state: 588
 			Then clicked /OK/
 #Action: 9 Select Pork Nachos on Order Entry Screen
-			Given screen state: 050
-			Then clicked /EntriesBySeat/,"PORK NACHOS"
+			Given screen state: 589
+			Then clicked /CheckEntries/,"PORK NACHOS"
 #Action: 10 Select Quality Item
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [Quantity]
+			Given screen state: 589
+			Then clicked [btnQuantity]
 #Action: 11 Select Qty 3
-			Then verify presence of /InputDialog/,"Enter quantity"
-			Then clicked /DialogSeparator/,[3]
-			Then clicked /DialogSeparator/,[OK]
-#Action: 12 Apply HERE Ordermode
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [HERE]
-#Action: 13 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","3 PORK NACHOS","15.00"
-			Then clicked [$]
-#Action: 14 Exact Payment
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","3 PORK NACHOS","15.00",/Comps/,"Sub Total","17.00",/Taxes/,"Tax","0.92","Total","17.92",/Tenders/,"Balance Due","$17.92"
-			Then clicked [Exact]
-#Action: 15 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00","3 PORK NACHOS","15.00",/Comps/,"Sub Total","17.00",/Taxes/,"Tax","0.92","Total","17.92",/Tenders/,"CASH","17.92","Change","$0.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 16 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+			Given screen state: 590
+			Then clicked /BackBtn/,[3]
+			Then clicked /BackBtn/,[OK]
+#Action: 12 Click Send on OrderMode
+			Given screen state: 591
+			Then clicked /BottomButtons/,[Send]
+#Action: 13 Click "Here" on OrderMode
+			Given screen state: 592
+			Then clicked /MoreOptionsPopup/,"HERE"
+#Action: 14 Select Pay on Payment Screen
+			Given screen state: 593
+			Then clicked /BottomButtons/,[Pay]
+#Action: 15 Exact Payment
+			Given screen state: 594
+			Then clicked "Exact"
+#Action: 16 Select No Receipt
+			Given screen state: 595
+			Then clicked [No Receipt]
+#Action: 17 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 2 Add Quantity on Multiple Checks
 #Action: 1 Login as manager 200

@@ -1,3 +1,445 @@
+State:595
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/BalanceInfo/
+	"Tax"
+	"$0.92"
+	"Total"
+	"$17.92"
+	"CASH"
+	"$17.92.2"
+	"Change"
+	"$0.00"
+/TenderTypeSelection/
+	[Payment]
+	[Promo]
+	[Comp]
+/FilterSection/
+	[Payment]
+	[btnSort]
+/TenderButtons/
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+/ReceiptSelection/
+	[No Receipt]
+	[RECEIPT*]
+State:594
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/BalanceInfo/
+	"Tax"
+	"$0.92"
+	"Total"
+	"$17.92"
+	"Balance Due"
+	"$17.92.2"
+/TenderTypeSelection/
+	[Payment]
+	[Promo]
+	[Comp]
+/FilterSection/
+	[Payment]
+	[btnSort]
+/TenderButtons/
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+/ReceiptSelection/
+	[No Receipt*]
+	[RECEIPT*]
+State:593
+/OK/
+	"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"3 PORK NACHOS"
+	"15.00"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+State:592
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"PORK NACHOS.2"
+	"5.00.2"
+	"PORK NACHOS.3"
+	"5.00.3"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+/MoreOptionsPopup/
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:591
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"PORK NACHOS.2"
+	"5.00.2"
+	"PORK NACHOS.3"
+	"5.00.3"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+State:590
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+/InputDialog/
+/BackBtn/
+	"Enter quantity"
+	?0?
+	[1]
+	[2]
+	[3]
+	[4]
+	[5]
+	[6]
+	[7]
+	[8]
+	[9]
+	[]
+	[0]
+	[OK]
+State:589
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+State:588
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"LUNCH MENU"
+	[btnSort]
+/ItemButtons/
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+State:587
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	"Table"
+	"COKE"
+	"2.00"
+	[Pay]
+	[Send]
+	[Menu]
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:586
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	"Table"
+	"COKE"
+	"2.00"
+	[Pay]
+	[Send]
+	[Menu]
+State:585
+"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"COKE"
+	"2.00"
+	"LUNCH MENU"
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE.2"
+State:584
+"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"LUNCH MENU"
+	"DRINKS"
+	"APPS"
+	"ENTREES"
+	"LUNCH MENU.2"
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+State:583
+/OK/
+	"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Pay]
+	[Send]
+	[Menu]
+State:582
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.00"
+	"Total"
+	"$0.00.2"
+	"Change"
+	"$0.00.3"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt]
+	[RECEIPT*]
+State:581
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"WATER"
+	"0.00"
+	[Pay]
+	[Send]
+	[Menu]
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:580
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"WATER"
+	"0.00"
+	[Pay]
+	[Send]
+	[Menu]
+State:579
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"WATER"
+	"0.00"
+	"DRINKS"
+	"WATER.2"
+	"COKE"
+	"DIET COKE"
+	"DIET 7UP"
+	"ICED TEA"
+	"COFFEE"
+	"ICED\COFFEE"
+	"Wldfre\Sauce"
+State:578
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"LUNCH MENU"
+	"DRINKS"
+	"APPS"
+	"ENTREES"
+	"DRINKS.2"
+	"WATER"
+	"COKE"
+	"DIET COKE"
+	"DIET 7UP"
+	"ICED TEA"
+	"COFFEE"
+	"ICED\COFFEE"
+	"Wldfre\Sauce"
 State:577
 "Check 1 Seat 1"
 	[btnReceiptToggle]
@@ -846,16 +1288,20 @@ State:545
 	[btnModify]
 	[btnHold]
 	[Check 2]
+/SeatSelectors/
 	[Table]
 	[S1]
 	[S2]
 	[btnAddSeat]
+/CheckEntries/
 	"Seat 2"
 	"COKE"
 	"2.00"
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
+/CheckSelectionDropdown/
 	[New Check]
 	"Check 1"
 	"Check 2"
@@ -864,9 +1310,16 @@ State:544
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
+/CheckEntries_Container*/
+/CheckEntries*/
 	"COKE"
 	"2.00"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
 	"LUNCH MENU"
+	[btnSort]
+/ItemButtons/
 	"FRIED MOZZ"
 	"MILLER\LITE"
 	"CORONA"
@@ -874,17 +1327,25 @@ State:544
 	"BLUE\MOON"
 	"PORK\NACHOS"
 	"SPN ARTCHK\DIP"
-	"COKE.2"
+	"COKE"
 State:543
 "Check 2 Seat 2"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/SubmenuSelectors/
 	"LUNCH MENU"
 	"DRINKS"
 	"APPS"
 	"ENTREES"
-	"LUNCH MENU.2"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"LUNCH MENU"
+	[btnSort]
+/ItemButtons/
 	"FRIED MOZZ"
 	"MILLER\LITE"
 	"CORONA"
@@ -905,13 +1366,17 @@ State:542
 	[btnModify]
 	[btnHold]
 	[Check 2]
+/SeatSelectors/
 	[Table]
 	[S1]
 	[S2]
 	[btnAddSeat]
+/CheckEntries/
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
+/CheckSelectionDropdown/
 	[New Check]
 	"Check 1"
 	"Check 2"
@@ -927,15 +1392,21 @@ State:541
 	[btnModify]
 	[btnHold]
 	[Check 1]
+/SeatSelectors/
 	[Table]
 	[S1]
 	[btnAddSeat]
+/CheckEntries/
 	"Seat 1"
 	"COKE"
 	"2.00"
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
+/CheckSelectionDropdown/
+	[New Check]
+	"Check 1"
 State:540
 /OK/
 	"Table 1"
@@ -948,9 +1419,12 @@ State:540
 	[btnModify]
 	[btnHold]
 	[Check 1]
+/SeatSelectors/
 	[Table]
 	[S1]
 	[btnAddSeat]
+/CheckEntries/
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
@@ -959,7 +1433,7 @@ State:540
 	"There are no entries to delete or void."
 	[OK]
 State:539
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -970,11 +1444,15 @@ State:539
 	[btnModify]
 	[btnHold]
 	[Check 1]
-	[T]
-	[1]
-	[+]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
 	"COKE"
 	"2.00"
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
@@ -983,9 +1461,16 @@ State:538
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
+/CheckEntries_Container*/
+/CheckEntries*/
 	"COKE"
 	"2.00"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
 	"LUNCH MENU"
+	[btnSort]
+/ItemButtons/
 	"FRIED MOZZ"
 	"MILLER\LITE"
 	"CORONA"
@@ -993,17 +1478,25 @@ State:538
 	"BLUE\MOON"
 	"PORK\NACHOS"
 	"SPN ARTCHK\DIP"
-	"COKE.2"
+	"COKE"
 State:537
 "Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/SubmenuSelectors/
 	"LUNCH MENU"
 	"DRINKS"
 	"APPS"
 	"ENTREES"
-	"LUNCH MENU.2"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"LUNCH MENU"
+	[btnSort]
+/ItemButtons/
 	"FRIED MOZZ"
 	"MILLER\LITE"
 	"CORONA"
@@ -1024,9 +1517,12 @@ State:536
 	[btnModify]
 	[btnHold]
 	[Check 1]
+/SeatSelectors/
 	[Table]
 	[S1]
 	[btnAddSeat]
+/CheckEntries/
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
@@ -1229,12 +1725,12 @@ State:519
 State:518
 /OK/
 	"JEFFREY"
-/ThreeDotsBtn/
+	[btnThreeDots]
 /WorkingWithTablesPortraitScreen/
 	[Tables]
 	[Tabs]
 	"Press the + to create a Table"
-/AddTableBtn/
+	[btnAddTable]
 State:517
 /OK/
 	"JEFFREY OYENEYE"

@@ -3,156 +3,196 @@ Feature: 15 Payments
 
 Scenario: 1 Delete Cash Payment
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			#TODO No delete button on payments
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked /AddTableBtn/
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 537
 			Then clicked "COKE"
-#Action: 5 Add Pork Nachos
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+#Action: 7 Add Pork Nachos
+			Given screen state: 538
 			Then clicked "PORK\NACHOS"
-#Action: 6 Add Miller Lite
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+#Action: 8 Add Miller Lite
+			Given screen state: 552
 			Then clicked "MILLER\LITE"
-#Action: 7 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
-			Then clicked [HERE]
-#Action: 8 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00","PORK NACHOS","5.00","MILLER LITE","3.00"
-			Then clicked [$]
-#Action: 9 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","10.00",/Taxes/,"Tax","0.31","Total","10.31",/Tenders/,"Balance Due","$10.31"
-			Then clicked [Exact]
-#Action: 10 Select Cash Payment
-			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
-			Then clicked /Tenders/,"CASH"
-#Action: 11 Delete Cash Payment
+#Action: 9 Go Back to Guest Check
+			Given screen state: 553
+			Then clicked /OK/
+#Action: 10 Click Send on OrderMode
+			Given screen state: 554
+			Then clicked /OK/,[Send]
+#Action: 11 Click "Here" on OrderMode
+			Given screen state: 555
+			Then clicked /OK/,"HERE"
+#Action: 12 Select Pay on Payment Screen
+			Given screen state: 554
+			Then clicked /OK/,[Pay]
+#Action: 13 Exact Payment
+			Given screen state: 567
+			Then clicked "Exact"
+#Action: 14 Delete Cash Payment
 			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
 			Then clicked /BottomRightButtons/,[Delete]
-#Action: 12 Exact Payment
-			Then verify presence of /Tenders/,"Balance Due","$10.31"
-			Then clicked [Exact]
-#Action: 13 Click Close
-			Then verify presence of /Tenders/,"CASH","10.31","Change","$0.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 14 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 15 Exact Payment
+			Given screen state: 567
+			Then clicked "Exact"
+#Action: 16 Select No Receipt
+			Given screen state: 568
+			Then clicked [No Receipt]
+#Action: 17 Logout on WWT Screen
+			Given screen state: 518
+			When clicked /ThreeDotsBtn/
+			When clicked /AddTableBtn/,"Clock Out"
 
 Scenario: 2 Verify enabled Close button displays when there is a zero balance (Manager)
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			#TODO No delete button on payments
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Select Drinks Sub-menu
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /CenterMenuButtons/,[DRINKS]
-#Action: 5 Add Water
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked /AddTableBtn/
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Select Drinks Sub-menu
+			Given screen state: 537
+			Then clicked "DRINKS"
+#Action: 7 Add Water
+			Given screen state: 578
 			Then clicked "WATER"
-#Action: 6 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","WATER","0.00"
-			Then clicked [HERE]
-#Action: 7 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","WATER","0.00"
-			Then clicked [$]
-#Action: 8 Click Close
-			Then verify presence of /Tenders/,"Change","$0.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 9 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 8 Go Back to Guest Check
+			Given screen state: 579
+			Then clicked /OK/
+#Action: 9 Click Send on OrderMode
+			Given screen state: 580
+			Then clicked /OK/,[Send]
+#Action: 10 Click "Here" on OrderMode
+			Given screen state: 581
+			Then clicked /OK/,"HERE"
+#Action: 11 Select Pay on Payment Screen
+			Given screen state: 580
+			Then clicked /OK/,[Pay]
+#Action: 12 Select No Receipt
+			Given screen state: 582
+			Then clicked [No Receipt]
+#Action: 13 Logout on WWT Screen
+			Given screen state: 518
+			When clicked /ThreeDotsBtn/
+			When clicked /AddTableBtn/,"Clock Out"
 
 Scenario: 3 Verify you can pay with cash with predefined amount (Server)
-#Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
-			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+#Action: 1 Login as manager 100
+			Given screen state: 510
+			When clicked [1],[0],[0]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 522
+			Then clicked /AddTableBtn/
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 583
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 584
 			Then clicked "COKE"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [HERE]
-#Action: 6 Select $ on Payment Screen
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [$]
-#Action: 7 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
-			Then clicked [$10]
-#Action: 8 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","10.00","Change","$8.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 9 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 7 Go Back to Guest Check
+			Given screen state: 585
+			Then clicked /OK/
+#Action: 8 Click Send on OrderMode
+			Given screen state: 586
+			Then clicked /OK/,[Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 587
+			Then clicked /OK/,"HERE"
+#Action: 10 Select Pay on Payment Screen
+			Given screen state: 586
+			Then clicked /OK/,[Pay]
+#Action: 11 Exact Payment
+			Given screen state: 559
+			Then clicked "Exact"
+#Action: 12 Select No Receipt
+			Given screen state: 560
+			Then clicked [No Receipt]
+#Action: 13 Logout on WWT Screen
+			Given screen state: 522
+			When clicked /ThreeDotsBtn/
+			When clicked /AddTableBtn/,"Clock Out"
 
 Scenario: 4 Verify you can process Euro payment (Manager)
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked "COKE"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [HERE]
-#Action: 6 Select $ on Payment Screen
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [$]
-#Action: 7 Select Euro Payment
-			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
-			Then clicked [Euro]
-#Action: 8 Select OK on Dialog Menu
-			Then verify presence of /CurrencyInputDialog/,"Enter amount in EUR","$","1.33",[<]
-			Then clicked /DialogSeparator/,[OK]
-#Action: 9 Click Close
-			Then verify presence of /ItemEntries/,"Seat 1","COKE","2.00",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Euro /1.33","2.00","Change","$0.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 10 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+			Given screen state: 518
+			Then clicked /AddTableBtn/
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Add Pork Nachos
+			Given screen state: 537
+			Then clicked "PORK\NACHOS"
+#Action: 7 Go Back to Guest Check
+			Given screen state: 561
+			Then clicked /OK/
+#Action: 8 Click Send on OrderMode
+			Given screen state: 562
+			Then clicked /OK/,[Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 563
+			Then clicked /OK/,"HERE"
+#Action: 10 Select Pay on Payment Screen
+			Given screen state: 562
+			Then clicked /OK/,[Pay]
+#Action: 11 Exact Payment
+			Given screen state: 564
+			Then clicked "Euro"
+#Action: 12 Select OK, on Enter on EUR screen
+			Given screen state: 565
+			Then clicked /BackBtn/,[OK]
+#Action: 13 Select No Receipt
+			Given screen state: 566
+			Then clicked [No Receipt]
+#Action: 14 Logout on WWT Screen
+			Given screen state: 518
+			When clicked /ThreeDotsBtn/
+			When clicked /AddTableBtn/,"Clock Out"
 
 Scenario: 5 Verify you can delete Euro payment (Manager)
 #Action: 1 Login as manager 200
+			#TODO there is no way to delete payments
 			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
 			When clicked [2],[0],[0]
 			And clicked [Login]
