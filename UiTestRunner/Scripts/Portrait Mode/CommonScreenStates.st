@@ -1,3 +1,21 @@
+State:577
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+	"LUNCH MENU"
+	"DRINKS"
+	"APPS"
+	"ENTREES"
+	"ENTREES.2"
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
 State:576
 /FloorPlanScreen*/
 	[7]
@@ -45,6 +63,250 @@ State:575
 	[BAR]
 	[1.3]
 	[6]
+State:574
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.00"
+	"Total"
+	"$10.40"
+	"CASH"
+	"$10.40.2"
+	"Change"
+	"$0.00.2"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH.2"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt]
+	[RECEIPT*]
+State:573
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.00"
+	"Total"
+	"$10.40"
+	"Balance Due"
+	"$10.40.2"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt*]
+	[RECEIPT*]
+State:572
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"!!! COKE"
+	"2.00.2"
+	"7 UP"
+	"2.00.3"
+	"7 UP.2"
+	"2.00.4"
+	"!!! 7 UP"
+	"2.00.5"
+	[Pay]
+	[Send]
+	[Menu]
+State:571
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"COKE.2"
+	"2.00.2"
+	"7 UP"
+	"2.00.3"
+	"7 UP.2"
+	"2.00.4"
+	"7 UP.3"
+	"2.00.5"
+	[Pay]
+	[Send]
+	[Menu]
+/ItemSelectionDialog/
+	"Select items to order"
+/DialogSeparator/
+	^SELECT ALL^
+	"SELECT ALL"
+/Items_Container/
+/Items/
+	"Check 1"
+	^COKE^
+	"COKE"
+	^COKE.2^
+	"COKE.2"
+	^7 UP^
+	"7 UP"
+	^7 UP.2^
+	"7 UP.2"
+	^7 UP.3^
+	"7 UP.3"
+	[Cancel]
+	[OK*]
+State:570
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"COKE.2"
+	"2.00.2"
+	"7 UP"
+	"2.00.3"
+	"7 UP.2"
+	"2.00.4"
+	"7 UP.3"
+	"2.00.5"
+	[Pay]
+	[Send]
+	[Menu]
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:569
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"COKE.2"
+	"2.00.2"
+	"7 UP"
+	"2.00.3"
+	"7 UP.2"
+	"2.00.4"
+	"7 UP.3"
+	"2.00.5"
+	[Pay]
+	[Send]
+	[Menu]
+State:568
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.31"
+	"Total"
+	"$10.31"
+	"CASH"
+	"$10.31.2"
+	"Change"
+	"$0.00"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH.2"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt]
+	[RECEIPT*]
+State:567
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.31"
+	"Total"
+	"$10.31"
+	"Balance Due"
+	"$10.31.2"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt*]
+	[RECEIPT*]
 State:566
 /OK/
 	"Check 1"
@@ -254,69 +516,75 @@ State:559
 	[No Receipt*]
 	[RECEIPT*]
 State:558
-/"Table 1"/
-	[btnTransfer]
-	[btnSplit]
-	[btnMore]
-/OK/
-	[btnDelete]
-	[btnQuantity]
-	[btnRepeat]
-	[btnModify]
-	[btnHold]
-	[Check 1]
-	[Table]
-	[S1]
-	[btnAddSeat]
-	"Seat 1"
-	"PORK NACHOS"
-	"5.00"
-	[Pay]
-	[Send]
-	[Menu]
-	"HERE"
-	"TO GO"
-	"DON'T MAKE"
-	"Happy hour"
-State:557
-/"Table 1"/
-	[btnTransfer]
-	[btnSplit]
-	[btnMore]
-/OK/
-	[btnDelete]
-	[btnQuantity]
-	[btnRepeat]
-	[btnModify]
-	[btnHold]
-	[Check 1]
-	[Table]
-	[S1]
-	[btnAddSeat]
-	"Seat 1"
-	"PORK NACHOS"
-	"5.00"
-	[Pay]
-	[Send]
-	[Menu]
-State:556
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
-	"PORK NACHOS"
-	"5.00"
+	"COKE"
+	"2.00"
+	"COKE.2"
+	"2.00.2"
+	"7 UP"
+	"2.00.3"
 	"LUNCH MENU"
 	"FRIED MOZZ"
 	"MILLER\LITE"
 	"CORONA"
-	"7 UP"
+	"7 UP.2"
 	"BLUE\MOON"
 	"PORK\NACHOS"
 	"SPN ARTCHK\DIP"
-	"COKE"
+	"COKE.3"
+State:557
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+	"Tax"
+	"$0.31"
+	"Total"
+	"$5.31"
+	"CASH"
+	"$5.31.2"
+	"Change"
+	"$0.00"
+	[Payment]
+	[Promo]
+	[Comp]
+	[Payment.2]
+	"CASH.2"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+	[No Receipt]
+	[RECEIPT*]
+State:556
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+	[Table]
+	[S1]
+	[btnAddSeat]
+	"Seat 1"
+	"-> PORK NACHOS"
+	"5.00"
+	[Pay]
+	[Send]
+	[Menu]
 State:555
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -345,7 +613,7 @@ State:555
 	"DON'T MAKE"
 	"Happy hour"
 State:554
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -370,7 +638,7 @@ State:554
 	[Send]
 	[Menu]
 State:553
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -390,7 +658,7 @@ State:553
 	"SPN ARTCHK\DIP"
 	"COKE.2"
 State:552
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
