@@ -117,19 +117,19 @@ Scenario: 3 Verify Combo Scenario
 			Given screen state: 121
 			Then clicked [GRILLED\CHCKEN]
 #Action: 10 On Combo Page, Click Fries
-			Given screen state: 122
+			Given screen state: 600
 			Then clicked [FRIES]
 #Action: 11 On Combo Page, Click Pepsi
-			Given screen state: 123
+			Given screen state: 120
 			Then clicked [PEPSI]
 #Action: 12 On Combo Page, Click Roasted Chicken
-			Given screen state: 124
+			Given screen state: 121
 			Then clicked [ROASTED\CHCKEN]
 #Action: 13 On Combo Page, Click Fries
-			Given screen state: 125
+			Given screen state: 600
 			Then clicked [FRIES]
 #Action: 14 On Combo Page, Click Pepsi
-			Given screen state: 126
+			Given screen state: 120
 			Then clicked [PEPSI]
 #Action: 15 Apply HERE Ordermode
 			Given screen state: 127

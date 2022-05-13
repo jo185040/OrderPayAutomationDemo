@@ -1,3 +1,163 @@
+State:600
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"Combos"
+	[btnSort]
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"COMBO 3"
+	"10.00"
+/Modifier/
+	"Sides"
+	"Drink Combo"
+	"1 Required"
+	"FRIES"
+	"0.00"
+	"Black Beans"
+	"0.00.2"
+	"Red Beans"
+	"0.00.3"
+	"Baked Potato"
+	"0.00.4"
+	"SWT POT FRIES"
+	"1.00"
+	[Cancel]
+	[Confirm*]
+State:599
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"Combos"
+	[btnSort]
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"COMBO 3"
+	"10.00"
+/Modifier/
+	"COMBO 3"
+	"3 Required"
+	"TILAPIA"
+	"0.00"
+	"GRILLED CHCKEN"
+	"0.00.2"
+	"ROASTED CHCKEN"
+	"0.00.3"
+	[Cancel]
+	[Confirm*]
+State:598
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/SubmenuSelectors/
+	"Smart Beer"
+	"Combos"
+	"Burgers"
+	"Chicken & Fish"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"Combos"
+	[btnSort]
+	"COMBO 1"
+	"COMBO 2"
+	"COMBO 3"
+	"Burger Combo"
+	"Optional Mods"
+	"Special Burger"
+	"Burger & Side"
+	"Quick Burger"
+State:597
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/SubmenuSelectors/
+	"Smart Beer"
+	"Combos"
+	"Burgers"
+	"Chicken & Fish"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"LUNCH MENU"
+	[btnSort]
+/ItemButtons/
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
+State:596
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/SubmenuSelectors/
+	"SANDWICHES"
+	"PIZZA"
+	"BEER"
+	"RETAIL"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"LUNCH MENU"
+	[btnSort]
+/ItemButtons/
+	"FRIED MOZZ"
+	"MILLER\LITE"
+	"CORONA"
+	"7 UP"
+	"BLUE\MOON"
+	"PORK\NACHOS"
+	"SPN ARTCHK\DIP"
+	"COKE"
 State:595
 /OK/
 	"Check 1"
@@ -910,6 +1070,7 @@ State:560
 	"Check 1"
 	[btnReceiptToggle]
 	[btnMore]
+/BalanceInfo/
 	"Tax"
 	"$0.00"
 	"Total"
@@ -918,35 +1079,14 @@ State:560
 	"$2.00.2"
 	"Change"
 	"$0.00.2"
+/TenderTypeSelection/
 	[Payment]
 	[Promo]
 	[Comp]
-	[Payment.2]
-	"CASH.2"
-	"ECARD"
-	"Euro"
-	"Exact"
-	"House Acc"
-	"Euro Round"
-	"$10"
-	"Credit"
-	[No Receipt]
-	[RECEIPT*]
-State:559
-/OK/
-	"Check 1"
-	[btnReceiptToggle]
-	[btnMore]
-	"Tax"
-	"$0.00"
-	"Total"
-	"$2.00"
-	"Balance Due"
-	"$2.00.2"
+/FilterSection/
 	[Payment]
-	[Promo]
-	[Comp]
-	[Payment.2]
+	[btnSort]
+/TenderButtons/
 	"CASH"
 	"ECARD"
 	"Euro"
@@ -955,6 +1095,38 @@ State:559
 	"Euro Round"
 	"$10"
 	"Credit"
+/ReceiptSelection/
+	[No Receipt]
+	[RECEIPT*]
+State:559
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/BalanceInfo/
+	"Tax"
+	"$0.00"
+	"Total"
+	"$2.00"
+	"Balance Due"
+	"$2.00.2"
+/TenderTypeSelection/
+	[Payment]
+	[Promo]
+	[Comp]
+/FilterSection/
+	[Payment]
+	[btnSort]
+/TenderButtons/
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+/ReceiptSelection/
 	[No Receipt*]
 	[RECEIPT*]
 State:558
@@ -1240,16 +1412,20 @@ State:547
 	[btnModify]
 	[btnHold]
 	[Check 2]
+/SeatSelectors/
 	[Table]
 	[S1]
 	[S2]
 	[btnAddSeat]
+/CheckEntries/
 	"Seat 2"
 	"COKE"
 	"2.00"
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
+/MoreOptionsPopup/
 	"HERE"
 	"TO GO"
 	"DON'T MAKE"
@@ -1266,13 +1442,16 @@ State:546
 	[btnModify]
 	[btnHold]
 	[Check 2]
+/SeatSelectors/
 	[Table]
 	[S1]
 	[S2]
 	[btnAddSeat]
+/CheckEntries/
 	"Seat 2"
 	"COKE"
 	"2.00"
+/BottomButtons/
 	[Pay]
 	[Send]
 	[Menu]
@@ -25772,466 +25951,136 @@ State:127
 	[Hold]
 	""
 State:126
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"COMBO 3"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"ROASTED CHCKEN"
-	"- FRIES"
-/CenterCategoryButtons/
-	[Sides]
-	[Drink Combo]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Fanta\Orange]
-	[POWERADE]
-	[*]
-	[SWEET TEA]
-	[*.2]
-	[*.3]
-	[PEPSI]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[Fanta\Strby]
-	[*.13]
-	[Fanta\Grape]
-	[HI C ORANGE]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/BalanceInfo/
+	"Tax"
+	"$0.61"
+	"Total"
+	"$10.61"
+	"CASH"
+	"$10.61.2"
+	"Change"
+	"$0.00"
+/TenderTypeSelection/
+	[Payment]
+	[Promo]
+	[Comp]
+/FilterSection/
+	[Payment]
+	[btnSort]
+/TenderButtons/
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+/ReceiptSelection/
+	[No Receipt]
+	[RECEIPT*]
 State:125
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"COMBO 3"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"ROASTED CHCKEN"
-/CenterCategoryButtons/
-	[Sides]
-	[Drink Combo]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[FRIES]
-	[Black Beans]
-	[*]
-	[Red Beans]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[Baked Potato]
-	[*.14]
-	[SWT POT\FRIES]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/BalanceInfo/
+	"Tax"
+	"$0.61"
+	"Total"
+	"$10.61"
+	"Balance Due"
+	"$10.61.2"
+/TenderTypeSelection/
+	[Payment]
+	[Promo]
+	[Comp]
+/FilterSection/
+	[Payment]
+	[btnSort]
+/TenderButtons/
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+/ReceiptSelection/
+	[No Receipt*]
+	[RECEIPT*]
 State:124
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"COMBO 3"
-	"(Please add exactly 3 modifiers)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"COMBO 3"
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COMBO 3\  TILAPIA\   FRIES\   PEPSI\  GRILLED CHCKEN\   FRIES\   PEPSI\  ROASTED CHCKEN\   FRIES\   PEPSI"
 	"10.00"
-	"- TILAPIA"
-	"-  - FRIES"
-	"-  - PEPSI"
-	"- GRILLED CHCKEN"
-	"-  - FRIES.2"
-	"-  - PEPSI.2"
-/CenterCategoryButtons/
-	[COMBO 3]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[TILAPIA]
-	[*]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[*.14]
-	[*.15]
-	[GRILLED\CHCKEN]
-	[*.16]
-	[ROASTED\CHCKEN]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+/MoreOptionsPopup/
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
 State:123
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
-	"COMBO 1"
-	"COMBO 2"
-	"COMBO 3"
-	"Burger Combo"
-	"Optional Mods"
-	"Special Burger"
-	"Burger & Side"
-	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COMBO 3\  TILAPIA\   FRIES\   PEPSI\  GRILLED CHCKEN\   FRIES\   PEPSI\  ROASTED CHCKEN\   FRIES\   PEPSI"
+	"10.00"
 /BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"COMBO 3"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"GRILLED CHCKEN"
-	"- FRIES"
-/CenterCategoryButtons/
-	[Sides]
-	[Drink Combo]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Fanta\Orange]
-	[POWERADE]
-	[*]
-	[SWEET TEA]
-	[*.2]
-	[*.3]
-	[PEPSI]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[Fanta\Strby]
-	[*.13]
-	[Fanta\Grape]
-	[HI C ORANGE]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
+	[Pay]
+	[Send]
+	[Menu]
 State:122
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+	"COMBO 3\  TILAPIA\   FRIES\   PEPSI\  GRILLED CHCKEN\   FRIES\   PEPSI\  ROASTED CHCKEN\   FRIES\   PEPSI"
+	"10.00"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"Combos"
+	[btnSort]
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -26240,103 +26089,18 @@ State:122
 	"Special Burger"
 	"Burger & Side"
 	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"COMBO 3"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"GRILLED CHCKEN"
-/CenterCategoryButtons/
-	[Sides]
-	[Drink Combo]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[FRIES]
-	[Black Beans]
-	[*]
-	[Red Beans]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[Baked Potato]
-	[*.14]
-	[SWT POT\FRIES]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:121
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"Combos"
+	[btnSort]
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -26345,106 +26109,40 @@ State:121
 	"Special Burger"
 	"Burger & Side"
 	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"COMBO 3"
-	"(Please add exactly 3 modifiers)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
 	"COMBO 3"
 	"10.00"
-	"- TILAPIA"
-	"-  - FRIES"
-	"-  - PEPSI"
-/CenterCategoryButtons/
-	[COMBO 3]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[TILAPIA]
-	[*]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[*.14]
-	[*.15]
-	[GRILLED\CHCKEN]
-	[*.16]
-	[ROASTED\CHCKEN]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
+/Modifier/
+	"COMBO 3"
+	"TILAPIA\  FRIES\  PEPSI"
+	"0.00"
+	"COMBO 3.2"
+	"3 Required"
+	"TILAPIA"
+	"0.00.2"
+	"GRILLED CHCKEN"
+	"0.00.3"
+	"ROASTED CHCKEN"
+	"0.00.4"
 	[Cancel]
-	[OK]
+	[Confirm*]
 State:120
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[SANDWICHES]
-	[PIZZA]
-	[BEER]
-	[RETAIL]
-	[Smart Beer]
-	[Combos]
-	[Burgers]
-	[Chicken & Fish]
-/MenuOrModButtons/
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"Combos"
+	[btnSort]
 	"COMBO 1"
 	"COMBO 2"
 	"COMBO 3"
@@ -26453,74 +26151,37 @@ State:120
 	"Special Burger"
 	"Burger & Side"
 	"Quick Burger"
-	"Warai Set (2)"
-	"Wrap"
-	"Burrito Classic"
-	"Burrito Persona"
-	"Bread"
-	"Platter"
-	"3pcDrkBrstr"
-	"Pavels Meaty Bu"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
 	"COMBO 3"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
+	"10.00"
 /Modifier/
-	"TILAPIA"
-	"- FRIES"
-/CenterCategoryButtons/
-	[Sides]
-	[Drink Combo]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Fanta\Orange]
-	[POWERADE]
-	[*]
-	[SWEET TEA]
-	[*.2]
-	[*.3]
-	[PEPSI]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[Fanta\Strby]
-	[*.13]
-	[Fanta\Grape]
-	[HI C ORANGE]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
+	"Sides"
+	"FRIES"
+	"0.00"
+	"Sides.2"
+	"Drink Combo"
+	"1 Required"
+	"Fanta Orange"
+	"0.00.2"
+	"POWERADE"
+	"0.00.3"
+	"SWEET TEA"
+	"0.00.4"
+	"PEPSI"
+	"0.00.5"
+	"Fanta Strby"
+	"0.00.6"
+	"Fanta Grape"
+	"0.00.7"
+	"HI C ORANGE"
+	"0.00.8"
 	[Cancel]
-	[OK]
+	[Confirm*]
 State:119
 /ReceiveTransfersScreen/
 	"MIGUEL SAAVEDRA"

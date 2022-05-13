@@ -42,13 +42,13 @@ Scenario: 1 Add Check
 			Then clicked /OK/,[Check 2]
 #Action: 13 Click Send on OrderMode
 			Given screen state: 546
-			Then clicked /OK/,[Send]
+			Then clicked [Send]
 #Action: 14 Click "Here" on OrderMode
 			Given screen state: 547
-			Then clicked /OK/,"HERE"
+			Then clicked "HERE"
 #Action: 15 Select Pay on Payment Screen
 			Given screen state: 546
-			Then clicked /OK/,[Pay]
+			Then clicked [Pay]
 #Action: 16 Exact Payment
 			Given screen state: 559
 			Then clicked "Exact"
@@ -63,5 +63,5 @@ Scenario: 1 Add Check
 			Then clicked [No Receipt]
 #Action: 20 Logout on WWT Screen
 			Given screen state: 518
-			When clicked /ThreeDotsBtn/
-			When clicked /AddTableBtn/,"Clock Out"
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
