@@ -2,95 +2,112 @@ Feature: 13 Enter Manager Password Screen
 
 
 Scenario: 1 Void: verify JIT screen can be confirmed by Manager emp. number
-#Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+#Action: 1 Login as server 100
+			Given screen state: 510
 			When clicked [1],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 652
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 653
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 654
 			Then clicked "COKE"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
-			Then clicked [HERE]
-#Action: 6 Void Item
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
-			Then clicked /BottomButtons/,[Void]
-#Action: 7 Enter Manager Code
-			Given screen state: 148
+#Action: 7 Go Back to Guest Check
+			Given screen state: 655
+			Then clicked /OK/
+#Action: 8 Click Send on OrderMode
+			Given screen state: 656
+			Then clicked [Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 657
+			Then clicked "HERE"
+#Action: 10 Void Item
+			Given screen state: 656
+			Then clicked [btnDelete]
+#Action: 11 Enter Manager Code
+			Given screen state: 658
 			When clicked /DialogSeparator/,[2],[0],[0]
 			And clicked /DialogSeparator/,[OK]
-#Action: 8 Void Item
+#Action: 12 Void Item
 			Then verify presence of /ItemSelectionDialog/,"Select items to void"
 			Then clicked /Items/,^COKE^
 			Then clicked /Items/,[OK]
-#Action: 9 Select "Misring"
+#Action: 13 Select "Misring"
 			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^MISRING^
 			Then clicked /Dialog/,[OK]
-#Action: 10 Select Payment
-			Then verify presence of /EntriesBySeat/,"Table","COKE"
-			Then clicked [$]
-#Action: 11 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
-			Then clicked [Exact]
-#Action: 12 Click Close
-			Then verify presence of /Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00","CASH"
-			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 14 Select Pay on Payment Screen
+			Given screen state: 659
+			Then clicked [Pay]
+#Action: 15 Select No Receipt
+			Given screen state: 619
+			Then clicked [No Receipt]
+#Action: 16 Logout on WWT Screen
+			Given screen state: 652
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 2 Void: verify JIT screen can t be confirmed by not clocked in Manager
-#Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+#Action: 1 Login as server 100
+			Given screen state: 510
 			When clicked [1],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 652
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 653
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 654
 			Then clicked "COKE"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
-			Then clicked [HERE]
-#Action: 6 Void Item
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
-			Then clicked /BottomButtons/,[Void]
-#Action: 7 Add Manager Code
-			Given screen state: 148
+#Action: 7 Go Back to Guest Check
+			Given screen state: 655
+			Then clicked /OK/
+#Action: 8 Click Send on OrderMode
+			Given screen state: 656
+			Then clicked [Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 657
+			Then clicked "HERE"
+#Action: 10 Void Item
+			Given screen state: 656
+			Then clicked [btnDelete]
+#Action: 11 Add Manager Code
+			Given screen state: 658
 			When clicked /DialogSeparator/,[2],[0],[2]
 			And clicked /DialogSeparator/,[OK]
-#Action: 8 Select "OK"
+#Action: 12 Select "OK"
 			Then verify presence of /Dialog/,"Error","The supplied employee must login with a magcard",[OK]
 			Then clicked /Dialog/,[OK]
-#Action: 9 Select Payment
-			Then verify presence of /EntriesBySeat/,"Table","COKE","2.00"
-			Then clicked [$]
-#Action: 10 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
-			Then clicked [Exact]
-#Action: 11 Click Close
-			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"CASH","2.00","Change","$0.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 12 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 13 Select Pay on Payment Screen
+			Given screen state: 656
+			Then clicked [Pay]
+#Action: 14 Exact Payment
+			Given screen state: 559
+			Then clicked "Exact"
+#Action: 15 Select No Receipt
+			Given screen state: 560
+			Then clicked [No Receipt]
+#Action: 16 Logout on WWT Screen
+			Given screen state: 652
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 3 Comps: verify JIT screen can be confirmed by Manager emp. number
 #Action: 1 Login as manager 200

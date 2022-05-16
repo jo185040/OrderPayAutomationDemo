@@ -8,7 +8,7 @@ Scenario: 1 Delete Item
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
 			Given screen state: 518
-			Then clicked /AddTableBtn/
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -26,21 +26,28 @@ Scenario: 1 Delete Item
 			Then clicked /OK/
 #Action: 8 Click Send on OrderMode
 			Given screen state: 539
-			Then clicked /OK/,[Send]
+			Then clicked [Send]
 #Action: 9 Click "Here" on OrderMode
-			Given screen state: 549
-			Then clicked /OK/,"HERE"
+			Given screen state: 615
+			Then clicked "HERE"
 #Action: 10 Delete Items
 			Given screen state: 539
-			Then clicked /OK/,[btnDelete]
+			Then clicked [btnDelete]
 #Action: 11 Select Coke on Void Screen
-			Given screen state: 550
+			Given screen state: 616
 			Then clicked /Items/,"COKE"
 			Then clicked /Items/,[OK*]
 #Action: 12 Delete Items
-			Given screen state: 551
+			Given screen state: 617
 			Then clicked /Dialog/,^MISRING^
 			Then clicked /Dialog/,[OK]
-#Action: 13 Click Done
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			When clicked /TopLeftButtons/,[Done]
+#Action: 13 Select Pay on Payment Screen
+			Given screen state: 618
+			Then clicked [Pay]
+#Action: 14 Select No Receipt
+			Given screen state: 619
+			Then clicked [No Receipt]
+#Action: 15 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"

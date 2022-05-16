@@ -101,7 +101,7 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 			Then clicked /BottomButtons/,[Void]
 			When waited 0.03
 #Action: 7 Enter manager 20 on JIT Screen
-			Given screen state: 148
+			Given screen state: 658
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[0]

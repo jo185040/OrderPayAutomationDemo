@@ -8,7 +8,7 @@ Scenario: 1 Close Check with Euro Payments
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
 			Given screen state: 518
-			Then clicked /AddTableBtn/
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -22,17 +22,17 @@ Scenario: 1 Close Check with Euro Payments
 			Given screen state: 537
 			Then clicked "PORK\NACHOS"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 561
+			Given screen state: 620
 			Then clicked /OK/
 #Action: 8 Click Send on OrderMode
-			Given screen state: 562
-			Then clicked /OK/,[Send]
+			Given screen state: 621
+			Then clicked [Send]
 #Action: 9 Click "Here" on OrderMode
-			Given screen state: 563
-			Then clicked /OK/,"HERE"
+			Given screen state: 622
+			Then clicked "HERE"
 #Action: 10 Select Pay on Payment Screen
-			Given screen state: 562
-			Then clicked /OK/,[Pay]
+			Given screen state: 621
+			Then clicked [Pay]
 #Action: 11 Exact Payment
 			Given screen state: 564
 			Then clicked "Euro"
@@ -44,5 +44,5 @@ Scenario: 1 Close Check with Euro Payments
 			Then clicked [No Receipt]
 #Action: 14 Logout on WWT Screen
 			Given screen state: 518
-			When clicked /ThreeDotsBtn/
-			When clicked /AddTableBtn/,"Clock Out"
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
