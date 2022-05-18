@@ -19,7 +19,7 @@ Scenario: 1 Close Check with Euro Payments
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add Pork Nachos
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "PORK\NACHOS"
 #Action: 7 Go Back to Guest Check
 			Given screen state: 620

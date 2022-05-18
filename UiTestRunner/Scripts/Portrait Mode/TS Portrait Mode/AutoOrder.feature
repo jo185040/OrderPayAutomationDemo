@@ -19,7 +19,7 @@ Scenario: 1 Auto Order Items
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add COKE
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Add Pork Nachos
 			Given screen state: 538

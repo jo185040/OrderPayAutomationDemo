@@ -19,7 +19,7 @@ Scenario: 1 Verify you can add Order 3 Combo
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Swipe to Sandwiches Menu
-			Given screen state: 537
+			Given screen state: 714
 			When swiped left on /SubmenuSelectors/
 #Action: 7 Swipe to Combo Menu
 			Given screen state: 596

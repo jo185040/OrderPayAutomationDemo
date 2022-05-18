@@ -4,45 +4,53 @@ Feature: 22 Hold
 
 Scenario: 1 Hold Item
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
-#Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
 			And clicked [OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+#Action: 2 Floor Plan select Table 1
+			Given screen state: 518
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 714
 			Then clicked "COKE"
-#Action: 5 Select Coke on Check
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/,"COKE"
-#Action: 6 Add Hold
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			When swiped left on /BottomButtons/
-			Then clicked [Hold]
-#Action: 7 Apply HERE Ordermode
-			Given screen state: 207
-			Then clicked [HERE]
-#Action: 8 Press OK
-			Then verify presence of /EntriesBySeat/,"Seat 1","H COKE","2.00"
+#Action: 7 Go Back to Guest Check
+			Given screen state: 538
+			Then clicked /OK/
+#Action: 8 Select Coke on Check
+			Given screen state: 539
+			Then clicked "COKE"
+#Action: 9 Add Hold
+			Given screen state: 539
+			Then clicked [btnHold]
+#Action: 10 Click Send on OrderMode
+			Given screen state: 539
+			Then clicked [Send]
+#Action: 11 Click "Here" on OrderMode
+			Given screen state: 615
+			Then clicked "HERE"
+#Action: 12 Press OK
+			Given screen state: 693
 			Then clicked /Items/,^COKE^
 			Then clicked /Items/,[OK]
-#Action: 9 Select $ Option
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			When swiped right on /BottomButtons/
-			Then clicked /BottomButtons/,[$]
-#Action: 10 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.00","Total","2.00",/Tenders/,"Balance Due","$2.00"
-			Then clicked [Exact]
-#Action: 11 Click Close
-			Given screen state: 208
-			Then clicked /MidButtons/,[Close]
-#Action: 12 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 13 Select Pay on Payment Screen
+			Given screen state: 539
+			Then clicked [Pay]
+#Action: 14 Exact Payment
+			Given screen state: 559
+			Then clicked "Exact"
+#Action: 15 Select No Receipt
+			Given screen state: 560
+			Then clicked [No Receipt]
+#Action: 16 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"

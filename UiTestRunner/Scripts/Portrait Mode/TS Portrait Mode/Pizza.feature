@@ -3,51 +3,61 @@ Feature: 16 Pizza
 
 Scenario: 1 Verify order item from Pizza Menu
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Select Pizza Menu
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /CenterMenuButtons/,[PIZZA]
-#Action: 5 Order Sausage Pizza
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Swipe on Entree Menu
+			Given screen state: 714
+			When swiped left on /SubmenuSelectors/
+#Action: 7 Select Pizza Menu
+			Given screen state: 596
+			Then clicked "PIZZA"
+#Action: 8 Order Sausage Pizza
+			Given screen state: 582
 			Then clicked "Sausage\Pizza"
-#Action: 6 Select Pizza Size
+#Action: 9 Select Pizza Size
 			Given screen state: 400
 			Then clicked [Large]
-#Action: 7 Select Pizza Crust
+#Action: 10 Select Pizza Crust
 			Given screen state: 449
 			Then clicked [Pan]
-#Action: 8 Select Sausage
+#Action: 11 Select Sausage
 			Given screen state: 445
 			Then clicked [Sausage]
-#Action: 9 Select OK on Pizza Menu
+#Action: 12 Select OK on Pizza Menu
 			Given screen state: 006
 			Then clicked [OK]
-#Action: 10 Apply HERE Ordermode
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [HERE]
-#Action: 11 Select $ on Payment Screen
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [$]
-#Action: 12 Exact Payment
-			Given screen state: 417
-			Then clicked [Exact]
-#Action: 13 Click Close
-			Given screen state: 418
-			Then clicked /MidButtons/,[Close]
-#Action: 14 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 13 Go Back to Guest Check
+			Given screen state: 579
+			Then clicked /OK/
+#Action: 14 Click Send on OrderMode
+			Given screen state: 580
+			Then clicked [Send]
+#Action: 15 Click "Here" on OrderMode
+			Given screen state: 581
+			Then clicked "HERE"
+#Action: 16 Select Pay on Payment Screen
+			Given screen state: 580
+			Then clicked [Pay]
+#Action: 17 Select No Receipt
+			Given screen state: 619
+			Then clicked [No Receipt]
+#Action: 18 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 2 Verify you can order an item from Pizza Menu in Lunch menu
 #Action: 1 Login as manager 200

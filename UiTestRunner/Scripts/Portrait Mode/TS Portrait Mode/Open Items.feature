@@ -2,53 +2,64 @@ Feature: 20 Open Items
 
 
 Scenario: 1 Verify you can order an Open Item from Retail Menu
+#TODO OPAY-3706
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
-#Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
 			And clicked [OK]
-#Action: 4 Select Entrees Menu
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			When swiped up on /CenterMenuButtons/
-			Then clicked /CenterMenuButtons/,[RETAIL]
-#Action: 5 Order Open Item
-			Then verify presence of /CenterMenuButtons/,[RETAIL]
+#Action: 2 Floor Plan select Table 1
+			Given screen state: 518
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Swipe on Entree Menu
+			Given screen state: 714
+			When swiped left on /SubmenuSelectors/
+#Action: 7 Select Entrees Menu
+			Given screen state: 596
+			Then clicked "RETAIL"
+#Action: 8 Order Open Item
+			Given screen state: 692
 			Then clicked "OPEN ITEM"
-#Action: 6 Enter description "Test"
+#Action: 9 Enter description "Test"
 			Then verify presence of /CenterMenuButtons/,[RETAIL]
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[e]
 			Then clicked /DialogSeparator/,[s]
 			Then clicked /DialogSeparator/,[t]
 			Then clicked /DialogSeparator/,[Ok]
-#Action: 7 Enter Price "2.00"
+#Action: 10 Enter Price "2.00"
 			Then verify presence of /CurrencyInputDialog/,"Enter price","$","0.00",[<]
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
-#Action: 8 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
-			Then clicked [HERE]
-#Action: 9 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Seat 1","TEST","2.00"
-			Then clicked [$]
-#Action: 10 Exact Payment
-			Then verify presence of "2.00",/ItemEntries/,"Seat 1","TEST",/Comps/,"Sub Total","2.00",/Taxes/,"Tax","0.12","Total","2.12",/Tenders/,"Balance Due","$2.12"
-			Then clicked [Exact]
-#Action: 11 Click Close
-			Given screen state: 246
-			Then clicked /MidButtons/,[Close]
-#Action: 12 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 11 Click Send on OrderMode
+			Given screen state: 687
+			Then clicked [Send]
+#Action: 12 Click "Here" on OrderMode
+			Given screen state: 688
+			Then clicked "HERE"
+#Action: 13 Select Pay on Payment Screen
+			Given screen state: 689
+			Then clicked [Pay]
+#Action: 14 Exact Payment
+			Given screen state: 690
+			Then clicked "Exact"
+#Action: 15 Select No Receipt
+			Given screen state: 691
+			Then clicked [No Receipt]
+#Action: 16 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 2 Verify you can order "Open Item Price" from Retail Submenu
 #Action: 1 Login as manager 200

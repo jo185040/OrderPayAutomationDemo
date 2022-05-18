@@ -19,30 +19,30 @@ Scenario: 1 Delete Item
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add COKE
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Click Send on OrderMode
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked [Send]
 #Action: 9 Click "Here" on OrderMode
-			Given screen state: 615
+			Given screen state: 709
 			Then clicked "HERE"
 #Action: 10 Delete Items
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked [btnDelete]
 #Action: 11 Select Coke on Void Screen
-			Given screen state: 616
+			Given screen state: 710
 			Then clicked /Items/,"COKE"
 			Then clicked /Items/,[OK*]
 #Action: 12 Delete Items
-			Given screen state: 617
+			Given screen state: 711
 			Then clicked /Dialog/,^MISRING^
 			Then clicked /Dialog/,[OK]
 #Action: 13 Select Pay on Payment Screen
-			Given screen state: 618
+			Given screen state: 712
 			Then clicked [Pay]
 #Action: 14 Select No Receipt
 			Given screen state: 619

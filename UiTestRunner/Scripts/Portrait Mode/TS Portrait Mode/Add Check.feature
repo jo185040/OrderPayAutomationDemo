@@ -19,7 +19,7 @@ Scenario: 1 Add Check
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add COKE
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Go Back to Guest Check
 			Given screen state: 538

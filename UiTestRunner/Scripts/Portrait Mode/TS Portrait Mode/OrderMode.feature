@@ -19,7 +19,7 @@ Scenario: 1 Dine-In Order Mode
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add COKE
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Add Pork Nachos
 			Given screen state: 538
@@ -68,7 +68,7 @@ Scenario: 2 ToGO Indicator Mode
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add Pork Nachos
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "PORK\NACHOS"
 #Action: 7 Go Back to Guest Check
 			Given screen state: 620
@@ -116,7 +116,7 @@ Scenario: 3 Order Pork Chop Mods
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Select Entrees Menu
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "ENTREES"
 #Action: 7 Swipe up on Entrees
 			Given screen state: 601
@@ -197,7 +197,7 @@ Scenario: 4 Order [DON'T MAKE] with selection from list
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add two COKEs and three 7 UPs
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "COKE", "COKE", "7 UP","7 UP","7 UP"
 #Action: 7 Go Back to Guest Check
 			Given screen state: 679

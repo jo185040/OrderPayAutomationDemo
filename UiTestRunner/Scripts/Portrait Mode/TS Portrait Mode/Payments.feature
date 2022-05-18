@@ -9,7 +9,7 @@ Scenario: 1 Delete Cash Payment
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
 			Given screen state: 518
-			Then clicked /AddTableBtn/
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -20,7 +20,7 @@ Scenario: 1 Delete Cash Payment
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add COKE
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Add Pork Nachos
 			Given screen state: 538
@@ -54,8 +54,8 @@ Scenario: 1 Delete Cash Payment
 			Then clicked [No Receipt]
 #Action: 17 Logout on WWT Screen
 			Given screen state: 518
-			When clicked /ThreeDotsBtn/
-			When clicked /AddTableBtn/,"Clock Out"
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 2 Verify enabled Close button displays when there is a zero balance (Manager)
 #Action: 1 Login as manager 200
@@ -65,7 +65,7 @@ Scenario: 2 Verify enabled Close button displays when there is a zero balance (M
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
 			Given screen state: 518
-			Then clicked /AddTableBtn/
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -76,7 +76,7 @@ Scenario: 2 Verify enabled Close button displays when there is a zero balance (M
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Select Drinks Sub-menu
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "DRINKS"
 #Action: 7 Add Water
 			Given screen state: 578
@@ -86,20 +86,20 @@ Scenario: 2 Verify enabled Close button displays when there is a zero balance (M
 			Then clicked /OK/
 #Action: 9 Click Send on OrderMode
 			Given screen state: 580
-			Then clicked /OK/,[Send]
+			Then clicked [Send]
 #Action: 10 Click "Here" on OrderMode
 			Given screen state: 581
-			Then clicked /OK/,"HERE"
+			Then clicked "HERE"
 #Action: 11 Select Pay on Payment Screen
 			Given screen state: 580
-			Then clicked /OK/,[Pay]
+			Then clicked [Pay]
 #Action: 12 Select No Receipt
-			Given screen state: 582
+			Given screen state: 619
 			Then clicked [No Receipt]
 #Action: 13 Logout on WWT Screen
 			Given screen state: 518
-			When clicked /ThreeDotsBtn/
-			When clicked /AddTableBtn/,"Clock Out"
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 3 Verify you can pay with cash with predefined amount (Server)
 #Action: 1 Login as manager 100
@@ -107,8 +107,8 @@ Scenario: 3 Verify you can pay with cash with predefined amount (Server)
 			When clicked [1],[0],[0]
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 522
-			Then clicked /AddTableBtn/
+			Given screen state: 652
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -116,23 +116,23 @@ Scenario: 3 Verify you can pay with cash with predefined amount (Server)
 			Given screen state: 535
 			And clicked [OK]
 #Action: 5 Select Menu
-			Given screen state: 583
+			Given screen state: 653
 			Then clicked [Menu]
 #Action: 6 Add COKE
-			Given screen state: 584
+			Given screen state: 654
 			Then clicked "COKE"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 585
+			Given screen state: 655
 			Then clicked /OK/
 #Action: 8 Click Send on OrderMode
-			Given screen state: 586
-			Then clicked /OK/,[Send]
+			Given screen state: 656
+			Then clicked [Send]
 #Action: 9 Click "Here" on OrderMode
-			Given screen state: 587
-			Then clicked /OK/,"HERE"
+			Given screen state: 657
+			Then clicked "HERE"
 #Action: 10 Select Pay on Payment Screen
-			Given screen state: 586
-			Then clicked /OK/,[Pay]
+			Given screen state: 656
+			Then clicked [Pay]
 #Action: 11 Exact Payment
 			Given screen state: 559
 			Then clicked "Exact"
@@ -140,9 +140,9 @@ Scenario: 3 Verify you can pay with cash with predefined amount (Server)
 			Given screen state: 560
 			Then clicked [No Receipt]
 #Action: 13 Logout on WWT Screen
-			Given screen state: 522
-			When clicked /ThreeDotsBtn/
-			When clicked /AddTableBtn/,"Clock Out"
+			Given screen state: 652
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 4 Verify you can process Euro payment (Manager)
 #Action: 1 Login as manager 200
@@ -151,7 +151,7 @@ Scenario: 4 Verify you can process Euro payment (Manager)
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
 			Given screen state: 518
-			Then clicked /AddTableBtn/
+			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
 			Then clicked "1"
@@ -162,20 +162,20 @@ Scenario: 4 Verify you can process Euro payment (Manager)
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Add Pork Nachos
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "PORK\NACHOS"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 561
+			Given screen state: 620
 			Then clicked /OK/
 #Action: 8 Click Send on OrderMode
-			Given screen state: 562
-			Then clicked /OK/,[Send]
+			Given screen state: 621
+			Then clicked [Send]
 #Action: 9 Click "Here" on OrderMode
-			Given screen state: 563
-			Then clicked /OK/,"HERE"
+			Given screen state: 622
+			Then clicked "HERE"
 #Action: 10 Select Pay on Payment Screen
-			Given screen state: 562
-			Then clicked /OK/,[Pay]
+			Given screen state: 621
+			Then clicked [Pay]
 #Action: 11 Exact Payment
 			Given screen state: 564
 			Then clicked "Euro"
@@ -187,8 +187,8 @@ Scenario: 4 Verify you can process Euro payment (Manager)
 			Then clicked [No Receipt]
 #Action: 14 Logout on WWT Screen
 			Given screen state: 518
-			When clicked /ThreeDotsBtn/
-			When clicked /AddTableBtn/,"Clock Out"
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 5 Verify you can delete Euro payment (Manager)
 #Action: 1 Login as manager 200

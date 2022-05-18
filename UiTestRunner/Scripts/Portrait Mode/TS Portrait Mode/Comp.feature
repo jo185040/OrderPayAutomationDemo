@@ -19,7 +19,7 @@ Scenario: 1 Manager Comp
 			Given screen state: 536
 			Then clicked [Menu]
 #Action: 6 Select Entrees Menu
-			Given screen state: 537
+			Given screen state: 714
 			Then clicked "ENTREES"
 #Action: 7 Order BBQ Ribs
 			Given screen state: 601
