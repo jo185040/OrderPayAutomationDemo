@@ -81,7 +81,7 @@ Scenario: 2 Add Quantity on Multiple Checks
 			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Add Seat 2
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked [btnAddSeat]
 #Action: 9 Select Menu
 			Given screen state: 680

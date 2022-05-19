@@ -25,7 +25,7 @@ Scenario: 1 Add Check
 			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Add Check
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked /OK/,[Check 1]
 			Then clicked [New Check]
 #Action: 9 Select Menu

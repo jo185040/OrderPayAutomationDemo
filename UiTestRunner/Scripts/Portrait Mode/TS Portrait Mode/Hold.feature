@@ -26,13 +26,13 @@ Scenario: 1 Hold Item
 			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Select Coke on Check
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked "COKE"
 #Action: 9 Add Hold
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked [btnHold]
 #Action: 10 Click Send on OrderMode
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked [Send]
 #Action: 11 Click "Here" on OrderMode
 			Given screen state: 615
@@ -42,7 +42,7 @@ Scenario: 1 Hold Item
 			Then clicked /Items/,^COKE^
 			Then clicked /Items/,[OK]
 #Action: 13 Select Pay on Payment Screen
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked [Pay]
 #Action: 14 Exact Payment
 			Given screen state: 559

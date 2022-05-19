@@ -3,6 +3,7 @@ Feature: 16 Pizza
 
 Scenario: 1 Verify order item from Pizza Menu
 #Action: 1 Login as manager 200
+			#TODO OPAY-3716
 			Given screen state: 510
 			When clicked [2],[0],[0]
 			And clicked [OK]

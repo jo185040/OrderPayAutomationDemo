@@ -26,7 +26,7 @@ Scenario: 1 Clear Item on Guest Check
 			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Clear Item
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked [btnDelete]
 #Action: 9 Press OK, on Clear Item Dialog
 			Given screen state: 056
@@ -92,7 +92,7 @@ Scenario: 3 Clear Item on Multiple Checks
 			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Add Check
-			Given screen state: 539
+			Given screen state: 708
 			Then clicked /OK/,[Check 1]
 			Then clicked [New Check]
 #Action: 9 Select Menu

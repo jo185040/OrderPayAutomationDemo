@@ -3,103 +3,128 @@ Feature: 21 Refill
 
 Scenario: 1 Refill Drink
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 714
 			Then clicked "COKE"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
-			Then clicked [HERE]
-#Action: 6 Select Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/,"COKE"
-#Action: 7 Modify Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [Modify]
-#Action: 8 Add Coke Modifier
+#Action: 7 Go Back to Guest Check
+			Given screen state: 703
+			Then clicked /OK/
+#Action: 8 Click Send on OrderMode
+			Given screen state: 708
+			Then clicked [Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 709
+			Then clicked "HERE"
+#Action: 10 Select Coke
+			Given screen state: 708
+			Then clicked "COKE"
+#Action: 11 Modify Coke
+			Given screen state: 708
+			Then clicked [btnModify]
+#Action: 12 Add Coke Modifier
 			Given screen state: 138
-			Then clicked [COKE]
-#Action: 9 Press OK on modifier screen
+			Then clicked /Modifier/,"COKE"
+#Action: 13 Press OK on modifier screen
 			Given screen state: 139
-			Then clicked [OK]
-#Action: 10 Apply HERE Ordermode
-			Given screen state: 492
-			Then clicked [HERE]
-#Action: 11 Select Payments $
-			Given screen state: 492
-			Then clicked [$]
-#Action: 12 Exact Payment
-			Given screen state: 361
-			Then clicked [Exact]
-#Action: 13 Click Close
-			Given screen state: 362
-			Then clicked /MidButtons/,[Close]
-#Action: 14 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+			Then clicked [Confirm]
+#Action: 14 Click Send on OrderMode
+			Given screen state: 537
+			Then clicked [Send]
+#Action: 15 Click "Here" on OrderMode
+			Given screen state: 700
+			Then clicked "HERE"
+#Action: 16 Select Pay on Payment Screen
+			Given screen state: 537
+			Then clicked [Pay]
+#Action: 17 Exact Payment
+			Given screen state: 559
+			Then clicked "Exact"
+#Action: 18 Select No Receipt
+			Given screen state: 560
+			Then clicked [No Receipt]
+#Action: 19 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 2 Repeat Refill Drink
 #Action: 1 Login as manager 200
-			#TODO ALOHAP-36071
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Add COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Add COKE
+			Given screen state: 714
 			Then clicked "COKE"
-#Action: 5 Apply HERE Ordermode
-			Then verify presence of /EntriesBySeat/,"Seat 1","COKE","2.00"
-			Then clicked [HERE]
-#Action: 6 Select Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /EntriesBySeat/, "COKE"
-#Action: 7 Modify Coke
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [Modify]
-#Action: 8 Add Coke Modifier
+#Action: 7 Go Back to Guest Check
+			Given screen state: 703
+			Then clicked /OK/
+#Action: 8 Click Send on OrderMode
+			Given screen state: 708
+			Then clicked [Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 709
+			Then clicked "HERE"
+#Action: 10 Select Coke
+			Given screen state: 708
+			Then clicked "COKE"
+#Action: 11 Modify Coke
+			Given screen state: 708
+			Then clicked [btnModify]
+#Action: 12 Add Coke Modifier
 			Given screen state: 138
-			Then clicked [COKE]
-#Action: 9 Press OK on modifier screen
+			Then clicked /Modifier/,"COKE"
+#Action: 13 Press OK on modifier screen
 			Given screen state: 139
-			Then clicked [OK]
-#Action: 10 Apply HERE Ordermode
-			Given screen state: 492
-			Then clicked [HERE]
-#Action: 11 Repeat Refill Drink
-			Given screen state: 492
-			Then clicked [Repeat]
-#Action: 12 Select OK Button
+			Then clicked [Confirm]
+#Action: 14 Click Send on OrderMode
+			Given screen state: 537
+			Then clicked [Send]
+#Action: 15 Click "Here" on OrderMode
+			Given screen state: 700
+			Then clicked "HERE"
+#Action: 16 Repeat Refill Drink
+			Given screen state: 537
+			Then clicked [btnRepeat]
+#Action: 17 Select OK Button
 			Given screen state: 348
 			Then clicked /Dialog/,[OK]
-#Action: 13 Select Payment $
-			Given screen state: 492
-			Then clicked [$]
-#Action: 14 Exact Payment
-			Given screen state: 361
-			Then clicked [Exact]
-#Action: 15 Click Close
-			Given screen state: 362
-			Then clicked /MidButtons/,[Close]
-#Action: 16 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 18 Select Pay on Payment Screen
+			Given screen state: 537
+			Then clicked [Pay]
+#Action: 19 Exact Payment
+			Given screen state: 559
+			Then clicked "Exact"
+#Action: 20 Select No Receipt
+			Given screen state: 560
+			Then clicked [No Receipt]
+#Action: 21 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"

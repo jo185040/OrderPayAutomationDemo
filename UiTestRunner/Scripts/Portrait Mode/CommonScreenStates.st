@@ -2403,7 +2403,7 @@ State:690
 	[No Receipt*]
 	[RECEIPT*]
 State:689
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2431,7 +2431,7 @@ State:689
 	[Send]
 	[Menu]
 State:688
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2472,7 +2472,7 @@ State:688
 	"DON'T MAKE"
 	"Happy hour"
 State:687
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2508,7 +2508,7 @@ State:687
 	[Send]
 	[Menu]
 State:686
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2556,7 +2556,7 @@ State:686
 	[0]
 	[OK]
 State:685
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2588,7 +2588,7 @@ State:685
 	[Send]
 	[Menu]
 State:684
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2632,7 +2632,7 @@ State:684
 	[0]
 	[OK]
 State:683
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2660,7 +2660,7 @@ State:683
 	[Send]
 	[Menu]
 State:682
-/"Check 1 Seat 2"/
+"Check 1 Seat 2"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2683,7 +2683,7 @@ State:682
 	"SPN ARTCHK\DIP"
 	"COKE"
 State:681
-/"Check 1 Seat 2"/
+"Check 1 Seat 2"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2711,7 +2711,7 @@ State:681
 	"SPN ARTCHK\DIP"
 	"COKE"
 State:680
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -3518,7 +3518,7 @@ State:658
 	[0]
 	[OK]
 State:657
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -3543,7 +3543,7 @@ State:657
 	"DON'T MAKE"
 	"Happy hour"
 State:656
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -3563,7 +3563,7 @@ State:656
 	[Send]
 	[Menu]
 State:655
-/"Check 1"/
+"Check 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -3586,7 +3586,7 @@ State:655
 	"SPN ARTCHK\DIP"
 	"COKE"
 State:654
-/"Check 1"/
+"Check 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -5489,7 +5489,7 @@ State:594
 	[No Receipt*]
 	[RECEIPT*]
 State:593
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5515,7 +5515,7 @@ State:593
 	[Send]
 	[Menu]
 State:592
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5550,7 +5550,7 @@ State:592
 	"DON'T MAKE"
 	"Happy hour"
 State:591
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5580,7 +5580,7 @@ State:591
 	[Send]
 	[Menu]
 State:590
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5622,7 +5622,7 @@ State:590
 	[0]
 	[OK]
 State:589
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5784,7 +5784,7 @@ State:582
 	"Sausage\Pizza"
 	"Veg 7\Thin"
 State:581
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5813,7 +5813,7 @@ State:581
 	"DON'T MAKE"
 	"Happy hour"
 State:580
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5837,7 +5837,7 @@ State:580
 	[Send]
 	[Menu]
 State:579
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -5859,7 +5859,7 @@ State:579
 	"ICED\COFFEE"
 	"Wldfre\Sauce"
 State:578
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -6937,30 +6937,6 @@ State:540
 	"Warning"
 	"There are no entries to delete or void."
 	[OK]
-State:539
-/"Table 1"/
-	[btnTransfer]
-	[btnSplit]
-	[btnMore]
-/OK/
-	[btnDelete]
-	[btnQuantity]
-	[btnRepeat]
-	[btnModify]
-	[btnHold]
-	[Check 1]
-/SeatSelectors/
-	[Table]
-	[S1]
-	[btnAddSeat]
-/CheckEntries/
-	"Seat 1"
-	"COKE"
-	"2.00"
-/BottomButtons/
-	[Pay]
-	[Send]
-	[Menu]
 State:537
 "Table 1"
 	[btnTransfer]
@@ -8313,67 +8289,6 @@ State:493
 	[Add]
 	[Split seat]
 	[Close]
-State:492
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"COKE\ COKE"
-	"2.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
 State:491
 /Dialog/
 	"Select Void Reason"
@@ -16179,70 +16094,33 @@ State:349
 	[Hold]
 	""
 State:348
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COKE\  COKE"
+	"2.00"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
 /Dialog/
 	"Error"
 	"Repeat is not permitted on ordered refillable items."
 	[OK]
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-	"Seat 1"
-	"COKE\ COKE"
-	"2.00"
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"FRIED MOZZ"
-	"Quick Menu"
-	[Mod Menu\Items]
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-	[Scripts Test\Panel]
-	[Pizza Menu]
-	"ICED\COFFEE"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
 State:347
 /OrderScreen/
 /TopLeftButtons/
