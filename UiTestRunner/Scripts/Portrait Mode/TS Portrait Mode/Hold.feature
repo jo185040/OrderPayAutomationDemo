@@ -35,7 +35,7 @@ Scenario: 1 Hold Item
 			Given screen state: 708
 			Then clicked [Send]
 #Action: 11 Click "Here" on OrderMode
-			Given screen state: 615
+			Given screen state: 709
 			Then clicked "HERE"
 #Action: 12 Press OK
 			Given screen state: 693
