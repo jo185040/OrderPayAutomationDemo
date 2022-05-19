@@ -23,7 +23,7 @@ Scenario: 1 Clear Item on Guest Check
 			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Clear Item
 			Given screen state: 539
@@ -89,7 +89,7 @@ Scenario: 3 Clear Item on Multiple Checks
 			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Add Check
 			Given screen state: 539

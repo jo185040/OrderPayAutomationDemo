@@ -22,7 +22,7 @@ Scenario: 1 Verify Repeat works on unordered items
 			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Add Pork Nachos
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked "PORK\NACHOS"
 #Action: 8 Go Back to Guest Check
 			Given screen state: 588
@@ -71,7 +71,7 @@ Scenario: 2 Verify Repeat works on ordered items
 			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Add Pork Nachos
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked "PORK\NACHOS"
 #Action: 8 Go Back to Guest Check
 			Given screen state: 588

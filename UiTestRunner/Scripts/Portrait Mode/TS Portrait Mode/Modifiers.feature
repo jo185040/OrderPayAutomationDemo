@@ -847,73 +847,83 @@ Scenario: 14 Verify price is combined on Porkchop item with Red Beans modifier
 #Action: 10 On Soup Mod, select Cup
 			Given screen state: 746
 			Then clicked "CUP"
-#Action: 7 Go Back to Guest Check
-			Given screen state: 703
-			Then clicked /OK/
-#Action: 11 Click Send on OrderMode
+#Action: 11 Go Back to Guest Check
 			Given screen state: 747
+			Then clicked /OK/
+#Action: 12 Click Send on OrderMode
+			Given screen state: 748
 			Then clicked [Send]
-#Action: 12 Click "Here" on OrderMode
-			Given screen state: 740
+#Action: 13 Click "Here" on OrderMode
+			Given screen state: 749
 			Then clicked "HERE"
-#Action: 13 Select Pay on Payment Screen
-			Given screen state: 739
+#Action: 14 Select Pay on Payment Screen
+			Given screen state: 748
 			Then clicked [Pay]
-#Action: 14 Exact Payment
-			Given screen state: 559
+#Action: 15 Exact Payment
+			Given screen state: 750
 			Then clicked "Exact"
-#Action: 15 Select No Receipt
-			Given screen state: 560
+#Action: 16 Select No Receipt
+			Given screen state: 751
 			Then clicked [No Receipt]
-#Action: 16 Logout on WWT Screen
+#Action: 17 Logout on WWT Screen
 			Given screen state: 518
 			When clicked [btnThreeDots]
 			When clicked "Clock Out"
 
 Scenario: 15 Verify price is combined on Porkchop item with Black Beans modifier
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Select Entrees Menu
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /CenterMenuButtons/,[ENTREES]
-#Action: 5 Order Pork Chop
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Select Entrees Menu
+			Given screen state: 714
+			Then clicked "ENTREES"
+#Action: 7 Order Pork Chop
+			Given screen state: 601
 			Then clicked "PORK\CHOP"
-#Action: 6 On Meat Temp Press OK
+#Action: 8 On Meat Temp Press OK
 			Given screen state: 134
-			Then clicked [MEDIUM]
-#Action: 7 On Starch press Baked Potato OK
+			Then clicked "MEDIUM"
+#Action: 9 On Starch press Baked Potato OK
+			Given screen state: 745
+			Then clicked /Modifier/,"Black Beans"
+#Action: 10 On Soup Mod, select Cup
+			Given screen state: 746
+			Then clicked "CUP"
+#Action: 11 Go Back to Guest Check
 			Given screen state: 135
-			Then clicked [Black Beans]
-#Action: 8 On Soup Mod, select Cup
+			Then clicked /OK/
+#Action: 12 Click Send on OrderMode
 			Given screen state: 160
-			Then clicked [CUP]
-#Action: 9 Apply HERE Ordermode
-			Given screen state: 377
-			Then clicked [HERE]
-#Action: 10 Select $ on Payment Screen
-			Given screen state: 377
-			Then clicked [$]
-#Action: 11 Exact Payment
-			Given screen state: 378
-			Then clicked [Exact]
-#Action: 12 Click Close
-			Given screen state: 379
-			Then clicked /MidButtons/,[Close]
-#Action: 13 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+			Then clicked [Send]
+#Action: 13 Click "Here" on OrderMode
+			Given screen state: 752
+			Then clicked "HERE"
+#Action: 14 Select Pay on Payment Screen
+			Given screen state: 160
+			Then clicked [Pay]
+#Action: 15 Exact Payment
+			Given screen state: 750
+			Then clicked "Exact"
+#Action: 16 Select No Receipt
+			Given screen state: 751
+			Then clicked [No Receipt]
+#Action: 17 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"
 
 Scenario: 16 Add Item with a Typed Modifier
 #Action: 1 Login as manager 200
@@ -1058,52 +1068,67 @@ Scenario: 18 Verify modifier panel is working on Special burger item (submenu Co
 
 Scenario: 19 No Modifier Substitution Weight 2
 #Action: 1 Login as manager 200
-			Then verify presence of "SERVER 100 - 102\MANAGER 200 - 201\BARTENDER 300\KITCHEN 400\UNIVERSAL 203\MAG CARD 202\PASSWORD 500 - 501\MANAGER PASSWORD 600","SEE YOUR MGR\WITH ANY POS\QUESTIONS\TRAINING 150", [Login*]
+			Given screen state: 510
 			When clicked [2],[0],[0]
-			And clicked [Login]
-			Then verify absence of [Login]
+			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 511
-			Then clicked [1]
-#Action: 3 Enter Guest Count 1
-			Given screen state: 025
-			When clicked /DialogSeparator/,[1]
-			And clicked /DialogSeparator/,[OK]
-			Then verify absence of "Enter Guest Count"
-#Action: 4 Select Entrees Menu
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /CenterMenuButtons/,[ENTREES]
-#Action: 5 Order BBQ Ribs
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
+			Given screen state: 518
+			Then clicked [btnAddTable]
+#Action: 3 Free Tables Screen Select 1
+			Given screen state: 514
+			Then clicked "1"
+#Action: 4 Enter Guest Count 1
+			Given screen state: 535
+			And clicked [OK]
+#Action: 5 Select Menu
+			Given screen state: 536
+			Then clicked [Menu]
+#Action: 6 Select Entrees Menu
+			Given screen state: 714
+			Then clicked "ENTREES"
+#Action: 7 Order BBQ Ribs
+			Given screen state: 601
 			Then clicked "BBQ\RIBS"
-#Action: 6 On Ribs Submenu order 1/2 Rack
+#Action: 8 Select More Menu
 			Given screen state: 128
-			Then clicked [No]
-			Then clicked [FULL RACK]
-#Action: 7 On Ribs Submenu order 1/2 Rack
-			Given screen state: 234
-			Then clicked [1/2 RACK]
-#Action: 8 On Ribs Submenu order 1/2 Rack
-			Given screen state: 235
-			Then clicked [1/2 RACK]
-#Action: 9 On Starch press Baked Potato OK
-			Given screen state: 236
-			Then clicked [Baked Potato]
-#Action: 10 On Soup Mod, select Cup
-			Given screen state: 237
-			Then clicked [CUP]
-#Action: 11 Apply HERE Ordermode
-			Given screen state: 238
-			Then clicked [HERE]
-#Action: 12 Select $ on Payment Screen
-			Given screen state: 238
-			Then clicked [$]
-#Action: 13 Exact Payment
-			Then verify presence of /Comps/,"Sub Total","41.89",/Taxes/,"Tax","2.56","Total","44.45",/Tenders/,"Balance Due","$44.45"
-			Then clicked [Exact]
-#Action: 14 Click Close
-			Given screen state: 239
-			Then clicked /MidButtons/,[Close]
-#Action: 15 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+			Then clicked /ModifierPortraitScreen/,[btnMore]
+#Action: 9 Add NO Modifier
+			Given screen state: 753
+			Then clicked "No"
+#Action: 10 On Ribs Submenu order Full Rack
+			Given screen state: 754
+			Then clicked "FULL RACK"
+#Action: 11 On Ribs Submenu order 1/2 Rack
+			Given screen state: 755
+			Then clicked "1/2 RACK"
+#Action: 12 On Ribs Submenu order 1/2 Rack
+			Given screen state: 756
+			Then clicked "1/2 RACK.2"
+#Action: 13 On Starch press Baked Potato OK
+			Given screen state: 757
+			Then clicked "Baked Potato"
+#Action: 14 On Soup Mod, select Cup
+			Given screen state: 758
+			Then clicked "CUP"
+#Action: 15 Go Back to Guest Check
+			Given screen state: 759
+			Then clicked /OK/
+#Action: 16 Click Send on OrderMode
+			Given screen state: 760
+			Then clicked [Send]
+#Action: 17 Click "Here" on OrderMode
+			Given screen state: 761
+			Then clicked "HERE"
+#Action: 18 Select Pay on Payment Screen
+			Given screen state: 760
+			Then clicked [Pay]
+#Action: 19 Exact Payment
+			Given screen state: 629
+			Then clicked "Exact"
+#Action: 20 Select No Receipt
+			Given screen state: 632
+			Then clicked [No Receipt]
+#Action: 21 Logout on WWT Screen
+			Given screen state: 518
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"

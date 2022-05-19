@@ -1,3 +1,492 @@
+State:761
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"BBQ RIBS\  1/2 RACK\  1/2 RACK\  NO FULL RACK\  Baked Potato\  CUP"
+	"41.89"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+/MoreOptionsPopup/
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:760
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"BBQ RIBS\  1/2 RACK\  1/2 RACK\  NO FULL RACK\  Baked Potato\  CUP"
+	"41.89"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+State:759
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+	"BBQ RIBS\  1/2 RACK\  1/2 RACK\  NO FULL RACK\  Baked Potato\  CUP"
+	"41.89"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+State:758
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"BBQ RIBS"
+	"11.99"
+/Modifier/
+	"RIBS"
+	"NO FULL RACK"
+	"29.95"
+	"1/2 RACK"
+	"14.95"
+	"STARCH"
+	"SOUP MOD"
+	"1 Required"
+	"CUP"
+	"3.50"
+	"HOUSE SALAD"
+	"0.00"
+	"CAESAR SALAD"
+	"0.00.2"
+	"BOWL"
+	"4.95"
+	[Cancel]
+	[Confirm*]
+State:757
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"BBQ RIBS"
+	"11.99"
+/Modifier/
+	"RIBS"
+	"NO FULL RACK"
+	"29.95"
+	"1/2 RACK"
+	"14.95"
+	"RIBS.2"
+	"STARCH"
+	"1 Required"
+	"Baked Potato"
+	"0.00"
+	"BUFFET"
+	"4.00"
+	"No Starch"
+	"0.00.2"
+	"Black Beans"
+	"0.00.3"
+	"Red Beans"
+	"0.00.4"
+	[Cancel]
+	[Confirm*]
+State:756
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"BBQ RIBS"
+	"11.99"
+/Modifier/
+	"RIBS"
+	"NO FULL RACK"
+	"29.95"
+	"1/2 RACK"
+	"14.95"
+	"RIBS.2"
+	"STARCH"
+	"1 to 2 Required"
+	"1/2 RACK.2"
+	"14.95.2"
+	"FULL RACK"
+	"29.95.2"
+	[Cancel]
+	[Confirm*]
+State:755
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"BBQ RIBS"
+	"11.99"
+/Modifier/
+	"RIBS"
+	"NO FULL RACK"
+	"29.95"
+	"RIBS.2"
+	"STARCH"
+	"1 to 2 Required"
+	"1/2 RACK"
+	"14.95"
+	"FULL RACK"
+	"29.95.2"
+	[Cancel]
+	[Confirm*]
+State:754
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"BBQ RIBS"
+	"11.99"
+/Modifier/
+	"RIBS"
+	"STARCH"
+	"Select 'No' item"
+	"1/2 RACK"
+	"14.95"
+	"FULL RACK"
+	"29.95"
+	[Cancel]
+	[Confirm*]
+State:753
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
+	"PORK\CHOP"
+	"TILAPIA"
+	"ROASTED\CHCKEN"
+	"LASAGNA"
+	"BBQ\RIBS"
+	"LOBSTR\MAC CHZ"
+	"RIBEYE"
+	"BUFFET"
+/ModifierPortraitScreen/
+	[btnBack]
+	"Modify"
+	[btnDelete]
+	[btnReceiptToggle]
+	[btnMore]
+	"BBQ RIBS"
+	"11.99"
+/Modifier/
+	"RIBS"
+	"STARCH"
+	"1 to 2 Required"
+	"1/2 RACK"
+	"14.95"
+	"FULL RACK"
+	"29.95"
+	[Cancel]
+	[Confirm*]
+	"No"
+	"Extra"
+	"Side"
+	"Half"
+	"Double"
+State:752
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"PORK CHOP\  MEDIUM\  Black Beans\  CUP"
+	"11.99\\1.00"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+/MoreOptionsPopup/
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:751
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/BalanceInfo/
+	"Tax"
+	"$0.79"
+	"Total"
+	"$13.78"
+	"CASH"
+	"$13.78.2"
+	"Change"
+	"$0.00"
+/TenderTypeSelection/
+	[Payment]
+	[Promo]
+	[Comp]
+/FilterSection/
+	[Payment]
+	[btnSort]
+/TenderButtons/
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+/ReceiptSelection/
+	[No Receipt]
+	[RECEIPT*]
+State:750
+/OK/
+	"Check 1"
+	[btnReceiptToggle]
+	[btnMore]
+/BalanceInfo/
+	"Tax"
+	"$0.79"
+	"Total"
+	"$13.78"
+	"Balance Due"
+	"$13.78.2"
+/TenderTypeSelection/
+	[Payment]
+	[Promo]
+	[Comp]
+/FilterSection/
+	[Payment]
+	[btnSort]
+/TenderButtons/
+	"CASH"
+	"ECARD"
+	"Euro"
+	"Exact"
+	"House Acc"
+	"Euro Round"
+	"$10"
+	"Credit"
+/ReceiptSelection/
+	[No Receipt*]
+	[RECEIPT*]
+State:749
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"PORK CHOP\  MEDIUM\  Red Beans\  CUP"
+	"12.99"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+/MoreOptionsPopup/
+	"HERE"
+	"TO GO"
+	"DON'T MAKE"
+	"Happy hour"
+State:748
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"PORK CHOP\  MEDIUM\  Red Beans\  CUP"
+	"12.99"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
 State:747
 "Check 1 Seat 1"
 	[btnReceiptToggle]
@@ -2247,7 +2736,7 @@ State:680
 	[Send]
 	[Menu]
 State:679
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2338,7 +2827,7 @@ State:677
 	[No Receipt*]
 	[RECEIPT*]
 State:676
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2367,7 +2856,7 @@ State:676
 	"DON'T MAKE"
 	"Happy hour"
 State:675
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2391,7 +2880,7 @@ State:675
 	[Send]
 	[Menu]
 State:674
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2411,7 +2900,7 @@ State:674
 	"BUFFET"
 	"PORK\CHOP MODS"
 State:673
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2459,7 +2948,7 @@ State:673
 	[Cancel]
 	[Confirm*]
 State:672
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2513,7 +3002,7 @@ State:672
 	[Cancel]
 	[Confirm*]
 State:671
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2563,7 +3052,7 @@ State:671
 	[Cancel]
 	[Confirm*]
 State:670
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2605,7 +3094,7 @@ State:670
 	[Cancel]
 	[Confirm*]
 State:669
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2645,7 +3134,7 @@ State:669
 	[Cancel]
 	[Confirm*]
 State:668
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2687,7 +3176,7 @@ State:668
 	[Cancel]
 	[Confirm*]
 State:667
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2731,7 +3220,7 @@ State:667
 	[Cancel]
 	[Confirm*]
 State:666
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2777,7 +3266,7 @@ State:666
 	[Cancel]
 	[Confirm*]
 State:665
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2845,7 +3334,7 @@ State:664
 	"SPN ARTCHK\DIP"
 	"COKE"
 State:663
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -2891,7 +3380,7 @@ State:663
 	[Cancel]
 	[Confirm*]
 State:662
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -3365,7 +3854,7 @@ State:645
 	"Burger & Side"
 	"Quick Burger"
 State:644
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -4102,7 +4591,7 @@ State:623
 	[Cancel]
 	[Confirm*]
 State:622
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -4131,7 +4620,7 @@ State:622
 	"DON'T MAKE"
 	"Happy hour"
 State:621
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -4155,7 +4644,7 @@ State:621
 	[Send]
 	[Menu]
 State:620
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -4399,7 +4888,7 @@ State:613
 	[No Receipt*]
 	[RECEIPT*]
 State:612
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -4427,7 +4916,7 @@ State:612
 	[Send]
 	[Menu]
 State:611
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -5159,7 +5648,7 @@ State:589
 	[Send]
 	[Menu]
 State:588
-/"Check 1 Seat 1"/
+"Check 1 Seat 1"
 	[btnReceiptToggle]
 	[btnMore]
 /OK/
@@ -5524,7 +6013,7 @@ State:573
 	[No Receipt*]
 	[RECEIPT*]
 State:572
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5556,7 +6045,7 @@ State:572
 	[Send]
 	[Menu]
 State:571
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5608,7 +6097,7 @@ State:571
 	[Cancel]
 	[OK*]
 State:570
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -5645,7 +6134,7 @@ State:570
 	"DON'T MAKE"
 	"Happy hour"
 State:569
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -6472,29 +6961,6 @@ State:539
 	[Pay]
 	[Send]
 	[Menu]
-State:538
-/"Check 1 Seat 1"/
-	[btnReceiptToggle]
-	[btnMore]
-/OK/
-/CheckEntries_Container*/
-/CheckEntries*/
-	"COKE"
-	"2.00"
-/MenuPopup_Container/
-/MenuPopup/
-	[btnSearch]
-	"LUNCH MENU"
-	[btnSort]
-/ItemButtons/
-	"FRIED MOZZ"
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
 State:537
 "Table 1"
 	[btnTransfer]
@@ -27832,107 +28298,29 @@ State:161
 	[Delete]
 	[btnMessage]
 State:160
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
 	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
-	"PORK\CHOP"
-	"TILAPIA"
-	"ROASTED\CHCKEN"
-	"LASAGNA"
-	"BBQ\RIBS"
-	"LOBSTR\MAC CHZ"
-	"RIBEYE"
-	"BUFFET"
-	"PORK\CHOP MODS"
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"PORK CHOP\  MEDIUM\  Black Beans\  CUP"
+	"11.99\\1.00"
 /BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"PORK CHOP"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"PORK CHOP"
-	"11.99"
-	"- MEDIUM"
-	"- Black Beans"
-/CenterCategoryButtons/
-	[MEAT TEMP]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[CUP]
-	[*]
-	[*.2]
-	[HOUSE\SALAD]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[*.14]
-	[CAESAR\SALAD]
-	[*.15]
-	[BOWL]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
+	[Pay]
+	[Send]
+	[Menu]
 State:159
 /OrderScreen/
 /TopLeftButtons/
@@ -28726,7 +29114,7 @@ State:149
 	[Cancel]
 	[OK]
 State:148
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -29679,36 +30067,20 @@ State:136
 	[Cancel]
 	[OK]
 State:135
-/OrderScreen/
-/TopLeftButtons/
-	[btnGoToFloorplan]
-	[Split Check]
-	[Split Seat]
-	[Done]
-/TopRightButtons/
-	[HERE]
-	[TO GO]
-	[DON'T MAKE]
-/TableAndChecks/
-	"Table 1"
-	[Clear]
-	[Check 1]
-	[+]
-/EntriesBySeat/
-/Seats/
-	[T]
-	[1]
-	[+]
-/CenterMenuButtons/
-	[LUNCH MENU]
-	[DRINKS]
-	[APPS]
-	[ENTREES]
-	[SOUP & SALADS]
-	[DESSERT]
-	[SANDWICHES]
-	[PIZZA]
-/MenuOrModButtons/
+"Check 1 Seat 1"
+	[btnReceiptToggle]
+	[btnMore]
+/OK/
+/CheckEntries_Container*/
+/CheckEntries*/
+	"PORK CHOP\  MEDIUM\  Black Beans\  CUP"
+	"11.99\\1.00"
+/MenuPopup_Container/
+/MenuPopup/
+	[btnSearch]
+	"ENTREES"
+	[btnSort]
+/ItemButtons/
 	"PORK\CHOP"
 	"TILAPIA"
 	"ROASTED\CHCKEN"
@@ -29717,68 +30089,6 @@ State:135
 	"LOBSTR\MAC CHZ"
 	"RIBEYE"
 	"BUFFET"
-	"PORK\CHOP MODS"
-/BottomButtons/
-	[$]
-	[Select\Printer]
-	[Void]
-	[Transfer]
-	[Scan\Barcode]
-/FixedBottomButtons/
-	[Loyalty]
-	[Quantity]
-	[Repeat]
-	[Modify]
-	[Delete]
-	[Hold]
-	""
-/ModifierScreen/
-	"PORK CHOP"
-	"(Please add exactly 1 modifier)"
-	[btnTopLeftCancel]
-	[btnTopRightClose]
-/Modifier_Container/
-/Modifier/
-	"PORK CHOP"
-	"11.99"
-	"- MEDIUM"
-/CenterCategoryButtons/
-	[MEAT TEMP]
-	[STARCH]
-	[SOUP MOD]
-/RightPanelButtons/
-/ModifierCodeButtons/
-	[No]
-	[Extra]
-	[Side]
-	[Half]
-/RightModifierButtons/
-	[Baked Potato]
-	[*]
-	[BUFFET]
-	[No Starch]
-	[*.2]
-	[*.3]
-	[*.4]
-	[*.5]
-	[*.6]
-	[*.7]
-	[*.8]
-	[*.9]
-	[*.10]
-	[*.11]
-	[*.12]
-	[*.13]
-	[Black Beans]
-	[*.14]
-	[Red Beans]
-/BottomLeftButtons/
-	[btnKeyboard]
-	[Delete Modifier]
-	[Modify]
-	[Special]
-	[Cancel]
-	[OK]
 State:134
 "Check 1 Seat 1"
 	[btnReceiptToggle]

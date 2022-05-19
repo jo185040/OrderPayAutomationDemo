@@ -23,7 +23,7 @@ Scenario: 1 Delete Cash Payment
 			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Add Pork Nachos
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked "PORK\NACHOS"
 #Action: 8 Add Miller Lite
 			Given screen state: 552

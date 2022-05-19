@@ -22,7 +22,7 @@ Scenario: 1 Quantity
 			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Add Pork Nachos
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked "PORK\NACHOS"
 #Action: 8 Go Back to Guest Check
 			Given screen state: 588
@@ -78,7 +78,7 @@ Scenario: 2 Add Quantity on Multiple Checks
 			Given screen state: 714
 			Then clicked "COKE"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 538
+			Given screen state: 703
 			Then clicked /OK/
 #Action: 8 Add Seat 2
 			Given screen state: 539
