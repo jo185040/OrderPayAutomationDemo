@@ -42,7 +42,7 @@ Scenario: 1 Delete Item
 			Then clicked /Dialog/,^MISRING^
 			Then clicked /Dialog/,[OK]
 #Action: 13 Select Pay on Payment Screen
-			Given screen state: 712
+			Given screen state: 764
 			Then clicked [Pay]
 #Action: 14 Select No Receipt
 			Given screen state: 619

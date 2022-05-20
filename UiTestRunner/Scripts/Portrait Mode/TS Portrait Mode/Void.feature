@@ -44,7 +44,7 @@ Scenario: 1 Verify you can void items with no issues
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 14 Select Pay on Payment Screen
-			Given screen state: 712
+			Given screen state: 764
 			Then clicked [Pay]
 #Action: 15 Select No Receipt
 			Given screen state: 619
@@ -88,12 +88,12 @@ Scenario: 2 Verify you can clear (delete) unordered an item
 			When clicked /TopLeftButtons/,[Done]
 
 Scenario: 3 Verify JIT screen displays when trying to void item
-#Action: 1 Login as Server 200
+#Action: 1 Login as Server 100
 			Given screen state: 510
 			When clicked [1],[0],[0]
 			And clicked [OK]
 #Action: 2 Floor Plan select Table 1
-			Given screen state: 652
+			Given screen state: 518
 			Then clicked [btnAddTable]
 #Action: 3 Free Tables Screen Select 1
 			Given screen state: 514
@@ -102,44 +102,46 @@ Scenario: 3 Verify JIT screen displays when trying to void item
 			Given screen state: 535
 			And clicked [OK]
 #Action: 5 Select Menu
-			Given screen state: 536
+			Given screen state: 653
 			Then clicked [Menu]
 #Action: 6 Add COKE
-			Given screen state: 714
+			Given screen state: 654
 			Then clicked "COKE"
 #Action: 7 Go Back to Guest Check
-			Given screen state: 703
+			Given screen state: 655
 			Then clicked /OK/
-#Action: 8 Apply HERE Ordermode
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked [HERE]
-			When waited 0.03
-#Action: 9 Void COKE
-			Then verify presence of /CenterMenuButtons/,[LUNCH MENU]
-			Then clicked /BottomButtons/,[Void]
-			When waited 0.03
-#Action: 10 Enter manager 20 on JIT Screen
-			Given screen state: 658
+#Action: 8 Click Send on OrderMode
+			Given screen state: 656
+			Then clicked [Send]
+#Action: 9 Click "Here" on OrderMode
+			Given screen state: 657
+			Then clicked "HERE"
+#Action: 10 Void COKE
+			Given screen state: 656
+			Then clicked [btnDelete]
+#Action: 11 Enter manager 20 on JIT Screen
+			Then verify presence of /LoginDialog/,"Enter manager password"
 			Then clicked /DialogSeparator/,[2]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[0]
 			Then clicked /DialogSeparator/,[OK]
-#Action: 11 Select COKE on Void Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items to void"
+#Action: 12 Select COKE on Void Screen
+			Then verify presence of /ItemSelectionDialogPortrait/,"Select items to void"
 			Then clicked /Items/,^COKE^
-#Action: 12 Select OK on Void Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items to void"
+#Action: 13 Select OK on Void Screen
+			Then verify presence of /ItemSelectionDialogPortrait/,"Select items to void"
 			Then clicked /Items/,[OK]
-#Action: 13 Select Void Reason on Void Screen
+#Action: 14 Select Void Reason on Void Screen
 			Then verify presence of /Dialog/,"Select Void Reason",^TESTING^,^OVERRING^,^MISRING^,^*86*^,^CHANGE MIND^,^WALKOUT^,^KITCHEN ERROR^,^SERVER ERROR^,[Cancel],[OK]
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
-#Action: 14 Select $ on Payment Screen
-			Then verify presence of /EntriesBySeat/,"Table","COKE"
-			Then clicked [$]
-#Action: 15 Select Close on Payment Screen
-			Then verify presence of /ItemEntries/,"Table","COKE",/Comps/,"Sub Total","0.00",/Taxes/,"Tax","0.00","Total","0.00",/Tenders/,"Change","$0.00"
-			Then clicked /MidButtons/,[Close]
-#Action: 16 Exit FloorPlan
-			Given screen state: 511
-			When clicked [Exit]
+#Action: 15 Select Pay on Payment Screen
+			Given screen state: 704
+			Then clicked [Pay]
+#Action: 16 Select No Receipt
+			Given screen state: 619
+			Then clicked [No Receipt]
+#Action: 17 Logout on WWT Screen
+			Given screen state: 652
+			When clicked [btnThreeDots]
+			When clicked "Clock Out"

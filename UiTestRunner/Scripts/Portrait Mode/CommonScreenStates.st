@@ -1927,7 +1927,7 @@ State:714
 	"SPN ARTCHK\DIP"
 	"COKE"
 State:713
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -1950,9 +1950,9 @@ State:713
 	[Pay]
 	[Send]
 	[Menu]
-/ItemSelectionDialog/
+/ItemSelectionDialogPortrait/
+	[btnBack]
 	"Select items to void"
-/DialogSeparator/
 	^SELECT ALL^
 	"SELECT ALL"
 /Items_Container/
@@ -1963,29 +1963,6 @@ State:713
 	"2.00"
 	[Cancel]
 	[OK]
-State:712
-/"Table 1"/
-	[btnTransfer]
-	[btnSplit]
-	[btnMore]
-/OK/
-	[btnDelete]
-	[btnQuantity]
-	[btnRepeat]
-	[btnModify]
-	[btnHold]
-	[Check 1]
-/SeatSelectors/
-	[Table]
-	[S1]
-	[btnAddSeat]
-/CheckEntries/
-	"Seat 1"
-	"COKE"
-/BottomButtons/
-	[Pay]
-	[Send]
-	[Menu]
 State:711
 /"Table 1"/
 	[btnTransfer]
@@ -2024,7 +2001,7 @@ State:711
 	[Cancel]
 	[OK]
 State:710
-/"Table 1"/
+"Table 1"
 	[btnTransfer]
 	[btnSplit]
 	[btnMore]
@@ -2047,9 +2024,9 @@ State:710
 	[Pay]
 	[Send]
 	[Menu]
-/ItemSelectionDialog/
+/ItemSelectionDialogPortrait/
+	[btnBack]
 	"Select items to void"
-/DialogSeparator/
 	^SELECT ALL^
 	"SELECT ALL"
 /Items_Container/
@@ -2109,6 +2086,25 @@ State:708
 	"Seat 1"
 	"COKE"
 	"2.00"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+State:704
+"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+/OK/
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/CheckEntries/
+	"Table"
+	"COKE"
 /BottomButtons/
 	[Pay]
 	[Send]
