@@ -1,3 +1,77 @@
+State:771
+/OK/
+	"JEFFREY"
+	[btnThreeDots]
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"1"
+	[btnAddTable]
+State:770
+/OK/
+	"MIGUEL"
+	[btnThreeDots]
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+	[btnAddTable]
+State:769
+/OK/
+	"Table 1"
+	[btnTransfer]
+	[btnSplit]
+	[btnMore]
+	[btnDelete]
+	[btnQuantity]
+	[btnRepeat]
+	[btnModify]
+	[btnHold]
+	[Check 1]
+/SeatSelectors/
+	[Table]
+	[S1]
+	[btnAddSeat]
+/CheckEntries/
+	"Seat 1"
+	"COKE"
+	"2.00"
+	"PORK NACHOS"
+	"5.00"
+	"MILLER LITE"
+	"3.00"
+/BottomButtons/
+	[Pay]
+	[Send]
+	[Menu]
+State:768
+/OK/
+	"MIGUEL"
+	[btnThreeDots]
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"1"
+	[btnAddTable]
+State:767
+/OK/
+	"Free Tables"
+/FreeTablesPortraitScreen/
+	"2"
+	"3"
+	"4"
+	"5"
+	"6"
+	"7"
+	"8"
+	"11"
+	"12"
+	"13"
+	"14"
+	"15"
+	"16"
+	"17"
+	"18"
 State:766
 /OK/
 	"Check 1"
@@ -7193,9 +7267,10 @@ State:536
 	[Send]
 	[Menu]
 State:535
+"Free Tables"
+	[btnThreeDots]
 /OK/
-	"Free Tables"
-/FreeTablesPortraitScreen/
+/WorkingWithTablesPortraitScreen/
 	"1"
 	"2"
 	"3"
@@ -7211,6 +7286,7 @@ State:535
 	"15"
 	"16"
 	"17"
+	[btnRightArrow]
 /InputDialog/
 /BackBtn/
 	"Enter Guest Count"
@@ -7424,9 +7500,10 @@ State:515
 	"Clock out"
 	"Transfer"
 State:514
+"Free Tables"
+	[btnThreeDots]
 /OK/
-	"Free Tables"
-/FreeTablesPortraitScreen/
+/WorkingWithTablesPortraitScreen/
 	"1"
 	"2"
 	"3"
@@ -7442,6 +7519,7 @@ State:514
 	"15"
 	"16"
 	"17"
+	[btnRightArrow]
 State:513
 /OK/
 	"JEFFREY"

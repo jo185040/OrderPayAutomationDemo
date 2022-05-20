@@ -87,16 +87,16 @@ Scenario: 2 Verify Repeat works on ordered items
 			Given screen state: 589
 			Then clicked [btnRepeat]
 #Action: 12 Click Send on OrderMode
-			Given screen state: 591
+			Given screen state: 694
 			Then clicked [Send]
 #Action: 13 Click "Here" on OrderMode
-			Given screen state: 592
+			Given screen state: 695
 			Then clicked "HERE"
 #Action: 14 Select Pay on Payment Screen
-			Given screen state: 593
+			Given screen state: 696
 			Then clicked [Pay]
 #Action: 15 Exact Payment
-			Given screen state: 593
+			Given screen state: 697
 			Then clicked "Exact"
 #Action: 16 Select No Receipt
 			Given screen state: 698
@@ -242,20 +242,20 @@ Scenario: 5 Verify voided items cannot be repeated
 			Given screen state: 708
 			Then clicked [btnDelete]
 #Action: 11 Select COKE on Void Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items to void"
+			Then verify presence of /ItemSelectionDialogPortrait/,"Select items to void"
 			Then clicked /Items/,^COKE^
 #Action: 12 Select OK on Void Screen
-			Then verify presence of /ItemSelectionDialog/,"Select items to void"
+			Then verify presence of /ItemSelectionDialogPortrait/,"Select items to void"
 			Then clicked /Items/,[OK]
 #Action: 13 Select Void Reason on Void Screen
-			Given screen state: 763
+			Then verify presence of /Dialog/,"Select Void Reason"
 			Then clicked /Dialog/,^OVERRING^
 			Then clicked /Dialog/,[OK]
 #Action: 14 Repeat Item
 			Given screen state: 764
 			Then clicked [btnRepeat]
 #Action: 15 Select OK Button
-			Given screen state: 765
+			Then verify presence of /Dialog/,"Error","Repeat is not permitted on ordered refillable items.",[OK]
 			Then clicked /Dialog/,[OK]
 #Action: 16 Select Pay on Payment Screen
 			Given screen state: 764
