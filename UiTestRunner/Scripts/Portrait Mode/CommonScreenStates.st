@@ -1,3 +1,12 @@
+State:772
+"JEFFREY"
+	[btnThreeDots]
+/OK/
+/WorkingWithTablesPortraitScreen/
+	[Tables]
+	[Tabs]
+	"Press the + to create a Table"
+	[btnAddTable]
 State:771
 /OK/
 	"JEFFREY"
@@ -2104,119 +2113,6 @@ State:708
 	[Pay]
 	[Send]
 	[Menu]
-State:707
-/"Table 1"/
-	[btnTransfer]
-	[btnSplit]
-	[btnMore]
-/OK/
-	[btnDelete]
-	[btnQuantity]
-	[btnRepeat]
-	[btnModify]
-	[btnHold]
-	[Check 1]
-/SeatSelectors/
-	[Table]
-	[S1]
-	[btnAddSeat]
-/CheckEntries/
-	"Seat 1"
-	"COKE"
-	"2.00"
-	"PORK NACHOS"
-	"5.00"
-	"MILLER LITE"
-	"3.00"
-/BottomButtons/
-	[Pay]
-	[Send]
-	[Menu]
-/MoreOptionsPopup/
-	"HERE"
-	"TO GO"
-	"DON'T MAKE"
-	"Happy hour"
-State:706
-/"Table 1"/
-	[btnTransfer]
-	[btnSplit]
-	[btnMore]
-/OK/
-	[btnDelete]
-	[btnQuantity]
-	[btnRepeat]
-	[btnModify]
-	[btnHold]
-	[Check 1]
-/SeatSelectors/
-	[Table]
-	[S1]
-	[btnAddSeat]
-/CheckEntries/
-	"Seat 1"
-	"COKE"
-	"2.00"
-	"PORK NACHOS"
-	"5.00"
-	"MILLER LITE"
-	"3.00"
-/BottomButtons/
-	[Pay]
-	[Send]
-	[Menu]
-State:705
-/"Check 1 Seat 1"/
-	[btnReceiptToggle]
-	[btnMore]
-/OK/
-/CheckEntries_Container*/
-/CheckEntries*/
-	"COKE"
-	"2.00"
-	"PORK NACHOS"
-	"5.00"
-	"MILLER LITE"
-	"3.00"
-/MenuPopup_Container/
-/MenuPopup/
-	[btnSearch]
-	"LUNCH MENU"
-	[btnSort]
-/ItemButtons/
-	"FRIED MOZZ"
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
-State:704
-/"Check 1 Seat 1"/
-	[btnReceiptToggle]
-	[btnMore]
-/OK/
-/CheckEntries_Container*/
-/CheckEntries*/
-	"COKE"
-	"2.00"
-	"PORK NACHOS"
-	"5.00"
-/MenuPopup_Container/
-/MenuPopup/
-	[btnSearch]
-	"LUNCH MENU"
-	[btnSort]
-/ItemButtons/
-	"FRIED MOZZ"
-	"MILLER\LITE"
-	"CORONA"
-	"7 UP"
-	"BLUE\MOON"
-	"PORK\NACHOS"
-	"SPN ARTCHK\DIP"
-	"COKE"
 State:703
 "Check 1 Seat 1"
 	[btnReceiptToggle]

@@ -25,19 +25,19 @@ Scenario: 1 Add Unordered Items
 			Given screen state: 703
 			Then clicked "PORK\NACHOS"
 #Action: 8 Add Miller Lite
-			Given screen state: 704
+			Given screen state: 588
 			Then clicked "MILLER\LITE"
 #Action: 9 Go Back to Guest Check
-			Given screen state: 705
+			Given screen state: 611
 			Then clicked /OK/
 #Action: 10 Click Send on OrderMode
-			Given screen state: 706
+			Given screen state: 612
 			Then clicked [Send]
 #Action: 11 Click "Here" on OrderMode
-			Given screen state: 707
+			Given screen state: 148
 			Then clicked "HERE"
 #Action: 12 Select Pay on Payment Screen
-			Given screen state: 706
+			Given screen state: 612
 			Then clicked [Pay]
 #Action: 13 Exact Payment
 			Given screen state: 613
